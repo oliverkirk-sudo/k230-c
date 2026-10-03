@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/workspace/shared/k230-recovery-oct3/reconstruction-r4/project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch</source>
-    <date>2026-10-02T20:56:57-0700</date>
+    <source>/workspace/shared/k230-recovery-oct3/reconstruction-r5/project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch</source>
+    <date>2026-10-02T21:15:31-0700</date>
     <tool>Eeschema 9.0.2+dfsg-1</tool>
     <sheet number="1" name="/SoC_1/" tstamps="/bd9bb2f4-9b59-441f-a215-8c4f637c6c79/">
       <title_block>
@@ -242,7 +242,7 @@
       <title_block>
         <title>EMMC Local Bias</title>
         <company/>
-        <rev>RCV-PHYS1</rev>
+        <rev>RCV-R5</rev>
         <date/>
         <source>14_EMMC_Local_Bias.kicad_sch</source>
         <comment number="1" value=""/>
@@ -314,7 +314,7 @@
       <title_block>
         <title>CM-K230 high-temp core</title>
         <company/>
-        <rev>RCV-PHYS1</rev>
+        <rev>RCV-R5</rev>
         <date/>
         <source>CMK230_Core_REVIEW.kicad_sch</source>
         <comment number="1" value=""/>
@@ -3376,9 +3376,10 @@
       <tstamps>d21fbc1a-89fc-4eed-b58e-e184a9095456</tstamps>
     </comp>
     <comp ref="R563">
-      <value>47k DATA PULLUP</value>
+      <value>43k CRCW020143K0FKED DAT PULLUP CANDIDATE</value>
+      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3389,9 +3390,10 @@
       <tstamps>b108a455-39aa-4311-9da0-ac508fd87c59</tstamps>
     </comp>
     <comp ref="R564">
-      <value>47k DATA PULLUP</value>
+      <value>43k CRCW020143K0FKED DAT PULLUP CANDIDATE</value>
+      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3402,9 +3404,10 @@
       <tstamps>e88e9f0e-cce6-40a5-967d-5154d9e7adfc</tstamps>
     </comp>
     <comp ref="R565">
-      <value>47k DATA PULLUP</value>
+      <value>43k CRCW020143K0FKED DAT PULLUP CANDIDATE</value>
+      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3415,9 +3418,10 @@
       <tstamps>fce8109f-e728-43f4-b57a-6ed03cf47e5f</tstamps>
     </comp>
     <comp ref="R566">
-      <value>47k DATA PULLUP</value>
+      <value>43k CRCW020143K0FKED DAT PULLUP CANDIDATE</value>
+      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3428,9 +3432,10 @@
       <tstamps>d043af68-e8f6-4207-8595-b4c4e061fb9f</tstamps>
     </comp>
     <comp ref="R567">
-      <value>47k DATA PULLUP</value>
+      <value>43k CRCW020143K0FKED DAT PULLUP CANDIDATE</value>
+      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3441,9 +3446,10 @@
       <tstamps>a8127bef-6995-4a1e-8ab0-0e2694a46522</tstamps>
     </comp>
     <comp ref="R568">
-      <value>47k DATA PULLUP</value>
+      <value>43k CRCW020143K0FKED DAT PULLUP CANDIDATE</value>
+      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3454,9 +3460,10 @@
       <tstamps>288098d3-5fc1-450d-9d72-e2a9fe01da12</tstamps>
     </comp>
     <comp ref="R569">
-      <value>47k DATA PULLUP</value>
+      <value>43k CRCW020143K0FKED DAT PULLUP CANDIDATE</value>
+      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3467,9 +3474,10 @@
       <tstamps>eb834331-dbd7-444c-a952-074a02107a1e</tstamps>
     </comp>
     <comp ref="R570">
-      <value>47k DATA PULLUP</value>
+      <value>43k CRCW020143K0FKED DAT PULLUP CANDIDATE</value>
+      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5186,7 +5194,7 @@
   </libparts>
   <libraries>
     <library logical="Integrated">
-      <uri>/workspace/shared/k230-recovery-oct3/reconstruction-r4/project/cad/recovery-physical-candidate/Integrated.kicad_sym</uri>
+      <uri>/workspace/shared/k230-recovery-oct3/reconstruction-r5/project/cad/recovery-physical-candidate/Integrated.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

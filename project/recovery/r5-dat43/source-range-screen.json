@@ -1,0 +1,91 @@
+{
+  "scope": "IMPLEMENTED_CONDITIONAL_R5; source snapshot is pre-change R4",
+  "source_netlist_sha256": "70f2ef1d2c360b8a96c4c674714832fdf30488c267933b557988cde22151a95a",
+  "source_pdf_sha256": "52ad8018f63554d3e34f970b1516e488543c6a25bd144bcbf33d666fa2a82d71",
+  "source_table": "Micron Rev.G10/18 Table13,10k..50k forDAT[7:0]",
+  "refs": [
+    {
+      "reference": "R563",
+      "existing_value": "47k DATA PULLUP",
+      "pin1_net": "EMMC_DAT0",
+      "pin2_net": "VEMMC_IO",
+      "dnp": false
+    },
+    {
+      "reference": "R564",
+      "existing_value": "47k DATA PULLUP",
+      "pin1_net": "EMMC_DAT1",
+      "pin2_net": "VEMMC_IO",
+      "dnp": false
+    },
+    {
+      "reference": "R565",
+      "existing_value": "47k DATA PULLUP",
+      "pin1_net": "EMMC_DAT2",
+      "pin2_net": "VEMMC_IO",
+      "dnp": false
+    },
+    {
+      "reference": "R566",
+      "existing_value": "47k DATA PULLUP",
+      "pin1_net": "EMMC_DAT3",
+      "pin2_net": "VEMMC_IO",
+      "dnp": false
+    },
+    {
+      "reference": "R567",
+      "existing_value": "47k DATA PULLUP",
+      "pin1_net": "EMMC_DAT4",
+      "pin2_net": "VEMMC_IO",
+      "dnp": false
+    },
+    {
+      "reference": "R568",
+      "existing_value": "47k DATA PULLUP",
+      "pin1_net": "EMMC_DAT5",
+      "pin2_net": "VEMMC_IO",
+      "dnp": false
+    },
+    {
+      "reference": "R569",
+      "existing_value": "47k DATA PULLUP",
+      "pin1_net": "EMMC_DAT6",
+      "pin2_net": "VEMMC_IO",
+      "dnp": false
+    },
+    {
+      "reference": "R570",
+      "existing_value": "47k DATA PULLUP",
+      "pin1_net": "EMMC_DAT7",
+      "pin2_net": "VEMMC_IO",
+      "dnp": false
+    }
+  ],
+  "proposed_nominal_ohm": 43000,
+  "candidate_mpn": "CRCW020143K0FKED",
+  "assumed_total_acceptance_fraction": 0.1,
+  "required_resistance_range_ohm": [
+    10000,
+    50000
+  ],
+  "existing47k_screen_ohm": [
+    42300,
+    51700
+  ],
+  "proposed43k_screen_ohm": [
+    38700,
+    47300
+  ],
+  "upper_range_headroom_ohm": 2700,
+  "max_dc_at_1p95V": {
+    "per_pull_A": 5.038759689922481e-05,
+    "all_eight_A": 0.00040310077519379846,
+    "per_resistor_W": 9.825581395348836e-05,
+    "extra_low_sink_A_vs47k_at_same_negative_tolerance": 4.288306119082967e-06
+  },
+  "limits": [
+    "The10percent band is a full-effects acceptance requirement,not a proven arbitrary-life component guarantee.",
+    "No input leakage/receiver-high or drive-current/SI timing acceptance inferred from resistance interval.",
+    "No physical routing,card-mode,ROM/OTP,stock or lifecycle approval."
+  ]
+}

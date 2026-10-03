@@ -1,0 +1,12 @@
+{
+  "netlist": {
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0
+  },
+  "erc": {
+    "stdout": "Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking for off grid pins and wires...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to /workspace/shared/k230-recovery-oct3/reconstruction-r5/project/cad/recovery-physical-candidate/erc.json\n",
+    "stderr": "",
+    "returncode": 0
+  }
+}

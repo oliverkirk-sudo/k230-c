@@ -1,0 +1,17 @@
+{
+  "refs": [
+    "R563",
+    "R564",
+    "R565",
+    "R566",
+    "R567",
+    "R568",
+    "R569",
+    "R570"
+  ],
+  "old_value": "47k DATA PULLUP",
+  "new_value": "43k CRCW020143K0FKED DAT PULLUP CANDIDATE",
+  "new_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+  "scope": "Eight eMMC DAT pullups only; all graph and population attributes must be preserved",
+  "production_ready": false
+}

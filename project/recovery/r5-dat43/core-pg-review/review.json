@@ -1,0 +1,612 @@
+{
+  "date_utc": "2026-10-03",
+  "status": "NO_PROVEN_FUNCTIONAL_FAILURE; ZERO_POSITIVE_LOW_NOISE_BUDGET; NO_CAD_CHANGE_APPROVED_BY_THIS_REVIEW",
+  "input": {
+    "project": "/workspace/shared/k230-publication/r3-repo/project",
+    "netlist": "cad/recovery-physical-candidate/master.xml",
+    "sha256": "d4c05eaee0d3c3b2fce403764d37c42883c054b47030e41418ba377eb2d38a6e",
+    "components": 254,
+    "nets": 457,
+    "nodes": 1509
+  },
+  "scope": {
+    "six_layers": true,
+    "board_mm": [
+      38,
+      38
+    ],
+    "contacts": 140,
+    "top_only": true,
+    "cad_edits": false,
+    "storage_inhibit_changed": false,
+    "vendor_contact": false,
+    "purchase": false,
+    "otp": false
+  },
+  "pin_graph": [
+    {
+      "ref": "R204",
+      "value": "10k",
+      "pin": "1",
+      "function": null,
+      "net": "CORE_ENABLE"
+    },
+    {
+      "ref": "U21",
+      "value": "TPS62827ADMQ",
+      "pin": "1",
+      "function": "EN",
+      "net": "CORE_ENABLE"
+    },
+    {
+      "ref": "R203",
+      "value": "100k",
+      "pin": "1",
+      "function": null,
+      "net": "CORE_PGOOD_5V"
+    },
+    {
+      "ref": "U21",
+      "value": "TPS62827ADMQ",
+      "pin": "2",
+      "function": "PG_OD",
+      "net": "CORE_PGOOD_5V"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "E1",
+      "function": "EN",
+      "net": "CORE_PGOOD_5V"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "E1",
+      "function": "EN",
+      "net": "CORE_PGOOD_5V"
+    },
+    {
+      "ref": "U24",
+      "value": "TPS62826ADMQ",
+      "pin": "1",
+      "function": "EN",
+      "net": "CORE_PGOOD_5V"
+    },
+    {
+      "ref": "U25",
+      "value": "TPS62825ADMQ",
+      "pin": "1",
+      "function": "EN",
+      "net": "CORE_PGOOD_5V"
+    },
+    {
+      "ref": "U26",
+      "value": "TPS62826ADMQ",
+      "pin": "1",
+      "function": "EN",
+      "net": "CORE_PGOOD_5V"
+    },
+    {
+      "ref": "U25",
+      "value": "TPS62825ADMQ",
+      "pin": "3",
+      "function": "FB",
+      "net": "FB_1V8"
+    },
+    {
+      "ref": "U26",
+      "value": "TPS62826ADMQ",
+      "pin": "3",
+      "function": "FB",
+      "net": "FB_3V3"
+    },
+    {
+      "ref": "U21",
+      "value": "TPS62827ADMQ",
+      "pin": "3",
+      "function": "FB",
+      "net": "FB_CORE"
+    },
+    {
+      "ref": "U24",
+      "value": "TPS62826ADMQ",
+      "pin": "3",
+      "function": "FB",
+      "net": "FB_DDR"
+    },
+    {
+      "ref": "U24",
+      "value": "TPS62826ADMQ",
+      "pin": "2",
+      "function": "PG_OD",
+      "net": "FIXED_RAILS_PGOOD_3V3"
+    },
+    {
+      "ref": "U25",
+      "value": "TPS62825ADMQ",
+      "pin": "2",
+      "function": "PG_OD",
+      "net": "FIXED_RAILS_PGOOD_3V3"
+    },
+    {
+      "ref": "U26",
+      "value": "TPS62826ADMQ",
+      "pin": "2",
+      "function": "PG_OD",
+      "net": "FIXED_RAILS_PGOOD_3V3"
+    },
+    {
+      "ref": "U21",
+      "value": "TPS62827ADMQ",
+      "pin": "4",
+      "function": "GND",
+      "net": "GND"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "A1",
+      "function": "AGND",
+      "net": "GND"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "B1",
+      "function": "PGND",
+      "net": "GND"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "B2",
+      "function": "PGND",
+      "net": "GND"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "B3",
+      "function": "PGND",
+      "net": "GND"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "A1",
+      "function": "AGND",
+      "net": "GND"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "B1",
+      "function": "PGND",
+      "net": "GND"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "B2",
+      "function": "PGND",
+      "net": "GND"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "B3",
+      "function": "PGND",
+      "net": "GND"
+    },
+    {
+      "ref": "U24",
+      "value": "TPS62826ADMQ",
+      "pin": "4",
+      "function": "GND",
+      "net": "GND"
+    },
+    {
+      "ref": "U25",
+      "value": "TPS62825ADMQ",
+      "pin": "4",
+      "function": "GND",
+      "net": "GND"
+    },
+    {
+      "ref": "U26",
+      "value": "TPS62826ADMQ",
+      "pin": "4",
+      "function": "GND",
+      "net": "GND"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "E3",
+      "function": "SCL",
+      "net": "PWR_CPU_SCL"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "E2",
+      "function": "SDA",
+      "net": "PWR_CPU_SDA"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "E3",
+      "function": "SCL",
+      "net": "PWR_KPU_SCL"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "E2",
+      "function": "SDA",
+      "net": "PWR_KPU_SDA"
+    },
+    {
+      "ref": "U25",
+      "value": "TPS62825ADMQ",
+      "pin": "5",
+      "function": "SW",
+      "net": "SW_1V8"
+    },
+    {
+      "ref": "U26",
+      "value": "TPS62826ADMQ",
+      "pin": "5",
+      "function": "SW",
+      "net": "SW_3V3"
+    },
+    {
+      "ref": "U21",
+      "value": "TPS62827ADMQ",
+      "pin": "5",
+      "function": "SW",
+      "net": "SW_CORE"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "C1",
+      "function": "SW",
+      "net": "SW_CPU"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "C2",
+      "function": "SW",
+      "net": "SW_CPU"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "C3",
+      "function": "SW",
+      "net": "SW_CPU"
+    },
+    {
+      "ref": "U24",
+      "value": "TPS62826ADMQ",
+      "pin": "5",
+      "function": "SW",
+      "net": "SW_DDR"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "C1",
+      "function": "SW",
+      "net": "SW_KPU"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "C2",
+      "function": "SW",
+      "net": "SW_KPU"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "C3",
+      "function": "SW",
+      "net": "SW_KPU"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "A3",
+      "function": "VOS",
+      "net": "VDD0P8_CPU"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "A3",
+      "function": "VOS",
+      "net": "VDD0P8_KPU"
+    },
+    {
+      "ref": "R203",
+      "value": "100k",
+      "pin": "2",
+      "function": null,
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "R204",
+      "value": "10k",
+      "pin": "2",
+      "function": null,
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U21",
+      "value": "TPS62827ADMQ",
+      "pin": "6",
+      "function": "VIN",
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "D1",
+      "function": "VIN",
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "D2",
+      "function": "VIN",
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "D3",
+      "function": "VIN",
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "D1",
+      "function": "VIN",
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "D2",
+      "function": "VIN",
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "D3",
+      "function": "VIN",
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U24",
+      "value": "TPS62826ADMQ",
+      "pin": "6",
+      "function": "VIN",
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U25",
+      "value": "TPS62825ADMQ",
+      "pin": "6",
+      "function": "VIN",
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U26",
+      "value": "TPS62826ADMQ",
+      "pin": "6",
+      "function": "VIN",
+      "net": "VIN_5V"
+    },
+    {
+      "ref": "U22",
+      "value": "TPS628640BYCGR",
+      "pin": "A2",
+      "function": "VSET_FAULT_HIGH",
+      "net": "VSET_CPU"
+    },
+    {
+      "ref": "U23",
+      "value": "TPS628640BYCGR",
+      "pin": "A2",
+      "function": "VSET_FAULT_HIGH",
+      "net": "VSET_KPU"
+    }
+  ],
+  "receiver_refs": [
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26"
+  ],
+  "sources": [
+    {
+      "id": "TI_BUCK",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62827.pdf",
+      "document": "SLVSEF9I",
+      "revision": "March 2024",
+      "pages": [
+        3,
+        4,
+        5,
+        10
+      ],
+      "facts": {
+        "pg_vol_max_V": 0.4,
+        "pg_vol_test_sink_A": 0.001,
+        "pg_recommended_sink_max_A": 0.001,
+        "en_vil_max_V": 0.4,
+        "en_vih_min_V": 1.0,
+        "pg_leakage_max_A": 1e-07,
+        "pg_leakage_test_V": 5.0,
+        "en_leakage_max_A": 1e-07,
+        "en_leakage_test": "EN=High",
+        "electrical_table_vin_V": [
+          2.4,
+          5.5
+        ],
+        "U21_recommended_vin_V": [
+          2.5,
+          5.5
+        ],
+        "U24_U25_U26_recommended_vin_V": [
+          2.4,
+          5.5
+        ],
+        "electrical_table_Tj_C": [
+          -40,
+          125
+        ],
+        "pg_low_in_uvlo_when_vin_above_V": 0.7,
+        "explicit_direct_pg_to_other_converter_en_sequencing_guidance": true
+      }
+    },
+    {
+      "id": "TI_I2C_BUCK",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62866.pdf",
+      "document": "SLVSEI1C",
+      "revision": "October 2020",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        11,
+        12
+      ],
+      "facts": {
+        "en_vil_max_V": 0.4,
+        "en_vih_min_V": 1.0,
+        "en_leakage_max_A": 1e-07,
+        "en_leakage_test": "No row-specific condition; use electrical table header",
+        "electrical_table_vin_V": [
+          2.4,
+          5.5
+        ],
+        "electrical_table_Tj_C": [
+          -40,
+          125
+        ],
+        "uvlo_rising_V": [
+          2.2,
+          2.4
+        ],
+        "uvlo_falling_V": [
+          2.1,
+          2.3
+        ],
+        "vin_falling_slew_max_when_below_uvlo_V_per_us": 0.01
+      }
+    },
+    {
+      "id": "TI_OPTIONAL_SUPERVISOR",
+      "url": "https://www.ti.com/lit/ds/symlink/tps3890.pdf",
+      "document": "SLVSD65A",
+      "revision": "May 2016",
+      "pages": [
+        3,
+        4,
+        5,
+        12,
+        14,
+        16,
+        17
+      ],
+      "facts": {
+        "device": "TPS389001",
+        "supply_V": [
+          1.5,
+          5.5
+        ],
+        "Tj_C": [
+          -40,
+          125
+        ],
+        "vitn_nom_V": 1.15,
+        "vitp_nom_V": 1.157,
+        "threshold_error_fraction": 0.01,
+        "reset_vol_max_V": 0.25,
+        "reset_vol_test_A": 0.0004,
+        "reset_vol_test_min_supply_V": 1.5,
+        "por_max_V": 0.8,
+        "por_vol_max_V": 0.2,
+        "por_test_sink_A": 1.5e-05,
+        "sense_leakage_max_A": 1e-07,
+        "sense_leakage_test_V": 5.0,
+        "reset_leakage_max_A": 2.5e-07,
+        "reset_leakage_test": "SENSE=RESET=5.5V",
+        "idd_max_A_at_vdd_5p5V_reset_current_zero": 6.5e-06,
+        "idd_max_A_at_vdd_3p3V_reset_current_zero": 5.8e-06,
+        "guaranteed_max_startup_delay_available": false,
+        "guaranteed_max_sense_to_reset_delay_available": false
+      }
+    }
+  ],
+  "baseline_arithmetic": {
+    "noise_margin_low_V": 0.0,
+    "r203_total_error_fraction_assumed_for_screen_only": 0.1,
+    "r203_range_ohm": [
+      90000.0,
+      110000.00000000001
+    ],
+    "pullup_only_sink_upper_A_at_5p5V_zero_node": 6.111111111111111e-05,
+    "unknown_low_state_receiver_source_current_allowance_A_before_1mA": 0.000938888888888889,
+    "total_sink_leakage_allowance_A_for_high_at_2p5V": 1.3636363636363635e-05,
+    "total_sink_leakage_allowance_A_for_high_at_5p5V": 4.09090909090909e-05,
+    "conditional_known_high_leakage_A": 6e-07,
+    "conditional_high_drop_V": 0.066,
+    "warning": "The 0.6uA sum is a screen, not a guarantee outside source test conditions. No reduced-current VOL or RON interpolation."
+  },
+  "one_optional_topology": {
+    "disposition": "CANDIDATE_ONLY; NOT_END_TO_END_QUALIFIED; NO_ADOPTION_RECOMMENDATION",
+    "connections": {
+      "TPS389001.VDD": "VIN_5V",
+      "TPS389001.GND": "GND",
+      "TPS389001.MR": "VIN_5V",
+      "TPS389001.SENSE": "U21.PG with existing R203=100k to VIN_5V",
+      "TPS389001.RESET": "New EN node to all five existing receiver EN pins, disconnected from U21.PG",
+      "TPS389001.CT": "Open",
+      "new_reset_pullup": "220k to VIN_5V",
+      "new_bypass": "0.1uF from VDD to GND, placed locally"
+    },
+    "conditional_resistor_error_fraction": 0.1,
+    "sense_low_margin_V": 0.7384999999999998,
+    "sense_high_threshold_max_V": 1.16857,
+    "receiver_low_margin_V": 0.15000000000000002,
+    "reset_pullup_only_sink_upper_A_at_5p5V": 2.777777777777778e-05,
+    "reset_pullup_only_sink_upper_A_below_1p5V": 7.575757575757576e-06,
+    "remaining_por_sink_budget_A": 7.424242424242425e-06,
+    "receiver_high_total_sink_allowance_A_at_2p5V": 6.1983471074380155e-06,
+    "sense_high_total_sink_allowance_A_at_2p5V": 1.2103909090909089e-05,
+    "conditional_reset_high_drop_V": 0.18150000000000002,
+    "conditional_pg_high_drop_V": 0.022000000000000002,
+    "remaining_gates": [
+      "Leakage applicability beyond the listed voltage/state test points",
+      "Receiver source-current bound in low and undervoltage states, including POR 15uA budget",
+      "U21 PG numerical low-voltage behavior between UVLO and recommended VIN",
+      "Maximum start, release and fault-assert timing across actual ramps and capacitance",
+      "Common VIN/GND tracking under collapse, residual rails and no external backpower",
+      "Footprint, top-side placement and routing in the actual six-layer 38mm board"
+    ]
+  },
+  "conclusion": "Equality is inclusive DC compatibility at matching applicable conditions, with no positive margin. TI explicitly supports the topology. Published data do not prove a failure or a complete startup qualification. Preserve the circuit pending a stated margin/timing acceptance requirement and the missing bounds."
+}

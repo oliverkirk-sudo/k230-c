@@ -1,0 +1,47 @@
+{
+  "review_source_revision": "R3",
+  "scope": "R5 leaves all CORE PG-to-EN graph endpoints and component values unchanged",
+  "value_refs": [
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "R203",
+    "R204"
+  ],
+  "CORE_PGOOD_5V_nodes": [
+    [
+      "R203",
+      "1"
+    ],
+    [
+      "U21",
+      "2"
+    ],
+    [
+      "U22",
+      "E1"
+    ],
+    [
+      "U23",
+      "E1"
+    ],
+    [
+      "U24",
+      "1"
+    ],
+    [
+      "U25",
+      "1"
+    ],
+    [
+      "U26",
+      "1"
+    ]
+  ],
+  "graph_same": true,
+  "supervisor_alternative_adopted": false,
+  "not_a_functional_failure_claim": true
+}

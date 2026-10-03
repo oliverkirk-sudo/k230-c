@@ -1,0 +1,7 @@
+{
+  "sheet": "14_EMMC_Local_Bias.kicad_sch",
+  "renderer": "KiCad9.0.2 SVG plus Inkscape rasterization",
+  "inspection": "All eight new labels readable; DAT0-7 and VEMMC_IO links preserved; no overlap found",
+  "source_pdf_or_vendor_image_redistributed": false,
+  "note": "Native CLI rendering, not a new GUI interaction"
+}

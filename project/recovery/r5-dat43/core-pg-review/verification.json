@@ -1,0 +1,8 @@
+{
+  "graph_matches_expected": true,
+  "all_five_receivers_on_common_VIN": true,
+  "master_sha256_unchanged": true,
+  "low_noise_budget_V": 0.0,
+  "raw_source_files_in_deliverable": false,
+  "cad_edits": false
+}

@@ -1,0 +1,52 @@
+{
+  "revision": "R5 DAT43 conditional circuit",
+  "components": 254,
+  "bindings": 1509,
+  "distinct_nets": 457,
+  "changed_value_refs": [
+    "R563",
+    "R564",
+    "R565",
+    "R566",
+    "R567",
+    "R568",
+    "R569",
+    "R570"
+  ],
+  "changed_footprint_refs": [
+    "R563",
+    "R564",
+    "R565",
+    "R566",
+    "R567",
+    "R568",
+    "R569",
+    "R570"
+  ],
+  "assigned": 166,
+  "unassigned": 88,
+  "net_function_type_changes": 0,
+  "population_changes": 0,
+  "R528_DNP_preserved": true,
+  "erc_violations": 0,
+  "negative_controls_rejected": [
+    "one_DAT_left_at47k",
+    "unrelated_control_resistor_changed",
+    "qualification_strap_populated",
+    "pullup_wrong_supply",
+    "one_footprint_lost",
+    "47k_with10percent_total_error",
+    "43k_with20percent_total_error"
+  ],
+  "accepted_total_resistance_interval_ohm": [
+    38700,
+    47300
+  ],
+  "manufacturer_interval_ohm": [
+    10000,
+    50000
+  ],
+  "production_ready": false,
+  "full_board_routed": false,
+  "range_screen_is_lifetime_guarantee": false
+}

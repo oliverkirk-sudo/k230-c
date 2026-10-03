@@ -1,0 +1,17 @@
+{
+  "version": {
+    "returncode": 0,
+    "stdout": "9.0.2\n",
+    "stderr": ""
+  },
+  "netlist": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "erc": {
+    "returncode": 0,
+    "stdout": "Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking for off grid pins and wires...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to /tmp/cm-k230-r5-independent-native/fresh-erc.json\n",
+    "stderr": ""
+  }
+}

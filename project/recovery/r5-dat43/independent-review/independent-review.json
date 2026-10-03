@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-03",
+  "status": "PASS_BOUNDED_INDEPENDENT_R5_DAT43_REVIEW",
+  "baseline": "published R4",
+  "candidate": "R5 DAT43 conditional candidate",
+  "main_CAD_modified_by_review": false,
+  "published_netlist_comparison": {
+    "references": 254,
+    "pin_net_function_type_bindings": 1509,
+    "distinct_nets": 457,
+    "changed_value_refs": [
+      "R563",
+      "R564",
+      "R565",
+      "R566",
+      "R567",
+      "R568",
+      "R569",
+      "R570"
+    ],
+    "changed_footprint_refs": [
+      "R563",
+      "R564",
+      "R565",
+      "R566",
+      "R567",
+      "R568",
+      "R569",
+      "R570"
+    ],
+    "all_other_component_attributes_preserved": true,
+    "library_pin_definitions_preserved": true,
+    "net_codes_names_and_all_node_attributes_preserved": true,
+    "all_population_properties_preserved": true,
+    "R33_270k_preserved": true,
+    "R528_DNP_preserved": true,
+    "assigned_baseline": 158,
+    "assigned_candidate": 166,
+    "candidate_master_sha256": "de60f9b0edf9c393f8213a8a6a6ca7a96dec97fc4003dedf07ce5684b21dfdcf"
+  },
+  "fresh_native_export_comparison": {
+    "references": 254,
+    "pin_net_function_type_bindings": 1509,
+    "distinct_nets": 457,
+    "changed_value_refs": [
+      "R563",
+      "R564",
+      "R565",
+      "R566",
+      "R567",
+      "R568",
+      "R569",
+      "R570"
+    ],
+    "changed_footprint_refs": [
+      "R563",
+      "R564",
+      "R565",
+      "R566",
+      "R567",
+      "R568",
+      "R569",
+      "R570"
+    ],
+    "all_other_component_attributes_preserved": true,
+    "library_pin_definitions_preserved": true,
+    "net_codes_names_and_all_node_attributes_preserved": true,
+    "all_population_properties_preserved": true,
+    "R33_270k_preserved": true,
+    "R528_DNP_preserved": true,
+    "assigned_baseline": 158,
+    "assigned_candidate": 166,
+    "candidate_master_sha256": "d7e5e37e1eed4261aa27949a3d962770ac0bafdf0f0e1222f2d713c3123076f9"
+  },
+  "fresh_export_matches_saved_components_and_nodes": true,
+  "fresh_ERC_violations": 0,
+  "schematic_checks": {
+    "only_changed_circuit_sheet": "14_EMMC_Local_Bias.kicad_sch",
+    "root_revision_metadata_changed_RCV_PHYS1_to_RCV_R5": true,
+    "DAT_revision_metadata_changed_RCV_PHYS1_to_RCV_R5": true,
+    "all_schematic_files_except_DAT_and_root_revision_byte_identical": true,
+    "DAT_sheet_exactly_eight_value_and_footprint_property_changes_plus_revision_metadata": true,
+    "coordinates_UUIDs_wires_labels_pin_maps_and_symbol_population_unchanged": true,
+    "existing_CRCW_source_land_file_byte_identical": true,
+    "ordinary_25_bias_batch_still_unassigned": true
+  },
+  "electrical_range_and_stress": {
+    "nominal_ohm": 43000,
+    "candidate_MPN": "CRCW020143K0FKED",
+    "initial_tolerance_pct": 1,
+    "TCR_ppm_per_K": 100,
+    "total_acceptance_fraction": 0.1,
+    "total_resistance_interval_ohm": [
+      38700,
+      47300
+    ],
+    "source_DAT_pullup_interval_ohm": [
+      10000,
+      50000
+    ],
+    "low_range_margin_ohm": 28700,
+    "high_range_margin_ohm": 2700,
+    "range_pass": true,
+    "47k_at_10pct_upper_ohm": 51700,
+    "VCCQ_source_max_V": 1.95,
+    "per_resistor_max_full_supply_DC_current_A": 5.038759689922481e-05,
+    "per_resistor_max_full_supply_DC_power_W": 9.825581395348836e-05,
+    "current_uA": 50.38759689922481,
+    "power_uW": 98.25581395348837,
+    "meaning": "Incremental pullup load at a conservatively zero-volt sink node, not a guaranteed low-driver capability or total pin current. Actual functional state is not inferred.",
+    "range_screen_is_lifetime_guarantee": false,
+    "lifetime_gate": "The complete +/-10% total band must be established over initial tolerance, film temperature, mounting, humidity and aging for the mission. Separate manufacturer qualification tests do not establish arbitrary-life drift."
+  },
+  "sources": {
+    "micron": {
+      "url": "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/234/EMMC_5F00_DATASHEET.pdf",
+      "document": "Micron automotive eMMC Rev G, October2018",
+      "locators": [
+        "p1 VCCQ1.70-1.95V",
+        "Table1 p2 MTFC16GAPALBH-AAT identity",
+        "Table13 p27 DAT10-50k"
+      ],
+      "review": "Text inspected earlier in this same review session; source applies to the active selected family. Raw PDF not redistributed."
+    },
+    "vishay": {
+      "url": "https://www.vishay.com/docs/20052/crcw0201e3.pdf",
+      "document": "20052,21-Sep-2022",
+      "locators": [
+        "p1 F/K family range",
+        "p2 order code and copper lands",
+        "pp1,3-4 thermal and endurance limits"
+      ],
+      "fresh_PDF_sha256": "390a5effad7c3b526afb7faba340e29176261bfa4c041a128effc87b941a61ea"
+    }
+  },
+  "input_hashes": {
+    "R4_master": "70f2ef1d2c360b8a96c4c674714832fdf30488c267933b557988cde22151a95a",
+    "R5_master": "de60f9b0edf9c393f8213a8a6a6ca7a96dec97fc4003dedf07ce5684b21dfdcf",
+    "R5_DAT_sheet": "818d2f79b9bcbe2fd7b3bd782645f34327f08d8e32f75c188137bab022ee1696",
+    "existing_CRCW_footprint": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+  },
+  "not_qualified": [
+    "arbitrary mission lifetime",
+    "eMMC/K230/mux input leakage",
+    "guaranteed DAT high/low voltages",
+    "ROM boot behavior",
+    "signal integrity and bus timing",
+    "cold-mode/partial-power transitions",
+    "fabricator mask/paste/registration",
+    "full six-layer PCB routing or fit",
+    "stock/lifecycle/procurement"
+  ],
+  "preserved_board_contract": {
+    "layers": 6,
+    "outline_mm": [
+      38,
+      38
+    ],
+    "edge_contacts": 140,
+    "top_only": true,
+    "changed_by_this_delta": false,
+    "complete_routed_board_verified": false
+  },
+  "final_native_review_all_main_CAD_files_unchanged": true,
+  "main_CAD_file_count": 412
+}

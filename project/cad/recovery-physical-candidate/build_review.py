@@ -26,6 +26,7 @@ for r in ['R201','R202','R207','R208','R210','R211','R213','R214','R525','R526']
 FP.update({'R574': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE', 'L22': 'CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L23': 'CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L24': 'CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L25': 'CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L26': 'CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE'})
 
 FP.update({'U1': 'CMK230_Recovery_BGA_Candidates:K230_390_NSMD027_ENGINEERING_ONLY', 'U2': 'CMK230_Recovery_BGA_Candidates:Micron_FW200_NSMD030_ENGINEERING_ONLY', 'U3': 'CMK230_Recovery_BGA_Candidates:MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY'})
+FP.update({'R563': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE', 'R564': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE', 'R565': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE', 'R566': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE', 'R567': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE', 'R568': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE', 'R569': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE', 'R570': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE'})
 
 def text(s,x=15,y=15):return f'(text {q(s)} (at {x} {y} 0) (effects (font (size 1.15 1.15)) (justify left)) (uuid "{uid()}"))'
 def define(name,groups):
@@ -108,6 +109,10 @@ multipages('CMK230_140_CONTRACT','J1','CM-K230 edge contract ONLY',chunks([(r['p
 # Reuse source circuit declarations, never execute their writes.
 for src,title in [('generate_core_aux.py','Clock_Reset_Boot'),('generate_storage_switch.py','Cold_Storage_Selector'),('generate_power.py','Six_Rail_Power'),('generate_bias.py','DDR_USB_MIPI_Bias'),('generate_decoupling.py','Local_Decoupling'),('generate_pmu_startup.py','PMU_Automatic_Startup'),('generate_emmc_support.py','EMMC_Local_Bias'),('generate_supervisor.py','Hardware_Reset_Interlock'),('generate_tf_translator.py','TF_Voltage_Translation')]:
  ns={'__file__':str(BASE/'tools'/src)};code=(BASE/'tools'/src).read_text().split('sch=[',1)[0].split('# Assigned references intentionally',1)[0].split('\nwith (root/',1)[0];exec(code,ns)
+ if title=='EMMC_Local_Bias':
+  dat_refs=set(['R563', 'R564', 'R565', 'R566', 'R567', 'R568', 'R569', 'R570'])
+  assert all(v=='47k DATA PULLUP' for n,r,v,x,y,nt,d in ns['comps'] if r in dat_refs)
+  ns['comps']=[(n,r,'43k CRCW020143K0FKED DAT PULLUP CANDIDATE' if r in dat_refs else v,x,y,nt,d) for n,r,v,x,y,nt,d in ns['comps']]
  if title=='TF_Voltage_Translation':
   ns['symbol']('R',[(1,'1','passive'),(2,'2','passive')])
   ns['comps'].append(('R','R574','10k CRCW020110K0FKED IDLE BIAS CANDIDATE',275.59,205.74,{'1':'TF_HOST_CLK','2':'GND'},False))
@@ -199,9 +204,9 @@ for j,r in enumerate(entries):
 # Metadata and self-contained libraries.
 for sh in sheets:
  paper=sh.get('paper','A3')
- body=[f'(kicad_sch (version 20250114) (generator "cmk230_review") (uuid "{sh["id"]}") (paper "{paper}") (title_block (title {q(sh["title"].replace("_"," "))}) (rev "RCV-PHYS1")) (lib_symbols '+''.join(symbols[n]['s'] for n in sorted(sh['libs']))+')']+sh['body']+['(embedded_fonts no))']
+ body=[f'(kicad_sch (version 20250114) (generator "cmk230_review") (uuid "{sh["id"]}") (paper "{paper}") (title_block (title {q(sh["title"].replace("_"," "))}) (rev "RCV-R5")) (lib_symbols '+''.join(symbols[n]['s'] for n in sorted(sh['libs']))+')']+sh['body']+['(embedded_fonts no))']
  (OUT/(sh['name']+'.kicad_sch')).write_text('\n'.join(body))
-body=[f'(kicad_sch (version 20250114) (generator "cmk230_review") (uuid "{ROOT}") (paper "A3") (title_block (title "CM-K230 high-temp core") (rev "RCV-PHYS1")) (lib_symbols)',text('CONDITIONAL HIGH-TEMP CORE: Micron1GB/16GB; ambient85C not qualified. Storage default inhibited.'),text('Global nets join sheets. U1 is the only SoC. Unresolved pins remain open; documented unused pins have explicit no-use markers.',15,23),text('140-pad edge proposal assigned; Assigned source-land candidates include ordinary bypass parts. PCB import is partial/unplaced; factory/BGA geometry unqualified.',15,31)]
+body=[f'(kicad_sch (version 20250114) (generator "cmk230_review") (uuid "{ROOT}") (paper "A3") (title_block (title "CM-K230 high-temp core") (rev "RCV-R5")) (lib_symbols)',text('CONDITIONAL HIGH-TEMP CORE: Micron1GB/16GB; ambient85C not qualified. Storage default inhibited.'),text('Global nets join sheets. U1 is the only SoC. Unresolved pins remain open; documented unused pins have explicit no-use markers.',15,23),text('140-pad edge proposal assigned; Assigned source-land candidates include ordinary bypass parts. PCB import is partial/unplaced; factory/BGA geometry unqualified.',15,31)]
 for i,sh in enumerate(sheets):
  x=20+(i%3)*130;y=48+(i//3)*39
  body.append(f'(sheet (at {x} {y}) (size 115 23) (stroke (width .254) (type default)) (fill (color 0 0 0 0)) (uuid "{sh["sid"]}") (property "Sheetname" "{sh["title"]}" (at {x} {y-1} 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "{sh["name"]}.kicad_sch" (at {x} {y+24} 0) (effects (font (size 1 1)) (justify left top))) (instances (project "{PROJ}" (path "/{ROOT}" (page "{i+2}")))))')
