@@ -1,0 +1,13 @@
+{
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.1016,
+        "min_copper_edge_clearance": 0.25,
+        "min_courtyard_clearance": 0.05,
+        "min_silk_clearance": 0.1,
+        "min_solder_mask_width": 0.1
+      }
+    }
+  }
+}

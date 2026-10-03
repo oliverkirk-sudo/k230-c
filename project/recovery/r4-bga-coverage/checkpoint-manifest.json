@@ -1,0 +1,212 @@
+{
+  "revision": "R4",
+  "base_commit": "d7fddd369ea61d5c2eb04578edda8813abab0e04",
+  "files": [
+    {
+      "path": "cad/recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty/K230_390_NSMD027_ENGINEERING_ONLY.kicad_mod",
+      "bytes": 94422,
+      "sha256": "b9fff5d510772b7c98865cae0d2f7d5119b8e9f1be229223d106bbbace78a9e3",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty/MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY.kicad_mod",
+      "bytes": 37456,
+      "sha256": "aff22c7309212fc23b34a65be1fdb34148a23cb2c8a1ddf95a0f0d32e4af2f6f",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty/Micron_FW200_NSMD030_ENGINEERING_ONLY.kicad_mod",
+      "bytes": 37919,
+      "sha256": "51987fb3dc62bf099161ba86e0e5c4a2d5f820ff8da2612de662fbeb153f0bab",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-physical-candidate/01_SoC_1.kicad_sch",
+      "bytes": 108464,
+      "sha256": "8f6957a06c85c6d53f487f73a07fa38cdd383ccf1dc0701c10664740737fd378",
+      "old_sha256": "ee2173e4f215fb3638088668476bf90c28998ec48bf8bb00c35f74b008837b4e"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/02_SoC_2.kicad_sch",
+      "bytes": 97515,
+      "sha256": "c3ab1a72e6961358dfc7b57245870907f6c2744276b3e3a12932cde1276e017e",
+      "old_sha256": "dc315c752e7561aa5e6326732f29d7469393df5d3ba8f8723a0d1ba6bb44ca0d"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/03_SoC_3.kicad_sch",
+      "bytes": 103624,
+      "sha256": "06a39a5bdf59cdd840555609a63533240f868a4ad34e15abba14e11f71f0eb61",
+      "old_sha256": "707923e95b49e3a8c9ce730472bed0d878034fd7499351afcc08ec98cad91fb2"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/04_LPDDR4_1.kicad_sch",
+      "bytes": 78681,
+      "sha256": "e149af7df81d9d106dd95a6faad69b93be062eb82528d17ba92b4976991ffbb7",
+      "old_sha256": "ac72d30b65db5febb32be2680c1787d6d1cf890e8be0dc37a75fb8663ca909c8"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/05_LPDDR4_2.kicad_sch",
+      "bytes": 42415,
+      "sha256": "46d076e1d9a60308cd7130fc9f58107b9f25aa7876075b2d21047a399668aad5",
+      "old_sha256": "da7d3bf71c000bbaaf60b624bddbfd26ea7846e898d5688ce1d639eae8545c32"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/06_eMMC_1.kicad_sch",
+      "bytes": 46239,
+      "sha256": "0a30b642909a903d2f7a79317b9fbee851910f7420dc9b670481b8dfdedb9526",
+      "old_sha256": "4e290ae0801588c4bc8ef606cda774ad29840d60841ba0dcdde35bf01ba7d061"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/README.md",
+      "bytes": 1520,
+      "sha256": "f3619ee836180c16d02b0fc95eb3d133a2b234212dcab73193f73f87e135670a",
+      "old_sha256": "53076c69174ea6acca53fe4f0fb4af91880b40bdb315fbef09adf6d95f267bce"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/build_review.py",
+      "bytes": 27683,
+      "sha256": "b30d791da8df04e804cb7b4fc09d85c5cf5301d6491ba6d4432430ea4331abf6",
+      "old_sha256": "69f56ee07ad41fca50e8bd1158fdd31966b2e1d541bdf136f4ec44845d498424"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/erc.json",
+      "bytes": 3656,
+      "sha256": "b3e6c104c0ef34f866856b84530be6df2a2532e170f18008366b81772f3b5078",
+      "old_sha256": "ffe0212cecf2e5c84e85b6a870a153d06aed34f8155ac44768a0b2a23cc13fc7"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/fp-lib-table",
+      "bytes": 3054,
+      "sha256": "845cb77461d568a6c1fa59a56bde5be6c0e0460ec8ba3259f55bc25cb8c9240e",
+      "old_sha256": "8a6a0905338149aab99e4eb2b83132b0eb0d4163e5770fb775d7f1576201faa2"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/master.xml",
+      "bytes": 395078,
+      "sha256": "70f2ef1d2c360b8a96c4c674714832fdf30488c267933b557988cde22151a95a",
+      "old_sha256": "d4c05eaee0d3c3b2fce403764d37c42883c054b47030e41418ba377eb2d38a6e"
+    },
+    {
+      "path": "recovery/r4-bga-coverage/BGA_IDENTITY_GEOMETRY_ONLY.kicad_pcb",
+      "bytes": 232952,
+      "sha256": "dbd0d827f3bfaf0696982595423350cd5cf215e1c0e2cd4969bab01e71220dce",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/BGA_IDENTITY_GEOMETRY_ONLY.kicad_pro",
+      "bytes": 266,
+      "sha256": "481333b36c6a7f8d41ca81a0882e43c3289ea4f1aac601ca15fa03ee6dca8c60",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/README.md",
+      "bytes": 4332,
+      "sha256": "0e6266a59a03c0907b9775c21e4ee82c5c4cc95296edc25230906d0036d27e01",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/assignments.json",
+      "bytes": 250,
+      "sha256": "594a182596a9494162de70ba7198b90a05dd357f15b0e953420830fe1e6721ce",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/drawing-correction.json",
+      "bytes": 969,
+      "sha256": "7aecdc3ee816237789ade8786620ea76e0d4507946a92d5e5b79d868a1eb6272",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/fixture-drc.json",
+      "bytes": 292,
+      "sha256": "b3a6592f7d05a9d52f222dd13584fad8b3fba494900fe51044a789037acda33b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/fp-lib-table",
+      "bytes": 226,
+      "sha256": "6a406a6ce3ef0e72deb5cb229911cef5abda867d68ffc2866d17b0e4ca34f118",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/fw200-coordinate-contract.json",
+      "bytes": 17513,
+      "sha256": "41016935f0f742ff66c5e943cf35100f861a4392154971920aa91ba3a6a8d8eb",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/independent-review/FINAL_REVIEW.md",
+      "bytes": 1843,
+      "sha256": "eb76aff4a4f4c5ddda425c09008075c61dff7de469471ac2ed5acbfdf7a937b4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/independent-review/README.md",
+      "bytes": 3568,
+      "sha256": "6520f81c9de3fa02cedcca8e85f65a0a63662fc11390544495361bfd66aa7f93",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/independent-review/check_drawing_addendum.py",
+      "bytes": 5983,
+      "sha256": "76dcfa51c85803889de4b7ac6bf896e09b9dca3bf7c79af1d494e35a76afeb84",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/independent-review/check_native.py",
+      "bytes": 4976,
+      "sha256": "13d4dee2929729807175a4d87e2b58ca4d7897c3dd500d0742446afec804019d",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/independent-review/final-drawing-addendum.json",
+      "bytes": 4251,
+      "sha256": "ec5e5418457ac4c82f9f17f190d9ff65641809cf21e820dc6f20adc8131d20c0",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/independent-review/independent-review.json",
+      "bytes": 9130,
+      "sha256": "67852d7d6cdf0b7883d7b6fc0de47b90facd1ae8698efe08fb5fa3c6531b6eb8",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/independent-review/native-results.json",
+      "bytes": 3017,
+      "sha256": "a1b5339125bd85b05ed176337e987732090a9e62e2c788ee0b8958b97db905f7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/independent-review/validate_r4.py",
+      "bytes": 10665,
+      "sha256": "8da993b136abb10fd766926dfcb3683326657b0b9690e89e02fcc5364914548a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/native-checks.json",
+      "bytes": 1036,
+      "sha256": "cae185319599e9aeca7649d06298a10a310037810ea35872f1da036a29d6ce26",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/package-metadata.json",
+      "bytes": 955,
+      "sha256": "4bb87248646f564c3e85cb87fa3bd526ab2a232d5b26471376f767dc5fe06260",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/validate_coverage.py",
+      "bytes": 6689,
+      "sha256": "cb816334fcb7dcd4fac2b89fa9e9526aba186c2e772b186baa9f5058a3b8c003",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r4-bga-coverage/validation.json",
+      "bytes": 1125,
+      "sha256": "00e96d956940ee244c517bc965dbba77b1584dba93e74b197e7943fd465418b6",
+      "old_sha256": null
+    }
+  ],
+  "production_ready": false,
+  "full_board_routing": false
+}

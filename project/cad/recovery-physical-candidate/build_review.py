@@ -25,6 +25,7 @@ for r in ['R201','R202','R207','R208','R210','R211','R213','R214','R525','R526']
 
 FP.update({'R574': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE', 'L22': 'CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L23': 'CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L24': 'CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L25': 'CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L26': 'CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE'})
 
+FP.update({'U1': 'CMK230_Recovery_BGA_Candidates:K230_390_NSMD027_ENGINEERING_ONLY', 'U2': 'CMK230_Recovery_BGA_Candidates:Micron_FW200_NSMD030_ENGINEERING_ONLY', 'U3': 'CMK230_Recovery_BGA_Candidates:MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY'})
 
 def text(s,x=15,y=15):return f'(text {q(s)} (at {x} {y} 0) (effects (font (size 1.15 1.15)) (justify left)) (uuid "{uid()}"))'
 def define(name,groups):
@@ -230,3 +231,5 @@ p=OUT/'fp-lib-table'; t=p.read_text().rstrip(); p.write_text(t[:-1]+' (lib (name
 p=OUT/'fp-lib-table'; t=p.read_text().rstrip(); p.write_text(t[:-1]+' (lib (name "CMK230_Inductor_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../verified-footprints/inductor-candidates/CMK230_Inductor_Candidates.pretty") (options "") (descr "Conditional source geometry; process not qualified"))'+')')
 
 p=OUT/'fp-lib-table'; t=p.read_text().rstrip(); p.write_text(t[:-1]+' (lib (name "CMK230_Recovery_Passive_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../recovery-passive-candidates/CMK230_Recovery_Passive_Candidates.pretty") (options "") (descr "Conditional source geometry; process not qualified"))'+')')
+
+p=OUT/'fp-lib-table'; t=p.read_text().rstrip(); p.write_text(t[:-1]+' (lib (name "CMK230_Recovery_BGA_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty") (options "") (descr "Exact ball identities; engineering land construction remains unqualified"))'+')')

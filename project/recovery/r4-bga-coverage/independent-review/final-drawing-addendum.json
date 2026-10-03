@@ -1,0 +1,107 @@
+{
+  "date_utc": "2026-10-03",
+  "status": "PASS_FINAL_DRAWING_ONLY_ADDENDUM",
+  "check_count": 17,
+  "checks": [
+    {
+      "check": "U1 original legacy source hash unchanged",
+      "pass": true
+    },
+    {
+      "check": "U1 revised drawing hash matches reviewed revision",
+      "pass": true
+    },
+    {
+      "check": "U1 all pad subtrees byte-identical",
+      "pass": true
+    },
+    {
+      "check": "U1 all non-line footprint subtrees unchanged",
+      "pass": true
+    },
+    {
+      "check": "U1 native physical-pad count and front layers unchanged",
+      "pass": true
+    },
+    {
+      "check": "K230 native A1 remains physically absent",
+      "pass": true
+    },
+    {
+      "check": "K230 only one native F.Fab diagonal added",
+      "pass": true
+    },
+    {
+      "check": "K230 native courtyard unchanged",
+      "pass": true
+    },
+    {
+      "check": "U3 original legacy source hash unchanged",
+      "pass": true
+    },
+    {
+      "check": "U3 revised drawing hash matches reviewed revision",
+      "pass": true
+    },
+    {
+      "check": "U3 all pad subtrees byte-identical",
+      "pass": true
+    },
+    {
+      "check": "U3 all non-line footprint subtrees unchanged",
+      "pass": true
+    },
+    {
+      "check": "U3 native physical-pad count and front layers unchanged",
+      "pass": true
+    },
+    {
+      "check": "BH153 native full maximum-body rectangle plus inner A1 cue",
+      "pass": true
+    },
+    {
+      "check": "BH153 native courtyard is complete 12.1 by 13.6 mm rectangle",
+      "pass": true
+    },
+    {
+      "check": "FW200 complete file unchanged from initial source/native/CAM review",
+      "pass": true
+    },
+    {
+      "check": "Fresh eMMC PDF hash matches exact recovered source",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "fresh_source_visual_review": {
+    "document": "Micron automotive e.MMC Rev. G 10/18 EN",
+    "page": 11,
+    "figure": 5,
+    "visually_inspected": true,
+    "body_nominal_mm": [
+      11.5,
+      13.0
+    ],
+    "body_tolerance_each_axis_mm": 0.1,
+    "body_maximum_mm": [
+      11.6,
+      13.1
+    ],
+    "orientation": "Top-view A1 corner upper-left; ball-side mechanical columns reversed. The added diagonal is an engineering orientation cue, not an exact depiction of the package marking."
+  },
+  "result": "All 743 electrical lands and their mask/paste definitions remain unchanged. Revised BGA geometry imports natively. Initial FW200 source and CAM findings remain valid. Original legacy source footprints unchanged.",
+  "drawing_changes": {
+    "BH153": "Full F.Fab maximum-body rectangle 11.6 x 13.1 mm; courtyard 12.1 x 13.6 mm; inside upper-left orientation cue.",
+    "K230": "One upper-left F.Fab corner cue added; absent A1 is not converted to a land."
+  },
+  "boundary": "Conditional footprint geometry only. No new stack, via/HDI, land-pattern, stencil, assembly, thermal, full-board fit, or routing qualification. No native DRC rerun in this addendum.",
+  "input_sha256": {
+    "restored-v12-r2_1/cad/bga-engineering-candidates/k230-ddr-constrained/K230_Engineering.pretty/K230_390_NSMD027_ENGINEERING_ONLY.kicad_mod": "e966f4f52f50f9939f1d93ae072eac6c764d35586e854e20e5297eed4404c2cb",
+    "reconstruction-r4/project/cad/recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty/K230_390_NSMD027_ENGINEERING_ONLY.kicad_mod": "b9fff5d510772b7c98865cae0d2f7d5119b8e9f1be229223d106bbbace78a9e3",
+    "restored-v12-r2_1/cad/bga-engineering-candidates/bh153-sparse-trial/BH153_Engineering.pretty/MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY.kicad_mod": "2d80cba28c836720179e842b70d5b71bf92c8c4fc0759a16b8862244411507cf",
+    "reconstruction-r4/project/cad/recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty/MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY.kicad_mod": "aff22c7309212fc23b34a65be1fdb34148a23cb2c8a1ddf95a0f0d32e4af2f6f",
+    "reconstruction-r4/project/cad/recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty/Micron_FW200_NSMD030_ENGINEERING_ONLY.kicad_mod": "51987fb3dc62bf099161ba86e0e5c4a2d5f820ff8da2612de662fbeb153f0bab",
+    "private-sources/micron-emmc.pdf": "52ad8018f63554d3e34f970b1516e488543c6a25bd144bcbf33d666fa2a82d71"
+  },
+  "initial_review_preserved": "independent-review.json"
+}

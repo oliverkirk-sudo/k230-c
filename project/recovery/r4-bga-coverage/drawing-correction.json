@@ -1,0 +1,26 @@
+{
+  "changes": [
+    {
+      "name": "MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY",
+      "before_sha256": "2d80cba28c836720179e842b70d5b71bf92c8c4fc0759a16b8862244411507cf",
+      "after_sha256": "aff22c7309212fc23b34a65be1fdb34148a23cb2c8a1ddf95a0f0d32e4af2f6f",
+      "all_pad_subtrees_byte_identical": true
+    },
+    {
+      "name": "K230_390_NSMD027_ENGINEERING_ONLY",
+      "before_sha256": "e966f4f52f50f9939f1d93ae072eac6c764d35586e854e20e5297eed4404c2cb",
+      "after_sha256": "b9fff5d510772b7c98865cae0d2f7d5119b8e9f1be229223d106bbbace78a9e3",
+      "all_pad_subtrees_byte_identical": true
+    }
+  ],
+  "BH153_body_max_mm": [
+    11.6,
+    13.1
+  ],
+  "BH153_courtyard_mm": [
+    12.1,
+    13.6
+  ],
+  "K230_orientation_cue": "F.Fab A1 corner only; A1 remains physically absent; not a manufacturer marking claim",
+  "method": "Exact drawing-only s-expression replacement followed by native loading/DRC; native library-save API failed before writing"
+}

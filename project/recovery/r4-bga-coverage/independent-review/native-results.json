@@ -1,0 +1,98 @@
+{
+  "kicad_version": "9.0.2+dfsg-1",
+  "checks": [
+    {
+      "check": "Native FW200 loads 200 numbered Cu/Mask pads and 200 unnumbered paste-only apertures",
+      "pass": true
+    },
+    {
+      "check": "Native FW200 has exact front-only layer sets",
+      "pass": true
+    },
+    {
+      "check": "Native FW200 all explicit diameters 0.30 mm",
+      "pass": true
+    },
+    {
+      "check": "Native FW200 per-pad mask expansion 0.05 mm",
+      "pass": true
+    },
+    {
+      "check": "Paste-only effective margins with global settings (0, 0)",
+      "pass": true
+    },
+    {
+      "check": "Paste-only effective margins with global settings (-0.02, 0)",
+      "pass": true
+    },
+    {
+      "check": "Paste-only effective margins with global settings (0, -0.1)",
+      "pass": true
+    },
+    {
+      "check": "Native serialized round-trip retains 400 objects",
+      "pass": true
+    },
+    {
+      "check": "Native Gerber export succeeds",
+      "pass": true,
+      "details": "Plotted to '/tmp/r4-bga-native-0uxr1sl9/cam/FW200_GEOMETRY_ONLY-F_Cu.gtl'.\nPlotted to '/tmp/r4-bga-native-0uxr1sl9/cam/FW200_GEOMETRY_ONLY-F_Paste.gtp'.\nPlotted to '/tmp/r4-bga-native-0uxr1sl9/cam/FW200_GEOMETRY_ONLY-F_Mask.gts'."
+    },
+    {
+      "check": "F_Cu CAM has exact 200 centers and declared aperture diameter",
+      "pass": true
+    },
+    {
+      "check": "F_Mask CAM has exact 200 centers and declared aperture diameter",
+      "pass": true
+    },
+    {
+      "check": "F_Paste CAM has exact 200 centers and declared aperture diameter",
+      "pass": true
+    }
+  ],
+  "native_footprints": {
+    "K230_390_NSMD027_ENGINEERING_ONLY": {
+      "total_pad_objects": 390,
+      "copper_pad_count": 390,
+      "paste_only_count": 0,
+      "front_footprint": true,
+      "copper_coordinate_sha256": "7107230eb69d327254dbf0eb3322876bfba782af489f0ce13fd3ee95fc83d053"
+    },
+    "Micron_FW200_NSMD030_ENGINEERING_ONLY": {
+      "total_pad_objects": 400,
+      "copper_pad_count": 200,
+      "paste_only_count": 200,
+      "front_footprint": true,
+      "copper_coordinate_sha256": "c285635e5c10e32a2e472a9703903899536c993de4e9859ab9b1b603f16b8c54"
+    },
+    "MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY": {
+      "total_pad_objects": 153,
+      "copper_pad_count": 153,
+      "paste_only_count": 0,
+      "front_footprint": true,
+      "copper_coordinate_sha256": "c5510d7043da62b2b0bb8f652719c138c41e5686959ae81d4b15998525eb22b8"
+    }
+  },
+  "temporary_CAM": {
+    "F_Cu": {
+      "flashes": 200,
+      "unique_centers": 200,
+      "diameter_mm": 0.3,
+      "nominal_verified": true
+    },
+    "F_Mask": {
+      "flashes": 200,
+      "unique_centers": 200,
+      "diameter_mm": 0.4,
+      "nominal_verified": true
+    },
+    "F_Paste": {
+      "flashes": 200,
+      "unique_centers": 200,
+      "diameter_mm": 0.3,
+      "nominal_verified": true
+    }
+  },
+  "scope": "Native footprint/CAM geometry only. Temporary QA board and Gerbers deleted after verification; no module PCB or fabrication files produced."
+}

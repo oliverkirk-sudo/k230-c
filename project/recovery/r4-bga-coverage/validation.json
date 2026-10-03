@@ -1,0 +1,43 @@
+{
+  "revision": "R4 BGA physical identity candidate",
+  "components": 254,
+  "bindings": 1509,
+  "assigned": 158,
+  "unassigned": 96,
+  "only_changed_fields": "U1/U2/U3 footprint bindings",
+  "BGA_numbered_pads_total": 743,
+  "footprint_checks": {
+    "U1": {
+      "numbered_pads": 390,
+      "total_pad_objects": 390,
+      "source_pin_functions_match": true,
+      "coordinate_mismatches": 0,
+      "unused_physical_balls_retained": true
+    },
+    "U2": {
+      "numbered_pads": 200,
+      "total_pad_objects": 400,
+      "source_pin_functions_match": true,
+      "coordinate_mismatches": 0,
+      "unused_physical_balls_retained": true
+    },
+    "U3": {
+      "numbered_pads": 153,
+      "total_pad_objects": 153,
+      "source_pin_functions_match": true,
+      "coordinate_mismatches": 0,
+      "unused_physical_balls_retained": true
+    }
+  },
+  "negative_controls_rejected": [
+    "mirrored-X",
+    "missing-NC",
+    "wrong-row-spacing"
+  ],
+  "erc_violations": 0,
+  "fixture_drc_categories": [],
+  "required_layers": 6,
+  "fixture_is_core_layout": false,
+  "production_ready": false,
+  "R528_DNP_preserved": true
+}

@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "CMK230_Recovery_BGA_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../../cad/recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty") (options "") (descr "Process unqualified BGA candidates")))

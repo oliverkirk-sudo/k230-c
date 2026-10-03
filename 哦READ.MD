@@ -1,45 +1,38 @@
 # k230-c
 
-## 当前检查点：R3 条件封装覆盖
+## 当前检查点：R4 条件 BGA 身份与封装覆盖
 
-在已恢复并核验的 v12 + R2.1 源工程上，本版为 L22–L26 和 R574 增加六个候选封装绑定。**这是原理图/候选封装检查点，不是生产版本；当前候选仍没有完整六层核心板 PCB。**
+在 R3 上，为 U1/U2/U3 增加三个原生 KiCad 工程候选封装绑定。**这是身份/条件几何检查点，不是生产版本；没有完整六层核心板 PCB，也没有 DDR 布线资格结论。**
 
-当前入口：`project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_pro`（原理图同名 `.kicad_sch`）。保持 `project/` 内相对目录结构。
+当前入口：`project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_pro`（原理图同名 `.kicad_sch`）。保持 `project/` 内相对目录结构。根说明文件保持 `哦READ.MD`。
 
-## R3 变化与验证（2026-10-03）
+## R4 变化与验证（2026-10-03）
 
-- L22/L23 绑定现有 Murata DFE201612E-R24M=P2 候选；L24/L25/L26 绑定 DFE201610E-R47M=P2 候选
-- R574 绑定新建 Vishay CRCW0201 来源核对焊盘候选；电气值、引脚功能、网络和 DNP 不变
-- 封装覆盖由 149 增至 155 个元件，尚有 99 个未分配；L21 仍未分配
-- 全部 254 个元件和 1,509 个引脚绑定保持一致，只有上述六个封装字段改变；R528 仍默认 DNP，存储默认禁止
-- KiCad 9.0.2 新 ERC：0 错误、0 警告。R574 独立六层几何夹具 DRC 为 0；提高间距要求的负控按预期拒绝
-- 错误封装、移除 DNP、改值、错误时钟偏置网络均被负控检出。原理图验证与夹具检查不代表整板通过
+- U1 K230：390 个物理焊盘；U2 Micron FW200：200 个；U3 Micron BH153：153 个，共 743 个。编号、坐标和有效引脚功能已核对，NC/DNU 物理球位保留
+- 封装覆盖增至 158 个元件，尚有 96 个未分配；全部 254 个元件、1,509 个引脚绑定、电气值和装配属性保持不变，仅改变 U1/U2/U3 的封装字段
+- 新 RAM 候选使用 0.30 mm NSMD 铜、0.40 mm 阻焊开口及独立 0.30 mm 锡膏孔。这些是工程假设，不是 Micron 制造焊盘推荐
+- eMMC 最大本体图修正为 11.6 × 13.1 mm，工程 courtyard 为 12.1 × 13.6 mm；K230 增加 F.Fab 角点方向提示，A1 仍物理缺席。继承的 U1/U3 铜/阻焊/锡膏焊盘子树未改变
+- 新 KiCad 9.0.2 ERC 为 0 错误、0 警告；孤立六层身份几何夹具 DRC 为 0。镜像、丢失 NC 球和错误行距负控按预期拒绝
+- 独立审查的 30 项初查与 17 项图形修正检查通过；R528 仍默认 DNP，存储默认禁止
 
-详细结果、可重跑脚本、27 个变更文件的源哈希和独立几何审查见 `project/recovery/r3-physical-coverage/`。R3 源清单 SHA-256：`73eaddc8f8b261d1affe5c2291bbb92fcdbe4e234e270a22b1858ac4e41e9310`。
+详细源证据、脚本、原生检查、独立审查及 34 个工程变更文件清单见 `project/recovery/r4-bga-coverage/`。源清单 SHA-256：`450519dc83316734587bd46b5425656dd6c5a6aadd23309b589068988f3e482b`。
 
-## 尚未关闭的工程限制
+## 必须保留的资格边界
 
-- 38 × 38 mm、140 触点、1 mm 间距、恰好六个铜层及仅顶面贴装仍是设计要求；尚无当前整板布局布线或制造验收
-- Murata 电感体下的无关铜、过孔和孔限制必须在实际位置、旋转和所有相关层明确检查。图纸标记不强制执行，普通 DRC 通过也不能替代此检查
-- R574 铜焊盘来源已核对，但阻焊、钢网、装配、局部走线、泄漏、馈通、部分上电和时序仍待资格验证
-- 其他未分配封装、DDR/时序、高温/上电、PDN、DFM、采购型号和工厂工艺仍需逐项关闭
-- 历史八层试验、隔离几何夹具和负控板仅供追溯，不能当作当前六层成品；BGA 身份一致也不等于制造封装或逃线合格
+- 孤立夹具为 66 × 32 mm、单焊盘独立测试网络；它不是 38 × 38 mm 核心板，也不证明整板容纳、互连、逃线、DDR 时序、阻抗或回流连续性
+- 未导入任何历史八层 PCB、扇出、过孔或走线。六层数量本身不确定可制造的叠层；未选择 HDI 工艺
+- 制造焊盘、铜蚀刻、阻焊对位、锡膏/钢网、焊球/焊点公差、贴装、via-in-pad、可靠性、高温/上电、DDR/PDN、DFM 和完整整板资格仍待关闭
+- 仍需解决 96 个封装缺口，然后完成 38 × 38 mm、140 触点、1 mm 间距、恰好六个铜层、仅顶面贴装的完整布局布线
+- R3 中的电感体下无关铜/孔限制与 R574 时钟偏置电气限制持续有效；普通 DRC 通过不能替代这些检查
 
-## 恢复基线与历史证据
+## 版本与来源完整性
 
-R3 继承已发布提交 `4362d103cb08000e34799f01544baf3daca0bb2f`，没有重写历史。恢复基线的重新检查保留在 `validation/2026-10-03-restored/`；更早缺少 v12 时的 150 条缺库警告保留在 `validation/2026-10-03-delta-only/`，已由完整恢复后的 0/0 结果取代。
+R4 继承 R3 提交 `d7fddd369ea61d5c2eb04578edda8813abab0e04`；R3 的六个被动器件绑定、验证和工程限制保留在 `project/recovery/r3-physical-coverage/`。恢复基线检查保留在 `validation/2026-10-03-restored/`，更早的缺库检查只是历史证据。其他历史报告按各自阶段和范围解读。
 
-- v12 ZIP SHA-256：`63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58`
-- R2.1 ZIP SHA-256：`4e23cf611b37900dab169f0b44da5974ae70c65bbcf7624c97ccb16688eb3b5b`
+源 CAD、库、脚本、数据、网表、工程审查、来源 URL/哈希和必要的 `LICENSE-01studio.txt` 上游 MIT 版权许可声明保留。未为第三方材料新增授权，也未上传厂商 PDF/页面、图像或运行时缓存。部分历史生成输出仍按先前发布记录省略。
 
-`project/` 中其他历史报告仍按各自阶段和范围解读，不代表全部在本版重跑。
-
-## 来源与发布完整性
-
-源 CAD、库、脚本、数据、网表、工程审查、来源 URL/哈希和必要的 `LICENSE-01studio.txt` 上游 MIT 版权许可声明均保留。未为第三方材料新增授权。厂商 PDF/扫描页面、图像、运行时缓存、会话设置、日志、备份 ZIP 和部分大型历史搜索生成结果未上传；需要省略输出的旧检查须先重新生成。
-
-当前发布文件完整性以根目录 `SHA256SUMS` 为准；恢复检查点的排除项、原始哈希及 R3 增量记录见 `PUBLICATION_PROVENANCE.json`。R3 的 27 个源变更文件及其清单按原始字节保存。
+当前文件完整性以根目录 `SHA256SUMS` 为准；排除项、原始哈希和逐版增量见 `PUBLICATION_PROVENANCE.json`。R4 的 34 个源变更文件及其清单保持原始字节。
 
 ## English summary
 
-R3 adds six conditional footprint bindings (L22–L26 and R574), increasing coverage to 155 assigned / 99 unassigned references. All 254 components, 1,509 pin bindings, values and population flags remain unchanged. Fresh ERC and the isolated geometry fixture pass; negative controls detect the intended errors. This is not a production release: active full-board six-layer layout/routing and manufacturing, thermal and timing qualification remain incomplete.
+R4 adds three conditional BGA bindings for U1/U2/U3 and verifies all 743 physical lands, reaching 158 assigned / 96 unassigned references. The 254-component / 1,509-binding circuit and population flags remain unchanged. Fresh ERC and isolated geometry DRC pass. Inherited U1/U3 pad subtrees remain unchanged after drawing-envelope/orientation corrections. Whole-board fit, six-layer routing, DDR/PDN and manufacturing qualification remain incomplete.

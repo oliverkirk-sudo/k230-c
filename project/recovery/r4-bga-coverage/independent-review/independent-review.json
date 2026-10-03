@@ -1,0 +1,245 @@
+{
+  "date_utc": "2026-10-03",
+  "status": "PASS_CONDITIONAL_IDENTITY_AND_NOMINAL_GEOMETRY",
+  "scope": "Independent R4 BGA source identity, orientation, nominal geometry and native CAM check; no main CAD edits or production qualification.",
+  "required_board": {
+    "outline_mm": [
+      38,
+      38
+    ],
+    "contacts": 140,
+    "copper_layers": 6,
+    "assembly": "top only"
+  },
+  "source": {
+    "title": "Micron 200b x16/x32 Automotive LPDDR4/LPDDR4X, Rev. F 10/2020 EN",
+    "sha256": "b29c808baa7e42fca9b7ccc54b673142d26b49a1fee6b3053cc8691c21832552",
+    "pages_inspected": [
+      21,
+      24
+    ],
+    "source_url": "https://www.mouser.com/datasheet/2/671/200b_z00m_sdp_ddp_auto_lpddr4_lpddr4x-3193603.pdf",
+    "method": "Actual rendered pages inspected. Figure 5 manually transcribed row by row; Figure 7 ball circles extracted independently and bottom-view columns reversed. Dimensions use printed callouts, not pixel spacing."
+  },
+  "FW200": {
+    "exact_part": "MT53E256M32D2FW-046 AAT:B",
+    "physical_ball_count": 200,
+    "full_grid_count": 264,
+    "absent_count": 64,
+    "absent_rule": "All L/M row sites and all column 6/7 sites",
+    "frame": "Package-centered top view, balls down, X right, Y down",
+    "pitch_mm": [
+      0.8,
+      0.65
+    ],
+    "center_spans_mm": [
+      8.8,
+      13.65
+    ],
+    "body_nominal_mm": [
+      10,
+      14.5
+    ],
+    "body_maximum_mm": [
+      10.1,
+      14.6
+    ],
+    "height_nominal_mm": 1.0,
+    "height_maximum_mm": 1.1,
+    "native_height_properties": {},
+    "native_3d_model_present": false,
+    "copper_mask_paste_mm": [
+      0.3,
+      0.4,
+      0.3
+    ],
+    "paste_only_apertures": 200,
+    "source_qualified_PCB_land_pattern": false,
+    "native_CAM": {
+      "F_Cu": {
+        "flashes": 200,
+        "unique_centers": 200,
+        "diameter_mm": 0.3,
+        "nominal_verified": true
+      },
+      "F_Mask": {
+        "flashes": 200,
+        "unique_centers": 200,
+        "diameter_mm": 0.4,
+        "nominal_verified": true
+      },
+      "F_Paste": {
+        "flashes": 200,
+        "unique_centers": 200,
+        "diameter_mm": 0.3,
+        "nominal_verified": true
+      }
+    },
+    "courtyard_mm": [
+      10.6,
+      15.1
+    ],
+    "courtyard_process_qualified": false
+  },
+  "copied_candidates": [
+    {
+      "reference": "U1",
+      "footprint": "K230_390_NSMD027_ENGINEERING_ONLY",
+      "sha256": "e966f4f52f50f9939f1d93ae072eac6c764d35586e854e20e5297eed4404c2cb",
+      "identical": true
+    },
+    {
+      "reference": "U3",
+      "footprint": "MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY",
+      "sha256": "2d80cba28c836720179e842b70d5b71bf92c8c4fc0759a16b8862244411507cf",
+      "identical": true
+    }
+  ],
+  "check_count": 30,
+  "checks": [
+    {
+      "check": "Fresh Micron PDF matches established exact source hash",
+      "pass": true
+    },
+    {
+      "check": "Fresh mechanical Figure 7 has exactly 200 ball circles and matching mirrored occupancy",
+      "pass": true
+    },
+    {
+      "check": "All 200 freshly transcribed Figure 5 functions match restored Micron map",
+      "pass": true
+    },
+    {
+      "check": "All 200 R4 contract functions and top-view coordinates match fresh source",
+      "pass": true
+    },
+    {
+      "check": "FW footprint has 200 unique numbered lands and 200 paste-only objects",
+      "pass": true
+    },
+    {
+      "check": "FW exact source occupancy, no absent-site land",
+      "pass": true
+    },
+    {
+      "check": "FW exact source nominal coordinates and top-view orientation",
+      "pass": true
+    },
+    {
+      "check": "FW copper lands are front Cu/Mask SMD circles, no automatic paste",
+      "pass": true
+    },
+    {
+      "check": "FW copper .30 mm, mask radial expansion .05 mm",
+      "pass": true
+    },
+    {
+      "check": "FW exactly one .30 mm paste-only SMD circle at every ball center",
+      "pass": true
+    },
+    {
+      "check": "FW F.Fab rectangle centerline is 10.1 by 14.6 mm maximum-body projection",
+      "pass": true
+    },
+    {
+      "check": "FW unqualified courtyard is 10.6 by 15.1 mm",
+      "pass": true
+    },
+    {
+      "check": "FW A1 marker is upper-left on F.Fab",
+      "pass": true
+    },
+    {
+      "check": "FW has no routed/via/copper-zone geometry",
+      "pass": true
+    },
+    {
+      "check": "U1 engineering footprint byte-identical to restored source",
+      "pass": true
+    },
+    {
+      "check": "U3 engineering footprint byte-identical to restored source",
+      "pass": true
+    },
+    {
+      "check": "Native KiCad FW centers and numbers independently match source",
+      "pass": true
+    },
+    {
+      "check": "Native FW200 loads 200 numbered Cu/Mask pads and 200 unnumbered paste-only apertures",
+      "pass": true
+    },
+    {
+      "check": "Native FW200 has exact front-only layer sets",
+      "pass": true
+    },
+    {
+      "check": "Native FW200 all explicit diameters 0.30 mm",
+      "pass": true
+    },
+    {
+      "check": "Native FW200 per-pad mask expansion 0.05 mm",
+      "pass": true
+    },
+    {
+      "check": "Paste-only effective margins with global settings (0, 0)",
+      "pass": true
+    },
+    {
+      "check": "Paste-only effective margins with global settings (-0.02, 0)",
+      "pass": true
+    },
+    {
+      "check": "Paste-only effective margins with global settings (0, -0.1)",
+      "pass": true
+    },
+    {
+      "check": "Native serialized round-trip retains 400 objects",
+      "pass": true
+    },
+    {
+      "check": "Native Gerber export succeeds",
+      "pass": true,
+      "details": "Plotted to '/tmp/r4-bga-native-0uxr1sl9/cam/FW200_GEOMETRY_ONLY-F_Cu.gtl'.\nPlotted to '/tmp/r4-bga-native-0uxr1sl9/cam/FW200_GEOMETRY_ONLY-F_Paste.gtp'.\nPlotted to '/tmp/r4-bga-native-0uxr1sl9/cam/FW200_GEOMETRY_ONLY-F_Mask.gts'."
+    },
+    {
+      "check": "F_Cu CAM has exact 200 centers and declared aperture diameter",
+      "pass": true
+    },
+    {
+      "check": "F_Mask CAM has exact 200 centers and declared aperture diameter",
+      "pass": true
+    },
+    {
+      "check": "F_Paste CAM has exact 200 centers and declared aperture diameter",
+      "pass": true
+    },
+    {
+      "check": "R4 FW package metadata agrees with fresh maximum-body and height callouts",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "metadata_notes": [
+    "FW maximum height 1.1 mm is recorded in package-metadata.json; the footprint has no native height property or 3D model. No collision-checkable height model or assembled-height claim follows.",
+    "Copied BH153 F.Fab uses nominal 11.5 x 13.0 mm body, while source maximum is 11.6 x 13.1 mm. Its 12.0 x 13.5 mm courtyard is unqualified.",
+    "Copied K230 F.Fab uses maximum 13.1 x 13.1 mm body with a 13.6 x 13.6 mm courtyard. Coordinates preserve missing A1, but the rectangular fabrication outline has no explicit pin-1 corner marker."
+  ],
+  "limits": [
+    "Copper/mask/paste are explicit engineering choices, not a Micron PCB-land recommendation. The package-side 0.40 mm SMD-pad note is not board-side copper approval.",
+    "No stack, HDI/via process, stencil transfer, assembly reliability, thermal, DDR/PDN, full placement, or routed-fit qualification.",
+    "This verifies standalone footprint geometry and temporary CAM only; no eight-layer routes were copied or used as six-layer evidence.",
+    "No vendor PDF/images or temporary QA board/Gerbers are included in this report directory."
+  ],
+  "input_sha256": {
+    "reconstruction-r4/project/engineering/high-temp-candidates/micron-lp4-ball-comparison.json": "a2a6683cbb09b5a622f9241dd008844ca95765855e716ed042b69f30b0deb914",
+    "reconstruction-r4/project/recovery/r4-bga-coverage/fw200-coordinate-contract.json": "41016935f0f742ff66c5e943cf35100f861a4392154971920aa91ba3a6a8d8eb",
+    "reconstruction-r4/project/cad/recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty/Micron_FW200_NSMD030_ENGINEERING_ONLY.kicad_mod": "51987fb3dc62bf099161ba86e0e5c4a2d5f820ff8da2612de662fbeb153f0bab",
+    "restored-v12-r2_1/cad/bga-engineering-candidates/k230-ddr-constrained/K230_Engineering.pretty/K230_390_NSMD027_ENGINEERING_ONLY.kicad_mod": "e966f4f52f50f9939f1d93ae072eac6c764d35586e854e20e5297eed4404c2cb",
+    "reconstruction-r4/project/cad/recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty/K230_390_NSMD027_ENGINEERING_ONLY.kicad_mod": "e966f4f52f50f9939f1d93ae072eac6c764d35586e854e20e5297eed4404c2cb",
+    "restored-v12-r2_1/cad/bga-engineering-candidates/bh153-sparse-trial/BH153_Engineering.pretty/MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY.kicad_mod": "2d80cba28c836720179e842b70d5b71bf92c8c4fc0759a16b8862244411507cf",
+    "reconstruction-r4/project/cad/recovery-bga-candidates/CMK230_Recovery_BGA_Candidates.pretty/MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY.kicad_mod": "2d80cba28c836720179e842b70d5b71bf92c8c4fc0759a16b8862244411507cf",
+    "r4-bga-independent/native-results.json": "a1b5339125bd85b05ed176337e987732090a9e62e2c788ee0b8958b97db905f7",
+    "reconstruction-r4/project/recovery/r4-bga-coverage/package-metadata.json": "559ec20366ec8a692ff21477dbf69a4bdf80777d971a245c4fe666c8aa92f7af"
+  }
+}

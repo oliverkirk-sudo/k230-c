@@ -1,5 +1,5 @@
 {
-  "stage": "R3_CONDITIONAL_FOOTPRINT_COVERAGE",
+  "stage": "R4_CONDITIONAL_BGA_IDENTITY_COVERAGE",
   "date_utc": "2026-10-03",
   "source_archive_sha256": {
     "v12": "63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58",
@@ -1432,7 +1432,7 @@
       "reason": "Editorial attribution text updated; technical content unchanged"
     }
   ],
-  "previous_stage": "RESTORED_V12_PLUS_R2_1_PUBLIC_SOURCE_CHECKPOINT",
+  "previous_stage": "R3_CONDITIONAL_FOOTPRINT_COVERAGE",
   "checkpoints": [
     {
       "revision": "R3",
@@ -1455,6 +1455,28 @@
         "L26",
         "R574"
       ],
+      "production_ready": false,
+      "active_full_six_layer_board": false
+    },
+    {
+      "revision": "R4",
+      "base_commit": "d7fddd369ea61d5c2eb04578edda8813abab0e04",
+      "delta_zip_sha256": "b23e8c294b8049e75d1469cf6f7ed302a6c7fc6852634157337af6cfaa789193",
+      "delta_zip_bytes": 211569,
+      "source_manifest_sha256": "450519dc83316734587bd46b5425656dd6c5a6aadd23309b589068988f3e482b",
+      "changed_source_files": 34,
+      "manifest_included_separately": true,
+      "publication_source_files_byte_identical": true,
+      "components": 254,
+      "pin_bindings": 1509,
+      "footprints_assigned": 158,
+      "footprints_unassigned": 96,
+      "changed_footprint_refs": [
+        "U1",
+        "U2",
+        "U3"
+      ],
+      "numbered_BGA_lands": 743,
       "production_ready": false,
       "active_full_six_layer_board": false
     }

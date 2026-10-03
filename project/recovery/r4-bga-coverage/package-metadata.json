@@ -1,0 +1,36 @@
+{
+  "U2": {
+    "part": "MT53E256M32D2FW-046 AAT:B",
+    "source_sha256": "b29c808baa7e42fca9b7ccc54b673142d26b49a1fee6b3053cc8691c21832552",
+    "body_nominal_mm": [
+      10.0,
+      14.5
+    ],
+    "body_tolerance_mm": 0.1,
+    "body_max_mm": [
+      10.1,
+      14.6
+    ],
+    "package_height_max_mm": 1.1,
+    "pcb_land_construction": "engineering NSMD candidate, not manufacturer-approved",
+    "three_dimensional_model": null,
+    "full_module_height_qualified": false
+  },
+  "U3": {
+    "part": "MTFC16GAPALBH-AAT",
+    "source_sha256": "52ad8018f63554d3e34f970b1516e488543c6a25bd144bcbf33d666fa2a82d71",
+    "body_nominal_mm": [
+      11.5,
+      13.0
+    ],
+    "body_tolerance_mm": 0.1,
+    "body_max_mm": [
+      11.6,
+      13.1
+    ],
+    "package_height_max_mm": 1.1,
+    "pcb_land_construction": "engineering NSMD candidate, not manufacturer-approved",
+    "three_dimensional_model": null,
+    "full_module_height_qualified": false
+  }
+}

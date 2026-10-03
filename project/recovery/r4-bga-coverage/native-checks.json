@@ -1,0 +1,17 @@
+{
+  "netlist": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "fixture_drc": {
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/k230-recovery-oct3/reconstruction-r4/project/recovery/r4-bga-coverage/fixture-drc.json\n",
+    "stderr": ""
+  },
+  "erc": {
+    "returncode": 0,
+    "stdout": "Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking for off grid pins and wires...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to /workspace/shared/k230-recovery-oct3/reconstruction-r4/project/cad/recovery-physical-candidate/erc.json\n",
+    "stderr": ""
+  }
+}
