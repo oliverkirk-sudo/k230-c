@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "CMK230_Filter_Feedforward_Candidates") (type "KiCad") (uri "${KIPRJMOD}/source-footprints/CMK230_Filter_Feedforward_Candidates.pretty") (options "") (descr "Read-only independent source library")))

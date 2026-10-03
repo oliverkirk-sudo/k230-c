@@ -1,0 +1,903 @@
+{
+  "status": "SOURCE_BOUND_CONDITIONAL_SCREEN_NOT_ELECTRICAL_APPROVAL",
+  "active_master_sha256": "da6a33fa5ccc36897785d1b443d49979f0a37690e5fd8da6ff8ad566f3e59ec9",
+  "constraints": {
+    "outline_mm": [
+      38,
+      38
+    ],
+    "layer_count": 6,
+    "components_top_only": true,
+    "enclosed_air_provisional_C": 85
+  },
+  "rail_model": {
+    "VDD0P8_CORE": {
+      "regulator_ref": "U21",
+      "inductor_ref": "L21",
+      "top_resistor_ref": "R201",
+      "bottom_resistor_ref": "R202",
+      "nominal_V": 0.7992,
+      "static_min_V": 0.7882991180397219,
+      "static_max_V": 0.8101957058066466,
+      "model": "PWM reference +/-1%, independent resistor total +/-0.70%, conservatively signed +/-50nA FB leakage",
+      "qualification": "CONDITIONAL_STATIC_MODEL; PWM and resistor lifetime/temperature allowance not a board guarantee"
+    },
+    "VDD1P8": {
+      "regulator_ref": "U25",
+      "inductor_ref": "L25",
+      "top_resistor_ref": "R210",
+      "bottom_resistor_ref": "R211",
+      "nominal_V": 1.7999999999999998,
+      "static_min_V": 1.7644766146971205,
+      "static_max_V": 1.836094613293051,
+      "model": "PWM reference +/-1%, independent resistor total +/-0.70%, conservatively signed +/-50nA FB leakage",
+      "qualification": "CONDITIONAL_STATIC_MODEL; PWM and resistor lifetime/temperature allowance not a board guarantee"
+    },
+    "VDD_3V3": {
+      "regulator_ref": "U26",
+      "inductor_ref": "L26",
+      "top_resistor_ref": "R213",
+      "bottom_resistor_ref": "R214",
+      "nominal_V": 3.318,
+      "static_min_V": 3.2451295322889773,
+      "static_max_V": 3.392164299108761,
+      "model": "PWM reference +/-1%, independent resistor total +/-0.70%, conservatively signed +/-50nA FB leakage",
+      "qualification": "CONDITIONAL_STATIC_MODEL; PWM and resistor lifetime/temperature allowance not a board guarantee"
+    }
+  },
+  "branch_contracts": [
+    {
+      "reference": "FB202",
+      "upstream_net": "VDD0P8_CORE",
+      "downstream_net": "AVDD0P8_PLL",
+      "source_path": [
+        "U21",
+        "L21",
+        "VDD0P8_CORE",
+        "FB202",
+        "AVDD0P8_PLL"
+      ],
+      "soc_direct_balls": [
+        "G11"
+      ],
+      "local_capacitors": [
+        {
+          "reference": "C234",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        }
+      ],
+      "downstream_direct_nodes": [
+        {
+          "ref": "C234",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "FB202",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "G11",
+          "pinfunction": "AVDD0P8_PLL",
+          "pintype": "power_in"
+        }
+      ],
+      "guide_current_mA": 120,
+      "guide_current_scope": "module design budget; not a guaranteed maximum, peak or temperature envelope",
+      "actual_branch_max_current_A": null,
+      "actual_inrush_peak_A": null,
+      "branch_current_closed": false,
+      "guide_voltage_min_V": 0.72,
+      "guide_voltage_max_V": 0.88,
+      "guide_source": "K230_HDG / PLL",
+      "upstream_static_min_V": 0.7882991180397219,
+      "upstream_static_max_V": 0.8101957058066466,
+      "lower_shared_budget_before_bead_mV": 68.29911803972189,
+      "upper_shared_budget_before_bead_mV": 69.80429419335343,
+      "bead_drop_budget_allocated": false,
+      "note": "Precision/noise-sensitive 0.8 V branch; actual PLL peak/noise spectrum needed",
+      "conditional_geometry_candidate": "Murata BLM15PX121SN1D",
+      "electrical_release": false,
+      "dc_scenarios": [
+        {
+          "scenario": "initial_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.055,
+          "current_basis_mA": 120,
+          "bead_drop_mV": 6.6,
+          "bead_loss_mW": 0.7919999999999999,
+          "remaining_lower_combined_budget_mV": 61.69911803972189,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "post_test_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.07,
+          "current_basis_mA": 120,
+          "bead_drop_mV": 8.4,
+          "bead_loss_mW": 1.008,
+          "remaining_lower_combined_budget_mV": 59.89911803972189,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "IF_hot_DCR_qualified_at_existing_intent_ceiling",
+          "resistance_ohm": 0.1,
+          "current_basis_mA": 120,
+          "bead_drop_mV": 12.0,
+          "bead_loss_mW": 1.4400000000000002,
+          "remaining_lower_combined_budget_mV": 56.29911803972189,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        }
+      ]
+    },
+    {
+      "reference": "FB203",
+      "upstream_net": "VDD0P8_CORE",
+      "downstream_net": "AVDD0P8_MIPI",
+      "source_path": [
+        "U21",
+        "L21",
+        "VDD0P8_CORE",
+        "FB203",
+        "AVDD0P8_MIPI"
+      ],
+      "soc_direct_balls": [
+        "N6",
+        "R8"
+      ],
+      "local_capacitors": [
+        {
+          "reference": "C235",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        },
+        {
+          "reference": "C246",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        }
+      ],
+      "downstream_direct_nodes": [
+        {
+          "ref": "C235",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "C246",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "FB203",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "N6",
+          "pinfunction": "AVDD0P8_MIPI",
+          "pintype": "power_in"
+        },
+        {
+          "ref": "U1",
+          "pin": "R8",
+          "pinfunction": "AVDD0P8_MIPI",
+          "pintype": "power_in"
+        }
+      ],
+      "guide_current_mA": 100,
+      "guide_current_scope": "module design budget; not a guaranteed maximum, peak or temperature envelope",
+      "actual_branch_max_current_A": null,
+      "actual_inrush_peak_A": null,
+      "branch_current_closed": false,
+      "guide_voltage_min_V": 0.744,
+      "guide_voltage_max_V": 0.88,
+      "guide_source": "K230_HDG / MIPI",
+      "upstream_static_min_V": 0.7882991180397219,
+      "upstream_static_max_V": 0.8101957058066466,
+      "lower_shared_budget_before_bead_mV": 44.29911803972186,
+      "upper_shared_budget_before_bead_mV": 69.80429419335343,
+      "bead_drop_budget_allocated": false,
+      "note": "Tightest lower-voltage headroom; aggregate MIPI row applied once to both balls; 0.8 V must rise before 1.8 V",
+      "conditional_geometry_candidate": "Murata BLM15PX121SN1D",
+      "electrical_release": false,
+      "dc_scenarios": [
+        {
+          "scenario": "initial_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.055,
+          "current_basis_mA": 100,
+          "bead_drop_mV": 5.5,
+          "bead_loss_mW": 0.5500000000000002,
+          "remaining_lower_combined_budget_mV": 38.79911803972186,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "post_test_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.07,
+          "current_basis_mA": 100,
+          "bead_drop_mV": 7.000000000000001,
+          "bead_loss_mW": 0.7000000000000002,
+          "remaining_lower_combined_budget_mV": 37.29911803972186,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "IF_hot_DCR_qualified_at_existing_intent_ceiling",
+          "resistance_ohm": 0.1,
+          "current_basis_mA": 100,
+          "bead_drop_mV": 10.0,
+          "bead_loss_mW": 1.0000000000000002,
+          "remaining_lower_combined_budget_mV": 34.29911803972186,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        }
+      ]
+    },
+    {
+      "reference": "FB204",
+      "upstream_net": "VDD1P8",
+      "downstream_net": "VAA_DDR",
+      "source_path": [
+        "U25",
+        "L25",
+        "VDD1P8",
+        "FB204",
+        "VAA_DDR"
+      ],
+      "soc_direct_balls": [
+        "K15"
+      ],
+      "local_capacitors": [
+        {
+          "reference": "C236",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        }
+      ],
+      "downstream_direct_nodes": [
+        {
+          "ref": "C236",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "FB204",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "K15",
+          "pinfunction": "VAA_DDR",
+          "pintype": "power_in"
+        }
+      ],
+      "guide_current_mA": 10,
+      "guide_current_scope": "module design budget; not a guaranteed maximum, peak or temperature envelope",
+      "actual_branch_max_current_A": null,
+      "actual_inrush_peak_A": null,
+      "branch_current_closed": false,
+      "guide_voltage_min_V": 1.674,
+      "guide_voltage_max_V": 1.98,
+      "guide_source": "K230_HDG / DDR",
+      "upstream_static_min_V": 1.7644766146971205,
+      "upstream_static_max_V": 1.836094613293051,
+      "lower_shared_budget_before_bead_mV": 90.47661469712054,
+      "upper_shared_budget_before_bead_mV": 143.9053867069491,
+      "bead_drop_budget_allocated": false,
+      "note": "DDR PHY PLL supply, not the external DRAM VDD1 branch; guide ripple requirement within 5% of typical voltage",
+      "conditional_geometry_candidate": "Murata BLM15PX121SN1D",
+      "electrical_release": false,
+      "dc_scenarios": [
+        {
+          "scenario": "initial_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.055,
+          "current_basis_mA": 10,
+          "bead_drop_mV": 0.55,
+          "bead_loss_mW": 0.0055000000000000005,
+          "remaining_lower_combined_budget_mV": 89.92661469712054,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "post_test_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.07,
+          "current_basis_mA": 10,
+          "bead_drop_mV": 0.7000000000000001,
+          "bead_loss_mW": 0.007000000000000001,
+          "remaining_lower_combined_budget_mV": 89.77661469712054,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "IF_hot_DCR_qualified_at_existing_intent_ceiling",
+          "resistance_ohm": 0.1,
+          "current_basis_mA": 10,
+          "bead_drop_mV": 1.0,
+          "bead_loss_mW": 0.01,
+          "remaining_lower_combined_budget_mV": 89.47661469712054,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        }
+      ]
+    },
+    {
+      "reference": "FB205",
+      "upstream_net": "VDD1P8",
+      "downstream_net": "AVDD1P8_USB",
+      "source_path": [
+        "U25",
+        "L25",
+        "VDD1P8",
+        "FB205",
+        "AVDD1P8_USB"
+      ],
+      "soc_direct_balls": [
+        "F9"
+      ],
+      "local_capacitors": [
+        {
+          "reference": "C237",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        }
+      ],
+      "downstream_direct_nodes": [
+        {
+          "ref": "C237",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "FB205",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "F9",
+          "pinfunction": "AVDD1P8_USB",
+          "pintype": "power_in"
+        }
+      ],
+      "guide_current_mA": 60,
+      "guide_current_scope": "module design budget; not a guaranteed maximum, peak or temperature envelope",
+      "actual_branch_max_current_A": null,
+      "actual_inrush_peak_A": null,
+      "branch_current_closed": false,
+      "guide_voltage_min_V": 1.674,
+      "guide_voltage_max_V": 1.98,
+      "guide_source": "K230_HDG / USB",
+      "upstream_static_min_V": 1.7644766146971205,
+      "upstream_static_max_V": 1.836094613293051,
+      "lower_shared_budget_before_bead_mV": 90.47661469712054,
+      "upper_shared_budget_before_bead_mV": 143.9053867069491,
+      "bead_drop_budget_allocated": false,
+      "note": "USB PHY analog branch; not a USB VBUS/external-port current budget",
+      "conditional_geometry_candidate": "Murata BLM15PX121SN1D",
+      "electrical_release": false,
+      "dc_scenarios": [
+        {
+          "scenario": "initial_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.055,
+          "current_basis_mA": 60,
+          "bead_drop_mV": 3.3,
+          "bead_loss_mW": 0.19799999999999998,
+          "remaining_lower_combined_budget_mV": 87.17661469712054,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "post_test_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.07,
+          "current_basis_mA": 60,
+          "bead_drop_mV": 4.2,
+          "bead_loss_mW": 0.252,
+          "remaining_lower_combined_budget_mV": 86.27661469712054,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "IF_hot_DCR_qualified_at_existing_intent_ceiling",
+          "resistance_ohm": 0.1,
+          "current_basis_mA": 60,
+          "bead_drop_mV": 6.0,
+          "bead_loss_mW": 0.36000000000000004,
+          "remaining_lower_combined_budget_mV": 84.47661469712054,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        }
+      ]
+    },
+    {
+      "reference": "FB206",
+      "upstream_net": "VDD1P8",
+      "downstream_net": "AVDD1P8_PMU",
+      "source_path": [
+        "U25",
+        "L25",
+        "VDD1P8",
+        "FB206",
+        "AVDD1P8_PMU"
+      ],
+      "soc_direct_balls": [
+        "F14",
+        "F15"
+      ],
+      "local_capacitors": [
+        {
+          "reference": "C238",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        },
+        {
+          "reference": "C239",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        }
+      ],
+      "downstream_direct_nodes": [
+        {
+          "ref": "C238",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "C239",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "FB206",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "R401",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "F14",
+          "pinfunction": "AVDD1P8_LDO",
+          "pintype": "power_in"
+        },
+        {
+          "ref": "U1",
+          "pin": "F15",
+          "pinfunction": "AVDD1P8_RTC",
+          "pintype": "power_in"
+        }
+      ],
+      "guide_current_mA": 20,
+      "guide_current_scope": "PMU supply subtotal excluding strap",
+      "actual_branch_max_current_A": null,
+      "actual_inrush_peak_A": null,
+      "branch_current_closed": false,
+      "guide_voltage_min_V": 1.674,
+      "guide_voltage_max_V": 1.98,
+      "guide_source": "K230_HDG / PMU",
+      "upstream_static_min_V": 1.7644766146971205,
+      "upstream_static_max_V": 1.836094613293051,
+      "lower_shared_budget_before_bead_mV": 90.47661469712054,
+      "upper_shared_budget_before_bead_mV": 143.9053867069491,
+      "bead_drop_budget_allocated": false,
+      "note": "10+10 mA PMU subtotal only; add U1.C12/R401 strap/pad current; preserve shared RTC/LDO domain",
+      "conditional_geometry_candidate": "Murata BLM15PX121SN1D",
+      "electrical_release": false,
+      "additional_path": [
+        "R401.1",
+        "R401.2",
+        "PMU_INT4_AUTO_START",
+        "U1.C12 GPIO68/INT4"
+      ],
+      "additional_current_A": null,
+      "additional_drop_formula_V": "I_R401_pad_A * R_bead_hot_ohm",
+      "dc_scenarios": [
+        {
+          "scenario": "initial_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.055,
+          "current_basis_mA": 20,
+          "bead_drop_mV": 1.1,
+          "bead_loss_mW": 0.022000000000000002,
+          "remaining_lower_combined_budget_mV": 89.37661469712054,
+          "subtotal_only": true,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "post_test_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.07,
+          "current_basis_mA": 20,
+          "bead_drop_mV": 1.4000000000000001,
+          "bead_loss_mW": 0.028000000000000004,
+          "remaining_lower_combined_budget_mV": 89.07661469712053,
+          "subtotal_only": true,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "IF_hot_DCR_qualified_at_existing_intent_ceiling",
+          "resistance_ohm": 0.1,
+          "current_basis_mA": 20,
+          "bead_drop_mV": 2.0,
+          "bead_loss_mW": 0.04,
+          "remaining_lower_combined_budget_mV": 88.47661469712054,
+          "subtotal_only": true,
+          "hot_qualification_established": false
+        }
+      ]
+    },
+    {
+      "reference": "FB207",
+      "upstream_net": "VDD1P8",
+      "downstream_net": "AVDD1P8_MIPI",
+      "source_path": [
+        "U25",
+        "L25",
+        "VDD1P8",
+        "FB207",
+        "AVDD1P8_MIPI"
+      ],
+      "soc_direct_balls": [
+        "N7",
+        "R9"
+      ],
+      "local_capacitors": [
+        {
+          "reference": "C240",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        },
+        {
+          "reference": "C245",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        }
+      ],
+      "downstream_direct_nodes": [
+        {
+          "ref": "C240",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "C245",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "FB207",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "N7",
+          "pinfunction": "AVDD1P8_MIPI",
+          "pintype": "power_in"
+        },
+        {
+          "ref": "U1",
+          "pin": "R9",
+          "pinfunction": "AVDD1P8_MIPI",
+          "pintype": "power_in"
+        }
+      ],
+      "guide_current_mA": 30,
+      "guide_current_scope": "module design budget; not a guaranteed maximum, peak or temperature envelope",
+      "actual_branch_max_current_A": null,
+      "actual_inrush_peak_A": null,
+      "branch_current_closed": false,
+      "guide_voltage_min_V": 1.674,
+      "guide_voltage_max_V": 1.98,
+      "guide_source": "K230_HDG / MIPI",
+      "upstream_static_min_V": 1.7644766146971205,
+      "upstream_static_max_V": 1.836094613293051,
+      "lower_shared_budget_before_bead_mV": 90.47661469712054,
+      "upper_shared_budget_before_bead_mV": 143.9053867069491,
+      "bead_drop_budget_allocated": false,
+      "note": "Aggregate MIPI row applied once to both balls; sequence with FB203 and capacitive ramp coupling remains open",
+      "conditional_geometry_candidate": "Murata BLM15PX121SN1D",
+      "electrical_release": false,
+      "dc_scenarios": [
+        {
+          "scenario": "initial_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.055,
+          "current_basis_mA": 30,
+          "bead_drop_mV": 1.65,
+          "bead_loss_mW": 0.049499999999999995,
+          "remaining_lower_combined_budget_mV": 88.82661469712053,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "post_test_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.07,
+          "current_basis_mA": 30,
+          "bead_drop_mV": 2.1,
+          "bead_loss_mW": 0.063,
+          "remaining_lower_combined_budget_mV": 88.37661469712054,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "IF_hot_DCR_qualified_at_existing_intent_ceiling",
+          "resistance_ohm": 0.1,
+          "current_basis_mA": 30,
+          "bead_drop_mV": 3.0,
+          "bead_loss_mW": 0.09000000000000001,
+          "remaining_lower_combined_budget_mV": 87.47661469712054,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        }
+      ]
+    },
+    {
+      "reference": "FB208",
+      "upstream_net": "VDD1P8",
+      "downstream_net": "AVDD1P8_ADC",
+      "source_path": [
+        "U25",
+        "L25",
+        "VDD1P8",
+        "FB208",
+        "AVDD1P8_ADC"
+      ],
+      "soc_direct_balls": [
+        "F8"
+      ],
+      "local_capacitors": [
+        {
+          "reference": "C241",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        }
+      ],
+      "downstream_direct_nodes": [
+        {
+          "ref": "C241",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "FB208",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "F8",
+          "pinfunction": "AVDD1P8_ADC",
+          "pintype": "power_in"
+        }
+      ],
+      "guide_current_mA": 10,
+      "guide_current_scope": "module design budget; not a guaranteed maximum, peak or temperature envelope",
+      "actual_branch_max_current_A": null,
+      "actual_inrush_peak_A": null,
+      "branch_current_closed": false,
+      "guide_voltage_min_V": 1.62,
+      "guide_voltage_max_V": 1.98,
+      "guide_source": "K230_HDG / ADC",
+      "upstream_static_min_V": 1.7644766146971205,
+      "upstream_static_max_V": 1.836094613293051,
+      "lower_shared_budget_before_bead_mV": 144.47661469712037,
+      "upper_shared_budget_before_bead_mV": 143.9053867069491,
+      "bead_drop_budget_allocated": false,
+      "note": "Precision/noise target must justify shared buck plus ferrite vs recommended high-precision LDO",
+      "conditional_geometry_candidate": "Murata BLM15PX121SN1D",
+      "electrical_release": false,
+      "dc_scenarios": [
+        {
+          "scenario": "initial_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.055,
+          "current_basis_mA": 10,
+          "bead_drop_mV": 0.55,
+          "bead_loss_mW": 0.0055000000000000005,
+          "remaining_lower_combined_budget_mV": 143.92661469712036,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "post_test_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.07,
+          "current_basis_mA": 10,
+          "bead_drop_mV": 0.7000000000000001,
+          "bead_loss_mW": 0.007000000000000001,
+          "remaining_lower_combined_budget_mV": 143.77661469712038,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "IF_hot_DCR_qualified_at_existing_intent_ceiling",
+          "resistance_ohm": 0.1,
+          "current_basis_mA": 10,
+          "bead_drop_mV": 1.0,
+          "bead_loss_mW": 0.01,
+          "remaining_lower_combined_budget_mV": 143.47661469712037,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        }
+      ]
+    },
+    {
+      "reference": "FB209",
+      "upstream_net": "VDD1P8",
+      "downstream_net": "AVDD1P8_CODEC",
+      "source_path": [
+        "U25",
+        "L25",
+        "VDD1P8",
+        "FB209",
+        "AVDD1P8_CODEC"
+      ],
+      "soc_direct_balls": [
+        "F7"
+      ],
+      "local_capacitors": [
+        {
+          "reference": "C242",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        }
+      ],
+      "downstream_direct_nodes": [
+        {
+          "ref": "C242",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "FB209",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "F7",
+          "pinfunction": "AVDD1P8_CODEC",
+          "pintype": "power_in"
+        }
+      ],
+      "guide_current_mA": 100,
+      "guide_current_scope": "module design budget; not a guaranteed maximum, peak or temperature envelope",
+      "actual_branch_max_current_A": null,
+      "actual_inrush_peak_A": null,
+      "branch_current_closed": false,
+      "guide_voltage_min_V": 1.62,
+      "guide_voltage_max_V": 1.98,
+      "guide_source": "K230_HDG / CODEC",
+      "upstream_static_min_V": 1.7644766146971205,
+      "upstream_static_max_V": 1.836094613293051,
+      "lower_shared_budget_before_bead_mV": 144.47661469712037,
+      "upper_shared_budget_before_bead_mV": 143.9053867069491,
+      "bead_drop_budget_allocated": false,
+      "note": "Actual audio output/microphone load and noise target needed; preserve analog decoupling gate",
+      "conditional_geometry_candidate": "Murata BLM15PX121SN1D",
+      "electrical_release": false,
+      "dc_scenarios": [
+        {
+          "scenario": "initial_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.055,
+          "current_basis_mA": 100,
+          "bead_drop_mV": 5.5,
+          "bead_loss_mW": 0.5500000000000002,
+          "remaining_lower_combined_budget_mV": 138.97661469712037,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "post_test_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.07,
+          "current_basis_mA": 100,
+          "bead_drop_mV": 7.000000000000001,
+          "bead_loss_mW": 0.7000000000000002,
+          "remaining_lower_combined_budget_mV": 137.47661469712037,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "IF_hot_DCR_qualified_at_existing_intent_ceiling",
+          "resistance_ohm": 0.1,
+          "current_basis_mA": 100,
+          "bead_drop_mV": 10.0,
+          "bead_loss_mW": 1.0000000000000002,
+          "remaining_lower_combined_budget_mV": 134.47661469712037,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        }
+      ]
+    },
+    {
+      "reference": "FB210",
+      "upstream_net": "VDD_3V3",
+      "downstream_net": "AVDD3P3_USB",
+      "source_path": [
+        "U26",
+        "L26",
+        "VDD_3V3",
+        "FB210",
+        "AVDD3P3_USB"
+      ],
+      "soc_direct_balls": [
+        "E9"
+      ],
+      "local_capacitors": [
+        {
+          "reference": "C243",
+          "value": "100nF CL03B104KP3NNWC CANDIDATE"
+        }
+      ],
+      "downstream_direct_nodes": [
+        {
+          "ref": "C243",
+          "pin": "1",
+          "pintype": "passive"
+        },
+        {
+          "ref": "FB210",
+          "pin": "2",
+          "pintype": "passive"
+        },
+        {
+          "ref": "U1",
+          "pin": "E9",
+          "pinfunction": "AVDD3P3_USB",
+          "pintype": "power_in"
+        }
+      ],
+      "guide_current_mA": 50,
+      "guide_current_scope": "module design budget; not a guaranteed maximum, peak or temperature envelope",
+      "actual_branch_max_current_A": null,
+      "actual_inrush_peak_A": null,
+      "branch_current_closed": false,
+      "guide_voltage_min_V": 3.07,
+      "guide_voltage_max_V": 3.63,
+      "guide_source": "K230_HDG / USB",
+      "upstream_static_min_V": 3.2451295322889773,
+      "upstream_static_max_V": 3.392164299108761,
+      "lower_shared_budget_before_bead_mV": 175.12953228897743,
+      "upper_shared_budget_before_bead_mV": 237.83570089123884,
+      "bead_drop_budget_allocated": false,
+      "note": "3.3 V PHY branch; not external USB port/VBUS current; upstream rail also serves other loads",
+      "conditional_geometry_candidate": "Murata BLM15PX121SN1D",
+      "electrical_release": false,
+      "dc_scenarios": [
+        {
+          "scenario": "initial_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.055,
+          "current_basis_mA": 50,
+          "bead_drop_mV": 2.75,
+          "bead_loss_mW": 0.13750000000000004,
+          "remaining_lower_combined_budget_mV": 172.37953228897743,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "post_test_DCR_at_manufacturer_test_conditions",
+          "resistance_ohm": 0.07,
+          "current_basis_mA": 50,
+          "bead_drop_mV": 3.5000000000000004,
+          "bead_loss_mW": 0.17500000000000004,
+          "remaining_lower_combined_budget_mV": 171.62953228897743,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        },
+        {
+          "scenario": "IF_hot_DCR_qualified_at_existing_intent_ceiling",
+          "resistance_ohm": 0.1,
+          "current_basis_mA": 50,
+          "bead_drop_mV": 5.0,
+          "bead_loss_mW": 0.25000000000000006,
+          "remaining_lower_combined_budget_mV": 170.12953228897743,
+          "subtotal_only": false,
+          "hot_qualification_established": false
+        }
+      ]
+    }
+  ],
+  "global_gates": [
+    "Actual current envelope including inrush and temperature, especially FB206 strap",
+    "Rdc(T, aging, process) maximum; 0.070 ohm post-test is not an 85C or 125C DCR specification",
+    "Biased complex impedance vs frequency and temperature; no numeric attenuation inferred from 120ohm@100MHz",
+    "Capacitance after bias/tolerance/temperature and mounted ESL/ESR; filter resonance/damping and regulator interaction",
+    "Shared source ripple, distribution loss, transient and thermal model; budgets cannot be spent independently",
+    "CORE/1V8/3V3, MIPI and RTC/LDO rise/fall/brownout sequence at actual SoC pins",
+    "Six-layer top-copper thickness, land/mask/paste/assembly and placement heat verified; no imported eight-layer stack authority"
+  ]
+}

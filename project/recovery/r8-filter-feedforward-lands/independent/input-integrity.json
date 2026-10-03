@@ -1,0 +1,31 @@
+{
+  "input_project_unchanged": true,
+  "files": {
+    "cad/recovery-physical-candidate/04_LPDDR4_1.kicad_sch": "e149af7df81d9d106dd95a6faad69b93be062eb82528d17ba92b4976991ffbb7",
+    "cad/recovery-physical-candidate/06_eMMC_1.kicad_sch": "0a30b642909a903d2f7a79317b9fbee851910f7420dc9b670481b8dfdedb9526",
+    "cad/recovery-physical-candidate/12_Local_Decoupling.kicad_sch": "b29395b98d342fdb81bb46c384fd1c167f07189ec3df7feb95f5b17366c6252e",
+    "cad/recovery-physical-candidate/09_Cold_Storage_Selector.kicad_sch": "51d69086dbbd4fdcefccc5085c92db5aa79d302d30fba7c179f54d782905c300",
+    "cad/recovery-physical-candidate/14_EMMC_Local_Bias.kicad_sch": "4d454c44e6589b21c92d5f4a531c5e581f57eb406a59c363e091834028ace8af",
+    "cad/recovery-physical-candidate/11_DDR_USB_MIPI_Bias.kicad_sch": "96d57afdef0c658d262a73da853bc29cb0b60df2bc5d33677efe174928500c3c",
+    "cad/recovery-physical-candidate/02_SoC_2.kicad_sch": "c3ab1a72e6961358dfc7b57245870907f6c2744276b3e3a12932cde1276e017e",
+    "cad/recovery-physical-candidate/07_Edge_Contract_1.kicad_sch": "b229d6c7f9cafec50d891b723466b5dcc49d69a991701963debb9ad147a3da2f",
+    "cad/recovery-physical-candidate/13_PMU_Automatic_Startup.kicad_sch": "46ee53a0c397bb4f4aefa79b1fbd94bd6d4d1484b9e6e9cb1a9e56f82e62abc1",
+    "cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch": "595e5ba3e699592f981fd12716df905c60a2504811a317ae4800de631a0607b1",
+    "cad/recovery-physical-candidate/15_Hardware_Reset_Interlock.kicad_sch": "807ddf3b1ecaa8dd316de708d2cc6c85bbb80f6734d7d56a9030e46de6fee2f4",
+    "cad/recovery-physical-candidate/03_SoC_3.kicad_sch": "06a39a5bdf59cdd840555609a63533240f868a4ad34e15abba14e11f71f0eb61",
+    "cad/recovery-physical-candidate/05_LPDDR4_2.kicad_sch": "46d076e1d9a60308cd7130fc9f58107b9f25aa7876075b2d21047a399668aad5",
+    "cad/recovery-physical-candidate/16_TF_Voltage_Translation.kicad_sch": "96b5150ffd64da54e0ab065f15ea2fdc4db9e37c1a8e927dba286d96bf85000a",
+    "cad/recovery-physical-candidate/17_Audited_Source_Declarations.kicad_sch": "e2763b459a4d3eba156da17addb02fee281e92ad7f951af12eb9962a257eea8e",
+    "cad/recovery-physical-candidate/08_Clock_Reset_Boot.kicad_sch": "3802df96d5c42bc2aa2cd979a304edef9808fbfdb7b98a4813d1ed7350c55c2b",
+    "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch": "3ae569bab5cc09b3764716825385a166eed4f1087a21d7602ec87730638b1d56",
+    "cad/recovery-physical-candidate/01_SoC_1.kicad_sch": "8f6957a06c85c6d53f487f73a07fa38cdd383ccf1dc0701c10664740737fd378",
+    "cad/recovery-physical-candidate/master.xml": "18745bd323979408f968a9ad95458fa0d3c71da91a556633fcd3dcb513afc613",
+    "cad/recovery-physical-candidate/fp-lib-table": "360ea5881bfff8b70407f506e3e5e223309b3b836bbafe9ac6c8889794dd81bc",
+    "cad/recovery-filter-candidates/CMK230_Filter_Feedforward_Candidates.pretty/Murata_BLM15PX121_35um_SourcePattern_CONDITIONAL.kicad_mod": "b06cfa58d404ed30bf47657b0c6bb14aed07f3df4fb5a98c98bdcf4d1bded36b",
+    "cad/recovery-filter-candidates/CMK230_Filter_Feedforward_Candidates.pretty/Murata_BLM15PX121_18um_SourcePattern_CONDITIONAL.kicad_mod": "a7c0ae2d5650c25a2c0311abbee97b775d5e614b501527c5ab25a7b690fe198c",
+    "cad/recovery-filter-candidates/CMK230_Filter_Feedforward_Candidates.pretty/Murata_BLM15PX121_70um_SourcePattern_CONDITIONAL.kicad_mod": "8eb690d10de62250beaba988b485879e3fddadb0bece2a4965907eb6352243a2",
+    "cad/recovery-filter-candidates/CMK230_Filter_Feedforward_Candidates.pretty/KEMET_C0402_C0G_DensityB_SOURCE_CANDIDATE.kicad_mod": "b198ea827d5baac7b9c5359a55570f6ef242f76cd1bc3d35eb4e07c887be16f6",
+    "recovery/r8-filter-feedforward-lands/FILTER_LANDS_GEOMETRY_ONLY.kicad_pcb": "ee3baced9d67649ad0e38decea861932a6fc13c8e08e57ee272bb0f1a910afb8",
+    "recovery/r8-filter-feedforward-lands/FILTER_LANDS_GEOMETRY_ONLY.kicad_pro": "ecee4997f457037b6a1b74fe8722c5e2597a1149dfcd73822deb9115315dc622"
+  }
+}

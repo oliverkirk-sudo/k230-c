@@ -13,3 +13,5 @@ R5 conditionally changes only eight DAT pullups to43k and assigns their source-l
 R6 assigns25 conditional bias-resistor footprints and the exact L21 source-land candidate, preserving all values and nets:192 assigned/62 gaps. See ../../recovery/r6-passive-coverage/README.md. Its correct winding-start orientation and larger maximum-body reservation do not establish a power-loop or board-fit pass.
 
 R7 assigns ten further link/feature footprints and excludes three fabricated copper features from the BOM:202 assigned/52 gaps. All values, bindings and DNP states are preserved. See ../../recovery/r7-links-and-features/README.md. Default DNP does not remove R528 paste apertures; production stencil selection remains unresolved.
+
+R8 assigns nine process-dependent ferrite patterns and four feedforward-capacitor source lands:215 assigned/39 gaps, unchanged values/nets/population. See ../../recovery/r8-filter-feedforward-lands/README.md. The18µm pattern reservation is not a selected or approved six-layer stack; hot DCR, bias response and process registration remain open.

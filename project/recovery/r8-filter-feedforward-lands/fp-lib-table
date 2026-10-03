@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "CMK230_Filter_Feedforward_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../../cad/recovery-filter-candidates/CMK230_Filter_Feedforward_Candidates.pretty") (options "") (descr "Conditional source patterns")))

@@ -1,0 +1,110 @@
+{
+  "units": "mm",
+  "origin": "component body center",
+  "horizontal_axis": "body length; terminals on left/right",
+  "recommended_conditional_option": "manufacturer density B",
+  "source_id": "KEMET-C1003",
+  "source_page": 12,
+  "interpretation": "C is origin-to-pad-center distance, not total pad pitch. Y is pad length along body axis; X is pad width. V1/V2 are grid placement courtyard dimensions, not copper land size. Diagram visually reviewed.",
+  "body": {
+    "L_nominal": 1.0,
+    "L_tolerance_plus_minus": 0.05,
+    "W_nominal": 0.5,
+    "W_tolerance_plus_minus": 0.05,
+    "T_nominal": 0.5,
+    "T_tolerance_plus_minus": 0.05,
+    "termination_band_B_nominal": 0.3,
+    "termination_band_B_tolerance_plus_minus": 0.1,
+    "termination_separation_S_minimum": 0.3
+  },
+  "density_B": {
+    "source_C": 0.45,
+    "source_Y": 0.62,
+    "source_X": 0.62,
+    "source_V1": 1.9,
+    "source_V2": 1.0,
+    "pads": [
+      {
+        "number": "1",
+        "shape": "rect",
+        "center": [
+          -0.45,
+          0.0
+        ],
+        "size": [
+          0.62,
+          0.62
+        ],
+        "copper_bounds": [
+          -0.76,
+          -0.31,
+          -0.14,
+          0.31
+        ]
+      },
+      {
+        "number": "2",
+        "shape": "rect",
+        "center": [
+          0.45,
+          0.0
+        ],
+        "size": [
+          0.62,
+          0.62
+        ],
+        "copper_bounds": [
+          0.14,
+          -0.31,
+          0.76,
+          0.31
+        ]
+      }
+    ],
+    "pad_center_pitch": 0.9,
+    "inner_copper_gap": 0.28,
+    "outer_copper_span": 1.52,
+    "courtyard_bounds": [
+      -0.95,
+      -0.5,
+      0.95,
+      0.5
+    ],
+    "mount_side": "F.Cu only",
+    "process": "solder reflow",
+    "selection_reason": "Manufacturer identifies density B for a robust reflow solder attachment; avoids silently choosing smallest pads before assembler process approval."
+  },
+  "density_C_not_selected": {
+    "source_C": 0.4,
+    "source_Y": 0.52,
+    "source_X": 0.52,
+    "source_V1": 1.6,
+    "source_V2": 0.8,
+    "pad_centers": [
+      [
+        -0.4,
+        0
+      ],
+      [
+        0.4,
+        0
+      ]
+    ],
+    "pad_size": [
+      0.52,
+      0.52
+    ],
+    "pad_center_pitch": 0.8,
+    "inner_copper_gap": 0.28,
+    "outer_copper_span": 1.32,
+    "qualification_requirement": "Manufacturer calls for qualification testing per IPC-7351 conditions before adopting minimum lands."
+  },
+  "not_source_defined": [
+    "solder mask expansion and minimum web",
+    "paste aperture reduction and stencil thickness",
+    "roundrect corner radius",
+    "assembly placement tolerances and yield",
+    "board-layout clearance to neighboring parts"
+  ],
+  "pin_numbering": "Nonpolar part. Proposed logical footprint pin 1 is left/output and pin 2 right/FB at zero rotation; physical reversal is electrically equivalent. Preserve XML pad-net binding."
+}

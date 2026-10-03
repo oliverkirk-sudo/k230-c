@@ -1,0 +1,22 @@
+{
+  "netlist": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "drc": {
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to recovery/r8-filter-feedforward-lands/fixture-drc.json\n",
+    "stderr": ""
+  },
+  "cam": {
+    "returncode": 0,
+    "stdout": "Plotted to 'recovery/r8-filter-feedforward-lands/native-cam/FILTER_LANDS_GEOMETRY_ONLY-F_Cu.gtl'.\nPlotted to 'recovery/r8-filter-feedforward-lands/native-cam/FILTER_LANDS_GEOMETRY_ONLY-F_Paste.gtp'.\nPlotted to 'recovery/r8-filter-feedforward-lands/native-cam/FILTER_LANDS_GEOMETRY_ONLY-F_Mask.gts'.\n",
+    "stderr": ""
+  },
+  "erc": {
+    "returncode": 0,
+    "stdout": "You have run CvPcb for the first time using the new footprint library table method for finding footprints.\nCvPcb has either copied the default table or created an empty table in your home folder.\nYou must first configure the library table to include all footprint libraries not included with KiCad.\nSee the \u201cFootprint Library Table\u201d section of the CvPcb documentation for more information. Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking for off grid pins and wires...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to cad/recovery-physical-candidate/erc.json\n",
+    "stderr": ""
+  }
+}

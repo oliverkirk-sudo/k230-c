@@ -1,0 +1,29 @@
+{
+  "status": "PASS_BOUNDED_SOURCE_AND_ARITHMETIC_CHECKS",
+  "active_master_sha256_before": "da6a33fa5ccc36897785d1b443d49979f0a37690e5fd8da6ff8ad566f3e59ec9",
+  "source_hash_matches_preexisting_report": true,
+  "unassigned_ferrite_refs_verified": [
+    "FB202",
+    "FB203",
+    "FB204",
+    "FB205",
+    "FB206",
+    "FB207",
+    "FB208",
+    "FB209",
+    "FB210"
+  ],
+  "exact_endpoint_and_local_grounded_capacitor_checks": 9,
+  "feedback_values_and_nets_verified": true,
+  "rail_math_matches_existing_screen_abs_tolerance_V": 1e-12,
+  "geometry_padding_arithmetic": {
+    "exposed_pad_length_mm": 0.39999999999999997,
+    "pad_center_abs_x_mm": 0.4
+  },
+  "assertions_passed": true,
+  "design_tree_edits": false,
+  "CAD_edits": false,
+  "board_thermal_noise_current_sequence_qualification": false,
+  "active_master_sha256_after": "da6a33fa5ccc36897785d1b443d49979f0a37690e5fd8da6ff8ad566f3e59ec9",
+  "active_master_unchanged": true
+}

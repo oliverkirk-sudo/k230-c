@@ -1,0 +1,30 @@
+{
+  "retrieved_date_utc": "2026-10-03",
+  "exact_mpn": "C0402C122J5GACTU",
+  "observations": [
+    {
+      "seller": "LCSC",
+      "url": "https://www.lcsc.com/product-detail/C22402196.html",
+      "seller_part": "C22402196",
+      "stock_shown_in_opened_web_snapshot": 220,
+      "minimum_quantity": 20,
+      "multiple": 20,
+      "source_age_reported_by_web_tool": "crawled 2 weeks ago",
+      "qualifier": "Earlier indexed search snippet showed 2300; use opened page observation, do not interpret either as reserved/live confirmed inventory. Direct HTML download returned 403; no checkout used.",
+      "MOQ1_preference_met": false
+    },
+    {
+      "seller": "DigiKey",
+      "url": "https://www.digikey.com/en/products/detail/kemet/C0402C122J5GACTU/3316991",
+      "seller_part": "399-C0402C122J5GACTUCT-ND",
+      "stock_shown_in_opened_web_snapshot": 104698,
+      "minimum_listed_cut_tape_quantity": 1,
+      "quantity_1_unit_price_USD": 0.52,
+      "source_age_reported_by_web_tool": "crawled last month",
+      "MOQ1_preference_met": true,
+      "qualifier": "Same exact manufacturer part; not a substituted capacitor. Price/stock may change. Cut tape, not Digi-Reel. No purchases or cart actions."
+    }
+  ],
+  "JLC_assembly_catalog_status": "No exact JLC PCB assembly listing independently verified. LCSC listing alone does not establish JLC library class or turnkey assembly availability.",
+  "procurement_disposition": "Conditional exact-part recommendation; LCSC MOQ20 preference exception explicit, same part MOQ1 listed at DigiKey. Confirm current availability at ordering."
+}

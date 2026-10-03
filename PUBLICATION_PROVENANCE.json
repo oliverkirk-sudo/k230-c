@@ -1,5 +1,5 @@
 {
-  "stage": "R7_CONDITIONAL_LINK_AND_FABRICATED_FEATURE_COVERAGE",
+  "stage": "R8_CONDITIONAL_FILTER_FEEDFORWARD_LANDS",
   "date_utc": "2026-10-03",
   "source_archive_sha256": {
     "v12": "63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58",
@@ -1432,7 +1432,7 @@
       "reason": "Editorial attribution text updated; technical content unchanged"
     }
   ],
-  "previous_stage": "R6_CONDITIONAL_PASSIVE_FOOTPRINT_COVERAGE",
+  "previous_stage": "R7_CONDITIONAL_LINK_AND_FABRICATED_FEATURE_COVERAGE",
   "checkpoints": [
     {
       "revision": "R3",
@@ -1596,6 +1596,47 @@
       "delta_zip_bytes": 230613,
       "source_manifest_sha256": "0fe14d3bf459b0f8046275165c57a58a2ab81769786d3e2496db5d605bf713fb",
       "changed_source_files": 65,
+      "manifest_included_separately": true,
+      "publication_source_files_byte_identical": true,
+      "production_ready": false,
+      "active_full_six_layer_board": false
+    },
+    {
+      "components": 254,
+      "pin_bindings": 1509,
+      "distinct_nets": 457,
+      "footprints_assigned": 215,
+      "footprints_unassigned": 39,
+      "changed_footprint_refs": [
+        "C202",
+        "C219",
+        "C224",
+        "C229",
+        "FB202",
+        "FB203",
+        "FB204",
+        "FB205",
+        "FB206",
+        "FB207",
+        "FB208",
+        "FB209",
+        "FB210"
+      ],
+      "other_component_attributes_nets_BOM_population_unchanged": true,
+      "root_schematic_revision": "RCV-R8",
+      "own_native_svgs_reviewed": 1,
+      "geometry_fixture_rule_violations": 0,
+      "geometry_fixture_unrouted_connections": 0,
+      "independent_negative_controls": 8,
+      "copper_stack_approved": false,
+      "Murata_mask_registration_allowance_mm": 0,
+      "assembly_stencil_variant_gate_open": true,
+      "revision": "R8",
+      "base_commit": "1fddab33bbd0a6d00e7c53c8f09ba6f72e5ada13",
+      "delta_zip_sha256": "c1d0c019ab6488d189437282ee14b54dc892c91dc699cdcbd9cfd330c265dded",
+      "delta_zip_bytes": 218776,
+      "source_manifest_sha256": "cb780c38a4bc46eb86edf4b3e3dca31259c11cac5051fe36df7911f823e3bc0a",
+      "changed_source_files": 89,
       "manifest_included_separately": true,
       "publication_source_files_byte_identical": true,
       "production_ready": false,

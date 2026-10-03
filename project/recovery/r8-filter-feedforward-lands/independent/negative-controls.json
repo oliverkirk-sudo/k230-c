@@ -1,0 +1,42 @@
+{
+  "controls": [
+    {
+      "name": "18um_copper_shrunk_to_35um_width_native_reload",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "name": "18um_copper_shrunk_to_35um_width_native_CAM",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "name": "18um_mask_exposes_copper_shoulders_native_reload",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "name": "18um_mask_exposes_copper_shoulders_native_CAM",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "name": "18um_paste_covers_copper_shoulders_native_reload",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "name": "18um_paste_covers_copper_shoulders_native_CAM",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "name": "KEMET_C_dimension_misread_as_full_pitch",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "name": "native_0p05mm_different_net_clearance_against_0p20mm_rule",
+      "result": "REJECTED_AS_EXPECTED",
+      "clearance_violations": 2,
+      "all_violation_types": {
+        "clearance": 2,
+        "courtyards_overlap": 1
+      }
+    }
+  ],
+  "physical_native_DRC_proved": true
+}

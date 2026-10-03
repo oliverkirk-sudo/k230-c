@@ -1,0 +1,6 @@
+{
+  "omitted": {
+    "build_review.py": "49732e1252245b219f9db11a6500faa7358fa49499dea22d8812168a11e2718c"
+  },
+  "reason": "Historical source-acquisition utility; portable independent validation is supplied separately. Original source-stage hashes are provenance, not a complete public-subset manifest."
+}

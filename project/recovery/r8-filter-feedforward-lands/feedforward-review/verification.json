@@ -1,0 +1,18 @@
+{
+  "input_sha256_before_and_after": "da6a33fa5ccc36897785d1b443d49979f0a37690e5fd8da6ff8ad566f3e59ec9",
+  "input_unchanged": true,
+  "reference_count": 4,
+  "all_four_capacitors_across_upper_resistor": true,
+  "all_four_lower_resistors_10k": true,
+  "all_four_regulator_feedback_pins_3": true,
+  "all_four_footprints_were_unassigned": true,
+  "manufacturer_formula_visually_reviewed": true,
+  "manufacturer_exact_dimensions_visually_reviewed": true,
+  "manufacturer_land_table_and_C_definition_visually_reviewed": true,
+  "primary_PDF_count": 3,
+  "vendor_files_copied_to_public_review": false,
+  "CAD_files_modified": false,
+  "stability_qualification_performed": false,
+  "thermal_validation_performed": false,
+  "purchase_or_outreach_performed": false
+}

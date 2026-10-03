@@ -1,0 +1,32 @@
+{
+  "result": "PASS_BOUNDED_INDEPENDENT_AUDIT",
+  "changed_refs": [
+    "C202",
+    "C219",
+    "C224",
+    "C229",
+    "FB202",
+    "FB203",
+    "FB204",
+    "FB205",
+    "FB206",
+    "FB207",
+    "FB208",
+    "FB209",
+    "FB210"
+  ],
+  "assigned": 215,
+  "gaps": 39,
+  "ERC_violations": 0,
+  "geometry_DRC_violations": 0,
+  "negative_controls": 8,
+  "main_CAD_edited": false,
+  "production_approval": false,
+  "conditions": [
+    "Exact nominal Murata mask has no registration allowance",
+    "18um is conservative conditional local reservation, not approved six-layer copper stack",
+    "Local rectangles do not qualify continuing copper cross-section or heat removal",
+    "Paste and KEMET mask assumptions require assembly process acceptance",
+    "Actual peak/hot DCR/filter/sequence/loop/thermal and full-core-routing gates remain"
+  ]
+}

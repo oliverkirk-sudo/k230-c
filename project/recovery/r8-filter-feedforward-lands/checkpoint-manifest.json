@@ -1,0 +1,541 @@
+{
+  "revision": "R8",
+  "base_commit": "1fddab33bbd0a6d00e7c53c8f09ba6f72e5ada13",
+  "files": [
+    {
+      "path": "cad/recovery-filter-candidates/CMK230_Filter_Feedforward_Candidates.pretty/KEMET_C0402_C0G_DensityB_SOURCE_CANDIDATE.kicad_mod",
+      "bytes": 1046,
+      "sha256": "b198ea827d5baac7b9c5359a55570f6ef242f76cd1bc3d35eb4e07c887be16f6",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-filter-candidates/CMK230_Filter_Feedforward_Candidates.pretty/Murata_BLM15PX121_18um_SourcePattern_CONDITIONAL.kicad_mod",
+      "bytes": 1163,
+      "sha256": "a7c0ae2d5650c25a2c0311abbee97b775d5e614b501527c5ab25a7b690fe198c",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-filter-candidates/CMK230_Filter_Feedforward_Candidates.pretty/Murata_BLM15PX121_35um_SourcePattern_CONDITIONAL.kicad_mod",
+      "bytes": 1163,
+      "sha256": "b06cfa58d404ed30bf47657b0c6bb14aed07f3df4fb5a98c98bdcf4d1bded36b",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-filter-candidates/CMK230_Filter_Feedforward_Candidates.pretty/Murata_BLM15PX121_70um_SourcePattern_CONDITIONAL.kicad_mod",
+      "bytes": 1133,
+      "sha256": "8eb690d10de62250beaba988b485879e3fddadb0bece2a4965907eb6352243a2",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch",
+      "bytes": 127178,
+      "sha256": "3ae569bab5cc09b3764716825385a166eed4f1087a21d7602ec87730638b1d56",
+      "old_sha256": "5b41d535dbbd223ebb21b3e18d0a6a9a353763d0cb1061e84deb1ddc53d3c4ec"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch",
+      "bytes": 8895,
+      "sha256": "595e5ba3e699592f981fd12716df905c60a2504811a317ae4800de631a0607b1",
+      "old_sha256": "054c99c4abbd3e2e08d0451ce97a5a95127cc0e4cf3c8d982828b7be71ea8abf"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/README.md",
+      "bytes": 2780,
+      "sha256": "9ba3918885a886f4156e523884c00b7f48eac9864aa45db945880d0072493344",
+      "old_sha256": "ac0f6857fc2beec8ecc0d349851e85a2205e7112dafcbf2b82343dfc35af909c"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/build_review.py",
+      "bytes": 34342,
+      "sha256": "37b3d3c8d807e3b8bc5f4fb0e3962ba16a31978c051d9629a44c3713f48ebb68",
+      "old_sha256": "64462e48782faf67df8c038420802eb276822cc80ddfa16555900c1730faf9ba"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/erc.json",
+      "bytes": 3656,
+      "sha256": "a9377da51f8a9ccc0072bc558796f1e86b794e77d4d686ecd44978c6f012188a",
+      "old_sha256": "60913e5c3fdd8ebf2f45644b87575180943a2b0294ee4e9dd89fffa02af33119"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/fp-lib-table",
+      "bytes": 3803,
+      "sha256": "360ea5881bfff8b70407f506e3e5e223309b3b836bbafe9ac6c8889794dd81bc",
+      "old_sha256": "2154f307e18555ad1072453d366963e03fdbb7d2b5ce2b2c4aa31813bcc07c67"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/master.xml",
+      "bytes": 406463,
+      "sha256": "bbb9c482b05e066ba6d9ee046218abe1227d5e7918d8ebe4e1a7bcb358256183",
+      "old_sha256": "da6a33fa5ccc36897785d1b443d49979f0a37690e5fd8da6ff8ad566f3e59ec9"
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/FILTER_LANDS_GEOMETRY_ONLY.kicad_pcb",
+      "bytes": 12227,
+      "sha256": "ee3baced9d67649ad0e38decea861932a6fc13c8e08e57ee272bb0f1a910afb8",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/FILTER_LANDS_GEOMETRY_ONLY.kicad_pro",
+      "bytes": 222,
+      "sha256": "ecee4997f457037b6a1b74fe8722c5e2597a1149dfcd73822deb9115315dc622",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/README.md",
+      "bytes": 4834,
+      "sha256": "bcb2d67e4266428b90d458873b4fa363327ec44362277abf3a920e78192387b2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/assignments.json",
+      "bytes": 1271,
+      "sha256": "3e7608b7a23ea246a64c107103b4bcd583c3dca9393843c933490a3faf41caca",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/feedforward-review/README.md",
+      "bytes": 6112,
+      "sha256": "5d50517eb4c865f9008cff93a2060b253e2bd511b516ed8a4235aa18b5decb67",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/feedforward-review/artifact-sha256.json",
+      "bytes": 662,
+      "sha256": "efd06fa6c666b9e58a0555435451525099da3444643db87c03c378ec640c17f7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/feedforward-review/conditional-contract.json",
+      "bytes": 3736,
+      "sha256": "b128de0a80d73b1f1eac3562e3c74e5e23f6c11f6977c3e5b7c3f93a8f2d72d2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/feedforward-review/footprint-geometry.json",
+      "bytes": 2898,
+      "sha256": "61b2f67f32c9ef9916f68058c0a41225c8db4c80111f69ca4341976446f9923f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/feedforward-review/procurement-observations.json",
+      "bytes": 1596,
+      "sha256": "6f39766cf53d8c231621da43743feea226ef48c762e59e37ab5b3a48eed61a8d",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/feedforward-review/reference-map.json",
+      "bytes": 4164,
+      "sha256": "ad32e87c2c26cdf1b8b10cbb7812e1224364231867c71bbb61a2952a57c09031",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/feedforward-review/source-manifest.json",
+      "bytes": 1933,
+      "sha256": "6036bb28f054aad9ef9819b6e665cd52cdc84fc51875e25c2f8dbbdc5cb27d26",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/feedforward-review/verification.json",
+      "bytes": 758,
+      "sha256": "69012a9f02609dde537aef729b80cf3db34f66ad97114afd5eed94f8ace39330",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/ferrite-review/FERRITE_SOURCE_REVIEW.md",
+      "bytes": 7222,
+      "sha256": "c829ddb6280b9c0a795e8d4fe60f902d2ea85c5ba0c36ec71da1d9f5cba46474",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/ferrite-review/artifact-sha256.json",
+      "bytes": 567,
+      "sha256": "dfe7782daa82d9c00b7d05effe6b6ab90ff51f6cc5f317a7653efe8de043e3f6",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/ferrite-review/branch-contracts.json",
+      "bytes": 29726,
+      "sha256": "c9da10db4da0bf97ee570c7ab904ff5c08fdf3f5025bbb0ff41f87ed93c1c812",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/ferrite-review/branch-summary.csv",
+      "bytes": 607,
+      "sha256": "2f26a813210e46ddb74c494ad5921e5d8149e71b4944b398b29bb3611d6191cc",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/ferrite-review/geometry-contract.json",
+      "bytes": 4415,
+      "sha256": "e9cb63db9cf4450146e11d318ea450b6785d45bc8f5a471c2ab49abcc1f1dc5c",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/ferrite-review/publication-subset.json",
+      "bytes": 307,
+      "sha256": "05f92a447080aca2cdaf20b63f6b69bc7ba99de73c55d38a013da0cce7f855d5",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/ferrite-review/source-manifest.json",
+      "bytes": 2294,
+      "sha256": "e2574615133ca18e79c78d09ead9ea528515da3817b4c237d101b96bd6359767",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/ferrite-review/validation.json",
+      "bytes": 938,
+      "sha256": "80f3067af4e2a646488c83b25de596c65b499319bbfe8d6505f6d2b285ffd533",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/filter-copper.svg",
+      "bytes": 4731,
+      "sha256": "644739570ccd2e50ee9d98bda6c176fc46d6284a9d59d298c66154cc4ee4a60d",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/fixture-drc.json",
+      "bytes": 292,
+      "sha256": "b9467622f335d7cbe9ef605e9e44265e4a63d5ced6f614b7089e3823eb9b5b71",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/fp-lib-table",
+      "bytes": 234,
+      "sha256": "ce1a28874118ae26bb234b9fb6fe1aa003cda107d181d8a3ff321c0c2d9c98ab",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_copper_shrunk_to_35um_width-cam/18um_copper_shrunk_to_35um_width-F_Cu.gtl",
+      "bytes": 1236,
+      "sha256": "1f7552bbccdbdb57309a178738b42aff07041a0a00e7fcb53ec9e14d1e043e73",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_copper_shrunk_to_35um_width-cam/18um_copper_shrunk_to_35um_width-F_Mask.gts",
+      "bytes": 1439,
+      "sha256": "b5b285819cb430c29d4293287f622aee9a41d2fadc951baa089d541bcb0e5c3a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_copper_shrunk_to_35um_width-cam/18um_copper_shrunk_to_35um_width-F_Paste.gtp",
+      "bytes": 812,
+      "sha256": "106004264afb330dee61cf4f18f5cb9997804a59e990b0836328899ca758e4bc",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_copper_shrunk_to_35um_width-cam/18um_copper_shrunk_to_35um_width-job.gbrjob",
+      "bytes": 3182,
+      "sha256": "651440d14c68ac26d20a741faee75f51118532cf2961aef86092c9c1aede450b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_copper_shrunk_to_35um_width.kicad_pcb",
+      "bytes": 12227,
+      "sha256": "556646ed64320da87a5a6e66815967a125817f532a4f132c27894c09d83f02f1",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_copper_shrunk_to_35um_width.kicad_pro",
+      "bytes": 8424,
+      "sha256": "6fab84784c029beeb92c940894649056d607b4a389fb2ae0b3894803439fa0a4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_mask_exposes_copper_shoulders-cam/18um_mask_exposes_copper_shoulders-F_Cu.gtl",
+      "bytes": 1233,
+      "sha256": "e6cf5540985794adf3ae88442f691a75b237a86eb53a27ded89848e649ec173a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_mask_exposes_copper_shoulders-cam/18um_mask_exposes_copper_shoulders-F_Mask.gts",
+      "bytes": 1474,
+      "sha256": "d358900f99f7e77e6ae9e526188eeab657ceb48871c8f68d7fa70705d6f6fb21",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_mask_exposes_copper_shoulders-cam/18um_mask_exposes_copper_shoulders-F_Paste.gtp",
+      "bytes": 814,
+      "sha256": "740802243b84488903ccab5b095ef5f67134900e2993161cb3e7ed51952a2d3a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_mask_exposes_copper_shoulders-cam/18um_mask_exposes_copper_shoulders-job.gbrjob",
+      "bytes": 3190,
+      "sha256": "d0a6baf9df2b9a0ac5340ef045d5a56c8f0fa38d97dbf66853a84522a7dd328f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_mask_exposes_copper_shoulders.kicad_pcb",
+      "bytes": 12227,
+      "sha256": "0b9264c1f8b92715d710258935dd667861d6033667c37c599d84c29f51219beb",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_mask_exposes_copper_shoulders.kicad_pro",
+      "bytes": 8426,
+      "sha256": "d8d62f424caa58f28f7fc397301b48397625758050aec0710487a772af4defd1",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_paste_covers_copper_shoulders-cam/18um_paste_covers_copper_shoulders-F_Cu.gtl",
+      "bytes": 1233,
+      "sha256": "3654a5b1630a81e754cef247b453b3d97fb3e1e0b462f683060eaafd4ca50e6e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_paste_covers_copper_shoulders-cam/18um_paste_covers_copper_shoulders-F_Mask.gts",
+      "bytes": 1441,
+      "sha256": "7c7c4898b9a5eec9c766aa1767601f1bfdf458028683d736c3605e5f9ef294fd",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_paste_covers_copper_shoulders-cam/18um_paste_covers_copper_shoulders-F_Paste.gtp",
+      "bytes": 847,
+      "sha256": "870869a9140d552cd12ffac907c0a6cd789c287e0259a9e901e9549f0995d1e3",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_paste_covers_copper_shoulders-cam/18um_paste_covers_copper_shoulders-job.gbrjob",
+      "bytes": 3190,
+      "sha256": "bb7de0fc76c602d4bb6d52b2d4ecaa901140a1b518b4fea3e11103d7d3209b12",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_paste_covers_copper_shoulders.kicad_pcb",
+      "bytes": 12227,
+      "sha256": "8da85563a2e1aee87cf1bd599612b55b99cebd51262bac84164fd89c4f0934c5",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/18um_paste_covers_copper_shoulders.kicad_pro",
+      "bytes": 8426,
+      "sha256": "477edcf69a67134bb148dc4642e7463b8de3a6c773eb2b37697d7a5929f4d8c9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/README.md",
+      "bytes": 4920,
+      "sha256": "4d08a1a802a87764f554dd58e031b5a42e7b0537ce35238a0885b93f3eda9c93",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/artifact-sha256.json",
+      "bytes": 5487,
+      "sha256": "bf4a42addfb8623a8c74ba3ea219d2bc270051f222b622dde803c2eced1cd2ea",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/audit_r8.py",
+      "bytes": 14236,
+      "sha256": "5cc95904c959160f58033b803637c01ca4448afd9f9ff33a7c6a5e4e6dd379f9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/clearance-negative-drc.json",
+      "bytes": 2663,
+      "sha256": "2bb4bdcc0aea65fc9ed734e1b79c4388adeb2cfc12c3190a0d77ad9cf118bc11",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/clearance-negative.kicad_pcb",
+      "bytes": 12227,
+      "sha256": "3ee5d4759bf1806c7bf94e35497d37a7463a79d101d45bba1e640a019e553ef9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/clearance-negative.kicad_pro",
+      "bytes": 222,
+      "sha256": "ecee4997f457037b6a1b74fe8722c5e2597a1149dfcd73822deb9115315dc622",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/fp-lib-table",
+      "bytes": 224,
+      "sha256": "9df5a1bae661d211dd53022d76b504d3ff2ba8e87f1028173b248e1a5e856237",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/fresh-erc.json",
+      "bytes": 3656,
+      "sha256": "e558fb856abe15eaf183423bb069d6dd15d55393217b4e4b872685ed8a05bf1e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/fresh-master.xml",
+      "bytes": 406489,
+      "sha256": "0c42a253a881688a5760e6ba06235d52a8874d16ab27b0f7b51ef7df2bdb8d8b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/identity-check.json",
+      "bytes": 2593,
+      "sha256": "d5661985091df4006849e8c01d7d8f8eb65cd6fd3c38daeeeac98b6a1b9d7829",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/input-integrity.json",
+      "bytes": 3858,
+      "sha256": "241c805832f303a94839ef6ca4b408967d60103e7ff456efac32ddd418dd2080",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/native-cam/native-roundtrip-F_Cu.gtl",
+      "bytes": 1215,
+      "sha256": "34823e0ffc46e8c50fafedbb815d28180a33fba62ac53b1304e5c40b4db16b31",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/native-cam/native-roundtrip-F_Mask.gts",
+      "bytes": 1423,
+      "sha256": "d0b9366baa685757fe8c556805bc27556d382c21b4f5147d7a05a6b7e6d47cba",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/native-cam/native-roundtrip-F_Paste.gtp",
+      "bytes": 796,
+      "sha256": "7ee6cb87244bd9d37340d3af79f002a7742d5cee5fa9e629eb9db9c94ce2c614",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/native-cam/native-roundtrip-job.gbrjob",
+      "bytes": 3118,
+      "sha256": "54cb1d360e6965002d94e11fb54380cc34abe2927962362b3634a8d489f6e87f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/native-command-log.json",
+      "bytes": 4512,
+      "sha256": "c089dac68f95f80ee410fca488cc2bd6d06fdeb006c117f4d95c76e40cd0558a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/native-roundtrip.kicad_pcb",
+      "bytes": 12227,
+      "sha256": "ee3baced9d67649ad0e38decea861932a6fc13c8e08e57ee272bb0f1a910afb8",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/native-roundtrip.kicad_pro",
+      "bytes": 222,
+      "sha256": "ecee4997f457037b6a1b74fe8722c5e2597a1149dfcd73822deb9115315dc622",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/negative-controls.json",
+      "bytes": 1121,
+      "sha256": "627d3d29469475a79032c4f7f8fbe5f2b04a34bf57ab950455ccb4e042e3d0b8",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/omitted-runtime-artifacts.json",
+      "bytes": 341,
+      "sha256": "6753e2248cf0847e483488759997a30ee01fc9d0ebbce51d45e49f530242d0de",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/result.json",
+      "bytes": 846,
+      "sha256": "54838ed14af2fe4da250f8b10dee98585668fdfb4874ff6ea5e8624879897d45",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/roundtrip-drc.json",
+      "bytes": 282,
+      "sha256": "f1cf57868897b1051211d817526a8cd63678aab7a71b539d5663c0e221c71dac",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/saved-geometry-and-cam.json",
+      "bytes": 10337,
+      "sha256": "b9b4744f02898dcf86f1ced7717a88484302b40f4349ccda9292fce056cfb517",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/source-checks.json",
+      "bytes": 2366,
+      "sha256": "2d0d2e4d63d3505425b34f48b368b2a514730e6b2822de5516c858b5dc785133",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/source-footprints/CMK230_Filter_Feedforward_Candidates.pretty/KEMET_C0402_C0G_DensityB_SOURCE_CANDIDATE.kicad_mod",
+      "bytes": 1046,
+      "sha256": "b198ea827d5baac7b9c5359a55570f6ef242f76cd1bc3d35eb4e07c887be16f6",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/source-footprints/CMK230_Filter_Feedforward_Candidates.pretty/Murata_BLM15PX121_18um_SourcePattern_CONDITIONAL.kicad_mod",
+      "bytes": 1163,
+      "sha256": "a7c0ae2d5650c25a2c0311abbee97b775d5e614b501527c5ab25a7b690fe198c",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/source-footprints/CMK230_Filter_Feedforward_Candidates.pretty/Murata_BLM15PX121_35um_SourcePattern_CONDITIONAL.kicad_mod",
+      "bytes": 1163,
+      "sha256": "b06cfa58d404ed30bf47657b0c6bb14aed07f3df4fb5a98c98bdcf4d1bded36b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/independent/source-footprints/CMK230_Filter_Feedforward_Candidates.pretty/Murata_BLM15PX121_70um_SourcePattern_CONDITIONAL.kicad_mod",
+      "bytes": 1133,
+      "sha256": "8eb690d10de62250beaba988b485879e3fddadb0bece2a4965907eb6352243a2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/native-cam/FILTER_LANDS_GEOMETRY_ONLY-F_Cu.gtl",
+      "bytes": 1225,
+      "sha256": "9d1684a2bbfa14e434c9171ae958e59b9e6cb684be03a964da135d4fa2dc5c6d",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/native-cam/FILTER_LANDS_GEOMETRY_ONLY-F_Mask.gts",
+      "bytes": 1433,
+      "sha256": "6d097b180e809b8212dbf56b4e418c5bbf47ad4f9853c32d2af436d4be1aea7c",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/native-cam/FILTER_LANDS_GEOMETRY_ONLY-F_Paste.gtp",
+      "bytes": 806,
+      "sha256": "82bda3a8b056d9bbc8ebaddc74813a32eda95e609ccb36cf539a0ba272db443a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/native-cam/FILTER_LANDS_GEOMETRY_ONLY-job.gbrjob",
+      "bytes": 3158,
+      "sha256": "ddf16a08fb003db4243ce580c58e2fcd5d47ba0b41212426f0b7989cb0789dd9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/native-checks.json",
+      "bytes": 1691,
+      "sha256": "f661f3c169f17340eb832db5e9fc4e33353bc1eaeb17d3f9cd4edda0af6eb611",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/public-path-normalization.json",
+      "bytes": 696,
+      "sha256": "889b9b08194977c85d7293fdd753c977bc79496006d9ad1db3aab719d0f8dfef",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/remaining-inventory.json",
+      "bytes": 2368,
+      "sha256": "cdf4fbda3d57f53aa9a1b33cb76f349081f1fc30988f5218df40d6e554622495",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/validate_coverage.py",
+      "bytes": 6040,
+      "sha256": "e992fead6575dcbd2586330eded4ae00aeee5572276250407e5e1bda1e405fd9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r8-filter-feedforward-lands/validation.json",
+      "bytes": 834,
+      "sha256": "2c0ca84466f5da8435a5171c6ba21f9d422bc965fb591929fe846a630804379d",
+      "old_sha256": null
+    }
+  ],
+  "limits": "Conditional source-pattern geometry only; no approved six-layer process or completed core layout."
+}

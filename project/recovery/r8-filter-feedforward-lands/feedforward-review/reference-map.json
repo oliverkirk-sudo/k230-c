@@ -1,0 +1,139 @@
+{
+  "input_relative_path": "cad/recovery-physical-candidate/master.xml",
+  "input_sha256": "da6a33fa5ccc36897785d1b443d49979f0a37690e5fd8da6ff8ad566f3e59ec9",
+  "references": [
+    {
+      "reference": "C202",
+      "current_value": "1.2nF C0G FEEDFORWARD",
+      "footprint_unassigned": true,
+      "capacitor_pin_nets": {
+        "1": "VDD0P8_CORE",
+        "2": "FB_CORE"
+      },
+      "regulator_reference": "U21",
+      "regulator_value": "TPS62827ADMQ",
+      "regulator_FB_pin": "3",
+      "upper_resistor": {
+        "reference": "R201",
+        "nominal_ohm": 3320,
+        "pin_nets": {
+          "1": "VDD0P8_CORE",
+          "2": "FB_CORE"
+        },
+        "current_value": "3.32k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "lower_resistor": {
+        "reference": "R202",
+        "nominal_ohm": 10000,
+        "pin_nets": {
+          "1": "FB_CORE",
+          "2": "GND"
+        },
+        "current_value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "derived_Cff_pF": 1200,
+      "derived_nominal_Vout_V": 0.7992,
+      "derived_nominal_capacitor_DC_voltage_V": 0.1992
+    },
+    {
+      "reference": "C219",
+      "current_value": "1.2nF C0G FEEDFORWARD",
+      "footprint_unassigned": true,
+      "capacitor_pin_nets": {
+        "1": "VDD1P1_DDR_IO",
+        "2": "FB_DDR"
+      },
+      "regulator_reference": "U24",
+      "regulator_value": "TPS62826ADMQ",
+      "regulator_FB_pin": "3",
+      "upper_resistor": {
+        "reference": "R207",
+        "nominal_ohm": 8660,
+        "pin_nets": {
+          "1": "VDD1P1_DDR_IO",
+          "2": "FB_DDR"
+        },
+        "current_value": "8.66k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "lower_resistor": {
+        "reference": "R208",
+        "nominal_ohm": 10000,
+        "pin_nets": {
+          "1": "FB_DDR",
+          "2": "GND"
+        },
+        "current_value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "derived_Cff_pF": 1200,
+      "derived_nominal_Vout_V": 1.1196,
+      "derived_nominal_capacitor_DC_voltage_V": 0.5196
+    },
+    {
+      "reference": "C224",
+      "current_value": "1.2nF C0G FEEDFORWARD",
+      "footprint_unassigned": true,
+      "capacitor_pin_nets": {
+        "1": "VDD1P8",
+        "2": "FB_1V8"
+      },
+      "regulator_reference": "U25",
+      "regulator_value": "TPS62825ADMQ",
+      "regulator_FB_pin": "3",
+      "upper_resistor": {
+        "reference": "R210",
+        "nominal_ohm": 20000,
+        "pin_nets": {
+          "1": "VDD1P8",
+          "2": "FB_1V8"
+        },
+        "current_value": "20k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "lower_resistor": {
+        "reference": "R211",
+        "nominal_ohm": 10000,
+        "pin_nets": {
+          "1": "FB_1V8",
+          "2": "GND"
+        },
+        "current_value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "derived_Cff_pF": 1200,
+      "derived_nominal_Vout_V": 1.8,
+      "derived_nominal_capacitor_DC_voltage_V": 1.2
+    },
+    {
+      "reference": "C229",
+      "current_value": "1.2nF C0G FEEDFORWARD",
+      "footprint_unassigned": true,
+      "capacitor_pin_nets": {
+        "1": "VDD_3V3",
+        "2": "FB_3V3"
+      },
+      "regulator_reference": "U26",
+      "regulator_value": "TPS62826ADMQ",
+      "regulator_FB_pin": "3",
+      "upper_resistor": {
+        "reference": "R213",
+        "nominal_ohm": 45300,
+        "pin_nets": {
+          "1": "VDD_3V3",
+          "2": "FB_3V3"
+        },
+        "current_value": "45.3k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "lower_resistor": {
+        "reference": "R214",
+        "nominal_ohm": 10000,
+        "pin_nets": {
+          "1": "FB_3V3",
+          "2": "GND"
+        },
+        "current_value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "derived_Cff_pF": 1200,
+      "derived_nominal_Vout_V": 3.318,
+      "derived_nominal_capacitor_DC_voltage_V": 2.718
+    }
+  ],
+  "limitations": "Ideal nominal divider computations use 0.600 V FB reference, omit leakage and resistor/reference errors, and do not prove transient bounds or stability."
+}

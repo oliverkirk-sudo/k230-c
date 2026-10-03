@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "OUTPUT_ROOT/fresh-master.xml",
+      "PROJECT_ROOT/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--severity-all",
+      "-o",
+      "OUTPUT_ROOT/fresh-erc.json",
+      "PROJECT_ROOT/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking for off grid pins and wires...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to OUTPUT_ROOT/fresh-erc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "-o",
+      "OUTPUT_ROOT/roundtrip-drc.json",
+      "OUTPUT_ROOT/native-roundtrip.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to OUTPUT_ROOT/roundtrip-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,F.Mask,F.Paste",
+      "--output",
+      "OUTPUT_ROOT/native-cam",
+      "OUTPUT_ROOT/native-roundtrip.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to 'OUTPUT_ROOT/native-cam/native-roundtrip-F_Cu.gtl'.\nPlotted to 'OUTPUT_ROOT/native-cam/native-roundtrip-F_Paste.gtp'.\nPlotted to 'OUTPUT_ROOT/native-cam/native-roundtrip-F_Mask.gts'.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,F.Mask,F.Paste",
+      "--output",
+      "OUTPUT_ROOT/18um_copper_shrunk_to_35um_width-cam",
+      "OUTPUT_ROOT/18um_copper_shrunk_to_35um_width.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to 'OUTPUT_ROOT/18um_copper_shrunk_to_35um_width-cam/18um_copper_shrunk_to_35um_width-F_Cu.gtl'.\nPlotted to 'OUTPUT_ROOT/18um_copper_shrunk_to_35um_width-cam/18um_copper_shrunk_to_35um_width-F_Paste.gtp'.\nPlotted to 'OUTPUT_ROOT/18um_copper_shrunk_to_35um_width-cam/18um_copper_shrunk_to_35um_width-F_Mask.gts'.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,F.Mask,F.Paste",
+      "--output",
+      "OUTPUT_ROOT/18um_mask_exposes_copper_shoulders-cam",
+      "OUTPUT_ROOT/18um_mask_exposes_copper_shoulders.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to 'OUTPUT_ROOT/18um_mask_exposes_copper_shoulders-cam/18um_mask_exposes_copper_shoulders-F_Cu.gtl'.\nPlotted to 'OUTPUT_ROOT/18um_mask_exposes_copper_shoulders-cam/18um_mask_exposes_copper_shoulders-F_Paste.gtp'.\nPlotted to 'OUTPUT_ROOT/18um_mask_exposes_copper_shoulders-cam/18um_mask_exposes_copper_shoulders-F_Mask.gts'.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,F.Mask,F.Paste",
+      "--output",
+      "OUTPUT_ROOT/18um_paste_covers_copper_shoulders-cam",
+      "OUTPUT_ROOT/18um_paste_covers_copper_shoulders.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to 'OUTPUT_ROOT/18um_paste_covers_copper_shoulders-cam/18um_paste_covers_copper_shoulders-F_Cu.gtl'.\nPlotted to 'OUTPUT_ROOT/18um_paste_covers_copper_shoulders-cam/18um_paste_covers_copper_shoulders-F_Paste.gtp'.\nPlotted to 'OUTPUT_ROOT/18um_paste_covers_copper_shoulders-cam/18um_paste_covers_copper_shoulders-F_Mask.gts'.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "-o",
+      "OUTPUT_ROOT/clearance-negative-drc.json",
+      "OUTPUT_ROOT/clearance-negative.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Found 3 violations\nFound 0 unconnected items\nSaved DRC Report to OUTPUT_ROOT/clearance-negative-drc.json\n",
+    "stderr": ""
+  }
+]

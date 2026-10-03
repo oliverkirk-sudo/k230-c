@@ -1,0 +1,542 @@
+{
+  "kicad_version": "9.0.2",
+  "six_layer_geometry_fixture": true,
+  "fixture_is_core_layout": false,
+  "geometry": {
+    "FB202": {
+      "id": "Murata_BLM15PX121_18um_SourcePattern_CONDITIONAL",
+      "origin": [
+        4.0,
+        4.0
+      ],
+      "pads": [
+        {
+          "number": "",
+          "x": -0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Mask"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "",
+          "x": -0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "",
+          "x": 0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Mask"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "",
+          "x": 0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "1",
+          "x": -0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 1.2,
+          "shape": 1,
+          "layers": [
+            "F.Cu"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": "FB202_1"
+        },
+        {
+          "number": "2",
+          "x": 0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 1.2,
+          "shape": 1,
+          "layers": [
+            "F.Cu"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": "FB202_2"
+        }
+      ]
+    },
+    "FB204": {
+      "id": "Murata_BLM15PX121_70um_SourcePattern_CONDITIONAL",
+      "origin": [
+        14.0,
+        4.0
+      ],
+      "pads": [
+        {
+          "number": "",
+          "x": -0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Mask"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "",
+          "x": -0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "",
+          "x": 0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Mask"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "",
+          "x": 0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "1",
+          "x": -0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Cu"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": "FB204_1"
+        },
+        {
+          "number": "2",
+          "x": 0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Cu"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": "FB204_2"
+        }
+      ]
+    },
+    "FB203": {
+      "id": "Murata_BLM15PX121_35um_SourcePattern_CONDITIONAL",
+      "origin": [
+        9.0,
+        4.0
+      ],
+      "pads": [
+        {
+          "number": "",
+          "x": -0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Mask"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "",
+          "x": -0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "",
+          "x": 0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Mask"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "",
+          "x": 0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.5,
+          "shape": 1,
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "1",
+          "x": -0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.7,
+          "shape": 1,
+          "layers": [
+            "F.Cu"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": "FB203_1"
+        },
+        {
+          "number": "2",
+          "x": 0.4,
+          "y": 0.0,
+          "w": 0.4,
+          "h": 0.7,
+          "shape": 1,
+          "layers": [
+            "F.Cu"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": "FB203_2"
+        }
+      ]
+    },
+    "C202": {
+      "id": "KEMET_C0402_C0G_DensityB_SOURCE_CANDIDATE",
+      "origin": [
+        9.0,
+        9.0
+      ],
+      "pads": [
+        {
+          "number": "",
+          "x": -0.45,
+          "y": 0.0,
+          "w": 0.62,
+          "h": 0.62,
+          "shape": 1,
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "",
+          "x": 0.45,
+          "y": 0.0,
+          "w": 0.62,
+          "h": 0.62,
+          "shape": 1,
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_margin_mm": 0.0,
+          "net": ""
+        },
+        {
+          "number": "1",
+          "x": -0.45,
+          "y": 0.0,
+          "w": 0.62,
+          "h": 0.62,
+          "shape": 1,
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "mask_margin_mm": 0.05,
+          "net": "C202_1"
+        },
+        {
+          "number": "2",
+          "x": 0.45,
+          "y": 0.0,
+          "w": 0.62,
+          "h": 0.62,
+          "shape": 1,
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "mask_margin_mm": 0.05,
+          "net": "C202_2"
+        }
+      ]
+    }
+  },
+  "native_roundtrip_identical": true,
+  "loaded_library_matches_embedded": true,
+  "fresh_fixture_DRC_violations": 0,
+  "fresh_fixture_unconnected": 0,
+  "flash_geometry": {
+    "F.Cu": [
+      {
+        "ref": "C202",
+        "x": 8.55,
+        "y": 9.0,
+        "kind": "R",
+        "w": 0.62,
+        "h": 0.62
+      },
+      {
+        "ref": "C202",
+        "x": 9.45,
+        "y": 9.0,
+        "kind": "R",
+        "w": 0.62,
+        "h": 0.62
+      },
+      {
+        "ref": "FB202",
+        "x": 3.6,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 1.2
+      },
+      {
+        "ref": "FB202",
+        "x": 4.4,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 1.2
+      },
+      {
+        "ref": "FB203",
+        "x": 8.6,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.7
+      },
+      {
+        "ref": "FB203",
+        "x": 9.4,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.7
+      },
+      {
+        "ref": "FB204",
+        "x": 13.6,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB204",
+        "x": 14.4,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      }
+    ],
+    "F.Mask": [
+      {
+        "ref": "C202",
+        "x": 8.55,
+        "y": 9.0,
+        "kind": "RoundRect",
+        "w": 0.72,
+        "h": 0.72,
+        "radius": 0.05
+      },
+      {
+        "ref": "C202",
+        "x": 9.45,
+        "y": 9.0,
+        "kind": "RoundRect",
+        "w": 0.72,
+        "h": 0.72,
+        "radius": 0.05
+      },
+      {
+        "ref": "FB202",
+        "x": 3.6,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB202",
+        "x": 4.4,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB203",
+        "x": 8.6,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB203",
+        "x": 9.4,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB204",
+        "x": 13.6,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB204",
+        "x": 14.4,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      }
+    ],
+    "F.Paste": [
+      {
+        "ref": "C202",
+        "x": 8.55,
+        "y": 9.0,
+        "kind": "R",
+        "w": 0.62,
+        "h": 0.62
+      },
+      {
+        "ref": "C202",
+        "x": 9.45,
+        "y": 9.0,
+        "kind": "R",
+        "w": 0.62,
+        "h": 0.62
+      },
+      {
+        "ref": "FB202",
+        "x": 3.6,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB202",
+        "x": 4.4,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB203",
+        "x": 8.6,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB203",
+        "x": 9.4,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB204",
+        "x": 13.6,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      },
+      {
+        "ref": "FB204",
+        "x": 14.4,
+        "y": 4.0,
+        "kind": "R",
+        "w": 0.4,
+        "h": 0.5
+      }
+    ]
+  },
+  "source_CAM_matches_fresh_native_export": true,
+  "Murata_nominal_mask_registration_allowance_mm": 0,
+  "KEMET_mask_expansion_mm": 0.05,
+  "KEMET_mask_export_radius_mm": 0.05,
+  "paste": "1:1 relative to exposed Murata lands and KEMET copper; candidate assumption, not manufacturer-qualified stencil"
+}

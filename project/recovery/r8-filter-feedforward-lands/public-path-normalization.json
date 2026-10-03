@@ -1,0 +1,14 @@
+[
+  {
+    "path": "cad/recovery-physical-candidate/master.xml",
+    "original_sha256": "18745bd323979408f968a9ad95458fa0d3c71da91a556633fcd3dcb513afc613",
+    "public_sha256": "bbb9c482b05e066ba6d9ee046218abe1227d5e7918d8ebe4e1a7bcb358256183",
+    "change": "Only source/library/report paths normalized; electrical semantics unchanged."
+  },
+  {
+    "path": "recovery/r8-filter-feedforward-lands/native-checks.json",
+    "original_sha256": "950334b06b775433492d76b02c0c4c682ade31eb2a8b4f1e0408b49f8dd6a3ca",
+    "public_sha256": "f661f3c169f17340eb832db5e9fc4e33353bc1eaeb17d3f9cd4edda0af6eb611",
+    "change": "Only source/library/report paths normalized; electrical semantics unchanged."
+  }
+]

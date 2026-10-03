@@ -1,0 +1,78 @@
+{
+  "status": "CONDITIONAL_PART_AND_SOURCE_LAND_CONTRACT_ONLY",
+  "design_constraints": {
+    "board_mm": [
+      38,
+      38
+    ],
+    "copper_layers": 6,
+    "assembly_side": "top only",
+    "provisional_enclosure_air_C": 85
+  },
+  "refs": [
+    "C202",
+    "C219",
+    "C224",
+    "C229"
+  ],
+  "quantity_per_board": 4,
+  "manufacturer": "KEMET / YAGEO Group",
+  "MPN": "C0402C122J5GACTU",
+  "alias": "C0402C122J5GAC7867",
+  "part": {
+    "dielectric": "C0G / NP0 (Class I)",
+    "capacitance_pF": 1200,
+    "initial_tolerance_percent": 5,
+    "rated_voltage_DC_V": 50,
+    "operating_temperature_C": [
+      -55,
+      125
+    ],
+    "TCC_ppm_per_C": 30,
+    "TCC_reference_temperature_C": 25,
+    "aging_rate_percent_per_decade_hour": 0,
+    "termination": "matte tin",
+    "package": "EIA 0402 / metric 1005",
+    "capacitance_measurement": "1 kHz, 1.0 Vrms",
+    "dielectric_withstand_V": 125,
+    "dielectric_withstand_is_not_operating_rating": true
+  },
+  "TI_recommendation": {
+    "source_id": "TI-TPS6282X-I",
+    "section": "8.2.2.2, Equation 5, printed p12; required for adjustable versions in section 8.2.2.5 p14",
+    "equation": "C3 [F] = 12e-6 / R2 [ohm]",
+    "R2_nominal_ohm": 10000,
+    "C3_derived_F": 1.2e-09,
+    "R2_recommended_ceiling_ohm": 100000,
+    "example_120pF_context": "100 kΩ lower divider resistor, not this circuit",
+    "tolerance_limit_for_Cff": "No explicit Cff tolerance acceptance window stated in cited TI section; ±5% selected part remains an engineering candidate pending loop validation."
+  },
+  "derived_capacitance_ranges_pF": {
+    "initial_at_25C": [
+      1140,
+      1260
+    ],
+    "at_85C_with_30ppm_slope_and_initial_tolerance": [
+      1137.948,
+      1262.268
+    ],
+    "at_125C_with_30ppm_slope_and_initial_tolerance": [
+      1136.58,
+      1263.78
+    ],
+    "derivation": "Cnom*(1±0.05)*(1±30e-6*abs(T-25)); drift multiplied against initial tolerance, not a guarantee of regulator stability."
+  },
+  "conditions_and_holds": [
+    "Use density B geometry in footprint-geometry.json for a provisional, source-backed footprint; no CAD files were edited by this review.",
+    "Keep all four capacitor/divider/FB nets as recorded in reference-map.json; part is nonpolar.",
+    "Capacitor operating temperature must remain at or below 125°C. Provisional 85°C enclosure air leaves a numerical 40°C difference, not measured board or component thermal margin.",
+    "50 V is DC working rating. The 125 V withstand test rating is not a working-voltage allowance. Actual DC plus ripple/transients across the part must satisfy working limits; only nominal divider DC voltages are evaluated here.",
+    "C0G manufacturer description supports stable capacitance versus voltage/time; no X7R substitution or blanket 85°C-rated substitution is authorized by this contract.",
+    "Confirm ±5% Cff and resistor tolerances together with actual regulator, inductor, effective output capacitance, load and layout in transient/loop verification.",
+    "Assembler must approve mask, paste, stencil and mounting process. 0402 is reflow-only in manufacturer recommendations.",
+    "Place sense network near regulator and sense output at output capacitor; protect FB trace from SW coupling per TI section 8.4.1 p22.",
+    "38×38 mm / six-layer / top-only fit, full-board thermal performance, routing, EMI and production DFM are outside this conditional source review.",
+    "Procurement stock observations are snapshots; LCSC MOQ20 exception and independent JLC assembly availability are unresolved preferences/verification."
+  ],
+  "release_scope": "Not loop stability qualification, rail-accuracy qualification, thermal validation, procurement authorization, or fabrication release."
+}

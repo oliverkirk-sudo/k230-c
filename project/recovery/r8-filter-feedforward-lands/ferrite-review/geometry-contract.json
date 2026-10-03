@@ -1,0 +1,174 @@
+{
+  "status": "CONDITIONAL_MANUFACTURER_SOURCE_LAND_DESCRIPTION_NO_CAD_APPLIED",
+  "manufacturer": "Murata",
+  "mpn": "BLM15PX121SN1D",
+  "source_id": "MURATA_SPEC",
+  "source_sha256": "26e3632f29268632a2ae03ce1b86b971044e76f3b1ad7dbe24eb5c39f4f6c5ee",
+  "references": [
+    "FB202",
+    "FB203",
+    "FB204",
+    "FB205",
+    "FB206",
+    "FB207",
+    "FB208",
+    "FB209",
+    "FB210"
+  ],
+  "qualified_references": [],
+  "body_mm": {
+    "length_nominal": 1.0,
+    "length_tolerance": 0.05,
+    "width_nominal": 0.5,
+    "width_tolerance": 0.05,
+    "height_nominal": 0.5,
+    "height_tolerance": 0.05,
+    "termination_length_nominal": 0.25,
+    "termination_length_tolerance": 0.1
+  },
+  "polarity": "none",
+  "impedance": {
+    "nominal_ohm": 120,
+    "frequency_Hz": 100000000.0,
+    "tolerance_pct": 25,
+    "bias_curve_verified": false
+  },
+  "dc_resistance_ohm": {
+    "initial_max": 0.055,
+    "post_test_max": 0.07,
+    "conditions": "manufacturer standard measurements 15C to 35C; excludes board wiring",
+    "hot_max": null
+  },
+  "temperature": {
+    "operating_min_C": -55,
+    "operating_max_C": 125,
+    "rated_current_A_at_85C": 2.0,
+    "rated_current_A_at_125C": 1.1,
+    "derating_above_85C": "I_A = 2.0 - 0.0225*(T_C - 85), 85 <= T_C <= 125; manufacturer graph; evaluate actual local thermal environment",
+    "enclosure_85C_is_not_component_qualification": true
+  },
+  "source_land": {
+    "page": 9,
+    "part_family_row": "BLM15P-square; rated-current class 2.2 A or lower selected by 2 A part rating, not by 120 mA application load",
+    "a_inner_gap_mm": 0.4,
+    "b_outer_span_mm": 1.2,
+    "c_exposed_land_width_mm": 0.5,
+    "derived_nominal_exposed_lands": [
+      {
+        "number": "1",
+        "center_xy_mm": [
+          -0.4,
+          0
+        ],
+        "size_xy_mm": [
+          0.4,
+          0.5
+        ]
+      },
+      {
+        "number": "2",
+        "center_xy_mm": [
+          0.4,
+          0
+        ],
+        "size_xy_mm": [
+          0.4,
+          0.5
+        ]
+      }
+    ],
+    "interpretation": "Copper pattern width d may exceed exposed width c; retain solder resist on copper shoulders. Do not silently replace the power-family drawing with a generic two-pad 0402 footprint.",
+    "copper_scenarios": [
+      {
+        "foil_um": 18,
+        "d_pattern_width_mm": 1.2,
+        "local_copper_envelope_mm": [
+          1.2,
+          1.2
+        ]
+      },
+      {
+        "foil_um": 35,
+        "d_pattern_width_mm": 0.7,
+        "local_copper_envelope_mm": [
+          1.2,
+          0.7
+        ]
+      },
+      {
+        "foil_um": 70,
+        "d_pattern_width_mm": 0.5,
+        "local_copper_envelope_mm": [
+          1.2,
+          0.5
+        ]
+      }
+    ],
+    "continuing_trace_length_mm": null,
+    "continuing_copper_width_gate": "Continue sufficient pattern cross-section; local rectangles alone do not validate current rating/thermal behavior",
+    "mask_expansion_mm": null,
+    "paste_aperture_mm": null,
+    "courtyard_mm": null
+  },
+  "assembly": {
+    "reflow_only": true,
+    "source_solder": "Sn-3.0Ag-0.5Cu",
+    "source_paste_thickness_um": [
+      100,
+      200
+    ],
+    "process_acceptance": false
+  },
+  "reservation_sensitivity": {
+    "is_manufacturer_courtyard": false,
+    "applied": false,
+    "method": "Historical hypothetical +0.05 mm mask allowance and +0.25 mm assembly clearance, rounded outward; not a fabrication rule",
+    "foil18_um_xy_mm": [
+      1.8,
+      1.7
+    ],
+    "foil35_um_xy_mm": [
+      1.8,
+      1.2
+    ],
+    "foil70_um_xy_mm": [
+      1.8,
+      1.1
+    ],
+    "six_layer_finished_top_copper_approved": false
+  },
+  "procurement": {
+    "jlc_part": "C88970",
+    "url": "https://jlcpcb.com/partdetail/MurataElectronics-BLM15PX121SN1D/C88970",
+    "searchable": true,
+    "MOQ1_verified": false,
+    "stock_verified": false,
+    "ordered": false
+  },
+  "selection": {
+    "shared_geometric_candidate_refs": [
+      "FB202",
+      "FB203",
+      "FB204",
+      "FB205",
+      "FB206",
+      "FB207",
+      "FB208",
+      "FB209",
+      "FB210"
+    ],
+    "eight_reference_budget_screens_complete": [
+      "FB202",
+      "FB203",
+      "FB204",
+      "FB205",
+      "FB207",
+      "FB208",
+      "FB209",
+      "FB210"
+    ],
+    "FB206": "PMU subtotal only; add unknown R401/pad load",
+    "different_mpn_required_by_available_evidence": false,
+    "alternative_churn_performed": false
+  }
+}

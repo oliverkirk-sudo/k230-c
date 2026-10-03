@@ -1,0 +1,40 @@
+{
+  "revision": "R8",
+  "components": 254,
+  "bindings": 1509,
+  "distinct_nets": 457,
+  "footprint_changes": [
+    "C202",
+    "C219",
+    "C224",
+    "C229",
+    "FB202",
+    "FB203",
+    "FB204",
+    "FB205",
+    "FB206",
+    "FB207",
+    "FB208",
+    "FB209",
+    "FB210"
+  ],
+  "value_or_population_changes": 0,
+  "assigned": 215,
+  "unassigned": 39,
+  "ERC_violations": 0,
+  "fixture_rule_violations": 0,
+  "fixture_unconnected": 0,
+  "CAM_flashes": {
+    "FILTER_LANDS_GEOMETRY_ONLY-F_Paste.gtp": 8,
+    "FILTER_LANDS_GEOMETRY_ONLY-F_Cu.gtl": 8,
+    "FILTER_LANDS_GEOMETRY_ONLY-F_Mask.gts": 8
+  },
+  "negative_controls": [
+    "wrong_thickness_copper_width",
+    "mask_exposed_shoulders",
+    "wrong_FB_net"
+  ],
+  "six_layer_production_stack_approved": false,
+  "full_core_layout_exists": false,
+  "production_ready": false
+}
