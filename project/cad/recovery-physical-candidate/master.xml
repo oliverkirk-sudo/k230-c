@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch</source>
-    <date>2026-10-02T23:25:49-0700</date>
+    <date>2026-10-03T00:10:53-0700</date>
     <tool>Eeschema 9.0.2+dfsg-1</tool>
     <sheet number="1" name="/SoC_1/" tstamps="/bd9bb2f4-9b59-441f-a215-8c4f637c6c79/">
       <title_block>
@@ -314,7 +314,7 @@
       <title_block>
         <title>CM-K230 high-temp core</title>
         <company/>
-        <rev>RCV-R9</rev>
+        <rev>RCV-R11</rev>
         <date/>
         <source>CMK230_Core_REVIEW.kicad_sch</source>
         <comment number="1" value=""/>
@@ -831,8 +831,9 @@
     </comp>
     <comp ref="C206">
       <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <footprint>CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -844,8 +845,9 @@
     </comp>
     <comp ref="C207">
       <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <footprint>CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -857,8 +859,9 @@
     </comp>
     <comp ref="C208">
       <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <footprint>CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -910,8 +913,9 @@
     </comp>
     <comp ref="C212">
       <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <footprint>CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -923,8 +927,9 @@
     </comp>
     <comp ref="C213">
       <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <footprint>CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -936,8 +941,9 @@
     </comp>
     <comp ref="C214">
       <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <footprint>CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2814,8 +2820,9 @@
     </comp>
     <comp ref="C540">
       <value>22uF</value>
+      <footprint>CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2981,8 +2988,9 @@
     </comp>
     <comp ref="C552">
       <value>22uF</value>
+      <footprint>CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3120,8 +3128,9 @@
     </comp>
     <comp ref="C562">
       <value>22uF</value>
+      <footprint>CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>

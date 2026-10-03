@@ -1,0 +1,13 @@
+{
+  "README.md": "abe47b0778127b5c23280ade09b223725d4a6bec9d4ff548fd0fa6ac669b4c3f",
+  "active-master-snapshot.json": "bf71bed9865225a790ca90f939baef4e29553a35213c83cdc968188bdba2c13c",
+  "build_review.py": "f02b90228bfc1561ddea878edb11896b7b4a621fc25c148712145d5834ed5647",
+  "derived-47uF-corner-checks.csv": "5cb74119b561c10422990cca88fbc7b80aaf0555eb74ae2aab49c5f8cd796891",
+  "electrical-limits.json": "6a062ddc3c2e94f4726d9cf092282053c52ababf750f96d74e245bf2c703b62c",
+  "geometry-review.json": "5066530a2dbc24f665f088b5205043f984f6a896b9b80c472132eb68cfe994f7",
+  "nine-reference-22uF-geometry-applicability.csv": "ac739f2d4225ad14c87ed56ab5f5ed90f9e1af1754bf1ba8cef519ac910a9013",
+  "nine-reference-22uF-geometry-applicability.json": "534b2bdd5f3ac47623dd98ea87da76ba93bacd9ebf295bfeb2dfdedb508f7b43",
+  "nine-reference-22uF-geometry-applicability.md": "3c35a0393113b92a84967b8d5b3786b371e945b68e2468adb737b17140d74910",
+  "source-manifest.json": "2e115cf236994a67a805ab46a5e5efcf5b15048e4ca1a6da7ac5ef64c9dc20db",
+  "verification.json": "30e85476d009ac9119352b6b40e8e3436865ad287ed7a1449fd5f66409810313"
+}

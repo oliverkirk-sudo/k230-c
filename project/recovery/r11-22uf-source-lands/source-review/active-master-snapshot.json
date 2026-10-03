@@ -1,0 +1,288 @@
+{
+  "master": "cad/recovery-physical-candidate/master.xml",
+  "sha256": "bbb9c482b05e066ba6d9ee046218abe1227d5e7918d8ebe4e1a7bcb358256183",
+  "scope": "Read-only; exact ten positions retained; no capacitor selection or CAD edits.",
+  "total_references": 254,
+  "reviewed_capacitors": [
+    {
+      "reference": "C201",
+      "value": "47uF X7R / Ceff>=10uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CORE"
+        }
+      ]
+    },
+    {
+      "reference": "C218",
+      "value": "47uF X7R / Ceff>=10uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "C223",
+      "value": "47uF X7R / Ceff>=10uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "C228",
+      "value": "47uF X7R / Ceff>=10uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD_3V3"
+        }
+      ]
+    },
+    {
+      "reference": "C206",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CPU"
+        }
+      ]
+    },
+    {
+      "reference": "C207",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CPU"
+        }
+      ]
+    },
+    {
+      "reference": "C208",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CPU"
+        }
+      ]
+    },
+    {
+      "reference": "C212",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_KPU"
+        }
+      ]
+    },
+    {
+      "reference": "C213",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_KPU"
+        }
+      ]
+    },
+    {
+      "reference": "C214",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_KPU"
+        }
+      ]
+    }
+  ],
+  "rails": [
+    {
+      "regulator_ref": "U21",
+      "regulator_mpn": "TPS62827ADMQ",
+      "capacitor_refs": [
+        "C201"
+      ],
+      "output_net": "VDD0P8_CORE",
+      "nominal_V": 0.7992,
+      "converter_rated_output_A": 4,
+      "output_Ceff_floor_uF": 10,
+      "guide_screen_voltage_range_V": [
+        0.72,
+        0.88
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": {
+        "R201": "3.32k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+        "R202": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "Ceff_status": "NOT_QUALIFIED"
+    },
+    {
+      "regulator_ref": "U24",
+      "regulator_mpn": "TPS62826ADMQ",
+      "capacitor_refs": [
+        "C218"
+      ],
+      "output_net": "VDD1P1_DDR_IO",
+      "nominal_V": 1.1196,
+      "converter_rated_output_A": 3,
+      "output_Ceff_floor_uF": 10,
+      "guide_screen_voltage_range_V": [
+        1.06,
+        1.17
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": {
+        "R207": "8.66k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+        "R208": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "Ceff_status": "NOT_QUALIFIED"
+    },
+    {
+      "regulator_ref": "U25",
+      "regulator_mpn": "TPS62825ADMQ",
+      "capacitor_refs": [
+        "C223"
+      ],
+      "output_net": "VDD1P8",
+      "nominal_V": 1.8,
+      "converter_rated_output_A": 2,
+      "output_Ceff_floor_uF": 10,
+      "guide_screen_voltage_range_V": [
+        1.62,
+        1.98
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": {
+        "R210": "20k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+        "R211": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "Ceff_status": "NOT_QUALIFIED"
+    },
+    {
+      "regulator_ref": "U26",
+      "regulator_mpn": "TPS62826ADMQ",
+      "capacitor_refs": [
+        "C228"
+      ],
+      "output_net": "VDD_3V3",
+      "nominal_V": 3.318,
+      "converter_rated_output_A": 3,
+      "output_Ceff_floor_uF": 10,
+      "guide_screen_voltage_range_V": [
+        2.97,
+        3.63
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": {
+        "R213": "45.3k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+        "R214": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "Ceff_status": "NOT_QUALIFIED"
+    },
+    {
+      "regulator_ref": "U22",
+      "regulator_mpn": "TPS628640BYCGR",
+      "capacitor_refs": [
+        "C206",
+        "C207",
+        "C208"
+      ],
+      "output_net": "VDD0P8_CPU",
+      "nominal_V": 0.8,
+      "converter_rated_output_A": 4,
+      "output_Ceff_floor_uF": 30,
+      "guide_screen_voltage_range_V": [
+        0.72,
+        0.88
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": null,
+      "Ceff_status": "NOT_QUALIFIED"
+    },
+    {
+      "regulator_ref": "U23",
+      "regulator_mpn": "TPS628640BYCGR",
+      "capacitor_refs": [
+        "C212",
+        "C213",
+        "C214"
+      ],
+      "output_net": "VDD0P8_KPU",
+      "nominal_V": 0.8,
+      "converter_rated_output_A": 4,
+      "output_Ceff_floor_uF": 30,
+      "guide_screen_voltage_range_V": [
+        0.72,
+        0.88
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": null,
+      "Ceff_status": "NOT_QUALIFIED"
+    }
+  ],
+  "relevant_components": {
+    "C202": "1.2nF C0G FEEDFORWARD",
+    "C219": "1.2nF C0G FEEDFORWARD",
+    "C224": "1.2nF C0G FEEDFORWARD",
+    "C229": "1.2nF C0G FEEDFORWARD",
+    "R205": "56.2k 1% / 0.8V / addr0x49",
+    "R206": "56.2k 1% / 0.8V / addr0x49",
+    "L21": "0.47uH XFL4015-471MEB REF",
+    "L22": "0.24uH DFE201612E-R24M REF",
+    "L23": "0.24uH DFE201612E-R24M REF",
+    "L24": "0.47uH DFE201610E-R47M=P2 CANDIDATE",
+    "L25": "0.47uH DFE201610E-R47M=P2 CANDIDATE",
+    "L26": "0.47uH DFE201610E-R47M=P2 CANDIDATE"
+  }
+}

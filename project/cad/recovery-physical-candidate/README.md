@@ -17,3 +17,5 @@ R7 assigns ten further link/feature footprints and excludes three fabricated cop
 R8 assigns nine process-dependent ferrite patterns and four feedforward-capacitor source lands:215 assigned/39 gaps, unchanged values/nets/population. See ../../recovery/r8-filter-feedforward-lands/README.md. The18µm pattern reservation is not a selected or approved six-layer stack; hot DCR, bias response and process registration remain open.
 
 R9 assigns six source-range eMMC bypass lands:221 assigned/33 gaps, with all nominal values/nets/population preserved. See ../../recovery/r9-emmc-bypass-lands/README.md. Table13 nominal/effective interpretation and combined operating capacitance remain explicit qualification gates.
+
+R11 assigns nine Samsung22µF source-land identities with unchanged electrical graph/population:230 assigned/24 gaps. See ../../recovery/r11-22uf-source-lands/README.md. The47µF land proposal and input-bank options remain unselected; source-land coverage is not Ceff or board-fit qualification.

@@ -1,37 +1,42 @@
 # k230-c
 
-## 当前检查点：R10 DNP 锡膏派生策略复核
+## 当前检查点：R11 九个 22 µF 条件源焊盘
 
-本版新增独立的 DNP 锡膏派生工具及可复现测试，**所有既有工程文件保持 R9 原始字节**。电路版本仍为 RCV-R9，221 个封装已分配、33 个缺口；254 个元件、457 个网络、1,509 个引脚绑定、值、BOM 和装配状态未改变。
+本版为 C206/C207/C208、C212/C213/C214、C540/C552/C562 增加九个候选封装绑定，覆盖为 **230 个已分配、24 个未分配**。全部 254 个元件值及其他非封装属性、457 个网络、1,509 个引脚/网络/类型/功能绑定、DNP/BOM/on-board 标志保持不变。
 
-当前工程入口仍为 `project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_pro`。新增工具入口为 `project/recovery/r10-dnp-paste-policy/README.md`；根说明文件保持 `哦READ.MD`。
+当前工程入口为 `project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_pro`，电路版本 RCV-R11。保持 `project/` 内相对目录；根说明文件为 `哦READ.MD`。
 
-## 已验证的限定结果
+## 本版范围与验证
 
-- 在 KiCad 9.0.2 上，默认导出和已测试的 DNP Fab 控制仍保留 DNP 锡膏；相关控制不等于锡膏过滤
-- 新工具以固定哈希的原始板、master XML 和装配契约为输入，生成另名派生板。源板与派生板都必须通过精确封装身份、DNP/BOM/PnP、编号焊盘和 master 网络一致性检查
-- 默认要求完整参考覆盖；孤立夹具必须显式启用 review-only 子集模式。缺失/未知编号、错误网络、不明锡膏归属或不支持的对象结构会停止，而不是猜测
-- 只移除已确认 DNP 的锡膏层成员或符合条件的独立锡膏对象；所有非锡膏 token 保持不变。铜、阻焊、钻孔、位置和电气身份均保留；派生板不能覆盖原始设计
-- 在精确 R9 输入上重新运行的合成夹具套件通过 42 项检查，包括 16 个预期拒绝负控。覆盖错误铜删除、拟装器件锡膏丢失、裸铜特征误加锡膏、DNP/网络/编号/位置异常和无归属锡膏
-- 合成夹具的铜/阻焊/板框/Fab Gerber、钻孔和贴装输出在限定元数据归一化后保持一致。该夹具特意包含双面与重复焊盘测试构造，不改变核心板仅顶面贴装要求
-- 实际恢复的 R7 十参考夹具通过另一项检查：先证明复制库文件与权威源文件哈希一致，再仅归一化十个封装库别名。**铜与阻焊各保持 18→18 个闪孔，锡膏 14→12，仅移除 R528 的两个开口**；其他非锡膏 CAM 层保持一致
+- C206–C208 保持 CPU 输出电容组；C212–C214 保持 KPU 输出组。C540/C552 保持 VDD1P1_DDR_IO 上各自 DRAM VDD2/VDDQ 局部作用；C562 保持 VDD1P8 上 VDD1 局部去耦。相同封装不合并这些物理和电气职责
+- 候选为 Samsung CL31B226KPHNNNE：名义 22 µF、±10%、10 V、X7R、1206。采用适用的厂商 metric 3216±0.20 mm 回流行，未更改任何名义值
+- 铜为两块 1.25 × 1.80 mm 矩形，中心 x=±1.475 mm，内隙 1.70 mm、外跨度 4.20 mm。该选择位于厂商范围内，属于工程中点而不是唯一规定图案
+- 最大本体 3.40 × 1.80 mm、最大高度 1.80 mm；阻焊扩张 +0.05 mm、独立 1:1 锡膏仍为工程假设
+- 4.85 × 2.45 mm courtyard 的线宽为 0.05 mm，已核验名义阻焊外包络到 courtyard 线内缘四边均为 0.25 mm；这不是厂商 courtyard 或工厂装配批准
+- 独立 77 项检查通过：完整原理图与生成器变更范围、库归属、元件属性/网络、来源文件、几何、已保存/新原生 CAM 和源不可变性均已核验
+- 新 KiCad 9.0.2 ERC 为 0；20 × 13 mm 六层单封装孤立夹具 DRC 规则违规与未连接项均为 0，铜/阻焊/锡膏各两个闪孔
+- 六个独立负控通过，包括 CPU/KPU/DRAM 电源节点混接、courtyard 实际余量不足，以及 0.05 mm 铜间隙违反 0.20 mm 规则的原生 DRC 拒绝
 
-独立别名复核、每对象派生记录、源文件哈希与诊断输出均随本版保存。负控文件故意无效，不得用于制造。
+详细清单、来源 URL/哈希、原生结果和独立审查见 `project/recovery/r11-22uf-source-lands/`。源清单与原始增量 ZIP 身份记录在 `PUBLICATION_PROVENANCE.json`。
 
-## 如何使用与尚未关闭的门槛
+## 保留的电气与工艺门槛
 
-原始板继续作为规范设计，铜、阻焊、板框与钻孔应从原始板输出；仅从核验过的派生板导出对应装配版本的 F.Paste/B.Paste。源板、装配状态、库绑定或契约变化后，必须重新生成并检查派生结果。
+CPU/KPU 每组输出电容仍保留已采用的 30 µF 有效电容量设计条件。分配 22 µF 名义器件不能建立组合偏压/热/老化后的 Ceff 或转换器稳定性；DRAM 局部电容仍有各自的分配、位置、回流与 PDN 责任，不能自动计入远端稳压器电容量。
 
-R528 仍为 DNP 且不进入默认贴装文件；去掉锡膏不能代替禁止装配说明、电气禁止条件和硬件验证。本版解决的是所支持对象和已测试运行时内的限定导出策略，**未在完整核心板上应用，也没有钢网/装配工艺或生产资格**。钢网厚度、面积比、转移效率、锡膏、对位、回流及良率需另行验证。
+并行来源审查中的 47 µF 方案没有适用的精确 ±0.40 mm 长度回流行，其工程提案仍未选择、未绑定；FLOW 表没有替代回流推荐。输入电容组数量/值方案也未应用。
 
-R9 的有效电容量解释、热/偏压/老化、采购数量和工艺限制仍有效。33 个封装缺口为 30 个电容、2 个晶振反馈电阻和 RTC 晶体。38 × 38 mm/140 触点/1 mm 间距/恰好六铜层/仅顶面贴装的完整布局布线，以及 DDR/PDN、时钟、启动、热/上电与 DFM 仍待完成。
+阻焊、锡膏、courtyard、放置/蚀刻/对位/钢网容差、转移效率和可靠性仍须工厂验证。孤立诊断网络和六层设置不代表完整 38 × 38 mm 核心板、已批准叠层或布线完成。
+
+R10 的 DNP 锡膏派生策略继续保留；主设计变更后须重新核验适用输入和派生结果，尚未完成整板应用或钢网工艺资格。R528 保持 DNP，默认存储资格仍受禁止。前版 eMMC 有效电容量、磁珠热/偏置滤波、时钟和启动等门槛继续有效。
+
+24 个封装缺口为 12 个输入电容、4 个 47 µF 输出电容、4 个振荡器负载电容、C815、2 个振荡器反馈电阻和 RTC 晶体。仍须完成 38 × 38 mm/140 触点/1 mm 间距/恰好六铜层/仅顶面贴装的完整布局布线，以及 DDR/PDN、启动、时钟、采购、热/电实测和 DFM 验证。
 
 ## 历史与完整性
 
-本版继承 R9 提交 `45750f385a5261c139b819b4b333280d7c1acafb`。108 个新增工程文件及清单保持最终公开源字节；既有工程文件全部不变。路径已规范化；厂商原件、内部笔记、运行时缓存和日志不上传。诊断 Gerber 与故意损坏的负控板仅供复核，必要的上游 MIT 版权许可声明继续保留。
+本版继承 R10 提交 `05b3254a3c19f15cf78588ed8095e06ab68f32da`。50 个工程变更文件及清单保持最终公开源字节；来源审查原先缺失的脚本已恢复并通过清单哈希检查。报告路径已规范化，新 SVG 与诊断 Gerber 为本项目原生导出。厂商原件、内部笔记和运行时文件不上传，必要的上游 MIT 版权许可声明保留。
 
-当前文件完整性以 `SHA256SUMS` 为准；逐版来源、排除项和检查点记录见 `PUBLICATION_PROVENANCE.json`。历史报告按其限定范围解读。
+当前文件完整性以 `SHA256SUMS` 为准；逐版来源、排除项和检查点记录见 `PUBLICATION_PROVENANCE.json`。历史报告按其输入哈希和限定范围解读。
 
 ## English summary
 
-R10 adds a review-only DNP paste derivation policy without changing any existing project file or the RCV-R9 circuit. The exact-copy 42-check suite passes, including 16 negative rejections. The recovered R7 fixture preserves copper/mask at 18 flashes each while paste falls from 14 to 12, removing only R528 apertures after hash-proven alias normalization. Strict source/derived pad-net and population parity remain mandatory. Full-board application and stencil/process qualification remain open; synthetic backside tests do not authorize backside core assembly.
+R11 adds nine conditional 22 µF source-land assignments, reaching 230 assigned / 24 gaps. Values, complete electrical bindings and population flags remain unchanged. All 77 independent checks, fresh ERC, isolated fixture DRC and six negative controls pass. The 0.25 mm mask-to-courtyard clearance includes the stroke's inner edge. The 47 µF proposal and input-bank changes remain unapplied. Combined effective capacitance, full-board placement/routing and manufacturing qualification remain open.

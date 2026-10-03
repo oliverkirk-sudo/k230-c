@@ -1,0 +1,65 @@
+[
+  {
+    "name": "CPU_to_KPU",
+    "detected": true,
+    "witness": [
+      [
+        "C206",
+        "1"
+      ]
+    ]
+  },
+  {
+    "name": "KPU_to_CPU",
+    "detected": true,
+    "witness": [
+      [
+        "C212",
+        "1"
+      ]
+    ]
+  },
+  {
+    "name": "DDR_to_1V8",
+    "detected": true,
+    "witness": [
+      [
+        "C540",
+        "1"
+      ]
+    ]
+  },
+  {
+    "name": "1V8_to_DDR",
+    "detected": true,
+    "witness": [
+      [
+        "C562",
+        "1"
+      ]
+    ]
+  },
+  {
+    "name": "courtyard_inner_edge_clearance_reduced",
+    "detected": true,
+    "actual_clearances_mm": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "required_mm": 0.25
+  },
+  {
+    "name": "native_copper_gap_0p05_vs_rule_0p20",
+    "detected": true,
+    "actual_copper_gap_mm": 0.05,
+    "rule_minimum_mm": 0.2,
+    "native_exit_code": 5,
+    "violation_types": [
+      "clearance",
+      "lib_footprint_issues",
+      "solder_mask_bridge"
+    ]
+  }
+]

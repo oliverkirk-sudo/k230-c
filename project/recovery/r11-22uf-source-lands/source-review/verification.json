@@ -1,0 +1,40 @@
+{
+  "active_master_sha256_before": "bbb9c482b05e066ba6d9ee046218abe1227d5e7918d8ebe4e1a7bcb358256183",
+  "active_master_sha256_after": "bbb9c482b05e066ba6d9ee046218abe1227d5e7918d8ebe4e1a7bcb358256183",
+  "all_requested_capacitor_references_present": true,
+  "47uF_count": 4,
+  "22uF_count": 6,
+  "manufacturer_reflow_pages_visually_inspected": [
+    {
+      "file": "CL32B476KQVVPN-specsheet.pdf",
+      "page": 34
+    },
+    {
+      "file": "CL31B226KPHNNN-specsheet.pdf",
+      "page": 33
+    }
+  ],
+  "originals_retained_outside_public_deliverable": true,
+  "derived47_geometry_corner_count": 64,
+  "assembly_qualified": false,
+  "Ceff_qualified": false,
+  "CAD_or_BOM_edited": false,
+  "additional_source_pages_visually_inspected": [
+    {
+      "file": "CL32B476KQVVPN-specsheet.pdf",
+      "page": 1
+    },
+    {
+      "file": "CL31B226KPHNNN-specsheet.pdf",
+      "page": 1
+    },
+    {
+      "file": "tps62827.pdf",
+      "page": 13
+    },
+    {
+      "file": "tps62864.pdf",
+      "page": 21
+    }
+  ]
+}

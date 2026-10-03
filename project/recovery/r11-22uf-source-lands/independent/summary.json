@@ -1,0 +1,38 @@
+{
+  "status": "PASS_BOUNDED_GEOMETRY_REVIEW",
+  "failed_checks": [],
+  "checks": 77,
+  "component_identities": 254,
+  "pin_bindings": 1509,
+  "footprint_assignment_changes": [
+    "C206",
+    "C207",
+    "C208",
+    "C212",
+    "C213",
+    "C214",
+    "C540",
+    "C552",
+    "C562"
+  ],
+  "assigned": 230,
+  "unassigned": 24,
+  "fresh_ERC_violations": 0,
+  "fresh_fixture_DRC_violations": 0,
+  "actual_mask_to_courtyard_inner_edge_mm": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "negative_controls": 6,
+  "limits": [
+    "Footprint-only evidence checkpoint; no full-core placement or routed board validation.",
+    "Mask, paste and courtyard choices remain conditional process assumptions.",
+    "Body/land provenance is not Ceff, PDN, assembly or production qualification.",
+    "Source rail-budget intervals remain historical screening inputs, not aggregate limits for all filtered branches.",
+    "47uF proposal remains unselected and regulator-input option unapplied.",
+    "Isolated fixture nets are diagnostic; fixture copper-layer count does not approve a production stack."
+  ],
+  "source_CAD_unchanged": true
+}

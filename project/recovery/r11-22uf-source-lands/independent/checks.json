@@ -1,0 +1,616 @@
+[
+  {
+    "check": "254_exact_component_identities",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "all_non_footprint_component_XML_preserved",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "exactly_nine_blank_to_named_assignments",
+    "pass": true,
+    "detail": [
+      "C206",
+      "C207",
+      "C208",
+      "C212",
+      "C213",
+      "C214",
+      "C540",
+      "C552",
+      "C562"
+    ]
+  },
+  {
+    "check": "1509_full_pin_bindings_preserved",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "457_net_names_preserved",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "230_assigned_24_gaps",
+    "pass": true,
+    "detail": {
+      "assigned": 230,
+      "gaps": 24
+    }
+  },
+  {
+    "check": "nine_values_preserved",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "pin_pair_C206",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "pin_pair_C207",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "pin_pair_C208",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "pin_pair_C212",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "pin_pair_C213",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "pin_pair_C214",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "pin_pair_C540",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "pin_pair_C552",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "pin_pair_C562",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "47uF_and_inputs_unmodified",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_01_SoC_1.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_02_SoC_2.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_03_SoC_3.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_04_LPDDR4_1.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_05_LPDDR4_2.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_06_eMMC_1.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_07_Edge_Contract_1.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_08_Clock_Reset_Boot.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_09_Cold_Storage_Selector.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_10_Six_Rail_Power.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_11_DDR_USB_MIPI_Bias.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_12_Local_Decoupling.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_13_PMU_Automatic_Startup.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_14_EMMC_Local_Bias.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_15_Hardware_Reset_Interlock.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_16_TF_Voltage_Translation.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_17_Audited_Source_Declarations.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "baseline_root_revision_RCV_R9",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "schematic_exact_allowed_changes_CMK230_Core_REVIEW.kicad_sch",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "all_nine_source_symbols_once",
+    "pass": true,
+    "detail": {
+      "C206": "10_Six_Rail_Power.kicad_sch",
+      "C207": "10_Six_Rail_Power.kicad_sch",
+      "C208": "10_Six_Rail_Power.kicad_sch",
+      "C212": "10_Six_Rail_Power.kicad_sch",
+      "C213": "10_Six_Rail_Power.kicad_sch",
+      "C214": "10_Six_Rail_Power.kicad_sch",
+      "C540": "12_Local_Decoupling.kicad_sch",
+      "C552": "12_Local_Decoupling.kicad_sch",
+      "C562": "12_Local_Decoupling.kicad_sch"
+    }
+  },
+  {
+    "check": "only_three_schematic_files_changed",
+    "pass": true,
+    "detail": [
+      "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch",
+      "cad/recovery-physical-candidate/12_Local_Decoupling.kicad_sch",
+      "cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch"
+    ]
+  },
+  {
+    "check": "one_library_owner",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "library_uri_resolves_expected",
+    "pass": true,
+    "detail": "${KIPRJMOD}/../recovery-bulk22-candidates/CMK230_Bulk22_Candidates.pretty"
+  },
+  {
+    "check": "older_library_owners_unchanged",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "only_one_new_library_part",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "generator_nine_ref_update_exact",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "generator_expected_three_append_statements",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "generator_existing_AST_preserved",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "generator_appended_table_entry",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "copied_source_manifest_resolves",
+    "pass": true,
+    "detail": {
+      "missing": [],
+      "hash_mismatch": []
+    }
+  },
+  {
+    "check": "source_22uF_land_authority",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "47uF_proposal_unselected",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "exact_two_copper_pads",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "separate_unnumbered_1to1_paste",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "max_body_centerline_dimensions",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "courtyard_centerline_dimensions",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "actual_mask_to_courtyard_inner_edge_0p25",
+    "pass": true,
+    "detail": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  },
+  {
+    "check": "conditional_process_description",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "native_netlist_exit0",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "fresh_export_254_identities_saved_master_match",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "fresh_export_1509_bindings_saved_master_match",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "fresh_ERC_zero",
+    "pass": true,
+    "detail": {
+      "exit_code": 0,
+      "violations": 0
+    }
+  },
+  {
+    "check": "saved_fixture_one_footprint",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "saved_fixture_identity_owner",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "saved_fixture_pad_geometry_matches_library",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "saved_fixture_actual_courtyard_clearance",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "fresh_geometry_DRC_zero",
+    "pass": true,
+    "detail": {
+      "exit_code": 0,
+      "violations": 0,
+      "unconnected": 0
+    }
+  },
+  {
+    "check": "fresh_CAM_exit0",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "saved_vs_fresh_CAM_Cu",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "CAM_two_expected_flashes_Cu",
+    "pass": true,
+    "detail": {
+      "apertures": {
+        "10": {
+          "shape": "R",
+          "bounds_xy_mm": [
+            1.25,
+            1.8
+          ]
+        }
+      },
+      "flashes": [
+        {
+          "position_mm": [
+            6.525,
+            -6.0
+          ],
+          "aperture": {
+            "shape": "R",
+            "bounds_xy_mm": [
+              1.25,
+              1.8
+            ]
+          }
+        },
+        {
+          "position_mm": [
+            9.475,
+            -6.0
+          ],
+          "aperture": {
+            "shape": "R",
+            "bounds_xy_mm": [
+              1.25,
+              1.8
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "check": "saved_vs_fresh_CAM_Mask",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "CAM_two_expected_flashes_Mask",
+    "pass": true,
+    "detail": {
+      "apertures": {
+        "10": {
+          "shape": "RoundRect",
+          "bounds_xy_mm": [
+            1.35,
+            1.9
+          ]
+        }
+      },
+      "flashes": [
+        {
+          "position_mm": [
+            6.525,
+            -6.0
+          ],
+          "aperture": {
+            "shape": "RoundRect",
+            "bounds_xy_mm": [
+              1.35,
+              1.9
+            ]
+          }
+        },
+        {
+          "position_mm": [
+            9.475,
+            -6.0
+          ],
+          "aperture": {
+            "shape": "RoundRect",
+            "bounds_xy_mm": [
+              1.35,
+              1.9
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "check": "saved_vs_fresh_CAM_Paste",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "CAM_two_expected_flashes_Paste",
+    "pass": true,
+    "detail": {
+      "apertures": {
+        "10": {
+          "shape": "R",
+          "bounds_xy_mm": [
+            1.25,
+            1.8
+          ]
+        }
+      },
+      "flashes": [
+        {
+          "position_mm": [
+            6.525,
+            -6.0
+          ],
+          "aperture": {
+            "shape": "R",
+            "bounds_xy_mm": [
+              1.25,
+              1.8
+            ]
+          }
+        },
+        {
+          "position_mm": [
+            9.475,
+            -6.0
+          ],
+          "aperture": {
+            "shape": "R",
+            "bounds_xy_mm": [
+              1.25,
+              1.8
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "check": "all_negative_controls_detected",
+    "pass": true,
+    "detail": [
+      {
+        "name": "CPU_to_KPU",
+        "detected": true,
+        "witness": [
+          [
+            "C206",
+            "1"
+          ]
+        ]
+      },
+      {
+        "name": "KPU_to_CPU",
+        "detected": true,
+        "witness": [
+          [
+            "C212",
+            "1"
+          ]
+        ]
+      },
+      {
+        "name": "DDR_to_1V8",
+        "detected": true,
+        "witness": [
+          [
+            "C540",
+            "1"
+          ]
+        ]
+      },
+      {
+        "name": "1V8_to_DDR",
+        "detected": true,
+        "witness": [
+          [
+            "C562",
+            "1"
+          ]
+        ]
+      },
+      {
+        "name": "courtyard_inner_edge_clearance_reduced",
+        "detected": true,
+        "actual_clearances_mm": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "required_mm": 0.25
+      },
+      {
+        "name": "native_copper_gap_0p05_vs_rule_0p20",
+        "detected": true,
+        "actual_copper_gap_mm": 0.05,
+        "rule_minimum_mm": 0.2,
+        "native_exit_code": 5,
+        "violation_types": [
+          "clearance",
+          "lib_footprint_issues",
+          "solder_mask_bridge"
+        ]
+      }
+    ]
+  },
+  {
+    "check": "source_CAD_unchanged_during_audit",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "no_files_removed",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "only_expected_existing_files_changed",
+    "pass": true,
+    "detail": [
+      "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch",
+      "cad/recovery-physical-candidate/12_Local_Decoupling.kicad_sch",
+      "cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch",
+      "cad/recovery-physical-candidate/README.md",
+      "cad/recovery-physical-candidate/build_review.py",
+      "cad/recovery-physical-candidate/erc.json",
+      "cad/recovery-physical-candidate/fp-lib-table",
+      "cad/recovery-physical-candidate/master.xml"
+    ]
+  },
+  {
+    "check": "new_files_scoped",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "check": "active_README_append_only_bounded_R11_status",
+    "pass": true,
+    "detail": null
+  }
+]

@@ -1,0 +1,240 @@
+{
+  "checked_UTC_date": "2026-10-03",
+  "status": "READ_ONLY_NINE_REFERENCE_GEOMETRY_APPLICABILITY_EXTENSION",
+  "active_master_sha256": "bbb9c482b05e066ba6d9ee046218abe1227d5e7918d8ebe4e1a7bcb358256183",
+  "count": 9,
+  "nominal_value_count_unchanged": true,
+  "library_generated": false,
+  "R10_gate": "This review generates no library. Any later source-library generation remains gated on current R10 publication.",
+  "47uF_proposal_selected": false,
+  "conclusion": "Same exact CL31B226KPHNNNE source-land identity is a defensible conditional geometry candidate at all nine22uF positions; capacitor selection, Ceff/PDN, assembly and routed placement remain unqualified.",
+  "rows": [
+    {
+      "reference": "C206",
+      "nominal_value_exact": "22uF X7R / total Ceff>=30uF",
+      "pin1_net": "VDD0P8_CPU",
+      "pin2_net": "GND",
+      "source_sheet": "10_Six_Rail_Power.kicad_sch",
+      "role": "CPU regulator output bank",
+      "source_role_reference": "Active Six_Rail_Power sheet and netlist; TPS628640B output-bank role",
+      "current_footprint": "",
+      "conditional_geometry_mpn": "CL31B226KPHNNNE",
+      "geometry_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE_ONLY",
+      "nominal_rail_V": 0.8,
+      "Ceff_requirement": ">=30uF effective per three-part bank; not qualified",
+      "placement_requirement": "Regulator output loop/locality and sense return must be qualified",
+      "Ceff_PDN_qualified": false
+    },
+    {
+      "reference": "C207",
+      "nominal_value_exact": "22uF X7R / total Ceff>=30uF",
+      "pin1_net": "VDD0P8_CPU",
+      "pin2_net": "GND",
+      "source_sheet": "10_Six_Rail_Power.kicad_sch",
+      "role": "CPU regulator output bank",
+      "source_role_reference": "Active Six_Rail_Power sheet and netlist; TPS628640B output-bank role",
+      "current_footprint": "",
+      "conditional_geometry_mpn": "CL31B226KPHNNNE",
+      "geometry_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE_ONLY",
+      "nominal_rail_V": 0.8,
+      "Ceff_requirement": ">=30uF effective per three-part bank; not qualified",
+      "placement_requirement": "Regulator output loop/locality and sense return must be qualified",
+      "Ceff_PDN_qualified": false
+    },
+    {
+      "reference": "C208",
+      "nominal_value_exact": "22uF X7R / total Ceff>=30uF",
+      "pin1_net": "VDD0P8_CPU",
+      "pin2_net": "GND",
+      "source_sheet": "10_Six_Rail_Power.kicad_sch",
+      "role": "CPU regulator output bank",
+      "source_role_reference": "Active Six_Rail_Power sheet and netlist; TPS628640B output-bank role",
+      "current_footprint": "",
+      "conditional_geometry_mpn": "CL31B226KPHNNNE",
+      "geometry_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE_ONLY",
+      "nominal_rail_V": 0.8,
+      "Ceff_requirement": ">=30uF effective per three-part bank; not qualified",
+      "placement_requirement": "Regulator output loop/locality and sense return must be qualified",
+      "Ceff_PDN_qualified": false
+    },
+    {
+      "reference": "C212",
+      "nominal_value_exact": "22uF X7R / total Ceff>=30uF",
+      "pin1_net": "VDD0P8_KPU",
+      "pin2_net": "GND",
+      "source_sheet": "10_Six_Rail_Power.kicad_sch",
+      "role": "KPU regulator output bank",
+      "source_role_reference": "Active Six_Rail_Power sheet and netlist; TPS628640B output-bank role",
+      "current_footprint": "",
+      "conditional_geometry_mpn": "CL31B226KPHNNNE",
+      "geometry_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE_ONLY",
+      "nominal_rail_V": 0.8,
+      "Ceff_requirement": ">=30uF effective per three-part bank; not qualified",
+      "placement_requirement": "Regulator output loop/locality and sense return must be qualified",
+      "Ceff_PDN_qualified": false
+    },
+    {
+      "reference": "C213",
+      "nominal_value_exact": "22uF X7R / total Ceff>=30uF",
+      "pin1_net": "VDD0P8_KPU",
+      "pin2_net": "GND",
+      "source_sheet": "10_Six_Rail_Power.kicad_sch",
+      "role": "KPU regulator output bank",
+      "source_role_reference": "Active Six_Rail_Power sheet and netlist; TPS628640B output-bank role",
+      "current_footprint": "",
+      "conditional_geometry_mpn": "CL31B226KPHNNNE",
+      "geometry_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE_ONLY",
+      "nominal_rail_V": 0.8,
+      "Ceff_requirement": ">=30uF effective per three-part bank; not qualified",
+      "placement_requirement": "Regulator output loop/locality and sense return must be qualified",
+      "Ceff_PDN_qualified": false
+    },
+    {
+      "reference": "C214",
+      "nominal_value_exact": "22uF X7R / total Ceff>=30uF",
+      "pin1_net": "VDD0P8_KPU",
+      "pin2_net": "GND",
+      "source_sheet": "10_Six_Rail_Power.kicad_sch",
+      "role": "KPU regulator output bank",
+      "source_role_reference": "Active Six_Rail_Power sheet and netlist; TPS628640B output-bank role",
+      "current_footprint": "",
+      "conditional_geometry_mpn": "CL31B226KPHNNNE",
+      "geometry_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE_ONLY",
+      "nominal_rail_V": 0.8,
+      "Ceff_requirement": ">=30uF effective per three-part bank; not qualified",
+      "placement_requirement": "Regulator output loop/locality and sense return must be qualified",
+      "Ceff_PDN_qualified": false
+    },
+    {
+      "reference": "C540",
+      "nominal_value_exact": "22uF",
+      "pin1_net": "VDD1P1_DDR_IO",
+      "pin2_net": "GND",
+      "source_sheet": "12_Local_Decoupling.kicad_sch",
+      "role": "DRAM VDD2 source C20-C31",
+      "source_role_reference": "01studio p2 C20:22uF on VDD_1V1; allocation group C20-C31",
+      "current_footprint": "",
+      "conditional_geometry_mpn": "CL31B226KPHNNNE",
+      "geometry_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE_ONLY",
+      "nominal_rail_V": 1.1196,
+      "Ceff_requirement": "Local DDR/PDN requirement not numerically established by this geometry review",
+      "placement_requirement": "TOP only; no geometry assigned; group location must follow power balls",
+      "Ceff_PDN_qualified": false
+    },
+    {
+      "reference": "C552",
+      "nominal_value_exact": "22uF",
+      "pin1_net": "VDD1P1_DDR_IO",
+      "pin2_net": "GND",
+      "source_sheet": "12_Local_Decoupling.kicad_sch",
+      "role": "DRAM VDDQ source C40-C49",
+      "source_role_reference": "01studio p2 C40:22uF on VDD_1V1; allocation group C40-C49",
+      "current_footprint": "",
+      "conditional_geometry_mpn": "CL31B226KPHNNNE",
+      "geometry_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE_ONLY",
+      "nominal_rail_V": 1.1196,
+      "Ceff_requirement": "Local DDR/PDN requirement not numerically established by this geometry review",
+      "placement_requirement": "TOP only; no geometry assigned; group location must follow power balls",
+      "Ceff_PDN_qualified": false
+    },
+    {
+      "reference": "C562",
+      "nominal_value_exact": "22uF",
+      "pin1_net": "VDD1P8",
+      "pin2_net": "GND",
+      "source_sheet": "12_Local_Decoupling.kicad_sch",
+      "role": "DRAM VDD1 source C32-C39",
+      "source_role_reference": "01studio p2 C32:22uF on VDD_1V8; allocation group C32-C39",
+      "current_footprint": "",
+      "conditional_geometry_mpn": "CL31B226KPHNNNE",
+      "geometry_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE_ONLY",
+      "nominal_rail_V": 1.8,
+      "Ceff_requirement": "Local DDR/PDN requirement not numerically established by this geometry review",
+      "placement_requirement": "TOP only; no geometry assigned; group location must follow power balls",
+      "Ceff_PDN_qualified": false
+    }
+  ],
+  "shared_geometry_source": {
+    "mpn": "CL31B226KPHNNNE",
+    "body_max_LWT_mm": [
+      3.4,
+      1.8,
+      1.8
+    ],
+    "manufacturer_source_url": "https://product.samsungsem.com/mlcc/CL31B226KPHNNN.do",
+    "specsheet_sha256": "742b9759b46abf22af1f61562aac31870345cf654ca240911f98fda44cf58167",
+    "source_page": 33,
+    "applicable_row": "3216 +/-0.20mm reflow",
+    "manufacturer_ranges_mm": {
+      "inner_gap_a": [
+        1.64,
+        1.76
+      ],
+      "each_pad_length_b": [
+        1.19,
+        1.31
+      ],
+      "pad_width_c": [
+        1.74,
+        1.86
+      ],
+      "total_copper_span": [
+        4.02,
+        4.38
+      ]
+    },
+    "midpoint_choice_mm": {
+      "inner_gap": 1.7,
+      "pad_size_xy": [
+        1.25,
+        1.8
+      ],
+      "pad_centers_x": [
+        -1.475,
+        1.475
+      ],
+      "copper_envelope_xy": [
+        4.2,
+        1.8
+      ]
+    }
+  },
+  "source_evidence": [
+    {
+      "project_relative_path": "cad/recovery-physical-candidate/master.xml",
+      "sha256": "bbb9c482b05e066ba6d9ee046218abe1227d5e7918d8ebe4e1a7bcb358256183"
+    },
+    {
+      "project_relative_path": "cad/recovery-physical-candidate/12_Local_Decoupling.kicad_sch",
+      "sha256": "b29395b98d342fdb81bb46c384fd1c167f07189ec3df7feb95f5b17366c6252e"
+    },
+    {
+      "project_relative_path": "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch",
+      "sha256": "3ae569bab5cc09b3764716825385a166eed4f1087a21d7602ec87730638b1d56"
+    },
+    {
+      "project_relative_path": "engineering/decoupling-allocation.csv",
+      "sha256": "1c6299b30b5f14faddf167e5c29fa6bc6426d559c3094ca23ad0980565249292"
+    },
+    {
+      "project_relative_path": "engineering/decoupling-review/reference-capacitor-inventory.csv",
+      "sha256": "cd67b3ce6d78b7e61014b4cb9089b7dc612ad58cadebec166b7ced36a80c6a88"
+    },
+    {
+      "project_relative_path": "engineering/decoupling-review/DECOUPLING_BASIS_REVIEW.md",
+      "sha256": "ad84a21face8e9f1dcc45bd18863831101b8d8a73e6ac647c4855ef1c613a6b2"
+    }
+  ],
+  "role_evidence_scope": "The historical decoupling inventory establishes source provenance; values/nets/sheet membership were rechecked directly against the active recovery-physical-candidate master. No historical master is used as the current connectivity authority.",
+  "constraints": [
+    "Three DRAM local values are generic22uF fields, not existing exact-MPN or X7R assignments. Naming this candidate does not change those values.",
+    "Maintain all nine positions and exact supply/return connections. Common manufacturer geometry does not merge their roles or banks.",
+    "C540 and C552 are distinct intended VDD2 and VDDQ local groups despite their common supply net.",
+    "Do not credit DDR/1V8 local capacitors toward a regulator output-local minimum without validated placement/interconnect/loop behavior.",
+    "01studio reference population is provenance, not Micron MT53E256M32D2FW-046 AAT:B application approval.",
+    "22uF at10V and125C X7R rating is a candidate specification, not proof of actual biased/hot/aged/ripple capacitance.",
+    "No new numeric local-PDN capacitance minimum is invented.",
+    "47uF engineering proposal remains unselected."
+  ],
+  "final_master_sha256": "bbb9c482b05e066ba6d9ee046218abe1227d5e7918d8ebe4e1a7bcb358256183"
+}

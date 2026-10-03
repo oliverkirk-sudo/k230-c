@@ -1,0 +1,62 @@
+{
+  "sources": [
+    {
+      "url": "https://product.samsungsem.com/mlcc/CL32B476KQVVPN.do",
+      "file": "CL32B476KQVVPN.html",
+      "bytes": 179605,
+      "sha256": "eb55bccfc7bdadb4d2a80e2c5fb342bfc3212068b39951ad48e40c9eb0a97df4",
+      "checked_UTC_date": "2026-10-03",
+      "private_original_retained": true
+    },
+    {
+      "url": "https://product.samsungsem.com/mlcc/CL31B226KPHNNN.do",
+      "file": "CL31B226KPHNNN.html",
+      "bytes": 183786,
+      "sha256": "2e0d20106f51715f5d7030209dce289bfbe3bda3835fc3207698a9e3c6d08f32",
+      "checked_UTC_date": "2026-10-03",
+      "private_original_retained": true
+    },
+    {
+      "url": "https://product.samsungsem.com/part/download.do",
+      "method": "POST",
+      "body": "masterKey=CL32B476KQVVPN&type=specsheet",
+      "file": "CL32B476KQVVPN-specsheet.pdf",
+      "bytes": 2805399,
+      "sha256": "65dbb462997163abc75cd1d29c19f0a90227978cafa5e35e8186698901897391",
+      "checked_UTC_date": "2026-10-03",
+      "private_original_retained": true
+    },
+    {
+      "url": "https://product.samsungsem.com/part/download.do",
+      "method": "POST",
+      "body": "masterKey=CL31B226KPHNNN&type=specsheet",
+      "file": "CL31B226KPHNNN-specsheet.pdf",
+      "bytes": 3029926,
+      "sha256": "742b9759b46abf22af1f61562aac31870345cf654ca240911f98fda44cf58167",
+      "checked_UTC_date": "2026-10-03",
+      "private_original_retained": true
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tps62827.pdf",
+      "file": "tps62827.pdf",
+      "bytes": 2138207,
+      "sha256": "8a309f2a40486a380242d3f178eb4bda3ef4dca3deca647fa82f763d14866f63",
+      "checked_UTC_date": "2026-10-03",
+      "private_original_retained": true
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tps62864.pdf",
+      "file": "tps62864.pdf",
+      "bytes": 2193210,
+      "sha256": "f49cda50b21c8a84ea153120043efd31a5c4a58d2c0465909ea7f804806b8919",
+      "checked_UTC_date": "2026-10-03",
+      "private_original_retained": true
+    }
+  ],
+  "public_artifact_policy": "Original PDFs, HTML, extracted complete text/curves and screenshots are retained outside this deliverable. Only factual extracted dimensions, short evidence summaries, derived engineering calculations, source URLs and hashes are distributed.",
+  "source_authorship": "Samsung and TI manufacturer-authored originals fetched directly from manufacturer endpoints.",
+  "historical_pdf_hash_comparison": {
+    "CL32B476KQVVPN-specsheet.pdf": "Identical to historical candidate-review SHA256",
+    "CL31B226KPHNNN-specsheet.pdf": "Identical to historical candidate-review SHA256"
+  }
+}

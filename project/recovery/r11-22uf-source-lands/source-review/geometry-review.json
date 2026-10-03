@@ -1,0 +1,187 @@
+{
+  "units": "mm",
+  "parts": [
+    {
+      "mpn": "CL32B476KQVVPNE",
+      "nominal_uF": 47,
+      "rated_V": 6.3,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "manufacturer_page_status": "Mass Production",
+      "case_inch": "1210",
+      "body_nominal_LWT_mm": [
+        3.2,
+        2.5,
+        2.5
+      ],
+      "body_tolerance_LWT_mm": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "body_min_LWT_mm": [
+        2.8,
+        2.2,
+        2.2
+      ],
+      "body_max_LWT_mm": [
+        3.6,
+        2.8,
+        2.8
+      ],
+      "termination_BW_nominal_tolerance_mm": [
+        0.6,
+        0.3
+      ],
+      "specification_issued": "2024-06-26",
+      "dimension_source_page": 1,
+      "manufacturer_reflow_status": "NO_EXACT_APPLICABLE_ROW_FOUND",
+      "manufacturer_reflow_source_page": 34,
+      "rejected_reflow_row": "3225 +/-0.30 mm does not cover exact +/-0.40 mm length.",
+      "rejected_flow_row": "Page 35 FLOW table 3225 +/-0.40 mm is not a reflow recommendation.",
+      "rejected_test_PCB_rows": "Pages 3-4 adhesive/bend/reliability test substrates are not production reflow land recommendations."
+    },
+    {
+      "mpn": "CL31B226KPHNNNE",
+      "nominal_uF": 22,
+      "rated_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "manufacturer_page_status": "Mass Production",
+      "case_inch": "1206",
+      "body_nominal_LWT_mm": [
+        3.2,
+        1.6,
+        1.6
+      ],
+      "body_tolerance_LWT_mm": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "body_min_LWT_mm": [
+        3,
+        1.4,
+        1.4
+      ],
+      "body_max_LWT_mm": [
+        3.4,
+        1.8,
+        1.8
+      ],
+      "termination_BW_nominal_tolerance_mm": [
+        0.5,
+        0.3
+      ],
+      "specification_issued": "2021-04-15",
+      "dimension_source_page": 1,
+      "manufacturer_reflow_status": "APPLICABLE_3216_PLUS_MINUS_0P20_ROW",
+      "manufacturer_reflow_source_page": 33,
+      "manufacturer_reflow_ranges_mm": {
+        "inner_gap_a": [
+          1.64,
+          1.76
+        ],
+        "each_pad_length_b": [
+          1.19,
+          1.31
+        ],
+        "pad_width_c": [
+          1.74,
+          1.86
+        ],
+        "total_copper_span": [
+          4.02,
+          4.38
+        ]
+      },
+      "midpoint_choice_mm": {
+        "inner_gap": 1.7,
+        "pad_size_xy": [
+          1.25,
+          1.8
+        ],
+        "pad_centers_x": [
+          -1.475,
+          1.475
+        ],
+        "copper_envelope_xy": [
+          4.2,
+          1.8
+        ]
+      },
+      "max_range_choice_mm": {
+        "inner_gap": 1.76,
+        "pad_size_xy": [
+          1.31,
+          1.86
+        ],
+        "pad_centers_x": [
+          -1.535,
+          1.535
+        ],
+        "copper_envelope_xy": [
+          4.38,
+          1.86
+        ]
+      },
+      "assembly_status": "Manufacturer range verified, but paste/mask/placement/courtyard and actual assembly remain unqualified."
+    }
+  ],
+  "engineering_derived_47uF_proposal": {
+    "mpn": "CL32B476KQVVPNE",
+    "status": "UNSELECTED_ENGINEERING_DERIVED_REVIEW_PROPOSAL_ONLY_NOT_MANUFACTURER_RECOMMENDATION",
+    "selected": false,
+    "purpose": "Conservative terminal-coverage starting geometry; not a released footprint or optimized land.",
+    "minimum_missing_source_input": "A manufacturer-authored reflow drawing explicitly applicable to CL32B476KQVVPNE and its exact L/W/BW/termination tolerances, or an accountable assembly-engineering approved copper/mask/paste drawing with a documented process tolerance stack and validation for this exact part. Manufacturer applicability alone does not qualify the production assembly process.",
+    "pad_centers_xy_mm": [
+      [
+        -1.675,
+        0
+      ],
+      [
+        1.675,
+        0
+      ]
+    ],
+    "pad_size_xy_mm": [
+      1.65,
+      3.2
+    ],
+    "inner_gap_mm": 1.7,
+    "nominal_copper_envelope_xy_mm": [
+      5,
+      3.2
+    ],
+    "analyst_assumptions": {
+      "placement_translation_each_axis_mm": 0.1,
+      "independent_copper_edge_error_mm": 0.05,
+      "placement_rotation_deg": 0,
+      "courtyard_clearance_each_side_mm": 0.25
+    },
+    "fabrication_expanded_copper_envelope_xy_mm": [
+      5.1,
+      3.3
+    ],
+    "illustrative_courtyard_xy_mm": [
+      5.6,
+      3.8
+    ],
+    "limits": [
+      "No placement-rotation allowance is proven.",
+      "No solder paste, mask, wetting, flex/strain, tombstone, thermal-cycle, solder-joint-life or reflow qualification.",
+      "Large pad/fillet geometry is not automatically better reliability.",
+      "No clearance or courtyard dimension is a universal manufacturer minimum.",
+      "Do not silently substitute the generic +/-0.30 row or FLOW row."
+    ],
+    "geometry_corner_checks": {
+      "count": 64,
+      "minimum_axial_overlap_mm": 0.3,
+      "minimum_toe_extension_mm": 0.55,
+      "minimum_side_extension_mm": 0.05,
+      "minimum_pad_gap_under_edge_error_mm": 1.6,
+      "interpretation": "Bounding-box geometry only under stated independent dimensional/translation/copper-edge assumptions; all corners enumerated."
+    }
+  },
+  "no_CAD_change": true
+}

@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "CMK230_Bulk22_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../../cad/recovery-bulk22-candidates/CMK230_Bulk22_Candidates.pretty") (options "") (descr "Conditional source patterns")))

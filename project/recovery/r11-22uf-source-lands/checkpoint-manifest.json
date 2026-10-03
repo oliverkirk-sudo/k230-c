@@ -1,0 +1,307 @@
+{
+  "revision": "R11",
+  "base_commit": "05b3254a3c19f15cf78588ed8095e06ab68f32da",
+  "files": [
+    {
+      "path": "cad/recovery-bulk22-candidates/CMK230_Bulk22_Candidates.pretty/Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE.kicad_mod",
+      "bytes": 1080,
+      "sha256": "af0fc1fa31ef6e0bd27604b1202ebaf838ac80d3e0dcc9d8e71efe6435cf9fa0",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch",
+      "bytes": 127616,
+      "sha256": "4b41e0a932d3eb8cacf9fa45d9c8176487ecbc6ebf1f1c4deaddad8e9df11a0d",
+      "old_sha256": "3ae569bab5cc09b3764716825385a166eed4f1087a21d7602ec87730638b1d56"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/12_Local_Decoupling.kicad_sch",
+      "bytes": 99474,
+      "sha256": "423f3b8ac63d5cd3995a811f91b2afbfd93bbeee9905b061774c78486e1576a6",
+      "old_sha256": "b29395b98d342fdb81bb46c384fd1c167f07189ec3df7feb95f5b17366c6252e"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch",
+      "bytes": 8896,
+      "sha256": "b9ff6e145c919dc4fb52676703a8dab66bb861e862df66c937a11a7d3547ed0d",
+      "old_sha256": "abda490f3cb63049143dade5e6254f0f1af42707e9610d081f683ad37b28154c"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/README.md",
+      "bytes": 3361,
+      "sha256": "f3a80adc08b0c070e724bc60b4e736e771fd8ee69a57f06a757bde2797734c45",
+      "old_sha256": "8357e426f8d6c4dd4fc376a02af50913f8d4f3c35af24136bd5736199b44ff5f"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/build_review.py",
+      "bytes": 36223,
+      "sha256": "4cea7562d067ad068ac09eed86701952303c9a92c052673fcb957837a9916ae1",
+      "old_sha256": "1a8a115d20b30dd0cbda3bf818670515c281ead0d325026c5b02ccb3834ae268"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/erc.json",
+      "bytes": 3656,
+      "sha256": "6ecf57090ba3c6136e858da121d4cd5deb426b24e838fdd05f661d1f0353c8fb",
+      "old_sha256": "01d3debd156dea50e210fcb08f7be59db9b98dd4150157cedc410d58909ad760"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/fp-lib-table",
+      "bytes": 4211,
+      "sha256": "4d4c663d901f119f893f843a6040c8679ad8f72c70c6543aa373a6c1ecd28db2",
+      "old_sha256": "d80671b937dde642f43bb5b70a178bda1489f5fecb0e65f857c90fe9dcb82769"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/master.xml",
+      "bytes": 409257,
+      "sha256": "6d4addd7844f688d28e5af9fba904d5260c171de4ad239ba4336e6d8a3c2a13a",
+      "old_sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4"
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/BULK22_LANDS_GEOMETRY_ONLY.kicad_pcb",
+      "bytes": 4954,
+      "sha256": "8debc8d007d934ff29af40f3295f7950ffc20d2b7a092741207b8b560dcb7393",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/BULK22_LANDS_GEOMETRY_ONLY.kicad_pro",
+      "bytes": 222,
+      "sha256": "ecee4997f457037b6a1b74fe8722c5e2597a1149dfcd73822deb9115315dc622",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/README.md",
+      "bytes": 3529,
+      "sha256": "95a3690d2c73036a72e2fd6aa0e9c88b5007362a2d1709904ef1affc5b560207",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/assignments.json",
+      "bytes": 786,
+      "sha256": "5105c22a18b1c0e0b03467b55beff78b4fad34975184637df7983bdc2c2274ba",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/bulk22-copper.svg",
+      "bytes": 2279,
+      "sha256": "f5e4633a6c3d5fa7149ccb2225bc6c5fdaf540c1927dac2542fa63554d57e5b5",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/fixture-drc.json",
+      "bytes": 292,
+      "sha256": "1da96ed571f6221801e46042a2bcb6ef44b0a25036cf35a3c46b6e4db6a3ef49",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/fp-lib-table",
+      "bytes": 210,
+      "sha256": "0a9f1937fa9531f86aba206b62dd5889151ed0b84325eb3c0ddd68e5de6063c4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/README.md",
+      "bytes": 4188,
+      "sha256": "2ad4bc300328b1af5d5386edbe60f9e2bb3c8fc56f0a62adb01cbc283a5d9bb8",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/artifact-sha256.json",
+      "bytes": 1103,
+      "sha256": "1ed2ef4ef3a0b12ddb99bdf4b14ee8314845dd2f4cbdc990567b4c339817c90d",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/audit_r11.py",
+      "bytes": 20090,
+      "sha256": "0491e8febbf5d3a19965503dc981a42f1b2e82d0ad02480cdb12c7d980c49647",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/cam-audit.json",
+      "bytes": 1841,
+      "sha256": "bc531801c9f9245f68e0a45480a3d12962a120c4413a03bacc0c62495cf04dd0",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/checks.json",
+      "bytes": 12290,
+      "sha256": "7086bfc7d35ec47c13148089f51bb9e76413fdc8d7a4f3248a9a7a3a58313706",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/fresh-erc.json",
+      "bytes": 3174,
+      "sha256": "6b67422100d9ddbc12699817e92ec6bbe295863b67483847eb004caac9b6802e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/fresh-geometry-drc.json",
+      "bytes": 276,
+      "sha256": "b6891f7c7a2eb431dc7d80150ed2d0dbbd3d7674de3912d51977a51a52201dca",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/input-hashes.json",
+      "bytes": 3702,
+      "sha256": "a7040eceb42d34338efebdb65035188e5aba90b3d45880dec8bcebb015c0bfa5",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/native-command-results.json",
+      "bytes": 1394,
+      "sha256": "fa9d0d5bde43cc284fc0f94265f1978978dbb407973f4ca9d9ddfcd3925cb695",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/negative-controls.json",
+      "bytes": 966,
+      "sha256": "826207ab0529064be23b821f8951233ec014e12c36f30df7e841b7580636c191",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/negative-native-clearance.json",
+      "bytes": 1917,
+      "sha256": "a51103c97f8151c422d8b1f257edf37dbb1209c843e4782475e6a30550586ff7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/source-tree-diff.json",
+      "bytes": 2667,
+      "sha256": "95a09073f7e637a095444bac94702d01a068527e03548b28374fef647233c117",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/independent/summary.json",
+      "bytes": 1126,
+      "sha256": "17c3194e90741118a6f434208ab1b7ec39bb1f989ab0fed2cd44caf1e3325388",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/native-cam/BULK22_LANDS_GEOMETRY_ONLY-F_Cu.gtl",
+      "bytes": 668,
+      "sha256": "d65d1ad9a5c15e37860e48b7f1c6424513464ae37a6b90364cfbe07db28c34a7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/native-cam/BULK22_LANDS_GEOMETRY_ONLY-F_Mask.gts",
+      "bytes": 1206,
+      "sha256": "530473dcf924496b41500949efaeb09003e6c3e36d1957bd722eec5fb2127a1b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/native-cam/BULK22_LANDS_GEOMETRY_ONLY-F_Paste.gtp",
+      "bytes": 579,
+      "sha256": "6a4dae791f025f9c30ab66ec2323a21a38479ac6554dcfa99ba864f755bf7c4c",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/native-cam/BULK22_LANDS_GEOMETRY_ONLY-job.gbrjob",
+      "bytes": 3158,
+      "sha256": "b54115e1e80be7803ea39a0420e256800700101c8dd23a9da5ac0e28fa6bee55",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/native-checks.json",
+      "bytes": 1667,
+      "sha256": "5738699fa3fdce70e471fa3c6e11971135b75957cdcbb11241e64777545238c5",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/public-path-normalization.json",
+      "bytes": 690,
+      "sha256": "da7339de3064a6c824353f595d8abeeb3b6f5254c97653913920222629d284c0",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/remaining-inventory.json",
+      "bytes": 1392,
+      "sha256": "f962b004282914edbd4909a842478c65f95273fff797ae749d5fd068a5b712ce",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/README.md",
+      "bytes": 9803,
+      "sha256": "abe47b0778127b5c23280ade09b223725d4a6bec9d4ff548fd0fa6ac669b4c3f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/active-master-snapshot.json",
+      "bytes": 7167,
+      "sha256": "bf71bed9865225a790ca90f939baef4e29553a35213c83cdc968188bdba2c13c",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/artifact-sha256.json",
+      "bytes": 1115,
+      "sha256": "55519cc542449651aa02757147d609b95867f35e8a2a4c17c2bb60d4655343f1",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/build_review.py",
+      "bytes": 12359,
+      "sha256": "f02b90228bfc1561ddea878edb11896b7b4a621fc25c148712145d5834ed5647",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/derived-47uF-corner-checks.csv",
+      "bytes": 2559,
+      "sha256": "5cb74119b561c10422990cca88fbc7b80aaf0555eb74ae2aab49c5f8cd796891",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/electrical-limits.json",
+      "bytes": 11327,
+      "sha256": "6a062ddc3c2e94f4726d9cf092282053c52ababf750f96d74e245bf2c703b62c",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/geometry-review.json",
+      "bytes": 5152,
+      "sha256": "5066530a2dbc24f665f088b5205043f984f6a896b9b80c472132eb68cfe994f7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/nine-reference-22uF-geometry-applicability.csv",
+      "bytes": 3432,
+      "sha256": "ac739f2d4225ad14c87ed56ab5f5ed90f9e1af1754bf1ba8cef519ac910a9013",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/nine-reference-22uF-geometry-applicability.json",
+      "bytes": 10810,
+      "sha256": "534b2bdd5f3ac47623dd98ea87da76ba93bacd9ebf295bfeb2dfdedb508f7b43",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/nine-reference-22uF-geometry-applicability.md",
+      "bytes": 2503,
+      "sha256": "3c35a0393113b92a84967b8d5b3786b371e945b68e2468adb737b17140d74910",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/source-manifest.json",
+      "bytes": 2616,
+      "sha256": "2e115cf236994a67a805ab46a5e5efcf5b15048e4ca1a6da7ac5ef64c9dc20db",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/source-review/verification.json",
+      "bytes": 1014,
+      "sha256": "30e85476d009ac9119352b6b40e8e3436865ad287ed7a1449fd5f66409810313",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/validate_coverage.py",
+      "bytes": 5666,
+      "sha256": "7d1461a460e37ddef1bb7c6f213e5ae997cea57c2f4df84ef632f5c6f730423a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r11-22uf-source-lands/validation.json",
+      "bytes": 797,
+      "sha256": "0b3d870b76b037231647a9ec36f5ba8a6944fd2dc4eebd41d1b4573f68760530",
+      "old_sha256": null
+    }
+  ],
+  "limits": "Conditional22uF source geometry; no effective-capacitance, placement or production qualification."
+}

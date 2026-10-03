@@ -1,0 +1,287 @@
+{
+  "rails": [
+    {
+      "regulator_ref": "U21",
+      "regulator_mpn": "TPS62827ADMQ",
+      "capacitor_refs": [
+        "C201"
+      ],
+      "output_net": "VDD0P8_CORE",
+      "nominal_V": 0.7992,
+      "converter_rated_output_A": 4,
+      "output_Ceff_floor_uF": 10,
+      "guide_screen_voltage_range_V": [
+        0.72,
+        0.88
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": {
+        "R201": "3.32k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+        "R202": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "Ceff_status": "NOT_QUALIFIED"
+    },
+    {
+      "regulator_ref": "U24",
+      "regulator_mpn": "TPS62826ADMQ",
+      "capacitor_refs": [
+        "C218"
+      ],
+      "output_net": "VDD1P1_DDR_IO",
+      "nominal_V": 1.1196,
+      "converter_rated_output_A": 3,
+      "output_Ceff_floor_uF": 10,
+      "guide_screen_voltage_range_V": [
+        1.06,
+        1.17
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": {
+        "R207": "8.66k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+        "R208": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "Ceff_status": "NOT_QUALIFIED"
+    },
+    {
+      "regulator_ref": "U25",
+      "regulator_mpn": "TPS62825ADMQ",
+      "capacitor_refs": [
+        "C223"
+      ],
+      "output_net": "VDD1P8",
+      "nominal_V": 1.8,
+      "converter_rated_output_A": 2,
+      "output_Ceff_floor_uF": 10,
+      "guide_screen_voltage_range_V": [
+        1.62,
+        1.98
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": {
+        "R210": "20k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+        "R211": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "Ceff_status": "NOT_QUALIFIED"
+    },
+    {
+      "regulator_ref": "U26",
+      "regulator_mpn": "TPS62826ADMQ",
+      "capacitor_refs": [
+        "C228"
+      ],
+      "output_net": "VDD_3V3",
+      "nominal_V": 3.318,
+      "converter_rated_output_A": 3,
+      "output_Ceff_floor_uF": 10,
+      "guide_screen_voltage_range_V": [
+        2.97,
+        3.63
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": {
+        "R213": "45.3k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+        "R214": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE"
+      },
+      "Ceff_status": "NOT_QUALIFIED"
+    },
+    {
+      "regulator_ref": "U22",
+      "regulator_mpn": "TPS628640BYCGR",
+      "capacitor_refs": [
+        "C206",
+        "C207",
+        "C208"
+      ],
+      "output_net": "VDD0P8_CPU",
+      "nominal_V": 0.8,
+      "converter_rated_output_A": 4,
+      "output_Ceff_floor_uF": 30,
+      "guide_screen_voltage_range_V": [
+        0.72,
+        0.88
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": null,
+      "Ceff_status": "NOT_QUALIFIED"
+    },
+    {
+      "regulator_ref": "U23",
+      "regulator_mpn": "TPS628640BYCGR",
+      "capacitor_refs": [
+        "C212",
+        "C213",
+        "C214"
+      ],
+      "output_net": "VDD0P8_KPU",
+      "nominal_V": 0.8,
+      "converter_rated_output_A": 4,
+      "output_Ceff_floor_uF": 30,
+      "guide_screen_voltage_range_V": [
+        0.72,
+        0.88
+      ],
+      "guide_range_limit": "Existing project rail-budget input only; not a complete installed-rail qualification or transient guarantee.",
+      "divider": null,
+      "Ceff_status": "NOT_QUALIFIED"
+    }
+  ],
+  "typical_curve_spot_checks": [
+    {
+      "mpn": "CL32B476KQVVPNE",
+      "voltage_V": 0.7992,
+      "typical_C_each_uF": 48.654843,
+      "typical_C_bank_uF": 48.654843,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": false
+    },
+    {
+      "mpn": "CL32B476KQVVPNE",
+      "voltage_V": 0.88,
+      "typical_C_each_uF": 48.62607,
+      "typical_C_bank_uF": 48.62607,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": false
+    },
+    {
+      "mpn": "CL32B476KQVVPNE",
+      "voltage_V": 1.1196,
+      "typical_C_each_uF": 48.310904,
+      "typical_C_bank_uF": 48.310904,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": false
+    },
+    {
+      "mpn": "CL32B476KQVVPNE",
+      "voltage_V": 1.17,
+      "typical_C_each_uF": 48.227279,
+      "typical_C_bank_uF": 48.227279,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": false
+    },
+    {
+      "mpn": "CL32B476KQVVPNE",
+      "voltage_V": 1.8,
+      "typical_C_each_uF": 46.784943,
+      "typical_C_bank_uF": 46.784943,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": false
+    },
+    {
+      "mpn": "CL32B476KQVVPNE",
+      "voltage_V": 1.98,
+      "typical_C_each_uF": 46.213089,
+      "typical_C_bank_uF": 46.213089,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": false
+    },
+    {
+      "mpn": "CL32B476KQVVPNE",
+      "voltage_V": 3.318,
+      "typical_C_each_uF": 40.135808,
+      "typical_C_bank_uF": 40.135808,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": false
+    },
+    {
+      "mpn": "CL32B476KQVVPNE",
+      "voltage_V": 3.63,
+      "typical_C_each_uF": 38.481396,
+      "typical_C_bank_uF": 38.481396,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": false
+    },
+    {
+      "mpn": "CL31B226KPHNNNE",
+      "voltage_V": 0.8,
+      "typical_C_each_uF": 22.378543,
+      "typical_C_bank_uF": 67.135628,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": false
+    },
+    {
+      "mpn": "CL31B226KPHNNNE",
+      "voltage_V": 0.88,
+      "typical_C_each_uF": 22.348601,
+      "typical_C_bank_uF": 67.045802,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": false
+    },
+    {
+      "mpn": "CL31B226KPHNNNE",
+      "voltage_V": 1.675,
+      "typical_C_each_uF": 21.52061,
+      "typical_C_bank_uF": 64.56183,
+      "measurement_frequency_Hz": 120,
+      "measurement_AC_Vrms": 0.5,
+      "measurement_temperature_C": 25.0,
+      "interpolation": "linear between adjacent manufacturer points",
+      "qualification": "NONE; typical 25C bias curve only; no combined lower bound",
+      "converter_endpoint_only": true
+    }
+  ],
+  "gates": {
+    "47uF_single_Ceff_floor_uF": 10,
+    "22uF_three_part_bank_Ceff_floor_uF": 30,
+    "22uF_each_equal_share_uF": 10,
+    "minimum_all_effect_retention_nominal_47uF": 0.2127659574468085,
+    "minimum_all_effect_retention_nominal_22uF": 0.45454545454545453,
+    "remaining_retention_after_initial_minus10_percent_47uF": 0.23640661938534277,
+    "remaining_retention_after_initial_minus10_percent_22uF": 0.5050505050505051
+  },
+  "TI_table_context": {
+    "TPS6282xA": "Rev I, section 8.2.2.5 / p14: 10uF effective output; table 8-3 / p13 includes 0.47uH with 47uF nominal, anticipates +20/-35% capacitance variation. 47*0.65=30.55uF is the lower edge of that nominal-row assumed variation, not a replacement for the separate 10uF floor.",
+    "TPS628640B": "Rev C, section 9.2.1.2.5 / p22: recommended minimum 30uF effective output; table 9-3 / p21 includes 0.24uH with 3x22uF, anticipates +20/-30% capacitance variation. 66*0.70=46.2uF is that row lower edge. If the combined application envelope falls outside the anticipated row, independent loop/transient validation is required.",
+    "voltage": "CPU/KPU 56.2k start selection gives 0.8V. 1.675V is the converter register endpoint only; it is outside the existing K230 0.72-0.88V screen and is not an approved SoC voltage.",
+    "current": "Converter ratings are CORE 4A, DDR 3A, 1V8 2A, 3V3 3A, CPU/KPU 4A each; these are not capacitor ripple ratings or demonstrated installed rail capacity. TPS62864 warns reduced lifetime at continuous 4A with junction above105C."
+  },
+  "qualification_gaps": [
+    "Actual peak rail voltage, startup/overshoot and permissible CPU/KPU operating setpoints",
+    "Combined lower-bound capacitance over DC bias, actual small AC ripple and frequency, capacitor temperature, initial tolerance, aging, lot/process variation",
+    "MLCC ripple-current heating and ESR/ESL at actual converter spectrum and current sharing",
+    "LC/loop stability, transients, startup/inrush and local placement under chosen component envelopes",
+    "Installed temperature in the provisional85C enclosure;125C capacitor rating does not show40C usable thermal margin",
+    "Exact47uF reflow recommendation absent; derived proposal requires assembly review"
+  ],
+  "Murata0805_status": "No selection, value/count change or geometry reduction. Missing combined Ceff evidence remains blocking.",
+  "no_BOM_or_CAD_changes": true
+}

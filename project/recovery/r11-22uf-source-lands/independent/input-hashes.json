@@ -1,0 +1,32 @@
+{
+  "baseline_master": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+  "candidate_master": "4f6a5e182b2adf20d3f967d973a48fcb443b02baf2d3c73585a266e34e71da97",
+  "candidate_relevant_CAD": {
+    "cad/recovery-physical-candidate/sym-lib-table": "fe8577018d1343220a17259ab4eb0569e6399660b9481fb29872407be2d897b1",
+    "cad/recovery-physical-candidate/04_LPDDR4_1.kicad_sch": "e149af7df81d9d106dd95a6faad69b93be062eb82528d17ba92b4976991ffbb7",
+    "cad/recovery-physical-candidate/06_eMMC_1.kicad_sch": "0a30b642909a903d2f7a79317b9fbee851910f7420dc9b670481b8dfdedb9526",
+    "cad/recovery-physical-candidate/12_Local_Decoupling.kicad_sch": "423f3b8ac63d5cd3995a811f91b2afbfd93bbeee9905b061774c78486e1576a6",
+    "cad/recovery-physical-candidate/09_Cold_Storage_Selector.kicad_sch": "51d69086dbbd4fdcefccc5085c92db5aa79d302d30fba7c179f54d782905c300",
+    "cad/recovery-physical-candidate/14_EMMC_Local_Bias.kicad_sch": "4d454c44e6589b21c92d5f4a531c5e581f57eb406a59c363e091834028ace8af",
+    "cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_pro": "0602ca786fb4635f0df8b22d673b422f2c541040b54b229c906f383db71a74da",
+    "cad/recovery-physical-candidate/11_DDR_USB_MIPI_Bias.kicad_sch": "9e6c818672abaa71d974e9e4db49b10b6b680170831b09f8d84dc16005e7d827",
+    "cad/recovery-physical-candidate/02_SoC_2.kicad_sch": "c3ab1a72e6961358dfc7b57245870907f6c2744276b3e3a12932cde1276e017e",
+    "cad/recovery-physical-candidate/07_Edge_Contract_1.kicad_sch": "b229d6c7f9cafec50d891b723466b5dcc49d69a991701963debb9ad147a3da2f",
+    "cad/recovery-physical-candidate/13_PMU_Automatic_Startup.kicad_sch": "46ee53a0c397bb4f4aefa79b1fbd94bd6d4d1484b9e6e9cb1a9e56f82e62abc1",
+    "cad/recovery-physical-candidate/build_review.py": "4cea7562d067ad068ac09eed86701952303c9a92c052673fcb957837a9916ae1",
+    "cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch": "b9ff6e145c919dc4fb52676703a8dab66bb861e862df66c937a11a7d3547ed0d",
+    "cad/recovery-physical-candidate/15_Hardware_Reset_Interlock.kicad_sch": "807ddf3b1ecaa8dd316de708d2cc6c85bbb80f6734d7d56a9030e46de6fee2f4",
+    "cad/recovery-physical-candidate/validate_physical_binding.py": "9436fa61eaaa2ad223b94ca7d1be941a1119e7498a272fe66e1337a5b1a55cf5",
+    "cad/recovery-physical-candidate/03_SoC_3.kicad_sch": "06a39a5bdf59cdd840555609a63533240f868a4ad34e15abba14e11f71f0eb61",
+    "cad/recovery-physical-candidate/05_LPDDR4_2.kicad_sch": "46d076e1d9a60308cd7130fc9f58107b9f25aa7876075b2d21047a399668aad5",
+    "cad/recovery-physical-candidate/16_TF_Voltage_Translation.kicad_sch": "96b5150ffd64da54e0ab065f15ea2fdc4db9e37c1a8e927dba286d96bf85000a",
+    "cad/recovery-physical-candidate/master.xml": "4f6a5e182b2adf20d3f967d973a48fcb443b02baf2d3c73585a266e34e71da97",
+    "cad/recovery-physical-candidate/fp-lib-table": "4d4c663d901f119f893f843a6040c8679ad8f72c70c6543aa373a6c1ecd28db2",
+    "cad/recovery-physical-candidate/17_Audited_Source_Declarations.kicad_sch": "e2763b459a4d3eba156da17addb02fee281e92ad7f951af12eb9962a257eea8e",
+    "cad/recovery-physical-candidate/08_Clock_Reset_Boot.kicad_sch": "3802df96d5c42bc2aa2cd979a304edef9808fbfdb7b98a4813d1ed7350c55c2b",
+    "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch": "4b41e0a932d3eb8cacf9fa45d9c8176487ecbc6ebf1f1c4deaddad8e9df11a0d",
+    "cad/recovery-physical-candidate/01_SoC_1.kicad_sch": "8f6957a06c85c6d53f487f73a07fa38cdd383ccf1dc0701c10664740737fd378",
+    "cad/recovery-bulk22-candidates/CMK230_Bulk22_Candidates.pretty/Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE.kicad_mod": "af0fc1fa31ef6e0bd27604b1202ebaf838ac80d3e0dcc9d8e71efe6435cf9fa0"
+  },
+  "source_specsheet_sha256": "742b9759b46abf22af1f61562aac31870345cf654ca240911f98fda44cf58167"
+}

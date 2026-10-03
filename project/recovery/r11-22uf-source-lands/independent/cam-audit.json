@@ -1,0 +1,119 @@
+{
+  "Cu": {
+    "apertures": {
+      "10": {
+        "shape": "R",
+        "bounds_xy_mm": [
+          1.25,
+          1.8
+        ]
+      }
+    },
+    "flashes": [
+      {
+        "position_mm": [
+          6.525,
+          -6.0
+        ],
+        "aperture": {
+          "shape": "R",
+          "bounds_xy_mm": [
+            1.25,
+            1.8
+          ]
+        }
+      },
+      {
+        "position_mm": [
+          9.475,
+          -6.0
+        ],
+        "aperture": {
+          "shape": "R",
+          "bounds_xy_mm": [
+            1.25,
+            1.8
+          ]
+        }
+      }
+    ]
+  },
+  "Mask": {
+    "apertures": {
+      "10": {
+        "shape": "RoundRect",
+        "bounds_xy_mm": [
+          1.35,
+          1.9
+        ]
+      }
+    },
+    "flashes": [
+      {
+        "position_mm": [
+          6.525,
+          -6.0
+        ],
+        "aperture": {
+          "shape": "RoundRect",
+          "bounds_xy_mm": [
+            1.35,
+            1.9
+          ]
+        }
+      },
+      {
+        "position_mm": [
+          9.475,
+          -6.0
+        ],
+        "aperture": {
+          "shape": "RoundRect",
+          "bounds_xy_mm": [
+            1.35,
+            1.9
+          ]
+        }
+      }
+    ]
+  },
+  "Paste": {
+    "apertures": {
+      "10": {
+        "shape": "R",
+        "bounds_xy_mm": [
+          1.25,
+          1.8
+        ]
+      }
+    },
+    "flashes": [
+      {
+        "position_mm": [
+          6.525,
+          -6.0
+        ],
+        "aperture": {
+          "shape": "R",
+          "bounds_xy_mm": [
+            1.25,
+            1.8
+          ]
+        }
+      },
+      {
+        "position_mm": [
+          9.475,
+          -6.0
+        ],
+        "aperture": {
+          "shape": "R",
+          "bounds_xy_mm": [
+            1.25,
+            1.8
+          ]
+        }
+      }
+    ]
+  }
+}
