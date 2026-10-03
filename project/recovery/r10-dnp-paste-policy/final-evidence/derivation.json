@@ -1,0 +1,135 @@
+{
+  "status": "PASS_REVIEW_ONLY",
+  "kicad": "9.0.2+dfsg-1",
+  "scope": "subset_fixture",
+  "source_sha256": "eaf4f591340644acafb435e8bc25464f6dfe29911efaac6cdc37152665c4c328",
+  "derived_sha256": "8f1823aabf6e38afb6b6b869cfecb1494517df9e6f28ededc6bbf0346fd4f3bf",
+  "master_sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+  "population_contract_sha256": "d706ade5afdbcea0b84b0a52e2891df38471001576529ce79606666fbce0f30b",
+  "source_name": "POLICY_FIXTURE_ONLY.kicad_pcb",
+  "derived_name": "DERIVED_STENCIL_REVIEW_ONLY.kicad_pcb",
+  "board_reference_count": 8,
+  "master_missing_count": 246,
+  "native_binding_check": "source and derived exact master pin/net parity; all duplicate-number copies checked",
+  "unique_master_pins_on_board": 14,
+  "numbered_pads_on_derived_board": 15,
+  "nc_virtual_exceptions": [],
+  "dnp_refs_on_board": [
+    "JP1",
+    "R45",
+    "R47",
+    "R528"
+  ],
+  "changes": [
+    {
+      "ref": "R528",
+      "kind": "fp_rect",
+      "action": "remove_paste_graphic",
+      "uuid": "fd4d3abe-1a3f-4f01-9f6f-986ccd5ddbde",
+      "layers_removed": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "R528",
+      "kind": "pad",
+      "action": "remove_paste_only_aperture",
+      "uuid": "bb9ea3af-b601-47ce-8099-46728de59d9a",
+      "layers_removed": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "R528",
+      "kind": "pad",
+      "action": "remove_paste_only_aperture",
+      "uuid": "64ccac21-0ed9-4d80-8933-8850a36f7f6a",
+      "layers_removed": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "R528",
+      "kind": "pad",
+      "action": "remove_paste_only_aperture",
+      "uuid": "dcfb6001-e066-4580-9fae-75e5f5bef844",
+      "layers_removed": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "R47",
+      "kind": "pad",
+      "action": "remove_paste_only_aperture",
+      "uuid": "b1cc5692-024f-4d29-a24e-631a8d7fd952",
+      "layers_removed": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "R47",
+      "kind": "pad",
+      "action": "remove_paste_only_aperture",
+      "uuid": "e3661c4f-c79f-455a-8712-96935b7bc6d5",
+      "layers_removed": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "R47",
+      "kind": "pad",
+      "action": "remove_pad_paste_layers",
+      "uuid": "06901d3c-98cd-4d13-85f3-8cc3e96e02df",
+      "layers_removed": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "R45",
+      "kind": "fp_rect",
+      "action": "remove_paste_graphic",
+      "uuid": "7fa1ee47-8820-4111-8dea-13c5cf9c9d24",
+      "layers_removed": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "R45",
+      "kind": "pad",
+      "action": "remove_paste_only_aperture",
+      "uuid": "a2cfecda-7c21-4399-b5d3-94de5302b71f",
+      "layers_removed": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "R45",
+      "kind": "pad",
+      "action": "remove_paste_only_aperture",
+      "uuid": "c772dcf7-4bda-45dd-b6c2-ab888645f349",
+      "layers_removed": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "R45",
+      "kind": "pad",
+      "action": "remove_paste_only_aperture",
+      "uuid": "600824aa-4851-42a0-990a-d843d728e3c0",
+      "layers_removed": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "R45",
+      "kind": "pad",
+      "action": "remove_pad_paste_layers",
+      "uuid": "b34871b5-1dd5-43e5-b06f-812f91883ec6",
+      "layers_removed": [
+        "B.Paste"
+      ]
+    }
+  ],
+  "preservation": "All other native board tokens unchanged; native KiCad load, population and exact pin/net parity passed",
+  "qualification": "No manufacturing or stencil-process qualification; no production release"
+}

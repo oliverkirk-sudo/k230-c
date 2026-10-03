@@ -1,0 +1,140 @@
+{
+  "status": "PASS_REVIEW_ONLY",
+  "fixture_scope": "Actual recovered ten-reference R7 geometry; library aliases alone normalized after exact source-file hash equality. No core board claim.",
+  "source_project_path": "recovery/r7-links-and-features/independent/INDEPENDENT_R7_FEATURES_REVIEW_ONLY.kicad_pcb",
+  "source_sha256": "d7df5364ef2993fd5553162327767480a3aae625ffdfa658a47c0704f75bb1bd",
+  "aliases": [
+    {
+      "ref": "R220",
+      "old_alias": "Audit_Footprints:Vishay_WSL0603_9_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Link_Candidates:Vishay_WSL0603_9_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "c5d2f880af8cc2f7b64ea90d7b835e0055f2a0d3278dace63ae1ff8559119037"
+    },
+    {
+      "ref": "TP82",
+      "old_alias": "Audit_Footprints:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Link_Candidates:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE",
+      "source_library_sha256": "df4c18547964c1c96345a5f676cbafb6dce795827e200e1d6172770a24e7d34f"
+    },
+    {
+      "ref": "TP81",
+      "old_alias": "Audit_Footprints:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Link_Candidates:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE",
+      "source_library_sha256": "df4c18547964c1c96345a5f676cbafb6dce795827e200e1d6172770a24e7d34f"
+    },
+    {
+      "ref": "R221",
+      "old_alias": "Audit_Footprints:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+    },
+    {
+      "ref": "R206",
+      "old_alias": "Audit_Footprints:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "662f9d711a726134cb242cabdaeb77dd1f8c223c213ed4e90eaa17c0d82cf032"
+    },
+    {
+      "ref": "R528",
+      "old_alias": "Audit_Footprints:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+    },
+    {
+      "ref": "R401",
+      "old_alias": "Audit_Footprints:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+    },
+    {
+      "ref": "R561",
+      "old_alias": "Audit_Footprints:Vishay_WFZ0402_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Link_Candidates:Vishay_WFZ0402_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "78d9022d866847eee5cdace3090e9fd4f7eb6001a10c77dcb6a4240a66cb2fc7"
+    },
+    {
+      "ref": "JP1",
+      "old_alias": "Audit_Footprints:Core_Cold_Selector_Open_SolderBridge_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Link_Candidates:Core_Cold_Selector_Open_SolderBridge_CANDIDATE",
+      "source_library_sha256": "b653dcf5de9088c41e71a9978bd8b39647485efee5b191dde66bfe2daf69ef4f"
+    },
+    {
+      "ref": "R205",
+      "old_alias": "Audit_Footprints:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "662f9d711a726134cb242cabdaeb77dd1f8c223c213ed4e90eaa17c0d82cf032"
+    }
+  ],
+  "derivation": {
+    "status": "PASS_REVIEW_ONLY",
+    "kicad": "9.0.2+dfsg-1",
+    "scope": "subset_fixture",
+    "source_sha256": "9e0b782e139336efc4cd3c12f16884326b7848b4252995e2bf465436a343b3e3",
+    "derived_sha256": "94b2f4868148e505b5b7e142e7e58f5f4e426abf16db7a703534e0af2630873a",
+    "master_sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+    "population_contract_sha256": "d706ade5afdbcea0b84b0a52e2891df38471001576529ce79606666fbce0f30b",
+    "source_name": "R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY.kicad_pcb",
+    "derived_name": "R7_DNP_PASTE_DERIVED_REVIEW_ONLY.kicad_pcb",
+    "board_reference_count": 10,
+    "master_missing_count": 244,
+    "native_binding_check": "source and derived exact master pin/net parity; all duplicate-number copies checked",
+    "unique_master_pins_on_board": 18,
+    "numbered_pads_on_derived_board": 18,
+    "nc_virtual_exceptions": [],
+    "dnp_refs_on_board": [
+      "JP1",
+      "R528"
+    ],
+    "changes": [
+      {
+        "ref": "R528",
+        "kind": "pad",
+        "action": "remove_paste_only_aperture",
+        "uuid": "2677a202-41a8-4f3a-8845-691b9e356677",
+        "layers_removed": [
+          "F.Paste"
+        ]
+      },
+      {
+        "ref": "R528",
+        "kind": "pad",
+        "action": "remove_paste_only_aperture",
+        "uuid": "a213dded-6192-45af-a93a-387abb641b68",
+        "layers_removed": [
+          "F.Paste"
+        ]
+      }
+    ],
+    "preservation": "All other native board tokens unchanged; native KiCad load, population and exact pin/net parity passed",
+    "qualification": "No manufacturing or stencil-process qualification; no production release"
+  },
+  "CAM_flashes": {
+    "F.Cu": {
+      "source": 18,
+      "derived": 18
+    },
+    "F.Mask": {
+      "source": 18,
+      "derived": 18
+    },
+    "F.Paste": {
+      "source": 14,
+      "derived": 12
+    },
+    "B.Paste": {
+      "source": 0,
+      "derived": 0
+    }
+  },
+  "preserved_CAM_layers": [
+    "F.Cu",
+    "B.Cu",
+    "F.Mask",
+    "B.Mask",
+    "F.Fab",
+    "Edge.Cuts"
+  ],
+  "source_unchanged": true,
+  "master_sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+  "qualification": "No stencil process or full-core manufacturing qualification"
+}

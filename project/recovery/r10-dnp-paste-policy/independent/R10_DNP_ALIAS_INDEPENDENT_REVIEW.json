@@ -1,0 +1,147 @@
+{
+  "status": "PASS_BOUNDED_INDEPENDENT_REVIEW",
+  "reviewed_at_utc": "2026-10-03T06:50:41Z",
+  "recorded_at_utc": "2026-10-03T06:53:01.414084+00:00",
+  "evidence_path_base": "R10 reconstruction checkpoint root",
+  "evidence": {
+    "test_script": {
+      "path": "project/recovery/r10-dnp-paste-policy/test_recovered_fixture.py",
+      "sha256": "270a20a45318a9b6335c3fdb78f68fc5d34bea980bbc7066ab5768e736a9d72c"
+    },
+    "results": {
+      "path": "runtime/recovered-fixture/recovered-fixture-results.json",
+      "sha256": "e6fe53be3c60937f01384d5cc3ccd2fdad3c269039b21bb049859338e1158355"
+    },
+    "original_source_board": {
+      "path": "project/recovery/r7-links-and-features/independent/INDEPENDENT_R7_FEATURES_REVIEW_ONLY.kicad_pcb",
+      "sha256": "d7df5364ef2993fd5553162327767480a3aae625ffdfa658a47c0704f75bb1bd"
+    },
+    "normalized_alias_board": {
+      "path": "runtime/recovered-fixture/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY.kicad_pcb",
+      "sha256": "9e0b782e139336efc4cd3c12f16884326b7848b4252995e2bf465436a343b3e3"
+    },
+    "derived_stencil_board": {
+      "path": "runtime/recovered-fixture/R7_DNP_PASTE_DERIVED_REVIEW_ONLY.kicad_pcb",
+      "sha256": "94b2f4868148e505b5b7e142e7e58f5f4e426abf16db7a703534e0af2630873a"
+    },
+    "master_xml": {
+      "path": "project/cad/recovery-physical-candidate/master.xml",
+      "sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4"
+    },
+    "population_contract": {
+      "path": "project/tools/population_contract.py",
+      "sha256": "d706ade5afdbcea0b84b0a52e2891df38471001576529ce79606666fbce0f30b"
+    },
+    "strict_derivation_helper": {
+      "path": "project/recovery/r10-dnp-paste-policy/derive_assembly_paste.py",
+      "sha256": "633c11e5b0fe6667ab36b6fae4baef241454819ab62bdab752efeaaeae202187"
+    }
+  },
+  "method": "Read-only code and recorded-artifact review, independent alias reconstruction and byte comparisons, library hash/byte equality checks, and strict policy.verify on existing normalized/derived boards. No new CAD generation or broad test run for this review record.",
+  "findings": {
+    "blocking_findings": [],
+    "alias_replacements": 10,
+    "normalization": "Normalized board text exactly equals original text with only ten footprint FPID string replacements.",
+    "library_provenance": "For each of ten references, copied Audit_Footprints source .kicad_mod bytes equal the authoritative library file, and both match the recorded SHA-256.",
+    "strict_parity": "Native population, FPID, numbered-pad and exact master net bindings pass independently on normalized source and derived boards; no alias waiver was added to the strict helper.",
+    "source_integrity": "Original board SHA-256 matches the recorded input. Normalized and derived project settings are byte-identical copies of the original project settings.",
+    "derived_change": "Exactly two paste-only aperture objects removed, both belonging to R528; all other board tokens remain unchanged.",
+    "nonpaste_CAM_equal": [
+      "F.Cu",
+      "B.Cu",
+      "F.Mask",
+      "B.Mask",
+      "F.Fab",
+      "Edge.Cuts"
+    ]
+  },
+  "recorded_CAM_flashes": {
+    "F.Cu": {
+      "source": 18,
+      "derived": 18
+    },
+    "F.Mask": {
+      "source": 18,
+      "derived": 18
+    },
+    "F.Paste": {
+      "source": 14,
+      "derived": 12
+    },
+    "B.Paste": {
+      "source": 0,
+      "derived": 0
+    }
+  },
+  "library_alias_evidence": [
+    {
+      "ref": "R220",
+      "old_alias": "Audit_Footprints:Vishay_WSL0603_9_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Link_Candidates:Vishay_WSL0603_9_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "c5d2f880af8cc2f7b64ea90d7b835e0055f2a0d3278dace63ae1ff8559119037"
+    },
+    {
+      "ref": "TP82",
+      "old_alias": "Audit_Footprints:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Link_Candidates:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE",
+      "source_library_sha256": "df4c18547964c1c96345a5f676cbafb6dce795827e200e1d6172770a24e7d34f"
+    },
+    {
+      "ref": "TP81",
+      "old_alias": "Audit_Footprints:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Link_Candidates:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE",
+      "source_library_sha256": "df4c18547964c1c96345a5f676cbafb6dce795827e200e1d6172770a24e7d34f"
+    },
+    {
+      "ref": "R221",
+      "old_alias": "Audit_Footprints:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+    },
+    {
+      "ref": "R206",
+      "old_alias": "Audit_Footprints:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "662f9d711a726134cb242cabdaeb77dd1f8c223c213ed4e90eaa17c0d82cf032"
+    },
+    {
+      "ref": "R528",
+      "old_alias": "Audit_Footprints:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+    },
+    {
+      "ref": "R401",
+      "old_alias": "Audit_Footprints:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+    },
+    {
+      "ref": "R561",
+      "old_alias": "Audit_Footprints:Vishay_WFZ0402_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Link_Candidates:Vishay_WFZ0402_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "78d9022d866847eee5cdace3090e9fd4f7eb6001a10c77dcb6a4240a66cb2fc7"
+    },
+    {
+      "ref": "JP1",
+      "old_alias": "Audit_Footprints:Core_Cold_Selector_Open_SolderBridge_CANDIDATE",
+      "authoritative_FPID": "CMK230_Recovery_Link_Candidates:Core_Cold_Selector_Open_SolderBridge_CANDIDATE",
+      "source_library_sha256": "b653dcf5de9088c41e71a9978bd8b39647485efee5b191dde66bfe2daf69ef4f"
+    },
+    {
+      "ref": "R205",
+      "old_alias": "Audit_Footprints:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "authoritative_FPID": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "source_library_sha256": "662f9d711a726134cb242cabdaeb77dd1f8c223c213ed4e90eaa17c0d82cf032"
+    }
+  ],
+  "limitations": [
+    "Ten-reference recovered R7 geometry fixture only; 244 master references are explicitly absent.",
+    "FPID normalization proves alias/source-library equivalence, not that embedded footprint geometry independently matches every library primitive. Embedded board geometry is preserved exactly through the alias replacement.",
+    "Strict source/master electrical parity and allowed-only token preservation are enforced; they do not establish routing completion, DRC closure or functional circuit qualification.",
+    "CAM equality covers the six recorded exported non-paste layers listed above. This bounded recovered-fixture review did not add drill or placement export tests.",
+    "No stencil thickness, paste-transfer, reflow, assembly-yield or manufacturing release qualification.",
+    "No main CAD edits, source-library edits or vendor outreach."
+  ],
+  "overall_conclusion": "Alias normalization is explicit, hash-backed metadata normalization and is not a hidden waiver of source/master parity."
+}

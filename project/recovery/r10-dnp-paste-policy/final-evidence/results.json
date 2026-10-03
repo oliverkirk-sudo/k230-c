@@ -1,0 +1,215 @@
+{
+  "status": "PASS_REVIEW_ONLY",
+  "kicad": "9.0.2+dfsg-1",
+  "checks": [
+    {
+      "check": "F.Paste: hide-fab does not suppress DNP paste",
+      "result": "PASS"
+    },
+    {
+      "check": "F.Paste: all-fab-controls does not suppress DNP paste",
+      "result": "PASS"
+    },
+    {
+      "check": "F.Paste: Python hide-on-fab retains default flashes",
+      "result": "PASS"
+    },
+    {
+      "check": "F.Paste: Gerber component attribution is fitted only",
+      "result": "PASS"
+    },
+    {
+      "check": "F.Paste: fitted paste graphic remains as one region",
+      "result": "PASS"
+    },
+    {
+      "check": "F.Paste: fitted native apertures + synthetic aperture retain 3 flashes",
+      "result": "PASS"
+    },
+    {
+      "check": "B.Paste: hide-fab does not suppress DNP paste",
+      "result": "PASS"
+    },
+    {
+      "check": "B.Paste: all-fab-controls does not suppress DNP paste",
+      "result": "PASS"
+    },
+    {
+      "check": "B.Paste: Python hide-on-fab retains default flashes",
+      "result": "PASS"
+    },
+    {
+      "check": "B.Paste: Gerber component attribution is fitted only",
+      "result": "PASS"
+    },
+    {
+      "check": "B.Paste: fitted paste graphic remains as one region",
+      "result": "PASS"
+    },
+    {
+      "check": "B.Paste: fitted native apertures + synthetic aperture retain 3 flashes",
+      "result": "PASS"
+    },
+    {
+      "check": "F.Cu: full Gerber geometry preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "B.Cu: full Gerber geometry preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "F.Mask: full Gerber geometry preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "B.Mask: full Gerber geometry preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "Edge.Cuts: full Gerber geometry preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "F.Fab: full Gerber geometry preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "Drill geometry preserved: POLICY_FIXTURE_ONLY.drl",
+      "result": "PASS"
+    },
+    {
+      "check": "Native roundtrip preserves allowed-only transformation",
+      "result": "PASS"
+    },
+    {
+      "check": "Default PnP byte-for-byte preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "Only fitted R46/R529 in default PnP",
+      "result": "PASS"
+    },
+    {
+      "check": "R528 keeps distinct authoritative pin nets and inhibit population flags",
+      "result": "PASS"
+    },
+    {
+      "check": "negative-copper-deletion",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Numbered electrical pad lacks copper: R528.1"
+    },
+    {
+      "check": "negative-fitted-paste-loss",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Derived board differs beyond permitted DNP paste changes"
+    },
+    {
+      "check": "negative-bare-testpad-paste",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Bare fabricated feature has paste: TP81"
+    },
+    {
+      "check": "negative-dnp-attributes",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Population attribute mismatch: R528"
+    },
+    {
+      "check": "negative-master-dnp",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Population attribute mismatch: R528"
+    },
+    {
+      "check": "negative-unowned-paste",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Unowned board-level paste item requires ownership review"
+    },
+    {
+      "check": "Duplicate-number TP81 pads share the exact expected master net",
+      "result": "PASS"
+    },
+    {
+      "check": "negative-source-net-R528",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Pad/net binding mismatch: R528.1; expected 'VDD1P8', got 'GND'"
+    },
+    {
+      "check": "negative-source-net-R529",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Pad/net binding mismatch: R529.2; expected 'GND', got 'VDD1P8'"
+    },
+    {
+      "check": "negative-derived-net-R528",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Pad/net binding mismatch: R528.1; expected 'VDD1P8', got 'GND'"
+    },
+    {
+      "check": "negative-derived-net-R529",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Pad/net binding mismatch: R529.2; expected 'GND', got 'VDD1P8'"
+    },
+    {
+      "check": "negative-missing-numbered-pad",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Missing numbered electrical pads: R528: ['1']"
+    },
+    {
+      "check": "negative-unknown-numbered-pad",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Unknown numbered electrical pad: TP81.999"
+    },
+    {
+      "check": "negative-duplicate-number-wrong-net",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Pad/net binding mismatch: TP81.1; expected 'PMU_OUT0_STATUS', got 'GND'"
+    },
+    {
+      "check": "negative-unnumbered-net",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Unnumbered pad carries an undeclared net: R529"
+    },
+    {
+      "check": "negative-nonpaste-position",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Derived board differs beyond permitted DNP paste changes"
+    },
+    {
+      "check": "negative-master-missing-pin-node",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "Master declared-pin/net-node mismatch: R528; NC/virtual exceptions require explicit review"
+    },
+    {
+      "check": "Input board immutable",
+      "result": "PASS"
+    },
+    {
+      "check": "Published master, contract, library source files immutable",
+      "result": "PASS"
+    }
+  ],
+  "flash_counts": {
+    "F.Paste": {
+      "default_flashes": 9,
+      "derived_flashes": 3,
+      "api_hide_fab_flashes": 9
+    },
+    "B.Paste": {
+      "default_flashes": 7,
+      "derived_flashes": 3,
+      "api_hide_fab_flashes": 7
+    }
+  },
+  "input_hashes": {
+    "cad/recovery-physical-candidate/master.xml": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+    "tools/population_contract.py": "d706ade5afdbcea0b84b0a52e2891df38471001576529ce79606666fbce0f30b",
+    "cad/recovery-link-candidates/CMK230_Recovery_Link_Candidates.pretty/Core_Cold_Selector_Open_SolderBridge_CANDIDATE.kicad_mod": "b653dcf5de9088c41e71a9978bd8b39647485efee5b191dde66bfe2daf69ef4f",
+    "cad/recovery-link-candidates/CMK230_Recovery_Link_Candidates.pretty/Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE.kicad_mod": "df4c18547964c1c96345a5f676cbafb6dce795827e200e1d6172770a24e7d34f",
+    "cad/recovery-passive-candidates/CMK230_Recovery_Passive_Candidates.pretty/Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE.kicad_mod": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+  },
+  "cli_hide_flag_changed_fab_output": false,
+  "tool_hashes": {
+    "test_policy.py": "07424a0c09df85144d5e4d1e79d7124ee7057d1c5b800125bafb15e1ff2d0e52",
+    "derive_assembly_paste.py": "633c11e5b0fe6667ab36b6fae4baef241454819ab62bdab752efeaaeae202187"
+  },
+  "scope": "Synthetic two-sided policy fixture using source-library pad geometry; no main board edits or manufacturing qualification"
+}

@@ -1,41 +1,37 @@
 # k230-c
 
-## 当前检查点：R9 eMMC 旁路电容条件焊盘
+## 当前检查点：R10 DNP 锡膏派生策略复核
 
-本版为 C64/C65/C69/C70/C71/C72 增加六个候选封装绑定，覆盖为 **221 个已分配、33 个未分配**。全部 254 个元件值及其他非封装属性、457 个网络、1,509 个引脚/功能/类型/网络绑定、BOM 和装配状态保持 R8 状态。仍无完整六层核心板，诊断 CAM 不是制造发布。
+本版新增独立的 DNP 锡膏派生工具及可复现测试，**所有既有工程文件保持 R9 原始字节**。电路版本仍为 RCV-R9，221 个封装已分配、33 个缺口；254 个元件、457 个网络、1,509 个引脚绑定、值、BOM 和装配状态未改变。
 
-当前入口：`project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_pro`（原理图同名 `.kicad_sch`）。保持 `project/` 内相对目录；根说明文件为 `哦READ.MD`。
+当前工程入口仍为 `project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_pro`。新增工具入口为 `project/recovery/r10-dnp-paste-policy/README.md`；根说明文件保持 `哦READ.MD`。
 
-## 本版范围与验证
+## 已验证的限定结果
 
-- C64/C65 保持连接 EMMC_VDDIM，即 U3.C2 的内部稳压器电容节点；C69/C70 保持 VEMMC_IO；C71/C72 保持 VDD_3V3。六个 pin 2 均为 GND。VDDIM 不能当作 VCCQ，也不能由外部电源驱动
-- C64/C69/C71 使用 Murata GRM188R71A225KE15D 候选：2.2 µF、±10%、10 V、X7R、0603。铜为 0.65 × 0.70 mm，中心 x=±0.675 mm，内隙 0.70 mm；属于源回流范围内的中点工程选择，不是厂商唯一规定图案
-- C65/C70/C72 使用 GRM155R71C104KA88D 候选：100 nF、±10%、16 V、X7R、0402。铜为 0.40 × 0.50 mm，中心 x=±0.40 mm，内隙 0.40 mm
-- 两种最大本体分别为 1.70 × 0.90 mm 与 1.05 × 0.55 mm；工程 courtyard 为 2.60 × 1.50 mm 与 1.80 × 1.20 mm。+0.05 mm 阻焊扩张、独立 1:1 锡膏及 courtyard 均须工厂接受
-- 独立完整原理图结构比较仅允许六个 Footprint 字段和根 RCV-R9 版本标签变化；BOM CSV 保持字节一致。JP1/R45/R47/R528 保持 DNP，默认存储资格仍为禁止状态
-- 新 KiCad 9.0.2 ERC 为 0；20 × 13 mm 六层孤立几何夹具 DRC 规则违规及未连接项均为 0。原生保存/导出铜、阻焊、锡膏的尺寸与坐标通过复核，每层 4 个闪孔
-- 七个独立负控通过：三种电容电源节点混接、未授权名义值变化、DNP 变化、错误焊盘尺寸，以及保存后实际 0.10 mm 铜间距对 0.20 mm 规则的 DRC 拒绝
+- 在 KiCad 9.0.2 上，默认导出和已测试的 DNP Fab 控制仍保留 DNP 锡膏；相关控制不等于锡膏过滤
+- 新工具以固定哈希的原始板、master XML 和装配契约为输入，生成另名派生板。源板与派生板都必须通过精确封装身份、DNP/BOM/PnP、编号焊盘和 master 网络一致性检查
+- 默认要求完整参考覆盖；孤立夹具必须显式启用 review-only 子集模式。缺失/未知编号、错误网络、不明锡膏归属或不支持的对象结构会停止，而不是猜测
+- 只移除已确认 DNP 的锡膏层成员或符合条件的独立锡膏对象；所有非锡膏 token 保持不变。铜、阻焊、钻孔、位置和电气身份均保留；派生板不能覆盖原始设计
+- 在精确 R9 输入上重新运行的合成夹具套件通过 42 项检查，包括 16 个预期拒绝负控。覆盖错误铜删除、拟装器件锡膏丢失、裸铜特征误加锡膏、DNP/网络/编号/位置异常和无归属锡膏
+- 合成夹具的铜/阻焊/板框/Fab Gerber、钻孔和贴装输出在限定元数据归一化后保持一致。该夹具特意包含双面与重复焊盘测试构造，不改变核心板仅顶面贴装要求
+- 实际恢复的 R7 十参考夹具通过另一项检查：先证明复制库文件与权威源文件哈希一致，再仅归一化十个封装库别名。**铜与阻焊各保持 18→18 个闪孔，锡膏 14→12，仅移除 R528 的两个开口**；其他非锡膏 CAM 层保持一致
 
-详细清单、来源 URL/哈希、原生结果和独立审查见 `project/recovery/r9-emmc-bypass-lands/`。源清单与原始增量 ZIP 身份记录在 `PUBLICATION_PROVENANCE.json`。
+独立别名复核、每对象派生记录、源文件哈希与诊断输出均随本版保存。负控文件故意无效，不得用于制造。
 
-## 电容量与制造资格仍待确认
+## 如何使用与尚未关闭的门槛
 
-Micron Table 13 列出电容 Min/Max/Typ，但未明确其有效电容量的偏压、温度、容差及老化条件。当前保留的名义值符合表中数字，不能因此宣称实际热态/偏压/老化裕量已保证；把各列直接当作绝对有效值下限也属于尚未证实的解释，不能据此断言 Micron 违规。
+原始板继续作为规范设计，铜、阻焊、板框与钻孔应从原始板输出；仅从核验过的派生板导出对应装配版本的 F.Paste/B.Paste。源板、装配状态、库绑定或契约变化后，必须重新生成并检查派生结果。
 
-不得由 VCCQ 推断 VDDIM 的数值电压。来源审查未建立该电压范围；未来若需改变名义电容量，应另做一致的电气修订。本版没有改变名义值。
+R528 仍为 DNP 且不进入默认贴装文件；去掉锡膏不能代替禁止装配说明、电气禁止条件和硬件验证。本版解决的是所支持对象和已测试运行时内的限定导出策略，**未在完整核心板上应用，也没有钢网/装配工艺或生产资格**。钢网厚度、面积比、转移效率、锡膏、对位、回流及良率需另行验证。
 
-厂商当前批准图、生命周期、采购数量及实际工厂接受仍开放。已找到 JLC 目录身份，MOQ1 尚未验证；没有采购或锁定库存。两器件的额定温度范围不等于整机或有效电容量已完成热资格。
-
-前版门槛持续有效：磁珠铜厚、零阻焊对位余量、后续铜截面积和热/偏置滤波仍需验证；**R528 默认锡膏导出仍含两个开口，DNP 或 BOM/PnP 排除不等于钢网排除**。制造前必须明确装配/钢网版本并检查实际输出。
-
-33 个封装缺口为 30 个电容、2 个晶振反馈电阻和 RTC 晶体。仍須完成 38 × 38 mm/140 触点/1 mm 间距/恰好六铜层/仅顶面贴装的完整布局布线，以及 BGA 邻近去耦、DDR/PDN、时钟、启动、热/上电、工艺与 DFM 验证。孤立夹具不代表整板连接或局部 BGA 旁路放置已完成。
+R9 的有效电容量解释、热/偏压/老化、采购数量和工艺限制仍有效。33 个封装缺口为 30 个电容、2 个晶振反馈电阻和 RTC 晶体。38 × 38 mm/140 触点/1 mm 间距/恰好六铜层/仅顶面贴装的完整布局布线，以及 DDR/PDN、时钟、启动、热/上电与 DFM 仍待完成。
 
 ## 历史与完整性
 
-本版继承 R8 提交 `f5181cb06de490fb23de0e79c619210a664b3212`。52 个工程变更文件及清单保持最终公开源字节。报告路径已规范化；新 SVG 与诊断 Gerber 为本项目原生导出。原始厂商 PDF/图片和运行时文件不上传，必要的上游 MIT 版权许可声明保留。
+本版继承 R9 提交 `45750f385a5261c139b819b4b333280d7c1acafb`。108 个新增工程文件及清单保持最终公开源字节；既有工程文件全部不变。路径已规范化；厂商原件、内部笔记、运行时缓存和日志不上传。诊断 Gerber 与故意损坏的负控板仅供复核，必要的上游 MIT 版权许可声明继续保留。
 
-当前文件完整性以 `SHA256SUMS` 为准；逐版来源、排除项和检查点记录见 `PUBLICATION_PROVENANCE.json`。历史报告按其原范围和输入哈希解读。
+当前文件完整性以 `SHA256SUMS` 为准；逐版来源、排除项和检查点记录见 `PUBLICATION_PROVENANCE.json`。历史报告按其限定范围解读。
 
 ## English summary
 
-R9 adds six conditional eMMC bypass footprint assignments, reaching 221 assigned / 33 gaps. All other component attributes, values, complete electrical bindings, BOM and population states are preserved. Fresh ERC, isolated geometry DRC, source/native CAM comparison and seven negative controls pass. Micron Table 13's nominal/effective interpretation, combined temperature/bias/aging capacitance, procurement quantities and manufacturing process remain open. This is not a complete core layout or production release.
+R10 adds a review-only DNP paste derivation policy without changing any existing project file or the RCV-R9 circuit. The exact-copy 42-check suite passes, including 16 negative rejections. The recovered R7 fixture preserves copper/mask at 18 flashes each while paste falls from 14 to 12, removing only R528 apertures after hash-proven alias normalization. Strict source/derived pad-net and population parity remain mandatory. Full-board application and stencil/process qualification remain open; synthetic backside tests do not authorize backside core assembly.

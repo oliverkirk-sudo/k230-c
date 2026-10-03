@@ -1,0 +1,656 @@
+{
+  "revision": "R10",
+  "base_commit": "45750f385a5261c139b819b4b333280d7c1acafb",
+  "files": [
+    {
+      "path": "recovery/r10-dnp-paste-policy/README.md",
+      "bytes": 13568,
+      "sha256": "fe4f64b5399c1ae56b3b5bdab731f8fa660a72972a8cf890f3e5b03f0da477bf",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/derive_assembly_paste.py",
+      "bytes": 16771,
+      "sha256": "633c11e5b0fe6667ab36b6fae4baef241454819ab62bdab752efeaaeae202187",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/DERIVED_STENCIL_REVIEW_ONLY.kicad_pcb",
+      "bytes": 19532,
+      "sha256": "8f1823aabf6e38afb6b6b869cfecb1494517df9e6f28ededc6bbf0346fd4f3bf",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/NATIVE_ROUNDTRIP_REVIEW_ONLY.kicad_pcb",
+      "bytes": 19502,
+      "sha256": "57e8f19829a143a698d42fd9caac737173830cd04da9c8eba7c695165ce04309",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/NATIVE_ROUNDTRIP_REVIEW_ONLY.kicad_pro",
+      "bytes": 8381,
+      "sha256": "ecbdbfa36c06fe210f4530bd455b44c9687699e1728f3759d1f7379602ba966a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/POLICY_FIXTURE_ONLY.kicad_pcb",
+      "bytes": 20992,
+      "sha256": "eaf4f591340644acafb435e8bc25464f6dfe29911efaac6cdc37152665c4c328",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/POLICY_FIXTURE_ONLY.kicad_pro",
+      "bytes": 8372,
+      "sha256": "266dba8ff50759a80237cd66164815b8ed6179374290b051abb5053b218e59d3",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/all-fab-controls/POLICY_FIXTURE_ONLY-B_Cu.gbl",
+      "bytes": 1016,
+      "sha256": "db4c7e463c69baea7a4d90d5969d0676faff596c6c5c68436f673f03cf0220c7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/all-fab-controls/POLICY_FIXTURE_ONLY-B_Mask.gbs",
+      "bytes": 1335,
+      "sha256": "b8c6800986d23100a7805fe86baa3d2f3ad34ec9adbed224cb41c6fb280c6df1",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/all-fab-controls/POLICY_FIXTURE_ONLY-B_Paste.gbp",
+      "bytes": 1056,
+      "sha256": "1e9e11cf94a1c892dad285e0cfbb53725be13a8396099783d92180ba59ef9b76",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/all-fab-controls/POLICY_FIXTURE_ONLY-Edge_Cuts.gm1",
+      "bytes": 690,
+      "sha256": "d45106ec49fb4cc561a6f98d77a1301adbdf0ddcae1228ae93914aede55e53ad",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/all-fab-controls/POLICY_FIXTURE_ONLY-F_Cu.gtl",
+      "bytes": 1657,
+      "sha256": "6a4ec15673e807d06812ce2d044e05cc85c6eb681c2556ffbfb9035d0b478790",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/all-fab-controls/POLICY_FIXTURE_ONLY-F_Fab.gbr",
+      "bytes": 55984,
+      "sha256": "9671839231f8e0c258c5e23a2006f3c09c422f0d9d770cb8bbd92e36d1afb94b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/all-fab-controls/POLICY_FIXTURE_ONLY-F_Mask.gts",
+      "bytes": 1683,
+      "sha256": "1940720230a6838a655e5ad0168e7c4cafccc71760c47b583e13ffd847de7eaf",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/all-fab-controls/POLICY_FIXTURE_ONLY-F_Paste.gtp",
+      "bytes": 1129,
+      "sha256": "2be27006c3fc04bcb49906b985b142bb6501d4ab9ec5f9dc94607896d09661d7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/all-fab-controls/POLICY_FIXTURE_ONLY-job.gbrjob",
+      "bytes": 2614,
+      "sha256": "2acd3aed1e9e7fd2e94a7af0059b6e850a725beddd29e881c752c4a6f8bd0914",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/api-hide-fab/POLICY_FIXTURE_ONLY-API_B_Paste.gbr",
+      "bytes": 1056,
+      "sha256": "1e9e11cf94a1c892dad285e0cfbb53725be13a8396099783d92180ba59ef9b76",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/api-hide-fab/POLICY_FIXTURE_ONLY-API_F_Paste.gbr",
+      "bytes": 1129,
+      "sha256": "2be27006c3fc04bcb49906b985b142bb6501d4ab9ec5f9dc94607896d09661d7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/default/POLICY_FIXTURE_ONLY-B_Cu.gbl",
+      "bytes": 1016,
+      "sha256": "4b1dab07716dc44bb761c2a8841aaaeb1998a522ef8a4fbf6c37d42caf07e64b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/default/POLICY_FIXTURE_ONLY-B_Mask.gbs",
+      "bytes": 1335,
+      "sha256": "2892c278d0c0b2ad95fa65cce0c88624767704db1da1ff2b60b19b139dd4b3fe",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/default/POLICY_FIXTURE_ONLY-B_Paste.gbp",
+      "bytes": 1056,
+      "sha256": "d0290b5d4b10bf5689405a0922bbcadd862026c6f9fcd690562fd1bea1e02e63",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/default/POLICY_FIXTURE_ONLY-Edge_Cuts.gm1",
+      "bytes": 690,
+      "sha256": "9131dff9e33af596bc64a462019bd5292dc7b561cc94149add55ae62fbf3062a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/default/POLICY_FIXTURE_ONLY-F_Cu.gtl",
+      "bytes": 1657,
+      "sha256": "d905ec6da4fb35bf4a7c638c69d15570e4d9fbaa432c9835bf40a8861471a38e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/default/POLICY_FIXTURE_ONLY-F_Fab.gbr",
+      "bytes": 55984,
+      "sha256": "bfd7eb91818b9d0d8dbc19ccba026e842683390ba73af847a82cad4537e8fef1",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/default/POLICY_FIXTURE_ONLY-F_Mask.gts",
+      "bytes": 1683,
+      "sha256": "b6ea323fdf980b2a7bb83d9ffffa2b3661df0ef89fafb35a053be7191639413c",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/default/POLICY_FIXTURE_ONLY-F_Paste.gtp",
+      "bytes": 1129,
+      "sha256": "82845eb59bec73bd1c207f36325af516af8492720729c20ad0a899aa2fb0cdd4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/default/POLICY_FIXTURE_ONLY-job.gbrjob",
+      "bytes": 2614,
+      "sha256": "8b3649c7d3b361c776ea6f3f1dc2f1c682fde791ff8a8ca9b4f10aa79e7600aa",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derivation.json",
+      "bytes": 3622,
+      "sha256": "9c5231db983940ccae1a6f849214e0b416ea7dd71f1858234e2eb3d2bd548c6a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived/DERIVED_STENCIL_REVIEW_ONLY-B_Cu.gbl",
+      "bytes": 1024,
+      "sha256": "28b6915f73ae5ee73987bc7b6a621c49cbac2edca99756fbf92b3fc9aa7344d4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived/DERIVED_STENCIL_REVIEW_ONLY-B_Mask.gbs",
+      "bytes": 1343,
+      "sha256": "d82bf98089e319dabcb76c815ee9c6d2a21cb26258ff6649fdc7d32a10af7fc3",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived/DERIVED_STENCIL_REVIEW_ONLY-B_Paste.gbp",
+      "bytes": 793,
+      "sha256": "3adb6b3e7fc053907fdd411a30019f874e9a138cf6a9762c5be20c1f9aff67be",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived/DERIVED_STENCIL_REVIEW_ONLY-Edge_Cuts.gm1",
+      "bytes": 698,
+      "sha256": "2f2ecd8b569b57019d29f18671e1a063dad1bb7b34f573546da308e8de18e655",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived/DERIVED_STENCIL_REVIEW_ONLY-F_Cu.gtl",
+      "bytes": 1665,
+      "sha256": "63299b666338629841d77a6196adf05a88c083cc139a8165ad701cfe6dd3da76",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived/DERIVED_STENCIL_REVIEW_ONLY-F_Fab.gbr",
+      "bytes": 55992,
+      "sha256": "5c7775a76eac70a3ab7c03dff1819faa95d75c8cda8e3560b6af0502e008d67b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived/DERIVED_STENCIL_REVIEW_ONLY-F_Mask.gts",
+      "bytes": 1691,
+      "sha256": "46a2cadb8644c6814c7a62aa7e60b2bdf7fbc1c96f4e98a735f9cd34ba000fe1",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived/DERIVED_STENCIL_REVIEW_ONLY-F_Paste.gtp",
+      "bytes": 794,
+      "sha256": "26205d2ecb3554f58441104cb7050d0eb5302c201ff8db87a57fb3878671cb85",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived/DERIVED_STENCIL_REVIEW_ONLY-job.gbrjob",
+      "bytes": 2686,
+      "sha256": "3ac9d97a81f73a8ec5c324f5f0843a6c88fc6a1f956037c51d7a09753f42118b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived-drill/DERIVED_STENCIL_REVIEW_ONLY.drl",
+      "bytes": 417,
+      "sha256": "0dc21282a1a2f7db214067c7c12816f964e81282f8be55124cd8ff0cd40cc2ff",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/derived-pos.csv",
+      "bytes": 255,
+      "sha256": "77c2277ce1df8507f7d3af507d87a8bf62548bcc7f812fbbce9bf1b578a99d11",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/gerbers-help.txt",
+      "bytes": 3587,
+      "sha256": "1008d9f111ee955da6fa3cd2b9e4c3009dd760976a5c35773b46dccd41347611",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/hide-fab/POLICY_FIXTURE_ONLY-B_Cu.gbl",
+      "bytes": 1016,
+      "sha256": "4b1dab07716dc44bb761c2a8841aaaeb1998a522ef8a4fbf6c37d42caf07e64b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/hide-fab/POLICY_FIXTURE_ONLY-B_Mask.gbs",
+      "bytes": 1335,
+      "sha256": "2892c278d0c0b2ad95fa65cce0c88624767704db1da1ff2b60b19b139dd4b3fe",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/hide-fab/POLICY_FIXTURE_ONLY-B_Paste.gbp",
+      "bytes": 1056,
+      "sha256": "d0290b5d4b10bf5689405a0922bbcadd862026c6f9fcd690562fd1bea1e02e63",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/hide-fab/POLICY_FIXTURE_ONLY-Edge_Cuts.gm1",
+      "bytes": 690,
+      "sha256": "9131dff9e33af596bc64a462019bd5292dc7b561cc94149add55ae62fbf3062a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/hide-fab/POLICY_FIXTURE_ONLY-F_Cu.gtl",
+      "bytes": 1657,
+      "sha256": "d905ec6da4fb35bf4a7c638c69d15570e4d9fbaa432c9835bf40a8861471a38e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/hide-fab/POLICY_FIXTURE_ONLY-F_Fab.gbr",
+      "bytes": 55984,
+      "sha256": "bfd7eb91818b9d0d8dbc19ccba026e842683390ba73af847a82cad4537e8fef1",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/hide-fab/POLICY_FIXTURE_ONLY-F_Mask.gts",
+      "bytes": 1683,
+      "sha256": "b6ea323fdf980b2a7bb83d9ffffa2b3661df0ef89fafb35a053be7191639413c",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/hide-fab/POLICY_FIXTURE_ONLY-F_Paste.gtp",
+      "bytes": 1129,
+      "sha256": "82845eb59bec73bd1c207f36325af516af8492720729c20ad0a899aa2fb0cdd4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/hide-fab/POLICY_FIXTURE_ONLY-job.gbrjob",
+      "bytes": 2614,
+      "sha256": "8b3649c7d3b361c776ea6f3f1dc2f1c682fde791ff8a8ca9b4f10aa79e7600aa",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/installed-api.json",
+      "bytes": 2406,
+      "sha256": "7891bf65a0ab7ca0efb2f80b5656d1b26a0a0841acd5bf7550c5ef418dffe0b4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-bare-testpad-paste.kicad_pcb",
+      "bytes": 21002,
+      "sha256": "88f6ec23e9c31e187eb3588cc5f00aba8b4e6e38be8cd6636e6c67cc424c9dad",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-copper-deletion.kicad_pcb",
+      "bytes": 19525,
+      "sha256": "e4de1b7f2b0d285a65dd2bd2031c91a27e224293baeb7974279fc501632fa7e7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-derived-net-R528.kicad_pcb",
+      "bytes": 19499,
+      "sha256": "b82db9c68747a4df8362ec1f68c795f08c1ea993a4064123078946ccaa3bf8c0",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-derived-net-R528.kicad_pro",
+      "bytes": 8378,
+      "sha256": "337aa9ed7999d22d582066cf4edd5fffc6bfa29871b6c7d5cd58e1a3cc61c1f5",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-derived-net-R529.kicad_pcb",
+      "bytes": 19505,
+      "sha256": "99247be765a72b559d27767ebc9ca0eb686b5e73b59d06cbc510b08b4a344bb8",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-derived-net-R529.kicad_pro",
+      "bytes": 8378,
+      "sha256": "a91c697a0222ac96ee86cd9f5c42828d94e190ad14e9ecb4ca58b8f9974dc4bb",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-dnp-attributes.kicad_pcb",
+      "bytes": 20988,
+      "sha256": "2f65231523a5f7824023c7655064646af2a0074b4f1ced824b8cf0d0892ab0e7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-duplicate-number-wrong-net.kicad_pcb",
+      "bytes": 20980,
+      "sha256": "55f5355a26abbbbf10a7c5a79c7e54f75b3d681e57f222a9ddb55e16c8fdf3d9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-duplicate-number-wrong-net.kicad_pro",
+      "bytes": 8388,
+      "sha256": "07762bb0491698cb05692be83cd56f6f12636cf20326a5f281fe197ce5900bab",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-fitted-paste-loss.kicad_pcb",
+      "bytes": 19404,
+      "sha256": "d816e98a3f1197a7fb037baed82f65f72c0ec6f0b322c5301ea5122ccd10b9f4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-master-dnp.xml",
+      "bytes": 411925,
+      "sha256": "4983b0165fcd4c3e19432601787090a2b598f2efdc769644816846a6f52b052e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-master-missing-pin-node.xml",
+      "bytes": 411903,
+      "sha256": "30db384cd12e18dc9bbb34dc867c10169e964c592d832493cedc285e12c871f2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-missing-numbered-pad.kicad_pcb",
+      "bytes": 20804,
+      "sha256": "b709f7be0fca64900c3c92287ffc8fabd121ecc877690f235351e533572596af",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-missing-numbered-pad.kicad_pro",
+      "bytes": 8382,
+      "sha256": "c572516881a659e0f1820c25542240c93c0a44469af885d0dc56307d46e9f066",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-nonpaste-position.kicad_pcb",
+      "bytes": 19502,
+      "sha256": "78ed3e6262ef6667ab81fbbdf84864c1367eae79dec9230f8860c9e4c7bd4805",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-nonpaste-position.kicad_pro",
+      "bytes": 8379,
+      "sha256": "251eb8a84ec9394f706b24c3c085fc58b72aea48d01e7ac3c94f83eaf67daaa2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-source-net-R528.kicad_pcb",
+      "bytes": 20989,
+      "sha256": "8689238b7886b16ea56929b73dbcf9fece5d0cdd10669679ab3bc97b7259da6e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-source-net-R528.kicad_pro",
+      "bytes": 8377,
+      "sha256": "871697d84346295549bd81269f2ee616d61cda45a735d6a1b88d70c7528f16dc",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-source-net-R529.kicad_pcb",
+      "bytes": 20995,
+      "sha256": "069e8bf2317bcba5357a73626f79cc124efa9b27d58106500d0b70e5684c50d9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-source-net-R529.kicad_pro",
+      "bytes": 8377,
+      "sha256": "82812ed9fea9f9004a55bfdcdeefd089650bd2231e47ed35b00837ccfac14d59",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-unknown-numbered-pad.kicad_pcb",
+      "bytes": 20994,
+      "sha256": "76c63a7cf842846eb16690a6cec4da4a104c04c6cb95fbf844cab04da5afa835",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-unknown-numbered-pad.kicad_pro",
+      "bytes": 8382,
+      "sha256": "06cef4c4572ede01f5630e88230987ea43e923e5581b318bed65bf209ee890de",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-unnumbered-net.kicad_pcb",
+      "bytes": 21009,
+      "sha256": "c45c4d24aaad880744940f4105dff00d25671a6fdf8c4a0b99b5e6f81932dfe9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-unnumbered-net.kicad_pro",
+      "bytes": 8376,
+      "sha256": "252460304d3c9bcb5345c6c0b128e28eaf07ee68a2d254401baf188e3bfc4eae",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-unowned-paste.kicad_pcb",
+      "bytes": 21158,
+      "sha256": "64177c353dc7d6a36128eedb5243dcf237bcf911cb03844991a51bac06c78c5e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/negative-unowned-paste.kicad_pro",
+      "bytes": 8375,
+      "sha256": "d7b048b1bf81ff3ed3b6e5051e81d94989b78e9ffb96cc2a56354ab1191c6514",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/pos-help.txt",
+      "bytes": 1346,
+      "sha256": "1e7dfadc43af23d2b70aaaf4d7f22f90ce4bb1b7c5d2263518a160c2863b6742",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/results.json",
+      "bytes": 6981,
+      "sha256": "eec1ee73f79f1343fc24a4840ad436e3e51eff28a0fbb74c83e1db0aef8e9d4a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/source-drill/POLICY_FIXTURE_ONLY.drl",
+      "bytes": 417,
+      "sha256": "62aa7cdfb624c9856b9fe6c210d5e45474ed340a041a02bae42048b26b998f67",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/final-evidence/source-pos.csv",
+      "bytes": 255,
+      "sha256": "77c2277ce1df8507f7d3af507d87a8bf62548bcc7f812fbbce9bf1b578a99d11",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/independent/R10_DNP_ALIAS_INDEPENDENT_REVIEW.json",
+      "bytes": 7723,
+      "sha256": "fc4249b6fcbb802742c291bb22d5d3fb13daecdfa48b37ed68280b23216b3366",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/independent/R10_DNP_ALIAS_INDEPENDENT_REVIEW.md",
+      "bytes": 2145,
+      "sha256": "00eabe08d883248ff8b8b30db12e8f37e33f441d78e7c493d709419905a138e2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY.kicad_pcb",
+      "bytes": 23349,
+      "sha256": "9e0b782e139336efc4cd3c12f16884326b7848b4252995e2bf465436a343b3e3",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY.kicad_pro",
+      "bytes": 222,
+      "sha256": "28bc82ae3ebf01cea5426faec80cd96a52d4a03773daa5287b9ea3571eb2d2a0",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/R7_DNP_PASTE_DERIVED_REVIEW_ONLY.kicad_pcb",
+      "bytes": 23094,
+      "sha256": "94b2f4868148e505b5b7e142e7e58f5f4e426abf16db7a703534e0af2630873a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/R7_DNP_PASTE_DERIVED_REVIEW_ONLY.kicad_pro",
+      "bytes": 222,
+      "sha256": "28bc82ae3ebf01cea5426faec80cd96a52d4a03773daa5287b9ea3571eb2d2a0",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/derived-cam/R7_DNP_PASTE_DERIVED_REVIEW_ONLY-B_Cu.gbl",
+      "bytes": 493,
+      "sha256": "b34413b574b48ff45180a0e46d30303081b0cb670a5ff734294eb91eedd79db4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/derived-cam/R7_DNP_PASTE_DERIVED_REVIEW_ONLY-B_Mask.gbs",
+      "bytes": 494,
+      "sha256": "a836ecb0e495d10114a7e73e1d846712c04983cdfa1c8733be8baf2c845e31f7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/derived-cam/R7_DNP_PASTE_DERIVED_REVIEW_ONLY-B_Paste.gbp",
+      "bytes": 489,
+      "sha256": "508311c01a4752fed5f16ed53ce641473022b1cf42ee55133f068ab63352f5c8",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/derived-cam/R7_DNP_PASTE_DERIVED_REVIEW_ONLY-Edge_Cuts.gm1",
+      "bytes": 651,
+      "sha256": "39d46872cf21a5928109363dbbf8bf658bd39e0242cb30ba4afef8293a25f65c",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/derived-cam/R7_DNP_PASTE_DERIVED_REVIEW_ONLY-F_Cu.gtl",
+      "bytes": 2012,
+      "sha256": "4ba5cc81ce30600333e2f8547340fe4cb17d2124cff81f969715a37b92e4e8a4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/derived-cam/R7_DNP_PASTE_DERIVED_REVIEW_ONLY-F_Fab.gbr",
+      "bytes": 92150,
+      "sha256": "74b4786fb04326c0123a932f59eee05eb41b58411ee99a891b446df74136ec38",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/derived-cam/R7_DNP_PASTE_DERIVED_REVIEW_ONLY-F_Mask.gts",
+      "bytes": 2230,
+      "sha256": "084ae617e0953996939717ba1c44e1cb458629adcba9c77cef198f692728bff9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/derived-cam/R7_DNP_PASTE_DERIVED_REVIEW_ONLY-F_Paste.gtp",
+      "bytes": 1023,
+      "sha256": "9dd455e6d46869ebe3d88e902a4acb6b6a594126480959613e536da73de8be27",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/derived-cam/R7_DNP_PASTE_DERIVED_REVIEW_ONLY-job.gbrjob",
+      "bytes": 3916,
+      "sha256": "cf86bb10e65f18b9e703699d557a773ae20e08317cdcfc4444879ee055a30612",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/recovered-fixture-results.json",
+      "bytes": 5929,
+      "sha256": "e6fe53be3c60937f01384d5cc3ccd2fdad3c269039b21bb049859338e1158355",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/source-cam/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY-B_Cu.gbl",
+      "bytes": 497,
+      "sha256": "c402bf7307f40434a760201e73060a701626caf88021519d18d39dc484cde70e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/source-cam/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY-B_Mask.gbs",
+      "bytes": 498,
+      "sha256": "ea38e7be9249262c6986579f4cafdfbbfdba2b64ee0af45a4185a2d25d2c4e19",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/source-cam/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY-B_Paste.gbp",
+      "bytes": 493,
+      "sha256": "7ece621a12d24aaef9f15fee20904d768ed9ace85ced6518e268bbbd36d29b9f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/source-cam/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY-Edge_Cuts.gm1",
+      "bytes": 655,
+      "sha256": "4127eda8b91ac32e25e65624724417f6b8d2bff592f5282e9b434bbba7b2d598",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/source-cam/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY-F_Cu.gtl",
+      "bytes": 2016,
+      "sha256": "37be275c96dd04c868a90ca7d675584117216e7bf581057aecd090a72a5fbe23",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/source-cam/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY-F_Fab.gbr",
+      "bytes": 92154,
+      "sha256": "5c9960361da6225b4c43fd648d7392b74e0bb5265d99d2f3f4aae465388d978f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/source-cam/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY-F_Mask.gts",
+      "bytes": 2234,
+      "sha256": "527b6625020e0b043ac7da0d4cfee31937df61e2e6096f6206a53658ba67175f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/source-cam/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY-F_Paste.gtp",
+      "bytes": 1094,
+      "sha256": "faecb14c356478c964761f1e85cf8bfe3db71c9960ae3321bc90bcf54ae8fba6",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/recovered-fixture/source-cam/R7_AUTHORITATIVE_ALIASES_REVIEW_ONLY-job.gbrjob",
+      "bytes": 3952,
+      "sha256": "70f81046adbe54390ef1619e55ff2928f45ab0c646b58f29b9f98f6cfa74cf92",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/source-immutability.json",
+      "bytes": 253,
+      "sha256": "e19fa6ddc6fde7f972d542a0eacf56ca22d92fddf7171acc4553bcfb1a3bf44b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/test_policy.py",
+      "bytes": 18349,
+      "sha256": "07424a0c09df85144d5e4d1e79d7124ee7057d1c5b800125bafb15e1ff2d0e52",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r10-dnp-paste-policy/test_recovered_fixture.py",
+      "bytes": 3614,
+      "sha256": "270a20a45318a9b6335c3fdb78f68fc5d34bea980bbc7066ab5768e736a9d72c",
+      "old_sha256": null
+    }
+  ],
+  "existing_project_files_unchanged": true,
+  "limits": "Verified review-only DNP paste derivation; no full-board application, stencil-process or production qualification."
+}

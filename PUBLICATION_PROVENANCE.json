@@ -1,5 +1,5 @@
 {
-  "stage": "R9_CONDITIONAL_EMMC_BYPASS_LANDS",
+  "stage": "R10_REVIEW_ONLY_DNP_PASTE_POLICY",
   "date_utc": "2026-10-03",
   "source_archive_sha256": {
     "v12": "63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58",
@@ -1432,7 +1432,7 @@
       "reason": "Editorial attribution text updated; technical content unchanged"
     }
   ],
-  "previous_stage": "R8_CONDITIONAL_FILTER_FEEDFORWARD_LANDS",
+  "previous_stage": "R9_CONDITIONAL_EMMC_BYPASS_LANDS",
   "checkpoints": [
     {
       "revision": "R3",
@@ -1671,6 +1671,42 @@
       "delta_zip_bytes": 145858,
       "source_manifest_sha256": "440a04548c9d5646c039cc5653e1596b5822c84bbe1afd09b54a9dba967daa69",
       "changed_source_files": 52,
+      "manifest_included_separately": true,
+      "publication_source_files_byte_identical": true,
+      "production_ready": false,
+      "active_full_six_layer_board": false
+    },
+    {
+      "components": 254,
+      "pin_bindings": 1509,
+      "distinct_nets": 457,
+      "footprints_assigned": 221,
+      "footprints_unassigned": 33,
+      "existing_project_files_unchanged": true,
+      "changed_footprint_refs": [],
+      "root_schematic_revision": "RCV-R9",
+      "policy_suite_checks": 42,
+      "policy_negative_rejections": 16,
+      "recovered_fixture_copper_mask_flashes_each": [
+        18,
+        18
+      ],
+      "recovered_fixture_paste_flashes": [
+        14,
+        12
+      ],
+      "removed_recovered_aperture_refs": [
+        "R528"
+      ],
+      "full_board_application_verified": false,
+      "stencil_process_qualified": false,
+      "synthetic_backside_tests_only": true,
+      "revision": "R10",
+      "base_commit": "45750f385a5261c139b819b4b333280d7c1acafb",
+      "delta_zip_sha256": "a609ca8e5029c2054d77db3f812f6dc25987718e12c63c67bb6eb5696718bb13",
+      "delta_zip_bytes": 330922,
+      "source_manifest_sha256": "63ef5f2bc2d14958ca16fc9b433a054af8efe2e53db68a23dc248127944b0b2d",
+      "changed_source_files": 108,
       "manifest_included_separately": true,
       "publication_source_files_byte_identical": true,
       "production_ready": false,
