@@ -1,0 +1,66 @@
+{
+  "TI_regulator_sources": {
+    "TPS6282xA": "SLVSEF9I March 2024, pp4-5,9,14,22-23",
+    "TPS628640B": "SLVSEI1C October 2020, pp5-6,11-12,22,27-28"
+  },
+  "VIN": {
+    "intended_V": 5,
+    "screen_endpoint_V": 5.5,
+    "maximum_recommended_operating_V": 5.5,
+    "minimum_recommended_V": {
+      "U21_TPS62827A": 2.5,
+      "U22_U23_TPS628640B": 2.4,
+      "U24_U26_TPS62826A": 2.4,
+      "U25_TPS62825A": 2.4
+    },
+    "constraint": "Actual DC, ripple, ringing and transient VIN at every IC must meet its operating limits and output headroom. A 5.5 V screen is at the ceiling, not a 5.5 V nominal supply with extra ripple allowance. 10 V MLCC rating does not relax regulator limits."
+  },
+  "TPS628640B_UVLO": {
+    "rising_min_typ_max_V": [
+      2.2,
+      2.3,
+      2.4
+    ],
+    "falling_min_typ_max_V": [
+      2.1,
+      2.2,
+      2.3
+    ],
+    "required_falling_slew_when_VIN_drops_below_UVLO": "slower than 10 mV/µs (TI section10); recommended conditions table gives 10 mV/µs maximum",
+    "register_reset_below_VIN_typical_V": 1.8,
+    "constraint": "Verify actual connector/cable/source/load-disconnect and brownout waveforms at U22/U23. Local capacitance increase by itself does not prove this requirement; account for all shared-rail loads, discharge/backfeed paths and source behavior."
+  },
+  "TPS6282xA_UVLO": {
+    "falling_min_typ_max_V": [
+      2.1,
+      2.2,
+      2.3
+    ],
+    "rising_hysteresis_typical_V": 0.16,
+    "constraint": "UVLO protects low-voltage behavior but is not a valid-operating-voltage target. Check EN/PG behavior and existing CORE-PGOOD-enabled downstream sequence during slow/fast supply changes."
+  },
+  "inrush_ramp": {
+    "nominal_total_change": "120 µF across 12 positions to176 µF across 8; +46.7% nominal",
+    "input_charge_constraint": "Input capacitors directly load VIN before switching. Internal output soft-start does not limit their initial source charging current. Use actual voltage-dependent charge/energy and source impedance/current limit; validate rise time, connector hotplug, overshoot and brownout recovery.",
+    "source_current_parameterization": "Icap≈Cdiff(V,T,AC,age)*dVIN/dt; constant nominal C is only a first-order approximation.",
+    "output_soft_start_context": "TPS6282xA internal controlled startup and TPS62864 approximately1ms output ramp do not by themselves validate a changed shared input bank."
+  },
+  "ripple_and_transients": [
+    "Validate input RMS/peak current and capacitor surface heating for each bank; compare actual spectral content with ESR/impedance and thermal evidence. Manufacturer typical ripple curves at10/100/500/1000kHz do not guarantee MHz converter behavior.",
+    "A single 22 µF part carries the entire local pulse current in four banks; two 10 µF parts previously could share it. Capacitance equivalence is not ESR/ESL/current-sharing equivalence.",
+    "Use measured/simulated source/cable/filter impedance to check input resonance, hotplug ringing and interaction with constant-power converter loads.",
+    "Check worst simultaneous six-rail startup/load steps, dynamic CPU/KPU voltage changes, current-limit/HICCUP recovery and loss of VIN.",
+    "Assess charge-driven droop, ESR steps and loop-inductance spikes; floor capacitance alone does not establish transient performance."
+  ],
+  "current_loop": [
+    "Place each input bank as close as practicable to the actual regulator VIN and GND/PGND pins with short, wide conductors and low-inductance return.",
+    "Keep U22/U23 input return on PGND pins; maintain separate quiet VOS/FB sensing and protect it from SW nodes.",
+    "Preserve existing 100 nF local bypass positions; do not credit remote banks on shared VIN_5V as replacements for a local high-frequency loop.",
+    "A larger 1206 body may make local placement worse even when aggregate area arithmetic looks acceptable; verify before adopting ref removals."
+  ],
+  "thermal_and_life": [
+    "Capacitor surface including self-heating must remain inside -55..125C and the eventual life-qualified envelope. Enclosure air 85°C, if assumed elsewhere, is not capacitor temperature.",
+    "Establish the application life, maximum sustained load and production/model bounds; generic 10% aging/model factors remain scenario assumptions."
+  ],
+  "required_decision_before_CAD_adoption": "Approve the specific reference/value/count plan separately after reviewing this assessment. This assessment is not adoption or production release."
+}

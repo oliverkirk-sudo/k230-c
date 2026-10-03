@@ -1,0 +1,87 @@
+{
+  "negative_controls": [
+    {
+      "control": "removed_reference_reintroduced",
+      "rejected": true,
+      "reason": "parts mismatch: C204"
+    },
+    {
+      "control": "mandatory100nF_bypass_missing",
+      "rejected": true,
+      "reason": "parts mismatch: C205"
+    },
+    {
+      "control": "wrong_input_nominal_value",
+      "rejected": true,
+      "reason": "parts mismatch: C210"
+    },
+    {
+      "control": "wrong_input_footprint_identity",
+      "rejected": true,
+      "reason": "parts mismatch: C203"
+    },
+    {
+      "control": "input_capacitor_on_output_net",
+      "rejected": true,
+      "reason": "nodes mismatch: C220.1"
+    },
+    {
+      "control": "regulator_pin_electrical_type_changed",
+      "rejected": true,
+      "reason": "nodes mismatch: U22.D1"
+    },
+    {
+      "control": "symbol_pin_function_name_changed",
+      "rejected": true,
+      "reason": "libparts mismatch"
+    },
+    {
+      "control": "storage_qualification_DNP_removed",
+      "rejected": true,
+      "reason": "native instances mismatch"
+    },
+    {
+      "control": "fabricated_edge_added_to_BOM",
+      "rejected": true,
+      "reason": "native instances mismatch"
+    },
+    {
+      "control": "declaration_became_hardware",
+      "rejected": true,
+      "reason": "native instances mismatch"
+    },
+    {
+      "control": "incorrect_source_pad_pitch",
+      "rejected": true,
+      "reason": "footprint copper, pin identity, mask or paste mismatch"
+    },
+    {
+      "control": "anonymous_paste_became_copper",
+      "rejected": true,
+      "reason": "footprint copper, pin identity, mask or paste mismatch"
+    },
+    {
+      "control": "unreviewed_mask_expansion",
+      "rejected": true,
+      "reason": "footprint copper, pin identity, mask or paste mismatch"
+    },
+    {
+      "control": "native_schematic_wrong_input_net",
+      "rejected": true,
+      "reason": "nodes mismatch: C203.1"
+    },
+    {
+      "control": "native_schematic_R528_populated",
+      "rejected": true,
+      "reason": "parts mismatch: R528"
+    },
+    {
+      "control": "generator_omitted_survivor",
+      "rejected": true,
+      "reason": "parts mismatch: C230"
+    }
+  ],
+  "native_mutation_exports_performed": 3,
+  "data_only_controls": 13,
+  "implementation_validator_used": false
+}

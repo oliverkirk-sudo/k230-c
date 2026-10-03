@@ -1,0 +1,794 @@
+{
+  "status": "LAYOUT_CANDIDATES_NOT_RELEASED_BOM",
+  "excluded_from_generic_Samsung_reassignment_refs": [
+    "C65",
+    "C70",
+    "C72"
+  ],
+  "components": [
+    {
+      "reference": "C45",
+      "previous_value": "100nF REF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C31",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C32",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C33",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C34",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C205",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C209",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C215",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C222",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C227",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C232",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C233",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C234",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C235",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C236",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C237",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C238",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C239",
+      "previous_value": "100nF local second PMU ball",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C240",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C241",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C242",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C243",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C244",
+      "previous_value": "100nF REF / local PI UNQUALIFIED",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C245",
+      "previous_value": "100nF MIPI source second ball",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C246",
+      "previous_value": "100nF MIPI source second ball",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C61",
+      "previous_value": "100nF REF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C62",
+      "previous_value": "100nF REF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C63",
+      "previous_value": "100nF REF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C66",
+      "previous_value": "4.7uF CHECKLIST REF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C67",
+      "previous_value": "4.7uF CHECKLIST REF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C68",
+      "previous_value": "100nF CHECKLIST REF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C501",
+      "previous_value": "4.7uF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C502",
+      "previous_value": "4.7uF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C503",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C504",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C505",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C506",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C507",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C508",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C509",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C510",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C511",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C512",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C513",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C514",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C515",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C516",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C517",
+      "previous_value": "4.7uF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C518",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C519",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C520",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C521",
+      "previous_value": "4.7uF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C522",
+      "previous_value": "4.7uF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C523",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C524",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C525",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C526",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C527",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C528",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C529",
+      "previous_value": "4.7uF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C530",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C531",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C532",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C533",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C534",
+      "previous_value": "4.7uF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C535",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C536",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C537",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C538",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C539",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C541",
+      "previous_value": "4.7uF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C542",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C543",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C544",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C545",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C546",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C547",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C548",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C549",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C550",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C551",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C553",
+      "previous_value": "4.7uF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C554",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C555",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C556",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C557",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C558",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C559",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C560",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C561",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C563",
+      "previous_value": "4.7uF",
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C564",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C565",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C566",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C567",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C568",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C569",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C570",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C571",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C572",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C573",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C574",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C575",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C576",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C577",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C809",
+      "previous_value": "100nF",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C810",
+      "previous_value": "100nF U94",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C811",
+      "previous_value": "100nF U90",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C812",
+      "previous_value": "100nF U91",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C813",
+      "previous_value": "100nF U92",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C814",
+      "previous_value": "100nF U93",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    },
+    {
+      "reference": "C816",
+      "previous_value": "100nF X5R/X7R",
+      "candidate_mpn": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "gate": "Ceff/PDN/thermal/assembly not qualified"
+    }
+  ]
+}

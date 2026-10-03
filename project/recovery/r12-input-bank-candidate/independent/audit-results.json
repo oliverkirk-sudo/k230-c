@@ -1,0 +1,92 @@
+{
+  "status": "PASS_BOUNDED_INDEPENDENT_AUDIT",
+  "predecessor_revision": "R11",
+  "candidate_revision": "RCV-INBANK-R12",
+  "published_predecessor_files_preserved": 1417,
+  "source_project_files_unchanged_during_audit": true,
+  "predecessor_master_sha256": "6d4addd7844f688d28e5af9fba904d5260c171de4ad239ba4336e6d8a3c2a13a",
+  "preserved_baseline_master_sha256": "6d4addd7844f688d28e5af9fba904d5260c171de4ad239ba4336e6d8a3c2a13a",
+  "candidate_cached_master_sha256": "93d9016a99592c522cff3020ce3ebf30572807d4b2712dd8eadfe0f36c116d12",
+  "candidate_semantic_sha256": "a9bbf0a8792e3abbf2a068a908466cce4bc22930de200becf24f02197967d890",
+  "source_review_R10_R11_bridge_independently_verified": true,
+  "source_review_bridge_reference_count": 34,
+  "source_review_R10_master_sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+  "fresh_baseline_matches_published_master": true,
+  "fresh_candidate_matches_exact_expected_delta": true,
+  "generator_reproduces_expected_electrical_native_population_and_CSV_contract": true,
+  "candidate_components": 250,
+  "candidate_bindings": 1501,
+  "candidate_nets": 457,
+  "footprint_assigned_count": 238,
+  "footprint_gap_count": 12,
+  "remaining_footprint_gaps": [
+    "C201",
+    "C218",
+    "C223",
+    "C228",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C815",
+    "R41",
+    "R42",
+    "Y1"
+  ],
+  "all_assigned_footprint_identities_resolve": true,
+  "unique_assigned_footprint_files": 29,
+  "changed_value_footprint_refs": [
+    "C203",
+    "C210",
+    "C211",
+    "C216",
+    "C217",
+    "C220",
+    "C225",
+    "C230"
+  ],
+  "removed_refs": [
+    "C204",
+    "C221",
+    "C226",
+    "C231"
+  ],
+  "preserved100nF_bypasses": [
+    "C205",
+    "C209",
+    "C215",
+    "C222",
+    "C227",
+    "C232"
+  ],
+  "DNP_refs": [
+    "JP1",
+    "R45",
+    "R47",
+    "R528"
+  ],
+  "protected_source_declarations": 26,
+  "declarations_remain_non_BOM_non_board_and_absent_from_physical_netlist": true,
+  "all_other_native_instances_no_connects_component_fields_pin_functions_types_nets_and_symbol_libraries_preserved": true,
+  "nominal_input_uF_before_after": [
+    120,
+    176
+  ],
+  "fresh_ERC_violations": 0,
+  "regenerated_ERC_violations": 0,
+  "source_footprint_sha256": "af0fc1fa31ef6e0bd27604b1202ebaf838ac80d3e0dcc9d8e71efe6435cf9fa0",
+  "negative_controls_rejected": 16,
+  "documentation_sha256": {
+    "cad/recovery-inputbank-candidate/README.md": "a502c92682ee415dfc9c901cba425dae20823c770a53fab2e67244da681fba52",
+    "recovery/r12-input-bank-candidate/README.md": "1f1ef9e861931b86167ba430045a7498da1eaac74d6240a21bb141e74ad3c162"
+  },
+  "qualifications_not_established": [
+    "Combined guaranteed Ceff and capacitor life",
+    "UVLO/falling VIN slew and startup/transients",
+    "Input ripple current or thermal qualification",
+    "PCB placement, 38mm fit, routing, stackup, assembly or fabrication release"
+  ],
+  "baseline_promoted": false,
+  "real_defects_found": [],
+  "documentation_observation": "Candidate and recovery READMEs identify RCV-INBANK-R12 and preserved R11 baseline. Copied PHYSICAL_STAGE.md remains historical RCV-PHYS1 context; it does not govern this audit."
+}

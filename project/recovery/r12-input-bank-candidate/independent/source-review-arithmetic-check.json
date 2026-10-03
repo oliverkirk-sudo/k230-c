@@ -1,0 +1,21 @@
+{
+  "source_relative_path": "recovery/r12-input-bank-candidate/source-review/ceff-sensitivity.json",
+  "source_sha256": "c766f0190d11b21bf229de733c95ff89331b413a0c27277275724a3754592ca7",
+  "status": "ARITHMETIC_MATCH_ONLY__ASSUMPTIONS_NOT_QUALIFIED",
+  "AC_normalization_factor": 0.8385870986555163,
+  "results": [
+    {
+      "VIN_V": 5,
+      "recomputed_one_uF": 7.38136236294387,
+      "recomputed_pair_uF": 14.76272472588774,
+      "matches_recorded_arithmetic": true
+    },
+    {
+      "VIN_V": 5.5,
+      "recomputed_one_uF": 6.9246165474929136,
+      "recomputed_pair_uF": 13.849233094985827,
+      "matches_recorded_arithmetic": true
+    }
+  ],
+  "limitations": "Selected curve values and declared factors were independently recomputed; this check neither makes the independent factors jointly valid nor establishes guaranteed Ceff, lifetime, ripple or temperature qualification."
+}

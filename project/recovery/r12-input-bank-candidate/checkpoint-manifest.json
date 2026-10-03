@@ -1,0 +1,374 @@
+{
+  "revision": "R12",
+  "base_commit": "1e4e2832b2931a4de387179190fd21869681db39",
+  "files": [
+    {
+      "path": "cad/recovery-inputbank-candidate/01_SoC_1.kicad_sch",
+      "bytes": 108469,
+      "sha256": "421bfdbb44f0cb06e9c4afff301d9928fe1c57b944a78ace269ba5b5f956a064",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/02_SoC_2.kicad_sch",
+      "bytes": 97520,
+      "sha256": "e9589d5969adc69fd3ecb22040d0c046c8b3c33c316f25b47d63176ebf718ef9",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/03_SoC_3.kicad_sch",
+      "bytes": 103629,
+      "sha256": "31f3fb8aa6a2f5f9d59db006d2c1cb34eb59d6bfe5a4097e13d45f5d60ae0f31",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/04_LPDDR4_1.kicad_sch",
+      "bytes": 78686,
+      "sha256": "8480a45ce4d81d5bbdb5d93c7222b49b88cd000a01fcbec6f4016e46ae67c238",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/05_LPDDR4_2.kicad_sch",
+      "bytes": 42420,
+      "sha256": "854a178274ed8201f059a36da6b31fef2b636cf68c0c3f4269935d677da55850",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/06_eMMC_1.kicad_sch",
+      "bytes": 46244,
+      "sha256": "6e7d9f1ae29d37badc57a5f55b082b84820eefabd9e84ea338bbb201db9e4000",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/07_Edge_Contract_1.kicad_sch",
+      "bytes": 67754,
+      "sha256": "7d64e3b93e083306c2fc4e296040030841488fd0bf8bed8769b8bb315ee45f41",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/08_Clock_Reset_Boot.kicad_sch",
+      "bytes": 21163,
+      "sha256": "11b9e32ad1d9213d1d97a79f7d360fd5c9643c82bdf45168f52eaa21c86c0cbe",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/09_Cold_Storage_Selector.kicad_sch",
+      "bytes": 37452,
+      "sha256": "a78eb878d254dec4a678606af4e11376c7e5af0ebbf76d50169d87f299a41dba",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/10_Six_Rail_Power.kicad_sch",
+      "bytes": 123715,
+      "sha256": "3052aa893eed8474454d0d1e73a3f0d8afadad757c5922a4626502042dbc91e5",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/11_DDR_USB_MIPI_Bias.kicad_sch",
+      "bytes": 33131,
+      "sha256": "dabd9f39ce4fe245b3e98d2d704e41eb631d8b1ff43debbe2c3e19b9a26c5f96",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/12_Local_Decoupling.kicad_sch",
+      "bytes": 99479,
+      "sha256": "1e485522376100c99a2d618ef205305e6c1e180b8ad3272e2835c140218af3d1",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/13_PMU_Automatic_Startup.kicad_sch",
+      "bytes": 6144,
+      "sha256": "1eeb21163aa9c6989047ccbf771290cbb59b9041897f0a2f9bafa39af0717f5e",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/14_EMMC_Local_Bias.kicad_sch",
+      "bytes": 16653,
+      "sha256": "c4650218b090ff063d7a869e92c5fe993c89b90e8246e789913021518ec6d745",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/15_Hardware_Reset_Interlock.kicad_sch",
+      "bytes": 36418,
+      "sha256": "00a4fad0860c15743211f1e11e7c76b7927071a8696b5c0b26e871d1281b01dd",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/16_TF_Voltage_Translation.kicad_sch",
+      "bytes": 14151,
+      "sha256": "ca15ab0d47b10ef8c8340c5ca12ce2cb6dcec8e8a54cbd20246a4b41259cf3c3",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/17_Audited_Source_Declarations.kicad_sch",
+      "bytes": 24233,
+      "sha256": "e31b92ecb87a4a0b772ea608e5fb01939098bac2d4693e6fbd228d9e889c8d62",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/CMK230_Core_REVIEW.kicad_pro",
+      "bytes": 84,
+      "sha256": "0602ca786fb4635f0df8b22d673b422f2c541040b54b229c906f383db71a74da",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/CMK230_Core_REVIEW.kicad_sch",
+      "bytes": 8903,
+      "sha256": "bafb16fe3372254276124768036a99f35d8ea548eb2c2ed7d3fc2644fe58336f",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/Integrated.kicad_sym",
+      "bytes": 178377,
+      "sha256": "0f1f654f9a4b7ec054835d945c7f01369e44bc8b4839636675b910a605334be7",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/PHYSICAL_STAGE.md",
+      "bytes": 992,
+      "sha256": "887134733b3b425c9d8eb76c471131a1e8ceb1dca26b7fd3c176bc54477e20d2",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/README.md",
+      "bytes": 977,
+      "sha256": "a502c92682ee415dfc9c901cba425dae20823c770a53fab2e67244da681fba52",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/build_review.py",
+      "bytes": 36795,
+      "sha256": "4422be0c1896b3e5d79a1bc5bbcfdba2602dfa966f438af42303cc20c183a279",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/bypass-candidate-assignments.json",
+      "bytes": 22672,
+      "sha256": "39a3a7cbfaca83ce92890bedf559fb7a213eca81f4d349488e2a1da483a193ea",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/erc.json",
+      "bytes": 3656,
+      "sha256": "9459a6faa316401c1b92347372f065e9680eab1d521446d6ca3e81f0d1aa9f80",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/fp-lib-table",
+      "bytes": 4179,
+      "sha256": "a1ea032cf3335f049d5ed87d80ce23602acefb631382c65a786511986ddcb70f",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/master-pin-assignments.csv",
+      "bytes": 136105,
+      "sha256": "340660d718f6b50241ffcc2b991032ad88d639b7ac478037903e392c2dba3b96",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/master.xml",
+      "bytes": 408394,
+      "sha256": "2002c824db1fbe745a5c9bd960d7c140c977e7ee032d51b7f58b9a0f61455d65",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/memory-types.json",
+      "bytes": 8426,
+      "sha256": "a1c6bd14f2b5e9494c4e1c09d58f19088ea649693284705d370e8de1a39309b1",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/physical-binding-validation.json",
+      "bytes": 2664,
+      "sha256": "ecd375a9472590a73bdd90d9c0c47ba8313322ff3379d774220ad96386894e38",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/power-source-paths.json",
+      "bytes": 4801,
+      "sha256": "f7ca9d5bece2a314cac9ffadd19dd60de416e3f87d02a5f7b291b8a68ee4d9be",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/source-validation.json",
+      "bytes": 3654,
+      "sha256": "8ee7f1b3821d1c7b29b2b1e4e9129121024d49ff8a23c842d119450264f1fbe6",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/sym-lib-table",
+      "bytes": 153,
+      "sha256": "fe8577018d1343220a17259ab4eb0569e6399660b9481fb29872407be2d897b1",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-inputbank-candidate/validate_physical_binding.py",
+      "bytes": 2800,
+      "sha256": "9436fa61eaaa2ad223b94ca7d1be941a1119e7498a272fe66e1337a5b1a55cf5",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/README.md",
+      "bytes": 4219,
+      "sha256": "1f1ef9e861931b86167ba430045a7498da1eaac74d6240a21bb141e74ad3c162",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/actual-footprint-area.json",
+      "bytes": 528,
+      "sha256": "5062da735fcbead9dd674c4d814618e4c8647996aa5319b0b78d11a6cc228fb9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/core-input.png",
+      "bytes": 68402,
+      "sha256": "e81b868665009aa8d194f0ba910b05d9b385c457c4a13e0ac2ce4ca0028be65d",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/cpu-input.png",
+      "bytes": 77416,
+      "sha256": "69d54a56d70ad128bbdd5626206fb4e0b86d0ae9b9530fb62d3ef4d7e51937b4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/independent/README.md",
+      "bytes": 6151,
+      "sha256": "0629b3fa2ac118e7a53ec2b1335d2af5412a924f60bf3f6531f87d746486a970",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/independent/artifact-sha256.json",
+      "bytes": 762,
+      "sha256": "b03dddf9d8e1f0291909ce5578df4a7043278b73562b6fea4c34700b0cfe31a9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/independent/audit-results.json",
+      "bytes": 3158,
+      "sha256": "921c4db76bf63ffd23f8bb7770ace02cfc5293ba613daece37ac97fdd7e66952",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/independent/audit_r12.py",
+      "bytes": 23852,
+      "sha256": "7b9a93b10576153b54b9ad48c38a1226102503d47f31cc709281304d6116738f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/independent/native-checks.json",
+      "bytes": 15428,
+      "sha256": "41559e6c1585c936da70bbe77ca28fe318895df30f4f9912346fe171d21fcf27",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/independent/negative-controls.json",
+      "bytes": 2285,
+      "sha256": "5f935c549b8069000f3f8770f935c1b0ce8e15671e2c7c3eeab60586e22c8433",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/independent/preservation-manifest.json",
+      "bytes": 655,
+      "sha256": "621fa9930f5e67104999ccb2edd036a4b25a03ad9305e8cfa49136e3e9c59af6",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/independent/source-footprint-check.json",
+      "bytes": 3504,
+      "sha256": "dbcbd57efd331b392c70df5faf1023a4fe6a23348bc47964f7e3f153b94bc2c3",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/independent/source-review-arithmetic-check.json",
+      "bytes": 893,
+      "sha256": "61db53fe5b7d951fc467a461354e19de239493851d503667f985afbc71a5e959",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/native-checks.json",
+      "bytes": 5813,
+      "sha256": "e9f5ef3bf00c2ebf670d72fc88440730db26e741a499ac3b472468dc6f0dfdc8",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/public-path-normalization.json",
+      "bytes": 692,
+      "sha256": "d2c91edcc16369702a1ddc4e488a9ba3f3aec5e82fda5ef018b6699b46990e5b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/r10-r11-source-scope-bridge.json",
+      "bytes": 912,
+      "sha256": "f7e6082b72f0c77d412fe9062962fbad95d12f087ee198f1dfe8debffafbbfdc",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/source-review/README.md",
+      "bytes": 9437,
+      "sha256": "7b382e5d58583bf9a4a1ec29dbdd13cd008890f3e79fcec89f700afff806b1b6",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/source-review/ceff-sensitivity.json",
+      "bytes": 5307,
+      "sha256": "c766f0190d11b21bf229de733c95ff89331b413a0c27277275724a3754592ca7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/source-review/geometry-area.json",
+      "bytes": 2840,
+      "sha256": "d785154c0f9eb07e500f3ff145b03ba7b5c89aed3b150c27c7f0cd95ad4932d5",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/source-review/operating-constraints.json",
+      "bytes": 4477,
+      "sha256": "5a285230ea14bd2ca29a593a99e04aadcfd07af3fa6f079183f0406ee22daeef",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/source-review/proposed-reference-plan.json",
+      "bytes": 13301,
+      "sha256": "38d0f3b7fcea476e9057b8845bd8ffbd7a395db58f14fad273a3575554c49d06",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/source-review/scope-equality-bridge.json",
+      "bytes": 11747,
+      "sha256": "313d7f13bf510254f76ea73b92d89cca6e44283ba966bc672dd93b48e1a2ebd1",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/source-review/source-manifest.json",
+      "bytes": 2461,
+      "sha256": "0de662272efe2385232467f1d486dd6b88fae8e1818ec6c2a52f99629315cf49",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/source-review/verification.json",
+      "bytes": 856,
+      "sha256": "f8735de556c5e808691597877c1dab422abbbe2cff39d7bf785169995c2547ff",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/validate_candidate.py",
+      "bytes": 6107,
+      "sha256": "0728aebe09fc752dec5b93a81e3da7ca4b3d0e5659c161cc5f3f75257fb7be27",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/validation.json",
+      "bytes": 1271,
+      "sha256": "10b901862de40e61e99569c7aa83a60e2761c5bea18b87917d71ecc3ebdbe56a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r12-input-bank-candidate/visual-review.json",
+      "bytes": 975,
+      "sha256": "35834355db022d045049f7abc372fcee5653d35d84a7f33573bcbbec6818599c",
+      "old_sha256": null
+    }
+  ],
+  "existing_project_files_unchanged": true,
+  "limits": "Separate conditional input-bank circuit; baseline preserved and unpromoted. Ceff, VIN slew, placement and production remain unqualified."
+}

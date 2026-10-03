@@ -1,0 +1,190 @@
+{
+  "exact_MPN": "CL31B226KPHNNNE",
+  "land_source": "Exact Samsung spec p33, metric3216 +/-0.20mm row; pre-audited primary source hashes remain in source-review",
+  "source_copper_ranges_mm": {
+    "a": [
+      1.64,
+      1.76
+    ],
+    "b": [
+      1.19,
+      1.31
+    ],
+    "c": [
+      1.74,
+      1.86
+    ]
+  },
+  "audited_footprint": {
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          -1.475,
+          0.0
+        ],
+        "size": [
+          1.25,
+          1.8
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask_margin": 0.05
+      },
+      {
+        "number": "",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          -1.475,
+          0.0
+        ],
+        "size": [
+          1.25,
+          1.8
+        ],
+        "layers": [
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          1.475,
+          0.0
+        ],
+        "size": [
+          1.25,
+          1.8
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask_margin": 0.05
+      },
+      {
+        "number": "",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          1.475,
+          0.0
+        ],
+        "size": [
+          1.25,
+          1.8
+        ],
+        "layers": [
+          "F.Paste"
+        ],
+        "mask_margin": null
+      }
+    ],
+    "courtyards": [
+      {
+        "start": [
+          -2.425,
+          -1.225
+        ],
+        "end": [
+          2.425,
+          1.225
+        ],
+        "stroke": 0.05
+      }
+    ]
+  },
+  "native_import": {
+    "kicad_version": "9.0.2+dfsg-1",
+    "pads": [
+      {
+        "number": "1",
+        "xy_mm": [
+          -1.475,
+          0.0
+        ],
+        "size_mm": [
+          1.25,
+          1.8
+        ],
+        "layers": [
+          0,
+          1
+        ],
+        "mask_margin_mm": 0.05
+      },
+      {
+        "number": "",
+        "xy_mm": [
+          -1.475,
+          0.0
+        ],
+        "size_mm": [
+          1.25,
+          1.8
+        ],
+        "layers": [
+          13
+        ],
+        "mask_margin_mm": null
+      },
+      {
+        "number": "2",
+        "xy_mm": [
+          1.475,
+          0.0
+        ],
+        "size_mm": [
+          1.25,
+          1.8
+        ],
+        "layers": [
+          0,
+          1
+        ],
+        "mask_margin_mm": 0.05
+      },
+      {
+        "number": "",
+        "xy_mm": [
+          1.475,
+          0.0
+        ],
+        "size_mm": [
+          1.25,
+          1.8
+        ],
+        "layers": [
+          13
+        ],
+        "mask_margin_mm": null
+      }
+    ]
+  },
+  "copper_envelope_mm": [
+    4.2,
+    1.8
+  ],
+  "solder_mask_expansion_mm": 0.05,
+  "paste": "Two unnumbered F.Paste-only 1:1 rectangles, no anonymous copper",
+  "courtyard_centerline_LW_mm": [
+    4.85,
+    2.45
+  ],
+  "eight_centerline_rectangles_area_mm2": 95.06,
+  "eight_outer_stroke_envelope_area_mm2": 97.99999999999999,
+  "matched_area_comparison_delta_mm2": [
+    34.4,
+    36.08
+  ],
+  "metric_distinction": "95.06mm2 is the chosen eight footprint courtyard centerline-rectangle total. 34.4–36.08mm2 are matched-assumption deltas against unassigned baseline source reservations. Outer rendered stroke envelope is a third distinct metric. None establishes board fit.",
+  "process_qualified": false
+}

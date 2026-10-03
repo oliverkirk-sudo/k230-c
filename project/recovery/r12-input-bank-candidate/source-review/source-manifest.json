@@ -1,0 +1,68 @@
+{
+  "date_utc": "2026-10-03",
+  "sources": [
+    {
+      "id": "SAMSUNG-HTML",
+      "url": "https://product.samsungsem.com/mlcc/CL31B226KPHNNN.do",
+      "revision_and_freshness": "Manufacturer product data retrieved 2026-10-03; typical curves",
+      "sha256": "2e0d20106f51715f5d7030209dce289bfbe3bda3835fc3207698a9e3c6d08f32",
+      "bytes": 183786,
+      "pages_used_1_based": [],
+      "raw_source_included": false
+    },
+    {
+      "id": "SAMSUNG-SPEC",
+      "url": "https://product.samsungsem.com/part/download.do",
+      "revision_and_freshness": "Exact-part reference sheet 2021-04-15; downloaded 2026-10-03",
+      "sha256": "742b9759b46abf22af1f61562aac31870345cf654ca240911f98fda44cf58167",
+      "bytes": 3029926,
+      "pages_used_1_based": [
+        1,
+        2,
+        33
+      ],
+      "raw_source_included": false,
+      "POST_form": {
+        "masterKey": "CL31B226KPHNNN",
+        "type": "specsheet"
+      }
+    },
+    {
+      "id": "TI-6282X",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62827.pdf",
+      "revision_and_freshness": "SLVSEF9I March 2024",
+      "sha256": "8a309f2a40486a380242d3f178eb4bda3ef4dca3deca647fa82f763d14866f63",
+      "bytes": 2138207,
+      "pages_used_1_based": [
+        3,
+        4,
+        5,
+        9,
+        14,
+        22,
+        23
+      ],
+      "raw_source_included": false
+    },
+    {
+      "id": "TI-62864",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62864.pdf",
+      "revision_and_freshness": "SLVSEI1C October 2020",
+      "sha256": "f49cda50b21c8a84ea153120043efd31a5c4a58d2c0465909ea7f804806b8919",
+      "bytes": 2193210,
+      "pages_used_1_based": [
+        5,
+        6,
+        11,
+        12,
+        22,
+        27,
+        28
+      ],
+      "raw_source_included": false
+    }
+  ],
+  "source_reuse": "Fresh same-day exact primary sources shared with the output-capacitor review. This review independently reparsed HTML numeric curves and recomputed the input results; manufacturer body/land drawings were independently visually checked. Historical 6.85 µF result was not treated as a guarantee or input to computation.",
+  "raw_data_storage": "Raw manufacturer HTML/PDF, complete curve arrays and source screenshots remain outside this public-safe report. Only selected factual values, derived results, URLs and hashes are included.",
+  "single_candidate_only": "CL31B226KPHNNNE; no alternative part search, procurement check, purchase or supplier outreach."
+}

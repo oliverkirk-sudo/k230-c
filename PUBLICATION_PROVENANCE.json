@@ -1,5 +1,5 @@
 {
-  "stage": "R11_CONDITIONAL_BULK22_SOURCE_LANDS",
+  "stage": "R12_UNPROMOTED_INPUT_BANK_SIBLING",
   "date_utc": "2026-10-03",
   "source_archive_sha256": {
     "v12": "63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58",
@@ -1432,7 +1432,7 @@
       "reason": "Editorial attribution text updated; technical content unchanged"
     }
   ],
-  "previous_stage": "R10_REVIEW_ONLY_DNP_PASTE_POLICY",
+  "previous_stage": "R11_CONDITIONAL_BULK22_SOURCE_LANDS",
   "checkpoints": [
     {
       "revision": "R3",
@@ -1746,6 +1746,61 @@
       "delta_zip_bytes": 151404,
       "source_manifest_sha256": "b3027f4e2d5e34c68f64aa953d5ffb51e1b2352974e2279192d5e2459b55069d",
       "changed_source_files": 50,
+      "manifest_included_separately": true,
+      "publication_source_files_byte_identical": true,
+      "production_ready": false,
+      "active_full_six_layer_board": false
+    },
+    {
+      "baseline_components": 254,
+      "baseline_pin_bindings": 1509,
+      "baseline_footprints_assigned": 230,
+      "baseline_footprints_unassigned": 24,
+      "candidate_components": 250,
+      "candidate_pin_bindings": 1501,
+      "candidate_distinct_nets": 457,
+      "candidate_footprints_assigned": 238,
+      "candidate_footprints_unassigned": 12,
+      "candidate_changed_value_footprint_refs": [
+        "C203",
+        "C210",
+        "C211",
+        "C216",
+        "C217",
+        "C220",
+        "C225",
+        "C230"
+      ],
+      "candidate_removed_refs": [
+        "C204",
+        "C221",
+        "C226",
+        "C231"
+      ],
+      "existing_project_files_unchanged": 1417,
+      "candidate_promoted": false,
+      "candidate_revision": "RCV-INBANK-R12",
+      "negative_controls": 16,
+      "fresh_ERC_violations": 0,
+      "regenerated_ERC_violations": 0,
+      "nominal_input_bulk_uF": [
+        120,
+        176
+      ],
+      "matched_area_delta_mm2": [
+        34.4,
+        36.08
+      ],
+      "actual_eight_courtyard_rectangle_mm2": 95.06,
+      "actual_eight_outer_stroke_envelope_mm2": 98.0,
+      "effective_capacitance_qualified": false,
+      "own_native_pngs_reviewed": 2,
+      "revision": "R12",
+      "base_commit": "1e4e2832b2931a4de387179190fd21869681db39",
+      "delta_zip_sha256": "efeb2ae67b27a34fa7bb7753606114d34fcea3998de55fe674d622bc44f24524",
+      "delta_zip_bytes": 415413,
+      "source_manifest_sha256": "e726682bab223d3a721b5a812c215bf7aaceda547347e17ede18e7d39af451ed",
+      "changed_source_files": 61,
       "manifest_included_separately": true,
       "publication_source_files_byte_identical": true,
       "production_ready": false,

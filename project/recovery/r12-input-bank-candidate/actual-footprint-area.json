@@ -1,0 +1,14 @@
+{
+  "footprint": "CMK230_Bulk22_Candidates:Samsung_CL31B226_1206_ReflowMid_SOURCE_CANDIDATE",
+  "courtyard_mm": [
+    4.85,
+    2.45
+  ],
+  "input_positions": 8,
+  "total_courtyard_rectangle_area_mm2": 95.06,
+  "matched_source_scenario_added_area_mm2": [
+    34.4,
+    36.08
+  ],
+  "limits": "The actual candidate courtyard includes +0.05mm mask and stroke allowance; source matched-clearance scenarios are comparisons, not this exact courtyard or a full placement/routing proof. Baseline inputs remain footprint-unassigned."
+}

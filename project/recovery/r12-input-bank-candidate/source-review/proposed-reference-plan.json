@@ -1,0 +1,339 @@
+{
+  "status": "READ_ONLY_REVIEWED_PLAN__NOT_APPLIED",
+  "baseline": "R10",
+  "master_relative_path": "project/cad/recovery-physical-candidate/master.xml",
+  "master_sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+  "exact_candidate_count": 1,
+  "banks": [
+    {
+      "regulator_ref": "U21",
+      "exact_regulator_value": "TPS62827ADMQ",
+      "output_rail_name": "VDD0P8_CORE",
+      "ideal_nominal_output_V": 0.7992,
+      "ideal_output_basis": "0.600V reference with current divider values; actual voltage tolerance not assessed",
+      "divider_or_VSET_refs": [
+        "R201",
+        "R202"
+      ],
+      "baseline_refs": [
+        "C203",
+        "C204"
+      ],
+      "proposed_surviving_refs": [
+        "C203"
+      ],
+      "proposed_removed_refs": [
+        "C204"
+      ],
+      "baseline_nominal_each_uF": 10,
+      "proposed_nominal_each_uF": 22,
+      "proposed_MPN": "CL31B226KPHNNNE",
+      "proposed_rating_V": 10,
+      "proposed_value_string": "22uF 10V X7R CL31B226KPHNNNE CANDIDATE",
+      "proposed_pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      },
+      "local_Ceff_design_floor_uF": 3,
+      "TI_criterion": "minimum-effective-input recommendation for most applications",
+      "illustrative_bank_screen_at5p5V_uF": 6.9246165474929136,
+      "illustrative_margin_percent": 130.82055158309714,
+      "regulator_nameplate_output_current_A": 4,
+      "ideal_CCM_input_capacitor_RMS_screens": [
+        {
+          "VIN_V": 5,
+          "ideal_duty": 0.15984,
+          "ideal_RMS_current_per_A_output": 0.3664576024590021,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 1.4658304098360084
+        },
+        {
+          "VIN_V": 5.5,
+          "ideal_duty": 0.14530909090909092,
+          "ideal_RMS_current_per_A_output": 0.35241220042482135,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 1.4096488016992854
+        }
+      ],
+      "RMS_limitations": "I_CIN_RMS ≈ IOUT*sqrt(D*(1-D)), D≈VOUT/VIN. Ideal continuous-conduction estimate ignores triangular inductor ripple, PSM/PWM transitions, losses, control transients, supply impedance and unequal capacitor current sharing. Nameplate currents are stress examples, not board load budgets. Do not infer per-cap ratings from these estimates."
+    },
+    {
+      "regulator_ref": "U22",
+      "exact_regulator_value": "TPS628640BYCGR",
+      "output_rail_name": "VDD0P8_CPU",
+      "ideal_nominal_output_V": 0.8,
+      "ideal_output_basis": "Existing 56.2kohm VSET selects 0.80V startup and 0x49; I2C may later change VOUT",
+      "divider_or_VSET_refs": [
+        "R205"
+      ],
+      "baseline_refs": [
+        "C210",
+        "C211"
+      ],
+      "proposed_surviving_refs": [
+        "C210",
+        "C211"
+      ],
+      "proposed_removed_refs": [],
+      "baseline_nominal_each_uF": 10,
+      "proposed_nominal_each_uF": 22,
+      "proposed_MPN": "CL31B226KPHNNNE",
+      "proposed_rating_V": 10,
+      "proposed_value_string": "22uF 10V X7R CL31B226KPHNNNE CANDIDATE",
+      "proposed_pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      },
+      "local_Ceff_design_floor_uF": 8,
+      "TI_criterion": "sufficient-for-most-applications recommendation adopted as design floor",
+      "illustrative_bank_screen_at5p5V_uF": 13.849233094985827,
+      "illustrative_margin_percent": 73.11541368732284,
+      "regulator_nameplate_output_current_A": 4,
+      "ideal_CCM_input_capacitor_RMS_screens": [
+        {
+          "VIN_V": 5,
+          "ideal_duty": 0.16,
+          "ideal_RMS_current_per_A_output": 0.3666060555964672,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 1.4664242223858688
+        },
+        {
+          "VIN_V": 5.5,
+          "ideal_duty": 0.14545454545454548,
+          "ideal_RMS_current_per_A_output": 0.35255853508482393,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 1.4102341403392957
+        }
+      ],
+      "RMS_limitations": "I_CIN_RMS ≈ IOUT*sqrt(D*(1-D)), D≈VOUT/VIN. Ideal continuous-conduction estimate ignores triangular inductor ripple, PSM/PWM transitions, losses, control transients, supply impedance and unequal capacitor current sharing. Nameplate currents are stress examples, not board load budgets. Do not infer per-cap ratings from these estimates."
+    },
+    {
+      "regulator_ref": "U23",
+      "exact_regulator_value": "TPS628640BYCGR",
+      "output_rail_name": "VDD0P8_KPU",
+      "ideal_nominal_output_V": 0.8,
+      "ideal_output_basis": "Existing 56.2kohm VSET selects 0.80V startup and 0x49; I2C may later change VOUT",
+      "divider_or_VSET_refs": [
+        "R206"
+      ],
+      "baseline_refs": [
+        "C216",
+        "C217"
+      ],
+      "proposed_surviving_refs": [
+        "C216",
+        "C217"
+      ],
+      "proposed_removed_refs": [],
+      "baseline_nominal_each_uF": 10,
+      "proposed_nominal_each_uF": 22,
+      "proposed_MPN": "CL31B226KPHNNNE",
+      "proposed_rating_V": 10,
+      "proposed_value_string": "22uF 10V X7R CL31B226KPHNNNE CANDIDATE",
+      "proposed_pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      },
+      "local_Ceff_design_floor_uF": 8,
+      "TI_criterion": "sufficient-for-most-applications recommendation adopted as design floor",
+      "illustrative_bank_screen_at5p5V_uF": 13.849233094985827,
+      "illustrative_margin_percent": 73.11541368732284,
+      "regulator_nameplate_output_current_A": 4,
+      "ideal_CCM_input_capacitor_RMS_screens": [
+        {
+          "VIN_V": 5,
+          "ideal_duty": 0.16,
+          "ideal_RMS_current_per_A_output": 0.3666060555964672,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 1.4664242223858688
+        },
+        {
+          "VIN_V": 5.5,
+          "ideal_duty": 0.14545454545454548,
+          "ideal_RMS_current_per_A_output": 0.35255853508482393,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 1.4102341403392957
+        }
+      ],
+      "RMS_limitations": "I_CIN_RMS ≈ IOUT*sqrt(D*(1-D)), D≈VOUT/VIN. Ideal continuous-conduction estimate ignores triangular inductor ripple, PSM/PWM transitions, losses, control transients, supply impedance and unequal capacitor current sharing. Nameplate currents are stress examples, not board load budgets. Do not infer per-cap ratings from these estimates."
+    },
+    {
+      "regulator_ref": "U24",
+      "exact_regulator_value": "TPS62826ADMQ",
+      "output_rail_name": "VDD1P1_DDR_IO",
+      "ideal_nominal_output_V": 1.1196,
+      "ideal_output_basis": "0.600V reference with current divider values; actual voltage tolerance not assessed",
+      "divider_or_VSET_refs": [
+        "R207",
+        "R208"
+      ],
+      "baseline_refs": [
+        "C220",
+        "C221"
+      ],
+      "proposed_surviving_refs": [
+        "C220"
+      ],
+      "proposed_removed_refs": [
+        "C221"
+      ],
+      "baseline_nominal_each_uF": 10,
+      "proposed_nominal_each_uF": 22,
+      "proposed_MPN": "CL31B226KPHNNNE",
+      "proposed_rating_V": 10,
+      "proposed_value_string": "22uF 10V X7R CL31B226KPHNNNE CANDIDATE",
+      "proposed_pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      },
+      "local_Ceff_design_floor_uF": 3,
+      "TI_criterion": "minimum-effective-input recommendation for most applications",
+      "illustrative_bank_screen_at5p5V_uF": 6.9246165474929136,
+      "illustrative_margin_percent": 130.82055158309714,
+      "regulator_nameplate_output_current_A": 3,
+      "ideal_CCM_input_capacitor_RMS_screens": [
+        {
+          "VIN_V": 5,
+          "ideal_duty": 0.22391999999999998,
+          "ideal_RMS_current_per_A_output": 0.41686908448576515,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 1.2506072534572954
+        },
+        {
+          "VIN_V": 5.5,
+          "ideal_duty": 0.20356363636363636,
+          "ideal_RMS_current_per_A_output": 0.40264808743374103,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 1.207944262301223
+        }
+      ],
+      "RMS_limitations": "I_CIN_RMS ≈ IOUT*sqrt(D*(1-D)), D≈VOUT/VIN. Ideal continuous-conduction estimate ignores triangular inductor ripple, PSM/PWM transitions, losses, control transients, supply impedance and unequal capacitor current sharing. Nameplate currents are stress examples, not board load budgets. Do not infer per-cap ratings from these estimates."
+    },
+    {
+      "regulator_ref": "U25",
+      "exact_regulator_value": "TPS62825ADMQ",
+      "output_rail_name": "VDD1P8",
+      "ideal_nominal_output_V": 1.7999999999999998,
+      "ideal_output_basis": "0.600V reference with current divider values; actual voltage tolerance not assessed",
+      "divider_or_VSET_refs": [
+        "R210",
+        "R211"
+      ],
+      "baseline_refs": [
+        "C225",
+        "C226"
+      ],
+      "proposed_surviving_refs": [
+        "C225"
+      ],
+      "proposed_removed_refs": [
+        "C226"
+      ],
+      "baseline_nominal_each_uF": 10,
+      "proposed_nominal_each_uF": 22,
+      "proposed_MPN": "CL31B226KPHNNNE",
+      "proposed_rating_V": 10,
+      "proposed_value_string": "22uF 10V X7R CL31B226KPHNNNE CANDIDATE",
+      "proposed_pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      },
+      "local_Ceff_design_floor_uF": 3,
+      "TI_criterion": "minimum-effective-input recommendation for most applications",
+      "illustrative_bank_screen_at5p5V_uF": 6.9246165474929136,
+      "illustrative_margin_percent": 130.82055158309714,
+      "regulator_nameplate_output_current_A": 2,
+      "ideal_CCM_input_capacitor_RMS_screens": [
+        {
+          "VIN_V": 5,
+          "ideal_duty": 0.36,
+          "ideal_RMS_current_per_A_output": 0.48,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 0.96
+        },
+        {
+          "VIN_V": 5.5,
+          "ideal_duty": 0.3272727272727272,
+          "ideal_RMS_current_per_A_output": 0.46921774183868875,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 0.9384354836773775
+        }
+      ],
+      "RMS_limitations": "I_CIN_RMS ≈ IOUT*sqrt(D*(1-D)), D≈VOUT/VIN. Ideal continuous-conduction estimate ignores triangular inductor ripple, PSM/PWM transitions, losses, control transients, supply impedance and unequal capacitor current sharing. Nameplate currents are stress examples, not board load budgets. Do not infer per-cap ratings from these estimates."
+    },
+    {
+      "regulator_ref": "U26",
+      "exact_regulator_value": "TPS62826ADMQ",
+      "output_rail_name": "VDD_3V3",
+      "ideal_nominal_output_V": 3.318,
+      "ideal_output_basis": "0.600V reference with current divider values; actual voltage tolerance not assessed",
+      "divider_or_VSET_refs": [
+        "R213",
+        "R214"
+      ],
+      "baseline_refs": [
+        "C230",
+        "C231"
+      ],
+      "proposed_surviving_refs": [
+        "C230"
+      ],
+      "proposed_removed_refs": [
+        "C231"
+      ],
+      "baseline_nominal_each_uF": 10,
+      "proposed_nominal_each_uF": 22,
+      "proposed_MPN": "CL31B226KPHNNNE",
+      "proposed_rating_V": 10,
+      "proposed_value_string": "22uF 10V X7R CL31B226KPHNNNE CANDIDATE",
+      "proposed_pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      },
+      "local_Ceff_design_floor_uF": 3,
+      "TI_criterion": "minimum-effective-input recommendation for most applications",
+      "illustrative_bank_screen_at5p5V_uF": 6.9246165474929136,
+      "illustrative_margin_percent": 130.82055158309714,
+      "regulator_nameplate_output_current_A": 3,
+      "ideal_CCM_input_capacitor_RMS_screens": [
+        {
+          "VIN_V": 5,
+          "ideal_duty": 0.6636,
+          "ideal_RMS_current_per_A_output": 0.4724775550224582,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 1.4174326650673745
+        },
+        {
+          "VIN_V": 5.5,
+          "ideal_duty": 0.6032727272727273,
+          "ideal_RMS_current_per_A_output": 0.48921850312682663,
+          "ideal_bank_RMS_at_regulator_nameplate_current_A": 1.46765550938048
+        }
+      ],
+      "RMS_limitations": "I_CIN_RMS ≈ IOUT*sqrt(D*(1-D)), D≈VOUT/VIN. Ideal continuous-conduction estimate ignores triangular inductor ripple, PSM/PWM transitions, losses, control transients, supply impedance and unequal capacitor current sharing. Nameplate currents are stress examples, not board load budgets. Do not infer per-cap ratings from these estimates."
+    }
+  ],
+  "removed_refs_if_later_approved": [
+    "C204",
+    "C221",
+    "C226",
+    "C231"
+  ],
+  "value_change_refs_if_later_approved": [
+    "C203",
+    "C210",
+    "C211",
+    "C216",
+    "C217",
+    "C220",
+    "C225",
+    "C230"
+  ],
+  "input_part_count_before": 12,
+  "input_part_count_after": 8,
+  "input_part_count_delta": -4,
+  "input_nominal_sum_before_uF": 120,
+  "input_nominal_sum_after_uF": 176,
+  "input_nominal_sum_delta_uF": 56,
+  "input_nominal_sum_delta_percent": 46.666666666666664,
+  "local100nF_bypass_refs_preserved": [
+    "C205",
+    "C209",
+    "C215",
+    "C222",
+    "C227",
+    "C232"
+  ],
+  "other_components_and_values": "No other changes proposed in this input-only option; output-bank studies are separate.",
+  "reference_choice_basis": "Lower-numbered survivor is an administrative proposal preserving bank identity. Final physical survivor/placement must follow current-loop layout, not reference-number preference.",
+  "not_automatic_adoption": true
+}

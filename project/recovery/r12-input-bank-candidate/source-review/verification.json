@@ -1,0 +1,23 @@
+{
+  "baseline_revision": "R10",
+  "baseline_master_sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+  "source_scope_bridge_R8_R10_pass": true,
+  "scope_ref_count": 28,
+  "extra_local_bypass_scope_count": 6,
+  "curve_HTML_matches_shared_numeric_extract": true,
+  "recomputed_without_archived_screen_value": true,
+  "input_count12_to8_is_plan_only": true,
+  "capacitance_change10_to22_is_plan_only": true,
+  "reference_count_keep8_remove4": true,
+  "body_land_visual_review_pages": [
+    1,
+    33
+  ],
+  "TI_VIN_fall_requirement_visual_review_page": 27,
+  "R10_CAD_tree_unchanged_during_generation": true,
+  "R10_CAD_file_count_checked": 34,
+  "CAD_edits_performed": false,
+  "electrical_qualification_performed": false,
+  "routed_fit_or_assembly_qualification_performed": false,
+  "purchase_outreach_or_Library_action": false
+}

@@ -1,0 +1,12 @@
+{
+  "predecessor_inventory_sha256": "4ca0d7eb76fa5ec918b06b35f046cec87e235588f06372d4703701c69d83a3aa",
+  "current_project_inventory_sha256": "ed8ee1b489be9f44bb254a948d6fa873e6d8fdd47ef3a61d18262b2c70faa335",
+  "published_files_checked": 1417,
+  "published_predecessor_files_unchanged": true,
+  "unchanged_preserved_baseline": true,
+  "native_outputs_confined_to_runtime_copy": true,
+  "documentation_sha256": {
+    "cad/recovery-inputbank-candidate/README.md": "a502c92682ee415dfc9c901cba425dae20823c770a53fab2e67244da681fba52",
+    "recovery/r12-input-bank-candidate/README.md": "1f1ef9e861931b86167ba430045a7498da1eaac74d6240a21bb141e74ad3c162"
+  }
+}

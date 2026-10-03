@@ -1,0 +1,54 @@
+{
+  "status": "PASS_CONDITIONAL_CIRCUIT_CANDIDATE",
+  "baseline_commit": "1e4e2832b2931a4de387179190fd21869681db39",
+  "baseline_preserved_files": 1417,
+  "existing_project_files_unchanged": true,
+  "candidate_components": 250,
+  "candidate_bindings": 1501,
+  "distinct_nets": 457,
+  "changed_values_and_footprints": [
+    "C203",
+    "C210",
+    "C211",
+    "C216",
+    "C217",
+    "C220",
+    "C225",
+    "C230"
+  ],
+  "removed_references": [
+    "C204",
+    "C221",
+    "C226",
+    "C231"
+  ],
+  "preserved_100nF_bypasses": [
+    "C205",
+    "C209",
+    "C215",
+    "C222",
+    "C227",
+    "C232"
+  ],
+  "all_other_values_nets_pin_types_population_preserved": true,
+  "symbol_pin_library_unchanged": true,
+  "assigned": 238,
+  "unassigned": 12,
+  "nominal_input_capacitance_uF": {
+    "baseline": 120,
+    "candidate": 176
+  },
+  "ERC_violations": 0,
+  "generator_reproduces_exact_electrical_contract": true,
+  "negative_controls_rejected": [
+    "removed_ref_reintroduced",
+    "mandatory_100nF_bypass_removed",
+    "survivor_value_not_updated",
+    "wrong_input_footprint",
+    "storage_qualification_populated",
+    "input_cap_moved_to_output_net"
+  ],
+  "preferred_baseline_changed": false,
+  "Ceff_and_full_layout_qualified": false,
+  "production_ready": false
+}

@@ -1,0 +1,135 @@
+{
+  "status": "TYPICAL_DATA_PLUS_EXPLICIT_ASSUMPTIONS__NOT_GUARANTEED",
+  "exact_candidate": "CL31B226KPHNNNE",
+  "nominal_each_uF": 22,
+  "initial_tolerance_percent": 10,
+  "DC_rating_V": 10,
+  "manufacturer_temperature_class": "X7R -55 to +125C",
+  "capacitance_measurement_from_spec": {
+    "frequency_Hz": 120,
+    "frequency_tolerance_percent": 20,
+    "AC_Vrms": 0.5,
+    "AC_tolerance_Vrms": 0.1
+  },
+  "curve_sources": {
+    "DC_bias": {
+      "temperature_C": 25,
+      "frequency_Hz": 120,
+      "AC_Vrms": 0.5,
+      "point_count": 91
+    },
+    "AC": {
+      "temperature_C": 25,
+      "frequency_Hz": 120,
+      "DC_V": 0,
+      "range_Vrms": [
+        0.01,
+        1.79891
+      ],
+      "minimum_delta_percent": -16.2203272427737,
+      "minimum_at_Vrms": 0.0221383125,
+      "at_bias_test_AC0p5Vrms_percent": -0.09425032707043633,
+      "normalized_minimum_retention": 0.8385870986555163
+    },
+    "unbiased_TCC": {
+      "frequency_Hz": 120,
+      "AC_Vrms": 0.35,
+      "DC_V": 0,
+      "minimum_percent": -11.14863864391518,
+      "limitation": "Different AC amplitude from DC-bias curve; cannot substitute for temperature-under-bias behavior."
+    },
+    "biased_TCC": {
+      "frequency_Hz": 120,
+      "AC_Vrms": 0.5,
+      "DC_V": 5,
+      "at25C_percent": -32.00833462917483,
+      "minimum_delta_percent": -43.24994695055376,
+      "minimum_at_C": 125.0,
+      "minimum_retention_relative_to_own25C": 0.8346619065724099,
+      "typical_direct_capacitance_at5V125C_uF": 12.485011670878173,
+      "limitation": "This is combined DC-bias/temperature typical evidence at 5V only. Separate 25C bias values differ slightly; no guaranteed envelope or 5.5V biased-temperature curve is provided."
+    }
+  },
+  "factors": [
+    {
+      "name": "DC-bias retention",
+      "value": "1 + exact typical interpolated bias_percent/100",
+      "status": "Primary numeric typical curve at the specified test conditions; not production minimum."
+    },
+    {
+      "name": "initial tolerance",
+      "value": 0.9,
+      "status": "Manufacturer initial -10% tolerance; multiplication into typical curves is an engineering screen, not combined guarantee."
+    },
+    {
+      "name": "temperature retention",
+      "value": 0.8,
+      "status": "Illustrative allowance lower than the observed 0.83466 worst ratio within the 5V biased-temperature curve. Does not establish a bound at 5.5V, other AC levels, aging or lot corners."
+    },
+    {
+      "name": "AC retention",
+      "value": 0.8385870986555163,
+      "status": "Ratio of separate typical zero-DC AC curve minimum to its 0.5Vrms reference. Validates concern about small ripple, not independence or combined bias/temperature behavior."
+    },
+    {
+      "name": "aging retention",
+      "value": 0.9,
+      "status": "Unqualified 10% scenario allowance. Service lifetime, aging rate and de-aging state not established."
+    },
+    {
+      "name": "model/lot reserve",
+      "value": 0.9,
+      "status": "Unqualified 10% scenario allowance. No statistical or production lower bound."
+    }
+  ],
+  "screen_formula": "N*22uF*(1+DCbias_percent/100)*0.90*0.80*AC_normalized*0.90*0.90",
+  "results": [
+    {
+      "VIN_V": 5,
+      "typical_bias_delta_percent": -31.39620298549229,
+      "interpolation_bracket_V_percent": [
+        [
+          5.0,
+          -31.39620298549229
+        ]
+      ],
+      "typical_one_uF": 15.092835343191698,
+      "after_initial_tolerance0p9_uF": 13.583551808872528,
+      "after_temperature0p8_uF": 10.866841447098023,
+      "after_normalized_typical_AC_uF": 9.112793040671443,
+      "after_aging0p9_uF": 8.2015137366043,
+      "after_model0p9_one_uF": 7.38136236294387,
+      "after_model0p9_pair_uF": 14.76272472588774,
+      "single_margin_to_3uF_percent": 146.045412098129,
+      "pair_margin_to_8uF_percent": 84.53405907359675
+    },
+    {
+      "VIN_V": 5.5,
+      "typical_bias_delta_percent": -35.64128616522201,
+      "interpolation_bracket_V_percent": [
+        [
+          5.4792,
+          -35.46844595244549
+        ],
+        [
+          5.606249999999999,
+          -36.52418388673668
+        ]
+      ],
+      "typical_one_uF": 14.158917043651156,
+      "after_initial_tolerance0p9_uF": 12.74302533928604,
+      "after_temperature0p8_uF": 10.194420271428832,
+      "after_normalized_typical_AC_uF": 8.548909317892486,
+      "after_aging0p9_uF": 7.694018386103237,
+      "after_model0p9_one_uF": 6.9246165474929136,
+      "after_model0p9_pair_uF": 13.849233094985827,
+      "single_margin_to_3uF_percent": 130.82055158309714,
+      "pair_margin_to_8uF_percent": 73.11541368732284
+    }
+  ],
+  "direct5V125C_crosscheck_uF_after_tolerance_AC_aging_model": 7.632462121332489,
+  "crosscheck_limit": "Uses directly combined typical temperature and 5V curve instead of 0.80; AC/aging/model assumptions still apply. Do not use as 5.5V guarantee.",
+  "baseline_10uF_Murata_combined_Ceff_uF": null,
+  "baseline_comparison": "Nominal 2x10uF retained in baseline; exact combined Ceff at 5/5.5V remains unknown. No numerical improvement ratio against baseline actual Ceff can be claimed.",
+  "decision": "Plausible margin-bearing validation candidate under this explicit screen: worst requested endpoint gives 6.925uF single  versus 3 µF, or 13.849 µF pair  versus 8 µF. This does not release any bank."
+}

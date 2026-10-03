@@ -1,0 +1,30 @@
+{
+  "source": "Native KiCad9.0.2 SVG export of the sibling Six_Rail_Power sheet",
+  "source_svg_sha256": "b9d91906e117425e72a427fc7297d8d2f3549b39c737f5e6444366d40998f455",
+  "render_method": "Only SVG root viewport changed for two inspection crops; rasterized with Inkscape. No electrical geometry edited.",
+  "reviewed": "Single CORE input with retained100nF bypass and two CPU inputs with retained100nF bypass are readable and match the declared change.",
+  "images": [
+    {
+      "file": "core-input.png",
+      "sha256": "e81b868665009aa8d194f0ba910b05d9b385c457c4a13e0ac2ce4ca0028be65d",
+      "viewport_mm": [
+        65,
+        45,
+        310,
+        240
+      ]
+    },
+    {
+      "file": "cpu-input.png",
+      "sha256": "69d54a56d70ad128bbdd5626206fb4e0b86d0ae9b9530fb62d3ef4d7e51937b4",
+      "viewport_mm": [
+        420,
+        45,
+        310,
+        240
+      ]
+    }
+  ],
+  "not_GUI_screenshots": true,
+  "not_hardware_or_layout_qualification": true
+}

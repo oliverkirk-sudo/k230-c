@@ -1,0 +1,14 @@
+[
+  {
+    "path": "cad/recovery-inputbank-candidate/master.xml",
+    "original_sha256": "93d9016a99592c522cff3020ce3ebf30572807d4b2712dd8eadfe0f36c116d12",
+    "public_sha256": "2002c824db1fbe745a5c9bd960d7c140c977e7ee032d51b7f58b9a0f61455d65",
+    "change": "Only source/library/report paths normalized. Electrical contract unchanged."
+  },
+  {
+    "path": "recovery/r12-input-bank-candidate/native-checks.json",
+    "original_sha256": "daf9d9f0a026a2de19cb1bd95096787000f2294e3981d37bdba2c5fd2b1fa915",
+    "public_sha256": "e9f5ef3bf00c2ebf670d72fc88440730db26e741a499ac3b472468dc6f0dfdc8",
+    "change": "Only source/library/report paths normalized. Electrical contract unchanged."
+  }
+]

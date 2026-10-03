@@ -1,0 +1,465 @@
+{
+  "old_revision": "R8",
+  "new_decision_baseline": "R10",
+  "old_master_sha256": "bbb9c482b05e066ba6d9ee046218abe1227d5e7918d8ebe4e1a7bcb358256183",
+  "new_master_sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+  "whole_file_equal": false,
+  "scope_refs": [
+    "C203",
+    "C204",
+    "C210",
+    "C211",
+    "C216",
+    "C217",
+    "C220",
+    "C221",
+    "C225",
+    "C226",
+    "C230",
+    "C231",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "R201",
+    "R202",
+    "R205",
+    "R206",
+    "R207",
+    "R208",
+    "R210",
+    "R211",
+    "R213",
+    "R214"
+  ],
+  "scope_count": 28,
+  "scope_fields": [
+    "value",
+    "footprint",
+    "symbol_identity",
+    "pin_nets"
+  ],
+  "scoped_equal": true,
+  "canonical_scoped_hash_R8": "0445a4ceeaff0656002431bf8130904fbfee90a73564482f98bfca4a5a84f7db",
+  "canonical_scoped_hash_R10": "0445a4ceeaff0656002431bf8130904fbfee90a73564482f98bfca4a5a84f7db",
+  "scoped_current_records": {
+    "C203": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C204": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C210": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C211": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C216": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C217": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C220": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C221": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C225": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C226": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C230": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "C231": {
+      "value": "10uF 10V X7R",
+      "footprint": "",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_C",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VIN_5V",
+        "2": "GND"
+      }
+    },
+    "U21": {
+      "value": "TPS62827ADMQ",
+      "footprint": "CMK230_Verified:TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_TPS6282xA_DMQ",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "CORE_ENABLE",
+        "2": "CORE_PGOOD_5V",
+        "3": "FB_CORE",
+        "4": "GND",
+        "5": "SW_CORE",
+        "6": "VIN_5V"
+      }
+    },
+    "U22": {
+      "value": "TPS628640BYCGR",
+      "footprint": "CMK230_Verified:TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_TPS628640B_YCG",
+        "description": ""
+      },
+      "pin_nets": {
+        "A1": "GND",
+        "A2": "VSET_CPU",
+        "A3": "VDD0P8_CPU",
+        "B1": "GND",
+        "B2": "GND",
+        "B3": "GND",
+        "C1": "SW_CPU",
+        "C2": "SW_CPU",
+        "C3": "SW_CPU",
+        "D1": "VIN_5V",
+        "D2": "VIN_5V",
+        "D3": "VIN_5V",
+        "E1": "CORE_PGOOD_5V",
+        "E2": "PWR_CPU_SDA",
+        "E3": "PWR_CPU_SCL"
+      }
+    },
+    "U23": {
+      "value": "TPS628640BYCGR",
+      "footprint": "CMK230_Verified:TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_TPS628640B_YCG",
+        "description": ""
+      },
+      "pin_nets": {
+        "A1": "GND",
+        "A2": "VSET_KPU",
+        "A3": "VDD0P8_KPU",
+        "B1": "GND",
+        "B2": "GND",
+        "B3": "GND",
+        "C1": "SW_KPU",
+        "C2": "SW_KPU",
+        "C3": "SW_KPU",
+        "D1": "VIN_5V",
+        "D2": "VIN_5V",
+        "D3": "VIN_5V",
+        "E1": "CORE_PGOOD_5V",
+        "E2": "PWR_KPU_SDA",
+        "E3": "PWR_KPU_SCL"
+      }
+    },
+    "U24": {
+      "value": "TPS62826ADMQ",
+      "footprint": "CMK230_Verified:TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_TPS6282xA_DMQ",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "CORE_PGOOD_5V",
+        "2": "FIXED_RAILS_PGOOD_3V3",
+        "3": "FB_DDR",
+        "4": "GND",
+        "5": "SW_DDR",
+        "6": "VIN_5V"
+      }
+    },
+    "U25": {
+      "value": "TPS62825ADMQ",
+      "footprint": "CMK230_Verified:TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_TPS6282xA_DMQ",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "CORE_PGOOD_5V",
+        "2": "FIXED_RAILS_PGOOD_3V3",
+        "3": "FB_1V8",
+        "4": "GND",
+        "5": "SW_1V8",
+        "6": "VIN_5V"
+      }
+    },
+    "U26": {
+      "value": "TPS62826ADMQ",
+      "footprint": "CMK230_Verified:TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_TPS6282xA_DMQ",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "CORE_PGOOD_5V",
+        "2": "FIXED_RAILS_PGOOD_3V3",
+        "3": "FB_3V3",
+        "4": "GND",
+        "5": "SW_3V3",
+        "6": "VIN_5V"
+      }
+    },
+    "R201": {
+      "value": "3.32k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_R",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VDD0P8_CORE",
+        "2": "FB_CORE"
+      }
+    },
+    "R202": {
+      "value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_R",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "FB_CORE",
+        "2": "GND"
+      }
+    },
+    "R205": {
+      "value": "56.2k 1% / 0.8V / addr0x49",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_R",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VSET_CPU",
+        "2": "GND"
+      }
+    },
+    "R206": {
+      "value": "56.2k 1% / 0.8V / addr0x49",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_R",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VSET_KPU",
+        "2": "GND"
+      }
+    },
+    "R207": {
+      "value": "8.66k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_R",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VDD1P1_DDR_IO",
+        "2": "FB_DDR"
+      }
+    },
+    "R208": {
+      "value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_R",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "FB_DDR",
+        "2": "GND"
+      }
+    },
+    "R210": {
+      "value": "20k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_R",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VDD1P8",
+        "2": "FB_1V8"
+      }
+    },
+    "R211": {
+      "value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_R",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "FB_1V8",
+        "2": "GND"
+      }
+    },
+    "R213": {
+      "value": "45.3k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_R",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "VDD_3V3",
+        "2": "FB_3V3"
+      }
+    },
+    "R214": {
+      "value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "symbol_identity": {
+        "lib": "Integrated",
+        "part": "Six_Rail_Power_R",
+        "description": ""
+      },
+      "pin_nets": {
+        "1": "FB_3V3",
+        "2": "GND"
+      }
+    }
+  },
+  "preserved_local_bypass_refs": [
+    "C205",
+    "C209",
+    "C215",
+    "C222",
+    "C227",
+    "C232"
+  ],
+  "preserved_local_bypass_equality": true,
+  "evidence_limits": "Only the recorded scope is bridged. Whole master files differ. This is not a claim that R8 and R10 are identical. Pair-to-regulator association also follows unchanged six-rail schematic grouping, not shared-net connectivity alone."
+}

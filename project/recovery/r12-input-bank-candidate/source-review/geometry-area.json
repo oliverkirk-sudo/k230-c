@@ -1,0 +1,122 @@
+{
+  "source": "Exact Samsung spec PDF p1 body, p33 metric3216 +/-0.20mm reflow row; visually checked",
+  "body_LWT_nominal_mm": [
+    3.2,
+    1.6,
+    1.6
+  ],
+  "body_plus_minus_mm": [
+    0.2,
+    0.2,
+    0.2
+  ],
+  "body_maximum_LWT_mm": [
+    3.4,
+    1.8,
+    1.8
+  ],
+  "termination_band_BW_mm": {
+    "nominal": 0.5,
+    "plus_minus": 0.3
+  },
+  "land_mm": {
+    "a_gap": [
+      1.64,
+      1.76
+    ],
+    "b_pad_length": [
+      1.19,
+      1.31
+    ],
+    "c_pad_width": [
+      1.74,
+      1.86
+    ],
+    "outer_span": [
+      4.02,
+      4.38
+    ]
+  },
+  "midpoint_geometry_mm": {
+    "a": 1.7,
+    "b": 1.25,
+    "c": 1.8,
+    "pad_centers": [
+      [
+        -1.475,
+        0
+      ],
+      [
+        1.475,
+        0
+      ]
+    ],
+    "pad_size": [
+      1.25,
+      1.8
+    ],
+    "pad_pitch": 2.95,
+    "copper_envelope": [
+      4.2,
+      1.8
+    ]
+  },
+  "process_parameters_undefined": [
+    "Mask expansion, registration and minimum web",
+    "Paste apertures, reductions and stencil thickness",
+    "Corner radius",
+    "Courtyard and placement clearance",
+    "Assembly yield, flexure/depanelization and input-current-loop placement"
+  ],
+  "baseline_comparison": "Baseline capacitor footprints are unassigned. Comparison uses the source-backed Murata GRM188Z71A106MA73D midpoint option from the separate input-cap review, not an existing qualified footprint.",
+  "baseline_body_max_LWT_mm": [
+    1.8,
+    1.0,
+    1.0
+  ],
+  "baseline_midpoint_copper_envelope_mm": [
+    2.3,
+    0.9
+  ],
+  "max_body_area_sum_baseline12_mm2": 21.6,
+  "max_body_area_sum_option8_mm2": 48.96,
+  "max_body_area_delta_mm2": 27.36,
+  "max_body_height_increase_mm": 0.8,
+  "matched_area_scenarios": [
+    {
+      "illustrative_clearance_each_side_mm": 0.1,
+      "baseline_each_LW_mm": [
+        2.5,
+        1.2
+      ],
+      "option_each_LW_mm": [
+        4.4,
+        2.0
+      ],
+      "baseline12_total_mm2": 36.0,
+      "option8_total_mm2": 70.4,
+      "net_area_delta_mm2": 34.400000000000006,
+      "each_U22_U23_bank_delta_mm2": 11.600000000000001,
+      "each_other_bank_delta_mm2": 2.8000000000000007,
+      "qualifier": "Identical independent q around maximum body and midpoint lands; not manufacturer minimum or routed fit."
+    },
+    {
+      "illustrative_clearance_each_side_mm": 0.25,
+      "baseline_each_LW_mm": [
+        2.8,
+        1.5
+      ],
+      "option_each_LW_mm": [
+        4.7,
+        2.3
+      ],
+      "baseline12_total_mm2": 50.39999999999999,
+      "option8_total_mm2": 86.47999999999999,
+      "net_area_delta_mm2": 36.08,
+      "each_U22_U23_bank_delta_mm2": 13.219999999999999,
+      "each_other_bank_delta_mm2": 2.41,
+      "qualifier": "Identical independent q around maximum body and midpoint lands; not manufacturer minimum or routed fit."
+    }
+  ],
+  "layout_qualification": false
+}

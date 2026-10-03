@@ -1,42 +1,44 @@
 # k230-c
 
-## 当前检查点：R11 九个 22 µF 条件源焊盘
+## 当前检查点：R12 独立输入电容组候选，尚未提升为首选
 
-本版为 C206/C207/C208、C212/C213/C214、C540/C552/C562 增加九个候选封装绑定，覆盖为 **230 个已分配、24 个未分配**。全部 254 个元件值及其他非封装属性、457 个网络、1,509 个引脚/网络/类型/功能绑定、DNP/BOM/on-board 标志保持不变。
+本版新增独立候选电路 `project/cad/recovery-inputbank-candidate/CMK230_Core_REVIEW.kicad_pro`，版本 RCV-INBANK-R12。**原首选/比较基线 `project/cad/recovery-physical-candidate/` 及全部 1,417 个 R11 工程文件保持字节不变；本候选未获提升。** 根说明文件保持 `哦READ.MD`。
 
-当前工程入口为 `project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_pro`，电路版本 RCV-R11。保持 `project/` 内相对目录；根说明文件为 `哦READ.MD`。
+两者必须区分：R11 基线为 254 个元件、1,509 个绑定、230 个封装已分配/24 个缺口；R12 候选为 250 个元件、1,501 个绑定、238 个封装已分配/12 个缺口。两者均为 457 个网络，均无完整核心板布局布线或生产资格。
 
-## 本版范围与验证
+## 候选的精确电气修订
 
-- C206–C208 保持 CPU 输出电容组；C212–C214 保持 KPU 输出组。C540/C552 保持 VDD1P1_DDR_IO 上各自 DRAM VDD2/VDDQ 局部作用；C562 保持 VDD1P8 上 VDD1 局部去耦。相同封装不合并这些物理和电气职责
-- 候选为 Samsung CL31B226KPHNNNE：名义 22 µF、±10%、10 V、X7R、1206。采用适用的厂商 metric 3216±0.20 mm 回流行，未更改任何名义值
-- 铜为两块 1.25 × 1.80 mm 矩形，中心 x=±1.475 mm，内隙 1.70 mm、外跨度 4.20 mm。该选择位于厂商范围内，属于工程中点而不是唯一规定图案
-- 最大本体 3.40 × 1.80 mm、最大高度 1.80 mm；阻焊扩张 +0.05 mm、独立 1:1 锡膏仍为工程假设
-- 4.85 × 2.45 mm courtyard 的线宽为 0.05 mm，已核验名义阻焊外包络到 courtyard 线内缘四边均为 0.25 mm；这不是厂商 courtyard 或工厂装配批准
-- 独立 77 项检查通过：完整原理图与生成器变更范围、库归属、元件属性/网络、来源文件、几何、已保存/新原生 CAM 和源不可变性均已核验
-- 新 KiCad 9.0.2 ERC 为 0；20 × 13 mm 六层单封装孤立夹具 DRC 规则违规与未连接项均为 0，铜/阻焊/锡膏各两个闪孔
-- 六个独立负控通过，包括 CPU/KPU/DRAM 电源节点混接、courtyard 实际余量不足，以及 0.05 mm 铜间隙违反 0.20 mm 规则的原生 DRC 拒绝
+- C203/C210/C211/C216/C217/C220/C225/C230 八个输入位置改为 22 µF CL31B226KPHNNNE 候选值及已审查的 R11 源封装，pin 1 保持 VIN_5V、pin 2 保持 GND
+- 仅移除 C204/C221/C226/C231。U22/U23 各保留两个局部大容量输入电容；U21/U24/U25/U26 各一个
+- C205/C209/C215/C222/C227/C232 六个 100 nF 局部旁路的值、封装和连接保持不变
+- 所有其他元件属性、网络/引脚功能/电气类型、库、原生装配状态和 no-connect 保持前版契约；JP1/R45/R47/R528 仍为 DNP，26 个来源声明仍为非 BOM/非板上元件
+- 候选生成器在独立运行目录中重建相同的电气、装配、符号库与引脚 CSV 契约。新导出和重新生成后的 ERC 均为 0
+- 16 个独立负控均拒绝，包括实际原理图错接输入网络、装上 R528，以及生成器漏掉保留电容后再经 KiCad 导出的错误
 
-详细清单、来源 URL/哈希、原生结果和独立审查见 `project/recovery/r11-22uf-source-lands/`。源清单与原始增量 ZIP 身份记录在 `PUBLICATION_PROVENANCE.json`。
+## 电容量、启动和面积代价
 
-## 保留的电气与工艺门槛
+来源典型曲线与明确假设的筛查给出 5.5 V 下约 6.9246 µF/颗、13.8492 µF/对。初始容差、AC 响应、温度、老化与模型余量分别记录。**这些分离的典型曲线与示例余量不建立组合保证下限或寿命资格**；3 µF/8 µF 输入设计条件尚需实际条件核验。
 
-CPU/KPU 每组输出电容仍保留已采用的 30 µF 有效电容量设计条件。分配 22 µF 名义器件不能建立组合偏压/热/老化后的 Ceff 或转换器稳定性；DRAM 局部电容仍有各自的分配、位置、回流与 PDN 责任，不能自动计入远端稳压器电容量。
+名义输入大容量总值由 **120 µF 增至 176 µF**，六个 100 nF 旁路不计入这两个总数。充电/浪涌、源阻抗、VIN 振铃、RMS 电流和纹波热必须复核。TPS628640B 在 UVLO 以下的 VIN 下降速率要求仍是明确集成门槛，Ceff 筛查有利不代表已满足。
 
-并行来源审查中的 47 µF 方案没有适用的精确 ±0.40 mm 长度回流行，其工程提案仍未选择、未绑定；FLOW 表没有替代回流推荐。输入电容组数量/值方案也未应用。
+在相同假设下比较的来源占位增加约 **34.40–36.08 mm²**，即使元件数减少。实际选用的八个 4.85 × 2.45 mm courtyard 中心线矩形总面积是 **95.06 mm²**；计入 0.05 mm 线宽的外包络是 **98.00 mm²**。三种面积指标不同，均不证明 38 mm 板上可放下、回路质量、访问空间或布线可行性。
 
-阻焊、锡膏、courtyard、放置/蚀刻/对位/钢网容差、转移效率和可靠性仍须工厂验证。孤立诊断网络和六层设置不代表完整 38 × 38 mm 核心板、已批准叠层或布线完成。
+## 来源、可视检查与边界
 
-R10 的 DNP 锡膏派生策略继续保留；主设计变更后须重新核验适用输入和派生结果，尚未完成整板应用或钢网工艺资格。R528 保持 DNP，默认存储资格仍受禁止。前版 eMMC 有效电容量、磁珠热/偏置滤波、时钟和启动等门槛继续有效。
+详细证据见 `project/recovery/r12-input-bank-candidate/`。来源审查最初绑定 R10；明确的 R10→R11 范围桥接独立核验 34 个输入/稳压器/分压/旁路位置不变，不宣称整个 master 哈希相同。
 
-24 个封装缺口为 12 个输入电容、4 个 47 µF 输出电容、4 个振荡器负载电容、C815、2 个振荡器反馈电阻和 RTC 晶体。仍须完成 38 × 38 mm/140 触点/1 mm 间距/恰好六铜层/仅顶面贴装的完整布局布线，以及 DDR/PDN、启动、时钟、采购、热/电实测和 DFM 验证。
+两张 PNG 为本项目原生 KiCad SVG 的裁切渲染，已检查像素和来源：CORE 单输入与 CPU 双输入均保留局部 100 nF 旁路。它们不是厂商页面或 GUI 截图，也不证明硬件与布局资格。
+
+候选剩余 12 个封装缺口为 C41–C44、R41/R42、Y1、C201/C218/C223/C228 与 C815。组合 Ceff、VIN 下降、启动/瞬态、电流/热、稳定性、PDN、47 µF 焊盘、RTC 精度/启动、存储 BootROM/OTP、内存采购及整板工艺仍未关闭。R10 锡膏策略须针对实际最终板和装配输入重新核验。
+
+完整设计仍受 38 × 38 mm、140 触点、1 mm 间距、恰好六铜层和仅顶面贴装约束。本候选尚未取代保留的首选基线，也不是制造发布。
 
 ## 历史与完整性
 
-本版继承 R10 提交 `05b3254a3c19f15cf78588ed8095e06ab68f32da`。50 个工程变更文件及清单保持最终公开源字节；来源审查原先缺失的脚本已恢复并通过清单哈希检查。报告路径已规范化，新 SVG 与诊断 Gerber 为本项目原生导出。厂商原件、内部笔记和运行时文件不上传，必要的上游 MIT 版权许可声明保留。
+本版继承 R11 提交 `1e4e2832b2931a4de387179190fd21869681db39`。61 个新增工程文件及清单保持最终公开源字节；所有既有工程文件未改动。报告路径已规范化；厂商原件、内部笔记与运行时文件不上传，必要的上游 MIT 版权许可声明保留。
 
-当前文件完整性以 `SHA256SUMS` 为准；逐版来源、排除项和检查点记录见 `PUBLICATION_PROVENANCE.json`。历史报告按其输入哈希和限定范围解读。
+当前文件完整性以 `SHA256SUMS` 为准；逐版来源、排除项和检查点记录见 `PUBLICATION_PROVENANCE.json`。历史报告按输入哈希与范围解读；候选目录内继承的 PHYSICAL_STAGE.md 仅是历史上下文。
 
 ## English summary
 
-R11 adds nine conditional 22 µF source-land assignments, reaching 230 assigned / 24 gaps. Values, complete electrical bindings and population flags remain unchanged. All 77 independent checks, fresh ERC, isolated fixture DRC and six negative controls pass. The 0.25 mm mask-to-courtyard clearance includes the stroke's inner edge. The 47 µF proposal and input-bank changes remain unapplied. Combined effective capacitance, full-board placement/routing and manufacturing qualification remain open.
+R12 adds an unpromoted sibling input-bank circuit: eight value/footprint changes and four removals, yielding 250 components / 1501 bindings / 238 assigned footprints / 12 gaps. The preferred R11 baseline and all 1417 prior project files remain unchanged. Fresh and regenerated ERC pass with 16 negative rejections. Nominal input bulk rises 120→176 µF; combined guaranteed Ceff, inrush/falling VIN and the 34.40–36.08 mm² matched-area cost remain explicit gates. Full-board fit, routing and manufacturing are unqualified.
