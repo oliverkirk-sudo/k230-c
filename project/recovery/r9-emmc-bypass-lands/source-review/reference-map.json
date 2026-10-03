@@ -1,0 +1,169 @@
+{
+  "input_netlist": "project/cad/recovery-physical-candidate/master.xml",
+  "input_netlist_sha256": "da6a33fa5ccc36897785d1b443d49979f0a37690e5fd8da6ff8ad566f3e59ec9",
+  "selected_emmc": "MTFC16GAPALBH-AAT",
+  "references": [
+    {
+      "ref": "C64",
+      "existing_value_preserved": "2.2uF Micron CReg 1-4.7uF REF",
+      "existing_footprint": "",
+      "actual_nets": {
+        "1": "EMMC_VDDIM",
+        "2": "GND"
+      },
+      "micron_table13_symbol": "C5",
+      "rail_role": "VDDIM/CReg",
+      "table13_min_max_typ_uF": [
+        1,
+        4.7,
+        1
+      ],
+      "candidate_mpn": "GRM188R71A225KE15D",
+      "candidate_jlc_part": "C86018",
+      "candidate_nominal_uF": 2.2
+    },
+    {
+      "ref": "C65",
+      "existing_value_preserved": "100nF Micron CReg REF",
+      "existing_footprint": "",
+      "actual_nets": {
+        "1": "EMMC_VDDIM",
+        "2": "GND"
+      },
+      "micron_table13_symbol": "C6",
+      "rail_role": "VDDIM/CReg",
+      "table13_min_max_typ_uF": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "candidate_mpn": "GRM155R71C104KA88D",
+      "candidate_jlc_part": "C71629",
+      "candidate_nominal_uF": 0.1
+    },
+    {
+      "ref": "C69",
+      "existing_value_preserved": "2.2uF Micron VCCQ Table13 REF",
+      "existing_footprint": "",
+      "actual_nets": {
+        "2": "GND",
+        "1": "VEMMC_IO"
+      },
+      "micron_table13_symbol": "C1",
+      "rail_role": "VCCQ",
+      "table13_min_max_typ_uF": [
+        2.2,
+        4.7,
+        2.2
+      ],
+      "candidate_mpn": "GRM188R71A225KE15D",
+      "candidate_jlc_part": "C86018",
+      "candidate_nominal_uF": 2.2
+    },
+    {
+      "ref": "C70",
+      "existing_value_preserved": "100nF Micron VCCQ REF",
+      "existing_footprint": "",
+      "actual_nets": {
+        "2": "GND",
+        "1": "VEMMC_IO"
+      },
+      "micron_table13_symbol": "C2",
+      "rail_role": "VCCQ",
+      "table13_min_max_typ_uF": [
+        0.1,
+        0.22,
+        0.1
+      ],
+      "candidate_mpn": "GRM155R71C104KA88D",
+      "candidate_jlc_part": "C71629",
+      "candidate_nominal_uF": 0.1
+    },
+    {
+      "ref": "C71",
+      "existing_value_preserved": "2.2uF Micron VCC Table13 REF",
+      "existing_footprint": "",
+      "actual_nets": {
+        "2": "GND",
+        "1": "VDD_3V3"
+      },
+      "micron_table13_symbol": "C3",
+      "rail_role": "VCC",
+      "table13_min_max_typ_uF": [
+        2.2,
+        4.7,
+        2.2
+      ],
+      "candidate_mpn": "GRM188R71A225KE15D",
+      "candidate_jlc_part": "C86018",
+      "candidate_nominal_uF": 2.2
+    },
+    {
+      "ref": "C72",
+      "existing_value_preserved": "100nF Micron VCC REF",
+      "existing_footprint": "",
+      "actual_nets": {
+        "2": "GND",
+        "1": "VDD_3V3"
+      },
+      "micron_table13_symbol": "C4",
+      "rail_role": "VCC",
+      "table13_min_max_typ_uF": [
+        0.1,
+        0.22,
+        0.1
+      ],
+      "candidate_mpn": "GRM155R71C104KA88D",
+      "candidate_jlc_part": "C71629",
+      "candidate_nominal_uF": 0.1
+    }
+  ],
+  "rail_evidence": {
+    "VDDIM": {
+      "device_ball": "U3.C2",
+      "net": "EMMC_VDDIM",
+      "voltage_range": "Not specified in the reviewed source; do not assign VCCQ voltage to this internal node"
+    },
+    "VCCQ": {
+      "balls": [
+        "C6",
+        "M4",
+        "N4",
+        "P3",
+        "P5"
+      ],
+      "net": "VEMMC_IO",
+      "feed": "R561 pin 1 = VDD1P8; R561 pin 2 = VEMMC_IO; 0 ohm candidate",
+      "device_valid_ranges_V": [
+        [
+          1.7,
+          1.95
+        ],
+        [
+          2.7,
+          3.6
+        ]
+      ],
+      "present_design_nominal_V": 1.8,
+      "design_envelope_for_review_V": [
+        1.7,
+        1.95
+      ]
+    },
+    "VCC": {
+      "balls": [
+        "E6",
+        "F5",
+        "J10",
+        "K9"
+      ],
+      "net": "VDD_3V3",
+      "device_valid_range_V": [
+        2.7,
+        3.6
+      ],
+      "present_design_nominal_V": 3.3
+    },
+    "all_cap_pin2": "GND, also connected to U3 VSS and VSSQ"
+  }
+}

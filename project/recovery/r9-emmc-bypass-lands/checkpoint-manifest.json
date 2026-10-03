@@ -1,0 +1,319 @@
+{
+  "revision": "R9",
+  "base_commit": "f5181cb06de490fb23de0e79c619210a664b3212",
+  "files": [
+    {
+      "path": "cad/recovery-emmc-bypass-candidates/CMK230_EMMC_Bypass_Candidates.pretty/Murata_GRM155R71C104_ReflowMid_SOURCE_CANDIDATE.kicad_mod",
+      "bytes": 1066,
+      "sha256": "7b0643a1bbbf1afebbf5735254b9faa357e783235dd5996815ca04822b82b3d6",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-emmc-bypass-candidates/CMK230_EMMC_Bypass_Candidates.pretty/Murata_GRM188R71A225_ReflowMid_SOURCE_CANDIDATE.kicad_mod",
+      "bytes": 1076,
+      "sha256": "e49b8803efa4a15ef3b6abd0e2a238845e1c9002248b67dcbd813fab67df8a78",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-physical-candidate/11_DDR_USB_MIPI_Bias.kicad_sch",
+      "bytes": 33126,
+      "sha256": "9e6c818672abaa71d974e9e4db49b10b6b680170831b09f8d84dc16005e7d827",
+      "old_sha256": "96d57afdef0c658d262a73da853bc29cb0b60df2bc5d33677efe174928500c3c"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch",
+      "bytes": 8895,
+      "sha256": "abda490f3cb63049143dade5e6254f0f1af42707e9610d081f683ad37b28154c",
+      "old_sha256": "595e5ba3e699592f981fd12716df905c60a2504811a317ae4800de631a0607b1"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/README.md",
+      "bytes": 3064,
+      "sha256": "8357e426f8d6c4dd4fc376a02af50913f8d4f3c35af24136bd5736199b44ff5f",
+      "old_sha256": "9ba3918885a886f4156e523884c00b7f48eac9864aa45db945880d0072493344"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/build_review.py",
+      "bytes": 35171,
+      "sha256": "1a8a115d20b30dd0cbda3bf818670515c281ead0d325026c5b02ccb3834ae268",
+      "old_sha256": "37b3d3c8d807e3b8bc5f4fb0e3962ba16a31978c051d9629a44c3713f48ebb68"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/erc.json",
+      "bytes": 3656,
+      "sha256": "01d3debd156dea50e210fcb08f7be59db9b98dd4150157cedc410d58909ad760",
+      "old_sha256": "a9377da51f8a9ccc0072bc558796f1e86b794e77d4d686ecd44978c6f012188a"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/fp-lib-table",
+      "bytes": 4015,
+      "sha256": "d80671b937dde642f43bb5b70a178bda1489f5fecb0e65f857c90fe9dcb82769",
+      "old_sha256": "360ea5881bfff8b70407f506e3e5e223309b3b836bbafe9ac6c8889794dd81bc"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/master.xml",
+      "bytes": 407609,
+      "sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+      "old_sha256": "bbb9c482b05e066ba6d9ee046218abe1227d5e7918d8ebe4e1a7bcb358256183"
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/EMMC_BYPASS_LANDS_GEOMETRY_ONLY.kicad_pcb",
+      "bytes": 7167,
+      "sha256": "cd34d011262e3359cebc2aeea68ff347e8fbf7ba36291f96c5208dab2a6da79f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/EMMC_BYPASS_LANDS_GEOMETRY_ONLY.kicad_pro",
+      "bytes": 222,
+      "sha256": "ecee4997f457037b6a1b74fe8722c5e2597a1149dfcd73822deb9115315dc622",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/README.md",
+      "bytes": 3998,
+      "sha256": "fa045faf6739ceb7a89f748bf0bea7e50694490891254a014a48672cfc31318f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/assignments.json",
+      "bytes": 543,
+      "sha256": "8436b800e0617812b9c09a57b3a42000dc8814adcd1db05f5d1bf66ac60c24e0",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/bypass-copper.svg",
+      "bytes": 3575,
+      "sha256": "1df901616148e3497198d2cb9fb977f15616e831cc28c84139888d67b68f62f8",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/fixture-drc.json",
+      "bytes": 297,
+      "sha256": "931897393b4bc122e276a368d6a424feabadf75b34fc9d3393a938c963cf86b2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/fp-lib-table",
+      "bytes": 225,
+      "sha256": "2a797451f134ed8f5661d6fb44525468f5549ce0191afd32ccc45fff9a3c3e10",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/NEGATIVE_ACTUAL_CLEARANCE_010.kicad_pcb",
+      "bytes": 7167,
+      "sha256": "6bb132fae4ddf671629699bf7c7aa8b97a21befe6c80511abbc18241b29e2b43",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/NEGATIVE_ACTUAL_CLEARANCE_010.kicad_pro",
+      "bytes": 222,
+      "sha256": "ecee4997f457037b6a1b74fe8722c5e2597a1149dfcd73822deb9115315dc622",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/README.md",
+      "bytes": 4633,
+      "sha256": "f0c345c721c95e27dc5b447ce32ce4b4b863d6e8983d66aebb08ddc433348645",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/artifact-sha256.json",
+      "bytes": 1744,
+      "sha256": "ecd52c7e1c2462ef74a5173cc050a071bf7f2608f5ede03939b64322907cef98",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/cam-verification.json",
+      "bytes": 1340,
+      "sha256": "b73ff742c0e1bac29dc5db160fe48f60cb840353fe8545af2253e24bfba7b0f2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/footprint-geometry.json",
+      "bytes": 1125,
+      "sha256": "38a5473a8ceb03e27d09b329452366e2c13134f5dfee4d8dff7d03e881cc197f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/fresh-erc.json",
+      "bytes": 3656,
+      "sha256": "af458584dca0f14c6ccd5b5016b5bf1b064b42971817119ddc517651f467e6d2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/fresh-fixture-drc.json",
+      "bytes": 297,
+      "sha256": "87990f21807a4ac5356542ecc3e1e9000b7afd014999faa35d037f7f5f38ea7e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/fresh-master.xml",
+      "bytes": 407635,
+      "sha256": "353353b94e0005dfd4dc0dd03ff18f138a51d22881d4c8cd8a72b269af521639",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/independent-review.json",
+      "bytes": 1513,
+      "sha256": "df3cd13d9736beb781502ac539d6c96414a8d36e0da7e8dca57f27997761e137",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/input-cad-sha256.json",
+      "bytes": 3353,
+      "sha256": "45c9b9be10cd62413e82d86ff8d5b6bf7855061a62984064597832e1845a7ed1",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/native-cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Cu.gtl",
+      "bytes": 848,
+      "sha256": "7b30b54f06b5cf10fa1515bf83513accca30db4631b9102aea8832e49cc48b3f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/native-cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Mask.gts",
+      "bytes": 1384,
+      "sha256": "bf9ac889ec1c74ebfe3ffcfb556686d8c24c1541623a8fd9c41ed77d509351c7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/native-cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Paste.gtp",
+      "bytes": 680,
+      "sha256": "d6d7148180edc2660bd7d91208d772dadb9513aa170b365dec5e98d43bc59785",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/native-command-log.json",
+      "bytes": 2468,
+      "sha256": "a6165ae264044957f7d05372a55c34e029f2f3ae1d55758a862bbfbae536dada",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/negative-clearance-drc.json",
+      "bytes": 1682,
+      "sha256": "0d4db321dbb6f9dfe4f7a147a216e2fe73e237c2d50b9af9b36d62fb4fdea921",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/population-states.json",
+      "bytes": 22187,
+      "sha256": "598b62b4faaa2539ba5b8ab838eafd94b4280eea2cf7aeb452e513c432bec92b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/independent/validate_r9_independent.py",
+      "bytes": 18925,
+      "sha256": "cb260b0af6478c2af7986d967b3df97d76facceca0d293f3bf7e5e9118f1608a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/native-cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Cu.gtl",
+      "bytes": 848,
+      "sha256": "e335edb8116f303366077cbd806026f39ac8dfffa2728405f0931859df1a6a60",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/native-cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Mask.gts",
+      "bytes": 1384,
+      "sha256": "3c8c8c57cf2f86dce28a9b1a751c6603f175ef6b8ab576096d0bb4591fa2024b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/native-cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Paste.gtp",
+      "bytes": 680,
+      "sha256": "a2e7dda43f499f56cfcd4a9d834f72fd643a1d00b84be6eff02259454a5104cd",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/native-cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-job.gbrjob",
+      "bytes": 3178,
+      "sha256": "fd51a01d0bddfed4543ee498c13f3f263fa0c71148e7f9f365f2a8e5d1f46712",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/native-checks.json",
+      "bytes": 1678,
+      "sha256": "e3f4a70ef71563695074094455e5b8c38d92f855ce4702287f729462c009a937",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/public-path-normalization.json",
+      "bytes": 689,
+      "sha256": "cc42e5336edbcf615c339fc96993be1904d5dca790f2b26a73bd2818c0c83b7f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/remaining-inventory.json",
+      "bytes": 1962,
+      "sha256": "d13307f726b8c50e2d9ef116cb48c4856700acf656f69a983b100379566f92a2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/source-review/README.md",
+      "bytes": 8293,
+      "sha256": "a375ba548733fb40018d53ae325f63b8a40b33951126905221b66d888d8da1ee",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/source-review/artifact-sha256.json",
+      "bytes": 762,
+      "sha256": "7ddaa6ee6b07183fbd2d840c1fc52ed426bfd6526ce5fed40900490bf6eb4d0a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/source-review/conditional-contract.json",
+      "bytes": 3475,
+      "sha256": "701d6d232d0f88dc42f5a21977a6d270796c4e04d4eaecf0e860d8630b55b84e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/source-review/exact-part-candidates.json",
+      "bytes": 1313,
+      "sha256": "81f7f5fa0102e43c4fc1d7d04456db3470d0d5fa483977adb74ef9c66e9af679",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/source-review/footprint-geometry.json",
+      "bytes": 2030,
+      "sha256": "24978b33d653efb5e2b4c238bd84c39f8395f3505190db9b27a1a64249aacb68",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/source-review/procurement-observations.json",
+      "bytes": 3318,
+      "sha256": "6a6902830e0df16c9f90496319425ad9ff8f16ded28f70a24844d17f26309188",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/source-review/reference-map.json",
+      "bytes": 4017,
+      "sha256": "6eae953e1b90140ae872ecbb435e4ac1664c5759e2e9ec668d1c79656b8b95c4",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/source-review/source-manifest.json",
+      "bytes": 2086,
+      "sha256": "b13960ee8f8cfc7a0cb871da2e3c7409d892d6bf0c6b4ea1ca68430cb59812ae",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/source-review/verification.json",
+      "bytes": 784,
+      "sha256": "b9699640386a7119ed1c8c4c391f53d30fce8da21e6cef604cb55565bd754cad",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/validate_coverage.py",
+      "bytes": 5652,
+      "sha256": "87f5ebe198b69e082728c0691374fe68aae883b531e404399a1e1c2611954cbc",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r9-emmc-bypass-lands/validation.json",
+      "bytes": 742,
+      "sha256": "bb3574463fd1a645a3c5b9a9aa3b99a714db7ee8f32342f4988a53493110b9f2",
+      "old_sha256": null
+    }
+  ],
+  "limits": "Conditional eMMC bypass geometry only; effective capacitance and complete core layout unqualified."
+}

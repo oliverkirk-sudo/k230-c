@@ -1,0 +1,48 @@
+{
+  "assigned": 221,
+  "bindings": 1509,
+  "bom_identical": true,
+  "checked_at_UTC": "2026-10-03T06:32:55.502857+00:00",
+  "components": 254,
+  "distinct_nets": 457,
+  "footprint_changes": [
+    "C64",
+    "C65",
+    "C69",
+    "C70",
+    "C71",
+    "C72"
+  ],
+  "gaps": 33,
+  "input_cad_unchanged": true,
+  "input_paths": {
+    "baseline": "${BASELINE}",
+    "candidate": "${CANDIDATE}"
+  },
+  "native": {
+    "ERC_violations": 0,
+    "fixture_DRC_violations": 0,
+    "fixture_unconnected": 0,
+    "kicad_version": "9.0.2",
+    "negative_clearance_DRC_returncode": 5,
+    "negative_clearance_violations": 1
+  },
+  "negative_controls": {
+    "C64_rail_mixup_rejected": true,
+    "C65_property_change_rejected": true,
+    "C69_rail_mixup_rejected": true,
+    "C69_value_change_rejected": true,
+    "C71_rail_mixup_rejected": true,
+    "actual_0p10mm_clearance_rejected_by_0p20mm_rule": true,
+    "wrong_copper_size_rejected": true
+  },
+  "scope_limits": [
+    "isolated geometry fixture, not module placement",
+    "no effective-capacitance or combined hot/bias/aging qualification",
+    "no thermal or mechanical fit proof",
+    "mask, paste and courtyard are unqualified choices",
+    "JLC MOQ1 remains unverified"
+  ],
+  "source_range_and_body_applicability": "Verified against the prior manufacturer-authored exact-part review: GRM188 L/W tolerance +/-0.1mm; GRM155 +/-0.05mm, both within the +/-0.10mm reflow rows. Max body outlines cover package tolerances.",
+  "status": "PASS bounded independent audit"
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "ref": "C41",
+    "value": "12pF REF / TUNE"
+  },
+  {
+    "ref": "C42",
+    "value": "12pF REF / TUNE"
+  },
+  {
+    "ref": "C43",
+    "value": "12pF REF / TUNE"
+  },
+  {
+    "ref": "C44",
+    "value": "12pF REF / TUNE"
+  },
+  {
+    "ref": "R41",
+    "value": "1M REF"
+  },
+  {
+    "ref": "R42",
+    "value": "1M REF"
+  },
+  {
+    "ref": "Y1",
+    "value": "32.768kHz / MPN TBD"
+  },
+  {
+    "ref": "C201",
+    "value": "47uF X7R / Ceff>=10uF"
+  },
+  {
+    "ref": "C203",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C204",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C206",
+    "value": "22uF X7R / total Ceff>=30uF"
+  },
+  {
+    "ref": "C207",
+    "value": "22uF X7R / total Ceff>=30uF"
+  },
+  {
+    "ref": "C208",
+    "value": "22uF X7R / total Ceff>=30uF"
+  },
+  {
+    "ref": "C210",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C211",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C212",
+    "value": "22uF X7R / total Ceff>=30uF"
+  },
+  {
+    "ref": "C213",
+    "value": "22uF X7R / total Ceff>=30uF"
+  },
+  {
+    "ref": "C214",
+    "value": "22uF X7R / total Ceff>=30uF"
+  },
+  {
+    "ref": "C216",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C217",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C218",
+    "value": "47uF X7R / Ceff>=10uF"
+  },
+  {
+    "ref": "C220",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C221",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C223",
+    "value": "47uF X7R / Ceff>=10uF"
+  },
+  {
+    "ref": "C225",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C226",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C228",
+    "value": "47uF X7R / Ceff>=10uF"
+  },
+  {
+    "ref": "C230",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C231",
+    "value": "10uF 10V X7R"
+  },
+  {
+    "ref": "C540",
+    "value": "22uF"
+  },
+  {
+    "ref": "C552",
+    "value": "22uF"
+  },
+  {
+    "ref": "C562",
+    "value": "22uF"
+  },
+  {
+    "ref": "C815",
+    "value": "1uF X5R/X7R ESR<0.5Ohm"
+  }
+]

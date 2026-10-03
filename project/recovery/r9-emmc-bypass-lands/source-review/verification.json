@@ -1,0 +1,26 @@
+{
+  "checked_at_UTC": "2026-10-03T06:16:00Z",
+  "checks": {
+    "six_references_only": true,
+    "all_footprints_initially_unassigned": true,
+    "nominals_preserved": true,
+    "all_pin2_ground": true,
+    "netlist_hash_unchanged_since_extraction": true,
+    "candidate_lands_within_source_ranges": true,
+    "land_arithmetic": true,
+    "no_vendor_files_in_public_review": true
+  },
+  "overall": "PASS bounded source/net/geometry consistency only",
+  "not_proven": [
+    "combined effective capacitance",
+    "Table13 nominal/effective interpretation",
+    "JLC MOQ1",
+    "current manufacturer approval/lifecycle",
+    "placement or board fit",
+    "assembly process",
+    "thermal margin",
+    "power integrity"
+  ],
+  "CAD_modified": false,
+  "procurement_action_taken": false
+}

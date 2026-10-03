@@ -1,0 +1,32 @@
+[
+  {
+    "args": "sch export netlist --format kicadxml -o ${RUNTIME}/fresh-master.xml ${CANDIDATE}/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch",
+    "returncode": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  {
+    "args": "sch erc --format json --severity-all -o ${RUNTIME}/erc.json ${CANDIDATE}/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch",
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "You have run CvPcb for the first time using the new footprint library table method for finding footprints.\nCvPcb has either copied the default table or created an empty table in your home folder.\nYou must first configure the library table to include all footprint libraries not included with KiCad.\nSee the \u201cFootprint Library Table\u201d section of the CvPcb documentation for more information. Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking for off grid pins and wires...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to ${RUNTIME}/erc.json\n"
+  },
+  {
+    "args": "pcb drc --format json --severity-all --exit-code-violations -o ${RUNTIME}/fixture-drc.json ${RUNTIME}/EMMC_BYPASS_LANDS_GEOMETRY_ONLY.kicad_pcb",
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to ${RUNTIME}/fixture-drc.json\n"
+  },
+  {
+    "args": "pcb export gerbers --layers F.Cu,F.Paste,F.Mask -o ${RUNTIME}/cam/ ${RUNTIME}/EMMC_BYPASS_LANDS_GEOMETRY_ONLY.kicad_pcb",
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "Plotted to '${RUNTIME}/cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Cu.gtl'.\nPlotted to '${RUNTIME}/cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Paste.gtp'.\nPlotted to '${RUNTIME}/cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Mask.gts'.\n"
+  },
+  {
+    "args": "pcb drc --format json --severity-all --exit-code-violations -o ${RUNTIME}/negative-clearance-drc.json ${RUNTIME}/NEGATIVE_ACTUAL_CLEARANCE_010.kicad_pcb",
+    "returncode": 5,
+    "stderr": "",
+    "stdout": "Found 2 violations\nFound 0 unconnected items\nSaved DRC Report to ${RUNTIME}/negative-clearance-drc.json\n"
+  }
+]

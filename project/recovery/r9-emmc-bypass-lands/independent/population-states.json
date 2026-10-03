@@ -1,0 +1,1277 @@
+{
+  "allowed_noncomponent_change": "Root title revision RCV-R8 to RCV-R9",
+  "files_compared": 18,
+  "physical_component_references": 254,
+  "states": {
+    "C201": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C202": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C203": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C204": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C205": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C206": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C207": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C208": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C209": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C210": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C211": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C212": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C213": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C214": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C215": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C216": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C217": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C218": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C219": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C220": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C221": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C222": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C223": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C224": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C225": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C226": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C227": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C228": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C229": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C230": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C231": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C232": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C233": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C234": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C235": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C236": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C237": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C238": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C239": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C240": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C241": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C242": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C243": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C244": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C245": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C246": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C31": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C32": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C33": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C34": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C41": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C42": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C43": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C44": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C45": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C501": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C502": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C503": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C504": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C505": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C506": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C507": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C508": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C509": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C510": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C511": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C512": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C513": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C514": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C515": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C516": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C517": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C518": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C519": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C520": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C521": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C522": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C523": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C524": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C525": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C526": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C527": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C528": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C529": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C530": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C531": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C532": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C533": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C534": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C535": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C536": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C537": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C538": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C539": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C540": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C541": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C542": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C543": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C544": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C545": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C546": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C547": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C548": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C549": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C550": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C551": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C552": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C553": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C554": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C555": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C556": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C557": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C558": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C559": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C560": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C561": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C562": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C563": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C564": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C565": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C566": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C567": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C568": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C569": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C570": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C571": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C572": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C573": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C574": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C575": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C576": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C577": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C61": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C62": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C63": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C64": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C65": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C66": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C67": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C68": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C69": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C70": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C71": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C72": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C809": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C810": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C811": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C812": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C813": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C814": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C815": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "C816": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "FB202": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "FB203": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "FB204": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "FB205": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "FB206": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "FB207": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "FB208": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "FB209": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "FB210": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "J1": {
+      "dnp": "no",
+      "in_bom": "no",
+      "on_board": "yes"
+    },
+    "JP1": {
+      "dnp": "yes",
+      "in_bom": "no",
+      "on_board": "yes"
+    },
+    "L21": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "L22": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "L23": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "L24": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "L25": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "L26": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R201": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R202": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R203": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R204": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R205": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R206": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R207": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R208": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R210": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R211": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R213": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R214": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R216": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R217": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R218": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R219": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R220": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R221": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R31": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R32": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R33": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R34": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R401": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R402": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R41": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R42": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R43": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R44": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R45": {
+      "dnp": "yes",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R46": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R47": {
+      "dnp": "yes",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R525": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R526": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R527": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R528": {
+      "dnp": "yes",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R529": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R530": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R561": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R562": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R563": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R564": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R565": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R566": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R567": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R568": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R569": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R570": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R571": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R572": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R573": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R574": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R61": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R62": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R63": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R64": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R65": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R66": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R67": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R68": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R69": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R70": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "R71": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "TP81": {
+      "dnp": "no",
+      "in_bom": "no",
+      "on_board": "yes"
+    },
+    "TP82": {
+      "dnp": "no",
+      "in_bom": "no",
+      "on_board": "yes"
+    },
+    "U1": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U11": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U12": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U13": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U14": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U2": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U21": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U22": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U23": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U24": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U25": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U26": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U3": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U89": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U90": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U91": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U92": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U93": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "U95": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "Y1": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    },
+    "Y2": {
+      "dnp": "no",
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  }
+}

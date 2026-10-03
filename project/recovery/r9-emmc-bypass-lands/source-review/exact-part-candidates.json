@@ -1,0 +1,72 @@
+{
+  "2.2uF": {
+    "manufacturer": "Murata",
+    "mpn": "GRM188R71A225KE15D",
+    "jlc_part": "C86018",
+    "value_uF": 2.2,
+    "rating_Vdc": 10,
+    "dielectric": "X7R",
+    "initial_tolerance_fraction": 0.1,
+    "no_bias_temperature_change_fraction": 0.15,
+    "operating_temperature_C": [
+      -55,
+      125
+    ],
+    "package": "0603 / 1608 metric",
+    "body_mm": {
+      "L": [
+        1.5,
+        1.7
+      ],
+      "W": [
+        0.7,
+        0.9
+      ],
+      "T": [
+        0.7,
+        0.9
+      ],
+      "termination_e": [
+        0.2,
+        0.5
+      ],
+      "gap_g_min": 0.5
+    },
+    "status": "ENGINEERING_CANDIDATE_ONLY"
+  },
+  "100nF": {
+    "manufacturer": "Murata",
+    "mpn": "GRM155R71C104KA88D",
+    "jlc_part": "C71629",
+    "value_uF": 0.1,
+    "rating_Vdc": 16,
+    "dielectric": "X7R",
+    "initial_tolerance_fraction": 0.1,
+    "no_bias_temperature_change_fraction": 0.15,
+    "operating_temperature_C": [
+      -55,
+      125
+    ],
+    "package": "0402 / 1005 metric",
+    "body_mm": {
+      "L": [
+        0.95,
+        1.05
+      ],
+      "W": [
+        0.45,
+        0.55
+      ],
+      "T": [
+        0.45,
+        0.55
+      ],
+      "termination_e": [
+        0.15,
+        0.35
+      ],
+      "gap_g_min": 0.3
+    },
+    "status": "ENGINEERING_CANDIDATE_ONLY"
+  }
+}

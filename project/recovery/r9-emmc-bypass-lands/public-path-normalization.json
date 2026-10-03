@@ -1,0 +1,14 @@
+[
+  {
+    "path": "cad/recovery-physical-candidate/master.xml",
+    "original_sha256": "9fae0631092d38699350a3d84bc71321c8628def6471621296ca0053013f3aea",
+    "public_sha256": "eb25c89c243242b4279e56600216a079ab8e12baf595730085ec45f3da8655b4",
+    "change": "Only source/library/report paths normalized; electrical semantics unchanged."
+  },
+  {
+    "path": "recovery/r9-emmc-bypass-lands/native-checks.json",
+    "original_sha256": "5e3ee9688da4624cae6038ccfaf0fe4c6dd4df3672886dfb4a4bb6b73236d7f3",
+    "public_sha256": "e3f4a70ef71563695074094455e5b8c38d92f855ce4702287f729462c009a937",
+    "change": "Only source/library/report paths normalized; electrical semantics unchanged."
+  }
+]

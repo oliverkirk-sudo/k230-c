@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "CMK230_EMMC_Bypass_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../../cad/recovery-emmc-bypass-candidates/CMK230_EMMC_Bypass_Candidates.pretty") (options "") (descr "Conditional source patterns")))

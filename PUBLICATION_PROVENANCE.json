@@ -1,5 +1,5 @@
 {
-  "stage": "R8_CONDITIONAL_FILTER_FEEDFORWARD_LANDS",
+  "stage": "R9_CONDITIONAL_EMMC_BYPASS_LANDS",
   "date_utc": "2026-10-03",
   "source_archive_sha256": {
     "v12": "63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58",
@@ -1432,7 +1432,7 @@
       "reason": "Editorial attribution text updated; technical content unchanged"
     }
   ],
-  "previous_stage": "R7_CONDITIONAL_LINK_AND_FABRICATED_FEATURE_COVERAGE",
+  "previous_stage": "R8_CONDITIONAL_FILTER_FEEDFORWARD_LANDS",
   "checkpoints": [
     {
       "revision": "R3",
@@ -1637,6 +1637,40 @@
       "delta_zip_bytes": 218776,
       "source_manifest_sha256": "cb780c38a4bc46eb86edf4b3e3dca31259c11cac5051fe36df7911f823e3bc0a",
       "changed_source_files": 89,
+      "manifest_included_separately": true,
+      "publication_source_files_byte_identical": true,
+      "production_ready": false,
+      "active_full_six_layer_board": false
+    },
+    {
+      "components": 254,
+      "pin_bindings": 1509,
+      "distinct_nets": 457,
+      "footprints_assigned": 221,
+      "footprints_unassigned": 33,
+      "changed_footprint_refs": [
+        "C64",
+        "C65",
+        "C69",
+        "C70",
+        "C71",
+        "C72"
+      ],
+      "other_component_attributes_nets_BOM_population_unchanged": true,
+      "root_schematic_revision": "RCV-R9",
+      "own_native_svgs_reviewed": 1,
+      "geometry_fixture_rule_violations": 0,
+      "geometry_fixture_unrouted_connections": 0,
+      "independent_negative_controls": 7,
+      "effective_capacitance_qualified": false,
+      "Table13_nominal_effective_interpretation_open": true,
+      "assembly_stencil_variant_gate_open": true,
+      "revision": "R9",
+      "base_commit": "f5181cb06de490fb23de0e79c619210a664b3212",
+      "delta_zip_sha256": "52fbc0a31d2438fb1fde49aa71446786239e050a4be5b1f352e35d117dfb85da",
+      "delta_zip_bytes": 145858,
+      "source_manifest_sha256": "440a04548c9d5646c039cc5653e1596b5822c84bbe1afd09b54a9dba967daa69",
+      "changed_source_files": 52,
       "manifest_included_separately": true,
       "publication_source_files_byte_identical": true,
       "production_ready": false,

@@ -1,0 +1,56 @@
+{
+  "review_date_UTC": "2026-10-03",
+  "sources": [
+    {
+      "id": "micron-emmc",
+      "author": "Micron",
+      "title": "8GB to 128GB e.MMC Automotive, Rev G 10/18",
+      "url": "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/234/EMMC_5F00_DATASHEET.pdf",
+      "source_kind": "Manufacturer-authored document, TI-hosted mirror",
+      "sha256": "52ad8018f63554d3e34f970b1516e488543c6a25bd144bcbf33d666fa2a82d71",
+      "pages_used": [
+        1,
+        7,
+        9,
+        26,
+        27
+      ],
+      "raw_distribution": "Private only; source carries proprietary/confidential marking. No raw PDF, page image or extracted text is included in this review."
+    },
+    {
+      "id": "murata-2u2",
+      "author": "Murata",
+      "title": "GRM188R71A225KE15-04A reference sheet, 2021-10-29",
+      "url": "https://www.mouser.com/datasheet/2/281/1/GRM188R71A225KE15_04A-1985813.pdf",
+      "source_kind": "Manufacturer-authored exact-part reference sheet, distributor mirror",
+      "sha256": "c94d32262b25ec609d1599f20d46075151990cbd880ee1f877a343e044c0cb64",
+      "pages_used": [
+        1,
+        2,
+        4,
+        11,
+        12,
+        26
+      ],
+      "raw_distribution": "Private only"
+    },
+    {
+      "id": "murata-100n",
+      "author": "Murata",
+      "title": "GRM155R71C104KA88-01 reference sheet, 2016-02-28; JEMCGC-2701X general cautions",
+      "url": "https://www.lcsc.com/datasheet/C71629.pdf",
+      "source_kind": "Manufacturer-authored exact-part reference sheet from JLC-linked datasheet download; stable public catalog link supplied instead of expiring signed URL",
+      "sha256": "5418c3534e3c90092df203dedfcbb943216e3902417ceb821264fbb56ebfe8cd",
+      "pages_used": [
+        1,
+        2,
+        4,
+        13,
+        14,
+        26
+      ],
+      "raw_distribution": "Private only"
+    }
+  ],
+  "limitations": "Reference sheet dates are retained. Exact present product approval/lifecycle status and combined operating capacitance are not certified by this review. No raw vendor document is republished."
+}

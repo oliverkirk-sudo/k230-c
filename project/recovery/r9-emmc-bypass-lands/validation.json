@@ -1,0 +1,33 @@
+{
+  "revision": "R9",
+  "components": 254,
+  "bindings": 1509,
+  "distinct_nets": 457,
+  "footprint_changes": [
+    "C64",
+    "C65",
+    "C69",
+    "C70",
+    "C71",
+    "C72"
+  ],
+  "value_or_population_changes": 0,
+  "assigned": 221,
+  "unassigned": 33,
+  "ERC_violations": 0,
+  "fixture_rule_violations": 0,
+  "fixture_unconnected": 0,
+  "CAM_flashes": {
+    "EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Cu.gtl": 4,
+    "EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Mask.gts": 4,
+    "EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Paste.gtp": 4
+  },
+  "negative_controls": [
+    "wrong_CReg_net",
+    "changed_nominal_value",
+    "wrong_land_geometry"
+  ],
+  "six_layer_production_stack_approved": false,
+  "full_core_layout_exists": false,
+  "production_ready": false
+}

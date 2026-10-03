@@ -1,0 +1,19 @@
+{
+  "NEGATIVE_ACTUAL_CLEARANCE_010.kicad_pcb": "6bb132fae4ddf671629699bf7c7aa8b97a21befe6c80511abbc18241b29e2b43",
+  "NEGATIVE_ACTUAL_CLEARANCE_010.kicad_pro": "ecee4997f457037b6a1b74fe8722c5e2597a1149dfcd73822deb9115315dc622",
+  "README.md": "f0c345c721c95e27dc5b447ce32ce4b4b863d6e8983d66aebb08ddc433348645",
+  "cam-verification.json": "b73ff742c0e1bac29dc5db160fe48f60cb840353fe8545af2253e24bfba7b0f2",
+  "footprint-geometry.json": "38a5473a8ceb03e27d09b329452366e2c13134f5dfee4d8dff7d03e881cc197f",
+  "fresh-erc.json": "af458584dca0f14c6ccd5b5016b5bf1b064b42971817119ddc517651f467e6d2",
+  "fresh-fixture-drc.json": "87990f21807a4ac5356542ecc3e1e9000b7afd014999faa35d037f7f5f38ea7e",
+  "fresh-master.xml": "353353b94e0005dfd4dc0dd03ff18f138a51d22881d4c8cd8a72b269af521639",
+  "independent-review.json": "df3cd13d9736beb781502ac539d6c96414a8d36e0da7e8dca57f27997761e137",
+  "input-cad-sha256.json": "45c9b9be10cd62413e82d86ff8d5b6bf7855061a62984064597832e1845a7ed1",
+  "native-cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Cu.gtl": "7b30b54f06b5cf10fa1515bf83513accca30db4631b9102aea8832e49cc48b3f",
+  "native-cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Mask.gts": "bf9ac889ec1c74ebfe3ffcfb556686d8c24c1541623a8fd9c41ed77d509351c7",
+  "native-cam/EMMC_BYPASS_LANDS_GEOMETRY_ONLY-F_Paste.gtp": "d6d7148180edc2660bd7d91208d772dadb9513aa170b365dec5e98d43bc59785",
+  "native-command-log.json": "a6165ae264044957f7d05372a55c34e029f2f3ae1d55758a862bbfbae536dada",
+  "negative-clearance-drc.json": "0d4db321dbb6f9dfe4f7a147a216e2fe73e237c2d50b9af9b36d62fb4fdea921",
+  "population-states.json": "598b62b4faaa2539ba5b8ab838eafd94b4280eea2cf7aeb452e513c432bec92b",
+  "validate_r9_independent.py": "cb260b0af6478c2af7986d967b3df97d76facceca0d293f3bf7e5e9118f1608a"
+}

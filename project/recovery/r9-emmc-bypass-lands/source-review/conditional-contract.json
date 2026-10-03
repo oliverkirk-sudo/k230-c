@@ -1,0 +1,62 @@
+{
+  "status": "CONDITIONAL_ARITHMETIC_NOT_QUALIFICATION",
+  "micron_interpretation": "Table 13 states Min/Max/Typ capacitance but does not explicitly define in-circuit effective capacitance, test voltage, temperature, frequency, tolerance or aging basis. Do not silently interpret these numbers as either guaranteed effective minima or a tolerance-free nominal-only requirement. Nominal selections fall in the printed ranges; operating compliance remains unresolved.",
+  "model": "For an engineering budget only, Ceff = Cnom*(1+initial_error)*(1+no_bias_temperature_error)*k. k absorbs actual DC/AC voltage, aging, process, lot and interacting effects; it is unknown. The separate +/-10% and no-bias +/-15% limits are not a combined guarantee. A validated bound on k plus applicability of those limits is required before using the interval.",
+  "separate_reference_envelopes_uF": {
+    "2.2uF": [
+      1.683,
+      2.7830000000000004
+    ],
+    "100nF": [
+      0.07650000000000001,
+      0.1265
+    ]
+  },
+  "conditional_effective_intervals_uF": {
+    "2.2uF": [
+      "1.683*k_min",
+      "2.783*k_max"
+    ],
+    "100nF": [
+      "0.0765*k_min",
+      "0.1265*k_max"
+    ]
+  },
+  "conditional_table13_tests_if_interpreted_as_effective": {
+    "C64": {
+      "k_min_at_least": 0.5941770647653001,
+      "k_max_at_most": 1.6888250089831116
+    },
+    "C69_C71": {
+      "k_min_at_least": 1.3071895424836601,
+      "k_max_at_most": 1.6888250089831116,
+      "meaning": "The lower condition cannot be met by a loss-only k <= 1 at the chosen worst-case tolerance/temperature corner. This is an engineering sensitivity result, not proof Micron requires effective >= 2.2uF."
+    },
+    "C70_C72": {
+      "k_min_at_least": 1.30718954248366,
+      "k_max_at_most": 1.7391304347826086
+    },
+    "C65": {
+      "k_min_at_least": 1.30718954248366,
+      "k_max_at_most": 0.7905138339920948,
+      "meaning": "A literal all-effects exactly 100nF range is incompatible with the component tolerance envelope; obtain the intended component specification basis."
+    }
+  },
+  "exact_bias_curves_obtained": false,
+  "combined_hot_bias_aging_qualification": false,
+  "thermal_conditions": {
+    "provisional_enclosure_air_C": 85,
+    "MLCC_surface_limit_C": 125,
+    "MLCC_body_rise_allowance_if_local_air_is_85C": 40,
+    "emmc_AAT_ambient_operating_limit_C": 105,
+    "note": "Enclosure air is not local capacitor surface temperature or memory local ambient. Must measure at representative loads on the 38mm top-only six-layer core. Nominal arithmetic headroom is not thermal qualification."
+  },
+  "remaining_gates": [
+    "Confirm Micron Table 13 nominal/effective basis and relevant tolerances.",
+    "Obtain exact-part capacitance bounds or measurements at actual CReg voltage, VCCQ up to 1.95V and VCC up to 3.6V; include AC excitation/ripple, hot operation, aged life, lot/process corner.",
+    "Confirm capacitor surface temperature stays within 125C including self-heating; confirm memory local ambient stays within AAT range.",
+    "Place each pair close to the corresponding memory supply and return balls; verify impedance, transient droop, startup and sustained memory workload.",
+    "Validate assembly mask/paste/courtyard, BGA escape and physical fit independently."
+  ],
+  "future_value_option": "A separately reviewed 3.3uF nominal option lies within C5 1-4.7uF and C1/C3 2.2-4.7uF, but is outside this nominal-preserving review and has not been selected or edited."
+}

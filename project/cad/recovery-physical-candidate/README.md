@@ -15,3 +15,5 @@ R6 assigns25 conditional bias-resistor footprints and the exact L21 source-land 
 R7 assigns ten further link/feature footprints and excludes three fabricated copper features from the BOM:202 assigned/52 gaps. All values, bindings and DNP states are preserved. See ../../recovery/r7-links-and-features/README.md. Default DNP does not remove R528 paste apertures; production stencil selection remains unresolved.
 
 R8 assigns nine process-dependent ferrite patterns and four feedforward-capacitor source lands:215 assigned/39 gaps, unchanged values/nets/population. See ../../recovery/r8-filter-feedforward-lands/README.md. The18µm pattern reservation is not a selected or approved six-layer stack; hot DCR, bias response and process registration remain open.
+
+R9 assigns six source-range eMMC bypass lands:221 assigned/33 gaps, with all nominal values/nets/population preserved. See ../../recovery/r9-emmc-bypass-lands/README.md. Table13 nominal/effective interpretation and combined operating capacitance remain explicit qualification gates.

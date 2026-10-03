@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-03T06:32:55+0000",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "NEGATIVE_ACTUAL_CLEARANCE_010.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [C64_1] of C64 on F.Cu",
+                    "pos": {
+                        "x": 4.325,
+                        "y": 5.0
+                    },
+                    "uuid": "84b2c944-7bf7-4bc6-a405-eb2e954bb92b"
+                },
+                {
+                    "description": "Pad 2 [C64_2] of C64 on F.Cu",
+                    "pos": {
+                        "x": 5.075,
+                        "y": 5.0
+                    },
+                    "uuid": "be3a9fb6-9b6c-473c-a774-89daa70fd88d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Footprint 'Murata_GRM188R71A225_ReflowMid_SOURCE_CANDIDATE' does not match copy in library 'CMK230_EMMC_Bypass_Candidates'.",
+            "items": [
+                {
+                    "description": "Footprint C64",
+                    "pos": {
+                        "x": 5.0,
+                        "y": 5.0
+                    },
+                    "uuid": "cf95e897-b9f1-47ef-a099-9b7cafac3815"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

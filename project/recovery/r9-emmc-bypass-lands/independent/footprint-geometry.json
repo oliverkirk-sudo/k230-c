@@ -1,0 +1,48 @@
+{
+  "Murata_GRM155R71C104_ReflowMid_SOURCE_CANDIDATE": {
+    "copper_geometry_mm": {
+      "a": 0.4,
+      "b": 0.4,
+      "c": 0.5
+    },
+    "engineering_courtyard_mm": [
+      1.8,
+      1.2
+    ],
+    "mask_expansion_mm": 0.05,
+    "max_body_mm": [
+      1.05,
+      0.55
+    ],
+    "pad_centres_X_mm": [
+      -0.4,
+      0.4
+    ],
+    "qualification": "Copper source ranges only; mask, paste and courtyard remain unqualified engineering choices",
+    "separate_paste_1_to_1": true,
+    "source_row_applies": "L/W tolerance within +/-0.10 mm"
+  },
+  "Murata_GRM188R71A225_ReflowMid_SOURCE_CANDIDATE": {
+    "copper_geometry_mm": {
+      "a": 0.7000000000000001,
+      "b": 0.65,
+      "c": 0.7
+    },
+    "engineering_courtyard_mm": [
+      2.6,
+      1.5
+    ],
+    "mask_expansion_mm": 0.05,
+    "max_body_mm": [
+      1.7,
+      0.9
+    ],
+    "pad_centres_X_mm": [
+      -0.675,
+      0.675
+    ],
+    "qualification": "Copper source ranges only; mask, paste and courtyard remain unqualified engineering choices",
+    "separate_paste_1_to_1": true,
+    "source_row_applies": "L/W tolerance within +/-0.10 mm"
+  }
+}

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch</source>
-    <date>2026-10-02T23:25:49-0700</date>
+    <source>${CANDIDATE}/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch</source>
+    <date>2026-10-03T06:32:53+0000</date>
     <tool>Eeschema 9.0.2+dfsg-1</tool>
     <sheet number="1" name="/SoC_1/" tstamps="/bd9bb2f4-9b59-441f-a215-8c4f637c6c79/">
       <title_block>
@@ -5252,7 +5252,7 @@
   </libparts>
   <libraries>
     <library logical="Integrated">
-      <uri>cad/recovery-physical-candidate/Integrated.kicad_sym</uri>
+      <uri>${CANDIDATE}/cad/recovery-physical-candidate/Integrated.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

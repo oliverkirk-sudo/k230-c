@@ -1,0 +1,64 @@
+{
+  "selected_candidates": [
+    {
+      "mpn": "GRM188R71A225KE15D",
+      "jlc_part": "C86018",
+      "public_url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R71A225KE15D/C86018",
+      "observed_at_UTC": "2026-10-03T06:08:00Z",
+      "source_capture_sha256": "ce5a316585b6cbe735292dc4edab18b16c133f7ddc5e53f607676e51cf7b1ac3",
+      "catalog_metadata": {
+        "preMinPurchaseNum": 360,
+        "encapsulationNumber": 4000,
+        "canPresaleNumber": 205900,
+        "overseasStockCount": 213731,
+        "initialPrice": 0.0308,
+        "leastPatchNumber": 5,
+        "lossNumber": 8
+      },
+      "price_tier_starts_at": 1,
+      "MOQ1_verified": false,
+      "interpretation": "Listed catalog part with nonzero overseas stock metadata; current public visible page did not provide a stock/MOQ commitment. A one-piece price tier is not a confirmed minimum. preMinPurchaseNum, assembly leastPatchNumber and manufacturer reel size are distinct fields. Refresh quote at procurement; no order or reservation."
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "jlc_part": "C71629",
+      "public_url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71C104KA88D/C71629",
+      "observed_at_UTC": "2026-10-03T06:08:00Z",
+      "source_capture_sha256": "b647317e438fdc5ecad837967a9125b139b842d07e5944b3ff2bd46c85997281",
+      "catalog_metadata": {
+        "preMinPurchaseNum": 1920,
+        "encapsulationNumber": 10000,
+        "canPresaleNumber": 1031905,
+        "overseasStockCount": 1101623,
+        "initialPrice": 0.0051,
+        "leastPatchNumber": 20,
+        "lossNumber": 12
+      },
+      "price_tier_starts_at": 1,
+      "MOQ1_verified": false,
+      "interpretation": "Listed catalog part with nonzero overseas stock metadata; current public visible page did not provide a stock/MOQ commitment. A one-piece price tier is not a confirmed minimum. preMinPurchaseNum, assembly leastPatchNumber and manufacturer reel size are distinct fields. Refresh quote at procurement; no order or reservation."
+    }
+  ],
+  "packaging_alternate_not_selected": [
+    {
+      "mpn": "GRM188R71A225KE15J",
+      "jlc_part": "C2167658",
+      "public_url": "https://jlcpcb.com/partdetail/2259710-GRM188R71A225KE15J/C2167658",
+      "observed_at_UTC": "2026-10-03T06:08:00Z",
+      "source_capture_sha256": "ad5591da4405f0c757c5859514b4e0d560c44b3c07ad2c54723c3acc8915a4a4",
+      "catalog_metadata": {
+        "preMinPurchaseNum": 380,
+        "encapsulationNumber": 10000,
+        "canPresaleNumber": 4970,
+        "overseasStockCount": 5002,
+        "initialPrice": 0.0306,
+        "leastPatchNumber": 5,
+        "lossNumber": 4
+      },
+      "price_tier_starts_at": 1,
+      "MOQ1_verified": false,
+      "interpretation": "Listed catalog part with nonzero overseas stock metadata; current public visible page did not provide a stock/MOQ commitment. A one-piece price tier is not a confirmed minimum. preMinPurchaseNum, assembly leastPatchNumber and manufacturer reel size are distinct fields. Refresh quote at procurement; no order or reservation."
+    }
+  ],
+  "MOQ1_exception": "Neither selected JLC SKU has confirmed MOQ1 in the current visible page. Reported metadata is diagnostic, not an assured deliverable quantity. No purchase, vendor inquiry, reservation or BOM upload occurred."
+}
