@@ -1,0 +1,3 @@
+(fp_lib_table
+ (lib (name "CMK230_Inductor_Candidates")(type "KiCad")(uri "/workspace/shared/cm-k230-redesign/cad/verified-footprints/inductor-candidates/CMK230_Inductor_Candidates.pretty")(options "")(descr "Read-only candidate source library"))
+)

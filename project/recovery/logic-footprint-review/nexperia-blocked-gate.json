@@ -1,0 +1,17 @@
+{
+  "mpn": "74AUP2G97GUX",
+  "reference": "U92",
+  "package": "SOT1160-1",
+  "status": "BLOCKED_NO_FOOTPRINT_GENERATED",
+  "reason": "Exact nonuniform copper land, mask, paste and orientation drawing pixels unavailable; prior download restriction was not retried",
+  "source_package_page": "https://www.nexperia.com/packages/SOT1160-1.html",
+  "source_pdf": "https://assets.nexperia.com/documents/package-information/SOT1160-1.pdf",
+  "needed": [
+    "Legitimate manufacturer-authored PDF bytes and verified revision/hash",
+    "Visual outline and reflow-page inspection",
+    "GU pin1 orientation and all nonuniform corner-land coordinate mapping",
+    "Explicit copper/mask/paste native and CAM parity",
+    "Factory registration, mask-web, stencil and assembly approval"
+  ],
+  "active_footprint_field": "blank"
+}

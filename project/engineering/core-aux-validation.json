@@ -1,0 +1,10 @@
+{
+  "components": 15,
+  "pin_net_assignments": 37,
+  "all_match_KiCad_XML": true,
+  "symbol_scope": "7 K230 system balls only; full SoC omitted",
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "analog_startup_verified": false,
+  "full_core_verified": false
+}

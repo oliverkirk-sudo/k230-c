@@ -1,0 +1,78 @@
+reference,net,value,basis,placement
+C501,VDD0P8_CORE,4.7uF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C502,VDD0P8_CORE,4.7uF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C503,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C504,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C505,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C506,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C507,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C508,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C509,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C510,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C511,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C512,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C513,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C514,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C515,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C516,VDD0P8_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C517,VDD0P8_CPU,4.7uF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C518,VDD0P8_CPU,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C519,VDD0P8_CPU,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C520,VDD0P8_CPU,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C521,VDD0P8_KPU,4.7uF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C522,VDD0P8_KPU,4.7uF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C523,VDD0P8_KPU,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C524,VDD0P8_KPU,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C525,VDD0P8_KPU,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C526,VDD0P8_KPU,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C527,VDD0P8_KPU,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C528,VDD0P8_KPU,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C529,VDD0P8_DDR_CORE,4.7uF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C530,VDD0P8_DDR_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C531,VDD0P8_DDR_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C532,VDD0P8_DDR_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C533,VDD0P8_DDR_CORE,100nF,NEW per-power-ball baseline,TOP only; no geometry assigned; group location must follow power balls
+C534,VDD1P1_DDR_IO,4.7uF,SoC DDR IO reference-style,TOP only; no geometry assigned; group location must follow power balls
+C535,VDD1P1_DDR_IO,100nF,SoC DDR IO reference-style,TOP only; no geometry assigned; group location must follow power balls
+C536,VDD1P1_DDR_IO,100nF,SoC DDR IO reference-style,TOP only; no geometry assigned; group location must follow power balls
+C537,VDD1P1_DDR_IO,100nF,SoC DDR IO reference-style,TOP only; no geometry assigned; group location must follow power balls
+C538,VDD1P1_DDR_IO,100nF,SoC DDR IO reference-style,TOP only; no geometry assigned; group location must follow power balls
+C539,VDD1P1_DDR_IO,100nF,SoC DDR IO reference-style,TOP only; no geometry assigned; group location must follow power balls
+C540,VDD1P1_DDR_IO,22uF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C541,VDD1P1_DDR_IO,4.7uF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C542,VDD1P1_DDR_IO,100nF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C543,VDD1P1_DDR_IO,100nF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C544,VDD1P1_DDR_IO,100nF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C545,VDD1P1_DDR_IO,100nF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C546,VDD1P1_DDR_IO,100nF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C547,VDD1P1_DDR_IO,100nF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C548,VDD1P1_DDR_IO,100nF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C549,VDD1P1_DDR_IO,100nF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C550,VDD1P1_DDR_IO,100nF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C551,VDD1P1_DDR_IO,100nF,DRAM VDD2 source C20-C31,TOP only; no geometry assigned; group location must follow power balls
+C552,VDD1P1_DDR_IO,22uF,DRAM VDDQ source C40-C49,TOP only; no geometry assigned; group location must follow power balls
+C553,VDD1P1_DDR_IO,4.7uF,DRAM VDDQ source C40-C49,TOP only; no geometry assigned; group location must follow power balls
+C554,VDD1P1_DDR_IO,100nF,DRAM VDDQ source C40-C49,TOP only; no geometry assigned; group location must follow power balls
+C555,VDD1P1_DDR_IO,100nF,DRAM VDDQ source C40-C49,TOP only; no geometry assigned; group location must follow power balls
+C556,VDD1P1_DDR_IO,100nF,DRAM VDDQ source C40-C49,TOP only; no geometry assigned; group location must follow power balls
+C557,VDD1P1_DDR_IO,100nF,DRAM VDDQ source C40-C49,TOP only; no geometry assigned; group location must follow power balls
+C558,VDD1P1_DDR_IO,100nF,DRAM VDDQ source C40-C49,TOP only; no geometry assigned; group location must follow power balls
+C559,VDD1P1_DDR_IO,100nF,DRAM VDDQ source C40-C49,TOP only; no geometry assigned; group location must follow power balls
+C560,VDD1P1_DDR_IO,100nF,DRAM VDDQ source C40-C49,TOP only; no geometry assigned; group location must follow power balls
+C561,VDD1P1_DDR_IO,100nF,DRAM VDDQ source C40-C49,TOP only; no geometry assigned; group location must follow power balls
+C562,VDD1P8,22uF,DRAM VDD1 source C32-C39,TOP only; no geometry assigned; group location must follow power balls
+C563,VDD1P8,4.7uF,DRAM VDD1 source C32-C39,TOP only; no geometry assigned; group location must follow power balls
+C564,VDD1P8,100nF,DRAM VDD1 source C32-C39,TOP only; no geometry assigned; group location must follow power balls
+C565,VDD1P8,100nF,DRAM VDD1 source C32-C39,TOP only; no geometry assigned; group location must follow power balls
+C566,VDD1P8,100nF,DRAM VDD1 source C32-C39,TOP only; no geometry assigned; group location must follow power balls
+C567,VDD1P8,100nF,DRAM VDD1 source C32-C39,TOP only; no geometry assigned; group location must follow power balls
+C568,VDD1P8,100nF,DRAM VDD1 source C32-C39,TOP only; no geometry assigned; group location must follow power balls
+C569,VDD1P8,100nF,DRAM VDD1 source C32-C39,TOP only; no geometry assigned; group location must follow power balls
+C570,BANK0_VDDIO,100nF,IO-bank reference-style,TOP only; no geometry assigned; group location must follow power balls
+C571,BANK1_VDDIO,100nF,IO-bank reference-style,TOP only; no geometry assigned; group location must follow power balls
+C572,BANK2_VDDIO,100nF,IO-bank reference-style,TOP only; no geometry assigned; group location must follow power balls
+C573,BANK3_VDDIO,100nF,IO-bank reference-style,TOP only; no geometry assigned; group location must follow power balls
+C574,BANK4_VDDIO,100nF,IO-bank reference-style,TOP only; no geometry assigned; group location must follow power balls
+C575,BANK5_VDDIO,100nF,IO-bank reference-style,TOP only; no geometry assigned; group location must follow power balls
+C576,VDD1P8,100nF,SoC generic1.8 baseline,TOP only; no geometry assigned; group location must follow power balls
+C577,VDD1P8,100nF,SoC generic1.8 baseline,TOP only; no geometry assigned; group location must follow power balls

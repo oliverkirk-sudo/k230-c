@@ -1,0 +1,172 @@
+{
+  "status": "PASS_BASELINE_PINS_BOOLEAN_EQUIVALENCE_AND_BOUNDED_DC_ONLY",
+  "CAD_modified": false,
+  "baseline_sha256": "96108059ca509bbde234565dcda46a2a0273dd2cb296a5d3a95aac812d08976b",
+  "baseline_counts": {
+    "refs": 254,
+    "pin_net_nodes": 1509
+  },
+  "baseline_selected_values": {
+    "U14": "74AUP1G97GW,125 SCHMITT OR CANDIDATE",
+    "R33": "270k CRCW0201 1pct 100ppm TOTAL<=10pct CANDIDATE",
+    "U92": "74AUP1G97GW,125 HIGH_TEMP CANDIDATE",
+    "U94": "74AUP1G97GW,125 HIGH_TEMP CANDIDATE",
+    "U91": "74AUP1G17GW,125 HIGH_TEMP CANDIDATE",
+    "U93": "74AUP1G06GW,125 HIGH_TEMP CANDIDATE",
+    "C34": "100nF CL03B104KP3NNWC CANDIDATE",
+    "C810": "100nF CL03B104KP3NNWC CANDIDATE",
+    "C813": "100nF CL03B104KP3NNWC CANDIDATE"
+  },
+  "baseline_pin_maps": {
+    "U14": {
+      "1": "GLOBAL_DISABLE",
+      "2": "GND",
+      "3": "VDD_3V3",
+      "4": "DISABLE_OR_TF",
+      "5": "VDD_3V3",
+      "6": "MODE_TF"
+    },
+    "U92": {
+      "1": "GND",
+      "2": "GND",
+      "3": "FIXED_RAILS_PGOOD_3V3",
+      "4": "STORAGE_ENABLE_1V8",
+      "5": "VDD1P8",
+      "6": "BOOT_VOLTAGE_QUALIFIED_1V8"
+    },
+    "U94": {
+      "1": "GND",
+      "2": "GND",
+      "3": "FIXED_RAILS_PGOOD_3V3",
+      "4": "RESET_RELEASE_REQUEST_1V8",
+      "5": "VDD1P8",
+      "6": "RSTN"
+    }
+  },
+  "proposed_TI_U14_same_numbered_nets": {
+    "1": "GLOBAL_DISABLE",
+    "2": "GND",
+    "3": "VDD_3V3",
+    "4": "DISABLE_OR_TF",
+    "5": "VDD_3V3",
+    "6": "MODE_TF"
+  },
+  "proposed_dual_U92_74AUP2G97GUX_pin_map": {
+    "1": "GND",
+    "2": "BOOT_VOLTAGE_QUALIFIED_1V8",
+    "3": "RESET_RELEASE_REQUEST_1V8",
+    "4": "GND",
+    "5": "FIXED_RAILS_PGOOD_3V3",
+    "6": "GND",
+    "7": "RSTN",
+    "8": "STORAGE_ENABLE_1V8",
+    "9": "VDD1P8",
+    "10": "FIXED_RAILS_PGOOD_3V3"
+  },
+  "minimal_logic_only_counts_if_both_changes_applied_with_all_passives_kept": {
+    "refs": 253,
+    "pin_net_nodes": 1507
+  },
+  "lost_branch_258_refs_1517_nodes_reconstructed": false,
+  "source_truth_rows_verified": 8,
+  "integrated_boolean_states_verified": 16,
+  "rail_bounds_V": {
+    "1V8": [
+      1.7644766146971205,
+      1.836094613293051
+    ],
+    "3V3": [
+      3.2451295322889773,
+      3.392164299108761
+    ]
+  },
+  "TI_U14_screen": {
+    "keep_R33_ohm": 270000,
+    "R33_total_acceptance_fraction": 0.1,
+    "worst_sink_A": 1.595952386464511e-05,
+    "continuous_range_test_load_A": 0.0001,
+    "VOL_max_V": 0.1,
+    "VOH_min_V": 3.145129532288977,
+    "TMUX_low_margin_V": 0.35,
+    "TMUX_high_margin_V": 1.9451295322889772,
+    "GLOBAL_DISABLE_released_leakage_screen_A": 9.75e-06,
+    "GLOBAL_DISABLE_high_screen_V": 3.137879532288977,
+    "MODE_TF_default_leakage_screen_A": 9e-06,
+    "MODE_TF_low_screen_V": 0.099,
+    "MODE_TF_TMUX_low_margin_V": 0.351,
+    "MODE_TF_discrete_TI_3V_VTminus_margin_V": 0.741,
+    "GLOBAL_DISABLE_TMUX_high_margin_V": 1.9378795322889772,
+    "GLOBAL_DISABLE_discrete_TI_3V_VTplus_margin_V": 1.267879532288977,
+    "R31_R32_total_acceptance_ohm": [
+      9000,
+      11000
+    ],
+    "MODE_TF_leakage_contributors_A": {
+      "U14_In2": 5e-06,
+      "U11_SEL": 2e-06,
+      "U12_SEL": 2e-06
+    },
+    "GLOBAL_DISABLE_leakage_contributors_A": {
+      "U93_IOZ": 7.5e-07,
+      "U14_In1": 5e-06,
+      "U11_EN": 2e-06,
+      "U12_EN": 2e-06
+    },
+    "input_threshold_at_3V_only": {
+      "VTplus_max_V": 1.87,
+      "VTminus_min_V": 0.84,
+      "hysteresis_min_V": 0.53
+    },
+    "input_rows_guaranteed_over_actual_rail": false,
+    "leakage_source_caveat": "TI II uses VI=5.5V or GND; Ioff uses VI or VO=5.5V. Applying endpoints as conservative 3V3 allowances is a source-condition interpretation.",
+    "optional_43k_worst_sink_A": 8.965282426637625e-05,
+    "hypothetical_live_pullup_270k_linear_screen_V": -0.3188704677110228,
+    "hypothetical_live_pullup_43k_linear_screen_V": 2.677529532288977,
+    "common_rail_collapse_high_guaranteed": false
+  },
+  "dual_screen": {
+    "source_characteristics_equal_to_two_baseline_1G97_at_125C": true,
+    "PG": {
+      "R_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "leakage_A": 2.1e-06,
+      "high_drop_V": 0.0231,
+      "high_min_V": 3.2220295322889774,
+      "sink_upper_bound_A": 0.0003790071443454179,
+      "sink_limit_A": 0.0004,
+      "sink_margin_A": 2.0992855654582132e-05,
+      "guaranteed_low_bound_V": 0.4,
+      "discrete_VTminus_min_V": 0.47,
+      "discrete_low_margin_V": 0.07,
+      "note": "Conservatively includes the full released-node leakage even when U89 is sinking; TPS3808 has 0.3V at <1.8V/0.4mA and 0.4V at >=1.8V/1mA; use 0.4V common ceiling. Regulator PG leakage is tabulated at5V; applying its 0.1uA bound to3V3 remains a source-condition interpretation."
+    },
+    "qualifier_pulldown": {
+      "R_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "leakage_A": 7.5e-07,
+      "low_max_V": 0.0825,
+      "discrete_VTminus_min_V": 0.47,
+      "discrete_low_margin_V": 0.38749999999999996
+    },
+    "U92_to_U93_guaranteed_valid_supply_margin_V": 0.4193429844091361,
+    "MR_pullup_max_sink_A": 2.6229923047043584e-05,
+    "MR_load_exceeds_20uA_light_load_row": true,
+    "MR_low_margin_using_discrete_1p65V_output_row_V": 0.13934298440913606,
+    "discrete_threshold_and_loaded_output_row_extension_open": true,
+    "GUX_absmax_Ptot_at_125C_mW": 179.0
+  },
+  "not_verified": [
+    "CAD substitution",
+    "PCB routing",
+    "Nexperia original-file recovery and visual land audit",
+    "factory mask/paste/registration and assembly",
+    "full-rail threshold interpretation",
+    "partial-supply behavior",
+    "bench timing/noise",
+    "thermal closure"
+  ]
+}

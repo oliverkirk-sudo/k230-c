@@ -1,0 +1,260 @@
+{
+  "reviewed_utc": "2026-09-30T13:45:00Z",
+  "scope": "Independent numbered-pin audit for high-temperature candidate logic; no CAD edits or footprint geometry approval.",
+  "status": "Logical numbered pins verified; physical pin-coordinate orientation not visually verified.",
+  "inputs": {
+    "candidate_xml": "cad/high-temp-candidate/master.xml",
+    "candidate_xml_sha256": "3b6dc5b68587551c6cf74acfbca09df2ddcacfed6aa31784891e3b47f6e051c1",
+    "candidate_manifest_sha256": "89d225c760723c6dd6499de260941f252d3b87947616d221aa675a995990047a"
+  },
+  "normalization": {
+    "Y_OD": "Y",
+    "B_TIE_LOW": "B"
+  },
+  "parts": [
+    {
+      "part": "74AUP1G17GX,125",
+      "package": "SOT1226-3/X2SON5",
+      "source": {
+        "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G17.pdf",
+        "revision": "Rev. 14, 18 July 2023",
+        "page": 3,
+        "section": "6.2, Table 3 (pin descriptions); 6.1 (view label only)"
+      },
+      "manufacturer_pin_function": {
+        "1": "NC",
+        "2": "A",
+        "3": "GND",
+        "4": "Y",
+        "5": "VCC"
+      },
+      "manifest_matches": true,
+      "candidate_instances": [
+        {
+          "ref": "U91",
+          "symbol": "Hardware_Reset_Interlock_NXP_AUP1G17_X2SON5",
+          "logical_pins_match": true,
+          "footprint": null,
+          "connections": [
+            {
+              "pin": "1",
+              "candidate_function": "NC",
+              "pin_type": "no_connect",
+              "net": "unconnected-(U91-NC-Pad1)"
+            },
+            {
+              "pin": "2",
+              "candidate_function": "A",
+              "pin_type": "input",
+              "net": "RESET_DELAYED_1V8"
+            },
+            {
+              "pin": "3",
+              "candidate_function": "GND",
+              "pin_type": "power_in",
+              "net": "GND"
+            },
+            {
+              "pin": "4",
+              "candidate_function": "Y",
+              "pin_type": "output",
+              "net": "SOC_RSTN"
+            },
+            {
+              "pin": "5",
+              "candidate_function": "VCC",
+              "pin_type": "power_in",
+              "net": "VDD1P8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "74AUP1G06GX,125",
+      "package": "SOT1226-3/X2SON5",
+      "source": {
+        "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G06.pdf",
+        "revision": "Rev. 12, 13 November 2024",
+        "page": 3,
+        "section": "6.2, Table 3 (pin descriptions); 6.1 (view label only)"
+      },
+      "manufacturer_pin_function": {
+        "1": "NC",
+        "2": "A",
+        "3": "GND",
+        "4": "Y",
+        "5": "VCC"
+      },
+      "manifest_matches": true,
+      "candidate_instances": [
+        {
+          "ref": "U93",
+          "symbol": "Hardware_Reset_Interlock_NXP_AUP1G06_X2SON5",
+          "logical_pins_match": true,
+          "footprint": null,
+          "connections": [
+            {
+              "pin": "1",
+              "candidate_function": "NC",
+              "pin_type": "no_connect",
+              "net": "unconnected-(U93-NC-Pad1)"
+            },
+            {
+              "pin": "2",
+              "candidate_function": "A",
+              "pin_type": "input",
+              "net": "STORAGE_ENABLE_1V8"
+            },
+            {
+              "pin": "3",
+              "candidate_function": "GND",
+              "pin_type": "power_in",
+              "net": "GND"
+            },
+            {
+              "pin": "4",
+              "candidate_function": "Y_OD",
+              "pin_type": "open_collector",
+              "net": "GLOBAL_DISABLE"
+            },
+            {
+              "pin": "5",
+              "candidate_function": "VCC",
+              "pin_type": "power_in",
+              "net": "VDD1P8"
+            }
+          ]
+        }
+      ],
+      "output_semantics": "Manufacturer Y is an open-drain output; candidate Y_OD/open_collector designation is compatible."
+    },
+    {
+      "part": "74AUP1G97GXZ",
+      "package": "SOT1255-2/X2SON6",
+      "source": {
+        "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G97.pdf",
+        "revision": "Rev. 14, 24 July 2023",
+        "page": 3,
+        "section": "6.2, Table 3 (pin descriptions); 6.1 (view label only)"
+      },
+      "manufacturer_pin_function": {
+        "1": "B",
+        "2": "GND",
+        "3": "A",
+        "4": "Y",
+        "5": "VCC",
+        "6": "C"
+      },
+      "manifest_matches": true,
+      "candidate_instances": [
+        {
+          "ref": "U92",
+          "symbol": "Hardware_Reset_Interlock_NXP_AUP1G97_X2SON6",
+          "logical_pins_match": true,
+          "footprint": null,
+          "connections": [
+            {
+              "pin": "1",
+              "candidate_function": "B_TIE_LOW",
+              "pin_type": "input",
+              "net": "GND"
+            },
+            {
+              "pin": "2",
+              "candidate_function": "GND",
+              "pin_type": "power_in",
+              "net": "GND"
+            },
+            {
+              "pin": "3",
+              "candidate_function": "A",
+              "pin_type": "input",
+              "net": "FIXED_RAILS_PGOOD_3V3"
+            },
+            {
+              "pin": "4",
+              "candidate_function": "Y",
+              "pin_type": "output",
+              "net": "STORAGE_ENABLE_1V8"
+            },
+            {
+              "pin": "5",
+              "candidate_function": "VCC",
+              "pin_type": "power_in",
+              "net": "VDD1P8"
+            },
+            {
+              "pin": "6",
+              "candidate_function": "C",
+              "pin_type": "input",
+              "net": "BOOT_VOLTAGE_QUALIFIED_1V8"
+            }
+          ]
+        },
+        {
+          "ref": "U94",
+          "symbol": "Hardware_Reset_Interlock_NXP_AUP1G97_X2SON6",
+          "logical_pins_match": true,
+          "footprint": null,
+          "connections": [
+            {
+              "pin": "1",
+              "candidate_function": "B_TIE_LOW",
+              "pin_type": "input",
+              "net": "GND"
+            },
+            {
+              "pin": "2",
+              "candidate_function": "GND",
+              "pin_type": "power_in",
+              "net": "GND"
+            },
+            {
+              "pin": "3",
+              "candidate_function": "A",
+              "pin_type": "input",
+              "net": "FIXED_RAILS_PGOOD_3V3"
+            },
+            {
+              "pin": "4",
+              "candidate_function": "Y",
+              "pin_type": "output",
+              "net": "RESET_RELEASE_REQUEST_1V8"
+            },
+            {
+              "pin": "5",
+              "candidate_function": "VCC",
+              "pin_type": "power_in",
+              "net": "VDD1P8"
+            },
+            {
+              "pin": "6",
+              "candidate_function": "C",
+              "pin_type": "input",
+              "net": "RSTN"
+            }
+          ]
+        }
+      ],
+      "and_configuration": "B (pin 1) is grounded in U92 and U94. With B=0 the manufacturer truth table gives Y=A AND C (datasheet page 4, Tables 4/5 and Figure 3)."
+    }
+  ],
+  "orientation_limit": {
+    "datasheet_view_label": "GX pinning figures are explicitly labelled Transparent top view in all three source texts.",
+    "marking_note": "All three datasheets place the pin-1 indicator at the lower-left corner below the marking code; this textual note alone does not establish physical pad coordinates.",
+    "visual_inspection_completed": false,
+    "blocker": "Official datasheet screenshot requests did not provide usable images (cache-miss or unavailable screenshot payload). Package PDF downloads separately reported HTTP 403 by package-audit task; denied download paths were not retried.",
+    "unverified": [
+      "Physical top-view XY position of each numbered terminal",
+      "Pin-1 pad shape/chamfer and exact package rotation",
+      "Mirroring required between any package bottom view and PCB top view",
+      "Dimensions and shapes in recommended solder land, mask and paste drawings"
+    ],
+    "decision": "Do not copy TI DRL orientation or assign X2SON pad coordinates from these text-only observations. Use visually inspected official package drawings before geometry approval."
+  },
+  "release_limits": [
+    "Pin audit is not complete electrical equivalence, thermal qualification, assembly capability approval, or manufacturing release.",
+    "Candidate footprints were blank at the inspected XML snapshot."
+  ]
+}

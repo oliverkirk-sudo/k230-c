@@ -1,0 +1,102 @@
+{
+  "status": "BOUNDED_SEARCH_INCOMPLETE_WITH_CONFLICTS",
+  "best_edge_events": 146,
+  "iterations": [
+    {
+      "iteration": 0,
+      "conflicting_nets": 33,
+      "edge_events": 272,
+      "nodes": 2865900,
+      "elapsed_s": 38.85097460399993,
+      "layer_moves": 2
+    },
+    {
+      "iteration": 1,
+      "conflicting_nets": 30,
+      "edge_events": 274,
+      "nodes": 3300518,
+      "elapsed_s": 86.53326572300284,
+      "layer_moves": 2
+    },
+    {
+      "iteration": 2,
+      "conflicting_nets": 28,
+      "edge_events": 259,
+      "nodes": 3054004,
+      "elapsed_s": 123.30172843000037,
+      "layer_moves": 1
+    },
+    {
+      "iteration": 3,
+      "conflicting_nets": 28,
+      "edge_events": 284,
+      "nodes": 2904810,
+      "elapsed_s": 164.12200736199884,
+      "layer_moves": 1
+    },
+    {
+      "iteration": 4,
+      "conflicting_nets": 29,
+      "edge_events": 291,
+      "nodes": 2844851,
+      "elapsed_s": 198.20211306899728,
+      "layer_moves": 2
+    },
+    {
+      "iteration": 5,
+      "conflicting_nets": 27,
+      "edge_events": 266,
+      "nodes": 3047535,
+      "elapsed_s": 238.7467265239975,
+      "layer_moves": 0
+    },
+    {
+      "iteration": 6,
+      "conflicting_nets": 29,
+      "edge_events": 289,
+      "nodes": 3291527,
+      "elapsed_s": 292.7165312959987,
+      "layer_moves": 0
+    },
+    {
+      "iteration": 7,
+      "conflicting_nets": 28,
+      "edge_events": 303,
+      "nodes": 3197640,
+      "elapsed_s": 337.61560286500026,
+      "layer_moves": 1
+    },
+    {
+      "iteration": 8,
+      "conflicting_nets": 20,
+      "edge_events": 202,
+      "nodes": 3024536,
+      "elapsed_s": 376.5052507490036,
+      "layer_moves": 4
+    },
+    {
+      "iteration": 9,
+      "conflicting_nets": 18,
+      "edge_events": 177,
+      "nodes": 3028806,
+      "elapsed_s": 418.1601289120008,
+      "layer_moves": 1
+    },
+    {
+      "iteration": 10,
+      "conflicting_nets": 17,
+      "edge_events": 176,
+      "nodes": 3148985,
+      "elapsed_s": 460.5902296560016,
+      "layer_moves": 1
+    },
+    {
+      "iteration": 11,
+      "conflicting_nets": 19,
+      "edge_events": 146,
+      "nodes": 3634971,
+      "elapsed_s": 506.7858814010033,
+      "layer_moves": 3
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "scope": "Read-only restored-netlist/source review and in-memory proposed topology; no actual R574 CAD implementation",
+  "baseline_revision": "v12 compact / HT-DRAFT13",
+  "checks": [
+    {
+      "name": "restored and fresh-export connectivity match",
+      "pass": true
+    },
+    {
+      "name": "R574 is absent from restored baseline",
+      "pass": true
+    },
+    {
+      "name": "TF_HOST_CLK has only U11.1 and U95.5",
+      "pass": true
+    },
+    {
+      "name": "card clock exact edge membership",
+      "pass": true
+    },
+    {
+      "name": "host clock exact membership",
+      "pass": true
+    },
+    {
+      "name": "U95.1 remains TF_HOST_D2",
+      "pass": true
+    },
+    {
+      "name": "U95.2 remains TF_HOST_D3",
+      "pass": true
+    },
+    {
+      "name": "U95.3 remains TF_HOST_D0",
+      "pass": true
+    },
+    {
+      "name": "U95.4 remains TF_HOST_D1",
+      "pass": true
+    },
+    {
+      "name": "U95.5 remains TF_HOST_CLK",
+      "pass": true
+    },
+    {
+      "name": "U95.7 remains GND",
+      "pass": true
+    },
+    {
+      "name": "U95.8 remains TFCARD_CLK",
+      "pass": true
+    },
+    {
+      "name": "U95.9 remains TFCARD_D1",
+      "pass": true
+    },
+    {
+      "name": "U95.10 remains TFCARD_D0",
+      "pass": true
+    },
+    {
+      "name": "U95.11 remains TFCARD_D3",
+      "pass": true
+    },
+    {
+      "name": "U95.12 remains TFCARD_D2",
+      "pass": true
+    },
+    {
+      "name": "U95.13 remains TFCARD_CMD",
+      "pass": true
+    },
+    {
+      "name": "U95.14 remains VDD_3V3",
+      "pass": true
+    },
+    {
+      "name": "U95.15 remains VDD1P8",
+      "pass": true
+    },
+    {
+      "name": "U95.16 remains TF_HOST_CMD",
+      "pass": true
+    },
+    {
+      "name": "CLK_FB remains dedicated unconnected net",
+      "pass": true
+    },
+    {
+      "name": "U11.1 remains TF_HOST_CLK",
+      "pass": true
+    },
+    {
+      "name": "U11.2 remains MMC0_CLK",
+      "pass": true
+    },
+    {
+      "name": "U11.16 remains EMMC_CLK",
+      "pass": true
+    },
+    {
+      "name": "U11.6 remains GND",
+      "pass": true
+    },
+    {
+      "name": "U11.13 remains GLOBAL_DISABLE",
+      "pass": true
+    },
+    {
+      "name": "U11.14 remains VDD_3V3",
+      "pass": true
+    },
+    {
+      "name": "U11.15 remains MODE_TF",
+      "pass": true
+    },
+    {
+      "name": "R528 remains a DNP qualification strap value",
+      "pass": true
+    },
+    {
+      "name": "all edge assignments preserved in restored export",
+      "pass": true
+    },
+    {
+      "name": "proposed two-node delta preserves all originals",
+      "pass": true
+    },
+    {
+      "name": "negative control rejects resistor on card output",
+      "pass": true
+    },
+    {
+      "name": "negative control rejects grounding CLKA directly",
+      "pass": true
+    },
+    {
+      "name": "negative control rejects bypassed level translation",
+      "pass": true
+    },
+    {
+      "name": "negative control rejects unpopulated pull-down",
+      "pass": true
+    },
+    {
+      "name": "known TI powered switch-OFF leakage term alone below VIL",
+      "pass": true
+    },
+    {
+      "name": "no invented NVT leakage guarantee",
+      "pass": true
+    },
+    {
+      "name": "all CAD file bytes and membership unchanged during this review",
+      "pass": true
+    }
+  ],
+  "passed": 38,
+  "failed": 0,
+  "CAD_unchanged_files": 367,
+  "proposed_delta_validation": "IN_MEMORY_ONLY",
+  "electrical_status": "OPEN: NVT input leakage, dynamic isolation and full timing/partial-power qualification",
+  "hardware_test_status": "NOT_PERFORMED",
+  "calculations": {
+    "status": "CONDITIONAL_CALCULATIONS_NOT_ELECTRICAL_OR_HARDWARE_PASS",
+    "R574_ohm_acceptance_band": [
+      9000.0,
+      11000.0
+    ],
+    "band_condition": "Total +/-10% must include tolerance, TCR, assembly, aging and environment; not automatically guaranteed",
+    "published_NVT_operating_range_V": [
+      1.08,
+      1.98
+    ],
+    "NVT_CLKA_VIL_fraction_VCCA": 0.35,
+    "NVT_CLKA_VIH_fraction_VCCA": 0.65,
+    "NVT_CLKA_leakage_bound_A": null,
+    "TMUX_powered_switch_OFF_leakage_test_bound_A": 1e-07,
+    "TMUX_VDD_zero_leakage_test_bound_A": 2e-06,
+    "leakage_qualification_note": "Both TI values retain published test conditions; neither establishes NVT leakage or full partial-power behavior",
+    "full_range": {
+      "VIL_at_min_VCCA_V": 0.378,
+      "total_positive_DC_injection_ceiling_A": 3.436363636363636e-05,
+      "remaining_after_100nA_TI_term_A": 3.426363636363636e-05,
+      "pull_high_current_upper_A": 0.00022,
+      "pull_high_power_upper_W": 0.00043559999999999996,
+      "TMUX_drop_at_4p5ohm_and_that_current_V": 0.00099
+    },
+    "existing_upstream_static_rail_screen_only": {
+      "range_V": [
+        1.7644766146971205,
+        1.836094613293051
+      ],
+      "VIL_at_min_VCCA_V": 0.6175668151439921,
+      "total_positive_DC_injection_ceiling_A": 5.6142437740362925e-05,
+      "remaining_after_100nA_TI_term_A": 5.604243774036292e-05,
+      "pull_high_current_upper_A": 0.00020401051258811678,
+      "pull_high_power_upper_W": 0.0003745826032181953
+    },
+    "TI_term_only_offset_V": 0.0010999999999999998,
+    "TI_VDD_zero_term_only_offset_V": 0.022,
+    "ideal_source_resistance_ceiling_for_VHIGH_ge_0p65VCCA_ohm": 4846.153846153845,
+    "ideal_release_examples": [
+      {
+        "C_total_F": 1e-11,
+        "tau_s": 1.0999999999999999e-07,
+        "from_VCCA_to_0p35VCCA_no_leak_s": 1.1548043369485455e-07,
+        "cross_0p65_to_0p35VCCA_no_leak_s": 6.80943129246846e-08
+      },
+      {
+        "C_total_F": 2e-11,
+        "tau_s": 2.1999999999999998e-07,
+        "from_VCCA_to_0p35VCCA_no_leak_s": 2.309608673897091e-07,
+        "cross_0p65_to_0p35VCCA_no_leak_s": 1.361886258493692e-07
+      }
+    ],
+    "release_example_limits": "Illustrations only. Unknown trace/probe/parasitic capacitance, leakage, induced charge, source Z, rail ramps and immunity remain unqualified."
+  }
+}

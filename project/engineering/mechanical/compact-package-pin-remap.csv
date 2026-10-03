@@ -1,0 +1,28 @@
+base_part,from_package,from_pin,to_package,to_pin,function,source_url,source_page,action
+SN74AUP1G06,DBV,1,DCK or DRL,1,NC,https://www.ti.com/lit/ds/symlink/sn74aup1g06.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G06,DBV,2,DCK or DRL,2,A,https://www.ti.com/lit/ds/symlink/sn74aup1g06.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G06,DBV,3,DCK or DRL,3,GND,https://www.ti.com/lit/ds/symlink/sn74aup1g06.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G06,DBV,4,DCK or DRL,4,Y_OPEN_DRAIN_INVERTING,https://www.ti.com/lit/ds/symlink/sn74aup1g06.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G06,DBV,5,DCK or DRL,5,VCC,https://www.ti.com/lit/ds/symlink/sn74aup1g06.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G07,DBV,1,DCK or DRL,1,NC,https://www.ti.com/lit/ds/symlink/sn74aup1g07.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G07,DBV,2,DCK or DRL,2,A,https://www.ti.com/lit/ds/symlink/sn74aup1g07.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G07,DBV,3,DCK or DRL,3,GND,https://www.ti.com/lit/ds/symlink/sn74aup1g07.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G07,DBV,4,DCK or DRL,4,Y_OPEN_DRAIN_NONINVERTING,https://www.ti.com/lit/ds/symlink/sn74aup1g07.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G07,DBV,5,DCK or DRL,5,VCC,https://www.ti.com/lit/ds/symlink/sn74aup1g07.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G08,DBV,1,DCK or DRL,1,A,https://www.ti.com/lit/ds/symlink/sn74aup1g08.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G08,DBV,2,DCK or DRL,2,B,https://www.ti.com/lit/ds/symlink/sn74aup1g08.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G08,DBV,3,DCK or DRL,3,GND,https://www.ti.com/lit/ds/symlink/sn74aup1g08.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G08,DBV,4,DCK or DRL,4,Y_AND,https://www.ti.com/lit/ds/symlink/sn74aup1g08.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G08,DBV,5,DCK or DRL,5,VCC,https://www.ti.com/lit/ds/symlink/sn74aup1g08.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G17,DBV,1,DCK or DRL,1,NC,https://www.ti.com/lit/ds/symlink/sn74aup1g17.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G17,DBV,2,DCK or DRL,2,A,https://www.ti.com/lit/ds/symlink/sn74aup1g17.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G17,DBV,3,DCK or DRL,3,GND,https://www.ti.com/lit/ds/symlink/sn74aup1g17.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G17,DBV,4,DCK or DRL,4,Y_SCHMITT_NONINVERTING_PUSH_PULL,https://www.ti.com/lit/ds/symlink/sn74aup1g17.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+SN74AUP1G17,DBV,5,DCK or DRL,5,VCC,https://www.ti.com/lit/ds/symlink/sn74aup1g17.pdf,3,Package-only candidate; same base logic part; preserve numbered net and NC handling
+TPS3808G01,DBV,1,DRV,6,RESET_N,https://www.ti.com/lit/ds/symlink/tps3808.pdf,4,Requires new/remapped symbol plus EP7 grounded; not footprint-swap-only
+TPS3808G01,DBV,2,DRV,5,GND,https://www.ti.com/lit/ds/symlink/tps3808.pdf,4,Requires new/remapped symbol plus EP7 grounded; not footprint-swap-only
+TPS3808G01,DBV,3,DRV,4,MR_N,https://www.ti.com/lit/ds/symlink/tps3808.pdf,4,Requires new/remapped symbol plus EP7 grounded; not footprint-swap-only
+TPS3808G01,DBV,4,DRV,3,CT,https://www.ti.com/lit/ds/symlink/tps3808.pdf,4,Requires new/remapped symbol plus EP7 grounded; not footprint-swap-only
+TPS3808G01,DBV,5,DRV,2,SENSE,https://www.ti.com/lit/ds/symlink/tps3808.pdf,4,Requires new/remapped symbol plus EP7 grounded; not footprint-swap-only
+TPS3808G01,DBV,6,DRV,1,VDD,https://www.ti.com/lit/ds/symlink/tps3808.pdf,4,Requires new/remapped symbol plus EP7 grounded; not footprint-swap-only
+TPS3808G01,DBV,,DRV,7,EXPOSED_PAD_GND,https://www.ti.com/lit/ds/symlink/tps3808.pdf,4,Requires new/remapped symbol plus EP7 grounded; not footprint-swap-only

@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_REVIEW_PROPOSAL_NOT_FABRICATION_RELEASE",
+  "frozen_at_utc": "2026-09-30T14:34:30Z",
+  "excluded": "Session-local .kicad_prl is excluded; no manufacturer PDFs or vendor HTML are distributed",
+  "files": {
+    "cad/castellation-proposal/CMK230_Castellation_NOMINAL_PROPOSAL.kicad_pcb": "ccbbaf9708887d32c90a928e7b70a8d58ce8c428ab4c22f8c2a127fb24be134b",
+    "cad/castellation-proposal/CMK230_Castellation_NOMINAL_PROPOSAL.kicad_pro": "ea9765a7a8dbe207abd0b3dd56ad2fdc61cc802b5024aee5fa5fe6577befe16e",
+    "cad/castellation-proposal/CMK230_Castellation_Proposal.pretty/CMK230_38x38_140P1_D0.50_Oval0.80x1.80_PROCESS_UNQUALIFIED.kicad_mod": "9f10eef6cff4a1460bab0f020f69590137923c330a82bbd2a48280fd84ef0cf8",
+    "cad/castellation-proposal/README.md": "c4414e0c4584cc13bf16db5603df27f8b7ce4e780c4d68d7f5d80d17fcda79fb",
+    "cad/castellation-proposal/fp-lib-table": "0d4b609322cd594773990f0ce83a04d318d2048a4c3722210fb885c0d17262fa",
+    "engineering/mechanical/build_castellation_proposal.py": "37cffef39dad9d0df22fcc48957a491e87d6521a521518c9415f980e260c8703",
+    "engineering/mechanical/castellation-fab-source-review.json": "1f3e77bad815faf44ddd8104d38d85e65199ac3b7dafa13e0a1650f866500884",
+    "engineering/mechanical/castellation-proposal-contacts.csv": "5e45439d857f5c78264b2bc1b06559ca5d120401ae5616bc9d61b099c19c5c23",
+    "engineering/mechanical/castellation-proposal-dimensional-proof.json": "e78bae43a6580537e60617f2aecd85675b660ab5fc890646cb4861c5db187a44",
+    "engineering/mechanical/castellation-proposal-independent-review.json": "ef14b4fa4ee19fedb5c05f249f6bc69f90f30e2a1a8f45527f4348d70ef946b7",
+    "engineering/mechanical/castellation-proposal-profile.png": "6908c08df73bb9918157f80d46e6ddbe41cba52ec6170bf2564bd5df36189665",
+    "engineering/mechanical/castellation-proposal-profile.svg": "3337f5b280391f9a969a30d1dea2837c459d3c675f46fbb1517860b827be45aa",
+    "engineering/mechanical/castellation-stackup-proposal-review.md": "68373a61c9e27ea411c0aa7799e6364f18f398abf7b0e9c40699dbf09ea8e5d7",
+    "engineering/mechanical/core-stackup-process-proposal.json": "54c0d8362029b1aab3370c88b05b10580add0d1659c5402fe8db59d25d1d58d1"
+  }
+}

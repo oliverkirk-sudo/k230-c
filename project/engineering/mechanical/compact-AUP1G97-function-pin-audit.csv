@@ -1,0 +1,7 @@
+pad,function,and_configuration,source_url,source_pages
+1,B,GND_CONFIG,https://www.ti.com/lit/ds/symlink/sn74aup1g97.pdf,1-3
+2,GND,GND,https://www.ti.com/lit/ds/symlink/sn74aup1g97.pdf,1-3
+3,A,SIGNAL_A,https://www.ti.com/lit/ds/symlink/sn74aup1g97.pdf,1-3
+4,Y,AND_OUTPUT,https://www.ti.com/lit/ds/symlink/sn74aup1g97.pdf,1-3
+5,VCC,SUPPLY,https://www.ti.com/lit/ds/symlink/sn74aup1g97.pdf,1-3
+6,C,SIGNAL_C,https://www.ti.com/lit/ds/symlink/sn74aup1g97.pdf,1-3

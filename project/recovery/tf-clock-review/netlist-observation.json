@@ -1,0 +1,153 @@
+{
+  "baseline": "v12 compact / HT-DRAFT13; no HT18 recovery assumed",
+  "nets": {
+    "TF_HOST_CLK": [
+      {
+        "ref": "U11",
+        "pin": "1",
+        "pinfunction": "S1B",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U95",
+        "pin": "5",
+        "pinfunction": "CLKA",
+        "pintype": "input"
+      }
+    ],
+    "TFCARD_CLK": [
+      {
+        "ref": "J1",
+        "pin": "21",
+        "pinfunction": "TFCARD_CLK",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U95",
+        "pin": "8",
+        "pinfunction": "CLKB",
+        "pintype": "output"
+      }
+    ],
+    "MMC0_CLK": [
+      {
+        "ref": "U1",
+        "pin": "A5",
+        "pinfunction": "MMC0_CLK",
+        "pintype": "output"
+      },
+      {
+        "ref": "U11",
+        "pin": "2",
+        "pinfunction": "D1",
+        "pintype": "passive"
+      }
+    ],
+    "EMMC_CLK": [
+      {
+        "ref": "R571",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U11",
+        "pin": "16",
+        "pinfunction": "S1A",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U3",
+        "pin": "M6",
+        "pinfunction": "CLK",
+        "pintype": "input"
+      }
+    ],
+    "GLOBAL_DISABLE": [
+      {
+        "ref": "R32",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U11",
+        "pin": "13",
+        "pinfunction": "EN",
+        "pintype": "input"
+      },
+      {
+        "ref": "U12",
+        "pin": "13",
+        "pinfunction": "EN",
+        "pintype": "input"
+      },
+      {
+        "ref": "U14",
+        "pin": "1",
+        "pinfunction": "B",
+        "pintype": "input"
+      },
+      {
+        "ref": "U93",
+        "pin": "4",
+        "pinfunction": "Y_OD",
+        "pintype": "open_collector"
+      }
+    ],
+    "MODE_TF": [
+      {
+        "ref": "JP1",
+        "pin": "1",
+        "pinfunction": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "R31",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U11",
+        "pin": "15",
+        "pinfunction": "SEL",
+        "pintype": "input"
+      },
+      {
+        "ref": "U12",
+        "pin": "15",
+        "pinfunction": "SEL",
+        "pintype": "input"
+      },
+      {
+        "ref": "U14",
+        "pin": "6",
+        "pinfunction": "C",
+        "pintype": "input"
+      }
+    ]
+  },
+  "U95_pinmap": {
+    "1": "TF_HOST_D2",
+    "2": "TF_HOST_D3",
+    "3": "TF_HOST_D0",
+    "4": "TF_HOST_D1",
+    "5": "TF_HOST_CLK",
+    "6": "unconnected-(U95-CLK_FB-Pad6)",
+    "7": "GND",
+    "8": "TFCARD_CLK",
+    "9": "TFCARD_D1",
+    "10": "TFCARD_D0",
+    "11": "TFCARD_D3",
+    "12": "TFCARD_D2",
+    "13": "TFCARD_CMD",
+    "14": "VDD_3V3",
+    "15": "VDD1P8",
+    "16": "TF_HOST_CMD"
+  },
+  "U11_controls_and_supply": {
+    "6": "GND",
+    "13": "GLOBAL_DISABLE",
+    "14": "VDD_3V3",
+    "15": "MODE_TF"
+  },
+  "R574_present": false
+}

@@ -1,0 +1,14 @@
+{
+  "pads": 140,
+  "pad_centers_unchanged": true,
+  "copper_envelope_min_mm": -19.546,
+  "copper_envelope_max_mm": 19.546,
+  "courtyard_half_span_mm": 19.8,
+  "nominal_copper_clearance_mm": 0.254,
+  "courtyard_graphics": 1,
+  "stage": "carrier-assembly-only-not-module-fabrication",
+  "all_140_pad_records_byte_identical_to_pre_fix": true,
+  "gui_retest_errors": 0,
+  "gui_retest_warnings": 0,
+  "gui_import_copy_sha256": "4fcfaf56d54d20161bed00568c61657c48e143d964af848d7b44a9133fcd10ad"
+}

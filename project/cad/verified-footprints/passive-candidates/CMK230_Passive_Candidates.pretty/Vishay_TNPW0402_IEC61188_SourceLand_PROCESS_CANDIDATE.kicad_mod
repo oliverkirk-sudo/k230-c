@@ -1,0 +1,111 @@
+(footprint "Vishay_TNPW0402_IEC61188_SourceLand_PROCESS_CANDIDATE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "R**"
+		(at 0 -1 0)
+		(layer "F.Fab")
+		(uuid "8e4894ed-da9f-4a04-8a28-94d9a6832493")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Vishay_TNPW0402_IEC61188_SourceLand_PROCESS_CANDIDATE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e422e491-5fef-4376-8d96-b46604da8806")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "423806b3-439b-4132-8b91-b70fa76be737")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70f78967-bdb5-43ad-886a-b0ee4832ca18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.925 -0.575)
+		(end 0.925 -0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "000b0d3a-6c22-4c57-a1b7-69d68bab8d55")
+	)
+	(fp_line
+		(start -0.925 0.575)
+		(end -0.925 -0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d92d6a0-e158-40fa-82df-8e09d6022e10")
+	)
+	(fp_line
+		(start 0.925 -0.575)
+		(end 0.925 0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "20dbaf9c-f024-49aa-a3c9-a0607074289b")
+	)
+	(fp_line
+		(start 0.925 0.575)
+		(end -0.925 0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c91f6b5b-0a5f-49b1-9c48-00bfe161c3f1")
+	)
+	(pad "1" smd rect
+		(at -0.45 0)
+		(size 0.35 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "30aa799d-40c1-44b5-88f4-0141fe591d31")
+	)
+	(pad "2" smd rect
+		(at 0.45 0)
+		(size 0.35 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "b8cf50e4-e1e8-4ef4-8b05-268a1de73cba")
+	)
+	(embedded_fonts no)
+)

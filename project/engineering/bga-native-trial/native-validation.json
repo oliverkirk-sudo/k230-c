@@ -1,0 +1,59 @@
+{
+  "status": "PASS_NATIVE_GEOMETRY_AND_IDENTITY_PARITY_ONLY",
+  "native_full_DRC_status": "NOT_CLEAN_17_CONNECTIVITY_ERRORS_32_WARNINGS",
+  "pads": 153,
+  "vias": 29,
+  "track_segments": 16,
+  "components": 1,
+  "zones": 0,
+  "copper_layers": 8,
+  "host_signals_with_local_exits": 11,
+  "host_signals_connected_to_SoC_endpoints": 0,
+  "net_identities_match_current_XML": true,
+  "isolated_no_use_net_count": 120,
+  "no_use_function_counts": {
+    "NC": 109,
+    "RFU": 4,
+    "VSF1": 1,
+    "VSF2": 1,
+    "VSF3": 1,
+    "VSF4": 1,
+    "VSF5": 1,
+    "VSF6": 1,
+    "VSF7": 1
+  },
+  "geometry_exactly_matches_frozen_witness": true,
+  "source_inputs_unchanged": true,
+  "DRC_counts": {
+    "track_dangling": 12,
+    "via_dangling": 20,
+    "unconnected_items": 17
+  },
+  "DRC_exclusions": 0,
+  "ignored_DRC_severities": 0,
+  "positive_rule_controls": "PASS: annulus, hole-to-copper, hole-to-hole, mask web",
+  "native_layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "In3.Cu",
+    "In4.Cu",
+    "In5.Cu",
+    "In6.Cu",
+    "B.Cu"
+  ],
+  "L3_maps_to": "In2.Cu",
+  "reference_thickness_mm": 1.2,
+  "explicit_dielectric_stack_defined": false,
+  "NSMD_Cu_mask_paste_mm": [
+    0.3,
+    0.4,
+    0.3
+  ],
+  "stencil_mm_assumption": 0.1,
+  "nominal_mask_web_mm": 0.1,
+  "nominal_mask_web_margin_mm": 0,
+  "nominal_annulus_mm": 0.075,
+  "nominal_annulus_margin_mm": 0,
+  "manufacturing_qualification": "OPEN, including filled/planarized/copper-capped VIPPO and exact Micron PCB lands"
+}

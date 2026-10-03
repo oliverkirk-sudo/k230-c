@@ -1,0 +1,26 @@
+{
+  "erc_date": "2026-09-30T03:58:42-0700",
+  "total": 14,
+  "severity_counts": {
+    "warning": 1,
+    "error": 13
+  },
+  "type_counts": {
+    "global_label_dangling": 1,
+    "pin_not_driven": 1,
+    "pin_not_connected": 5,
+    "power_pin_not_driven": 7
+  },
+  "class_counts": {
+    "SPEC": 12,
+    "UNUSED": 1,
+    "REAL": 1
+  },
+  "sha256": {
+    "erc.json": "b9c0cb7577289e35947e33d7af807fb61f711ca01e9990de003b9dcd8d2a13fe",
+    "master.xml": "0684832d84aeae6c64c08c232762de18e44921e7ce9f7905a7df4763a3d4800d",
+    "build_review.py": "4e195ec6f34561e53126c2210124a889a09c179fe7270be32f0f74a4f4e70747"
+  },
+  "baseline_total": 51,
+  "reconciliation": "19 unused-pin dispositions removed old errors; 19 traced supply-source declarations removed passive-source semantics; corrected strobe input type added one genuine undriven-input error; D8 and four PMU pins remain unconnected in this export."
+}

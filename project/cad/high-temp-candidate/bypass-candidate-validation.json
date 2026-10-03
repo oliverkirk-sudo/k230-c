@@ -1,0 +1,687 @@
+{
+  "status": "LAYOUT_SOURCE_ASSIGNMENTS_VERIFIED_EFFECTIVE_CAPACITANCE_AND_ASSEMBLY_OPEN",
+  "assignments": [
+    {
+      "reference": "C45",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C31",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C32",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C33",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C34",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C205",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C209",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C215",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C222",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C227",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C232",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C233",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C234",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C235",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C236",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C237",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C238",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C239",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C240",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C241",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C242",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C243",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C244",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C245",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C246",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C61",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C62",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C63",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C66",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C67",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C68",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C501",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C502",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C503",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C504",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C505",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C506",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C507",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C508",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C509",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C510",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C511",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C512",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C513",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C514",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C515",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C516",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C517",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C518",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C519",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C520",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C521",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C522",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C523",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C524",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C525",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C526",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C527",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C528",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C529",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C530",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C531",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C532",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C533",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C534",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C535",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C536",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C537",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C538",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C539",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C541",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C542",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C543",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C544",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C545",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C546",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C547",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C548",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C549",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C550",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C551",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C553",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C554",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C555",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C556",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C557",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C558",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C559",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C560",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C561",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C563",
+      "mpn_candidate": "CL10B475KQ8NFQC",
+      "nominal": "4.7uF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C564",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C565",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C566",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C567",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C568",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C569",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C570",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C571",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C572",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C573",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C574",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C575",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C576",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C577",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C809",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C810",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C811",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C812",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C813",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C814",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    },
+    {
+      "reference": "C816",
+      "mpn_candidate": "CL03B104KP3NNWC",
+      "nominal": "100nF",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE"
+    }
+  ],
+  "count": 112,
+  "counts_by_mpn": {
+    "CL03B104KP3NNWC": 100,
+    "CL10B475KQ8NFQC": 12
+  },
+  "strict_memory_local_bypass_not_selected": [
+    "C65",
+    "C70",
+    "C72"
+  ]
+}

@@ -1,0 +1,1522 @@
+{
+  "status": "THREE_PACKAGE_NET_AWARE_ANCHOR_SEARCH_NOT_COMPLETE_PLACEMENT",
+  "coordinate_convention": "module top view,origin top-left,+x right,+y down;rotations clockwise",
+  "candidate_combinations_tested": 12012,
+  "direct_edge_signals_used": 111,
+  "DDR_joins": 65,
+  "eMMC_host_paths": 11,
+  "objective": "2x DDR Manhattan length + MMC endpoint lower bound + direct-edge Manhattan length (CSI/DSI/USB weight2); heuristic, not electrical delay",
+  "scope_limits": [
+    "Storage paths contain mux/translation not placed; direct endpoint score is only a lower bound.",
+    "No PDN/local decouplers/regulator loops or rest-of-BOM fit enforced.",
+    "No congestion, vias, obstacles, impedance, skew, timing or thermal verification.",
+    "Geometry uses conditional1.30mm edge reservation and maximum-package body plus0.25mm per side.",
+    "Search is bounded to plausible DDR-side/MMC-side adjacency; not a global optimum proof."
+  ],
+  "best_candidates": [
+    {
+      "score": 4284.05,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 88.80000000000001,
+      "edge_weighted_sum_mm": 3060.8,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            29.0,
+            29.1
+          ],
+          "rotation_clockwise_deg": 0
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          22.95,
+          22.3,
+          12.1,
+          13.6
+        ]
+      }
+    },
+    {
+      "score": 4286.200000000001,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 90.95000000000002,
+      "edge_weighted_sum_mm": 3060.8,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            25.0,
+            28.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          18.2,
+          22.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4289.5,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 88.80000000000001,
+      "edge_weighted_sum_mm": 3066.25,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            27.0,
+            29.1
+          ],
+          "rotation_clockwise_deg": 0
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          20.95,
+          22.3,
+          12.1,
+          13.6
+        ]
+      }
+    },
+    {
+      "score": 4291.65,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 90.95000000000002,
+      "edge_weighted_sum_mm": 3066.25,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            23.0,
+            28.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          16.2,
+          22.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4293.900000000001,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 98.65000000000002,
+      "edge_weighted_sum_mm": 3060.8,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            27.0,
+            28.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          20.2,
+          22.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4295.7,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 88.80000000000001,
+      "edge_weighted_sum_mm": 3072.45,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            29.0,
+            27.1
+          ],
+          "rotation_clockwise_deg": 0
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          22.95,
+          20.3,
+          12.1,
+          13.6
+        ]
+      }
+    },
+    {
+      "score": 4297.200000000001,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 101.95000000000002,
+      "edge_weighted_sum_mm": 3060.8,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            25.0,
+            29.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          18.2,
+          23.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4297.85,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 90.95000000000002,
+      "edge_weighted_sum_mm": 3072.45,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            25.0,
+            26.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          18.2,
+          20.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4299.35,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 98.65000000000002,
+      "edge_weighted_sum_mm": 3066.25,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            25.0,
+            28.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          18.2,
+          22.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4301.15,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 88.80000000000001,
+      "edge_weighted_sum_mm": 3077.9,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            27.0,
+            27.1
+          ],
+          "rotation_clockwise_deg": 0
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          20.95,
+          20.3,
+          12.1,
+          13.6
+        ]
+      }
+    },
+    {
+      "score": 4302.65,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 101.95000000000002,
+      "edge_weighted_sum_mm": 3066.25,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            23.0,
+            29.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          16.2,
+          23.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4303.150000000001,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 107.9,
+      "edge_weighted_sum_mm": 3060.8,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            27.0,
+            29.1
+          ],
+          "rotation_clockwise_deg": 0
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          20.95,
+          22.3,
+          12.1,
+          13.6
+        ]
+      }
+    },
+    {
+      "score": 4303.3,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 90.95000000000002,
+      "edge_weighted_sum_mm": 3077.9,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            23.0,
+            26.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          16.2,
+          20.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4303.900000000001,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 108.65000000000002,
+      "edge_weighted_sum_mm": 3060.8,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            29.0,
+            28.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          22.2,
+          22.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4304.900000000001,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 109.65000000000002,
+      "edge_weighted_sum_mm": 3060.8,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            27.0,
+            29.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          20.2,
+          23.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4305.55,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 98.65000000000002,
+      "edge_weighted_sum_mm": 3072.45,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            27.0,
+            26.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          20.2,
+          20.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4306.7,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 99.80000000000001,
+      "edge_weighted_sum_mm": 3072.45,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            29.0,
+            28.1
+          ],
+          "rotation_clockwise_deg": 0
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          22.95,
+          21.3,
+          12.1,
+          13.6
+        ]
+      }
+    },
+    {
+      "score": 4308.200000000001,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 112.95000000000002,
+      "edge_weighted_sum_mm": 3060.8,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            25.0,
+            30.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          18.2,
+          24.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4308.6,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 107.9,
+      "edge_weighted_sum_mm": 3066.25,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            25.0,
+            29.1
+          ],
+          "rotation_clockwise_deg": 0
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          18.95,
+          22.3,
+          12.1,
+          13.6
+        ]
+      }
+    },
+    {
+      "score": 4308.85,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 101.95000000000002,
+      "edge_weighted_sum_mm": 3072.45,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            25.0,
+            27.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          18.2,
+          21.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4309.35,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 108.65000000000002,
+      "edge_weighted_sum_mm": 3066.25,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            27.0,
+            28.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          20.2,
+          22.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4309.75,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 90.95000000000002,
+      "edge_weighted_sum_mm": 3084.35,
+      "anchors": {
+        "U1": {
+          "center": [
+            27,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            14.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            27.0,
+            28.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          20.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          9.100000000000001,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          20.2,
+          22.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4310.35,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 109.65000000000002,
+      "edge_weighted_sum_mm": 3066.25,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            25.0,
+            29.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          18.2,
+          23.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4311.0,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 98.65000000000002,
+      "edge_weighted_sum_mm": 3077.9,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            25.0,
+            26.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          18.2,
+          20.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4312.15,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 99.80000000000001,
+      "edge_weighted_sum_mm": 3077.9,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            27.0,
+            28.1
+          ],
+          "rotation_clockwise_deg": 0
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          20.95,
+          21.3,
+          12.1,
+          13.6
+        ]
+      }
+    },
+    {
+      "score": 4313.65,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 112.95000000000002,
+      "edge_weighted_sum_mm": 3066.25,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            23.0,
+            30.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          16.2,
+          24.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4314.3,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 101.95000000000002,
+      "edge_weighted_sum_mm": 3077.9,
+      "anchors": {
+        "U1": {
+          "center": [
+            23,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            10.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            23.0,
+            27.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          16.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          5.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          16.2,
+          21.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4314.8,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 107.9,
+      "edge_weighted_sum_mm": 3072.45,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            13
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            13.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            27.0,
+            27.1
+          ],
+          "rotation_clockwise_deg": 0
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          6.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          5.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          20.95,
+          20.3,
+          12.1,
+          13.6
+        ]
+      }
+    },
+    {
+      "score": 4314.900000000001,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 119.65000000000002,
+      "edge_weighted_sum_mm": 3060.8,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            29.0,
+            29.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          22.2,
+          23.3,
+          13.6,
+          12.1
+        ]
+      }
+    },
+    {
+      "score": 4315.400000000001,
+      "DDR_sum_manhattan_mm": 567.225,
+      "DDR_max_manhattan_mm": 15.875,
+      "MMC_lower_bound_sum_mm": 120.15,
+      "edge_weighted_sum_mm": 3060.8,
+      "anchors": {
+        "U1": {
+          "center": [
+            25,
+            15
+          ],
+          "rotation_clockwise_deg": 180
+        },
+        "U2": {
+          "center": [
+            12.4,
+            15.0
+          ],
+          "rotation_clockwise_deg": 0
+        },
+        "U3": {
+          "center": [
+            23.0,
+            29.35
+          ],
+          "rotation_clockwise_deg": 90
+        }
+      },
+      "body_plus_clearance_rectangles": {
+        "U1": [
+          18.2,
+          8.2,
+          13.6,
+          13.6
+        ],
+        "U2": [
+          7.1000000000000005,
+          7.45,
+          10.6,
+          15.1
+        ],
+        "U3": [
+          16.2,
+          23.3,
+          13.6,
+          12.1
+        ]
+      }
+    }
+  ],
+  "input_hashes": {
+    "cad/high-temp-candidate/master.xml": "5ecd0c50fecfa56826569ec897e47b306bce8e25fa89d5382a7b43a132359c5f",
+    "engineering/bga-engineering-candidates/memory-soc-functional-balls.csv": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0"
+  }
+}

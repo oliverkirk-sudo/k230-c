@@ -1,0 +1,82 @@
+{
+  "status": "ARCHIVAL_NXP_PIXELS_CURRENT_NEXPERIA_TEXT_DIMENSIONS_MATCH",
+  "outline_pixels_reviewed": true,
+  "reflow_pixels_reviewed": true,
+  "component_side_numbering_verified": true,
+  "local_sources": [
+    {
+      "path": "/workspace/shared/k230-reference/SOT1160-1_NXP_archival_reflow.pdf",
+      "sha256": "3aba5537e19187d51c9c8494937482a1e8f376b4a8ee977cc2be10288faa9e91",
+      "bytes": 216108,
+      "document_page": "https://www.datasheetarchive.com/datasheet/SOT1160-1/NXP-Semiconductors?term=sot116&version=1",
+      "pixels_path": "/workspace/shared/k230-reference/SOT1160-1_NXP_archival_reflow.png",
+      "pixels_sha256": "9ba6582ecb0c7061fee94b976237304d896e9168b794b7423f163f4fb00deec8"
+    },
+    {
+      "path": "/workspace/shared/k230-reference/SOT1160-1_NXP_archival_outline.pdf",
+      "sha256": "1cf1d5a02ef2ac5086c67892f8e00020de084d5d2cfe602539a228cd0722e692",
+      "bytes": 222134,
+      "document_page": "https://www.datasheetarchive.com/datasheet/SOT1160-1/NXP-Semiconductors?term=sot116&version=3",
+      "pixels_path": "/workspace/shared/k230-reference/SOT1160-1_NXP_archival_outline.png",
+      "pixels_sha256": "008a4af1f57ac61b19c77317b5c810e1fc6fb06252fa4d54281241e6ade36d32"
+    }
+  ],
+  "outline_identifier": "sot1160-1_po",
+  "outline_effective_issue_date": "2009-12-29",
+  "outline_superseded_struck_date": "2009-12-28",
+  "reflow_identifier": "sot1160-1_fr",
+  "reflow_copyright_year": 2010,
+  "reflow_issue_date": "not printed; copyright year is not a revision date",
+  "outline_copyright_year": 2009,
+  "current_primary_crosscheck": {
+    "url": "https://assets.nexperia.com/documents/package-information/SOT1160-1.pdf",
+    "package_page": "https://www.nexperia.com/packages/SOT1160-1.html",
+    "document_date": "2022-06-07",
+    "reviewer": "Historical engineering review, 2026-10-01 17:32 UTC",
+    "method": "current primary web text; not current PDF pixels or byte-identical comparison",
+    "reflow_identifier": "sot1160-1_fr",
+    "outline_identifier": "sot1160-1_po",
+    "outline_dates": [
+      "09-12-28",
+      "09-12-29"
+    ],
+    "matched_annotations": [
+      "1.95",
+      "1.7 CU",
+      "1.25",
+      "0.45",
+      "0.4 (6x)",
+      "0.22 CU (10x)",
+      "0.85",
+      "1 CU",
+      "2.1 CU",
+      "2.35",
+      "0.5 CU",
+      "0.6 CU",
+      "mask +0.0625",
+      "paste -0.02",
+      "stencil 0.1"
+    ]
+  },
+  "PDF_revision_identity_claimed": false,
+  "numbering_transform": "Reflect terminal-side drawing vertically: top3/4/5 becomes bottom3/4/5; bottom10/9/8 becomes top10/9/8; long left-lower1 becomes left-upper1. Top-side index area is upper-left. No rotation needed.",
+  "body_nominal_mm": [
+    1.4,
+    1.8
+  ],
+  "body_min_mm": [
+    1.3,
+    1.7
+  ],
+  "body_max_mm": [
+    1.5,
+    1.9
+  ],
+  "height_max_mm": 0.5,
+  "excluded_protrusions_max_each_side_mm": 0.075,
+  "body_max_including_protrusions_mm": [
+    1.65,
+    2.05
+  ],
+  "raw_originals_in_delivery": false
+}

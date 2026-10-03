@@ -1,0 +1,1434 @@
+{
+  "source": "01Studio CM-K230 original3d-model.zip /3d-model.step",
+  "source_step_sha256": "09060dac4ab16863aa22c73fc33afcaee7124c3957267031e0896ad70fc82cc9",
+  "scope": "NOMINAL_REFERENCE_MODEL_GEOMETRY_NOT_DRILL_OR_MANUFACTURING_AUTHORITY",
+  "physical_edge_cylinder_positions": 140,
+  "positions_per_side": 35,
+  "nominal_pitch_mm": 1,
+  "nominal_cylindrical_cutout_diameter_mm": 0.5,
+  "board_solid_bbox_mm": [
+    0.012700025400015573,
+    37.98737617475204,
+    0.012700025400005534,
+    37.98737617475203,
+    0.0,
+    1.538354076708
+  ],
+  "model_overall_bbox_mm": [
+    0.012700025400015573,
+    37.98737617475204,
+    0.012700025400005534,
+    37.98737617475203,
+    0.0,
+    2.738258076708
+  ],
+  "holes": [
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        2.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464132
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        3.00001
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464133
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        4.00001
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004643353
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        5.00001
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464336
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        6.00001
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464337
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        7.00001
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004643406
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        8.00002
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004643424
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        9.00002
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641426
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        10.00002
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641426
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        11.00002
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641355
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        12.00002
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641355
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        13.00003
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464132
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        14.00003
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464125
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        15.00003
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641177
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        16.00003
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464114
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        17.00003
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464114
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        18.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464114
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        19.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641284
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        20.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004643317
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        21.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004643317
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        22.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004643317
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        23.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004643175
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        24.00005
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004643326
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        25.00005
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641292
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        26.00005
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641346
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        27.00005
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641346
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        28.00005
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464149
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        29.00006
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641346
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        30.00006
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641346
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        31.00006
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641346
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        32.00006
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641417
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        33.00006
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641363
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        34.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641363
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        35.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641363
+    },
+    {
+      "side": "left",
+      "center_xy_mm": [
+        -0.0,
+        36.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004641266
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        2.00001,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        2.00001,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769992
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        3.00001,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004643206
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        3.00001,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467699636
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        4.00001,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004643206
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        4.00001,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        5.00001,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        5.00001,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        6.00001,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        6.00001,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        7.00001,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004643206
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        7.00001,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467699925
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        8.00002,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        8.00002,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467699916
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        9.00002,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464524
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        9.00002,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769785
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        10.00002,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004645236
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        10.00002,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769785
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        11.00002,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004645245
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        11.00002,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769785
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        12.00002,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004645245
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        12.00002,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769785
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        13.00003,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464525
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        13.00003,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769785
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        14.00003,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004643215
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        14.00003,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769991
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        15.00003,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004643215
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        15.00003,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467699925
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        16.00003,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        16.00003,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467699627
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        17.00003,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        17.00003,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        18.00004,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        18.00004,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467699627
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        19.00004,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        19.00004,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467699627
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        20.00004,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004643215
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        20.00004,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        21.00004,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        21.00004,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        22.00004,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464322
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        22.00004,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467699627
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        23.00005,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.03994870046432
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        23.00005,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        24.00005,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004645236
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        24.00005,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467697837
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        25.00005,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464523
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        25.00005,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467697837
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        26.00005,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004645254
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        26.00005,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769785
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        27.00005,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464525
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        27.00005,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467697837
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        28.00006,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464525
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        28.00006,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467697837
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        29.00006,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464526
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        29.00006,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467697837
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        30.00006,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        30.00006,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769966
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        31.00006,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464321
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        31.00006,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467699614
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        32.00006,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464322
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        32.00006,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        33.00007,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464322
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        33.00007,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        34.00007,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039948700464322
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        34.00007,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        35.00007,
+        -0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004643206
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        35.00007,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.039969046769964
+    },
+    {
+      "side": "bottom",
+      "center_xy_mm": [
+        36.00007,
+        0.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399487004643224
+    },
+    {
+      "side": "top",
+      "center_xy_mm": [
+        36.00007,
+        38.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 1,
+      "model_material_arc_rad": 3.0399690467699614
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        2.0
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464511
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        3.00001
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464511
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        4.00001
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464535
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        5.00001
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464513
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        6.00001
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464535
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        7.00001
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645147
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        8.00002
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645147
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        9.00002
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004647385
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        10.00002
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004647137
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        11.00002
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004647376
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        12.00002
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004647137
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        13.00003
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004647137
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        14.00003
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004647137
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        15.00003
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645103
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        16.00003
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645103
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        17.00003
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464514
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        18.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464514
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        19.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645245
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        20.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645245
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        21.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645245
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        22.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464514
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        23.00004
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645245
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        24.00005
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464514
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        25.00005
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464728
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        26.00005
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464717
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        27.00005
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464717
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        28.00005
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004647137
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        29.00006
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004647394
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        30.00006
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464535
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        31.00006
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464535
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        32.00006
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645147
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        33.00006
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.039948700464496
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        34.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645245
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        35.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645245
+    },
+    {
+      "side": "right",
+      "center_xy_mm": [
+        38.00008,
+        36.00007
+      ],
+      "nominal_diameter_mm": 0.5,
+      "surface_fragments": 2,
+      "model_material_arc_rad": 3.0399487004645245
+    }
+  ],
+  "limitations": [
+    "STEPcylinder diameter is not a manufacturing drill/tool specification or plating allowance.",
+    "No copper-pad/mask/plating dimensions are inferred from these board-surface cylinders.",
+    "Board-material bbox is inset about0.0127mm from nominal38mm edges; treat this as model geometry, not a routing tolerance.",
+    "Model board height is about1.538mm and full-model height about2.738mm; neither is a certified manufactured thickness/height.",
+    "New fabrication proposal still needs selected-factory process acceptance."
+  ]
+}

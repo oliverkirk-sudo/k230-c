@@ -1,0 +1,124 @@
+{
+  "master_xml_sha256": "11d048c076fb54df9ea63b926a1f7db53ffe712d9e26984d0a4df62109876263",
+  "allocation_count": 77,
+  "allocation_value_counts": {
+    "4.7uF": 10,
+    "100nF": 64,
+    "22uF": 3
+  },
+  "all_77_net_pairs_match_allocation": true,
+  "components": [
+    {
+      "reference": "C201",
+      "value": "47uF X7R / Ceff>=10uF",
+      "pins_to_nets": {
+        "2": "GND",
+        "1": "VDD0P8_CORE"
+      }
+    },
+    {
+      "reference": "C206",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "pins_to_nets": {
+        "2": "GND",
+        "1": "VDD0P8_CPU"
+      }
+    },
+    {
+      "reference": "C207",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "pins_to_nets": {
+        "2": "GND",
+        "1": "VDD0P8_CPU"
+      }
+    },
+    {
+      "reference": "C208",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "pins_to_nets": {
+        "2": "GND",
+        "1": "VDD0P8_CPU"
+      }
+    },
+    {
+      "reference": "C212",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "pins_to_nets": {
+        "2": "GND",
+        "1": "VDD0P8_KPU"
+      }
+    },
+    {
+      "reference": "C213",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "pins_to_nets": {
+        "2": "GND",
+        "1": "VDD0P8_KPU"
+      }
+    },
+    {
+      "reference": "C214",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "pins_to_nets": {
+        "2": "GND",
+        "1": "VDD0P8_KPU"
+      }
+    },
+    {
+      "reference": "C218",
+      "value": "47uF X7R / Ceff>=10uF",
+      "pins_to_nets": {
+        "2": "GND",
+        "1": "VDD1P1_DDR_IO"
+      }
+    },
+    {
+      "reference": "C223",
+      "value": "47uF X7R / Ceff>=10uF",
+      "pins_to_nets": {
+        "2": "GND",
+        "1": "VDD1P8"
+      }
+    },
+    {
+      "reference": "C233",
+      "value": "100nF CL03B104KP3NNWC CANDIDATE",
+      "pins_to_nets": {
+        "2": "GND",
+        "1": "VDD0P8_DDR_CORE"
+      }
+    },
+    {
+      "reference": "C202",
+      "value": "1.2nF C0G FEEDFORWARD",
+      "pins_to_nets": {
+        "2": "FB_CORE",
+        "1": "VDD0P8_CORE"
+      }
+    },
+    {
+      "reference": "C219",
+      "value": "1.2nF C0G FEEDFORWARD",
+      "pins_to_nets": {
+        "2": "FB_DDR",
+        "1": "VDD1P1_DDR_IO"
+      }
+    },
+    {
+      "reference": "C224",
+      "value": "1.2nF C0G FEEDFORWARD",
+      "pins_to_nets": {
+        "2": "FB_1V8",
+        "1": "VDD1P8"
+      }
+    },
+    {
+      "reference": "R220",
+      "value": "0R WSL060300000ZEA9 Rmax=0.25mOhm",
+      "pins_to_nets": {
+        "1": "VDD0P8_CORE",
+        "2": "VDD0P8_DDR_CORE"
+      }
+    }
+  ]
+}

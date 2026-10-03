@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Package_TO_SOT_SMD.pretty:SOT-353_SC-70-5",
+    "description": "SOT-353, SC-70-5",
+    "pads": [
+      {
+        "number": "1",
+        "xywh": [
+          -0.95,
+          -0.65,
+          0.65,
+          0.4
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "2",
+        "xywh": [
+          -0.95,
+          0.0,
+          0.65,
+          0.4
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "3",
+        "xywh": [
+          -0.95,
+          0.65,
+          0.65,
+          0.4
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "4",
+        "xywh": [
+          0.95,
+          0.65,
+          0.65,
+          0.4
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "5",
+        "xywh": [
+          0.95,
+          -0.65,
+          0.65,
+          0.4
+        ],
+        "angle": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Package_TO_SOT_SMD.pretty:SOT-553",
+    "description": "SOT, 5 Pin (https://www.jedec.org/system/files/docs/MO-293B.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py",
+    "pads": [
+      {
+        "number": "1",
+        "xywh": [
+          -0.7125,
+          -0.5,
+          0.675,
+          0.35
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "2",
+        "xywh": [
+          -0.7125,
+          0.0,
+          0.675,
+          0.35
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "3",
+        "xywh": [
+          -0.7125,
+          0.5,
+          0.675,
+          0.35
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "4",
+        "xywh": [
+          0.7125,
+          0.5,
+          0.675,
+          0.35
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "5",
+        "xywh": [
+          0.7125,
+          -0.5,
+          0.675,
+          0.35
+        ],
+        "angle": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Package_DFN_QFN.pretty:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+    "description": "6-Lead Plastic Dual Flat, No Lead Package (MA) - 2x2x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)",
+    "pads": [
+      {
+        "number": "",
+        "xywh": [
+          0.0,
+          -0.4,
+          0.82,
+          0.63
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "",
+        "xywh": [
+          0.0,
+          0.4,
+          0.82,
+          0.63
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "1",
+        "xywh": [
+          -1.05,
+          -0.65,
+          0.65,
+          0.35
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "2",
+        "xywh": [
+          -1.05,
+          0.0,
+          0.65,
+          0.35
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "3",
+        "xywh": [
+          -1.05,
+          0.65,
+          0.65,
+          0.35
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "4",
+        "xywh": [
+          1.05,
+          0.65,
+          0.65,
+          0.35
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "5",
+        "xywh": [
+          1.05,
+          0.0,
+          0.65,
+          0.35
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "6",
+        "xywh": [
+          1.05,
+          -0.65,
+          0.65,
+          0.35
+        ],
+        "angle": 0.0
+      },
+      {
+        "number": "7",
+        "xywh": [
+          0.0,
+          0.0,
+          1.0,
+          1.6
+        ],
+        "angle": 0.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,202 @@
+          1                                2                                     3                  4                                      5                                                6                                                7                                                 8
+
+
+
+                                                                                                                                                                                                                                                     UD1.2
+                                                                                                                                                                                                                         VDD_1V8                  F1                  A3
+                                                                                                                                                                                                                                                      VDD1        VSS
+                                                                                                                                                                                                                                                 F12                  A10
+                                                                                                                                                                                                                                                      VDD1        VSS
+                                                                                                                                                                                                                                                  G4                  C1
+                                                                                                                                                                                                                                                      VDD1        VSS
+                                                                                                                                                                                                                                                  G9                  C5
+                                                                                                                             UD1.1                                                                                                                    VDD1        VSS
+                                                                                                                                                                                                                                                  T4 VDD1             C8
+                                                                                                                                                                                                                                                                  VSS
+                                                                                                                                                                                                                                                  T9 VDD1             C12
+                                                                                                                                                                                                                                                                  VSS
+                                                                                                          DDR_DQA0                                              DDR_CAA0                                                                          U1 VDD1             D2
+                                                                                                                         B2                             H2                                                                                                        VSS
+                                                                                                          DDR_DQA1          DQ0_a                 CA0_a         DDR_CAA1                                                                         U12 VDD1             D4
+                                                                                                                         C2                             J2                                                                                                        VSS
+                                                                                                          DDR_DQA2          DQ1_a                 CA1_a         DDR_CAA2                                                                                              D9
+                                                                                                                         E2                             H9                                                                                                        VSS
+A                                                                                                         DDR_DQA3          DQ2_a                 CA2_a         DDR_CAA3                                                                                              D11                                        A
+                                                                                                                         F2                             H10                                                                                                       VSS
+                                                                                                          DDR_DQA4          DQ3_a                 CA3_a         DDR_CAA4                                                 VDD_1V1                  K1                  E1
+                                                                                                                         F4                             H11                                                                                          VDD2         VSS
+                                                                                                          DDR_DQA5          DQ4_a                 CA4_a         DDR_CAA5                                                                          K3                  E5
+                                                                                                                         E4                             J11                                                                                          VDD2         VSS
+                                                                                                          DDR_DQA6          DQ5_a                 CA5_a                                                                                          K10                  E8
+                                                                                                                         C4                                                                                                                          VDD2         VSS
+                                                                                                          DDR_DQA7          DQ6_a                                                                                                                K12                  E12
+                                                                                                                         B4                                                                                                                          VDD2         VSS
+                                                                                                                            DQ7_a                               DDR_CLKA_P                                                                        A4                  J10
+                                                                                                                                                        J8                                                                                           VDD2         VSS
+                        U12.2                                                                             DDR_DQA8                               CK_t_a         DDR_CLKA_N                                                                        A9                  J12
+                                                                                                                        B11                             J9                                                                                           VDD2         VSS
+                                                                                                          DDR_DQA9          DQ8_a                CK_c_a                                                                                           F5                  K2
+                                                                                                                        C11                                                                                                                          VDD2         VSS
+                                                                                                          DDR_DQA10         DQ9_a                               DDR_DQSA0_P                                                                       F8                  K4
+                                                                                                                        E11                             D3                                                                                           VDD2         VSS
+                                      DDR - LPDDR4                                                        DDR_DQA11     F11
+                                                                                                                            DQ10_a             DQS0_t_a
+                                                                                                                                                        E3      DDR_DQSA0_N                                                                       R1 VDD2
+                                                                                                                                                                                                                                                                  VSS
+                                                                                                                                                                                                                                                                      K9
+                                                                                                          DDR_DQA12         DQ11_a             DQS0_c_a                                                                                          AB9 VDD2             K11
+    DDR_DQA4      U16                                            M19      DDR_CAA0                                       F9                                                                                                                                       VSS
+                         DDR_DQA0                     DDR_CAA0                                            DDR_DQA13         DQ12_a                              DDR_DQSA1_P                                                                       U5 VDD2             G1
+    DDR_DQA3      T16                                            L16      DDR_CAA1                                       E9                             D10                                                                                                       VSS
+                         DDR_DQA1                     DDR_CAA1                                            DDR_DQA14         DQ13_a             DQS1_t_a         DDR_DQSA1_N                                                                       U8 VDD2             G3
+    DDR_DQA1      V16                                            N19      DDR_CAA2                                       C9                             E10                                                                                                       VSS
+                         DDR_DQA2                     DDR_CAA2                                            DDR_DQA15         DQ14_a             DQS1_c_a                                                                                          R12 VDD2             G5
+    DDR_DQA0      Y16                                            N20      DDR_CAA3                                       B9                                                                                                                                       VSS
+                         DDR_DQA3                     DDR_CAA3                                                              DQ15_a                              DDR_CSA0                                                                          R5 VDD2             G8
+    DDR_DQA6      W18                                            M18      DDR_CAA4                                                                  H4                                                                                                            VSS
+                         DDR_DQA4                     DDR_CAA4                                            DDR_DMIA0                            CS_a             DDR_CKEA0                                                                         R8 VDD2             G10
+    DDR_DQA5      V18                                            P19      DDR_CAA5                                       C3                         J4                                                                                                            VSS
+                         DDR_DQA5                     DDR_CAA5                                            DDR_DMIA1         DMIO_a            CKE_a            R25     10K                                                                        H1                  G12
+    DDR_DQA7      Y18                                                                                                   C10                         G2                            VDD_1V1                                                            VDD2         VSS
+                         DDR_DQA6                                                                                           DMI1_a         ODT_CA_a                                                                                               H5                  J1
+    DDR_DQA2      U17                                                                                                                                                                                                                                VDD2         VSS
+                         DDR_DQA7                                                                                                                                                                                                                 H8                  J3
+                                                                 R19      DDR_CLKA_P                                                                                                                                                                 VDD2         VSS
+                                                     DDR_CLKAP                                                                                                                                                                                   H12              VSS N2
+    DDR_DQA11     R17                                            R20      DDR_CLKA_N                                                                                                                                                                 VDD2
+                         DDR_DQA8                    DDR_CLKAN                                            DDR_DQB0                                              DDR_CAB0                                                                          N1 VDD2         VSS N4
+    DDR_DQA13     T18                                                                                                   AA2 DQ0_b                 CA0_b R2
+                         DDR_DQA9                                                                         DDR_DQB1                                              DDR_CAB1                                                                          N3 VDD2         VSS N9
+    DDR_DQA12     R18                                            V17      DDR_DMIA0                                      Y2 DQ1_b                 CA1_b P2
+                         DDR_DQA10                   DDR_DMIA0                                            DDR_DQB2                                              DDR_CAB2                                                                         N10 VDD2         VSS N11
+    DDR_DQA15     U20                                            P17      DDR_DMIA1                                      V2 DQ2_b                 CA2_b R9
+                         DDR_DQA11                   DDR_DMIA1                                            DDR_DQB3                                              DDR_CAB3                                                                         N12 VDD2         VSS P1
+    DDR_DQA8      W19                                                                                                    U2 DQ3_b                 CA3_b R10
+                         DDR_DQA12                                                                        DDR_DQB4                                              DDR_CAB4                                                                         AB4 VDD2         VSS P3
+    DDR_DQA14     U18                                            T20      DDR_CSA0                                       U4 DQ4_b                 CA4_b R11
+                         DDR_DQA13                    DDR_CSA0                                            DDR_DQB5       V4 DQ5_b                               DDR_CAB5                                                                                          VSS P10
+    DDR_DQA10     P16                                            T19                                                                              CA5_b P11
+    DDR_DQA9      T17
+                         DDR_DQA14                    DDR_CSA1                                            DDR_DQB6       Y4 DQ6_b                                                                                                                                 VSS P12
+                         DDR_DQA15
+                                                                 N17      DDR_CKEA0                       DDR_DQB7      AA4 DQ7_b                                                                                                                                 VSS T1
+                                                     DDR_CKEA0                                                                                                  DDR_CLKB_P                                               VDD_1V1                   B3             VSS T3
+    DDR_DQSA0_P   W17                                            P18                                                                             CK_t_b P8                                                                                         B5
+                                                                                                                                                                                                                                                      VDDQ
+B                        DDR_DQSA0P                  DDR_CKEA1                                            DDR_DQB8     AA11 DQ8_b                               DDR_CLKB_N                                                                                        VSS T5                                         B
+    DDR_DQSA0_N   Y17                                                                                                                            CK_c_b P9                                                                                         B8
+                                                                                                                                                                                                                                                      VDDQ
+                         DDR_DQSA0N                                                                       DDR_DQB9      Y11 DQ9_b                                                                                                                     VDDQ        VSS T8
+                                                                                                          DDR_DQB10                                             DDR_DQSB0_P                                                                       B10             VSS T10
+    DDR_DQSA1_P   V20                                            J16      DDR_RESET                                     V11 DQ10_b             DQS0_t_b W3                                                                                            VDDQ
+                         DDR_DQSA1P                  DDR_RESET                                            DDR_DQB11                                             DDR_DQSB0_N                                                                        D1             VSS T12
+    DDR_DQSA1_N   V19                                            K17      DDR_VREF                                      U11 DQ11_b             DQS0_c_b V3                                                                                            VDDQ
+                         DDR_DQSA1N                   DDR_VREF                                            DDR_DQB12                                                                                                                                D5             VSS V1
+                                                                 K19   R26                                               U9 DQ12_b                                                                                                                    VDDQ
+                                                        DDR_ZN                         GND                DDR_DQB13                                             DDR_DQSB1_P                                                                        D8             VSS V5
+                                                                                                                         V9 DQ13_b             DQS1_t_b W10                                                                                           VDDQ
+                                                                       240R/1%                            DDR_DQB14                                             DDR_DQSB1_N                                                                       D12             VSS V8
+                                                                                                                         Y9 DQ14_b             DQS1_c_b V10                                                                                           VDDQ
+                                                                                                          DDR_DQB15                                                                                                                                F3             VSS V12
+                                                                 E20      DDR_CAB0                                      AA9 DQ15_b                                                                                                                    VDDQ
+                                                      DDR_CAB0                                                                                                  DDR_CSB0                                                                          F10             VSS W2
+    DDR_DQB2      C14                                            G19      DDR_CAB1                                                                 CS_b R4                                                                                            VDDQ
+                                                                                                                                                                                                                                                   U3 VDDQ
+                         DDR_DQB0                     DDR_CAB1                                            DDR_DMIB0      Y3 DMI0_b                              DDR_CKEB0                                                                                         VSS W4
+    DDR_DQB4      D14                                            G18      DDR_CAB2                                                                CKE_b P4                                                                                        U10 VDDQ
+                         DDR_DQB1                     DDR_CAB2                                            DDR_DMIB1     Y10 DMI1_b                             R27     10K                                                                                        VSS W9
+    DDR_DQB3      B14                                            H17      DDR_CAB3                                                             ODT_CA_b T2                        VDD_1V1                                                          W1 VDDQ
+    DDR_DQB0      A14
+                         DDR_DQB2                     DDR_CAB3
+                                                                 F17      DDR_CAB4                                                                                                                                                                                VSS W11
+                         DDR_DQB3                     DDR_CAB4                                                                                                     DDR_RESET                                                                       W5 VDDQ        VSS Y1
+    DDR_DQB1      A17                                            F19      DDR_CAB5                                                              RESET_n T11                                                                                        W8 VDDQ
+    DDR_DQB5      B16
+                         DDR_DQB4                     DDR_CAB5
+                                                                                                                                                        A5     R28     240R/1% VDD_1V1                                                                            VSS Y5
+                         DDR_DQB5                                                                                                                   ZQ                                                                                            W12 VDDQ        VSS Y8
+    DDR_DQB6      C16                                                                                                                                                                                                                             AA3 VDDQ
+    DDR_DQB7      B17
+                         DDR_DQB6
+                                                                 G20      DDR_CLKB_P                                                                                                                                                                              VSS Y12
+                         DDR_DQB7                    DDR_CLKBP                                                                                                                                                                                    AA5 VDDQ        VSS AB3
+                                                                 F20      DDR_CLKB_N                                                                                                                                                              AA8 VDDQ
+    DDR_DQB14     C19
+                                                     DDR_CLKBN                                                                                                                                                                                                    VSS AB5
+                         DDR_DQB8                                                                                                                                                                                                                AA10 VDDQ        VSS AB8
+    DDR_DQB15     B19                                            C15      DDR_DMIB0
+    DDR_DQB11     E17
+                         DDR_DQB9                    DDR_DMIB0
+                                                                 D18      DDR_DMIB1                                                                                                                                                                               VSS AB10
+                         DDR_DQB10                   DDR_DMIB1
+    DDR_DQB12     E18
+                         DDR_DQB11
+    DDR_DQB8      C18                                            J20      DDR_CSB0
+                         DDR_DQB12                    DDR_CSB0
+    DDR_DQB10     D17                                            J19                                                   VDD_1V1
+                         DDR_DQB13                    DDR_CSB1                                                                                                                                                                                                             GND
+    DDR_DQB13     D16
+                         DDR_DQB14
+    DDR_DQB9      C17                                            J18      DDR_CKEB0
+                         DDR_DQB15                   DDR_CKEB0
+                                                                 J17                                                                     C18
+                                                     DDR_CKEB1                                                                 R29
+    DDR_DQSB0_P   B15
+                         DDR_DQSB0P                                                                                            240R/1%
+    DDR_DQSB0_N   A15                                            L18                                                                     100nF
+                         DDR_DQSB0N                    DDR_NC
+                                                                 H18                                                                              DDR_VREF
+                                                       DDR_NC
+C   DDR_DQSB1_P   B18
+                         DDR_DQSB1P                    DDR_NC
+                                                                 C20                                                                                                                                                                                                                                             C
+    DDR_DQSB1_N   A18                                            H19                                                                     C19
+                         DDR_DQSB1N                    DDR_NC                                                                  R30
+                                                                 G17                                                                                                             VDD_1V1
+                                                       DDR_NC                                                                  240R/1%
+                                                                 K20                                                                     100nF
+                                                       DDR_NC                                                                                                                                   C20    C21     C22     C23           C24         C25      C26     C27     C28        C29        C30      C31
+                                                                 L20
+                                                       DDR_NC
+                                                                 M20
+                                                       DDR_NA                                                                                                                                   22uF   4.7uF   100nF   100nF         100nF       100nF    100nF   100nF   100nF      100nF      100nF    100nF
+                                                                 L17
+                                                       DDR_NC
+                                                                 N18                                                     GND                                                       GND
+                                                       DDR_NC
+                                                                 D20
+                                                       DDR_NC
+                                                                 D19
+                                                       DDR_NC
+                                                                 F18
+                                                       DDR_NC
+                                                                 M17
+                                                       DDR_NC
+                                                                                             VDD_1V8                                                                             VDD_1V1
+                                                                                                        C32    C33     C34       C35     C36       C37        C38     C39                       C40    C41     C42     C43           C44          C45     C46     C47     C48        C49
+
+                                                                                                        22uF   4.7uF   100nF     100nF   100nF     100nF      100nF   100nF                     22uF   4.7uF   100nF   100nF         100nF        100nF   100nF   100nF   100nF      100nF
+                                                                                              GND                                                                                  GND
+
+
+
+
+                                                                                                                                          VDD_1V8
+
+                                                                                                                                                   C50                C51
+
+                                                                                                                                                         100nF/NC     100nF/NC
+D                                                                                                                                                                                                                                                                                                                D
+                                                                                                                                            GND     1G              2G
+
+                                                                                                                                                                                                                             Title
+                                                                                                                                                                                                                                                                  DDR
+                                                                  K230                       LPDDR4                                                                                                                          Size
+                                                                                                                                                                                                                              A3
+                                                                                                                                                                                                                                             Number
+                                                                                                                                                                                                                                                        www.01Studio.cc
+                                                                                                                                                                                                                                                                                             Revision
+                                                                                                                                                                                                                                                                                                        v1.0
+                                                                                                                                                                                                                             Date:                                              Sheet Of
+                                                                                                                                                                                                                             File:                                              Drawn By:
+          1                                2                                     3                  4                                      5                                                6                                                7                                                 8

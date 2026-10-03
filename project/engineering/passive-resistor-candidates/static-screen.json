@@ -1,0 +1,377 @@
+{
+  "status": "CONDITIONAL_STATIC_ACCEPTANCE_SCREEN_NOT_LIFETIME_OR_BOARD_QUALIFICATION",
+  "resistance_total_acceptance_fraction": 0.1,
+  "initial_tolerance_fraction": 0.01,
+  "tcr_ppm_per_K": 100,
+  "assumptions": [
+    "The +/-10% band must include all actual tolerance, temperature, assembly, aging and environmental shifts. It is not derived as a guaranteed mission life from separate manufacturer tests.",
+    "Rail bounds are upstream static regulator corners. PCB drop, ripple, load steps, board leakage and timing are not included.",
+    "Schmitt comparisons retain the published 1.65V supply test point and do not interpolate guarantees across 1V8.",
+    "All loading checks require the named source limits to apply under the actual device conditions."
+  ],
+  "rail_bounds_V": {
+    "1V8": [
+      1.7644766146971205,
+      1.836094613293051
+    ],
+    "3V3": [
+      3.2451295322889773,
+      3.392164299108761
+    ]
+  },
+  "family": {
+    "resistance_range_1pct_100ppm_ohm": [
+      47,
+      1000000.0
+    ],
+    "resistance_range_1pct_200ppm_ohm": [
+      10,
+      10000000.0
+    ],
+    "low_resistance_range_1pct_ohm": [
+      1,
+      9.76
+    ],
+    "low_resistance_tcr_ppm_per_K": [
+      -200,
+      400
+    ],
+    "operating_temperature_C": [
+      -55,
+      155
+    ],
+    "limiting_element_voltage_V": 30,
+    "P70_W": 0.05,
+    "maximum_film_temperature_C": 155,
+    "graph_derated_power_W": {
+      "85": 0.041176470588235294,
+      "105": 0.029411764705882353,
+      "125": 0.01764705882352941
+    },
+    "endurance_70C_1000h_delta_R": "\u00b1(2% R + 0.1 ohm)",
+    "endurance_70C_8000h_delta_R": "\u00b1(4% R + 0.1 ohm)",
+    "upper_category_155C_1000h_delta_R": "\u00b1(2% R + 0.1 ohm)",
+    "soldering_heat_delta_R": "\u00b1(1% R + 0.05 ohm)",
+    "body_nominal_mm": [
+      0.6,
+      0.3,
+      0.23
+    ],
+    "body_tolerance_mm": [
+      0.03,
+      0.03,
+      0.03
+    ],
+    "source_pad_mm": [
+      0.28,
+      0.43
+    ],
+    "source_inner_gap_mm": 0.23,
+    "pad_centers_x_mm": [
+      -0.255,
+      0.255
+    ],
+    "copper_envelope_mm": [
+      0.79,
+      0.43
+    ],
+    "existing_dense_reservation_mm": [
+      1.1,
+      0.7
+    ],
+    "hypothetical_0p05_mask_plus_0p25_clearance_envelope_mm": [
+      1.39,
+      1.03
+    ],
+    "rounded_hypothetical_envelope_mm": [
+      1.4,
+      1.1
+    ],
+    "mask_paste_courtyard_qualified": false
+  },
+  "R527": {
+    "R_ohm": [
+      9000.0,
+      11000.0
+    ],
+    "leakage_A": 2.1e-06,
+    "high_drop_V": 0.0231,
+    "high_min_V": 3.2220295322889774,
+    "sink_upper_bound_A": 0.0003790071443454179,
+    "sink_limit_A": 0.0004,
+    "sink_margin_A": 2.0992855654582132e-05,
+    "guaranteed_low_bound_V": 0.4,
+    "discrete_VTminus_min_V": 0.47,
+    "discrete_low_margin_V": 0.07,
+    "note": "Conservatively includes the full released-node leakage even when U89 is sinking; TPS3808 has 0.3V at <1.8V/0.4mA and 0.4V at >=1.8V/1mA; use 0.4V common ceiling. Regulator PG leakage is tabulated at5V; applying its 0.1uA bound to3V3 remains a source-condition interpretation."
+  },
+  "R530": {
+    "R_ohm": [
+      90000.0,
+      110000.00000000001
+    ],
+    "leakage_A": 1.05e-06,
+    "high_drop_V": 0.11549999999999999,
+    "high_min_V": 1.6489766146971205,
+    "discrete_VTplus_max_V": 1.31,
+    "discrete_high_margin_V": 0.3389766146971205,
+    "sink_upper_bound_A": 2.1151051258811677e-05,
+    "sink_limit_A": 0.0004,
+    "discrete_low_margin_V": 0.06999999999999995
+  },
+  "R529": {
+    "R_ohm": [
+      90000.0,
+      110000.00000000001
+    ],
+    "leakage_A": 7.5e-07,
+    "low_max_V": 0.0825,
+    "discrete_VTminus_min_V": 0.47,
+    "discrete_low_margin_V": 0.38749999999999996
+  },
+  "R43": {
+    "R_ohm": [
+      90000.0,
+      110000.00000000001
+    ],
+    "known_logic_leakage_A": 7.5e-07,
+    "high_min_excluding_cap_carrier_board_leakage_V": 1.6819766146971205,
+    "discrete_high_margin_before_external_loads_V": 0.3719766146971204,
+    "additional_sink_leakage_budget_to_1p31V_A": 3.3816055881556405e-06,
+    "gate": "100nF C45 leakage, carrier loading, RC rise time and external reset sink must be included."
+  },
+  "R31": {
+    "R_ohm": [
+      9000.0,
+      11000.0
+    ],
+    "load_leakage_A": 9e-06,
+    "default_low_max_V": 0.099,
+    "TMUX_VIL_max_V": 0.45,
+    "low_margin_V": 0.351,
+    "gate": "Valid powered controls; JP1 cold-only and external leakage assumptions retained."
+  },
+  "R32": {
+    "R_ohm": [
+      9000.0,
+      11000.0
+    ],
+    "high_leakage_A": 9.75e-06,
+    "high_min_V": 3.137879532288977,
+    "LVC_VIH_min_V": 2,
+    "high_margin_V": 1.1378795322889772,
+    "sink_upper_bound_A": 0.0003859071443454179,
+    "AUP06_discrete_VOL_V": 0.39,
+    "TMUX_VIL_max_V": 0.45,
+    "discrete_low_margin_V": 0.06,
+    "gate": "AUP06 loaded VOL is at discrete1.65V supply. Leakage/source conditions and full rail interpretation remain signoff items."
+  },
+  "R33": {
+    "current_nominal_ohm": 10000,
+    "proposed_nominal_ohm": 43000,
+    "R_ohm": [
+      38700.0,
+      47300.00000000001
+    ],
+    "actual_net_loads": [
+      "U14.4 Y",
+      "U13.13 EN",
+      "R33.1"
+    ],
+    "supply_net": "VDD_3V3",
+    "old_sink_upper_bound_A": 0.0003789071443454179,
+    "old_125C_3V_16mA_VOL_max_V": 0.5,
+    "TMUX_VIL_max_V": 0.45,
+    "proposed_sink_upper_bound_A": 8.965282426637625e-05,
+    "source_light_load_limit_A": 0.0001,
+    "sink_reserve_A": 1.0347175733623753e-05,
+    "proposed_VOL_max_V": 0.1,
+    "low_margin_V": 0.35,
+    "proposed_VOH_min_V": 3.145129532288977,
+    "TMUX_VIH_min_V": 1.2,
+    "high_margin_V": 1.9451295322889772,
+    "Ioff_125C_A": 2.5e-05,
+    "Ioff_explicit_test_condition": "VCC=0V; VI or VO=5.5V",
+    "hypothetical_live_pullup_unpowered_U14_high_min_V": 1.9680295322889771,
+    "hypothetical_high_margin_V": 0.7680295322889772,
+    "unpowered_gate": "25uA use at actual3V3 node is a conditional extension of the explicit5.5V test. U14 VCC and pullup are physically the same net; independently live pullup is not a normal stable state. This does not establish behavior during common-rail ramps or partial supply."
+  },
+  "R61_R62": {
+    "R_ohm": [
+      9000.0,
+      11000.0
+    ],
+    "ODT_CA_leakage_A": 4e-06,
+    "max_high_drop_V": 0.044,
+    "VIH_fraction_VDD2": 0.75,
+    "same_local_rail_high_margin_V": 0.23120409354096327,
+    "gate": "Uses selected Micron Table153 ODT_CA leakage and Table170 level, with local VDD2 assumed equal at pullup/DRAM. Validate rank/ODT configuration and distribution."
+  },
+  "R203": {
+    "R_ohm": [
+      90000.0,
+      110000.00000000001
+    ],
+    "five_EN_plus_PG_leakage_A": 6e-07,
+    "released_high_drop_V": 0.066,
+    "example_at_2p5V_high_V": 2.434,
+    "sink_upper_bound_at_5p5V_A": 6.16111111111111e-05,
+    "PG_VOL_max_V": 0.4,
+    "EN_VIL_max_V": 0.4,
+    "guaranteed_low_noise_margin_V": 0,
+    "gate": "The published PG low ceiling equals EN low ceiling. No positive guaranteed DC noise margin or startup/ramp closure follows from this resistor."
+  },
+  "R204": {
+    "R_ohm": [
+      9000.0,
+      11000.0
+    ],
+    "EN_leakage_A": 1e-07,
+    "high_drop_V": 0.0010999999999999998,
+    "example_at_2p5V_high_V": 2.4989,
+    "EN_VIH_min_V": 1.0
+  },
+  "R572": {
+    "R_ohm": [
+      90000.0,
+      110000.00000000001
+    ],
+    "conditional_generic_K230_leakage_A": 1e-05,
+    "conditional_low_max_V": 1.1,
+    "conditional_generic_VIL_V": 0.6175668151439921,
+    "conditional_margin_V": -0.48243318485600795,
+    "gate": "Dedicated MMC0_STROBE applicability/internal pull state unknown. Generic10uA model cannot establish a low with100k. Physical candidate only; no electrical approval."
+  },
+  "emmc_ranges": {
+    "R562_CMD": {
+      "nominal_ohm": 22000,
+      "screen_ohm": [
+        19800.0,
+        24200.000000000004
+      ],
+      "source_range_ohm": [
+        4700,
+        50000
+      ],
+      "range_pass": true,
+      "upper_margin_ohm": 25799.999999999996
+    },
+    "R563_R570_DAT_current": {
+      "nominal_ohm": 47000,
+      "screen_ohm": [
+        42300.0,
+        51700.00000000001
+      ],
+      "source_range_ohm": [
+        10000,
+        50000
+      ],
+      "range_pass": false,
+      "upper_margin_ohm": -1700.0000000000073
+    },
+    "R563_R570_DAT_proposed": {
+      "nominal_ohm": 43000,
+      "screen_ohm": [
+        38700.0,
+        47300.00000000001
+      ],
+      "source_range_ohm": [
+        10000,
+        50000
+      ],
+      "range_pass": true,
+      "upper_margin_ohm": 2699.9999999999927
+    },
+    "R34_RST": {
+      "nominal_ohm": 10000,
+      "screen_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "source_range_ohm": [
+        4700,
+        50000
+      ],
+      "range_pass": true,
+      "upper_margin_ohm": 39000.0
+    },
+    "R573_DS": {
+      "nominal_ohm": 47000,
+      "screen_ohm": [
+        42300.0,
+        51700.00000000001
+      ],
+      "source_range_ohm": [
+        10000,
+        100000
+      ],
+      "range_pass": true,
+      "upper_margin_ohm": 48299.99999999999
+    }
+  },
+  "R205_R206": {
+    "candidate_mpn": "TNPW040256K2BYED",
+    "nominal_ohm": 56200,
+    "total_acceptance_fraction": 0.007,
+    "screen_ohm": [
+      55806.6,
+      56593.399999999994
+    ],
+    "TI_required_ohm": [
+      55638.0,
+      56762.0
+    ],
+    "status": "PRECISION_CONDITIONAL_CANDIDATE_ONLY"
+  },
+  "private_i2c": {
+    "references": [
+      "R216",
+      "R217",
+      "R218",
+      "R219"
+    ],
+    "R_ohm": [
+      4230.0,
+      5170.0
+    ],
+    "regulator_VIH_min_V": 1.0,
+    "regulator_VIL_max_V": 0.4,
+    "regulator_SCL_max_leakage_A": 2e-07,
+    "regulator_SDA_max_leakage_A": 1e-07,
+    "SCL_high_margin_before_unknown_load_V": 0.7634426146971205,
+    "SDA_high_margin_before_unknown_load_V": 0.7639596146971204,
+    "unknown_sink_leakage_coefficient_ohm": 5170,
+    "external_pullup_current_at_0V_A": 0.00043406492040024843,
+    "external_pullup_current_at_0p4V_A": 0.0003395022726461113,
+    "regulator_SDA_SCL_absolute_max_sink_A": 0.002,
+    "absolute_max_is_output_drive_guarantee": false,
+    "generic_K230_VOL_max_V": 0.45,
+    "generic_K230_to_TI_low_margin_V": -0.05,
+    "PMU_generic_IO_applicability_verified": false,
+    "PMU_supply_identity": "AVDD1P8_LDO, established in official pinout; supplied here by filtered AVDD1P8_PMU",
+    "default_pad_state": "Input/pulldown; disable internal pulls or account for them",
+    "ideal_RC_capacitance_ceiling_F": {
+      "1000ns": 2.282823057699951e-10,
+      "300ns": 6.848469173099853e-11,
+      "120ns": 2.7393876692399413e-11
+    },
+    "gate": "No guaranteed complete bidirectional DC margin. TI SDA VOL/IOL guarantee absent in inspected electrical table; K230 PMU electrical data applicability unproven and generic0.45V VOL already exceeds TI0.4V VIL. RC values are requirements, not measured capacitance."
+  },
+  "zero_links": {
+    "R221": {
+      "nominal_budget_A": 0.05,
+      "CRCW_70C_max_R_ohm": 0.05,
+      "room_or_rated_condition_drop_V": 0.0025000000000000005,
+      "power_W": 0.00012500000000000003,
+      "gate": "50mA is guide budget, not peak/inrush maximum;1A jumper rating explicitly70C. Hot current/resistance not qualified."
+    },
+    "R528": {
+      "dnp": true,
+      "max_static_load_if_fitted_A": 2.1151051258811677e-05,
+      "gate": "Do not populate qualification strap by default; this current check grants no boot-voltage qualification."
+    },
+    "R401": {
+      "gate": "Do not select until PMU input current/internal pull and firmware ownership are checked. Never drive the strapped input low."
+    }
+  }
+}

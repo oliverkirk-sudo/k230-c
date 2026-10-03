@@ -1,0 +1,855 @@
+{
+  "status": "140_EDGE_NETS_BOUND_INTERNAL_COMPONENTS_AND_ROUTING_ABSENT",
+  "source_netlist_sha256": "5ecd0c50fecfa56826569ec897e47b306bce8e25fa89d5382a7b43a132359c5f",
+  "source_mechanical_board_sha256": "ccbbaf9708887d32c90a928e7b70a8d58ce8c428ab4c22f8c2a127fb24be134b",
+  "seed_sha256": "4e7edc36b52793dc72370998863b27fcf3fe82f1613fb0abbade2e4c623ce9f9",
+  "contacts": [
+    {
+      "pad": "1",
+      "net": "GND",
+      "x_mm": 33.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "2",
+      "net": "GND",
+      "x_mm": 34.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "3",
+      "net": "GND",
+      "x_mm": 35.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "4",
+      "net": "VIN_5V",
+      "x_mm": 36.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "5",
+      "net": "VIN_5V",
+      "x_mm": 37.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "6",
+      "net": "VIN_5V",
+      "x_mm": 38.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "7",
+      "net": "VDD_3V3",
+      "x_mm": 39.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "8",
+      "net": "VDD1P8",
+      "x_mm": 40.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "9",
+      "net": "BANK1_GPIO18",
+      "x_mm": 41.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "10",
+      "net": "BANK1_GPIO19",
+      "x_mm": 42.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "11",
+      "net": "BANK1_GPIO20",
+      "x_mm": 43.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "12",
+      "net": "BANK1_GPIO21",
+      "x_mm": 44.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "13",
+      "net": "BANK1_GPIO22",
+      "x_mm": 45.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "14",
+      "net": "BANK1_GPIO23",
+      "x_mm": 46.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "15",
+      "net": "BANK1_GPIO24",
+      "x_mm": 47.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "16",
+      "net": "BANK1_GPIO25",
+      "x_mm": 48.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "17",
+      "net": "TFCARD_D0",
+      "x_mm": 49.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "18",
+      "net": "TFCARD_D1",
+      "x_mm": 50.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "19",
+      "net": "TFCARD_D2",
+      "x_mm": 51.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "20",
+      "net": "TFCARD_D3",
+      "x_mm": 52.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "21",
+      "net": "TFCARD_CLK",
+      "x_mm": 53.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "22",
+      "net": "TFCARD_CMD",
+      "x_mm": 54.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "23",
+      "net": "BANK4_VDDIO",
+      "x_mm": 55.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "24",
+      "net": "BANK4_GPIO50",
+      "x_mm": 56.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "25",
+      "net": "BANK4_GPIO51",
+      "x_mm": 57.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "26",
+      "net": "BANK4_GPIO52",
+      "x_mm": 58.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "27",
+      "net": "BANK4_GPIO53",
+      "x_mm": 59.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "28",
+      "net": "BANK4_GPIO54",
+      "x_mm": 60.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "29",
+      "net": "BANK4_GPIO55",
+      "x_mm": 61.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "30",
+      "net": "BANK4_GPIO56",
+      "x_mm": 62.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "31",
+      "net": "BANK4_GPIO57",
+      "x_mm": 63.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "32",
+      "net": "BANK4_GPIO58",
+      "x_mm": 64.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "33",
+      "net": "BANK4_GPIO59",
+      "x_mm": 65.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "34",
+      "net": "BANK4_GPIO60",
+      "x_mm": 66.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "35",
+      "net": "BANK4_GPIO61",
+      "x_mm": 67.0,
+      "y_mm": 69.0
+    },
+    {
+      "pad": "36",
+      "net": "GND",
+      "x_mm": 69.0,
+      "y_mm": 67.0
+    },
+    {
+      "pad": "37",
+      "net": "USB1_N",
+      "x_mm": 69.0,
+      "y_mm": 66.0
+    },
+    {
+      "pad": "38",
+      "net": "USB1_P",
+      "x_mm": 69.0,
+      "y_mm": 65.0
+    },
+    {
+      "pad": "39",
+      "net": "USB1_ID",
+      "x_mm": 69.0,
+      "y_mm": 64.0
+    },
+    {
+      "pad": "40",
+      "net": "USB0_P",
+      "x_mm": 69.0,
+      "y_mm": 63.0
+    },
+    {
+      "pad": "41",
+      "net": "USB0_N",
+      "x_mm": 69.0,
+      "y_mm": 62.0
+    },
+    {
+      "pad": "42",
+      "net": "USB0_ID",
+      "x_mm": 69.0,
+      "y_mm": 61.0
+    },
+    {
+      "pad": "43",
+      "net": "ADC0",
+      "x_mm": 69.0,
+      "y_mm": 60.0
+    },
+    {
+      "pad": "44",
+      "net": "ADC1",
+      "x_mm": 69.0,
+      "y_mm": 59.0
+    },
+    {
+      "pad": "45",
+      "net": "ADC2",
+      "x_mm": 69.0,
+      "y_mm": 58.0
+    },
+    {
+      "pad": "46",
+      "net": "ADC3",
+      "x_mm": 69.0,
+      "y_mm": 57.0
+    },
+    {
+      "pad": "47",
+      "net": "ADC4",
+      "x_mm": 69.0,
+      "y_mm": 56.0
+    },
+    {
+      "pad": "48",
+      "net": "ADC5",
+      "x_mm": 69.0,
+      "y_mm": 55.0
+    },
+    {
+      "pad": "49",
+      "net": "GND",
+      "x_mm": 69.0,
+      "y_mm": 54.0
+    },
+    {
+      "pad": "50",
+      "net": "MIC_BIAS",
+      "x_mm": 69.0,
+      "y_mm": 53.0
+    },
+    {
+      "pad": "51",
+      "net": "MIC_NL",
+      "x_mm": 69.0,
+      "y_mm": 52.0
+    },
+    {
+      "pad": "52",
+      "net": "MIC_PL",
+      "x_mm": 69.0,
+      "y_mm": 51.0
+    },
+    {
+      "pad": "53",
+      "net": "MIC_NR",
+      "x_mm": 69.0,
+      "y_mm": 50.0
+    },
+    {
+      "pad": "54",
+      "net": "MIC_PR",
+      "x_mm": 69.0,
+      "y_mm": 49.0
+    },
+    {
+      "pad": "55",
+      "net": "HP_OUTR",
+      "x_mm": 69.0,
+      "y_mm": 48.0
+    },
+    {
+      "pad": "56",
+      "net": "HP_OUTL",
+      "x_mm": 69.0,
+      "y_mm": 47.0
+    },
+    {
+      "pad": "57",
+      "net": "GND",
+      "x_mm": 69.0,
+      "y_mm": 46.0
+    },
+    {
+      "pad": "58",
+      "net": "CSI2_CLK_P",
+      "x_mm": 69.0,
+      "y_mm": 45.0
+    },
+    {
+      "pad": "59",
+      "net": "CSI2_CLK_N",
+      "x_mm": 69.0,
+      "y_mm": 44.0
+    },
+    {
+      "pad": "60",
+      "net": "CSI2_D4_N",
+      "x_mm": 69.0,
+      "y_mm": 43.0
+    },
+    {
+      "pad": "61",
+      "net": "CSI2_D4_P",
+      "x_mm": 69.0,
+      "y_mm": 42.0
+    },
+    {
+      "pad": "62",
+      "net": "CSI2_D5_P",
+      "x_mm": 69.0,
+      "y_mm": 41.0
+    },
+    {
+      "pad": "63",
+      "net": "CSI2_D5_N",
+      "x_mm": 69.0,
+      "y_mm": 40.0
+    },
+    {
+      "pad": "64",
+      "net": "GND",
+      "x_mm": 69.0,
+      "y_mm": 39.0
+    },
+    {
+      "pad": "65",
+      "net": "CSI0_D1_N",
+      "x_mm": 69.0,
+      "y_mm": 38.0
+    },
+    {
+      "pad": "66",
+      "net": "CSI0_D1_P",
+      "x_mm": 69.0,
+      "y_mm": 37.0
+    },
+    {
+      "pad": "67",
+      "net": "CSI0_CLK_N",
+      "x_mm": 69.0,
+      "y_mm": 36.0
+    },
+    {
+      "pad": "68",
+      "net": "CSI0_CLK_P",
+      "x_mm": 69.0,
+      "y_mm": 35.0
+    },
+    {
+      "pad": "69",
+      "net": "CSI0_D0_P",
+      "x_mm": 69.0,
+      "y_mm": 34.0
+    },
+    {
+      "pad": "70",
+      "net": "CSI0_D0_N",
+      "x_mm": 69.0,
+      "y_mm": 33.0
+    },
+    {
+      "pad": "71",
+      "net": "GND",
+      "x_mm": 67.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "72",
+      "net": "CSI1_D2_N",
+      "x_mm": 66.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "73",
+      "net": "CSI1_D2_P",
+      "x_mm": 65.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "74",
+      "net": "CSI1_CLK_P",
+      "x_mm": 64.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "75",
+      "net": "CSI1_CLK_N",
+      "x_mm": 63.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "76",
+      "net": "CSI1_D3_P",
+      "x_mm": 62.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "77",
+      "net": "CSI1_D3_N",
+      "x_mm": 61.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "78",
+      "net": "GND",
+      "x_mm": 60.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "79",
+      "net": "DSI_D3_P",
+      "x_mm": 59.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "80",
+      "net": "DSI_D3_N",
+      "x_mm": 58.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "81",
+      "net": "DSI_D2_N",
+      "x_mm": 57.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "82",
+      "net": "DSI_D2_P",
+      "x_mm": 56.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "83",
+      "net": "DSI_CLK_P",
+      "x_mm": 55.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "84",
+      "net": "DSI_CLK_N",
+      "x_mm": 54.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "85",
+      "net": "DSI_D0_N",
+      "x_mm": 53.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "86",
+      "net": "DSI_D0_P",
+      "x_mm": 52.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "87",
+      "net": "DSI_D1_P",
+      "x_mm": 51.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "88",
+      "net": "DSI_D1_N",
+      "x_mm": 50.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "89",
+      "net": "GND",
+      "x_mm": 49.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "90",
+      "net": "BANK2_VDDIO",
+      "x_mm": 48.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "91",
+      "net": "BANK2_GPIO26",
+      "x_mm": 47.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "92",
+      "net": "BANK2_GPIO27",
+      "x_mm": 46.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "93",
+      "net": "BANK2_GPIO28",
+      "x_mm": 45.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "94",
+      "net": "BANK2_GPIO29",
+      "x_mm": 44.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "95",
+      "net": "BANK2_GPIO30",
+      "x_mm": 43.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "96",
+      "net": "BANK2_GPIO31",
+      "x_mm": 42.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "97",
+      "net": "BANK2_GPIO32",
+      "x_mm": 41.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "98",
+      "net": "BANK2_GPIO33",
+      "x_mm": 40.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "99",
+      "net": "BANK2_GPIO34",
+      "x_mm": 39.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "100",
+      "net": "BANK2_GPIO35",
+      "x_mm": 38.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "101",
+      "net": "BANK2_GPIO36",
+      "x_mm": 37.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "102",
+      "net": "BANK2_GPIO37",
+      "x_mm": 36.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "103",
+      "net": "BANK5_VDDIO",
+      "x_mm": 35.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "104",
+      "net": "BANK5_IO62",
+      "x_mm": 34.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "105",
+      "net": "BANK5_IO63",
+      "x_mm": 33.0,
+      "y_mm": 31.0
+    },
+    {
+      "pad": "106",
+      "net": "GND",
+      "x_mm": 31.0,
+      "y_mm": 33.0
+    },
+    {
+      "pad": "107",
+      "net": "BANK0_VDDIO",
+      "x_mm": 31.0,
+      "y_mm": 34.0
+    },
+    {
+      "pad": "108",
+      "net": "BANK0_GPIO2",
+      "x_mm": 31.0,
+      "y_mm": 35.0
+    },
+    {
+      "pad": "109",
+      "net": "BANK0_GPIO3",
+      "x_mm": 31.0,
+      "y_mm": 36.0
+    },
+    {
+      "pad": "110",
+      "net": "BANK0_GPIO4",
+      "x_mm": 31.0,
+      "y_mm": 37.0
+    },
+    {
+      "pad": "111",
+      "net": "BANK0_GPIO5",
+      "x_mm": 31.0,
+      "y_mm": 38.0
+    },
+    {
+      "pad": "112",
+      "net": "BANK0_GPIO6",
+      "x_mm": 31.0,
+      "y_mm": 39.0
+    },
+    {
+      "pad": "113",
+      "net": "BANK0_GPIO7",
+      "x_mm": 31.0,
+      "y_mm": 40.0
+    },
+    {
+      "pad": "114",
+      "net": "BANK0_GPIO8",
+      "x_mm": 31.0,
+      "y_mm": 41.0
+    },
+    {
+      "pad": "115",
+      "net": "BANK0_GPIO9",
+      "x_mm": 31.0,
+      "y_mm": 42.0
+    },
+    {
+      "pad": "116",
+      "net": "BANK0_GPIO10",
+      "x_mm": 31.0,
+      "y_mm": 43.0
+    },
+    {
+      "pad": "117",
+      "net": "BANK0_GPIO11",
+      "x_mm": 31.0,
+      "y_mm": 44.0
+    },
+    {
+      "pad": "118",
+      "net": "BANK0_GPIO12",
+      "x_mm": 31.0,
+      "y_mm": 45.0
+    },
+    {
+      "pad": "119",
+      "net": "BANK0_GPIO13",
+      "x_mm": 31.0,
+      "y_mm": 46.0
+    },
+    {
+      "pad": "120",
+      "net": "BOOT0",
+      "x_mm": 31.0,
+      "y_mm": 47.0
+    },
+    {
+      "pad": "121",
+      "net": "BOOT1",
+      "x_mm": 31.0,
+      "y_mm": 48.0
+    },
+    {
+      "pad": "122",
+      "net": "RSTN",
+      "x_mm": 31.0,
+      "y_mm": 49.0
+    },
+    {
+      "pad": "123",
+      "net": "BANK3_VDDIO",
+      "x_mm": 31.0,
+      "y_mm": 50.0
+    },
+    {
+      "pad": "124",
+      "net": "BANK3_GPIO38",
+      "x_mm": 31.0,
+      "y_mm": 51.0
+    },
+    {
+      "pad": "125",
+      "net": "BANK3_GPIO39",
+      "x_mm": 31.0,
+      "y_mm": 52.0
+    },
+    {
+      "pad": "126",
+      "net": "BANK3_GPIO40",
+      "x_mm": 31.0,
+      "y_mm": 53.0
+    },
+    {
+      "pad": "127",
+      "net": "BANK3_GPIO41",
+      "x_mm": 31.0,
+      "y_mm": 54.0
+    },
+    {
+      "pad": "128",
+      "net": "BANK3_GPIO42",
+      "x_mm": 31.0,
+      "y_mm": 55.0
+    },
+    {
+      "pad": "129",
+      "net": "BANK3_GPIO43",
+      "x_mm": 31.0,
+      "y_mm": 56.0
+    },
+    {
+      "pad": "130",
+      "net": "BANK3_GPIO44",
+      "x_mm": 31.0,
+      "y_mm": 57.0
+    },
+    {
+      "pad": "131",
+      "net": "BANK3_GPIO45",
+      "x_mm": 31.0,
+      "y_mm": 58.0
+    },
+    {
+      "pad": "132",
+      "net": "BANK3_GPIO46",
+      "x_mm": 31.0,
+      "y_mm": 59.0
+    },
+    {
+      "pad": "133",
+      "net": "BANK3_GPIO47",
+      "x_mm": 31.0,
+      "y_mm": 60.0
+    },
+    {
+      "pad": "134",
+      "net": "BANK3_GPIO48",
+      "x_mm": 31.0,
+      "y_mm": 61.0
+    },
+    {
+      "pad": "135",
+      "net": "BANK3_GPIO49",
+      "x_mm": 31.0,
+      "y_mm": 62.0
+    },
+    {
+      "pad": "136",
+      "net": "BANK1_VDDIO",
+      "x_mm": 31.0,
+      "y_mm": 63.0
+    },
+    {
+      "pad": "137",
+      "net": "BANK1_GPIO14",
+      "x_mm": 31.0,
+      "y_mm": 64.0
+    },
+    {
+      "pad": "138",
+      "net": "BANK1_GPIO15",
+      "x_mm": 31.0,
+      "y_mm": 65.0
+    },
+    {
+      "pad": "139",
+      "net": "BANK1_GPIO16",
+      "x_mm": 31.0,
+      "y_mm": 66.0
+    },
+    {
+      "pad": "140",
+      "net": "BANK1_GPIO17",
+      "x_mm": 31.0,
+      "y_mm": 67.0
+    }
+  ],
+  "edge_excluded_from_purchasable_bom": true,
+  "schematic_edge_excluded_from_board": false,
+  "contact_count": 140,
+  "distinct_edge_nets": 128,
+  "internal_components_placed": 0,
+  "track_count": 0,
+  "parity_full_design_pass_claimed": false
+}

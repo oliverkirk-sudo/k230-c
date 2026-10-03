@@ -1,0 +1,52 @@
+{
+  "date_utc": "2026-10-01",
+  "ti": {
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf",
+    "path": "/workspace/shared/k230-reference/sn74lvc1g97.pdf",
+    "sha256": "53e8bc4d0f966f6e1d8d28987240f17a07e94bec6658ebc92ab322dccae7f416",
+    "datasheet_revision": "SCES416N January 2017",
+    "drawing_revision": "4220597/B 06/2022",
+    "physical_pages": [
+      3,
+      29,
+      30,
+      31
+    ],
+    "pixels_independently_inspected": true
+  },
+  "visual_evidence": [
+    {
+      "path": "recovery/logic-footprint-review/evidence/TI_DSF_page_29.png",
+      "sha256": "553b51b4c5cf445655eaf84d6294ad55bedfbc33584acb577932d94810d11df6"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/TI_DSF_page_30.png",
+      "sha256": "bb968b53d61485f00d57e3e1b41bc4bf0ddc8d0a0f9ca52efc408c000df12622"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/TI_DSF_page_31.png",
+      "sha256": "5625f70e61a3d756f7b746b6f79a9e8cf6bdf6b1ef7b82566cdfd8ce0686aa33"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/TI_DSF_pin_map_page_3.png",
+      "sha256": "b04b2fc09ffb1918a3310233b6b4feacbafcf44163760a2a8e0aa1e90e5c40d6"
+    }
+  ],
+  "nexperia": {
+    "package_page": "https://www.nexperia.com/packages/SOT1160-1.html",
+    "package_page_read_this_pass": true,
+    "package_pdf": "https://assets.nexperia.com/documents/package-information/SOT1160-1.pdf",
+    "linked_document_date": "2022-06-07",
+    "local_original": null,
+    "original_sha256": null,
+    "drawing_pixels_inspected": false,
+    "status": "BLOCKED_EXACT_VISUAL_LAND_AUDIT",
+    "download_retry_performed": false,
+    "footprint_generated": false
+  },
+  "prior_standard_area_source": {
+    "path": "engineering/mechanical/nexperia-standard-footprint-spec.json",
+    "sha256": "78c50ecee2d70d8e3459513f174e319ffc5bee9c65a678f4135a20abcfe51ca9",
+    "originals_revalidated_this_pass": false
+  }
+}

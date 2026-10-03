@@ -1,0 +1,1435 @@
+{
+  "stage": "RESTORED_V12_PLUS_R2_1_PUBLIC_SOURCE_CHECKPOINT",
+  "date_utc": "2026-10-03",
+  "source_archive_sha256": {
+    "v12": "63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58",
+    "R2.1": "4e23cf611b37900dab169f0b44da5974ae70c65bbcf7624c97ccb16688eb3b5b"
+  },
+  "source_snapshot_files_verified": 1208,
+  "source_snapshot_manifest_sha256": "8c0957baa9d0febd3c72cb207cbb707bedc1facba57ebb6c901f2d62b5df103a",
+  "required_baseline_available": true,
+  "full_source_CAD_restored": true,
+  "original_archive_byte_identity_claimed": false,
+  "later_six_layer_routed_board_recovered": false,
+  "production_ready": false,
+  "excluded_files": [
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-9",
+      "sha256": "22cf8557bd7161d7b31feef2d9a6c102d69eb898f3d01003b745dc02db46b426",
+      "bytes": 478896,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/12c5eb5b0d6d6fd1848053bcdafabe09-le64.cache-9",
+      "sha256": "215485f046ceee2ca92324c64f187e73b25bcc81a1f2f509a6f2975d488dfd15",
+      "bytes": 6088,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/170595ebad5a88d432d6c891a4cd5d0d-le64.cache-9",
+      "sha256": "50a783b8fd43b793f8787001d583dc5b87c205960d01b30cb5e31965663a2071",
+      "bytes": 176,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/188ac73a183f12857f63bb60a4a6d603-le64.cache-9",
+      "sha256": "f4ac62dc24f94f82cb45794b7312e01ace5487bd61866c1d9c1488df6cd157c9",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-9",
+      "sha256": "d779aefa9470c8de65c7568eec476db751477855ebf5ea4c265f9aa1e707d230",
+      "bytes": 23056,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/32b6488e5b8292a2e95c79d947e009e8-le64.cache-9",
+      "sha256": "9ad78276cfd0a8bba8c121c3f23ac9d81c2b52285227ab2fe8648d8a6adcb2e5",
+      "bytes": 104,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-9",
+      "sha256": "8edf034070bdca172437281a96c45b007e44f537cf0aab857d1213fad4fb7239",
+      "bytes": 352,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/467c019e582ee353435ea5c21d137ef6-le64.cache-9",
+      "sha256": "4518c49d4e45412cde163e8d2d0bbd3c705be998d142a29b142e5042e2977554",
+      "bytes": 149944,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le64.cache-9",
+      "sha256": "8808a26b94e498b87f86d9ac49bf7f56e2a3fca270aecb12d8a169cb67204ba2",
+      "bytes": 104,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/573ec803664ed168555e0e8b6d0f0c7f-le64.cache-9",
+      "sha256": "d6748d6373373f13c3c42df21443e089b12ebbb52383158ff97c6b3af03832ab",
+      "bytes": 200,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/57e423e26b20ab21d0f2f29c145174c3-le64.cache-9",
+      "sha256": "2c98dbafab1a5f9d4976b766f62d90c86d5871f16ad3031e624ecd586151f786",
+      "bytes": 336,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/5d4427f94dd6de4274e26256ab6bdd24-le64.cache-9",
+      "sha256": "3baa2eb40250cbab1bc0e3a7f4738cb1efd05f1b47d5dc325df8d1ee1056567e",
+      "bytes": 55032,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-9",
+      "sha256": "4012983b432e64238353dec81e0d5ecef7e3af889a6194f8e27eaffdab3ccd75",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/6aa41aa22e18b8fa06a12da28ea9c28b-le64.cache-9",
+      "sha256": "184d95b9263f193780d3d4e646b804f237b3bead5b8fad8f9feb5041b32b333c",
+      "bytes": 19088,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-9",
+      "sha256": "40736c1e7ffe88e3b6b21d36bfbfdfcb61e7be7f328832f5a38bc3b6b65df269",
+      "bytes": 62112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/707971e003b4ae6c8121c3a920e507f5-le64.cache-9",
+      "sha256": "9a36604184f6b0cab61b60dc50e1b804faf913a30b83e8d0bc1bcf94c3ab6051",
+      "bytes": 160,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-9",
+      "sha256": "066fbcf834c6ce0edbf184642a3ed34f453abf6c659486d43ead5eef84d216e4",
+      "bytes": 384,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/95530828ff6c81d309f8258d8d02a23e-le64.cache-9",
+      "sha256": "d2b272f7d2b57a57eafbe65873e5b1953ca1eacebe25f8f89fa45670dfaeac4d",
+      "bytes": 112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-9",
+      "sha256": "372a6ad5ee10f14f491085c00939bb95f2c027ccf07f5032aa4bf99d5368dd08",
+      "bytes": 68800,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/CACHEDIR.TAG",
+      "sha256": "05e7633fb31bf1f6f8d89020c16b9f24587fdf7638e951c9745b192f5fc3b682",
+      "bytes": 200,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-9",
+      "sha256": "6fe46c047562ad071b311d23a29dc616ea745a220a1e7c2f9d4a096a36225cc9",
+      "bytes": 54136,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/bbd3eebb6912613e2596f2fd46535a95-le64.cache-9",
+      "sha256": "528cd7866d3c6c47baeff4b45dcfb8bf949627bec88db2ccb8a052d609b0ce7b",
+      "bytes": 23688,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/c57959a16110560c8d0fcea73374aeeb-le64.cache-9",
+      "sha256": "e2e79901c5c91674b1ba6802ac8f7552755ae43572decdd7ba7830b77219afc8",
+      "bytes": 19296,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/c855463f699352c367813e37f3f70ea7-le64.cache-9",
+      "sha256": "8c3acd323df2836b79c4537d0a5c78a10b5a881483566fb663766031f2116d3a",
+      "bytes": 224,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le64.cache-9",
+      "sha256": "a510e35177a057abb8ffbcbffb40bb632d243c6f0c4207488edae42eed3e480b",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-9",
+      "sha256": "7024af01a5c9ea9d8efa528bf9650387d89006851bd5f5dc166e0be1dba22b5f",
+      "bytes": 51736,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/d82eb4fd963d448e2fcb7d7b793b5df3-le64.cache-9",
+      "sha256": "ea4f5b933ea7c32aff9bcdf8f8359377892ef0d013f1e5ca1a3befb6d90202cc",
+      "bytes": 216,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/e0aa53bcfa504e64f87823c16bc01eb6-le64.cache-9",
+      "sha256": "a507bf0c346a055bc9538dc59ebe5ab6ebbf7c6e6a89ce5ffad53a4cc85b7262",
+      "bytes": 2800,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-9",
+      "sha256": "535f4365daa624e8cdc693e861fae02f4c1d12ffb37e00df31287613f7882c4f",
+      "bytes": 114368,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le64.cache-9",
+      "sha256": "44909c05e9f1eb5ef8834739f8bf5265c5f955261f2e61d7a2da22b47df115a2",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/f1f2465696798768e9653f19e17ccdc8-le64.cache-9",
+      "sha256": "6045e4b3d372069f830033db87504ac6fbf78f606d6d566da866f687358da03f",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/fe547fea3a41b43a38975d292a2b19c7-le64.cache-9",
+      "sha256": "d271880ec892b41730317fb3f79d9d9949a66c820a65474e277b134a16706a0c",
+      "bytes": 112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/inkscape/extension-errors.log",
+      "sha256": "0322488444b6e2564bab16d6e4262d2958f77d499173045c03b5d9248e819876",
+      "bytes": 565,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/inkscape/preferences.xml",
+      "sha256": "a81b1a466fc0148f757738c187229475856075c5348158ec46e317dc2796b891",
+      "bytes": 18915,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/3d_viewer.json",
+      "sha256": "9d710183e893f38bcb2f3309cdf13dff6ce11f2c3b810895d5d8f2c1ad54aa88",
+      "bytes": 8306,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/cvpcb.json",
+      "sha256": "1896f66ed9b8270327cabdab7e52b9d3ca021bca79a667ca0b361e23355f0648",
+      "bytes": 7441,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/fpedit.json",
+      "sha256": "6e8068218cc90910200a9d7e8513d8c2efa066a473a6860aeb360b80b2a42719",
+      "bytes": 6474,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/kicad.json",
+      "sha256": "f56d4602c5e4ba636d91cf097a792bb2005116d440b0736067c67ab6145fb5fe",
+      "bytes": 4819,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/kicad_common.json",
+      "sha256": "e252d9d61aa557ab7ecada697e0a81a90e70f80233071d8b7319f8b3105609a3",
+      "bytes": 2313,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/pcbnew.json",
+      "sha256": "e3f7735f5792536a9444cdbfab852b770f9f246ccddce1700b9412b3792c97e6",
+      "bytes": 15235,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/high-temp-candidate/review.pdf",
+      "sha256": "1665eb46dfee968fd080996ff31932bbd69a0228cf4ecd88bc610971a979fa40",
+      "bytes": 3512161,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "cad/high-temp-candidate/source-build.log",
+      "sha256": "dc6a0442a3e93654b7fac0d90e6bd52162b442afedcc8cbe5135fdeb7d46b951",
+      "bytes": 3702,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-9",
+      "sha256": "22cf8557bd7161d7b31feef2d9a6c102d69eb898f3d01003b745dc02db46b426",
+      "bytes": 478896,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/12c5eb5b0d6d6fd1848053bcdafabe09-le64.cache-9",
+      "sha256": "215485f046ceee2ca92324c64f187e73b25bcc81a1f2f509a6f2975d488dfd15",
+      "bytes": 6088,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/17202890763074282aa7d5f94a30fc6e-le64.cache-9",
+      "sha256": "c8699fa8e572548d76afff0e8c976f410b4524c76e6625fa14ca5038f6afadaf",
+      "bytes": 176,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/188ac73a183f12857f63bb60a4a6d603-le64.cache-9",
+      "sha256": "f4ac62dc24f94f82cb45794b7312e01ace5487bd61866c1d9c1488df6cd157c9",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-9",
+      "sha256": "d779aefa9470c8de65c7568eec476db751477855ebf5ea4c265f9aa1e707d230",
+      "bytes": 23056,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/32b6488e5b8292a2e95c79d947e009e8-le64.cache-9",
+      "sha256": "9ad78276cfd0a8bba8c121c3f23ac9d81c2b52285227ab2fe8648d8a6adcb2e5",
+      "bytes": 104,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-9",
+      "sha256": "8edf034070bdca172437281a96c45b007e44f537cf0aab857d1213fad4fb7239",
+      "bytes": 352,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/467c019e582ee353435ea5c21d137ef6-le64.cache-9",
+      "sha256": "4518c49d4e45412cde163e8d2d0bbd3c705be998d142a29b142e5042e2977554",
+      "bytes": 149944,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le64.cache-9",
+      "sha256": "8808a26b94e498b87f86d9ac49bf7f56e2a3fca270aecb12d8a169cb67204ba2",
+      "bytes": 104,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/573ec803664ed168555e0e8b6d0f0c7f-le64.cache-9",
+      "sha256": "d6748d6373373f13c3c42df21443e089b12ebbb52383158ff97c6b3af03832ab",
+      "bytes": 200,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/57e423e26b20ab21d0f2f29c145174c3-le64.cache-9",
+      "sha256": "2c98dbafab1a5f9d4976b766f62d90c86d5871f16ad3031e624ecd586151f786",
+      "bytes": 336,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/5d4427f94dd6de4274e26256ab6bdd24-le64.cache-9",
+      "sha256": "3baa2eb40250cbab1bc0e3a7f4738cb1efd05f1b47d5dc325df8d1ee1056567e",
+      "bytes": 55032,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-9",
+      "sha256": "4012983b432e64238353dec81e0d5ecef7e3af889a6194f8e27eaffdab3ccd75",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/6aa41aa22e18b8fa06a12da28ea9c28b-le64.cache-9",
+      "sha256": "184d95b9263f193780d3d4e646b804f237b3bead5b8fad8f9feb5041b32b333c",
+      "bytes": 19088,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-9",
+      "sha256": "40736c1e7ffe88e3b6b21d36bfbfdfcb61e7be7f328832f5a38bc3b6b65df269",
+      "bytes": 62112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/707971e003b4ae6c8121c3a920e507f5-le64.cache-9",
+      "sha256": "9a36604184f6b0cab61b60dc50e1b804faf913a30b83e8d0bc1bcf94c3ab6051",
+      "bytes": 160,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-9",
+      "sha256": "066fbcf834c6ce0edbf184642a3ed34f453abf6c659486d43ead5eef84d216e4",
+      "bytes": 384,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/95530828ff6c81d309f8258d8d02a23e-le64.cache-9",
+      "sha256": "d2b272f7d2b57a57eafbe65873e5b1953ca1eacebe25f8f89fa45670dfaeac4d",
+      "bytes": 112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-9",
+      "sha256": "372a6ad5ee10f14f491085c00939bb95f2c027ccf07f5032aa4bf99d5368dd08",
+      "bytes": 68800,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/CACHEDIR.TAG",
+      "sha256": "05e7633fb31bf1f6f8d89020c16b9f24587fdf7638e951c9745b192f5fc3b682",
+      "bytes": 200,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-9",
+      "sha256": "6fe46c047562ad071b311d23a29dc616ea745a220a1e7c2f9d4a096a36225cc9",
+      "bytes": 54136,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/bbd3eebb6912613e2596f2fd46535a95-le64.cache-9",
+      "sha256": "528cd7866d3c6c47baeff4b45dcfb8bf949627bec88db2ccb8a052d609b0ce7b",
+      "bytes": 23688,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/c57959a16110560c8d0fcea73374aeeb-le64.cache-9",
+      "sha256": "e2e79901c5c91674b1ba6802ac8f7552755ae43572decdd7ba7830b77219afc8",
+      "bytes": 19296,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/c855463f699352c367813e37f3f70ea7-le64.cache-9",
+      "sha256": "8c3acd323df2836b79c4537d0a5c78a10b5a881483566fb663766031f2116d3a",
+      "bytes": 224,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le64.cache-9",
+      "sha256": "a510e35177a057abb8ffbcbffb40bb632d243c6f0c4207488edae42eed3e480b",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-9",
+      "sha256": "7024af01a5c9ea9d8efa528bf9650387d89006851bd5f5dc166e0be1dba22b5f",
+      "bytes": 51736,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/d82eb4fd963d448e2fcb7d7b793b5df3-le64.cache-9",
+      "sha256": "ea4f5b933ea7c32aff9bcdf8f8359377892ef0d013f1e5ca1a3befb6d90202cc",
+      "bytes": 216,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/e0aa53bcfa504e64f87823c16bc01eb6-le64.cache-9",
+      "sha256": "a507bf0c346a055bc9538dc59ebe5ab6ebbf7c6e6a89ce5ffad53a4cc85b7262",
+      "bytes": 2800,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-9",
+      "sha256": "535f4365daa624e8cdc693e861fae02f4c1d12ffb37e00df31287613f7882c4f",
+      "bytes": 114368,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le64.cache-9",
+      "sha256": "44909c05e9f1eb5ef8834739f8bf5265c5f955261f2e61d7a2da22b47df115a2",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/f1f2465696798768e9653f19e17ccdc8-le64.cache-9",
+      "sha256": "6045e4b3d372069f830033db87504ac6fbf78f606d6d566da866f687358da03f",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/fe547fea3a41b43a38975d292a2b19c7-le64.cache-9",
+      "sha256": "d271880ec892b41730317fb3f79d9d9949a66c820a65474e277b134a16706a0c",
+      "bytes": 112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/inkscape/extension-errors.log",
+      "sha256": "0322488444b6e2564bab16d6e4262d2958f77d499173045c03b5d9248e819876",
+      "bytes": 565,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/inkscape/preferences.xml",
+      "sha256": "a81b1a466fc0148f757738c187229475856075c5348158ec46e317dc2796b891",
+      "bytes": 18915,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/3d_viewer.json",
+      "sha256": "9d710183e893f38bcb2f3309cdf13dff6ce11f2c3b810895d5d8f2c1ad54aa88",
+      "bytes": 8306,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/cvpcb.json",
+      "sha256": "1896f66ed9b8270327cabdab7e52b9d3ca021bca79a667ca0b361e23355f0648",
+      "bytes": 7441,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/fpedit.json",
+      "sha256": "6e8068218cc90910200a9d7e8513d8c2efa066a473a6860aeb360b80b2a42719",
+      "bytes": 6474,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/kicad.json",
+      "sha256": "f56d4602c5e4ba636d91cf097a792bb2005116d440b0736067c67ab6145fb5fe",
+      "bytes": 4819,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/kicad_common.json",
+      "sha256": "e252d9d61aa557ab7ecada697e0a81a90e70f80233071d8b7319f8b3105609a3",
+      "bytes": 2313,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/pcbnew.json",
+      "sha256": "e3f7735f5792536a9444cdbfab852b770f9f246ccddce1700b9412b3792c97e6",
+      "bytes": 15235,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/instrumented-reference/source-build.log",
+      "sha256": "790f7dd1318fd4f374c25eed6d4ad778c9aa88c83068a8b07e6d09b93092cade",
+      "bytes": 4003,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "cad/integrated/CMK230_Core_REVIEW-backups/CMK230_Core_REVIEW-2026-09-30_064256.zip",
+      "sha256": "a058ef49309db70a85526088c64ab815713df46e7a0f5802ba4b47fdda886b6c",
+      "bytes": 174773,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "cad/integrated/source-build.log",
+      "sha256": "1ec3e7b6f427ade112502472b9f1d096919286e38ee6f273b4e8a40f9b300fd6",
+      "bytes": 3690,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-9",
+      "sha256": "22cf8557bd7161d7b31feef2d9a6c102d69eb898f3d01003b745dc02db46b426",
+      "bytes": 478896,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/12c5eb5b0d6d6fd1848053bcdafabe09-le64.cache-9",
+      "sha256": "215485f046ceee2ca92324c64f187e73b25bcc81a1f2f509a6f2975d488dfd15",
+      "bytes": 6088,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/188ac73a183f12857f63bb60a4a6d603-le64.cache-9",
+      "sha256": "f4ac62dc24f94f82cb45794b7312e01ace5487bd61866c1d9c1488df6cd157c9",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-9",
+      "sha256": "d779aefa9470c8de65c7568eec476db751477855ebf5ea4c265f9aa1e707d230",
+      "bytes": 23056,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/32b6488e5b8292a2e95c79d947e009e8-le64.cache-9",
+      "sha256": "9ad78276cfd0a8bba8c121c3f23ac9d81c2b52285227ab2fe8648d8a6adcb2e5",
+      "bytes": 104,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-9",
+      "sha256": "8edf034070bdca172437281a96c45b007e44f537cf0aab857d1213fad4fb7239",
+      "bytes": 352,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/467c019e582ee353435ea5c21d137ef6-le64.cache-9",
+      "sha256": "4518c49d4e45412cde163e8d2d0bbd3c705be998d142a29b142e5042e2977554",
+      "bytes": 149944,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le64.cache-9",
+      "sha256": "8808a26b94e498b87f86d9ac49bf7f56e2a3fca270aecb12d8a169cb67204ba2",
+      "bytes": 104,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/573ec803664ed168555e0e8b6d0f0c7f-le64.cache-9",
+      "sha256": "d6748d6373373f13c3c42df21443e089b12ebbb52383158ff97c6b3af03832ab",
+      "bytes": 200,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/57e423e26b20ab21d0f2f29c145174c3-le64.cache-9",
+      "sha256": "2c98dbafab1a5f9d4976b766f62d90c86d5871f16ad3031e624ecd586151f786",
+      "bytes": 336,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/5d4427f94dd6de4274e26256ab6bdd24-le64.cache-9",
+      "sha256": "3baa2eb40250cbab1bc0e3a7f4738cb1efd05f1b47d5dc325df8d1ee1056567e",
+      "bytes": 55032,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-9",
+      "sha256": "4012983b432e64238353dec81e0d5ecef7e3af889a6194f8e27eaffdab3ccd75",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/6aa41aa22e18b8fa06a12da28ea9c28b-le64.cache-9",
+      "sha256": "184d95b9263f193780d3d4e646b804f237b3bead5b8fad8f9feb5041b32b333c",
+      "bytes": 19088,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-9",
+      "sha256": "40736c1e7ffe88e3b6b21d36bfbfdfcb61e7be7f328832f5a38bc3b6b65df269",
+      "bytes": 62112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/707971e003b4ae6c8121c3a920e507f5-le64.cache-9",
+      "sha256": "9a36604184f6b0cab61b60dc50e1b804faf913a30b83e8d0bc1bcf94c3ab6051",
+      "bytes": 160,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-9",
+      "sha256": "066fbcf834c6ce0edbf184642a3ed34f453abf6c659486d43ead5eef84d216e4",
+      "bytes": 384,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/95530828ff6c81d309f8258d8d02a23e-le64.cache-9",
+      "sha256": "d2b272f7d2b57a57eafbe65873e5b1953ca1eacebe25f8f89fa45670dfaeac4d",
+      "bytes": 112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-9",
+      "sha256": "372a6ad5ee10f14f491085c00939bb95f2c027ccf07f5032aa4bf99d5368dd08",
+      "bytes": 68800,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/CACHEDIR.TAG",
+      "sha256": "05e7633fb31bf1f6f8d89020c16b9f24587fdf7638e951c9745b192f5fc3b682",
+      "bytes": 200,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-9",
+      "sha256": "6fe46c047562ad071b311d23a29dc616ea745a220a1e7c2f9d4a096a36225cc9",
+      "bytes": 54136,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/bbd3eebb6912613e2596f2fd46535a95-le64.cache-9",
+      "sha256": "528cd7866d3c6c47baeff4b45dcfb8bf949627bec88db2ccb8a052d609b0ce7b",
+      "bytes": 23688,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/c57959a16110560c8d0fcea73374aeeb-le64.cache-9",
+      "sha256": "e2e79901c5c91674b1ba6802ac8f7552755ae43572decdd7ba7830b77219afc8",
+      "bytes": 19296,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/c855463f699352c367813e37f3f70ea7-le64.cache-9",
+      "sha256": "8c3acd323df2836b79c4537d0a5c78a10b5a881483566fb663766031f2116d3a",
+      "bytes": 224,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le64.cache-9",
+      "sha256": "a510e35177a057abb8ffbcbffb40bb632d243c6f0c4207488edae42eed3e480b",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-9",
+      "sha256": "7024af01a5c9ea9d8efa528bf9650387d89006851bd5f5dc166e0be1dba22b5f",
+      "bytes": 51736,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/d82eb4fd963d448e2fcb7d7b793b5df3-le64.cache-9",
+      "sha256": "ea4f5b933ea7c32aff9bcdf8f8359377892ef0d013f1e5ca1a3befb6d90202cc",
+      "bytes": 216,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/dd9f29187b30b86ae17aabb8525f2d02-le64.cache-9",
+      "sha256": "73d2cab88ab5348cde4913d6dbe3dd7bf5cd2417292e5a1c36bc023c4714710e",
+      "bytes": 200,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/e0aa53bcfa504e64f87823c16bc01eb6-le64.cache-9",
+      "sha256": "a507bf0c346a055bc9538dc59ebe5ab6ebbf7c6e6a89ce5ffad53a4cc85b7262",
+      "bytes": 2800,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-9",
+      "sha256": "535f4365daa624e8cdc693e861fae02f4c1d12ffb37e00df31287613f7882c4f",
+      "bytes": 114368,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le64.cache-9",
+      "sha256": "44909c05e9f1eb5ef8834739f8bf5265c5f955261f2e61d7a2da22b47df115a2",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/f1f2465696798768e9653f19e17ccdc8-le64.cache-9",
+      "sha256": "6045e4b3d372069f830033db87504ac6fbf78f606d6d566da866f687358da03f",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/cache/fontconfig/fe547fea3a41b43a38975d292a2b19c7-le64.cache-9",
+      "sha256": "d271880ec892b41730317fb3f79d9d9949a66c820a65474e277b134a16706a0c",
+      "bytes": 112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/config/inkscape/extension-errors.log",
+      "sha256": "0322488444b6e2564bab16d6e4262d2958f77d499173045c03b5d9248e819876",
+      "bytes": 565,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/config/inkscape/preferences.xml",
+      "sha256": "a81b1a466fc0148f757738c187229475856075c5348158ec46e317dc2796b891",
+      "bytes": 18915,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/config/kicad/9.0/3d_viewer.json",
+      "sha256": "9d710183e893f38bcb2f3309cdf13dff6ce11f2c3b810895d5d8f2c1ad54aa88",
+      "bytes": 8306,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/config/kicad/9.0/cvpcb.json",
+      "sha256": "1896f66ed9b8270327cabdab7e52b9d3ca021bca79a667ca0b361e23355f0648",
+      "bytes": 7441,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/config/kicad/9.0/fpedit.json",
+      "sha256": "6e8068218cc90910200a9d7e8513d8c2efa066a473a6860aeb360b80b2a42719",
+      "bytes": 6474,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/config/kicad/9.0/kicad.json",
+      "sha256": "f56d4602c5e4ba636d91cf097a792bb2005116d440b0736067c67ab6145fb5fe",
+      "bytes": 4819,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/config/kicad/9.0/kicad_common.json",
+      "sha256": "7f9131d9583a4439185b408d11da3a4149011579912031743bf6230d89ef8b6d",
+      "bytes": 2316,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/nexperia-archival/runtime/config/kicad/9.0/pcbnew.json",
+      "sha256": "e3f7735f5792536a9444cdbfab852b770f9f246ccddce1700b9412b3792c97e6",
+      "bytes": 15235,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-9",
+      "sha256": "22cf8557bd7161d7b31feef2d9a6c102d69eb898f3d01003b745dc02db46b426",
+      "bytes": 478896,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/12c5eb5b0d6d6fd1848053bcdafabe09-le64.cache-9",
+      "sha256": "215485f046ceee2ca92324c64f187e73b25bcc81a1f2f509a6f2975d488dfd15",
+      "bytes": 6088,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/188ac73a183f12857f63bb60a4a6d603-le64.cache-9",
+      "sha256": "f4ac62dc24f94f82cb45794b7312e01ace5487bd61866c1d9c1488df6cd157c9",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-9",
+      "sha256": "d779aefa9470c8de65c7568eec476db751477855ebf5ea4c265f9aa1e707d230",
+      "bytes": 23056,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/32b6488e5b8292a2e95c79d947e009e8-le64.cache-9",
+      "sha256": "9ad78276cfd0a8bba8c121c3f23ac9d81c2b52285227ab2fe8648d8a6adcb2e5",
+      "bytes": 104,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-9",
+      "sha256": "8edf034070bdca172437281a96c45b007e44f537cf0aab857d1213fad4fb7239",
+      "bytes": 352,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/467c019e582ee353435ea5c21d137ef6-le64.cache-9",
+      "sha256": "4518c49d4e45412cde163e8d2d0bbd3c705be998d142a29b142e5042e2977554",
+      "bytes": 149944,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le64.cache-9",
+      "sha256": "8808a26b94e498b87f86d9ac49bf7f56e2a3fca270aecb12d8a169cb67204ba2",
+      "bytes": 104,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/573ec803664ed168555e0e8b6d0f0c7f-le64.cache-9",
+      "sha256": "d6748d6373373f13c3c42df21443e089b12ebbb52383158ff97c6b3af03832ab",
+      "bytes": 200,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/57e423e26b20ab21d0f2f29c145174c3-le64.cache-9",
+      "sha256": "2c98dbafab1a5f9d4976b766f62d90c86d5871f16ad3031e624ecd586151f786",
+      "bytes": 336,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/5d4427f94dd6de4274e26256ab6bdd24-le64.cache-9",
+      "sha256": "3baa2eb40250cbab1bc0e3a7f4738cb1efd05f1b47d5dc325df8d1ee1056567e",
+      "bytes": 55032,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-9",
+      "sha256": "4012983b432e64238353dec81e0d5ecef7e3af889a6194f8e27eaffdab3ccd75",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/6aa41aa22e18b8fa06a12da28ea9c28b-le64.cache-9",
+      "sha256": "184d95b9263f193780d3d4e646b804f237b3bead5b8fad8f9feb5041b32b333c",
+      "bytes": 19088,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-9",
+      "sha256": "40736c1e7ffe88e3b6b21d36bfbfdfcb61e7be7f328832f5a38bc3b6b65df269",
+      "bytes": 62112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/707971e003b4ae6c8121c3a920e507f5-le64.cache-9",
+      "sha256": "9a36604184f6b0cab61b60dc50e1b804faf913a30b83e8d0bc1bcf94c3ab6051",
+      "bytes": 160,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-9",
+      "sha256": "066fbcf834c6ce0edbf184642a3ed34f453abf6c659486d43ead5eef84d216e4",
+      "bytes": 384,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/7faa4f5ed0e39f4d52d222d7be601fde-le64.cache-9",
+      "sha256": "e01a56bef0957b85df578fdc485abf94bd8bbeb9f7aa8bfb195f193767054c78",
+      "bytes": 184,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/95530828ff6c81d309f8258d8d02a23e-le64.cache-9",
+      "sha256": "d2b272f7d2b57a57eafbe65873e5b1953ca1eacebe25f8f89fa45670dfaeac4d",
+      "bytes": 112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-9",
+      "sha256": "372a6ad5ee10f14f491085c00939bb95f2c027ccf07f5032aa4bf99d5368dd08",
+      "bytes": 68800,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/CACHEDIR.TAG",
+      "sha256": "05e7633fb31bf1f6f8d89020c16b9f24587fdf7638e951c9745b192f5fc3b682",
+      "bytes": 200,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-9",
+      "sha256": "6fe46c047562ad071b311d23a29dc616ea745a220a1e7c2f9d4a096a36225cc9",
+      "bytes": 54136,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/bbd3eebb6912613e2596f2fd46535a95-le64.cache-9",
+      "sha256": "528cd7866d3c6c47baeff4b45dcfb8bf949627bec88db2ccb8a052d609b0ce7b",
+      "bytes": 23688,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/c57959a16110560c8d0fcea73374aeeb-le64.cache-9",
+      "sha256": "e2e79901c5c91674b1ba6802ac8f7552755ae43572decdd7ba7830b77219afc8",
+      "bytes": 19296,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/c855463f699352c367813e37f3f70ea7-le64.cache-9",
+      "sha256": "8c3acd323df2836b79c4537d0a5c78a10b5a881483566fb663766031f2116d3a",
+      "bytes": 224,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le64.cache-9",
+      "sha256": "a510e35177a057abb8ffbcbffb40bb632d243c6f0c4207488edae42eed3e480b",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-9",
+      "sha256": "7024af01a5c9ea9d8efa528bf9650387d89006851bd5f5dc166e0be1dba22b5f",
+      "bytes": 51736,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/d82eb4fd963d448e2fcb7d7b793b5df3-le64.cache-9",
+      "sha256": "ea4f5b933ea7c32aff9bcdf8f8359377892ef0d013f1e5ca1a3befb6d90202cc",
+      "bytes": 216,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/e0aa53bcfa504e64f87823c16bc01eb6-le64.cache-9",
+      "sha256": "a507bf0c346a055bc9538dc59ebe5ab6ebbf7c6e6a89ce5ffad53a4cc85b7262",
+      "bytes": 2800,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-9",
+      "sha256": "535f4365daa624e8cdc693e861fae02f4c1d12ffb37e00df31287613f7882c4f",
+      "bytes": 114368,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le64.cache-9",
+      "sha256": "44909c05e9f1eb5ef8834739f8bf5265c5f955261f2e61d7a2da22b47df115a2",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/f1f2465696798768e9653f19e17ccdc8-le64.cache-9",
+      "sha256": "6045e4b3d372069f830033db87504ac6fbf78f606d6d566da866f687358da03f",
+      "bytes": 120,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/cache/fontconfig/fe547fea3a41b43a38975d292a2b19c7-le64.cache-9",
+      "sha256": "d271880ec892b41730317fb3f79d9d9949a66c820a65474e277b134a16706a0c",
+      "bytes": 112,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/config/inkscape/extension-errors.log",
+      "sha256": "0322488444b6e2564bab16d6e4262d2958f77d499173045c03b5d9248e819876",
+      "bytes": 565,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/config/inkscape/preferences.xml",
+      "sha256": "a81b1a466fc0148f757738c187229475856075c5348158ec46e317dc2796b891",
+      "bytes": 18915,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/config/kicad/9.0/3d_viewer.json",
+      "sha256": "9d710183e893f38bcb2f3309cdf13dff6ce11f2c3b810895d5d8f2c1ad54aa88",
+      "bytes": 8306,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/config/kicad/9.0/cvpcb.json",
+      "sha256": "1896f66ed9b8270327cabdab7e52b9d3ca021bca79a667ca0b361e23355f0648",
+      "bytes": 7441,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/config/kicad/9.0/fpedit.json",
+      "sha256": "6e8068218cc90910200a9d7e8513d8c2efa066a473a6860aeb360b80b2a42719",
+      "bytes": 6474,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/config/kicad/9.0/kicad.json",
+      "sha256": "f56d4602c5e4ba636d91cf097a792bb2005116d440b0736067c67ab6145fb5fe",
+      "bytes": 4819,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/config/kicad/9.0/kicad_common.json",
+      "sha256": "7f9131d9583a4439185b408d11da3a4149011579912031743bf6230d89ef8b6d",
+      "bytes": 2316,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "cad/recovery-footprint-candidates/runtime/config/kicad/9.0/pcbnew.json",
+      "sha256": "e3f7735f5792536a9444cdbfab852b770f9f246ccddce1700b9412b3792c97e6",
+      "bytes": 15235,
+      "reason": "Runtime/cache/session or backup copy"
+    },
+    {
+      "path": "docs/kicad-gui-test/high-temp-emmc.png",
+      "sha256": "a3b669f7bb75d1811e6419dd2175229c26f4406048f14dd9fee06cc209b93b88",
+      "bytes": 154058,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "docs/kicad-gui-test/high-temp-erc.png",
+      "sha256": "f8ab1736862f25e243385b9492eaf6faa3b7c5238bd74f95824dd63ecf879167",
+      "bytes": 24837,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "docs/kicad-gui-test/high-temp-root.png",
+      "sha256": "e1ccf97043c0696428aac9ca3e05f5b7806ae2f8b513ca4cdda4b3cc37973626",
+      "bytes": 167434,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "docs/kicad-gui-test/v11-emmc-local-drc.png",
+      "sha256": "cbac41e001509c698d9d46c9617d7e4159e2ca3a72b110a30a33e5b1f294c4da",
+      "bytes": 62247,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "docs/kicad-gui-test/v11-emmc-local-open.png",
+      "sha256": "12c931d252d3ca2d86d3f858e1f8e1aeb8c6743a0acf4c2f9b27677f0b0c230e",
+      "bytes": 211708,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/bga-native-trial/native-drc.log",
+      "sha256": "1eb5f0f02c9d103e56df9396498ed488cb8aa69fa588d1ca1052e63d7e3efc44",
+      "bytes": 147,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/annulus/drc.log",
+      "sha256": "88109cc3a41c5f8f47208098faae98460d879bb01c9357957a092c9a5c7dca70",
+      "bytes": 162,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_copper/drc.log",
+      "sha256": "5bc6e1b0fa6f3195e9e89f6dd3c97382f13812cddefbb070ef3c45a11fefc4ce",
+      "bytes": 170,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_hole/drc.log",
+      "sha256": "b657deec6166cef56c5bf20898154382596363ff2d7358107ef36a995e4366e2",
+      "bytes": 167,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/mask_web/drc.log",
+      "sha256": "018b369a69fd5c60e9e4389b46df993b0a3418855b62f9b793470eb4da5ed415",
+      "bytes": 164,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/ddr-audit.log",
+      "sha256": "877e4d080d3b6a2c2de0b8882f1a3f05d7f14edcf47d00d83cf65c13b2755971",
+      "bytes": 950,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/geometry-audit.log",
+      "sha256": "8cbd07c89c118b56c3cb7630002d31f3a63730336ef4d41d10fdcc863d0c9bff",
+      "bytes": 459,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/independent-constrained-review.json",
+      "sha256": "7cb08093d00ef083cd12a33d543e8c54a6676ef9af718213b77fbf9b9a46f164",
+      "bytes": 4766316,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/audit-run.log",
+      "sha256": "522240164b1f731186ea949dba4c956d118a6c60f9e94845d2ccc9eb55ff8c7b",
+      "bytes": 5395,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/results/link-pair-preserved-flex/joint-link-audit.json",
+      "sha256": "d709a0336c80e29ce05ab96752fde5d73377a9975b998afce1d5cbbfb3962d6d",
+      "bytes": 1611677,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/test-run.log",
+      "sha256": "1a61fae9c409c2ebec64bb67049e8d0bd9c927a34f30f7f71221a0f43d8a4921",
+      "bytes": 2040,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-flex-resume/best-search-candidate.json",
+      "sha256": "0221850729ac3dac606c220e0fb6f8115ac8f261fa6009575e6ecd9e5b46d596",
+      "bytes": 1009573,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-flex-resume/search.log",
+      "sha256": "358b03aabf9433b1864b17c86538a368d0db3bbc0f34aa8ba926eee29bd214fb",
+      "bytes": 950,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-lex/best-search-candidate.json",
+      "sha256": "dae3bcb078116ec8d3f5036eee991aec2692f960cf4f2d06a33a656254139a41",
+      "bytes": 1017288,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-lex/search.log",
+      "sha256": "2997f5dc6fb7fad0c45fa7e646edc383611e4a37a4e9d9634164b57e632b699e",
+      "bytes": 1766,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-reroute/best-search-candidate.json",
+      "sha256": "4a5173c72de9f2ff35ece2833f6f1d2fc8d9596b2f108869406a8c8347adf255",
+      "bytes": 1000081,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-reroute/search.log",
+      "sha256": "bf294382d2ca06068800f43e505d738b023c75134c4db2941cc2596ed27e59fa",
+      "bytes": 4202,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-strong/best-search-candidate.json",
+      "sha256": "dd5c6d5c350ecace5e8d5ae2bbac21829d5851b064bbca7bcb1880bbff3a8854",
+      "bytes": 989391,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-strong/search.log",
+      "sha256": "490e0a1776b7a77a0d0b51a63cbaa03e276d9f890c5e11046849ff1ed4f5777a",
+      "bytes": 1761,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-pair-preserved-flex/best-search-candidate.json",
+      "sha256": "dcdb188e3fba44f172c7e4f9a2e05a020fbab7d809e3e56e974615a7d47fdf5f",
+      "bytes": 1007044,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-pair-preserved-flex/search.log",
+      "sha256": "9294a5b7d146cb4108b516060fd7b94ea69f8e126e25dfdc26bdab0b3ffdbfb7",
+      "bytes": 1642,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-reroute/best-search-candidate.json",
+      "sha256": "8766e0c0eee316f67d3c55436f76cb2483d0391a6a89a5d72bc2a1bdcbc9c4e3",
+      "bytes": 1033882,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-reroute/search.log",
+      "sha256": "9ad8e1aad4abeb69a99745a023dd8bfac68c6fda2626eb5834c9bdd01b9b2477",
+      "bytes": 3403,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-three-layer-lex/best-search-candidate.json",
+      "sha256": "40de070f8fd827b4cb667b3cce5ccb53e4f9901a86d023cbb134fc85054e51c2",
+      "bytes": 991761,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-three-layer-lex/search.log",
+      "sha256": "674d9c73b42ce6ca328eb3d27ab931836cdb01c241821456bec41cc206ad8c20",
+      "bytes": 1722,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/actual-links-audit.json",
+      "sha256": "e8827163ff7a5e2139a4e1ba7a1365e2b5a3a45851dc2ae9c49ec8efb65febf3",
+      "bytes": 1838848,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/actual-links.json",
+      "sha256": "444fc18e171a16d8f186217479b9b5a5f3f424b0072a542cc24d6dc40b54daf0",
+      "bytes": 933692,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/audit.log",
+      "sha256": "cb104a31a6a8ebb6f7079fa4b3d215af2f8e7d080b17f3c890ad68d8a9d4736f",
+      "bytes": 3775,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/route.log",
+      "sha256": "d491ae4727625a6ba2b58f1447bb90eff09511575880a71584ffd027e0f2bff6",
+      "bytes": 868,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/native-drc.json",
+      "sha256": "280165a4297cbdff6af8672bffff991c6d95d3e0a86e3f3b6b68e9970f9287b4",
+      "bytes": 287595,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/native-drc.log",
+      "sha256": "1045f6cdc950294b8119b2668043d6aed5035f3833cf9bda435da5d89be385dd",
+      "bytes": 153,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/native-export.log",
+      "sha256": "8dc9913e3108a025315470a9232418a89bbe7c45bdae1ae2dfb82a8caccebd75",
+      "bytes": 154,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/native-verify.log",
+      "sha256": "c430e332a38942e078f39b871a90cee8d7174022475154166e3892b8f8b189b0",
+      "bytes": 1102,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/trial-groups-outer-21-audit.json",
+      "sha256": "08f1df229e182ef98387637b012abd92746d432f622f94381992080fe744eddd",
+      "bytes": 274242,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/trial-groups-outer-21.json",
+      "sha256": "6bb20e72fd4a1c985f0bb2eb54e97ff870f2dbb40a7a36b72db05ef83cae6153",
+      "bytes": 507434,
+      "reason": "Large generated historical DDR search report; regenerate from retained source scripts"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/trial-groups-outer-21.log",
+      "sha256": "3b0691335f89feb64055e912821551536b151c241fed00ac379adddfaeef212c",
+      "bytes": 721,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/mechanical/placement-validation-console.log",
+      "sha256": "e1d0eff83e8c7675d08dcf582727420ee01c6598c19aeedbdf3ef77322e84c8b",
+      "bytes": 1207,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "engineering/mechanical/validation-console.log",
+      "sha256": "f3197953ac89877e028e7ad5dd26229a3bd862c417f83f0b6a546a4feb84c3f7",
+      "bytes": 1668,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/compact-logic-review/render/09_Cold_Storage_Selector.png",
+      "sha256": "db85cc839d2f8214e7894ecef78f7373704358819c3df700f26442d13019adae",
+      "bytes": 144244,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/compact-logic-review/render/09_Cold_Storage_Selector.svg",
+      "sha256": "bc17eaccf144e5bf958458e7389d2b4b870771f3acff7c3f69cf30aa7f5eb7cd",
+      "bytes": 792109,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/compact-logic-review/render/15_Hardware_Reset_Interlock.png",
+      "sha256": "e8e0d204304c74470e68a34478b0044566a74edc8ef30d4fd8e3022c93941e47",
+      "bytes": 105198,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/compact-logic-review/render/15_Hardware_Reset_Interlock.svg",
+      "sha256": "5e5ab20eeb0a7d90ae2e10615819b7ba686c81164f611b6a003639672892ac7d",
+      "bytes": 842982,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/audit-run.log",
+      "sha256": "a8d2047247d08cdfc48312d2ddcfd1900fbc6c66508f643f7a283e59c6bb9858",
+      "bytes": 12814,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/TI_DSF_native_layer_review.png",
+      "sha256": "19d4d5d5a5441cc34a42f16f3c4a4e1e43d033ca942772b8fb260e9a251f88f5",
+      "bytes": 191500,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/TI_DSF_native_layer_review.svg",
+      "sha256": "34a4e36674a62344a03df6e7cf01b51c8723764f94dccb5ab78f5fe06f4fea39",
+      "bytes": 11516,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/native-base-F.Cu.svg",
+      "sha256": "9b8c0c8d1a5887094e8f5a57152f7c00f161bc152c3a10b4a641688dd797de7d",
+      "bytes": 2904,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/native-base-F.Mask.svg",
+      "sha256": "e182e36fd0e6fef57e0bb2cf4a839c973fb3761675994a4002c329a30142e484",
+      "bytes": 2906,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/native-base-F.Paste.svg",
+      "sha256": "588859d12cfe84cb4340a9dca9e7cb1cd95cd4b5462b23f936aa96322649612c",
+      "bytes": 2907,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/native-overrides-F.Cu.svg",
+      "sha256": "33df9691c431ec591269c42e4c5db273a8862ee1b506ba9c04b5402d96a32531",
+      "bytes": 2909,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/native-overrides-F.Mask.svg",
+      "sha256": "6749abbcc4f541fa0d79ea0cd4f188dcb3de9a526e6b8d49c60def8e2b06dec0",
+      "bytes": 2911,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/evidence/native-overrides-F.Paste.svg",
+      "sha256": "d60186ab600ebdbf749aeaad14de404c76e7f856971584a58c8e7391a29d47f9",
+      "bytes": 2912,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/audit-run.log",
+      "sha256": "efe0de621ba739fd888a59c58b8dc85ec5bc899cb081b4e6bda589569aa68d5e",
+      "bytes": 11679,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/evidence/NXP_mask_export_control.png",
+      "sha256": "7b03f125aade9ca1e1d297808a20f95625026f35fd36706a957afd500d8d4a3e",
+      "bytes": 175739,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/evidence/NXP_mask_export_control.svg",
+      "sha256": "0073c3de96fbef3207152102446eb76bca96ba3dfa1598faaec0f0049696401b",
+      "bytes": 5738,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/evidence/NXP_native_layer_review.png",
+      "sha256": "7c1ed1cce079a854667f13517a2ae138734dedf0aaaaddba84a114b865461384",
+      "bytes": 232040,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/evidence/NXP_native_layer_review.svg",
+      "sha256": "fc84b9fe312ed8d6570d470d84229573fc928e434cd8d3b96f5a1b1ea4e63c28",
+      "bytes": 10725,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Cu.svg",
+      "sha256": "c47d413437c1bcd32904258474875993584c72ab6951fad029f9a8e1c6bf3837",
+      "bytes": 2152,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Mask.svg",
+      "sha256": "134ce51521e4d4af116868f11cda28092168d815c0ca4dd1f165fd6d8692c8dd",
+      "bytes": 2154,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Paste.svg",
+      "sha256": "160cc9d3bf9b8c5e58767e59b0ecf54d30362e498ffa0d8cbef5c37fa3f618c5",
+      "bytes": 2155,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Cu.svg",
+      "sha256": "c298784d2492bcd73cf2bd3191676887e89f8b89cc87c44306db09546c65dbf4",
+      "bytes": 2157,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Mask.svg",
+      "sha256": "f31c2f2eb5e01fc45a159fd0d6165dbf111e167162d69700763557ace0fcf8e2",
+      "bytes": 2159,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Paste.svg",
+      "sha256": "98bc87a147b77a3f66890b927be9c9eba9b2b8e8b464efbeedfedb28b333057b",
+      "bytes": 2160,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/tf-clock-review/render/16_TF_Voltage_Translation.png",
+      "sha256": "d704869f6da2ab96bdfc3788d7f50d66dae6f4e8b56fcfabdfd1f55c450be974",
+      "bytes": 71779,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    },
+    {
+      "path": "recovery/tf-clock-review/render/16_TF_Voltage_Translation.svg",
+      "sha256": "eebf280e80d299c3cd6d4d1b7517668a1649f398ba82a3563e67e7fc2ce95b5e",
+      "bytes": 376848,
+      "reason": "Generated image/log/archive or PDF omitted from public source checkpoint"
+    }
+  ],
+  "editorial_changes": [
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/REVIEW.md",
+      "source_sha256": "e021dd7fbc3ba45fa46aa6bf126c35ce6399a86659bc3d8e8430f24a34a572e2",
+      "published_sha256": "75901a3b37816a610038d0bf291209efe69c91a7e9d54bf3690bc452e177be3b",
+      "reason": "Editorial attribution text updated; technical content unchanged"
+    },
+    {
+      "path": "recovery/logic-footprint-review/nexperia-archival/source-acceptance.json",
+      "source_sha256": "f117171ffc0e65051845d43b249bfd992cb138b818d481aaa85117780713f620",
+      "published_sha256": "5039fc86879b04755a0be42b55db8813430ec422f64a779c3c13fa8ab27ee192",
+      "reason": "Editorial attribution text updated; technical content unchanged"
+    }
+  ]
+}

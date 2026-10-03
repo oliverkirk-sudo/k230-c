@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "CoreAux") (type "KiCad") (uri "${KIPRJMOD}/CoreAux.kicad_sym") (options "") (descr "K230 auxiliary reference subset")))

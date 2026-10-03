@@ -1,0 +1,12 @@
+block,reference_candidate,qty,description,status,release_requirement
+SoC,K230,1,VFBGA390 13x13mm 0.65mm pitch,architecture candidate,Official full ball map and lifecycle; verify all power and reserved pins
+RAM,K4F8E304HB-MGCJ,1,8Gb LPDDR4; 2 channels x16; 200FBGA 10x15mm,Canaan verified model; Samsung datasheet checked,Exact package land pattern; channel and DQ/CA matrix; procurement; DDR training
+eMMC,KLMAG1JETD-B041,1,16GB eMMC5.1; 153FBGA 11.5x13x0.8mm; host use HS200,Samsung-authored datasheet checked from mirror,Lifecycle and availability; ball map; VCCQ-bank voltage; boot validation
+CORE regulator,TPS62827A DMQ,1,Independent rail sized against peak and continuous load,Connected candidate; independently checked pins/divider,4A rating;0.7992V nominal;dynamic/ripple/thermal and footprint validation
+CPU regulator,TPS628640BYCGR,1,DVFS-capable rail,Connected candidate;0.8V startup;private CPU bus,0x49;GPIO65/66 open-drain firmware and voltage-frequency validation
+KPU regulator,TPS628640BYCGR,1,DVFS-capable rail,Connected candidate;0.8V startup;private KPU bus,0x49;GPIO67/69 open-drain firmware and voltage-frequency validation
+DDR and IO regulators,TPS62826A / TPS62825A,3,Appropriate DDR 1.1V/1.8V and 3.3V/1.8V network supplies,Connected candidates,1.107V/1.8V/3.318V nominal;effective capacitance;transient and external loads
+Analog supply filters,Ferrites and local capacitors,9 ferrites,Reference-style isolated supply branches;common filtered PMU rail,Connected candidate;not ripple qualified,DCR/current/noise/resonance checks;LDO alternative if analog noise targets require
+Main crystal,TBD,1,24MHz; target <=20ppm; package and loading to be designed,requirement only,Crystal datasheet ESR and load; matched capacitors; startup test
+RTC crystal,TBD,1,32.768kHz; target <=20ppm,requirement only,RTC voltage network; load and startup test
+Passives and protection,TBD,TBD,Decoupling; calibration; straps; filtering; protection,not selected,Complete reference schematic audit; actual rail and layout values

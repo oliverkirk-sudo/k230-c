@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/shared/cm-k230-redesign/cad/storage/CMK230_Storage_Selector_CANDIDATE.kicad_sch</source>
+    <date>2026-09-30T05:20:10-0700</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Cold storage selector - proposed subcircuit ONLY</title>
+        <company/>
+        <rev>D1-subcircuit</rev>
+        <date/>
+        <source>CMK230_Storage_Selector_CANDIDATE.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C31">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35d4019e-7fc4-4989-8358-7745cf613605</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>485e72a8-da56-4755-9bb1-1c7bd4028410</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5867660-7b7c-43db-b51a-249dce467345</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5aa71f8c-3d76-4e77-92df-0dc55ba87394</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>OPEN=EMMC / CLOSED=TF; COLD ONLY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="SJ2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f40378a5-db0b-478a-b82f-410f794050e7</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>366dddaa-1aee-43b8-8c5e-ee11949254f2</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4eb57703-c992-43f0-b574-8a2298f05b55</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d836e58-0eff-47e5-98d7-474abecbd05a</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10k RESET BIAS</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e309958-40b5-43ff-be20-d7c1d444ec01</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>TMUX1574RSVR / CANDIDATE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="TMUX1574RSV" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dedbe4e-dda9-4eed-81de-0deb376cb807</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>TMUX1574RSVR / CANDIDATE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="TMUX1574RSV" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a945db3a-240c-4749-9e5a-7ed7cbcc5706</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>TMUX1574RSVR / CANDIDATE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="TMUX1574RSV" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99403f81-af91-4d5c-a978-cec3c3c62dbc</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>SN74LVC1G32DBVR</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Storage" part="SN74LVC1G32DBV" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Storage_Selector_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aafc7ce-b2d1-4c6d-895c-d8a2b2959640</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Storage" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Storage" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Storage" part="SJ2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SJ2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Storage" part="SN74LVC1G32DBV">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G32DBV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Storage" part="TMUX1574RSV">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMUX1574RSV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="S1B" type="passive"/>
+        <pin num="2" name="D1" type="passive"/>
+        <pin num="3" name="S2A" type="passive"/>
+        <pin num="4" name="S2B" type="passive"/>
+        <pin num="5" name="D2" type="passive"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="D3" type="passive"/>
+        <pin num="8" name="S3B" type="passive"/>
+        <pin num="9" name="S3A" type="passive"/>
+        <pin num="10" name="D4" type="passive"/>
+        <pin num="11" name="S4B" type="passive"/>
+        <pin num="12" name="S4A" type="passive"/>
+        <pin num="13" name="EN" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="SEL" type="input"/>
+        <pin num="16" name="S1A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Storage">
+      <uri>/workspace/shared/cm-k230-redesign/cad/storage/Storage.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DISABLE_OR_TF" class="Default">
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U13" pin="13" pinfunction="EN" pintype="input"/>
+      <node ref="U14" pin="4" pinfunction="Y" pintype="output"/>
+    </net>
+    <net code="2" name="/EMMC_CLK" class="Default">
+      <node ref="U11" pin="16" pinfunction="S1A" pintype="passive"/>
+    </net>
+    <net code="3" name="/EMMC_CMD" class="Default">
+      <node ref="U11" pin="3" pinfunction="S2A" pintype="passive"/>
+    </net>
+    <net code="4" name="/EMMC_DAT0" class="Default">
+      <node ref="U11" pin="9" pinfunction="S3A" pintype="passive"/>
+    </net>
+    <net code="5" name="/EMMC_DAT1" class="Default">
+      <node ref="U11" pin="12" pinfunction="S4A" pintype="passive"/>
+    </net>
+    <net code="6" name="/EMMC_DAT2" class="Default">
+      <node ref="U12" pin="16" pinfunction="S1A" pintype="passive"/>
+    </net>
+    <net code="7" name="/EMMC_DAT3" class="Default">
+      <node ref="U12" pin="3" pinfunction="S2A" pintype="passive"/>
+    </net>
+    <net code="8" name="/EMMC_DAT4" class="Default">
+      <node ref="U13" pin="16" pinfunction="S1A" pintype="passive"/>
+    </net>
+    <net code="9" name="/EMMC_DAT5" class="Default">
+      <node ref="U13" pin="3" pinfunction="S2A" pintype="passive"/>
+    </net>
+    <net code="10" name="/EMMC_DAT6" class="Default">
+      <node ref="U13" pin="9" pinfunction="S3A" pintype="passive"/>
+    </net>
+    <net code="11" name="/EMMC_DAT7" class="Default">
+      <node ref="U13" pin="12" pinfunction="S4A" pintype="passive"/>
+    </net>
+    <net code="12" name="/EMMC_RSTN" class="Default">
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U12" pin="7" pinfunction="D3" pintype="passive"/>
+    </net>
+    <net code="13" name="/GLOBAL_DISABLE" class="Default">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U11" pin="13" pinfunction="EN" pintype="input"/>
+      <node ref="U12" pin="13" pinfunction="EN" pintype="input"/>
+      <node ref="U14" pin="1" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="14" name="/GND" class="Default">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="10" pinfunction="D4" pintype="passive"/>
+      <node ref="U12" pin="11" pinfunction="S4B" pintype="passive"/>
+      <node ref="U12" pin="12" pinfunction="S4A" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="8" pinfunction="S3B" pintype="passive"/>
+      <node ref="U13" pin="1" pinfunction="S1B" pintype="passive"/>
+      <node ref="U13" pin="11" pinfunction="S4B" pintype="passive"/>
+      <node ref="U13" pin="15" pinfunction="SEL" pintype="input"/>
+      <node ref="U13" pin="4" pinfunction="S2B" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="8" pinfunction="S3B" pintype="passive"/>
+      <node ref="U14" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="/MMC0_CLK" class="Default">
+      <node ref="U11" pin="2" pinfunction="D1" pintype="passive"/>
+    </net>
+    <net code="16" name="/MMC0_CMD" class="Default">
+      <node ref="U11" pin="5" pinfunction="D2" pintype="passive"/>
+    </net>
+    <net code="17" name="/MMC0_D0" class="Default">
+      <node ref="U11" pin="7" pinfunction="D3" pintype="passive"/>
+    </net>
+    <net code="18" name="/MMC0_D1" class="Default">
+      <node ref="U11" pin="10" pinfunction="D4" pintype="passive"/>
+    </net>
+    <net code="19" name="/MMC0_D2" class="Default">
+      <node ref="U12" pin="2" pinfunction="D1" pintype="passive"/>
+    </net>
+    <net code="20" name="/MMC0_D3" class="Default">
+      <node ref="U12" pin="5" pinfunction="D2" pintype="passive"/>
+    </net>
+    <net code="21" name="/MMC0_D4" class="Default">
+      <node ref="U13" pin="2" pinfunction="D1" pintype="passive"/>
+    </net>
+    <net code="22" name="/MMC0_D5" class="Default">
+      <node ref="U13" pin="5" pinfunction="D2" pintype="passive"/>
+    </net>
+    <net code="23" name="/MMC0_D6" class="Default">
+      <node ref="U13" pin="7" pinfunction="D3" pintype="passive"/>
+    </net>
+    <net code="24" name="/MMC0_D7" class="Default">
+      <node ref="U13" pin="10" pinfunction="D4" pintype="passive"/>
+    </net>
+    <net code="25" name="/MMC0_RST_N" class="Default">
+      <node ref="U12" pin="9" pinfunction="S3A" pintype="passive"/>
+    </net>
+    <net code="26" name="/MODE_TF" class="Default">
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U11" pin="15" pinfunction="SEL" pintype="input"/>
+      <node ref="U12" pin="15" pinfunction="SEL" pintype="input"/>
+      <node ref="U14" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="27" name="/TF_HOST_CLK" class="Default">
+      <node ref="U11" pin="1" pinfunction="S1B" pintype="passive"/>
+    </net>
+    <net code="28" name="/TF_HOST_CMD" class="Default">
+      <node ref="U11" pin="4" pinfunction="S2B" pintype="passive"/>
+    </net>
+    <net code="29" name="/TF_HOST_D0" class="Default">
+      <node ref="U11" pin="8" pinfunction="S3B" pintype="passive"/>
+    </net>
+    <net code="30" name="/TF_HOST_D1" class="Default">
+      <node ref="U11" pin="11" pinfunction="S4B" pintype="passive"/>
+    </net>
+    <net code="31" name="/TF_HOST_D2" class="Default">
+      <node ref="U12" pin="1" pinfunction="S1B" pintype="passive"/>
+    </net>
+    <net code="32" name="/TF_HOST_D3" class="Default">
+      <node ref="U12" pin="4" pinfunction="S2B" pintype="passive"/>
+    </net>
+    <net code="33" name="/VEMMC_IO" class="Default">
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="/VSW_3V3" class="Default">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U11" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U12" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U13" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U14" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

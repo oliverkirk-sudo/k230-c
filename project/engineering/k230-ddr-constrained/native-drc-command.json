@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "kicad-cli",
+    "pcb",
+    "drc",
+    "--format",
+    "json",
+    "--all-track-errors",
+    "--severity-all",
+    "--exit-code-violations",
+    "-o",
+    "/workspace/shared/cm-k230-redesign/engineering/k230-ddr-constrained/native-drc.json",
+    "/workspace/shared/cm-k230-redesign/cad/bga-engineering-candidates/k230-ddr-constrained/K230_DDR_CONSTRAINED_LOCAL_TRIAL.kicad_pcb"
+  ],
+  "exit_code": 5,
+  "kicad_version": "9.0.2+dfsg-1"
+}

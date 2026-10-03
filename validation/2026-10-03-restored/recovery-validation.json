@@ -1,0 +1,14 @@
+{
+  "stage": "RESTORED_V12_PLUS_R2_1",
+  "kicad": "9.0.2",
+  "components": 254,
+  "pin_bindings": 1509,
+  "component_differences": [],
+  "binding_differences": [],
+  "erc_violations": 0,
+  "erc_categories": {},
+  "changed_delta_payloads": [],
+  "R528_DNP": true,
+  "production_ready": false,
+  "later_geometry_recovered": false
+}

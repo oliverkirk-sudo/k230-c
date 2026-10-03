@@ -1,35 +1,35 @@
 # k230-c
 
-## 当前状态：R2.1 电路与封装增量检查点
+## 当前检查点：已恢复 v12 + R2.1 源工程
 
-本仓库保存 CM-K230 核心板的可编辑工程增量与验证证据。**这不是可直接生产的整板工程，也不是独立完整工程。**
+本仓库保存 CM-K230 核心板的可编辑源工程和验证证据。v12 基线与 R2.1 累积增量均已恢复并核验。**这是原理图/候选封装恢复检查点，不是生产版本。当前候选仍没有完整核心板 PCB。**
 
-- 依赖 v12 基线，SHA-256：`63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58`。该基线在本次发布时尚未恢复，仓库未包含它
-- 当前原理图：`checkpoints/R2.1/payload/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch`
-- 当前分支没有完整核心板 PCB。包内小型 PCB/Gerber 是封装几何与反例检验夹具，不能用于生产核心板
-- 6 层 HDI、38 mm 外形、140 触点及单面贴装是待完成/验证的设计要求；不能据此认定当前工程已经实现
+当前入口：`project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_pro`（原理图同名 `.kicad_sch`）。保持 `project/` 内相对目录结构即可解析已恢复的 10 个封装库。
 
-## 本次重新验证（2026-10-03）
+## 本次重新验证（2026-10-03，KiCad 9.0.2）
 
-- 输入 ZIP：2,293,882 字节，332 个成员 CRC 通过，325 个原始增量清单文件 SHA-256 全部匹配
-- 输入 ZIP SHA-256：`4e23cf611b37900dab169f0b44da5974ae70c65bbcf7624c97ccb16688eb3b5b`
-- KiCad 9.0.2 重新导出：254 个元件、1,509 个引脚绑定；与归档网表的元件/属性/网络/引脚功能/类型无差异
-- 新 ERC：0 个错误、150 个警告，全部为 `footprint_link_issues`，原因是缺少 v12 封装库。历史文件中的 ERC 0 记录不能替代这次结果
-- R528 默认 DNP 保持；R574 尚无已验证封装；默认禁止存储
-- 高温、上电、时序、DDR、六层 HDI 布局布线、DFM 和工厂工艺资格验证尚未完成
+- v12 ZIP：888 个成员 CRC 通过，886 个原始保留文件哈希匹配；SHA-256 `63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58`
+- R2.1 ZIP：332 个成员 CRC 通过，325 个增量文件哈希匹配；SHA-256 `4e23cf611b37900dab169f0b44da5974ae70c65bbcf7624c97ccb16688eb3b5b`
+- 增量在独立 v12 工作副本上通过防覆盖校验后应用，全部 325 个增量文件保持一致
+- 新导出网表：254 个元件、1,509 个引脚绑定，与 R2.1 归档的元件、属性、网络、引脚功能和类型一致
+- 恢复后新 ERC：0 个错误、0 个警告；10 个封装库均能解析
+- R528 保持默认 DNP，存储默认禁止；149 个元件有封装字段，105 个仍未分配。R574 封装尚未完成验证
 
-新验证见 `validation/2026-10-03/`。`checkpoints/R2.1/` 中的原始验证报告是历史证据；除上述明确列出的项目外，未在本次重新执行。
+新结果在 `validation/2026-10-03-restored/`。`validation/2026-10-03-delta-only/` 保存基线尚未到达时的历史检查（0 错误、150 个缺库警告）；这些缺库警告已由完整恢复后的新结果取代。`project/` 中其他报告保留历史阶段含义，不能视为本次全部重新执行。
 
-## 内容与使用范围
+## 尚未完成的工程资格验证
 
-保留可编辑 KiCad 原理图/符号/候选封装/独立测试 PCB、脚本、网表、夹具 CAM、历史工程审查及来源 URL/哈希。已去除运行时缓存、会话设置、日志和图像；未上传厂商 PDF、扫描页面、IBIS、凭证或内部工作记录。公开子集及改动由 `PUBLICATION_PROVENANCE.json` 和 `SHA256SUMS` 记录。没有为第三方内容新增授权。
+- 当前 `recovery-physical-candidate` 没有完整核心板 PCB；历史 PCB、8 层试验和封装/负控夹具仍保留用于追溯，不是当前 6 层成品
+- 38 × 38 mm 外形、140 个触点、1 mm 间距、恰好 6 个铜层及仅顶面贴装是设计要求，并非已达成的制造验收
+- 尚需完成封装缺口、整板布局布线、DDR/时序、高温/上电、DFM 和工厂工艺确认
+- TI 候选阻焊桥名义 80 µm；NXP 示例名义 55 µm。KiCad 全局最小阻焊桥设为 75 µm 时可能合并开窗。必须核对实际 CAM 与铜/蚀刻/阻焊/钢网/贴装能力
 
-本仓库的 R2.1 是经过筛选的公开源文件增量，不是原 ZIP 的逐字节副本。`delta-manifest.json` 已相应重建。缺少的历史渲染/来源图像与基线相关测试不能直接重跑。恢复并核实 v12 后，才可在单独工作副本上使用 `checkpoints/R2.1/apply_delta.py`；不要在唯一原件上应用。该脚本会先验证基线和每个保留的增量哈希，拒绝不匹配的已有修改。
+## 发布内容、来源与完整性
 
-TI 候选阻焊桥名义 80 µm；NXP 厂商示例名义 55 µm，KiCad 全局最小阻焊桥设为 75 µm 时可能合并开窗。必须核对实际 CAM 和板厂的铜/蚀刻/阻焊/钢网/贴装工艺能力。不得把孤立封装检查当作整板制造批准。
+`project/` 保留源 CAD、库、脚本、数据、网表、工程审查和来源 URL/哈希，以及必要的 `LICENSE-01studio.txt` 上游 MIT 版权许可声明。未将该许可扩展为对其他第三方材料的新授权。
+
+本公开源文件检查点经过筛选，未包含厂商 PDF/扫描页面、图像、运行时缓存、会话设置、日志、备份 ZIP 及部分大型历史 DDR 搜索生成结果。它不是两个原始 ZIP 的逐字节镜像。历史报告和冻结清单可能引用这些省略文件；需要相关生成结果的旧测试须先重新生成。完整排除项/原始哈希/两处非技术署名编辑见 `PUBLICATION_PROVENANCE.json`；当前发布文件完整性以根目录 `SHA256SUMS` 为准。
 
 ## English summary
 
-R2.1 is a partial electrical/footprint recovery checkpoint requiring the missing v12 baseline. It is not a standalone project or a production release. The active candidate has no full-board PCB. The fresh KiCad 9.0.2 export matches the archived 254-component / 1,509-binding graph. Fresh ERC has zero errors and 150 missing-library footprint-link warnings. Historical reports are retained with their original scope and are not fresh passes.
-
-Future validated engineering checkpoints will preserve repository history and include their stage, validation scope, remaining limitations and file hashes.
+The verified v12 baseline plus R2.1 delta has been restored. The active editable schematic resolves all 10 footprint libraries. Fresh KiCad 9.0.2 ERC has zero errors and zero warnings; the exported 254-component / 1,509-binding graph matches R2.1. There are 149 assigned and 105 unassigned component footprints. This is a source-recovery checkpoint, not a production release: no complete active six-layer board has been recovered or routed. Historical trials and tests retain their original limited scope.

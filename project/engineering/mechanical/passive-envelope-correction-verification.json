@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "Authorized L22/L23/R220/R561-candidate/Y2-candidate area corrections only",
+  "dense_area_mm2": 1029.75,
+  "0402_area_mm2": 1159.23,
+  "changes_from_initial_dense_mm2": {
+    "L22_L23": 2.96,
+    "R220": 2.58,
+    "R561": 1.63,
+    "Y2": -6.58
+  },
+  "placed_envelope_count": 245,
+  "requested_envelope_count": 245,
+  "zero_pairwise_overlaps": true,
+  "Y2_drawing_review": "YXC X322524MOB4SI RevB0 p3 visually confirms lands1.4x1.2 atX+/-1.1Y+/-0.85;2/4ground,1/3crystal",
+  "source_notes": [
+    "passive-inductor-candidate-review.md",
+    "passive-small-parts-review.md",
+    "../../cad/verified-footprints/crystals/geometry-source.json"
+  ],
+  "current_XML_references": 246,
+  "current_functional_population": 239,
+  "lead_added_MIPI_bypass_caps": [
+    "C245",
+    "C246"
+  ],
+  "master_updated_by_lead_since_initial_snapshot": true,
+  "source_master_sha256": "1527d9796b7b4f8c41604a82e50ec71201094392fc9781f3f9bbccdb3f1020f1"
+}

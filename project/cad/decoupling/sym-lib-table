@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "Decoupling") (type "KiCad") (uri "${KIPRJMOD}/Decoupling.kicad_sym") (options "") (descr "Verified bias topology, values subject to final review")))

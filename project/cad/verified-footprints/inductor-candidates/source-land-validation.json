@@ -1,0 +1,96 @@
+{
+  "status": "SOURCE_COPPER_CANDIDATES_NOT_ELECTRICALLY_OR_MANUFACTURING_QUALIFIED",
+  "date_utc": "2026-09-30",
+  "source_pages_visually_inspected": [
+    5,
+    7
+  ],
+  "parts": [
+    {
+      "mpn": "DFE201612E-R24M=P2",
+      "refs": [
+        "L22",
+        "L23"
+      ],
+      "height": 1.2,
+      "pdf": "/workspace/shared/k230-reference/mechanical/passive-review/murata-DFE201612E-JETE243A-0006.pdf",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0006.pdf",
+      "footprint": "Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE",
+      "copper_land_mm": [
+        0.8,
+        1.8
+      ],
+      "pad_centers_mm": [
+        [
+          -0.8,
+          0
+        ],
+        [
+          0.8,
+          0
+        ]
+      ],
+      "land_gap_mm": 0.8,
+      "max_body_mm": [
+        2.2,
+        1.8
+      ],
+      "courtyard_mm": [
+        3.0,
+        2.4
+      ],
+      "mask_expansion_mm": 0.05,
+      "paste": "two explicit unnumbered 1:1 F.Paste-only apertures; process candidate",
+      "under_coil_restriction": "No through-holes or unrelated copper under full maximum body; source gives no layer exemption. Dwgs.User marker only; NOT automatically enforced.",
+      "source_sha256": "6fbbdccedc9f58904a3e60d7e9c0e33917a03b7dd0d96716821988e89e4fb8ad",
+      "footprint_sha256": "979b4131e18048ce01e1d6ff2daad4857b669ffb46e5126ebbd19e34d2e2e3c8"
+    },
+    {
+      "mpn": "DFE201610E-R47M=P2",
+      "refs": [
+        "L24",
+        "L25",
+        "L26"
+      ],
+      "height": 1.0,
+      "pdf": "/workspace/shared/k230-reference/mechanical/compact-inductor-Murata-JETE243A-0001-official.pdf",
+      "source": "https://pim.murata.com/asset/pim4/inductor/J(E)TE243A-0001_PDF_INDUCTOR",
+      "footprint": "Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE",
+      "copper_land_mm": [
+        0.8,
+        1.8
+      ],
+      "pad_centers_mm": [
+        [
+          -0.8,
+          0
+        ],
+        [
+          0.8,
+          0
+        ]
+      ],
+      "land_gap_mm": 0.8,
+      "max_body_mm": [
+        2.2,
+        1.8
+      ],
+      "courtyard_mm": [
+        3.0,
+        2.4
+      ],
+      "mask_expansion_mm": 0.05,
+      "paste": "two explicit unnumbered 1:1 F.Paste-only apertures; process candidate",
+      "under_coil_restriction": "No through-holes or unrelated copper under full maximum body; source gives no layer exemption. Dwgs.User marker only; NOT automatically enforced.",
+      "source_sha256": "5c02415289b2b9d2c0ceb283cfe004a986d9e729dadbfe92917a381db5eae84e",
+      "footprint_sha256": "cfe2b57a3dde4b85fe0bfc5236f7729e5a8bd953b39eb37605d8b12586b0d3f7"
+    }
+  ],
+  "limits": [
+    "No assignment to main schematic yet.",
+    "No inferred polarity or winding start from symmetric unmarked source drawing.",
+    "No unrelated-copper/through-hole enforcement claimed; exact-net-aware rule needed at placement.",
+    "Source lands exact; mask+50um,paste1:1,courtyard250um beyond mask are declared process assumptions.",
+    "L21 unchanged; no hot-current qualification or full-board fit implied."
+  ]
+}

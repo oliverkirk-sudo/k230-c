@@ -1,0 +1,194 @@
+[
+  {
+    "net": "VDD0P8_CORE",
+    "source": "U21.5",
+    "switch_net": "SW_CORE",
+    "passive_path": [
+      "L21"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "AVDD0P8_PLL",
+    "source": "U21.5",
+    "switch_net": "SW_CORE",
+    "passive_path": [
+      "L21",
+      "FB202"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "AVDD0P8_MIPI",
+    "source": "U21.5",
+    "switch_net": "SW_CORE",
+    "passive_path": [
+      "L21",
+      "FB203"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "VDD0P8_DDR_CORE",
+    "source": "U21.5",
+    "switch_net": "SW_CORE",
+    "passive_path": [
+      "L21",
+      "R220"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "VDD0P8_CPU",
+    "source": "U22.C1",
+    "switch_net": "SW_CPU",
+    "passive_path": [
+      "L22"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "VDD0P8_KPU",
+    "source": "U23.C1",
+    "switch_net": "SW_KPU",
+    "passive_path": [
+      "L23"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "VDD1P1_DDR_IO",
+    "source": "U24.5",
+    "switch_net": "SW_DDR",
+    "passive_path": [
+      "L24"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "VDD1P8",
+    "source": "U25.5",
+    "switch_net": "SW_1V8",
+    "passive_path": [
+      "L25"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "VAA_DDR",
+    "source": "U25.5",
+    "switch_net": "SW_1V8",
+    "passive_path": [
+      "L25",
+      "FB204"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "AVDD1P8_USB",
+    "source": "U25.5",
+    "switch_net": "SW_1V8",
+    "passive_path": [
+      "L25",
+      "FB205"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "AVDD1P8_PMU",
+    "source": "U25.5",
+    "switch_net": "SW_1V8",
+    "passive_path": [
+      "L25",
+      "FB206"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "AVDD1P8_MIPI",
+    "source": "U25.5",
+    "switch_net": "SW_1V8",
+    "passive_path": [
+      "L25",
+      "FB207"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "AVDD1P8_ADC",
+    "source": "U25.5",
+    "switch_net": "SW_1V8",
+    "passive_path": [
+      "L25",
+      "FB208"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "AVDD1P8_CODEC",
+    "source": "U25.5",
+    "switch_net": "SW_1V8",
+    "passive_path": [
+      "L25",
+      "FB209"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "VEMMC_IO",
+    "source": "U25.5",
+    "switch_net": "SW_1V8",
+    "passive_path": [
+      "L25",
+      "R561"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "VDD_3V3",
+    "source": "U26.5",
+    "switch_net": "SW_3V3",
+    "passive_path": [
+      "L26"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "AVDD3P3_USB",
+    "source": "U26.5",
+    "switch_net": "SW_3V3",
+    "passive_path": [
+      "L26",
+      "FB210"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  },
+  {
+    "net": "VDD3P3_SD",
+    "source": "U26.5",
+    "switch_net": "SW_3V3",
+    "passive_path": [
+      "L26",
+      "R221"
+    ],
+    "declaration": "REGULATOR_THROUGH_PASSIVE_PATH",
+    "qualification": "connectivity_only_not_voltage_timing_thermal_approval"
+  }
+]

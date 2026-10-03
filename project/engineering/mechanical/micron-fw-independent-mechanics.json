@@ -1,0 +1,102 @@
+{
+  "part": "MT53E256M32D2FW-046 AAT:B",
+  "review_scope": "Independent visual mechanical-package review only; no footprint release or substitution approval",
+  "status": "PACKAGE_GEOMETRY_VERIFIED_PCB_LAND_PATTERN_NOT_SPECIFIED_IN_DEVICE_DATASHEET",
+  "source": {
+    "author": "Micron Technology, Inc.",
+    "title": "200b: x16/x32 Automotive LPDDR4/LPDDR4X SDRAM",
+    "revision": "Rev. F 10/2020 EN",
+    "document_id": "CCM005-554574167-10523",
+    "url": "https://www.mouser.com/datasheet/2/671/200b_z00m_sdp_ddp_auto_lpddr4_lpddr4x-3193603.pdf",
+    "sha256": "b29c808baa7e42fca9b7ccc54b673142d26b49a1fee6b3053cc8691c21832552",
+    "mechanical_figure": 7,
+    "mechanical_pdf_page_1_based": 24,
+    "ordering_pdf_page_1_based": 3,
+    "visually_reviewed": true,
+    "render_location": "Temporary review images outside the redesign deliverable tree; no complete manufacturer document copied into it"
+  },
+  "units": "mm",
+  "package": "200-ball TFBGA, FW",
+  "body_x": {
+    "nominal": 10.0,
+    "tolerance_plus_minus": 0.1,
+    "minimum": 9.9,
+    "maximum": 10.1
+  },
+  "body_y": {
+    "nominal": 14.5,
+    "tolerance_plus_minus": 0.1,
+    "minimum": 14.4,
+    "maximum": 14.6
+  },
+  "overall_package_height": {
+    "nominal": 1.0,
+    "tolerance_plus_minus": 0.1,
+    "minimum": 0.9,
+    "maximum": 1.1,
+    "interpretation": "Side-view arrows extend from solder-ball seating envelope to the package top. Title and ordering chart use 1.1 mm, the upper limit, rather than nominal height."
+  },
+  "ball_pitch": {
+    "x_columns": 0.8,
+    "y_rows": 0.65,
+    "qualifier": "TYP; drawing supplies no separate plus/minus pitch tolerance"
+  },
+  "ball_center_span": {
+    "x_columns_1_to_12": 8.8,
+    "y_rows_A_to_AB": 13.65,
+    "qualifier": "CTR"
+  },
+  "ball_diameter": {
+    "count": 200,
+    "nominal": 0.436,
+    "tolerance_plus_minus": 0.05,
+    "minimum": 0.386,
+    "maximum": 0.486
+  },
+  "ball_protrusion_below_package": {
+    "nominal": 0.306,
+    "tolerance_plus_minus": 0.05,
+    "minimum": 0.256,
+    "maximum": 0.356,
+    "interpretation": "Package underside to ball seating envelope, from the side-view arrows. This is package ball height, not a separately specified PCB-mounted joint standoff."
+  },
+  "coplanarity_callout": {
+    "value": 0.08,
+    "datum": "A, seating plane",
+    "symbol": "surface profile",
+    "interpretation": "Drawing shows a surface-profile tolerance frame 0.08 relative to datum A at the ball seating plane. Do not rewrite as a plus/minus height tolerance or an unrelated body-flatness specification."
+  },
+  "ball_finish_note": {
+    "alloy": "SACQ",
+    "pad_finish": "CuOSP",
+    "composition_from_note": "Sn, 4% Ag, 0.5% Cu, 3% Bi, 0.05% Ni"
+  },
+  "drawing_pad_note": "Dimensions apply to solder balls post-reflow on Ø0.40 SMD ball pads.",
+  "pad_note_interpretation": {
+    "package_side_smd_opening_diameter": 0.4,
+    "drawing_context": "Package Dimensions; the note directly qualifies the 200-ball diameter callout on the package view.",
+    "conclusion": "The note defines package solder-ball geometry with the package ball-pad condition. It does not specify a PCB copper-land diameter, PCB solder-mask opening, paste aperture, or complete recommended PCB land pattern.",
+    "limits": "The package drawing alone does not authorize a Ø0.40 PCB copper pad or establish PCB-mounted solder-joint height. PCB geometry requires a separately selected SMD/NSMD construction and assembly/land-pattern validation.",
+    "full_datasheet_text_search": "No occurrence of PCB, land pattern, board layout, or a separate PCB pad recommendation found. SMD occurrences are in package descriptions and package dimension drawings."
+  },
+  "ordering_crosscheck": {
+    "page": 3,
+    "table": 3,
+    "listed_family": "MT53E256M32D2FW-053/046 AAT:B",
+    "density": "1GB (8Gb)",
+    "package_code": "FW = 200-ball TFBGA 10 x 14.5 x 1.1 mm, Ø0.40 SMD",
+    "A": "Package-level burn-in",
+    "AT": "Operating case temperature TC -40 to +105 degrees C",
+    "B": "Design revision",
+    "qualification_limit": "The source itself instructs users to verify valid part numbers with the Micron product catalog; this review does not establish current orderability."
+  },
+  "supplementary_manufacturer_guidance": {
+    "title": "CSN-33: Micron BGA Manufacturer’s User Guide",
+    "url": "https://www.micron.com/content/dam/micron/global/public/products/customer-service-note/csn33-bga-user-guide.pdf",
+    "page": 5,
+    "table": 3,
+    "evidence_level": "Official Micron search-index excerpt inspected; direct PDF retrieval redirected to a rejected asset URL.",
+    "relevance": "Table distinguishes package interconnect opening from PCB interconnect dimensions, so package SMD-pad diameter cannot simply be relabeled as PCB copper-land diameter.",
+    "not_used_to_release_exact_footprint": true
+  }
+}

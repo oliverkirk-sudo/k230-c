@@ -1,0 +1,35 @@
+{
+  "status": "REVIEW_PROPOSAL_ONLY_NOT_IMPLEMENTED",
+  "baseline": "Restored v12 compact / HT-DRAFT13",
+  "reference": "R574",
+  "reference_available_in_checked_baseline": true,
+  "symbol_function": "two-pin passive resistor",
+  "value": "10k CRCW020110K0FKED CANDIDATE",
+  "manufacturer": "Vishay",
+  "mpn": "CRCW020110K0FKED",
+  "mpn_authority": "Manufacturer document 20052 part-number schema; exact inventory/lifecycle unverified",
+  "initial_tolerance_percent": 1,
+  "TCR_ppm_per_K": 100,
+  "electrical_screen_total_resistance_acceptance_percent": 10,
+  "populated_if_candidate_is_implemented": true,
+  "pins": {"1": "TF_HOST_CLK", "2": "GND"},
+  "preferred_schematic_sheet": "16_TF_Voltage_Translation.kicad_sch",
+  "physical_intent": "On-core shunt close to U95.5; short return to U95 ground reference; top side",
+  "footprint": null,
+  "footprint_reason": "No source-validated CRCW0201 footprint was restored; generic package-name assignment would not establish a manufacturing land pattern",
+  "new_pin_nodes": [
+    {"ref": "R574", "pin": "1", "net": "TF_HOST_CLK"},
+    {"ref": "R574", "pin": "2", "net": "GND"}
+  ],
+  "must_preserve": [
+    "Every existing component and pin-to-net assignment",
+    "U11.1 and U95.5 on TF_HOST_CLK",
+    "U95.8 and J1.21 only on TFCARD_CLK",
+    "U95.14 VDD_3V3, U95.15 VDD1P8, U95.7 GND",
+    "U95.6 CLK_FB no-connect",
+    "R528 DNP, cold-only JP1 mode choice, rail and ROM gates",
+    "38x38 mm, 140-contact edge interface, six layers, top-only components"
+  ],
+  "electrical_acceptance": "CONDITIONAL_CANDIDATE: not a guaranteed leakage/timing closure",
+  "no_hardware_or_manufacturing_release": true
+}

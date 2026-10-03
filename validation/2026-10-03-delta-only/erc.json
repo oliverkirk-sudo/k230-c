@@ -1,0 +1,2350 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-02T18:57:16-0700",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/SoC_1/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/bd9bb2f4-9b59-441f-a215-8c4f637c6c79",
+            "violations": [
+                {
+                    "description": "Footprint 'CMK230_38x38_140P1_D0.50_Oval0.80x1.80_PROCESS_UNQUALIFIED' not found in library 'CMK230_Castellation_Proposal'.",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [CMK230_140_CONTRACT]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.8001
+                            },
+                            "uuid": "d88b2c54-f3ba-46e4-91ac-253a38974039"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'CMK230_38x38_140P1_D0.50_Oval0.80x1.80_PROCESS_UNQUALIFIED' not found in library 'CMK230_Castellation_Proposal'.",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [CMK230_140_CONTRACT]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 2.0447
+                            },
+                            "uuid": "fbcb8013-4d67-42a3-9a8b-d1bec8d75610"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'CMK230_38x38_140P1_D0.50_Oval0.80x1.80_PROCESS_UNQUALIFIED' not found in library 'CMK230_Castellation_Proposal'.",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [CMK230_140_CONTRACT]",
+                            "pos": {
+                                "x": 3.048,
+                                "y": 0.8001
+                            },
+                            "uuid": "27215d4d-3a24-43d4-9824-0c76fcfc9c4f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'CMK230_38x38_140P1_D0.50_Oval0.80x1.80_PROCESS_UNQUALIFIED' not found in library 'CMK230_Castellation_Proposal'.",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [CMK230_140_CONTRACT]",
+                            "pos": {
+                                "x": 3.048,
+                                "y": 2.0447
+                            },
+                            "uuid": "a15b55cd-159e-4b1c-8987-aaddfbcdd6a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified' not found in library 'CMK230_Verified'.",
+                    "items": [
+                        {
+                            "description": "Symbol U21 [Six_Rail_Power_TPS6282xA_DMQ]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 0.889
+                            },
+                            "uuid": "b024c1e8-348d-4b91-bf17-a71e0b5a30df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R201 [Six_Rail_Power_R]",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 2.0574
+                            },
+                            "uuid": "b8c2d7eb-c3d8-4c23-9647-78b668805d8f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R202 [Six_Rail_Power_R]",
+                            "pos": {
+                                "x": 2.2098,
+                                "y": 2.0574
+                            },
+                            "uuid": "7d07d817-2fd4-41a8-a824-274247c20106"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C205 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 3.175,
+                                "y": 2.5654
+                            },
+                            "uuid": "add24cd9-29df-4f22-8253-354a976a188c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified' not found in library 'CMK230_Verified'.",
+                    "items": [
+                        {
+                            "description": "Symbol U24 [Six_Rail_Power_TPS6282xA_DMQ]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 3.7846
+                            },
+                            "uuid": "f711044e-ab61-414e-8fbe-c2f61c2fd53b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R207 [Six_Rail_Power_R]",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 4.953
+                            },
+                            "uuid": "6d001a23-5395-4f11-bc6f-92ece0cf8390"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R208 [Six_Rail_Power_R]",
+                            "pos": {
+                                "x": 2.2098,
+                                "y": 4.953
+                            },
+                            "uuid": "93c9cbd9-96b2-4496-9d62-e24138d41783"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified' not found in library 'CMK230_Verified'.",
+                    "items": [
+                        {
+                            "description": "Symbol U22 [Six_Rail_Power_TPS628640B_YCG]",
+                            "pos": {
+                                "x": 5.461,
+                                "y": 0.889
+                            },
+                            "uuid": "053b41a4-6545-460a-9745-101b612bcf2a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C222 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 3.175,
+                                "y": 5.461
+                            },
+                            "uuid": "c624595b-5654-474f-90bc-97092add993f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified' not found in library 'CMK230_Verified'.",
+                    "items": [
+                        {
+                            "description": "Symbol U25 [Six_Rail_Power_TPS6282xA_DMQ]",
+                            "pos": {
+                                "x": 5.461,
+                                "y": 3.7846
+                            },
+                            "uuid": "21165b39-3063-4346-af17-1f66b12b010c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R210 [Six_Rail_Power_R]",
+                            "pos": {
+                                "x": 4.7498,
+                                "y": 4.953
+                            },
+                            "uuid": "d6ac93b4-6863-4c2c-a612-eb7b124566ae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C233 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 6.8072
+                            },
+                            "uuid": "7f86d777-bd56-424d-a96e-e593f8b457cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C209 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 6.731,
+                                "y": 2.5654
+                            },
+                            "uuid": "e652fa7c-0017-40da-8a27-0d05d1e5d267"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C234 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 6.8072
+                            },
+                            "uuid": "0a12147a-097f-44fc-8428-4f9989b8e482"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R211 [Six_Rail_Power_R]",
+                            "pos": {
+                                "x": 5.7658,
+                                "y": 4.953
+                            },
+                            "uuid": "5932fe68-0f73-4136-9de4-cf4d53163e02"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C240 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 7.7216
+                            },
+                            "uuid": "d6ff5d92-e77b-4b7d-bfc9-7489a2c7f96c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C241 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 3.2766,
+                                "y": 7.7216
+                            },
+                            "uuid": "f1ce9601-789c-4c5a-adb0-80e3a0938e2e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C235 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 5.2578,
+                                "y": 6.8072
+                            },
+                            "uuid": "8b778dd4-07d3-4719-95a7-b814f9931ec2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C245 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 8.5979
+                            },
+                            "uuid": "e1829c74-e15c-4cfd-bf0c-fa9fe3548da2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C227 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 6.731,
+                                "y": 5.461
+                            },
+                            "uuid": "76108175-e3d0-4f96-8a24-5d3a9fb290ae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified' not found in library 'CMK230_Verified'.",
+                    "items": [
+                        {
+                            "description": "Symbol U23 [Six_Rail_Power_TPS628640B_YCG]",
+                            "pos": {
+                                "x": 9.017,
+                                "y": 0.889
+                            },
+                            "uuid": "09c58f56-7e29-4871-8525-a45963dbbe01"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C246 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 2.9972,
+                                "y": 8.5979
+                            },
+                            "uuid": "68da77e4-2b87-4aeb-9d55-b131cbcf578e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C242 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 5.2578,
+                                "y": 7.7216
+                            },
+                            "uuid": "cdece88c-a78d-454c-9efc-e6316706d0cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R213 [Six_Rail_Power_R]",
+                            "pos": {
+                                "x": 8.3058,
+                                "y": 4.953
+                            },
+                            "uuid": "6321499e-2031-4320-9f5f-773aa023a0ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified' not found in library 'CMK230_Verified'.",
+                    "items": [
+                        {
+                            "description": "Symbol U26 [Six_Rail_Power_TPS6282xA_DMQ]",
+                            "pos": {
+                                "x": 9.017,
+                                "y": 3.7846
+                            },
+                            "uuid": "c7b16c8e-b7b1-4b71-9efa-f4b99fb3f7e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C236 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 7.239,
+                                "y": 6.8072
+                            },
+                            "uuid": "9bd27de8-6f23-4531-be68-112cbc88f1e3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R214 [Six_Rail_Power_R]",
+                            "pos": {
+                                "x": 9.3218,
+                                "y": 4.953
+                            },
+                            "uuid": "5741abb8-70b4-4ceb-b2a9-a8d000c3889d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C243 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 7.239,
+                                "y": 7.7216
+                            },
+                            "uuid": "e5a55653-48ad-43ed-8a8e-891959d2d77a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C215 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 10.287,
+                                "y": 2.5654
+                            },
+                            "uuid": "4d72e728-3f60-47ed-b11b-08a008bc3059"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C237 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 9.2202,
+                                "y": 6.8072
+                            },
+                            "uuid": "6f2f8a9c-019a-440d-a8c5-60212d6602a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C232 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 10.287,
+                                "y": 5.461
+                            },
+                            "uuid": "0e9b85b6-2cca-46c9-82d2-25acf11b0e11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C244 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 9.2202,
+                                "y": 7.7216
+                            },
+                            "uuid": "582e68d9-5f59-49b8-b998-f3346cf916f9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C238 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 11.2014,
+                                "y": 6.8072
+                            },
+                            "uuid": "8c3e2a04-77ac-443c-a978-df7e6504ab5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C239 [Six_Rail_Power_C]",
+                            "pos": {
+                                "x": 11.2014,
+                                "y": 7.0866
+                            },
+                            "uuid": "343603b3-4603-48c2-9b26-a19dbfdfba92"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'NXP_SOT1161-2_NVT4858HK_1.8x2.6_P0.4_DrawingVerified_CANDIDATE' not found in library 'CMK230_Translator_Candidate'.",
+                    "items": [
+                        {
+                            "description": "Symbol U95 [TF_Voltage_Translation_NVT4858_HK]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 1.1684
+                            },
+                            "uuid": "b477e988-329f-4b3f-8835-a376462dabf5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C816 [TF_Voltage_Translation_C]",
+                            "pos": {
+                                "x": 2.7559,
+                                "y": 1.4478
+                            },
+                            "uuid": "c44f9827-7558-4a4d-90c1-cd8ba9adb544"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'YXC_X322524MOB4SI_3225_4P_DrawingCandidate' not found in library 'CMK230_Crystals'.",
+                    "items": [
+                        {
+                            "description": "Symbol Y2 [Clock_Reset_Boot_XTAL4_REF]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.1938
+                            },
+                            "uuid": "c72eed2a-d73a-4912-88ba-6943e68957ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C45 [Clock_Reset_Boot_C]",
+                            "pos": {
+                                "x": 2.286,
+                                "y": 1.7018
+                            },
+                            "uuid": "a2c2ff07-8be3-4b7a-8358-7c7cfe76cc5c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R65 [DDR_USB_MIPI_Bias_R]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 1.0414
+                            },
+                            "uuid": "2d17316a-6a51-4f7d-b3ba-d400f6e2a11d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R67 [DDR_USB_MIPI_Bias_R]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 1.5748
+                            },
+                            "uuid": "953458c4-73f4-42d7-8551-2365adddc3e9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R66 [DDR_USB_MIPI_Bias_R]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 1.0414
+                            },
+                            "uuid": "5572513d-5bda-427d-bfa3-0161e8c578d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R71 [DDR_USB_MIPI_Bias_R]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.1082
+                            },
+                            "uuid": "ef50018f-ec8d-4cee-a5c0-084743322bea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R68 [DDR_USB_MIPI_Bias_R]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 1.5748
+                            },
+                            "uuid": "db2c8c76-1be8-4bff-bc93-0d953dd01d8d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R63 [DDR_USB_MIPI_Bias_R]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 0.508
+                            },
+                            "uuid": "1a6ff2e0-45b8-454a-96ae-d5a7f9e2da28"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C63 [DDR_USB_MIPI_Bias_C]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 2.1082
+                            },
+                            "uuid": "98ff380e-29a1-4bc1-9b54-7408d54fd56e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C66 [DDR_USB_MIPI_Bias_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.6416
+                            },
+                            "uuid": "06042a39-4e76-4706-8119-c8af11114196"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C61 [DDR_USB_MIPI_Bias_C]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 1.0414
+                            },
+                            "uuid": "ce26a087-aeca-41da-800c-c2bd8bb8e5a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R69 [DDR_USB_MIPI_Bias_R]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 1.5748
+                            },
+                            "uuid": "1c766a68-3eb7-4152-931e-de9558cb7eac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C67 [DDR_USB_MIPI_Bias_C]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 2.6416
+                            },
+                            "uuid": "64e66c65-e533-424e-a708-86bdbb1db3a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R64 [DDR_USB_MIPI_Bias_R]",
+                            "pos": {
+                                "x": 3.5052,
+                                "y": 0.508
+                            },
+                            "uuid": "4488d7fc-c545-47cb-ac80-b0fe33d4e1c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C62 [DDR_USB_MIPI_Bias_C]",
+                            "pos": {
+                                "x": 3.5052,
+                                "y": 1.0414
+                            },
+                            "uuid": "ae5e9854-729d-4af0-9d21-b2238b9b290d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C68 [DDR_USB_MIPI_Bias_C]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 2.6416
+                            },
+                            "uuid": "17643f9b-45a7-448b-915a-196ea0a9fad9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R70 [DDR_USB_MIPI_Bias_R]",
+                            "pos": {
+                                "x": 3.5052,
+                                "y": 1.5748
+                            },
+                            "uuid": "c820f1e7-5d7a-4ab5-8a46-f51e17360fbe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified' not found in library 'CMK230_Verified'.",
+                    "items": [
+                        {
+                            "description": "Symbol U11 [Cold_Storage_Selector_TMUX1574RSV]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.7112
+                            },
+                            "uuid": "6f5d7047-4250-4c04-88a8-5c58deeb4bae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C31 [Cold_Storage_Selector_C]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 2.1082
+                            },
+                            "uuid": "6d7db80a-7444-4f2d-a162-30f8aa56e364"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified' not found in library 'CMK230_Verified'.",
+                    "items": [
+                        {
+                            "description": "Symbol U12 [Cold_Storage_Selector_TMUX1574RSV]",
+                            "pos": {
+                                "x": 2.286,
+                                "y": 0.7112
+                            },
+                            "uuid": "95e35b0b-c61a-4761-b917-87c9148b7407"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C32 [Cold_Storage_Selector_C]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 2.1082
+                            },
+                            "uuid": "4c26874c-6c5d-45d6-b1a7-80c3df9c98f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C33 [Cold_Storage_Selector_C]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 2.1082
+                            },
+                            "uuid": "dc6c431d-63f8-4d3c-9d2f-80d7fcd8d953"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified' not found in library 'CMK230_Verified'.",
+                    "items": [
+                        {
+                            "description": "Symbol U13 [Cold_Storage_Selector_TMUX1574RSV]",
+                            "pos": {
+                                "x": 3.6576,
+                                "y": 0.7112
+                            },
+                            "uuid": "29f1e4b7-8bd1-4afc-9985-4b6a10b15253"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C34 [Cold_Storage_Selector_C]",
+                            "pos": {
+                                "x": 3.6576,
+                                "y": 2.1082
+                            },
+                            "uuid": "036ef212-0770-4551-a3e2-32ef28b882de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C501 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 0.5588
+                            },
+                            "uuid": "09c759ff-1f42-4a83-8529-143bf23596a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C517 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 1.0414
+                            },
+                            "uuid": "1dc9adad-2197-4506-ac6b-ebe2dd122012"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C502 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.5588
+                            },
+                            "uuid": "8f35cb57-66dd-426f-abe4-6000ae4dd857"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C521 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 1.524
+                            },
+                            "uuid": "d2760b8a-88c0-4547-912c-cb004959e4ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C518 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 1.0414
+                            },
+                            "uuid": "ff3c652e-f436-4657-aa0d-1465ded3e8bf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C522 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 1.524
+                            },
+                            "uuid": "783c9927-7326-48aa-9940-d4fb5777c6a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C529 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.0066
+                            },
+                            "uuid": "3f4cce76-e22f-4b9e-b2c7-cff39113f13a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C503 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 0.5588
+                            },
+                            "uuid": "2a856110-81b3-41e8-bd6f-2cc35240a9a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C519 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.0414
+                            },
+                            "uuid": "448ea49c-c15f-461d-9d71-55c11d5e041b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C530 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 2.0066
+                            },
+                            "uuid": "78e82841-d6b1-4df0-8733-fb9560a10548"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C523 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.524
+                            },
+                            "uuid": "9efc03e1-5a63-490d-8a25-039a5928cab7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C534 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.4892
+                            },
+                            "uuid": "7134d2c8-6b93-47f5-a3a9-286cf6fb17b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C504 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.5588
+                            },
+                            "uuid": "f52cdfd4-c76f-4d81-b367-fb9aa6837fd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C535 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 2.4892
+                            },
+                            "uuid": "14a34ace-85c1-4ff4-9063-59e497b71efc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C531 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.0066
+                            },
+                            "uuid": "57bfbbd6-8098-4841-8488-169f5ea3eb10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C520 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.0414
+                            },
+                            "uuid": "1882e26f-2895-4391-9f1f-993820e131a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C524 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.524
+                            },
+                            "uuid": "acd4646d-42bd-4f6e-86eb-d25cf701d5cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C536 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.4892
+                            },
+                            "uuid": "13d9901b-fa3d-42e2-81fe-0af57e428fb8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C541 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 2.9718
+                            },
+                            "uuid": "f3318e65-035b-4350-85a8-9dda92e31f2b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C532 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 2.0066
+                            },
+                            "uuid": "69f2e831-a774-4376-b8fd-c10fb3c9d1ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C505 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 0.5588
+                            },
+                            "uuid": "240f25fb-9f1a-4e68-adfd-cf73755971ff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C542 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.9718
+                            },
+                            "uuid": "4ea5a2d5-c51a-48d9-a648-2af1f0ea7e11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C537 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 2.4892
+                            },
+                            "uuid": "0f73cc49-24ff-4d07-82b2-97be2ca92abf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C525 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 1.524
+                            },
+                            "uuid": "f68c69ae-3857-4ab1-8239-2c47bd9f2b66"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C553 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 3.4544
+                            },
+                            "uuid": "32175a8c-a5f9-45ed-b214-7bc1b171eba1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C533 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 2.0066
+                            },
+                            "uuid": "2780e0de-0164-4dd4-a897-103e6d97efa7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C554 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 3.4544
+                            },
+                            "uuid": "8469062f-e529-4783-a5db-ded3c069c522"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C543 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 2.9718
+                            },
+                            "uuid": "826b2ccb-d0e1-42fa-bdd0-24260ae27893"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C506 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.064,
+                                "y": 0.5588
+                            },
+                            "uuid": "30a6052d-f435-436e-a92c-52b416847ddf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C563 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 3.937
+                            },
+                            "uuid": "986f4d81-5d73-4d76-83e2-de5ca367c231"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C538 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 2.4892
+                            },
+                            "uuid": "6067b986-396a-46a5-87af-763d7c6bc32c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C526 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.064,
+                                "y": 1.524
+                            },
+                            "uuid": "532bdbf0-2448-4c18-bbb5-3eb6d3dc63fd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C555 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 3.4544
+                            },
+                            "uuid": "c50bff2d-b74c-4ffe-9a54-141cb90897e8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C564 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 3.937
+                            },
+                            "uuid": "dfa10876-8747-4140-a2d3-db5466bc7a7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C570 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 4.4196
+                            },
+                            "uuid": "850c02a2-3cdb-412e-bb59-f610edbcceca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C544 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 2.9718
+                            },
+                            "uuid": "d36bff7c-48f4-4b4c-9141-a58a3fd29129"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C507 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.7244,
+                                "y": 0.5588
+                            },
+                            "uuid": "54482d3c-5e8c-4238-aedb-6b645a04bb3a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C539 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.064,
+                                "y": 2.4892
+                            },
+                            "uuid": "6c4d0689-b8ef-4054-9567-a1ecd67568ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C565 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 3.937
+                            },
+                            "uuid": "ba9a263b-c433-4625-84ce-5b172979f587"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C556 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 3.4544
+                            },
+                            "uuid": "8830e29b-4e5b-43fd-96f7-bfb40a5da476"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C571 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 4.9022
+                            },
+                            "uuid": "ae7c6d6c-709f-4aad-a576-2352862382f8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C527 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.7244,
+                                "y": 1.524
+                            },
+                            "uuid": "7d820236-0c39-44f2-8df6-c9959a8d932c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C545 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.064,
+                                "y": 2.9718
+                            },
+                            "uuid": "370aa9a2-90cd-4d7e-875d-2f786f0fcd60"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C566 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 3.937
+                            },
+                            "uuid": "3f365f5e-24ee-4ccb-a317-82f1a1d47f34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C557 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.064,
+                                "y": 3.4544
+                            },
+                            "uuid": "841b6296-4c53-4e89-9e83-888ad0ab0988"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C508 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 5.3848,
+                                "y": 0.5588
+                            },
+                            "uuid": "dbe21015-3d0b-4f6f-aa1d-7e93c0ec8afa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C572 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 5.3848
+                            },
+                            "uuid": "7aec5acd-d2cd-45b3-9bbb-d53f9fcd29bd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C546 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.7244,
+                                "y": 2.9718
+                            },
+                            "uuid": "75bf2375-e85a-4941-a871-181b47cc44bc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C528 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 5.3848,
+                                "y": 1.524
+                            },
+                            "uuid": "6b05f5af-8bd4-453a-82f1-7d5320a7b2ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C567 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.064,
+                                "y": 3.937
+                            },
+                            "uuid": "8198914f-7b8d-4440-86b3-0fd5d2af4733"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C558 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.7244,
+                                "y": 3.4544
+                            },
+                            "uuid": "881f3fd7-6b5a-4bfa-a0ee-acf0294c334a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C573 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 5.8674
+                            },
+                            "uuid": "ae082dfc-6559-4afa-9468-af0eb16294ea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C509 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 6.0452,
+                                "y": 0.5588
+                            },
+                            "uuid": "e51327af-dcdb-40d5-895a-092fe8ac9983"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C568 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 4.7244,
+                                "y": 3.937
+                            },
+                            "uuid": "84f9178b-2c60-4cb3-9c9d-b3520345d3e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C547 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 5.3848,
+                                "y": 2.9718
+                            },
+                            "uuid": "d1bf1b47-746c-4a85-beec-355003ccdf85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C574 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 6.35
+                            },
+                            "uuid": "0972b133-c4b2-4596-a54e-0eee57c82cb5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C559 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 5.3848,
+                                "y": 3.4544
+                            },
+                            "uuid": "55f5b65e-cf8a-450c-b4ce-631981763041"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C569 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 5.3848,
+                                "y": 3.937
+                            },
+                            "uuid": "4e0856e3-1c43-4700-a0ab-2a909808ba48"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C510 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 6.7056,
+                                "y": 0.5588
+                            },
+                            "uuid": "ee916e04-8db4-4450-b0d3-932567998d58"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C548 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 6.0452,
+                                "y": 2.9718
+                            },
+                            "uuid": "c6b563a4-b6ea-491b-b673-78f346992fae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C575 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 6.8326
+                            },
+                            "uuid": "54b9303c-c3f2-4c1f-bd7d-dd701019296d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C560 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 6.0452,
+                                "y": 3.4544
+                            },
+                            "uuid": "cd27b895-93ca-4c2d-b8ef-f1099c33e123"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C549 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 6.7056,
+                                "y": 2.9718
+                            },
+                            "uuid": "ac3065d5-0a18-47cd-9ae2-c2aafe895a39"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C576 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 7.3152
+                            },
+                            "uuid": "dc5f7f8e-015d-4391-b9c6-1d07f989a4a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C511 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 7.366,
+                                "y": 0.5588
+                            },
+                            "uuid": "3c11252d-6d92-46c9-8674-49a171645e45"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C577 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 7.3152
+                            },
+                            "uuid": "729e5dba-0f33-44a7-94e9-b1b1674d508c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C561 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 6.7056,
+                                "y": 3.4544
+                            },
+                            "uuid": "80e38256-dd09-43d8-82cd-c1541957bf38"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C550 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 7.366,
+                                "y": 2.9718
+                            },
+                            "uuid": "278ad2f3-62ec-4224-b84d-b1a16366dbbb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C512 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 8.0264,
+                                "y": 0.5588
+                            },
+                            "uuid": "1f9fb6a6-cf07-4792-82e7-916d50ff8948"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C551 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 8.0264,
+                                "y": 2.9718
+                            },
+                            "uuid": "9e2a9971-ce8e-421e-8da4-7bc2a6e4af2c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C513 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 8.6868,
+                                "y": 0.5588
+                            },
+                            "uuid": "9fbcbd7f-c3e1-4844-a8c4-eb6cc5ec748a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C514 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 9.3472,
+                                "y": 0.5588
+                            },
+                            "uuid": "3499fbb8-03b2-4488-a69b-54077c30d141"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C515 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 10.0076,
+                                "y": 0.5588
+                            },
+                            "uuid": "162c84e4-6394-4bda-9758-29d0393b35c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C516 [Local_Decoupling_C]",
+                            "pos": {
+                                "x": 10.668,
+                                "y": 0.5588
+                            },
+                            "uuid": "5c8a9e5d-24e5-4ea3-9c54-84483f79418f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_DRV0006A_D_TPS3808_6P_EP7_DrawingVerified_CANDIDATE' not found in library 'CMK230_Compact_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol U89 [Hardware_Reset_Interlock_TPS3808G0...]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 0.6477
+                            },
+                            "uuid": "c72c1f7c-d39b-425a-9e1e-83da623cc0c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C809 [Hardware_Reset_Interlock_C]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 1.2573
+                            },
+                            "uuid": "c6f45bf0-3dc5-439a-87e3-48bceac1814e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R525 [Hardware_Reset_Interlock_R]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.6477
+                            },
+                            "uuid": "192c47f4-95a0-4d10-ba41-2502116c17b5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C813 [Hardware_Reset_Interlock_C]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 3.0861
+                            },
+                            "uuid": "edaf2b6e-86b6-4eb2-860c-b249827b3aa6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C810 [Hardware_Reset_Interlock_C]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 2.4765
+                            },
+                            "uuid": "ce3e004c-9271-4f8e-9b88-388d8e236a76"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE' not found in library 'CMK230_Passive_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol R526 [Hardware_Reset_Interlock_R]",
+                            "pos": {
+                                "x": 3.4163,
+                                "y": 0.6477
+                            },
+                            "uuid": "e90b0b99-c85b-4620-9c68-20d9118e13cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TI_DRV0006A_D_TPS3808_6P_EP7_DrawingVerified_CANDIDATE' not found in library 'CMK230_Compact_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol U90 [Hardware_Reset_Interlock_TPS3808G0...]",
+                            "pos": {
+                                "x": 3.4163,
+                                "y": 1.2573
+                            },
+                            "uuid": "3d39dedd-ee50-44c1-89be-d3b3731266f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C814 [Hardware_Reset_Interlock_C]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 3.0861
+                            },
+                            "uuid": "3ced0f94-6b18-4319-b809-35c064bf3c18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Nexperia_SOT353-1_AUP1G17_06_DrawingVerified_CANDIDATE' not found in library 'CMK230_Nexperia_Standard_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol U93 [Hardware_Reset_Interlock_NXP_AUP1G...]",
+                            "pos": {
+                                "x": 3.4163,
+                                "y": 1.8669
+                            },
+                            "uuid": "17924972-731b-4552-9a8a-828e26658a56"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C811 [Hardware_Reset_Interlock_C]",
+                            "pos": {
+                                "x": 3.4163,
+                                "y": 2.4765
+                            },
+                            "uuid": "235f7d3f-0794-447b-a1e4-abecf2547df2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Nexperia_SOT353-1_AUP1G17_06_DrawingVerified_CANDIDATE' not found in library 'CMK230_Nexperia_Standard_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol U91 [Hardware_Reset_Interlock_NXP_AUP1G...]",
+                            "pos": {
+                                "x": 4.7244,
+                                "y": 1.2573
+                            },
+                            "uuid": "f66c6ec9-ee67-41e3-8067-f43c111e5e6b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE' not found in library 'CMK230_Bypass_Candidates'.",
+                    "items": [
+                        {
+                            "description": "Symbol C812 [Hardware_Reset_Interlock_C]",
+                            "pos": {
+                                "x": 4.7244,
+                                "y": 2.4765
+                            },
+                            "uuid": "ef44ff20-859d-49be-a176-6322e0f76984"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        },
+        {
+            "path": "/SoC_2/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/1936531a-05d3-45d5-a36d-7be2694e3fd5",
+            "violations": []
+        },
+        {
+            "path": "/SoC_3/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/7726186d-da96-432c-bf3d-413a3a9fb8d1",
+            "violations": []
+        },
+        {
+            "path": "/LPDDR4_1/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/3aa3259f-ef6f-4ff9-a159-49a0dc5b1af5",
+            "violations": []
+        },
+        {
+            "path": "/LPDDR4_2/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/ee429f3b-6b92-4e24-9d71-ef08def30cbe",
+            "violations": []
+        },
+        {
+            "path": "/eMMC_1/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/77c45855-75c2-4fe9-b0e7-cba4f776852c",
+            "violations": []
+        },
+        {
+            "path": "/Edge_Contract_1/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/362c022b-c5fc-4b18-8902-e49bd987ee9c",
+            "violations": []
+        },
+        {
+            "path": "/Clock_Reset_Boot/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/bcf72c1d-e270-498a-98c7-d2737ee8963a",
+            "violations": []
+        },
+        {
+            "path": "/Cold_Storage_Selector/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/71c2f749-4cd9-4a3e-a7e8-3f32afd2d9ca",
+            "violations": []
+        },
+        {
+            "path": "/Six_Rail_Power/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/edc970bf-0be9-4a0c-863f-3442b244685b",
+            "violations": []
+        },
+        {
+            "path": "/DDR_USB_MIPI_Bias/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/6fe5f828-9e6d-4bd3-ab28-5e0fedab4283",
+            "violations": []
+        },
+        {
+            "path": "/Local_Decoupling/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/8fa667d9-56de-471d-a01d-38888fecc0be",
+            "violations": []
+        },
+        {
+            "path": "/PMU_Automatic_Startup/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/a60d655e-65c6-443d-ab6f-50c5ebaa1bfc",
+            "violations": []
+        },
+        {
+            "path": "/EMMC_Local_Bias/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/5e4bd597-cb0a-4bea-bdcc-6c8abb76dc3f",
+            "violations": []
+        },
+        {
+            "path": "/Hardware_Reset_Interlock/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/a46ac47a-252d-4e62-adc0-1c07e20c9ca7",
+            "violations": []
+        },
+        {
+            "path": "/TF_Voltage_Translation/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/b00c0f21-4444-4365-9438-e56bb6ec9d35",
+            "violations": []
+        },
+        {
+            "path": "/Audited_Source_Declarations/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/45e9698c-ada5-4d06-b87f-fb75402ba6bb",
+            "violations": []
+        },
+        {
+            "path": "/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e",
+            "violations": []
+        }
+    ],
+    "source": "CMK230_Core_REVIEW.kicad_sch"
+}

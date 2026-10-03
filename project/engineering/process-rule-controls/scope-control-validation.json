@@ -1,0 +1,20 @@
+{
+  "status": "NO_ARBITRARY_COPPER_WAIVER",
+  "controls": [
+    {
+      "case": "listed_pair_intrusion",
+      "expected_rule_triggered": "Source YCG U22 A1-A2 local3mil",
+      "clearance_failures": 1,
+      "matching_failures": 1,
+      "status": "PASS_CONTROL_DETECTS_INTENTIONAL_DEFECT"
+    },
+    {
+      "case": "foreign_track",
+      "expected_rule_triggered": "Proposed general 4mil clearance",
+      "clearance_failures": 1,
+      "matching_failures": 1,
+      "status": "PASS_CONTROL_DETECTS_INTENTIONAL_DEFECT"
+    }
+  ],
+  "note": "These intentionally defective test boards are not design variants or manufacturing files."
+}

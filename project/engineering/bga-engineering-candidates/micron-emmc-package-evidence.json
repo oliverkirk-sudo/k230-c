@@ -1,0 +1,89 @@
+{
+  "status": "PACKAGE_GEOMETRY_AND_OCCUPANCY_VERIFIED_PCB_LANDS_UNQUALIFIED",
+  "exact_part": "MTFC16GAPALBH-AAT",
+  "source": {
+    "pdf_local_external_to_project": "/workspace/shared/k230-memory-review/thermal-candidates/micron-emmc.pdf",
+    "url": "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/234/EMMC_5F00_DATASHEET.pdf",
+    "sha256": "52ad8018f63554d3e34f970b1516e488543c6a25bd144bcbf33d666fa2a82d71",
+    "document": "8GB\u2013128GB e.MMC Automotive, Rev. G 10/18 EN, CCMTD-841846911-10434",
+    "mechanical_pdf_page": 11,
+    "figure": 5,
+    "signal_map_pdf_page": 9,
+    "visual_review": "Actual PDF page11 rendered and inspected, including all dimensions, view orientation and no-ball test-pad note"
+  },
+  "package": {
+    "code": "BH",
+    "body_nominal_mm": [
+      11.5,
+      13.0
+    ],
+    "body_tolerance_each_axis_mm": 0.1,
+    "overall_height_nominal_mm": 1.0,
+    "overall_height_tolerance_mm": 0.1,
+    "caption_height_1p1_mm_is_upper_limit": true,
+    "ball_protrusion_mm": 0.214,
+    "ball_protrusion_tolerance_mm": 0.04,
+    "protrusion_is_not_board_joint_standoff": true,
+    "pitch_mm": [
+      0.5,
+      0.5
+    ],
+    "pitch_tolerance": "No independent +/- pitch tolerance specified; TYP in figure",
+    "ball_center_span_mm": [
+      6.5,
+      6.5
+    ],
+    "physical_ball_count": 153,
+    "post_reflow_ball_diameter_mm": 0.319,
+    "ball_diameter_tolerance": "No explicit diameter tolerance printed; do not import Samsung +/-0.05 mm",
+    "surface_profile_to_seating_datum_A_mm": 0.08,
+    "package_ball_pad_condition": "Dimensions apply to solder balls post-reflow on diameter0.30 mm SMD ball pads",
+    "package_pad_is_not_a_PCB_land_recommendation": true,
+    "auxiliary_package_test_pads": {
+      "count": 56,
+      "diameter_mm": 0.27,
+      "finish": "Au plated",
+      "solder_balls": false,
+      "PCB_interpretation": "Do not generate PCB solder lands or paste for these package test contacts"
+    }
+  },
+  "independent_occupancy_check": {
+    "method": "Extract closed four-Bezier circles of package-ball size from the mechanical PDF. Reverse bottom-view column order14\u21921 into component-top convention; compare to independently transcribed top-view figure3.",
+    "physical_ball_circle_count": 153,
+    "auxiliary_test_circle_count": 56,
+    "other_circle_count": 1,
+    "other_circle_role": "Top-view A1 identification mark",
+    "full_grid_sites": 196,
+    "physical_sites": 153,
+    "absent_sites": 43,
+    "source_grid_sha256": "5a7bcd70f1fa75ff84a657e5ad98c206eb732eaa78c8b98c274069b8c4692a55",
+    "occupancy_mismatches": [],
+    "pixel_coordinates_define_geometry": false
+  },
+  "coordinate_convention": {
+    "view": "Component top, balls down; +X right, +Y down",
+    "x_formula": "(column - 7.5)*0.5 mm",
+    "y_formula": "(zero_based_row_index - 6.5)*0.5 mm",
+    "A1_mm": [
+      -3.25,
+      -3.25
+    ],
+    "P14_mm": [
+      3.25,
+      3.25
+    ]
+  },
+  "related_already_verified_inputs": {
+    "Micron_FW": "engineering/mechanical/micron-fw-independent-mechanics.json",
+    "K230": "engineering/mechanical/bga-mechanical-audit.md",
+    "K230_note": "0.270 mm Ball Solder Mask Opening is package context. It is not sufficient to define board copper, mask and paste."
+  },
+  "restricted_source_handling": "Micron CSN-33 was not accessed or retried. This check uses the previously available exact-part datasheet only.",
+  "manufacturing_release_gaps": [
+    "Exact-part board-side land pattern and tolerances",
+    "NSMD/SMD and soldermask process qualification",
+    "Stencil thickness and paste aperture qualification with mixed components",
+    "Filled/capped via and local trace/clearance process",
+    "Reflow/warpage/reliability at intended high temperature"
+  ]
+}

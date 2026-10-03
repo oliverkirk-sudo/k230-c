@@ -1,0 +1,9 @@
+(version 1)
+# Conditional PCBWay advanced nominal trial, not JLC hole-clearance rules.
+(rule "Local copper clearance" (constraint clearance (min 0.1016mm)))
+(rule "Local trace width" (constraint track_width (min 0.1016mm)))
+(rule "Nominal via pad" (condition "A.Type == 'Via'") (constraint via_diameter (min 0.325mm) (max 0.325mm)))
+(rule "Nominal via bore" (condition "A.Type == 'Via'") (constraint hole_size (min 0.15mm) (max 0.15mm)))
+(rule "Selected 3mil nominal annulus" (condition "A.Type == 'Via'") (constraint annular_width (min 0.0762mm)))
+(rule "Hole to other net copper" (constraint hole_clearance (min 0.1524mm)))
+(rule "Added local drill spacing check" (constraint hole_to_hole (min 0.20mm)))

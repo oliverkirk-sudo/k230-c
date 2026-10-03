@@ -1,0 +1,46 @@
+{
+  "status": "OPEN_CORE_PHYSICAL_INTEGRATION_GATES",
+  "review_date_utc": "2026-09-30",
+  "current_schematic_revision": "HT-DRAFT13",
+  "imported_footprints": 150,
+  "missing_footprints": 104,
+  "bound_numbered_pads": 566,
+  "placed_internal_components": 0,
+  "internal_parts_parked_outside_outline": 149,
+  "source_land_candidates_not_assigned": [
+    "L22",
+    "L23",
+    "L24",
+    "L25",
+    "L26"
+  ],
+  "ddr_current_geometry_rejected": true,
+  "next_stack_trial": {
+    "source_catalog": "existing PCBWay8L1.6mm entry1,notnewfactoryacceptance",
+    "signals": [
+      "L3",
+      "L6"
+    ],
+    "continuous_ground_proposal": [
+      "L2",
+      "L4",
+      "L5",
+      "L7"
+    ],
+    "power_proposal": "L8 zones plus local top connections; fullcurrent/return/PDNdesignnotcomplete",
+    "mechanical_gates": [
+      "originalSTEPbodyboardnom1.538354mmnotfabricationtolerance",
+      "candidatefinished1.62mm\u00b110%includingassemblyheightreview",
+      "finevia.15mmnomholeaspectratioandincrementedstubdelay",
+      "140edgecontacts/matinggeometrymustremain"
+    ]
+  },
+  "unqualified": [
+    "fulltopsideplacement",
+    "regulatorloopsandcapacitorlocality",
+    "BGAproductionlands",
+    "controlledimpedance/spacing/delay",
+    "finevia/castellationjointfactoryprocess",
+    "hightemperatureoperation"
+  ]
+}

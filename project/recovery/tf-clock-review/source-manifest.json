@@ -1,0 +1,88 @@
+{
+  "retrieved_utc_date": "2026-10-01",
+  "method": "Direct official HTTPS URLs with curl, default sandbox; no alternate endpoints, mirrors, denied-download workaround or vendor outreach",
+  "authority": "Manufacturer data sheets are electrical authorities; restored authored engineering notes are secondary context only",
+  "vendor_sources": [
+    {
+      "file": "/workspace/shared/k230-reference/tf-clock-review/NXP-NVT4858-Rev2.4.pdf",
+      "url": "https://www.nxp.com/docs/en/data-sheet/NVT4858.pdf",
+      "manufacturer": "NXP",
+      "document": "NVT4858",
+      "revision": "Rev. 2.4, 11 September 2024",
+      "pages_reviewed": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        22
+      ],
+      "sha256": "860baa17e52fb658dcd98bf911f81600ecbd4f3133b560c9e4696af17bc28385"
+    },
+    {
+      "file": "/workspace/shared/k230-reference/tf-clock-review/TI-TMUX1574-SCDS391C.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tmux1574.pdf",
+      "manufacturer": "Texas Instruments",
+      "document": "SCDS391C",
+      "revision": "October 2018, revised December 2019",
+      "pages_reviewed": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        14,
+        15,
+        22,
+        23,
+        24
+      ],
+      "sha256": "e728f7dbb2a05665c98752fe113662b859ecf6988dc8c58e02a9b49265839867"
+    },
+    {
+      "file": "/workspace/shared/k230-reference/tf-clock-review/Vishay-CRCW0201e3-20052.pdf",
+      "url": "https://www.vishay.com/docs/20052/crcw0201e3.pdf",
+      "manufacturer": "Vishay",
+      "document": "20052 / CRCW0201 e3",
+      "revision": "21 September 2022",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "sha256": "803700fb25b6ef61f924c8799cee40c3ee0db1497cc4738e888065d3bf4f6513"
+    }
+  ],
+  "restored_nxp_pdf_sha256": "860baa17e52fb658dcd98bf911f81600ecbd4f3133b560c9e4696af17bc28385",
+  "nxp_matches_restored_source": true,
+  "project_inputs": {
+    "recovery/recovery-baseline.json": "7dbfac506c846db834a89e0d661aac78c21394c622ff8cdf09e923e7f7bf20a4",
+    "recovery/fresh-checks/master.xml": "388402d5c5d14b470fa380e1cf82106ddeea1f512fa7f047a46df12353042fdd",
+    "cad/high-temp-candidate/master.xml": "96108059ca509bbde234565dcda46a2a0273dd2cb296a5d3a95aac812d08976b",
+    "cad/high-temp-candidate/16_TF_Voltage_Translation.kicad_sch": "bb4c425f7cc579e1f46e89ecae030900f62973bde4f24f472f6d8ff10bbe0189",
+    "cad/high-temp-candidate/09_Cold_Storage_Selector.kicad_sch": "9ed420139a0dfec1d34c27dd2915bf4b356ff55397b6e47d39683176d5a1344a",
+    "tools/generate_tf_translator.py": "93838ea5e95efd39dbe80a1c13084df3fce447e65f5f983150ec8ac5a8fde35d",
+    "tools/generate_storage_switch.py": "6876bab43cc9dd9d13527f0807cd8300d9ea1b66214717db0e5afed585dc611a",
+    "engineering/mechanical/nvt4858-source-manifest.json": "cd12037074b10e3a14c9398bf5347cd6de1d0263f1d28e633787593b80c35ac6",
+    "engineering/mechanical/nvt4858-independent-review.json": "d91c0a8ef0fee8a3df16a1f8543afa3e82e0d17f16af53000238176c4c62525f",
+    "engineering/storage/TF_TRANSLATION_CANDIDATE.md": "894e7d9112c469234f0e451355728acc8b92887a32992a7e1b4085716d0231fe",
+    "engineering/storage/tmux1574_limits.csv": "3f86f1e67a6ecc2eb830af6b197fa85a00d91bc69ac845fc10cc67a0679d2fec",
+    "engineering/storage/tmux1574_truth_table.csv": "23a08ac16e86d9cc5a64c597395b63b61a157882b30137fc55eb71b231b2daa6",
+    "engineering/firmware/STORAGE_INTEGRATION_CONTRACT.md": "a087901967c3bc5154b92b4e070979d26616c830882c036ed7ce53dec11dcec7",
+    "engineering/passive-resistor-candidates/README.md": "5eb0943310b73b60b4f0187d8f2701b0c19c6b418e29190b036568293a6c2f6f",
+    "engineering/passive-resistor-candidates/static-screen.json": "e410d6875a3106c0c601babce6e998c24dcdb7c16c95abb0de8299ce57ed9f3e",
+    "engineering/passive-resistor-candidates/per-reference-classification.json": "f44cf06af5e5a55a753e3497a90649cdfed690a2b855ea0313d6530917dff3a1",
+    "engineering/thermal/HIGH_TEMPERATURE_GATE.md": "99109c5e35ea9dcec13624c9f880d5320d54003553e04791087b190d9837a5be"
+  }
+}

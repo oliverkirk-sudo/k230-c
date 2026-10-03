@@ -1,0 +1,469 @@
+{
+  "source": "https://kendryte-download.canaan-creative.com/developer/k230/HDK/%E5%8E%9F%E7%90%86%E5%9B%BEPCB%E8%AE%BE%E8%AE%A1CHECKLIST.pdf",
+  "scope": "Every numbered section covered; model-level passes only. No submission/contact/simulation/fabrication.",
+  "master_sha256": "5ecd0c50fecfa56826569ec897e47b306bce8e25fa89d5382a7b43a132359c5f",
+  "checks": {
+    "all_soc_power_pins_net_named": true,
+    "unused_analog_power_connected": true,
+    "rtc_ldo_common_domain": true,
+    "pmu_start_strap": true,
+    "24m_feedback": true,
+    "rtc_feedback": true,
+    "emmc_pulls": true,
+    "host_strobe_bias": true,
+    "vcm_pair": true,
+    "micbias_pair": true,
+    "tf_voltage_separation": true
+  },
+  "items": [
+    {
+      "id": "1.1a",
+      "source_pdf_page": 1,
+      "requirement_label": "I/O voltage",
+      "status": "unresolved",
+      "target": "BANK0..5_VDDIO; U95; carrier peripherals",
+      "evidence_or_next_action": "Six external bank supplies require matched carrier voltages and startup order. OTP/readback and translation SI remain open.",
+      "automated_check": "tf_voltage_separation",
+      "scope": "core"
+    },
+    {
+      "id": "1.1b",
+      "source_pdf_page": 1,
+      "requirement_label": "Power ordering",
+      "status": "unresolved",
+      "target": "U21 CORE_PGOOD_5V; U24..26; MIPI rails",
+      "evidence_or_next_action": "CORE enables dependent converters. External banks and filtered-rail ramps require measured sequencing; PG structure alone is insufficient.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "1.1c",
+      "source_pdf_page": 1,
+      "requirement_label": "RTC/LDO order",
+      "status": "passed_model",
+      "target": "U1 F14/F15; AVDD1P8_PMU",
+      "evidence_or_next_action": "Both pins intentionally share the filtered PMU node. This closes relative net ordering, not ramp/PI qualification.",
+      "automated_check": "rtc_ldo_common_domain",
+      "scope": "core"
+    },
+    {
+      "id": "1.1d",
+      "source_pdf_page": 1,
+      "requirement_label": "All supplies/grounds",
+      "status": "passed_model",
+      "target": "All U1 power_in balls; ADC/CODEC",
+      "evidence_or_next_action": "Every modeled power ball has a named network; external bank sources remain explicit board-boundary requirements.",
+      "automated_check": "all_soc_power_pins_net_named",
+      "scope": "core"
+    },
+    {
+      "id": "1.1e",
+      "source_pdf_page": 1,
+      "requirement_label": "Analog filters",
+      "status": "unresolved",
+      "target": "FB202/203/204/207; C231 onward",
+      "evidence_or_next_action": "PLL/VAA/MIPI L-filter topology present. Reference uses120\u03a9 while checklist gives100\u03a9; impedance/DC-bias/PI and exact approved part require reconciliation.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "1.2a",
+      "source_pdf_page": 1,
+      "requirement_label": "Boot selection",
+      "status": "unresolved",
+      "target": "BOOT0/BOOT1; R44..R47; J1",
+      "evidence_or_next_action": "PhysicalMMC0 baseline retained. Same-OTP SD/eMMC protocol selection and earliest voltage remain unverified.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "1.2b",
+      "source_pdf_page": 2,
+      "requirement_label": "Boot button",
+      "status": "external_boundary_only",
+      "target": "Carrier BOOT pins",
+      "evidence_or_next_action": "Core handoff requirement only; no peripheral circuit designed. No button added on core. Carrier must produce a different sampled boot state for recovery; verify actual carrier wiring and reset timing.",
+      "automated_check": null,
+      "scope": "external implementation excluded by user"
+    },
+    {
+      "id": "1.3a",
+      "source_pdf_page": 2,
+      "requirement_label": "24MHz accuracy",
+      "status": "unresolved",
+      "target": "Y2; C43/C44; R42",
+      "evidence_or_next_action": "Exact candidate initial/temp/aging budget does not establish whole-condition20ppm.85\u00b0C grade also under review.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "1.3b",
+      "source_pdf_page": 2,
+      "requirement_label": "Passive feedback",
+      "status": "passed_model",
+      "target": "R42 between24M pins",
+      "evidence_or_next_action": "1M feedback present; load/negative-resistance/drive testing remains open.",
+      "automated_check": "24m_feedback",
+      "scope": "core"
+    },
+    {
+      "id": "1.3c",
+      "source_pdf_page": 2,
+      "requirement_label": "Active clock option",
+      "status": "not_applicable_current_variant",
+      "target": "Y1/Y2 passive",
+      "evidence_or_next_action": "No active oscillator is fitted. A later active substitution must revisit supply, XOUT disposition and waveform requirements.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "1.3d",
+      "source_pdf_page": 2,
+      "requirement_label": "RTC accuracy",
+      "status": "unresolved",
+      "target": "Y1; C41/C42; R41",
+      "evidence_or_next_action": "MPN/full-temperature drift and startup not qualified; feedback source is Canaan2023 reference, not01Studio RTC drawing.",
+      "automated_check": "rtc_feedback",
+      "scope": "core"
+    },
+    {
+      "id": "1.4",
+      "source_pdf_page": 2,
+      "requirement_label": "DDR mapping",
+      "status": "unresolved",
+      "target": "U1/U2;65-join matrix",
+      "evidence_or_next_action": "65 source-exact joins pass against01Studio reference. Recommended Lushan mapping equivalence and proposedMicron training require review; no vendor submission made.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "1.5a",
+      "source_pdf_page": 2,
+      "requirement_label": "Persistent PMU power",
+      "status": "unresolved",
+      "target": "AVDD1P8_PMU",
+      "evidence_or_next_action": "Common supply exists while main1V8 runs. Required off/sleep/wake semantics and isolation are not implemented in BSP.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "1.5b",
+      "source_pdf_page": 2,
+      "requirement_label": "PMU inputs",
+      "status": "passed_model",
+      "target": "PAD68/R401; PAD64/R402",
+      "evidence_or_next_action": "INT4 shares PMU supply through0\u03a9; INT0 is inactive bias rather than local button. Firmware ownership/startup measurement remains open.",
+      "automated_check": "pmu_start_strap",
+      "scope": "core"
+    },
+    {
+      "id": "1.6a",
+      "source_pdf_page": 3,
+      "requirement_label": "Sensor routing/control",
+      "status": "external_boundary_only",
+      "target": "CSI edge nets; GPIO controls",
+      "evidence_or_next_action": "Core handoff requirement only; no peripheral circuit designed. Physical aliases retained. Sensor pinmux, voltage and carrier connector assignment must be validated for selected peripherals.",
+      "automated_check": null,
+      "scope": "external implementation excluded by user"
+    },
+    {
+      "id": "1.6b",
+      "source_pdf_page": 3,
+      "requirement_label": "Sensor ground contacts",
+      "status": "unresolved_compatibility_exception",
+      "target": "CSI pairs;140-pin edge contract",
+      "evidence_or_next_action": "Original fixed edge pinout has adjacent pairs without intervening ground (CSI58\u201363;DSI79\u201388). Preserve numbering; explicitly review return path/crosstalk, not a claimed checklist pass.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "1.7a",
+      "source_pdf_page": 3,
+      "requirement_label": "Display routing/control",
+      "status": "external_boundary_only",
+      "target": "DSI edge nets; GPIO controls",
+      "evidence_or_next_action": "Core handoff requirement only; no peripheral circuit designed. Pin contract retained; software/panel voltage and MIPI lane configuration remain untested.",
+      "automated_check": null,
+      "scope": "external implementation excluded by user"
+    },
+    {
+      "id": "1.7b",
+      "source_pdf_page": 3,
+      "requirement_label": "Display ground contacts",
+      "status": "unresolved_compatibility_exception",
+      "target": "DSI pairs; edge contract",
+      "evidence_or_next_action": "Original fixed edge pinout has adjacent pairs without intervening ground (CSI58\u201363;DSI79\u201388). Preserve numbering; explicitly review return path/crosstalk, not a claimed checklist pass.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "1.8a",
+      "source_pdf_page": 3,
+      "requirement_label": "MMC assignment/voltage",
+      "status": "unresolved",
+      "target": "MMC0 selector; U95; externalTF",
+      "evidence_or_next_action": "Intentional departure from default MMC1SDIO: both storage choices useMMC0 to preserve edge contract. ROM-stage support needs evidence.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "1.8b",
+      "source_pdf_page": 3,
+      "requirement_label": "eMMC pulls",
+      "status": "passed_model",
+      "target": "R562;R563..570;R572",
+      "evidence_or_next_action": "CMD22k/DAT47k local pulls and host strobe100k bias present. Unused eMMC H5 output stays open.",
+      "automated_check": "emmc_pulls",
+      "scope": "core"
+    },
+    {
+      "id": "1.8c",
+      "source_pdf_page": 3,
+      "requirement_label": "SD pulls",
+      "status": "external_boundary_only",
+      "target": "U95; externalTF socket",
+      "evidence_or_next_action": "Core handoff requirement only; no peripheral circuit designed. Translator internal pulls are documented, but carrier external-pull population and combined strength/RC require confirmation; do not blindly double pullups.",
+      "automated_check": null,
+      "scope": "external implementation excluded by user"
+    },
+    {
+      "id": "1.9",
+      "source_pdf_page": 4,
+      "requirement_label": "USB ESD",
+      "status": "external_boundary_only",
+      "target": "USB0/1 edge pairs; carrier sockets",
+      "evidence_or_next_action": "Core handoff requirement only; no peripheral circuit designed. Protection belongs near actual external connector; no socket/ESD device is presumed present from the core netlist. Require low-capacitance selected part and carrier evidence.",
+      "automated_check": null,
+      "scope": "external implementation excluded by user"
+    },
+    {
+      "id": "1.10a",
+      "source_pdf_page": 4,
+      "requirement_label": "MICBIAS setting",
+      "status": "external_boundary_only",
+      "target": "MIC_BIAS; BSP codec settings",
+      "evidence_or_next_action": "Core handoff requirement only; no peripheral circuit designed. Output setting must match external microphone supply; no active microphone design was selected.",
+      "automated_check": null,
+      "scope": "external implementation excluded by user"
+    },
+    {
+      "id": "1.10b",
+      "source_pdf_page": 4,
+      "requirement_label": "MICBIAS decoupling",
+      "status": "corrected_model",
+      "target": "C67/C68; U1 E3",
+      "evidence_or_next_action": "Added4.7uF+100nF locally. Actual effective capacitance and near-pin placement still required.",
+      "automated_check": "micbias_pair",
+      "scope": "core"
+    },
+    {
+      "id": "1.10c",
+      "source_pdf_page": 4,
+      "requirement_label": "Microphone AC coupling",
+      "status": "external_boundary_only",
+      "target": "MICPL/MICNL/MICPR/MICNR edge pins",
+      "evidence_or_next_action": "Core handoff requirement only; no peripheral circuit designed. Raw compatible core signals retained. Determine series100nF placement on carrier; adding it silently inside core could change DC interface behavior.",
+      "automated_check": null,
+      "scope": "external implementation excluded by user"
+    },
+    {
+      "id": "1.10d",
+      "source_pdf_page": 4,
+      "requirement_label": "Headphone AC coupling",
+      "status": "external_boundary_only",
+      "target": "HPOUTL/HPOUTR edge pins",
+      "evidence_or_next_action": "Core handoff requirement only; no peripheral circuit designed. Carrier coupling/load/amplifier input must be verified. Never connect two driven outputs based on ambiguous prose.",
+      "automated_check": null,
+      "scope": "external implementation excluded by user"
+    },
+    {
+      "id": "1.10e",
+      "source_pdf_page": 4,
+      "requirement_label": "VCM decoupling",
+      "status": "corrected_model",
+      "target": "C63/C66; U1 F3",
+      "evidence_or_next_action": "Added missing4.7uF alongside100nF. Near-pin placement and effective value remain open.",
+      "automated_check": "vcm_pair",
+      "scope": "core"
+    },
+    {
+      "id": "1.11a",
+      "source_pdf_page": 4,
+      "requirement_label": "PDM wiring/voltage",
+      "status": "external_boundary_only",
+      "target": "GenericGPIO edge contract; futureMIC carrier",
+      "evidence_or_next_action": "Core handoff requirement only; no peripheral circuit designed. No PDM microphone fitted on core. Selected pinmux, left/right sharing and voltage belong to BSP/carrier acceptance.",
+      "automated_check": null,
+      "scope": "external implementation excluded by user"
+    },
+    {
+      "id": "1.11b",
+      "source_pdf_page": 4,
+      "requirement_label": "I2S wiring/voltage",
+      "status": "external_boundary_only",
+      "target": "GenericGPIO edge contract; futureaudio carrier",
+      "evidence_or_next_action": "Core handoff requirement only; no peripheral circuit designed. No I2S microphone fitted on core. Selected clock/WS/data and shared-channel policy require integration testing.",
+      "automated_check": null,
+      "scope": "external implementation excluded by user"
+    },
+    {
+      "id": "1.12",
+      "source_pdf_page": 5,
+      "requirement_label": "SPI flash wiring/pulls",
+      "status": "not_applicable_current_variant",
+      "target": "No SPIflash fitted",
+      "evidence_or_next_action": "ExposedGPIO remain unaltered. Any carrier flash needs its own pinmux, voltage and pulls; not implicitly provided by core.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.1a",
+      "source_pdf_page": 5,
+      "requirement_label": "Digital PDN placement",
+      "status": "deferred_to_layout",
+      "target": "CORE/CPU/KPU/DDR_CORE groups",
+      "evidence_or_next_action": "Split rails intentionally differ from merged reference. Local ball-to-cap loops, return paths and total effective capacitance unqualified.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.1b",
+      "source_pdf_page": 5,
+      "requirement_label": "DDR PDN placement",
+      "status": "deferred_to_layout",
+      "target": "U1 DDR IO; U2 VDD2/VDDQ",
+      "evidence_or_next_action": "Keep SoC-side and memory-side local groups; rectangular packing does not satisfy proximity.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.1c",
+      "source_pdf_page": 5,
+      "requirement_label": "1.8V PDN placement",
+      "status": "deferred_to_layout",
+      "target": "VDD1P8; USB; PMU; bank supplies",
+      "evidence_or_next_action": "Common/filtered domain layout and external-bank source boundary must be reviewed.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.1d",
+      "source_pdf_page": 5,
+      "requirement_label": "3.3V PDN placement",
+      "status": "deferred_to_layout",
+      "target": "USB3V3; SD; VOUT; externalbanks",
+      "evidence_or_next_action": "Route/load compatibility and carrier power-return paths remain open.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.2",
+      "source_pdf_page": 6,
+      "requirement_label": "Clock shielding",
+      "status": "deferred_to_layout",
+      "target": "Y1/Y2 XIN/XOUT",
+      "evidence_or_next_action": "Ground shielding and uninterrupted reference plane required; no routed PCB exists.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.3",
+      "source_pdf_page": 6,
+      "requirement_label": "DDR layout review",
+      "status": "deferred_to_layout",
+      "target": "65 DDR joins; package lengths",
+      "evidence_or_next_action": "Source topology alone is not length/impedance/escape validation. Full SI/PI and qualified review needed; no vendor upload authorized.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.4",
+      "source_pdf_page": 6,
+      "requirement_label": "eMMC routing",
+      "status": "deferred_to_layout",
+      "target": "EMMC DAT/CMD/CLK; selector",
+      "evidence_or_next_action": "Apply source length/matching goals, then evaluate added switch discontinuities. No length or HS200 pass claimed.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.5a",
+      "source_pdf_page": 6,
+      "requirement_label": "USB matching/impedance",
+      "status": "deferred_to_layout",
+      "target": "USB0/1 D+/D-",
+      "evidence_or_next_action": "90\u03a9 differential and pair-length objectives must include core plus carrier.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.5b",
+      "source_pdf_page": 6,
+      "requirement_label": "USB return/length",
+      "status": "deferred_to_layout",
+      "target": "USB paths/connector",
+      "evidence_or_next_action": "Continuous ground, via companions, connector distance and neighbor spacing need routing audit.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.6",
+      "source_pdf_page": 7,
+      "requirement_label": "MIPI RX routing",
+      "status": "deferred_to_layout",
+      "target": "CSI lanes",
+      "evidence_or_next_action": "100\u03a9 differential, within-pair/intergroup matching and total-length goals require core+carrier budget.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.7",
+      "source_pdf_page": 7,
+      "requirement_label": "MIPI TX routing",
+      "status": "deferred_to_layout",
+      "target": "DSI lanes",
+      "evidence_or_next_action": "Checklist repeats RX-style group names; resolve the intendedTX grouping rather than invent constraints. Preserve continuous return paths.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.8",
+      "source_pdf_page": 8,
+      "requirement_label": "Audio shielding",
+      "status": "deferred_to_layout",
+      "target": "MIC/HPOUT/MICBIAS",
+      "evidence_or_next_action": "Ground reference, shielding and stitching require layout and carrier audit.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.9",
+      "source_pdf_page": 8,
+      "requirement_label": "TF routing",
+      "status": "deferred_to_layout",
+      "target": "TF_HOST;U95;TFCARD;external socket",
+      "evidence_or_next_action": "Include translation delay and external carrier route; raw trace matching alone cannot prove timing.",
+      "automated_check": null,
+      "scope": "core"
+    },
+    {
+      "id": "2.10",
+      "source_pdf_page": 8,
+      "requirement_label": "SPI routing",
+      "status": "not_applicable_current_variant",
+      "target": "No coreSPIflash",
+      "evidence_or_next_action": "Carrier SPI use remains application-specific and outside current core routing validation.",
+      "automated_check": null,
+      "scope": "core"
+    }
+  ],
+  "counts": {
+    "unresolved": 9,
+    "passed_model": 5,
+    "external_boundary_only": 10,
+    "not_applicable_current_variant": 3,
+    "unresolved_compatibility_exception": 2,
+    "corrected_model": 2,
+    "deferred_to_layout": 13
+  }
+}

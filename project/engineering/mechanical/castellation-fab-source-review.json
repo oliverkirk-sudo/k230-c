@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-09-30T14:22:00Z",
+  "scope": "Published primary-source review only; no vendor contact, upload, order, or CAD edit",
+  "disposition": "conditional_process_candidate_not_fabrication_released",
+  "conclusion": "The nominal geometry is supported by one primary PCB supplier's castellation document, but contradictory factory publications, undefined residual-hole acceptance, PTH annular-ring applicability, corner/panel support, and mask tolerances prevent claiming a production-approved stackup or process.",
+  "geometry": {
+    "units": "mm",
+    "outline": [
+      38,
+      38
+    ],
+    "outline_limits": [
+      -19,
+      19
+    ],
+    "contact_count": 140,
+    "contacts_per_edge": 35,
+    "along_edge_centers": {
+      "first": -17,
+      "last": 17,
+      "pitch": 1
+    },
+    "nominal_plated_hole_diameter": 0.5,
+    "hole_center_to_outline": 0,
+    "copper_pad_full_size_along_edge_normal": [
+      0.8,
+      1.8
+    ],
+    "assumed_pad_shape": "oval/obround, centered on the circular hole before routing; external half removed",
+    "derived": {
+      "hole_edge_gap": 0.5,
+      "minimum_transverse_annular_ring": 0.15,
+      "pad_copper_gap": 0.2,
+      "copper_reach_inside_outline": 0.9,
+      "end_hole_center_to_corner": 2,
+      "end_hole_edge_to_adjacent_edge": 1.75,
+      "end_pad_copper_to_adjacent_edge": 1.6,
+      "nominal_retained_radial_hole_depth": 0.25
+    },
+    "hole_definition_gate": "Specify whether 0.5 means finished plated diameter or drill tool diameter. Do not silently treat these as identical.",
+    "backside": "No backside components; bottom copper and solder-mask openings remain necessary"
+  },
+  "sources": [
+    {
+      "id": "JLC-RIGID",
+      "vendor": "JLCPCB",
+      "kind": "factory capability",
+      "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+      "archive": "jlcpcb-castellation-capabilities.html",
+      "facts": {
+        "castellation_min_hole": 0.5,
+        "castellation_min_hole_gap": 0.5,
+        "castellation_edge_dimension_L": 1,
+        "min_castellated_board": [
+          10,
+          10
+        ],
+        "min_castellated_thickness": 0.6,
+        "generic_layer_count": "1–32, not explicit approval of all castellated stackups",
+        "PTH_ring_multilayer_1oz": {
+          "recommended": 0.2,
+          "absolute_min": 0.15
+        },
+        "PTH_ring_two_layer_1oz": {
+          "recommended": 0.25,
+          "absolute_min": 0.18
+        },
+        "PTH_ring_2oz_min": 0.254,
+        "generic_hole_diameter_tolerance": {
+          "plus": 0.13,
+          "minus": 0.08
+        },
+        "generic_hole_position_tolerance": 0.075,
+        "generic_CNC_outline_tolerance": {
+          "regular": 0.2,
+          "precision": 0.1
+        },
+        "precision_outline_conditions": "Minimum 50×50 mm and three ≥1.5 mm tooling holes at different corners",
+        "thickness_tolerance": "≥1 mm: ±10%; <1 mm: ±0.1 mm",
+        "soldermask": "1:1 pad/opening allowed after June 2025 LDI upgrade; 0.09 mm opening-to-neighbor-trace clearance",
+        "mask_bridge_min": 0.1
+      },
+      "assessment": "Hole/gap and generic multilayer 1 oz absolute ring limits match nominal geometry; this does not resolve the stricter castellation article. Precision profile conditions do not directly fit a single 38 mm board; panel-level applicability needs agreement. No numeric mask registration tolerance found here."
+    },
+    {
+      "id": "JLC-CAST",
+      "vendor": "JLCPCB",
+      "kind": "factory castellation article",
+      "url": "https://jlcpcb.com/blog/castellated-pcbs-introduction-and-design-requirements",
+      "archive": "jlcpcb-castellation-design.html",
+      "updated": "2026-09-08",
+      "facts": {
+        "text_hole_min": 0.6,
+        "text_hole_edge_gap_min": 0.6,
+        "ring_recommended": 0.25,
+        "ring_absolute_min": 0.18,
+        "pad_edge_to_adjacent_board_edge_min": 1,
+        "table_hole_to_corner_min": 3,
+        "table_hole_to_corner_recommended": 5,
+        "pad_inward_extension_min": 0.5,
+        "profile": "CNC mill castellated edges; no V-cut through these edges",
+        "mouse_bite_to_castellated_pad_edge_min": 1
+      },
+      "assessment": "Proposed hole/gap, transverse ring and 2 mm end-hole setback violate this article's text/table. Its embedded dimension image instead labels ≥0.5 mm hole/gap. Diagram A is end-pad copper to the adjacent edge, not a 1 mm pad-width minimum; nominal clearance is 1.6 mm. Factory reconciliation is required.",
+      "visual_evidence": "jlcpcb-castellation-dimensions.png"
+    },
+    {
+      "id": "JLC-HELP",
+      "vendor": "JLCPCB",
+      "kind": "factory castellation help",
+      "url": "https://jlcpcb.com/help/article/what-is-castellated-holes",
+      "archive": "jlcpcb-castellation-help.html",
+      "updated": "2026-09-09",
+      "facts": {
+        "min_hole_and_space": 0.6,
+        "pads_and_mask": "Top and bottom copper pads and mask openings required; PTH drill centered on outline",
+        "ordering": "Select special castellated-hole process; ordinary process does not promise castellation quality"
+      },
+      "assessment": "Independent factory help text repeats 0.6 mm, confirming the published contradiction rather than resolving it."
+    },
+    {
+      "id": "PCBWAY-CAST",
+      "vendor": "PCBWay",
+      "kind": "factory castellation design page",
+      "url": "https://www.pcbway.com/pcb_prototype/What_are_Plated_Half_Holes_Castellated_Holes_.html",
+      "archive": "pcbway-castellation-design.html",
+      "facts": {
+        "half_hole_min": 0.4,
+        "usual_half_hole_min": 0.6,
+        "hole_edge_gap_min": 0.55,
+        "gap_exception": "0.47–0.55 mm: higher cost and lead time stated in article",
+        "mask_bridge_min": 0.1,
+        "copper_layers": "Pad surrounding hole on every copper layer, including inner layers; ordinary PTH annular-ring rules apply",
+        "placement": "Hole center on PCB outline"
+      },
+      "assessment": "0.5 mm hole and gap can be considered a candidate, but article cost treatment conflicts with capabilities and a staff reply. Top/bottom-only pads would not satisfy the all-layer wording.",
+      "visual_evidence": "pcbway-castellation-diagram.png; table and image visually inspected in cloud browser",
+      "routing_table": {
+        "headers": [
+          "PCB Thickness",
+          "Castellated Hole Limitation",
+          "Castellated Hole Diameter",
+          "Minimum Size after Routing"
+        ],
+        "limitation_common_to_all_rows": 0.4,
+        "rows": [
+          [
+            {
+              "max": 1
+            },
+            0.4,
+            0.25
+          ],
+          [
+            [
+              1.2,
+              1.6
+            ],
+            [
+              0.4,
+              0.6
+            ],
+            0.25
+          ],
+          [
+            [
+              1.2,
+              1.6
+            ],
+            [
+              0.7,
+              0.9
+            ],
+            0.35
+          ],
+          [
+            [
+              1.2,
+              1.6
+            ],
+            {
+              "min": 1
+            },
+            0.45
+          ],
+          [
+            2,
+            [
+              0.4,
+              0.6
+            ],
+            0.25
+          ],
+          [
+            2,
+            [
+              0.7,
+              0.8
+            ],
+            0.4
+          ],
+          [
+            2,
+            {
+              "min": 0.9
+            },
+            0.45
+          ]
+        ],
+        "interpretation": "Post-routing size has no dimension arrow/definition. If it means retained radial depth, 0.5 mm centered holes meet 0.25 mm only nominally and 0.4 mm centered holes conflict. Do not adopt that interpretation as fact."
+      }
+    },
+    {
+      "id": "PCBWAY-STAFF",
+      "vendor": "PCBWay",
+      "kind": "vendor-team public reply observed in live browser",
+      "url": "https://www.pcbway.com/pcb_prototype/What_are_Plated_Half_Holes_Castellated_Holes_.html",
+      "reply_date": "2024-07-30 09:13:34",
+      "locator": "Comments: question posted Jul 27 2024; reply author PCBWay Team; page DOM li1265/div-three-1266",
+      "finding": "In response to the conflicting 0.55 mm article and 0.3 mm capabilities limits, PCBWay Team reported engineering could produce the questioner's 0.4575 mm gap without an extra charge.",
+      "limitation": "A prior answer about another design and 0.8125 mm holes is not approval of this module, its 0.5 mm holes, pad dimensions, stackup or price.",
+      "archive": "pcbway-castellation-live-observations.json"
+    },
+    {
+      "id": "PCBWAY-HELP",
+      "vendor": "PCBWay",
+      "kind": "factory help",
+      "url": "https://www.pcbway.com/helpcenter/drill_hole_or_via_issues/Requirement_about_castellated_holes.html",
+      "archive": "pcbway-castellation-help.html",
+      "updated": "08/03/2024 as displayed; date order unspecified",
+      "facts": {
+        "hole_min": 0.6,
+        "edge_gap_min": 0.55,
+        "exception": "0.5 mm gap offered through high-precision production"
+      },
+      "assessment": "Conflicts with current 0.4/0.5 mm capability entries."
+    },
+    {
+      "id": "PCBWAY-CAP",
+      "vendor": "PCBWay",
+      "kind": "factory capabilities",
+      "url": "https://www.pcbway.com/capabilities.html",
+      "archive": "pcbway-capabilities.html",
+      "facts": {
+        "standard_half_hole_min": 0.4,
+        "advanced_normal_castellation": {
+          "hole_min": 0.5,
+          "edge_gap_min": 0.3
+        },
+        "advanced_medium_castellation": {
+          "hole": "0.4 ≤ diameter <0.5",
+          "edge_gap": "0.2 ≤ gap <0.3"
+        },
+        "hole_position_tolerance_normal": 0.075,
+        "hole_position_tolerance_high": 0.05,
+        "finished_PTH_diameter_tolerance": 0.08,
+        "outline_tolerance_standard": 0.2,
+        "advanced_normal_shape_tolerance": 0.15,
+        "green_mask_opening_normal_mil": 2,
+        "green_mask_opening_medium_mil": 1.5,
+        "green_mask_opening_high_mil": 1,
+        "high_mask_opening_scope": "1 mil limited to concentrated BGA area",
+        "green_mask_bridge_below_2oz_normal_mil": 4,
+        "green_mask_bridge_below_2oz_medium_mil": "3–4",
+        "non_green_mask_bridge_normal_mil": 4.5,
+        "mask_bridge_at_least_2oz_normal_mil": 5
+      },
+      "assessment": "Normal advanced hole/gap rows support the nominal holes/gap. They do not approve the narrow PTH pads, masks, four-sided tab scheme or retained-hole profile. Preserve mil values; 4 mil = 0.1016 mm."
+    },
+    {
+      "id": "PCBWAY-RING",
+      "vendor": "PCBWay",
+      "kind": "factory annular-ring article",
+      "url": "https://www.pcbway.com/pcb_prototype/Annular_rings.html",
+      "archive": "pcbway-annular-rings.html",
+      "facts": {
+        "typical_ring_min": 0.15
+      },
+      "assessment": "Generic article supports the nominal 0.15 mm ring but does not override the more specific PTH rows in manufacturing tolerances."
+    },
+    {
+      "id": "PCBWAY-TOL",
+      "vendor": "PCBWay",
+      "kind": "factory manufacturing tolerances",
+      "url": "https://www.pcbway.com/pcb_prototype/PCB_Manufacturing_tolerances.html",
+      "archive": "pcbway-manufacturing-tolerances.html",
+      "facts": {
+        "normal_PTH_ring_by_outer_copper_oz": {
+          "1": 0.2,
+          "2": 0.21,
+          "3": 0.22,
+          "4": 0.23
+        },
+        "normal_via_ring_1oz": 0.15,
+        "finished_hole_tolerance": 0.08,
+        "outline_CNC_tolerance": 0.2,
+        "listed_half_hole_min": 0.6
+      },
+      "assessment": "At 1 oz, 0.8 mm width around a 0.5 mm PTH yields 0.15 mm, below normal PTH 0.20 mm. A 0.9 mm pad meets that nominal ring but leaves only 0.1 mm copper gap at fixed pitch, before mask expansion. Do not substitute the via-ring minimum."
+    },
+    {
+      "id": "PCBWAY-QC",
+      "vendor": "PCBWay",
+      "kind": "factory quality standard",
+      "url": "https://www.pcbway.com/oem/quality-control.html",
+      "archive": "pcbway-quality-control.html",
+      "facts": {
+        "soldermask_offset_mil": {
+          "advanced": 2,
+          "standard": 3
+        },
+        "soldermask_offset_mm": {
+          "advanced": 0.0508,
+          "standard": 0.0762
+        },
+        "dimensional_deviation_mm": {
+          "advanced": 0.13,
+          "standard": 0.2
+        },
+        "PTH_min_copper_um": {
+          "advanced": 20,
+          "IPC3": 25,
+          "standard": 18
+        }
+      },
+      "assessment": "These are general process values, not explicit castellation mask/edge registration acceptance. No separate mask-opening dimensional/linewidth tolerance was located."
+    },
+    {
+      "id": "EURO-CAST",
+      "vendor": "Eurocircuits",
+      "kind": "factory castellation article",
+      "url": "https://www.eurocircuits.com/electronic-manufacturing-technology/castellations-on-a-pcb/",
+      "archive": "eurocircuits-castellations.html",
+      "published": "2021-04-29",
+      "facts": {
+        "finished_hole_min": 0.5,
+        "finished_hole_recommended_min": 0.8,
+        "recommended_pad_size": "finished hole + 0.70 mm",
+        "top_bottom_ring": "Required",
+        "inner_pad": "Same-size inner pads strongly recommended",
+        "hole_cut": "Exactly half recommended",
+        "finish": "ENIG preferred; other finishes possible for holes above 1 mm",
+        "tabs": "Up to 5 mm edge per break tab, normally two per edge; four castellated sides require advice"
+      },
+      "assessment": "0.5 mm hole meets stated minimum, but 0.8 mm pad falls below 1.2 mm recommendation, which cannot fit at 1 mm pitch without overlap. This is a recommendation requiring a negotiated exception, not proof of impossibility."
+    },
+    {
+      "id": "EURO-DRILL",
+      "vendor": "Eurocircuits",
+      "kind": "factory design guide",
+      "url": "https://www.eurocircuits.com/technical-guidelines/pcb-design-guidelines/drilled-holes/",
+      "archive": "eurocircuits-drilled-holes.html",
+      "facts": {
+        "drill_input": "Finished hole size",
+        "PTH_tool_oversize": 0.1,
+        "min_tool_edge_gap": 0.25,
+        "finished_PTH_tolerance": 0.1,
+        "oblong_PTH_pad": "From tool diameter: no breakout on narrow sides; ≥0.300 mm ring in both long directions",
+        "service_exclusion": "Contour-cut plated holes unavailable in PCB proto service"
+      },
+      "assessment": "For 0.5 finished hole, tool0.6 gives transverse ring0.1 and long-axis ring0.6 in the complete oval before routing. Generic oblong rules appear nominally satisfied but do not waive castellation recommendations."
+    },
+    {
+      "id": "EURO-TOL",
+      "vendor": "Eurocircuits",
+      "kind": "factory general tolerance guide",
+      "url": "https://www.eurocircuits.com/technical-guidelines/understanding-manufacturing-tolerances-on-a-pcb/tolerances-on-a-pcb/",
+      "archive": "eurocircuits-tolerances.html",
+      "facts": {
+        "profile_dimensional_tolerance": 0.2,
+        "profile_to_hole_position_tolerance": 0.2,
+        "hole_to_hole_positional_tolerance": 0.1,
+        "PTH_standard_diameter_tolerance": 0.1,
+        "PTH_tighter_min_diameter_tolerance": 0.05
+      },
+      "assessment": "Directly publishes profile-to-hole tolerance. It is generic; it does not establish a minimum retained barrel for the proposed half-hole."
+    },
+    {
+      "id": "EURO-MASK",
+      "vendor": "Eurocircuits",
+      "kind": "factory soldermask design guide",
+      "url": "https://www.eurocircuits.com/technical-guidelines/pcb-design-guidelines/soldermask/",
+      "archive": "eurocircuits-soldermask-web-extract.txt",
+      "archive_note": "Full web-tool page text retained; raw HTML download failed with network tunnel 403",
+      "facts": {
+        "DI_colors": [
+          "green",
+          "black",
+          "red",
+          "blue"
+        ],
+        "DI_pad_to_mask_min": 0.03,
+        "DI_web_min": 0.075,
+        "DI_track_overlap_min": 0.06,
+        "DI_opening_shave_max": 0.005,
+        "PI_colors": [
+          "white",
+          "transparent"
+        ],
+        "PI_pad_to_mask_min": 0.1,
+        "PI_web_min": 0.13,
+        "PI_opening_shave_max": 0.04,
+        "minimum_opening": 0.4
+      },
+      "assessment": "0.025 mm expansion is below DI minimum; 0.03 mm gives nominal0.14 mm web for these pads. Mask opening shave is not a global mask registration tolerance. Values apply only to Eurocircuits process."
+    },
+    {
+      "id": "CIRTECH-CAST",
+      "vendor": "Cirtech Electronics",
+      "kind": "primary supplier technical PDF; manufacturing factory not identified",
+      "url": "https://www.cirtech-electronics.com/wp-content/uploads/2024/03/Edge-Plating-and-Castellations-web.pdf",
+      "archive": "cirtech-edge-plating-castellations.pdf",
+      "revision": "001/A",
+      "page": "PDF page3, printed Page2-3",
+      "facts": {
+        "hole_min": 0.5,
+        "pad_diameter_min": 0.8,
+        "ring_min": 0.15,
+        "pitch_min": 1,
+        "plating": "Copper thickness follows specified IPC class",
+        "engagement": "Requests early design discussion to establish manufacturable solution"
+      },
+      "assessment": "All four nominal minima match the proposed geometry. No numeric castellation thickness, layer count, corner distance, mask, hole, registration or profile tolerance is stated. Minimum circular pad diameter is not explicit approval of this oval geometry.",
+      "visual_evidence": "cirtech-castellation-page3.png"
+    },
+    {
+      "id": "CIRTECH-ROLE",
+      "vendor": "Cirtech Electronics",
+      "kind": "supplier own description",
+      "url": "https://www.cirtech-electronics.com/about/",
+      "archive": "cirtech-about.html",
+      "finding": "Describes PCB supply/procurement and partnerships with manufacturers. Treat the PDF as supplier guidance, not proof of an identified factory or production-line approval."
+    }
+  ],
+  "mask_geometry_assessment": {
+    "formula": "nominal web = pitch - copper width - 2×per-side expansion = 0.20 - 2e",
+    "alternatives": [
+      {
+        "expansion_per_side": 0.05,
+        "opening_width": 0.9,
+        "nominal_web": 0.1,
+        "note": "Equals dedicated PCBWay half-hole rounded web minimum; slightly below 4 mil normal-web figure. Expansion falls short of Advanced ±2 mil by0.0008 mm and Standard ±3 mil by0.0262 mm."
+      },
+      {
+        "expansion_per_side": 0.025,
+        "opening_width": 0.85,
+        "nominal_web": 0.15,
+        "note": "More web but not enough to cover published PCBWay registration; below Eurocircuits DI pad-to-mask clearance. Requires selected-factory acceptance."
+      }
+    ],
+    "conditional_nonencroachment": "If full copper exposure is required, per-side expansion must cover agreed registration plus opening-size error. No selected-fab opening-size error is established.",
+    "caveat": "Global mask translation does not itself shrink the web between adjacent openings; linewidth/opening error does. Do not subtract the registration tolerance twice from nominal web as if each opening independently translates.",
+    "component_reservation_formula": "From nominal outline: 0.90 copper inward reach + chosen mask expansion + agreed inward mask-registration/opening-error allowance + explicit component clearance. Include profile/placement datum effects if reservation is referenced to finished edge. This is an engineering budget, not a recovered vendor footprint."
+  },
+  "unresolved_release_gates": [
+    "Selected factory and exact layer count, thickness, copper weight, finish, and special castellation process",
+    "Written resolution of contradictory hole/gap and ring rules for 0.5 mm finished hole, 0.8 mm transverse oval pad and 1 mm pitch",
+    "All-layer anchoring pads or explicit approved inner-pad exception",
+    "Meaning and applicability of PCBWay post-routing minimum dimension",
+    "Finished minimum remaining barrel/depth and permissible copper burrs, breakout, profile-to-hole offset and hole-size limits",
+    "Mask expansion, web, registration, dimensional tolerance and acceptable pad encroachment",
+    "Four-sided panel support and break-tab placement preserving all 140 fixed contact positions and nominal38mm outline",
+    "Corner setback exception where required; no changing hole locations to satisfy a vendor without design approval"
+  ],
+  "actions_performed": {
+    "external_transmissions": false,
+    "vendor_contact": false,
+    "files_uploaded": false,
+    "orders": false,
+    "CAD_edits": false
+  },
+  "reference_directory": "/workspace/shared/k230-reference/mechanical/castellation",
+  "archive_manifest": "/workspace/shared/k230-reference/mechanical/castellation/download-manifest.json"
+}

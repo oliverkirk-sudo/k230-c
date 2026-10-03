@@ -1,0 +1,465 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-30T04:03:25-0700",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/1991de49-af90-424b-8b41-d97e444a5b5f",
+            "violations": [
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TFCARD_CLK'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.5207
+                            },
+                            "uuid": "2cb3220b-e22b-4dac-bbe0-56b0385bf6f5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_CLK'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.5461
+                            },
+                            "uuid": "b90b2d50-69bd-4699-b7c8-eb74b68f520a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'EMMC_CMD'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.5715
+                            },
+                            "uuid": "14244c03-4b2b-4f42-a3bc-da0840f9185f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TFCARD_CMD'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.5969
+                            },
+                            "uuid": "2d85da0b-1ff2-4352-b041-83763e5f35a3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_CMD'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.6223
+                            },
+                            "uuid": "abdebbf2-eb15-4e99-9044-d67451062b51"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_D0'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.6731
+                            },
+                            "uuid": "ccbdf88a-c51e-4c5a-940e-6a01bff17481"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TFCARD_D0'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.6985
+                            },
+                            "uuid": "f0e12661-69d2-409d-a381-822518673343"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'EMMC_DAT0'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.7239
+                            },
+                            "uuid": "0a7dc436-044d-4383-93b9-0d4b6a947fc4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U11 Pin 6 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.7366,
+                                "y": 0.6477
+                            },
+                            "uuid": "6508815e-2ec7-41de-b4c2-c925b1582c1a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_D1'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.7493
+                            },
+                            "uuid": "2659ecf2-6c4e-4cf0-9410-3017f90c6b5f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TFCARD_D1'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.7747
+                            },
+                            "uuid": "13500371-7fda-4e4b-a4c3-d5cec7c83312"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'EMMC_DAT1'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.8001
+                            },
+                            "uuid": "5523c1cd-2b58-43cf-8a53-5b8a4161ca05"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'EMMC_CLK'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.9017
+                            },
+                            "uuid": "ac0ec837-97de-4f94-bc5b-b72eb4fc188f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U11 Pin 14 [VDD, Power input, Line]",
+                            "pos": {
+                                "x": 0.7366,
+                                "y": 0.8509
+                            },
+                            "uuid": "725da6be-46e5-4b8f-8191-acea9b8b6c17"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'VEMMC_IO'",
+                            "pos": {
+                                "x": 0.8382,
+                                "y": 1.8542
+                            },
+                            "uuid": "e3ea08dc-4b65-4e02-82c8-236475320036"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TFCARD_D2'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.5207
+                            },
+                            "uuid": "bac61cd6-3c0c-42e3-8fc3-ce99890caa9b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_D2'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.5461
+                            },
+                            "uuid": "c5be2f61-9343-4cc6-9969-a632e886c85f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'EMMC_DAT3'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.5715
+                            },
+                            "uuid": "9041bea7-446c-4794-af91-c342ad35ff36"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TFCARD_D3'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.5969
+                            },
+                            "uuid": "afcebf27-e40f-4e91-bb7b-13dc7eebb79f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_D3'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.6223
+                            },
+                            "uuid": "5794494c-48a9-4747-b286-2684f2f9fe82"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_RST_N'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.7239
+                            },
+                            "uuid": "06ee3b8c-b8c3-4f53-b043-f0c895382d33"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'EMMC_DAT2'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.9017
+                            },
+                            "uuid": "248a5efd-612e-443c-9356-8851a4ab614f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_D4'",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 0.5461
+                            },
+                            "uuid": "31650331-334b-458f-958f-4094e3091758"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'EMMC_DAT5'",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 0.5715
+                            },
+                            "uuid": "03df667f-087d-4434-bd54-3929c0a96ab0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_D5'",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 0.6223
+                            },
+                            "uuid": "129098e0-bdab-4bc0-9642-9b8e044b9b24"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_D6'",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 0.6731
+                            },
+                            "uuid": "4f874e3e-ccf2-44a3-9d58-d8ce68f69b5e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'EMMC_DAT6'",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 0.7239
+                            },
+                            "uuid": "acefbfe5-2aae-4ab2-8b3b-32fc988bf168"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'MMC0_D7'",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 0.7493
+                            },
+                            "uuid": "c5275874-2ad2-4206-ba96-f9a4f7c1cd86"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'EMMC_DAT7'",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 0.8001
+                            },
+                            "uuid": "6a2d944e-8250-4449-9e7e-6b776de951c0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'EMMC_DAT4'",
+                            "pos": {
+                                "x": 3.4036,
+                                "y": 0.9017
+                            },
+                            "uuid": "c8cf1704-6dc3-4d3e-ac43-75c53fbc0e2e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                }
+            ]
+        }
+    ],
+    "source": "CMK230_Storage_Selector_CANDIDATE.kicad_sch"
+}

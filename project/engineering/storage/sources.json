@@ -1,0 +1,10 @@
+{
+  "01studio_module_pinout": "https://wiki.01studio.cc/en/docs/canmv_k230/intro/canmv_k230/#pinout",
+  "01studio_module_pinout_source": "https://github.com/01studio-lab/01studio_wiki/blob/main/docs/canmv_k230/intro/canmv_k230.md#cm-k230\u6838\u5fc3\u677f",
+  "rtos_config": "https://github.com/canmv-k230/rtsmart/blob/ff6b90f500683f1ef66664ea19e4e8a2294042d3/kernel/bsp/maix3/configs/k230_canmv_01studio_emmc_defconfig#L76-L81",
+  "rtos_pinmux": "https://github.com/canmv-k230/rtsmart/blob/ff6b90f500683f1ef66664ea19e4e8a2294042d3/kernel/bsp/maix3/board/configs/k230_canmv_01studio/pinmux_config.c#L103-L108",
+  "uboot_dts": "https://github.com/canmv-k230/u-boot/blob/87041d630cdcd545dacfec19f1e90a093689dada/arch/riscv/dts/k230_canmv_01studio_emmc.dts#L40-L44",
+  "uboot_wifi_mux": "https://github.com/canmv-k230/u-boot/blob/87041d630cdcd545dacfec19f1e90a093689dada/arch/riscv/dts/k230_canmv_01studio_iomux.dtsi#L145-L151",
+  "sdk_board_selection": "https://github.com/kendryte/k230_rtos_sdk/blob/2037fe9e42bb9aec1a42e502a3dfa8e6768aca6a/configs/k230_canmv_01studio_emmc_defconfig#L1-L5",
+  "firmware_manifest": "https://github.com/canmv-k230/manifest/blob/master/default.xml"
+}

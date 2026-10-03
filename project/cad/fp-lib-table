@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "CMK230") (type "KiCad") (uri "${KIPRJMOD}/CMK230.pretty") (options "") (descr "CARRIER footprint only")))

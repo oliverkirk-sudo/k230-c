@@ -1,0 +1,102 @@
+{
+  "status": "BOUNDED_SEARCH_INCOMPLETE_WITH_CONFLICTS",
+  "best_edge_events": 473,
+  "iterations": [
+    {
+      "iteration": 0,
+      "conflicting_nets": 44,
+      "edge_events": 510,
+      "nodes": 674326,
+      "elapsed_s": 7.6617607539956225,
+      "present_cost": 160.0
+    },
+    {
+      "iteration": 1,
+      "conflicting_nets": 44,
+      "edge_events": 498,
+      "nodes": 744992,
+      "elapsed_s": 16.75941611699818,
+      "present_cost": 272.0
+    },
+    {
+      "iteration": 2,
+      "conflicting_nets": 44,
+      "edge_events": 506,
+      "nodes": 755437,
+      "elapsed_s": 24.069740121994982,
+      "present_cost": 462.4
+    },
+    {
+      "iteration": 3,
+      "conflicting_nets": 44,
+      "edge_events": 506,
+      "nodes": 810061,
+      "elapsed_s": 31.91012664599839,
+      "present_cost": 786.0799999999999
+    },
+    {
+      "iteration": 4,
+      "conflicting_nets": 44,
+      "edge_events": 502,
+      "nodes": 848398,
+      "elapsed_s": 42.71681576999981,
+      "present_cost": 1336.3359999999998
+    },
+    {
+      "iteration": 5,
+      "conflicting_nets": 44,
+      "edge_events": 493,
+      "nodes": 811196,
+      "elapsed_s": 53.070322091996786,
+      "present_cost": 2271.7711999999997
+    },
+    {
+      "iteration": 6,
+      "conflicting_nets": 44,
+      "edge_events": 493,
+      "nodes": 767692,
+      "elapsed_s": 61.420012349997705,
+      "present_cost": 3862.0110399999994
+    },
+    {
+      "iteration": 7,
+      "conflicting_nets": 44,
+      "edge_events": 489,
+      "nodes": 815111,
+      "elapsed_s": 70.6063937029976,
+      "present_cost": 6565.418767999999
+    },
+    {
+      "iteration": 8,
+      "conflicting_nets": 42,
+      "edge_events": 480,
+      "nodes": 778587,
+      "elapsed_s": 78.05630912899505,
+      "present_cost": 10000.0
+    },
+    {
+      "iteration": 9,
+      "conflicting_nets": 42,
+      "edge_events": 474,
+      "nodes": 774120,
+      "elapsed_s": 85.62926878199505,
+      "present_cost": 10000.0
+    },
+    {
+      "iteration": 10,
+      "conflicting_nets": 42,
+      "edge_events": 480,
+      "nodes": 778077,
+      "elapsed_s": 93.08841710699926,
+      "present_cost": 10000.0
+    },
+    {
+      "iteration": 11,
+      "conflicting_nets": 42,
+      "edge_events": 473,
+      "nodes": 782303,
+      "elapsed_s": 100.59774927999388,
+      "present_cost": 10000.0
+    }
+  ]
+}

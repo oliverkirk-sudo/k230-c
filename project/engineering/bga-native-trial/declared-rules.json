@@ -1,0 +1,77 @@
+{
+  "scope": "LOCAL_ANALYSIS_WINDOW_ONLY_NOT_MANUFACTURING_RELEASE",
+  "board_window_mm": [
+    20,
+    20
+  ],
+  "origin_translation_mm": [
+    100,
+    100
+  ],
+  "copper_layers": 8,
+  "reference_thickness_mm": 1.2,
+  "dielectric_stack": "Not defined or qualified; no fabricated dielectric schedule",
+  "land": {
+    "copper_diameter_mm": 0.3,
+    "mask_aperture_diameter_mm": 0.4,
+    "paste_aperture_diameter_mm": 0.3,
+    "construction": "engineering NSMD candidate, unqualified",
+    "stencil_assumption_mm": 0.1
+  },
+  "rules": {
+    "min_clearance": 0.1016,
+    "min_track_width": 0.1016,
+    "min_via_diameter": 0.3,
+    "min_through_hole_diameter": 0.15,
+    "min_via_annular_width": 0.075,
+    "min_hole_clearance": 0.2,
+    "min_hole_to_hole": 0.2,
+    "min_copper_edge_clearance": 0.2,
+    "solder_mask_to_copper_clearance": 0,
+    "max_error": 0.001,
+    "min_text_height": 0.15,
+    "min_text_thickness": 0.025,
+    "min_silk_clearance": 0.1,
+    "min_connection": 0,
+    "min_resolved_spokes": 2,
+    "allow_blind_buried_vias": false,
+    "allow_microvias": false
+  },
+  "solder_mask_min_width_mm": 0.1,
+  "allow_soldermask_bridges_in_footprints": false,
+  "via_process": "Filled, planarized, copper-capped VIPPO required. Tenting flags only omit extra via mask apertures; they do not qualify or replace this process.",
+  "source_absolute_nominal_via_ring_implication_mm": 0.05,
+  "selected_preferred_nominal_via_ring_mm": 0.075,
+  "ring_caveat": "Via-specific published 0.15/0.25 minimum implies 0.05 nominal ring; selected 0.30/0.15 uses preferred +0.15 diameter and explicit 0.075 minimum. Generic component PTH rings are a separate rule class.",
+  "physical_drill_registration_qualification": "Open; nominal CAD diameters do not prove finished bore, tool, registration, plating, etch or breakout acceptance.",
+  "copper_layer_map": {
+    "L1": "F.Cu",
+    "L2": "In1.Cu",
+    "L3": "In2.Cu",
+    "L4": "In3.Cu",
+    "L5": "In4.Cu",
+    "L6": "In5.Cu",
+    "L7": "In6.Cu",
+    "L8": "B.Cu"
+  },
+  "no_use_counts": {
+    "NC": 109,
+    "RFU": 4,
+    "VSF": 7,
+    "DS_unused": 1
+  },
+  "absent_grid_sites_without_lands": 43,
+  "package_test_contacts_without_lands": 56,
+  "unmodeled": [
+    "SoC endpoints",
+    "supply and ground planes",
+    "VDDIM capacitor",
+    "bypass capacitors and returns",
+    "impedance",
+    "reference continuity",
+    "length/skew",
+    "complete placement and routing",
+    "castellations",
+    "fabricator stack and process qualification"
+  ]
+}

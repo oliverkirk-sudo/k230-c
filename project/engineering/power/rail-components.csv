@@ -1,0 +1,7 @@
+reference,role,part,output_net,nominal_V,enable_net,status
+U21,CORE,TPS62827ADMQ,VDD0P8_CORE,0.7992,CORE_ENABLE,candidate_not_thermal_or_loop_qualified
+U22,CPU,TPS628640BYCGR,VDD0P8_CPU,0.8,CORE_PGOOD_5V,candidate_not_thermal_or_loop_qualified
+U23,KPU,TPS628640BYCGR,VDD0P8_KPU,0.8,CORE_PGOOD_5V,candidate_not_thermal_or_loop_qualified
+U24,DDR,TPS62826ADMQ,VDD1P1_DDR_IO,1.1196,CORE_PGOOD_5V,candidate_not_thermal_or_loop_qualified
+U25,1V8,TPS62825ADMQ,VDD1P8,1.8,CORE_PGOOD_5V,candidate_not_thermal_or_loop_qualified
+U26,3V3,TPS62826ADMQ,VDD_3V3,3.318,CORE_PGOOD_5V,candidate_not_thermal_or_loop_qualified

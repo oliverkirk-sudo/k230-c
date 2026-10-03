@@ -1,0 +1,13 @@
+{
+  "soc_balls": 390,
+  "memory_balls": 353,
+  "soc_type_changes": 90,
+  "memory_type_changes": 27,
+  "erc_total": 0,
+  "netlist": "cad/integrated/master.xml",
+  "limitations": [
+    "Electrical types do not qualify voltages, timing, layout or hardware.",
+    "VDDI is an analog internal node, capacitor loads only.",
+    "Default R528 DNP inhibits storage."
+  ]
+}

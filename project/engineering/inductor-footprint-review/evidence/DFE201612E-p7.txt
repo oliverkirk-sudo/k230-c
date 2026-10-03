@@ -1,0 +1,51 @@
+ Spec No. J(E)TE243A-0006D-01
+                                         Reference Only                                                                                7/10
+
+DFE201612E Type 注意事項 Precautions
+ 使用上の注意事項（安全対策） Notice
+
+ 1, 樹脂コーティング Resin coating
+    製品を樹脂で外装される場合、樹脂のキュアストレスが強いとインダクタンスが変化したり製品の性能に
+    影響を及ぼすことがありますので、樹脂の選択には十分ご注意下さい。また、実装された状態での信頼性評
+    価を実施下さい。
+    The inductance value may change and/or it may affect on the product's performance due to high
+    cure-stress of resin to be used for coating / molding products. So please pay your careful attention when you select resin.
+    In prior to use, please make the reliability evaluation with the product mounted in your application set.
+
+ 2, この商品は、従来形のコイルに比べ、絶縁抵抗が低いため、ご使用にあたり注意が必要です。
+    This product employs a core with low insulation resistance. Pay strict attention when use it.
+    a) コイルの下には電極部を除きスルーホールやパターンの設置をお避け下さい。
+      Do not make any through holes and copper pattern under the coil.
+      except a copper pattern to the electrode.
+    b) コイルに他の部品が触れない様にご設計をお願いします。
+      Design/mount any components not to contact this product.
+
+ 3, 定格上の注意 Caution(Rating)
+     定格電流を超えてのご使用は避けてください。定格電流を超えて使用しますと、当製品は発熱し、
+     ワイヤー間のショート、断線あるいははんだが溶けて部品が脱落する恐れがあります。
+     Do not exceed maximum rated current of the product. Thermal stress may be transmitted to the product and
+     short/open circuit of the product or falling off the product may be occurred.
+
+ 4, 温度上昇 Temperature Rise
+    コイルの温度はご設計環境で大きく変わります。
+    熱設計には充分ご注意をされ温度保証範囲でのご設計をお願いします。
+    Temperature rise of power choke coil depends on the installation condition in end products.
+    It shall be confirmed in the actual end product that temperature rise of power choke coil is in the limit
+    specified temperature class.
+
+ 5, 腐食性ガス Corrosive gas
+    腐食性ガス(イオウ系ガス[硫化水素、二酸化イオウなど]、塩素、アンモニア、など)の環境にさらされる、
+    または前記腐食性ガス環境下にさらされたオイルなど(切削油、シリコーン油等)と接触した場合に、
+    製品電極の腐食などによって特性劣化または劣化からオープンに至る可能性がありますので、
+    ご使用はお避けください。なお、当環境下でのご使用について弊社は一切の責任を負いません。
+    Please refrain from use since contact with environments with corrosive gases
+    (sulfur gas [hydrogen sulfide, sulfur dioxide, etc.], chlorine, ammonia, etc.) or oils (cutting oil, silicone oil, etc.)
+    that have come into contact with the previously stated corrosive gas environment will result in deterioration of product quality
+    or an open from deterioration due to corrosion of product electrode, etc.
+    We will not bear any responsibility for use under these environments.
+
+
+
+
+                                                    MURATA MFG.CO., LTD.
+

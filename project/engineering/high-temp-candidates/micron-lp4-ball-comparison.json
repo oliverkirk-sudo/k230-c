@@ -1,0 +1,1400 @@
+{
+  "part": "MT53E256M32D2FW-046 AAT:B",
+  "status": "DERIVED_CANDIDATE_NOT_APPROVED_SUBSTITUTION",
+  "source_pdf_page": 21,
+  "source_figure": 5,
+  "source_sha256": "b29c808baa7e42fca9b7ccc54b673142d26b49a1fee6b3053cc8691c21832552",
+  "source_url": "https://www.mouser.com/datasheet/2/671/200b_z00m_sdp_ddp_auto_lpddr4_lpddr4x-3193603.pdf",
+  "orientation": "top view ball down",
+  "physical_count": 200,
+  "full_grid_count": 264,
+  "grid": [
+    {
+      "ball": "A1",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "A2",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "A3",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "A4",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "A5",
+      "function": "ZQ0",
+      "physical": true
+    },
+    {
+      "ball": "A6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "A7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "A8",
+      "function": "NC",
+      "physical": true
+    },
+    {
+      "ball": "A9",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "A10",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "A11",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "A12",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "B1",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "B2",
+      "function": "DQ0_A",
+      "physical": true
+    },
+    {
+      "ball": "B3",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "B4",
+      "function": "DQ7_A",
+      "physical": true
+    },
+    {
+      "ball": "B5",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "B6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "B7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "B8",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "B9",
+      "function": "DQ15_A",
+      "physical": true
+    },
+    {
+      "ball": "B10",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "B11",
+      "function": "DQ8_A",
+      "physical": true
+    },
+    {
+      "ball": "B12",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "C1",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "C2",
+      "function": "DQ1_A",
+      "physical": true
+    },
+    {
+      "ball": "C3",
+      "function": "DMI0_A",
+      "physical": true
+    },
+    {
+      "ball": "C4",
+      "function": "DQ6_A",
+      "physical": true
+    },
+    {
+      "ball": "C5",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "C6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "C7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "C8",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "C9",
+      "function": "DQ14_A",
+      "physical": true
+    },
+    {
+      "ball": "C10",
+      "function": "DMI1_A",
+      "physical": true
+    },
+    {
+      "ball": "C11",
+      "function": "DQ9_A",
+      "physical": true
+    },
+    {
+      "ball": "C12",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "D1",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "D2",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "D3",
+      "function": "DQS0_t_A",
+      "physical": true
+    },
+    {
+      "ball": "D4",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "D5",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "D6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "D7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "D8",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "D9",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "D10",
+      "function": "DQS1_t_A",
+      "physical": true
+    },
+    {
+      "ball": "D11",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "D12",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "E1",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "E2",
+      "function": "DQ2_A",
+      "physical": true
+    },
+    {
+      "ball": "E3",
+      "function": "DQS0_c_A",
+      "physical": true
+    },
+    {
+      "ball": "E4",
+      "function": "DQ5_A",
+      "physical": true
+    },
+    {
+      "ball": "E5",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "E6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "E7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "E8",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "E9",
+      "function": "DQ13_A",
+      "physical": true
+    },
+    {
+      "ball": "E10",
+      "function": "DQS1_c_A",
+      "physical": true
+    },
+    {
+      "ball": "E11",
+      "function": "DQ10_A",
+      "physical": true
+    },
+    {
+      "ball": "E12",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "F1",
+      "function": "VDD1",
+      "physical": true
+    },
+    {
+      "ball": "F2",
+      "function": "DQ3_A",
+      "physical": true
+    },
+    {
+      "ball": "F3",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "F4",
+      "function": "DQ4_A",
+      "physical": true
+    },
+    {
+      "ball": "F5",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "F6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "F7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "F8",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "F9",
+      "function": "DQ12_A",
+      "physical": true
+    },
+    {
+      "ball": "F10",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "F11",
+      "function": "DQ11_A",
+      "physical": true
+    },
+    {
+      "ball": "F12",
+      "function": "VDD1",
+      "physical": true
+    },
+    {
+      "ball": "G1",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "G2",
+      "function": "ODT_CA_A",
+      "physical": true
+    },
+    {
+      "ball": "G3",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "G4",
+      "function": "VDD1",
+      "physical": true
+    },
+    {
+      "ball": "G5",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "G6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "G7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "G8",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "G9",
+      "function": "VDD1",
+      "physical": true
+    },
+    {
+      "ball": "G10",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "G11",
+      "function": "NC",
+      "physical": true
+    },
+    {
+      "ball": "G12",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "H1",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "H2",
+      "function": "CA0_A",
+      "physical": true
+    },
+    {
+      "ball": "H3",
+      "function": "NC",
+      "physical": true
+    },
+    {
+      "ball": "H4",
+      "function": "CS0_A",
+      "physical": true
+    },
+    {
+      "ball": "H5",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "H6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "H7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "H8",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "H9",
+      "function": "CA2_A",
+      "physical": true
+    },
+    {
+      "ball": "H10",
+      "function": "CA3_A",
+      "physical": true
+    },
+    {
+      "ball": "H11",
+      "function": "CA4_A",
+      "physical": true
+    },
+    {
+      "ball": "H12",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "J1",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "J2",
+      "function": "CA1_A",
+      "physical": true
+    },
+    {
+      "ball": "J3",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "J4",
+      "function": "CKE0_A",
+      "physical": true
+    },
+    {
+      "ball": "J5",
+      "function": "NC",
+      "physical": true
+    },
+    {
+      "ball": "J6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "J7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "J8",
+      "function": "CK_t_A",
+      "physical": true
+    },
+    {
+      "ball": "J9",
+      "function": "CK_c_A",
+      "physical": true
+    },
+    {
+      "ball": "J10",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "J11",
+      "function": "CA5_A",
+      "physical": true
+    },
+    {
+      "ball": "J12",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "K1",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "K2",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "K3",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "K4",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "K5",
+      "function": "NC",
+      "physical": true
+    },
+    {
+      "ball": "K6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "K7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "K8",
+      "function": "NC",
+      "physical": true
+    },
+    {
+      "ball": "K9",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "K10",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "K11",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "K12",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "L1",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L2",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L3",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L4",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L5",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L8",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L9",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L10",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L11",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "L12",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M1",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M2",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M3",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M4",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M5",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M8",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M9",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M10",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M11",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "M12",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "N1",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "N2",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "N3",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "N4",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "N5",
+      "function": "NC",
+      "physical": true
+    },
+    {
+      "ball": "N6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "N7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "N8",
+      "function": "NC",
+      "physical": true
+    },
+    {
+      "ball": "N9",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "N10",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "N11",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "N12",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "P1",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "P2",
+      "function": "CA1_B",
+      "physical": true
+    },
+    {
+      "ball": "P3",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "P4",
+      "function": "CKE0_B",
+      "physical": true
+    },
+    {
+      "ball": "P5",
+      "function": "NC",
+      "physical": true
+    },
+    {
+      "ball": "P6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "P7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "P8",
+      "function": "CK_t_B",
+      "physical": true
+    },
+    {
+      "ball": "P9",
+      "function": "CK_c_B",
+      "physical": true
+    },
+    {
+      "ball": "P10",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "P11",
+      "function": "CA5_B",
+      "physical": true
+    },
+    {
+      "ball": "P12",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "R1",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "R2",
+      "function": "CA0_B",
+      "physical": true
+    },
+    {
+      "ball": "R3",
+      "function": "NC",
+      "physical": true
+    },
+    {
+      "ball": "R4",
+      "function": "CS0_B",
+      "physical": true
+    },
+    {
+      "ball": "R5",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "R6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "R7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "R8",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "R9",
+      "function": "CA2_B",
+      "physical": true
+    },
+    {
+      "ball": "R10",
+      "function": "CA3_B",
+      "physical": true
+    },
+    {
+      "ball": "R11",
+      "function": "CA4_B",
+      "physical": true
+    },
+    {
+      "ball": "R12",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "T1",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "T2",
+      "function": "ODT_CA_B",
+      "physical": true
+    },
+    {
+      "ball": "T3",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "T4",
+      "function": "VDD1",
+      "physical": true
+    },
+    {
+      "ball": "T5",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "T6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "T7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "T8",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "T9",
+      "function": "VDD1",
+      "physical": true
+    },
+    {
+      "ball": "T10",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "T11",
+      "function": "RESET_n",
+      "physical": true
+    },
+    {
+      "ball": "T12",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "U1",
+      "function": "VDD1",
+      "physical": true
+    },
+    {
+      "ball": "U2",
+      "function": "DQ3_B",
+      "physical": true
+    },
+    {
+      "ball": "U3",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "U4",
+      "function": "DQ4_B",
+      "physical": true
+    },
+    {
+      "ball": "U5",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "U6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "U7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "U8",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "U9",
+      "function": "DQ12_B",
+      "physical": true
+    },
+    {
+      "ball": "U10",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "U11",
+      "function": "DQ11_B",
+      "physical": true
+    },
+    {
+      "ball": "U12",
+      "function": "VDD1",
+      "physical": true
+    },
+    {
+      "ball": "V1",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "V2",
+      "function": "DQ2_B",
+      "physical": true
+    },
+    {
+      "ball": "V3",
+      "function": "DQS0_c_B",
+      "physical": true
+    },
+    {
+      "ball": "V4",
+      "function": "DQ5_B",
+      "physical": true
+    },
+    {
+      "ball": "V5",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "V6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "V7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "V8",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "V9",
+      "function": "DQ13_B",
+      "physical": true
+    },
+    {
+      "ball": "V10",
+      "function": "DQS1_c_B",
+      "physical": true
+    },
+    {
+      "ball": "V11",
+      "function": "DQ10_B",
+      "physical": true
+    },
+    {
+      "ball": "V12",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "W1",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "W2",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "W3",
+      "function": "DQS0_t_B",
+      "physical": true
+    },
+    {
+      "ball": "W4",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "W5",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "W6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "W7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "W8",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "W9",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "W10",
+      "function": "DQS1_t_B",
+      "physical": true
+    },
+    {
+      "ball": "W11",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "W12",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "Y1",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "Y2",
+      "function": "DQ1_B",
+      "physical": true
+    },
+    {
+      "ball": "Y3",
+      "function": "DMI0_B",
+      "physical": true
+    },
+    {
+      "ball": "Y4",
+      "function": "DQ6_B",
+      "physical": true
+    },
+    {
+      "ball": "Y5",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "Y6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "Y7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "Y8",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "Y9",
+      "function": "DQ14_B",
+      "physical": true
+    },
+    {
+      "ball": "Y10",
+      "function": "DMI1_B",
+      "physical": true
+    },
+    {
+      "ball": "Y11",
+      "function": "DQ9_B",
+      "physical": true
+    },
+    {
+      "ball": "Y12",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "AA1",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "AA2",
+      "function": "DQ0_B",
+      "physical": true
+    },
+    {
+      "ball": "AA3",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "AA4",
+      "function": "DQ7_B",
+      "physical": true
+    },
+    {
+      "ball": "AA5",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "AA6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "AA7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "AA8",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "AA9",
+      "function": "DQ15_B",
+      "physical": true
+    },
+    {
+      "ball": "AA10",
+      "function": "VDDQ",
+      "physical": true
+    },
+    {
+      "ball": "AA11",
+      "function": "DQ8_B",
+      "physical": true
+    },
+    {
+      "ball": "AA12",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "AB1",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "AB2",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "AB3",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "AB4",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "AB5",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "AB6",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "AB7",
+      "function": "NB",
+      "physical": false
+    },
+    {
+      "ball": "AB8",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "AB9",
+      "function": "VDD2",
+      "physical": true
+    },
+    {
+      "ball": "AB10",
+      "function": "VSS",
+      "physical": true
+    },
+    {
+      "ball": "AB11",
+      "function": "DNU",
+      "physical": true
+    },
+    {
+      "ball": "AB12",
+      "function": "DNU",
+      "physical": true
+    }
+  ],
+  "normalized_ball_function_changes_from_current_samsung": [
+    {
+      "ball": "H4",
+      "samsung": "CS_a",
+      "micron": "CS0_A",
+      "category": "single_rank_name_alias"
+    },
+    {
+      "ball": "J4",
+      "samsung": "CKE_a",
+      "micron": "CKE0_A",
+      "category": "single_rank_name_alias"
+    },
+    {
+      "ball": "P4",
+      "samsung": "CKE_b",
+      "micron": "CKE0_B",
+      "category": "single_rank_name_alias"
+    },
+    {
+      "ball": "R4",
+      "samsung": "CS_b",
+      "micron": "CS0_B",
+      "category": "single_rank_name_alias"
+    },
+    {
+      "ball": "K5",
+      "samsung": "DNU",
+      "micron": "NC",
+      "category": "unused_category_change"
+    },
+    {
+      "ball": "N5",
+      "samsung": "DNU",
+      "micron": "NC",
+      "category": "unused_category_change"
+    },
+    {
+      "ball": "K8",
+      "samsung": "DNU",
+      "micron": "NC",
+      "category": "unused_category_change"
+    },
+    {
+      "ball": "N8",
+      "samsung": "DNU",
+      "micron": "NC",
+      "category": "unused_category_change"
+    },
+    {
+      "ball": "G11",
+      "samsung": "DNU",
+      "micron": "NC",
+      "category": "unused_category_change"
+    }
+  ],
+  "normalization_notes": [
+    "Case-insensitive channel suffixes.",
+    "Samsung ZQ_a corresponds to Micron ZQ0; Micron pin description requires240Ohm +/-1% toVDDQ.",
+    "CS/CKE versus CS0/CKE0 are single-rank naming aliases; no net remapping inferred."
+  ],
+  "remaining_gates": [
+    "Second independent grid review.",
+    "Exact order/package height/land geometry; not drop-in.",
+    "DDR timing/training/ODT/drive/ZQ protocol and temperature refresh behavior.",
+    "Temperature definition and real thermal path."
+  ]
+}

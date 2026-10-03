@@ -1,0 +1,3307 @@
+{
+  "status": "REVIEWABLE_NOMINAL_PROPOSAL_FACTORY_AND_ASSEMBLY_UNQUALIFIED",
+  "source_coordinates": "data/mating_land_coordinates.csv",
+  "source_coordinates_sha256": "6ba4a464d69e948c8e6e868fa63db8b18a2e1b9c72d6a2cbf1767d73314fc6e0",
+  "parameters": {
+    "board_mm": 38.0,
+    "hole_mm": 0.5,
+    "pad_transverse_mm": 0.8,
+    "pad_normal_mm": 1.8,
+    "mask_expansion_mm": 0.05,
+    "mask_registration_budget_mm": 0.0762,
+    "component_to_mask_clearance_mm": 0.25
+  },
+  "parameters_not_claimed_as_factory_tolerances": [
+    "mask_registration_budget_mm",
+    "component_to_mask_clearance_mm"
+  ],
+  "hole_size_definition": "0.50 mm is the requested nominal FINISHED plated opening before edge routing. KiCad drill attribute is the requested nominal, not a specification of the physical production drill tool. Factory compensation and final acceptance remain open.",
+  "source_evidence_files": [
+    "castellation-fab-source-review.json",
+    "core-stackup-process-proposal.json",
+    "original-step-edge-evidence.json"
+  ],
+  "module_outline_mm": [
+    38,
+    38
+  ],
+  "normal_module_drill_centers_abs_mm": 19,
+  "authoritative_carrier_normal_centers_abs_mm": 18.746,
+  "carrier_land_shape": "Obround: source-interface/CM-K230.pcbdoc SHAPE=ROUND, unequal XSIZE/YSIZE; existing converted carrier footprint uses smd oval",
+  "carrier_source_sha256": "21d9fa018d7e234c43160a8c85ffa99993ba5045702dc57394114dc15e410dcf",
+  "intended_normal_center_offset_mm": 0.254,
+  "along_edge_centers_mm": [
+    -17,
+    -16,
+    -15,
+    -14,
+    -13,
+    -12,
+    -11,
+    -10,
+    -9,
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "contact_count": 140,
+  "maximum_source_rounding_error_mm": 4e-06,
+  "source_rounding_note": "Microscopic source conversion noise is normalized to the explicitly specified 1 mm pitch; carrier source coordinates are retained for proof.",
+  "nominal_checks": {
+    "annular_ring_transverse_mm": 0.15,
+    "annular_ring_inward_centerline_mm": 0.65,
+    "copper_gap_mm": 0.2,
+    "hole_edge_gap_mm": 0.5,
+    "mask_opening_transverse_mm": 0.9,
+    "mask_opening_normal_mm": 1.9,
+    "mask_web_mm": 0.1,
+    "corner_to_nearest_hole_center_mm": 2,
+    "corner_to_nearest_copper_edge_mm": 1.6,
+    "carrier_land_world_transverse_mm": 0.559994,
+    "carrier_land_world_normal_mm": 1.599999,
+    "carrier_inward_edge_coordinate_mm": 17.9460005,
+    "carrier_outward_edge_coordinate_mm": 19.5459995,
+    "module_inward_copper_coordinate_mm": 18.1,
+    "carrier_to_module_inboard_tip_margin_mm": 0.1539995,
+    "nominal_copper_overlap_area_per_contact_mm2": 0.38586616
+  },
+  "corner_panelization_gate": "1.6 mm nominal bare edge near each corner is not an approved tab or clamp provision; four populated edges need panel retention/routing review.",
+  "soldermask_assessment": "0.05 mm expansion leaves exactly 0.10 mm nominal web, the PCBWay dedicated-page minimum. Any process requirement for a larger web, larger expansion or opening-size allowance changes this proposal. Green LPI and preserved individual bridges are requested, not accepted.",
+  "copper_layers": "Same PTH pad and plated barrel on all eight copper layers. Every internal plane needs a net-specific clearance; retain unused annuli for barrel support.",
+  "paste_layers": "No module-side paste on castellations. Carrier stencil and solder volume must be qualified separately for module mounting.",
+  "tolerance_status": "No accepted fabricator-specific tolerance stack is available. Published generic capabilities from different services are not combined into a fictitious qualified process.",
+  "published_generic_tolerance_stress_case": {
+    "source": "https://www.pcbway.com/capabilities.html",
+    "outline_size_tolerance_mm": 0.2,
+    "hole_position_tolerance_mm": 0.075,
+    "finished_hole_diameter_tolerance_mm": 0.08,
+    "interpretation": "The size tolerance does not establish local drill-to-route registration. Treating +/-0.2 as an independent edge-location bound is an intentionally conservative stress calculation, not the vendor definition.",
+    "assumed_independent_edge_plus_drill_error_mm": 0.275,
+    "minimum_radius_mm": 0.21,
+    "minimum_retained_radial_depth_mm": -0.065,
+    "conclusion": "Generic tolerance figures cannot guarantee the profile intersects every hole; a joint drill/route registration requirement is mandatory.",
+    "transverse_ring_at_max_hole_and_position_before_etch_mm": 0.035
+  },
+  "required_tolerance_relationships": {
+    "retained_depth": "h_min = D_min/2 - E_drill_to_route for edge-centered holes",
+    "open_hole": "E_drill_to_route < D_min/2",
+    "minimum_ring": "a_min = (W_min - D_max)/2 - E_drill_to_copper",
+    "mask_bridge": "web_min = pitch_min - opening_width_max - differential_opening_position_error",
+    "requested_values": "To be accepted together by one selected factory. No accepted numeric limits are invented here."
+  },
+  "component_reservation": {
+    "depth_from_nominal_edge_mm": 1.3,
+    "formula": "0.90 inward copper + 0.05 mask expansion + 0.0762 published PCBWay standard mask-offset budget + 0.25 engineering component-to-mask clearance = 1.2762 mm, rounded outward to 1.30 mm; this mixed-source engineering budget is not acceptance of a factory process",
+    "central_square_mm": 35.4,
+    "central_square_area_mm2": 1253.1599999999999,
+    "delta_against_historical_2mm_band_mm2": 97.15999999999985,
+    "status": "Conditional geometric reservation. Do not silently replace the committed 2 mm baseline or count the gain as routed space.",
+    "component_rule": "All top-side component body and exposed solder-land extents stay inside this central square, or require an explicit local clearance analysis. The 0.25 mm is an engineering assembly separation, not a published fab minimum.",
+    "sensitivities": [
+      {
+        "mask_registration_budget_mm": 0,
+        "band_mm": 1.2000000000000002,
+        "area_mm2": 1267.3600000000001
+      },
+      {
+        "mask_registration_budget_mm": 0.05,
+        "band_mm": 1.25,
+        "area_mm2": 1260.25
+      },
+      {
+        "mask_registration_budget_mm": 0.075,
+        "band_mm": 1.2750000000000001,
+        "area_mm2": 1256.7025
+      },
+      {
+        "mask_registration_budget_mm": 0.1,
+        "band_mm": 1.3,
+        "area_mm2": 1253.1599999999999
+      },
+      {
+        "mask_registration_budget_mm": 0.2,
+        "band_mm": 1.4000000000000001,
+        "area_mm2": 1239.0400000000002
+      }
+    ],
+    "ordinary_copper_rule": "Non-castellation edge copper/planes retain the selected factory profile clearance plus its agreed edge tolerance. Do not extend arbitrary planes to the edge.",
+    "bottom_rule": "No bottom-side components. Bottom castellated lands remain exposed; other bottom conductors must avoid accidental carrier contact. Carrier under-module geometry and standoff are not yet qualified."
+  },
+  "overlap_sensitivity": [
+    {
+      "effective_relative_offset_each_axis_mm": 0,
+      "nominal_shape_sample_min_overlap_mm2": 0.38586616,
+      "sampling_is_not_a_global_worst_case_proof": true,
+      "analytic_guaranteed_inscribed_rectangle_mm2": 0.1399985,
+      "assumptions": "Pure relative translation only, nominal pad/hole/profile and full wettable copper. Carrier/module positional error and placement translation must be included in the budget. Angular error, pad-size, mask, coplanarity and solder coverage are not qualified."
+    },
+    {
+      "effective_relative_offset_each_axis_mm": 0.05,
+      "nominal_shape_sample_min_overlap_mm2": 0.38384743,
+      "sampling_is_not_a_global_worst_case_proof": true,
+      "analytic_guaranteed_inscribed_rectangle_mm2": 0.1399985,
+      "assumptions": "Pure relative translation only, nominal pad/hole/profile and full wettable copper. Carrier/module positional error and placement translation must be included in the budget. Angular error, pad-size, mask, coplanarity and solder coverage are not qualified."
+    },
+    {
+      "effective_relative_offset_each_axis_mm": 0.1,
+      "nominal_shape_sample_min_overlap_mm2": 0.37824331,
+      "sampling_is_not_a_global_worst_case_proof": true,
+      "analytic_guaranteed_inscribed_rectangle_mm2": 0.1399985,
+      "assumptions": "Pure relative translation only, nominal pad/hole/profile and full wettable copper. Carrier/module positional error and placement translation must be included in the budget. Angular error, pad-size, mask, coplanarity and solder coverage are not qualified."
+    },
+    {
+      "effective_relative_offset_each_axis_mm": 0.15,
+      "nominal_shape_sample_min_overlap_mm2": 0.34703025,
+      "sampling_is_not_a_global_worst_case_proof": true,
+      "analytic_guaranteed_inscribed_rectangle_mm2": 0.13249925,
+      "assumptions": "Pure relative translation only, nominal pad/hole/profile and full wettable copper. Carrier/module positional error and placement translation must be included in the budget. Angular error, pad-size, mask, coplanarity and solder coverage are not qualified."
+    },
+    {
+      "effective_relative_offset_each_axis_mm": 0.2,
+      "nominal_shape_sample_min_overlap_mm2": 0.3026378,
+      "sampling_is_not_a_global_worst_case_proof": true,
+      "analytic_guaranteed_inscribed_rectangle_mm2": 0.11999925,
+      "assumptions": "Pure relative translation only, nominal pad/hole/profile and full wettable copper. Carrier/module positional error and placement translation must be included in the budget. Angular error, pad-size, mask, coplanarity and solder coverage are not qualified."
+    },
+    {
+      "effective_relative_offset_each_axis_mm": 0.25,
+      "nominal_shape_sample_min_overlap_mm2": 0.25930418,
+      "sampling_is_not_a_global_worst_case_proof": true,
+      "analytic_guaranteed_inscribed_rectangle_mm2": 0.10749925,
+      "assumptions": "Pure relative translation only, nominal pad/hole/profile and full wettable copper. Carrier/module positional error and placement translation must be included in the budget. Angular error, pad-size, mask, coplanarity and solder coverage are not qualified."
+    }
+  ],
+  "angular_error_status": "Not included in the translation-only rows; a separate explicitly assumed joint-pose lower bound is provided. Actual assembly acceptance and pad/mask tolerances remain open.",
+  "joint_pose_sensitivity": {
+    "assembly_translation_each_global_axis_mm": 0.1,
+    "assembly_rotation_about_module_center_deg": 0.1,
+    "assumption_status": "Illustrative engineering budget only, not a vendor placement guarantee",
+    "largest_contact_center_radius_bound_mm": 25.495097567963924,
+    "global_translation_projected_into_rotated_axes_bound_mm": 0.1001743805279186,
+    "center_translation_plus_rotation_bound_each_axis_mm": 0.14467571444795876,
+    "carrier_inscribed_rectangle_rotation_erosion_each_edge_mm": 0.0010307803320918185,
+    "guaranteed_nominal_geometric_overlap_lower_bound_mm2": 0.13357262630498737,
+    "method": "Use exact carrier straight rectangle, erode every side by 2*local_radius*sin(theta/2), then intersect its translated bounding intervals with the retained module rectangle [-.4,.4] x [-.5,-.25]. Contact-center rotation is conservatively bounded by 2*hypot(19,17)*sin(theta/2), plus translation_per_global_axis*(cos(theta)+sin(theta)) and source-rounding noise.",
+    "limitations": "Nominal dimensions/profile/drill and full exposed copper only. Hole/copper manufacturing errors, mask, solder, board warpage and real placement capability remain unqualified."
+  },
+  "broader_tolerance_inscribed_rectangle": {
+    "effective_relative_axis_budget_mm": 0.15,
+    "finished_hole_max_mm": 0.58,
+    "drill_inward_error_max_mm": 0.075,
+    "inward_profile_error_mm": 0.2,
+    "guaranteed_geometric_overlap_rectangle_mm2": 0.0529997,
+    "restrictions": "Proof uses unshrunk .8 copper and nominal carrier land dimensions, ignoring mask/etch. Positive remaining land overlap does not rescue a missed or damaged half-hole."
+  },
+  "missing_mating_tolerances": [
+    "Carrier pad size/position and soldermask opening tolerances",
+    "Module-to-carrier placement and angular error",
+    "Carrier stencil, paste volume, wetting and post-reflow stand-off",
+    "Board flatness/warpage at reflow and operating temperature",
+    "Local drill-to-route and drill-to-copper registration for the chosen castellation process"
+  ],
+  "contacts": [
+    {
+      "pin": 1,
+      "side": "south",
+      "module_center_mm": [
+        -17,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -17.000002,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 2,
+      "side": "south",
+      "module_center_mm": [
+        -16,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -15.999998,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 3,
+      "side": "south",
+      "module_center_mm": [
+        -15,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -14.999998,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 4,
+      "side": "south",
+      "module_center_mm": [
+        -14,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -14.0,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 5,
+      "side": "south",
+      "module_center_mm": [
+        -13,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -12.999999,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 6,
+      "side": "south",
+      "module_center_mm": [
+        -12,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -11.999999,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 7,
+      "side": "south",
+      "module_center_mm": [
+        -11,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -10.999998,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 8,
+      "side": "south",
+      "module_center_mm": [
+        -10,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -10.0,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 9,
+      "side": "south",
+      "module_center_mm": [
+        -9,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -9.0,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 10,
+      "side": "south",
+      "module_center_mm": [
+        -8,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -7.999999,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 11,
+      "side": "south",
+      "module_center_mm": [
+        -7,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -6.999999,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 12,
+      "side": "south",
+      "module_center_mm": [
+        -6,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -6.000001,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 13,
+      "side": "south",
+      "module_center_mm": [
+        -5,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -5.0,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 14,
+      "side": "south",
+      "module_center_mm": [
+        -4,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -4.0,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 15,
+      "side": "south",
+      "module_center_mm": [
+        -3,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -2.999999,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 16,
+      "side": "south",
+      "module_center_mm": [
+        -2,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -2.000001,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 17,
+      "side": "south",
+      "module_center_mm": [
+        -1,
+        19.0
+      ],
+      "carrier_center_mm": [
+        -1.000001,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 18,
+      "side": "south",
+      "module_center_mm": [
+        0,
+        19.0
+      ],
+      "carrier_center_mm": [
+        0.0,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 19,
+      "side": "south",
+      "module_center_mm": [
+        1,
+        19.0
+      ],
+      "carrier_center_mm": [
+        0.999998,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 20,
+      "side": "south",
+      "module_center_mm": [
+        2,
+        19.0
+      ],
+      "carrier_center_mm": [
+        1.999999,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 21,
+      "side": "south",
+      "module_center_mm": [
+        3,
+        19.0
+      ],
+      "carrier_center_mm": [
+        2.999997,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -3e-06
+    },
+    {
+      "pin": 22,
+      "side": "south",
+      "module_center_mm": [
+        4,
+        19.0
+      ],
+      "carrier_center_mm": [
+        3.999997,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -3e-06
+    },
+    {
+      "pin": 23,
+      "side": "south",
+      "module_center_mm": [
+        5,
+        19.0
+      ],
+      "carrier_center_mm": [
+        5.0,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 24,
+      "side": "south",
+      "module_center_mm": [
+        6,
+        19.0
+      ],
+      "carrier_center_mm": [
+        6.000001,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 25,
+      "side": "south",
+      "module_center_mm": [
+        7,
+        19.0
+      ],
+      "carrier_center_mm": [
+        6.999999,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 26,
+      "side": "south",
+      "module_center_mm": [
+        8,
+        19.0
+      ],
+      "carrier_center_mm": [
+        7.999999,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 27,
+      "side": "south",
+      "module_center_mm": [
+        9,
+        19.0
+      ],
+      "carrier_center_mm": [
+        9.0,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 28,
+      "side": "south",
+      "module_center_mm": [
+        10,
+        19.0
+      ],
+      "carrier_center_mm": [
+        10.0,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 29,
+      "side": "south",
+      "module_center_mm": [
+        11,
+        19.0
+      ],
+      "carrier_center_mm": [
+        10.999998,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 30,
+      "side": "south",
+      "module_center_mm": [
+        12,
+        19.0
+      ],
+      "carrier_center_mm": [
+        11.999999,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 31,
+      "side": "south",
+      "module_center_mm": [
+        13,
+        19.0
+      ],
+      "carrier_center_mm": [
+        12.999999,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 32,
+      "side": "south",
+      "module_center_mm": [
+        14,
+        19.0
+      ],
+      "carrier_center_mm": [
+        14.0,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 33,
+      "side": "south",
+      "module_center_mm": [
+        15,
+        19.0
+      ],
+      "carrier_center_mm": [
+        14.999998,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 34,
+      "side": "south",
+      "module_center_mm": [
+        16,
+        19.0
+      ],
+      "carrier_center_mm": [
+        15.999998,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 35,
+      "side": "south",
+      "module_center_mm": [
+        17,
+        19.0
+      ],
+      "carrier_center_mm": [
+        16.999996,
+        18.746
+      ],
+      "carrier_rotation_deg": -270.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -4e-06
+    },
+    {
+      "pin": 36,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        17
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        16.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 37,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        16
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        15.999998
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 38,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        15
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        14.999998
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 39,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        14
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        14.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 40,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        13
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        12.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 41,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        12
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        11.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 42,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        11
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        10.999998
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 43,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        10
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        10.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 44,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        9
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        9.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 45,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        8
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        7.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 46,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        7
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        6.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 47,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        6
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        6.000001
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 48,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        5
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        5.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 49,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        4
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        4.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 50,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        3
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        2.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 51,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        2
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        2.000001
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 52,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        1
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        1.000001
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 53,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        0
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        0.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 54,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -1
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -1.000001
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 55,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -2
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -2.000001
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 56,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -3
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -2.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 57,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -4
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -4.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 58,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -5
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -5.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 59,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -6
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -6.000001
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 60,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -7
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -6.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 61,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -8
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -7.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 62,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -9
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -9.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 63,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -10
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -10.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 64,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -11
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -10.999998
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 65,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -12
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -11.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 66,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -13
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -12.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 67,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -14
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -14.0
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 68,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -15
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -14.999998
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 69,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -16
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -15.999998
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 70,
+      "side": "east",
+      "module_center_mm": [
+        19.0,
+        -17
+      ],
+      "carrier_center_mm": [
+        18.745998,
+        -16.999999
+      ],
+      "carrier_rotation_deg": -0.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 71,
+      "side": "north",
+      "module_center_mm": [
+        17,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        16.999996,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -4e-06
+    },
+    {
+      "pin": 72,
+      "side": "north",
+      "module_center_mm": [
+        16,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        15.999998,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 73,
+      "side": "north",
+      "module_center_mm": [
+        15,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        14.999998,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 74,
+      "side": "north",
+      "module_center_mm": [
+        14,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        14.0,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 75,
+      "side": "north",
+      "module_center_mm": [
+        13,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        12.999999,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 76,
+      "side": "north",
+      "module_center_mm": [
+        12,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        11.999999,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 77,
+      "side": "north",
+      "module_center_mm": [
+        11,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        10.999998,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 78,
+      "side": "north",
+      "module_center_mm": [
+        10,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        10.0,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 79,
+      "side": "north",
+      "module_center_mm": [
+        9,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        9.0,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 80,
+      "side": "north",
+      "module_center_mm": [
+        8,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        7.999999,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 81,
+      "side": "north",
+      "module_center_mm": [
+        7,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        6.999999,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 82,
+      "side": "north",
+      "module_center_mm": [
+        6,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        6.000001,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 83,
+      "side": "north",
+      "module_center_mm": [
+        5,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        5.0,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 84,
+      "side": "north",
+      "module_center_mm": [
+        4,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        3.999997,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -3e-06
+    },
+    {
+      "pin": 85,
+      "side": "north",
+      "module_center_mm": [
+        3,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        2.999997,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -3e-06
+    },
+    {
+      "pin": 86,
+      "side": "north",
+      "module_center_mm": [
+        2,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        1.999999,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 87,
+      "side": "north",
+      "module_center_mm": [
+        1,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        0.999998,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 88,
+      "side": "north",
+      "module_center_mm": [
+        0,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        0.0,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 89,
+      "side": "north",
+      "module_center_mm": [
+        -1,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -1.000001,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 90,
+      "side": "north",
+      "module_center_mm": [
+        -2,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -2.000001,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 91,
+      "side": "north",
+      "module_center_mm": [
+        -3,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -2.999999,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 92,
+      "side": "north",
+      "module_center_mm": [
+        -4,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -4.0,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 93,
+      "side": "north",
+      "module_center_mm": [
+        -5,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -5.0,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 94,
+      "side": "north",
+      "module_center_mm": [
+        -6,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -6.000001,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 95,
+      "side": "north",
+      "module_center_mm": [
+        -7,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -6.999999,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 96,
+      "side": "north",
+      "module_center_mm": [
+        -8,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -7.999999,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 97,
+      "side": "north",
+      "module_center_mm": [
+        -9,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -9.0,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 98,
+      "side": "north",
+      "module_center_mm": [
+        -10,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -10.0,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 99,
+      "side": "north",
+      "module_center_mm": [
+        -11,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -10.999998,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 100,
+      "side": "north",
+      "module_center_mm": [
+        -12,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -11.999999,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 101,
+      "side": "north",
+      "module_center_mm": [
+        -13,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -12.999999,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 102,
+      "side": "north",
+      "module_center_mm": [
+        -14,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -14.0,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 103,
+      "side": "north",
+      "module_center_mm": [
+        -15,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -14.999998,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 104,
+      "side": "north",
+      "module_center_mm": [
+        -16,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -15.999998,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 105,
+      "side": "north",
+      "module_center_mm": [
+        -17,
+        -19.0
+      ],
+      "carrier_center_mm": [
+        -17.000002,
+        -18.746
+      ],
+      "carrier_rotation_deg": -90.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        0.8,
+        1.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 106,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -17
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -16.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 107,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -16
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -15.999998
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 108,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -15
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -14.999998
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 109,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -14
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -14.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 110,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -13
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -12.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 111,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -12
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -11.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 112,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -11
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -10.999998
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 2e-06
+    },
+    {
+      "pin": 113,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -10
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -10.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 114,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -9
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -9.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 115,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -8
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -7.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 116,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -7
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -6.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 117,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -6
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -6.000001
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 118,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -5
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -5.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 119,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -4
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -4.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 120,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -3
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -2.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 121,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -2
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -2.000001
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 122,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        -1
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        -1.000001
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 123,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        0
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        0.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 124,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        1
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        1.000001
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 125,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        2
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        2.000001
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 126,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        3
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        2.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 127,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        4
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        4.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 128,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        5
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        5.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 129,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        6
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        6.000001
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 1e-06
+    },
+    {
+      "pin": 130,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        7
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        6.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 131,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        8
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        7.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 132,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        9
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        9.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 133,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        10
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        10.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 134,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        11
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        10.999998
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 135,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        12
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        11.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 136,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        13
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        12.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    },
+    {
+      "pin": 137,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        14
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        14.0
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": 0.0
+    },
+    {
+      "pin": 138,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        15
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        14.999998
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 139,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        16
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        15.999998
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -2e-06
+    },
+    {
+      "pin": 140,
+      "side": "west",
+      "module_center_mm": [
+        -19.0,
+        17
+      ],
+      "carrier_center_mm": [
+        -18.746,
+        16.999999
+      ],
+      "carrier_rotation_deg": -180.0,
+      "carrier_local_size_mm": [
+        1.599999,
+        0.559994
+      ],
+      "module_copper_size_xy_mm": [
+        1.8,
+        0.8
+      ],
+      "source_along_rounding_error_mm": -1e-06
+    }
+  ]
+}

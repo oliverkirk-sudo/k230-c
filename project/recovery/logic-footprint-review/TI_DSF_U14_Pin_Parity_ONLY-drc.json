@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T10:23:00-0700",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "TI_DSF_U14_Pin_Parity_ONLY.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [VDD_3V3] of U14 on F.Cu",
+                    "pos": {
+                        "x": 4.6,
+                        "y": 5.35
+                    },
+                    "uuid": "f6c13195-6286-45ab-93ff-7ba5e74cb60c"
+                },
+                {
+                    "description": "Pad 5 [VDD_3V3] of U14 on F.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 5.0
+                    },
+                    "uuid": "adaef86f-8d02-4e03-a99e-1ffd206f6482"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

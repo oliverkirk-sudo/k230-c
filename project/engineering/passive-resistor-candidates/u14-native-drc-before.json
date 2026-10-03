@@ -1,0 +1,14 @@
+{
+  "schema": "https://schemas.kicad.org/drc.v1.json",
+  "counts": {
+    "schematic_parity": {
+      "missing_footprint": 104
+    },
+    "unconnected_items": {
+      "unconnected_items": 350
+    },
+    "violations": {
+      "clearance": 58
+    }
+  }
+}

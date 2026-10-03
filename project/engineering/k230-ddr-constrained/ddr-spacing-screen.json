@@ -1,0 +1,202 @@
+{
+  "status": "LOCAL_TRACE_SPACING_SCREENS_HAVE_VIOLATIONS_REQUIRE_SI_FAE_REVIEW",
+  "source": "https://github.com/kendryte/k230_docs/blob/main/en/00_hardware/K230_Hardware_Design_Guide.md",
+  "image054_url": "https://raw.githubusercontent.com/kendryte/k230_docs/main/zh/00_hardware/images/HDG/image054.png",
+  "image054_sha256": "a3c0770582cfddb3622a144e964e26eb7145be3e7282b275ec65661f15eaf555",
+  "nominal_reference_height_mm": {
+    "L1": 0.1195,
+    "L3": 0.13,
+    "L8": 0.1195
+  },
+  "reference_height_basis": "PW catalog entry13: L3 chooses larger0.130mm of 0.130/0.109mm GND dielectric gaps; L1/L8 0.1195mm to nominal GND. Catalog stack is unqualified.",
+  "source_vs_screen_interpretation": [
+    "Official text says3W without defining edge/center convention here; both explicit readings are screened.",
+    "Official figure gives2H within data byte,3H to DQS/CK groups, byte-to-CA, and supply/Vref.",
+    "Within differential P/N pair is excluded from crosstalk spacing screens; its100ohm geometry needs a field-solved stack.",
+    "3H between other distinct DDR groups is a conservative additional screen, not a new quoted requirement.",
+    "No under-BGA exception is stated; results separate under-maximum-body breakout from the short outside-body extension. They are not a full-channel crosstalk verdict.",
+    "Figure trace-spacing guidance is not automatically a pad/via-to-trace DRC. Supply-via proximity is separately diagnostic and cannot prove breakout impossible.",
+    "This planar nearest-approach screen ignores coupled length and fields; it cannot validate crosstalk or justify an exception."
+  ],
+  "checks_by_rule": {
+    "3W_centerline_reading_screen": 94758,
+    "3W_edge_gap_sensitivity_screen": 94758,
+    "figure_3H_to_DQS_CK_or_byte_CA": 16104,
+    "figure_2H_within_byte": 4310,
+    "additional_3H_between_other_groups": 5288,
+    "advisory_3H_supply_via_proximity_not_DRC": 61462,
+    "figure_3H_to_supply_trace_screen": 10112
+  },
+  "failures_by_rule": {
+    "3W_centerline_reading_screen": 48,
+    "3W_edge_gap_sensitivity_screen": 468,
+    "figure_3H_to_DQS_CK_or_byte_CA": 180,
+    "figure_2H_within_byte": 153,
+    "additional_3H_between_other_groups": 13,
+    "advisory_3H_supply_via_proximity_not_DRC": 196,
+    "figure_3H_to_supply_trace_screen": 68
+  },
+  "minimum_by_rule": {
+    "3W_centerline_reading_screen": {
+      "rule": "3W_centerline_reading_screen",
+      "net_a": "DDR_CAA4",
+      "net_b": "DDR_CKEA0",
+      "ball_a": "M18",
+      "ball_b": "N17",
+      "layer": "L3",
+      "actual_edge_gap_mm": 0.128209704,
+      "required_edge_gap_mm": 0.2032,
+      "margin_mm": -0.074990296,
+      "purpose_a": "via_to_outside_body",
+      "purpose_b": "via_to_outside_body",
+      "zone_a": "under_maximum_body_breakout",
+      "zone_b": "under_maximum_body_breakout",
+      "segment_a_length_mm": 0.24375,
+      "segment_b_length_mm": 0.08125
+    },
+    "3W_edge_gap_sensitivity_screen": {
+      "rule": "3W_edge_gap_sensitivity_screen",
+      "net_a": "DDR_CAA4",
+      "net_b": "DDR_CKEA0",
+      "ball_a": "M18",
+      "ball_b": "N17",
+      "layer": "L3",
+      "actual_edge_gap_mm": 0.128209704,
+      "required_edge_gap_mm": 0.3048,
+      "margin_mm": -0.176590296,
+      "purpose_a": "via_to_outside_body",
+      "purpose_b": "via_to_outside_body",
+      "zone_a": "under_maximum_body_breakout",
+      "zone_b": "under_maximum_body_breakout",
+      "segment_a_length_mm": 0.24375,
+      "segment_b_length_mm": 0.08125
+    },
+    "figure_3H_to_DQS_CK_or_byte_CA": {
+      "rule": "figure_3H_to_DQS_CK_or_byte_CA",
+      "net_a": "DDR_DQSA0_P",
+      "net_b": "DDR_DQA0",
+      "ball_a": "W17",
+      "ball_b": "Y16",
+      "layer": "L3",
+      "actual_edge_gap_mm": 0.2234,
+      "required_edge_gap_mm": 0.39,
+      "margin_mm": -0.1666,
+      "purpose_a": "via_to_outside_body",
+      "purpose_b": "via_to_outside_body",
+      "zone_a": "under_maximum_body_breakout",
+      "zone_b": "under_maximum_body_breakout",
+      "segment_a_length_mm": 0.94375,
+      "segment_b_length_mm": 0.7
+    },
+    "figure_2H_within_byte": {
+      "rule": "figure_2H_within_byte",
+      "net_a": "DDR_DMIA1",
+      "net_b": "DDR_DQA10",
+      "ball_a": "P17",
+      "ball_b": "P16",
+      "layer": "L8",
+      "actual_edge_gap_mm": 0.128209704,
+      "required_edge_gap_mm": 0.239,
+      "margin_mm": -0.110790296,
+      "purpose_a": "via_to_outside_body",
+      "purpose_b": "via_to_outside_body",
+      "zone_a": "under_maximum_body_breakout",
+      "zone_b": "under_maximum_body_breakout",
+      "segment_a_length_mm": 0.24375,
+      "segment_b_length_mm": 0.08125
+    },
+    "additional_3H_between_other_groups": {
+      "rule": "additional_3H_between_other_groups",
+      "net_a": "DDR_DQB7",
+      "net_b": "DDR_DQB9",
+      "ball_a": "B17",
+      "ball_b": "C17",
+      "layer": "L1",
+      "actual_edge_gap_mm": 0.358019408,
+      "required_edge_gap_mm": 0.3585,
+      "margin_mm": -0.000480592,
+      "purpose_a": "ball_to_via",
+      "purpose_b": "ball_to_via",
+      "zone_a": "under_maximum_body_breakout",
+      "zone_b": "under_maximum_body_breakout",
+      "segment_a_length_mm": 0.459619408,
+      "segment_b_length_mm": 0.459619408
+    },
+    "advisory_3H_supply_via_proximity_not_DRC": {
+      "rule": "advisory_3H_supply_via_proximity_not_DRC",
+      "net_a": "DDR_CLKA_P",
+      "net_b": "GND",
+      "ball_a": "R19",
+      "ball_b": "P20",
+      "layer": "L3",
+      "actual_edge_gap_mm": 0.1117,
+      "required_edge_gap_mm": 0.39,
+      "margin_mm": -0.2783,
+      "purpose_a": "via_to_outside_body",
+      "purpose_b": "PG_via_annulus",
+      "zone_a": "under_maximum_body_breakout",
+      "zone_b": "under_maximum_body_breakout",
+      "segment_a_length_mm": 0.29375,
+      "segment_b_length_mm": 0
+    },
+    "figure_3H_to_supply_trace_screen": {
+      "rule": "figure_3H_to_supply_trace_screen",
+      "net_a": "DDR_DQB0",
+      "net_b": "GND",
+      "ball_a": "A14",
+      "ball_b": "A13",
+      "layer": "L1",
+      "actual_edge_gap_mm": 0.358019408,
+      "required_edge_gap_mm": 0.3585,
+      "margin_mm": -0.000480592,
+      "purpose_a": "ball_to_via",
+      "purpose_b": "ball_to_via",
+      "zone_a": "under_maximum_body_breakout",
+      "zone_b": "under_maximum_body_breakout",
+      "segment_a_length_mm": 0.459619408,
+      "segment_b_length_mm": 0.459619408
+    }
+  },
+  "failures_by_geometric_zone": {
+    "figure_3H_to_DQS_CK_or_byte_CA": {
+      "under_maximum_body_breakout / under_maximum_body_breakout": 124,
+      "under_maximum_body_breakout / local_extension_outside_body": 16,
+      "local_extension_outside_body / under_maximum_body_breakout": 26,
+      "local_extension_outside_body / local_extension_outside_body": 14
+    },
+    "additional_3H_between_other_groups": {
+      "under_maximum_body_breakout / under_maximum_body_breakout": 13
+    },
+    "3W_edge_gap_sensitivity_screen": {
+      "under_maximum_body_breakout / under_maximum_body_breakout": 348,
+      "under_maximum_body_breakout / local_extension_outside_body": 32,
+      "local_extension_outside_body / under_maximum_body_breakout": 56,
+      "local_extension_outside_body / local_extension_outside_body": 32
+    },
+    "figure_2H_within_byte": {
+      "under_maximum_body_breakout / under_maximum_body_breakout": 123,
+      "under_maximum_body_breakout / local_extension_outside_body": 10,
+      "local_extension_outside_body / under_maximum_body_breakout": 10,
+      "local_extension_outside_body / local_extension_outside_body": 10
+    },
+    "3W_centerline_reading_screen": {
+      "under_maximum_body_breakout / under_maximum_body_breakout": 48
+    },
+    "advisory_3H_supply_via_proximity_not_DRC": {
+      "under_maximum_body_breakout / under_maximum_body_breakout": 180,
+      "local_extension_outside_body / under_maximum_body_breakout": 16
+    },
+    "figure_3H_to_supply_trace_screen": {
+      "under_maximum_body_breakout / under_maximum_body_breakout": 68
+    }
+  },
+  "unique_net_pairs_failed_by_rule": {
+    "3W_centerline_reading_screen": 2,
+    "3W_edge_gap_sensitivity_screen": 68,
+    "figure_3H_to_DQS_CK_or_byte_CA": 47,
+    "figure_2H_within_byte": 30,
+    "additional_3H_between_other_groups": 13,
+    "advisory_3H_supply_via_proximity_not_DRC": 46,
+    "figure_3H_to_supply_trace_screen": 50
+  }
+}

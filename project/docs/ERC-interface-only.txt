@@ -1,0 +1,422 @@
+ERC report (2026-09-30T01:50:24-0700, Encoding UTF8)
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 33.02 mm): Symbol M1 Pin 1 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 35.56 mm): Symbol M1 Pin 2 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 38.10 mm): Symbol M1 Pin 3 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 40.64 mm): Symbol M1 Pin 4 [VIN_5V, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 43.18 mm): Symbol M1 Pin 5 [VIN_5V, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 45.72 mm): Symbol M1 Pin 6 [VIN_5V, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 48.26 mm): Symbol M1 Pin 7 [VOUT_3V3, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 50.80 mm): Symbol M1 Pin 8 [VOUT_1V8, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 53.34 mm): Symbol M1 Pin 9 [BANK1_GPIO18, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 55.88 mm): Symbol M1 Pin 10 [BANK1_GPIO19, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 58.42 mm): Symbol M1 Pin 11 [BANK1_GPIO20, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 60.96 mm): Symbol M1 Pin 12 [BANK1_GPIO21, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 63.50 mm): Symbol M1 Pin 13 [BANK1_GPIO22, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 66.04 mm): Symbol M1 Pin 14 [BANK1_GPIO23, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 68.58 mm): Symbol M1 Pin 15 [BANK1_GPIO24, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 71.12 mm): Symbol M1 Pin 16 [BANK1_GPIO25, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 73.66 mm): Symbol M1 Pin 17 [TFCARD_D0, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 76.20 mm): Symbol M1 Pin 18 [TFCARD_D1, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 78.74 mm): Symbol M1 Pin 19 [TFCARD_D2, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 81.28 mm): Symbol M1 Pin 20 [TFCARD_D3, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 83.82 mm): Symbol M1 Pin 21 [TFCARD_CLK, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 86.36 mm): Symbol M1 Pin 22 [TFCARD_CMD, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 88.90 mm): Symbol M1 Pin 23 [BANK4_VDDIO, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 91.44 mm): Symbol M1 Pin 24 [BANK4_GPIO50, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 93.98 mm): Symbol M1 Pin 25 [BANK4_GPIO51, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 96.52 mm): Symbol M1 Pin 26 [BANK4_GPIO52, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 99.06 mm): Symbol M1 Pin 27 [BANK4_GPIO53, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 101.60 mm): Symbol M1 Pin 28 [BANK4_GPIO54, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 104.14 mm): Symbol M1 Pin 29 [BANK4_GPIO55, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 106.68 mm): Symbol M1 Pin 30 [BANK4_GPIO56, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 109.22 mm): Symbol M1 Pin 31 [BANK4_GPIO57, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 111.76 mm): Symbol M1 Pin 32 [BANK4_GPIO58, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 114.30 mm): Symbol M1 Pin 33 [BANK4_GPIO59, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 116.84 mm): Symbol M1 Pin 34 [BANK4_GPIO60, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 119.38 mm): Symbol M1 Pin 35 [BANK4_GPIO61, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 157.48 mm): Symbol M1 Pin 71 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 160.02 mm): Symbol M1 Pin 72 [CSI1_D2_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 162.56 mm): Symbol M1 Pin 73 [CSI1_D2_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 165.10 mm): Symbol M1 Pin 74 [CSI1_CLK_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 167.64 mm): Symbol M1 Pin 75 [CSI1_CLK_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 170.18 mm): Symbol M1 Pin 76 [CSI1_D3_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 172.72 mm): Symbol M1 Pin 77 [CSI1_D3_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 175.26 mm): Symbol M1 Pin 78 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 177.80 mm): Symbol M1 Pin 79 [DSI_D3_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 180.34 mm): Symbol M1 Pin 80 [DSI_D3_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 182.88 mm): Symbol M1 Pin 81 [DSI_D2_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 185.42 mm): Symbol M1 Pin 82 [DSI_D2_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 187.96 mm): Symbol M1 Pin 83 [DSI_CLK_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 190.50 mm): Symbol M1 Pin 84 [DSI_CLK_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 193.04 mm): Symbol M1 Pin 85 [DSI_D0_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 195.58 mm): Symbol M1 Pin 86 [DSI_D0_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 198.12 mm): Symbol M1 Pin 87 [DSI_D1_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 200.66 mm): Symbol M1 Pin 88 [DSI_D1_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 203.20 mm): Symbol M1 Pin 89 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 205.74 mm): Symbol M1 Pin 90 [BANK2_VDDIO, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 208.28 mm): Symbol M1 Pin 91 [BANK2_GPIO26, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 210.82 mm): Symbol M1 Pin 92 [BANK2_GPIO27, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 213.36 mm): Symbol M1 Pin 93 [BANK2_GPIO28, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 215.90 mm): Symbol M1 Pin 94 [BANK2_GPIO29, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 218.44 mm): Symbol M1 Pin 95 [BANK2_GPIO30, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 33.02 mm): Symbol M1 Pin 36 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 35.56 mm): Symbol M1 Pin 37 [USB1_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 38.10 mm): Symbol M1 Pin 38 [USB1_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 40.64 mm): Symbol M1 Pin 39 [USB1_ID, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 43.18 mm): Symbol M1 Pin 40 [USB0_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 220.98 mm): Symbol M1 Pin 96 [BANK2_GPIO31, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 45.72 mm): Symbol M1 Pin 41 [USB0_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 48.26 mm): Symbol M1 Pin 42 [USB0_ID, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 50.80 mm): Symbol M1 Pin 43 [ADC0, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 53.34 mm): Symbol M1 Pin 44 [ADC1, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 223.52 mm): Symbol M1 Pin 97 [BANK2_GPIO32, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 58.42 mm): Symbol M1 Pin 46 [ADC3, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 60.96 mm): Symbol M1 Pin 47 [ADC4, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 63.50 mm): Symbol M1 Pin 48 [ADC5, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 226.06 mm): Symbol M1 Pin 98 [BANK2_GPIO33, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 66.04 mm): Symbol M1 Pin 49 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 68.58 mm): Symbol M1 Pin 50 [MIC_BIAS, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 71.12 mm): Symbol M1 Pin 51 [MIC_NL, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 228.60 mm): Symbol M1 Pin 99 [BANK2_GPIO34, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 73.66 mm): Symbol M1 Pin 52 [MIC_PL, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 76.20 mm): Symbol M1 Pin 53 [MIC_NR, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 78.74 mm): Symbol M1 Pin 54 [MIC_PR, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 231.14 mm): Symbol M1 Pin 100 [BANK2_GPIO35, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 81.28 mm): Symbol M1 Pin 55 [HP_OUTR, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 83.82 mm): Symbol M1 Pin 56 [HP_OUTL, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 86.36 mm): Symbol M1 Pin 57 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 233.68 mm): Symbol M1 Pin 101 [BANK2_GPIO36, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 88.90 mm): Symbol M1 Pin 58 [CSI2_CLK_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 91.44 mm): Symbol M1 Pin 59 [CSI2_CLK_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 93.98 mm): Symbol M1 Pin 60 [CSI2_D4_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 236.22 mm): Symbol M1 Pin 102 [BANK2_GPIO37, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 96.52 mm): Symbol M1 Pin 61 [CSI2_D4_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 99.06 mm): Symbol M1 Pin 62 [CSI2_D5_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 238.76 mm): Symbol M1 Pin 103 [BANK5_VDDIO, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 101.60 mm): Symbol M1 Pin 63 [CSI2_D5_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 104.14 mm): Symbol M1 Pin 64 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 106.68 mm): Symbol M1 Pin 65 [CSI0_D1_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 241.30 mm): Symbol M1 Pin 104 [BANK5_IO62, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 109.22 mm): Symbol M1 Pin 66 [CSI0_D1_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 111.76 mm): Symbol M1 Pin 67 [CSI0_CLK_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(55.88 mm, 243.84 mm): Symbol M1 Pin 105 [BANK5_IO63, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 114.30 mm): Symbol M1 Pin 68 [CSI0_CLK_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 116.84 mm): Symbol M1 Pin 69 [CSI0_D0_P, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 119.38 mm): Symbol M1 Pin 70 [CSI0_D0_N, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 157.48 mm): Symbol M1 Pin 106 [GND, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 160.02 mm): Symbol M1 Pin 107 [BANK0_VDDIO, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 162.56 mm): Symbol M1 Pin 108 [BANK0_GPIO2, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 165.10 mm): Symbol M1 Pin 109 [BANK0_GPIO3, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 167.64 mm): Symbol M1 Pin 110 [BANK0_GPIO4, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 170.18 mm): Symbol M1 Pin 111 [BANK0_GPIO5, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 172.72 mm): Symbol M1 Pin 112 [BANK0_GPIO6, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 175.26 mm): Symbol M1 Pin 113 [BANK0_GPIO7, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 177.80 mm): Symbol M1 Pin 114 [BANK0_GPIO8, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 180.34 mm): Symbol M1 Pin 115 [BANK0_GPIO9, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 182.88 mm): Symbol M1 Pin 116 [BANK0_GPIO10, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 185.42 mm): Symbol M1 Pin 117 [BANK0_GPIO11, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 187.96 mm): Symbol M1 Pin 118 [BANK0_GPIO12, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 190.50 mm): Symbol M1 Pin 119 [BANK0_GPIO13, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 193.04 mm): Symbol M1 Pin 120 [BOOT0, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 195.58 mm): Symbol M1 Pin 121 [BOOT1, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 198.12 mm): Symbol M1 Pin 122 [RSTN, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 200.66 mm): Symbol M1 Pin 123 [BANK3_VDDIO, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 203.20 mm): Symbol M1 Pin 124 [BANK3_GPIO38, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 205.74 mm): Symbol M1 Pin 125 [BANK3_GPIO39, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 208.28 mm): Symbol M1 Pin 126 [BANK3_GPIO40, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 210.82 mm): Symbol M1 Pin 127 [BANK3_GPIO41, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 213.36 mm): Symbol M1 Pin 128 [BANK3_GPIO42, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 215.90 mm): Symbol M1 Pin 129 [BANK3_GPIO43, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 218.44 mm): Symbol M1 Pin 130 [BANK3_GPIO44, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 220.98 mm): Symbol M1 Pin 131 [BANK3_GPIO45, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 223.52 mm): Symbol M1 Pin 132 [BANK3_GPIO46, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 226.06 mm): Symbol M1 Pin 133 [BANK3_GPIO47, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 228.60 mm): Symbol M1 Pin 134 [BANK3_GPIO48, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 231.14 mm): Symbol M1 Pin 135 [BANK3_GPIO49, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 233.68 mm): Symbol M1 Pin 136 [BANK1_VDDIO, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 236.22 mm): Symbol M1 Pin 137 [BANK1_GPIO14, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 238.76 mm): Symbol M1 Pin 138 [BANK1_GPIO15, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 241.30 mm): Symbol M1 Pin 139 [BANK1_GPIO16, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(223.52 mm, 243.84 mm): Symbol M1 Pin 140 [BANK1_GPIO17, Passive, Line]
+
+ ** ERC messages: 139  Errors 139  Warnings 0

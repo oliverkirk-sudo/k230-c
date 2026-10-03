@@ -1,0 +1,38 @@
+{
+  "scope": "Native compact-candidate QA export only; not manufacturing release",
+  "layers": {
+    "F_Cu": {
+      "status": "PASS",
+      "checked_flashes": 23,
+      "checked_properties": [
+        "component-side coordinate",
+        "copper/mask/paste layer",
+        "rounded-rectangle width and height",
+        "corner radius",
+        "EP split-paste positions"
+      ]
+    },
+    "F_Mask": {
+      "status": "PASS",
+      "checked_flashes": 23,
+      "checked_properties": [
+        "component-side coordinate",
+        "copper/mask/paste layer",
+        "rounded-rectangle width and height",
+        "corner radius",
+        "EP split-paste positions"
+      ]
+    },
+    "F_Paste": {
+      "status": "PASS",
+      "checked_flashes": 24,
+      "checked_properties": [
+        "component-side coordinate",
+        "copper/mask/paste layer",
+        "rounded-rectangle width and height",
+        "corner radius",
+        "EP split-paste positions"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "file": "/workspace/shared/k230-reference/mechanical/passive-review/NXP-SOT1161-2.pdf",
+    "url": "https://www.nxp.com/docs/en/package-information/SOT1161-2.pdf",
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "sha256": "71f73daf7330d4881f0add714010053926e6d6ef10df35e0b171d3e5cfc00e2f"
+  },
+  {
+    "file": "/workspace/shared/k230-reference/mechanical/passive-review/NXP-NVT4858.pdf",
+    "url": "https://www.nxp.com/docs/en/data-sheet/NVT4858.pdf",
+    "pages": [
+      4,
+      7,
+      8,
+      9
+    ],
+    "sha256": "860baa17e52fb658dcd98bf911f81600ecbd4f3133b560c9e4696af17bc28385"
+  }
+]

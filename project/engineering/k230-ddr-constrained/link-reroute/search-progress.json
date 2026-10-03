@@ -1,0 +1,198 @@
+{
+  "status": "BOUNDED_SEARCH_INCOMPLETE_WITH_CONFLICTS",
+  "best_edge_events": 595,
+  "iterations": [
+    {
+      "iteration": 0,
+      "conflicting_nets": 63,
+      "edge_events": 2353,
+      "nodes": 175207,
+      "elapsed_s": 2.472884986003919,
+      "present_cost": 2.0
+    },
+    {
+      "iteration": 1,
+      "conflicting_nets": 61,
+      "edge_events": 1422,
+      "nodes": 261358,
+      "elapsed_s": 5.528643885998463,
+      "present_cost": 2.6
+    },
+    {
+      "iteration": 2,
+      "conflicting_nets": 59,
+      "edge_events": 1237,
+      "nodes": 207578,
+      "elapsed_s": 8.222144662999199,
+      "present_cost": 3.3800000000000003
+    },
+    {
+      "iteration": 3,
+      "conflicting_nets": 58,
+      "edge_events": 1051,
+      "nodes": 231273,
+      "elapsed_s": 11.193478223001875,
+      "present_cost": 4.394
+    },
+    {
+      "iteration": 4,
+      "conflicting_nets": 56,
+      "edge_events": 952,
+      "nodes": 207671,
+      "elapsed_s": 14.042702874001407,
+      "present_cost": 5.712200000000001
+    },
+    {
+      "iteration": 5,
+      "conflicting_nets": 54,
+      "edge_events": 702,
+      "nodes": 218485,
+      "elapsed_s": 16.835462412003835,
+      "present_cost": 7.425860000000001
+    },
+    {
+      "iteration": 6,
+      "conflicting_nets": 54,
+      "edge_events": 702,
+      "nodes": 229246,
+      "elapsed_s": 19.673671303004085,
+      "present_cost": 9.653618000000002
+    },
+    {
+      "iteration": 7,
+      "conflicting_nets": 52,
+      "edge_events": 690,
+      "nodes": 248840,
+      "elapsed_s": 22.648269871002412,
+      "present_cost": 12.549703400000004
+    },
+    {
+      "iteration": 8,
+      "conflicting_nets": 52,
+      "edge_events": 687,
+      "nodes": 274501,
+      "elapsed_s": 25.901028494001366,
+      "present_cost": 16.314614420000005
+    },
+    {
+      "iteration": 9,
+      "conflicting_nets": 50,
+      "edge_events": 670,
+      "nodes": 367203,
+      "elapsed_s": 30.330740220000735,
+      "present_cost": 21.208998746000006
+    },
+    {
+      "iteration": 10,
+      "conflicting_nets": 50,
+      "edge_events": 684,
+      "nodes": 473240,
+      "elapsed_s": 36.40334377500403,
+      "present_cost": 27.57169836980001
+    },
+    {
+      "iteration": 11,
+      "conflicting_nets": 48,
+      "edge_events": 644,
+      "nodes": 533156,
+      "elapsed_s": 42.78083921500365,
+      "present_cost": 35.84320788074001
+    },
+    {
+      "iteration": 12,
+      "conflicting_nets": 48,
+      "edge_events": 630,
+      "nodes": 537805,
+      "elapsed_s": 53.52319513299881,
+      "present_cost": 46.59617024496202
+    },
+    {
+      "iteration": 13,
+      "conflicting_nets": 48,
+      "edge_events": 636,
+      "nodes": 548137,
+      "elapsed_s": 62.46376496100129,
+      "present_cost": 60.575021318450624
+    },
+    {
+      "iteration": 14,
+      "conflicting_nets": 48,
+      "edge_events": 628,
+      "nodes": 594444,
+      "elapsed_s": 70.40228264300094,
+      "present_cost": 78.74752771398582
+    },
+    {
+      "iteration": 15,
+      "conflicting_nets": 48,
+      "edge_events": 637,
+      "nodes": 600363,
+      "elapsed_s": 85.61446378700202,
+      "present_cost": 80.0
+    },
+    {
+      "iteration": 16,
+      "conflicting_nets": 48,
+      "edge_events": 626,
+      "nodes": 657618,
+      "elapsed_s": 93.50936903300317,
+      "present_cost": 80.0
+    },
+    {
+      "iteration": 17,
+      "conflicting_nets": 48,
+      "edge_events": 617,
+      "nodes": 623334,
+      "elapsed_s": 101.13127714899747,
+      "present_cost": 80.0
+    },
+    {
+      "iteration": 18,
+      "conflicting_nets": 48,
+      "edge_events": 614,
+      "nodes": 598088,
+      "elapsed_s": 108.39062055799877,
+      "present_cost": 80.0
+    },
+    {
+      "iteration": 19,
+      "conflicting_nets": 48,
+      "edge_events": 598,
+      "nodes": 600291,
+      "elapsed_s": 115.51582708099886,
+      "present_cost": 80.0
+    },
+    {
+      "iteration": 20,
+      "conflicting_nets": 48,
+      "edge_events": 602,
+      "nodes": 597197,
+      "elapsed_s": 123.23865482200199,
+      "present_cost": 80.0
+    },
+    {
+      "iteration": 21,
+      "conflicting_nets": 48,
+      "edge_events": 604,
+      "nodes": 602974,
+      "elapsed_s": 132.85122611500265,
+      "present_cost": 80.0
+    },
+    {
+      "iteration": 22,
+      "conflicting_nets": 48,
+      "edge_events": 595,
+      "nodes": 600012,
+      "elapsed_s": 149.2912489040027,
+      "present_cost": 80.0
+    },
+    {
+      "iteration": 23,
+      "conflicting_nets": 48,
+      "edge_events": 596,
+      "nodes": 603975,
+      "elapsed_s": 160.31635809499858,
+      "present_cost": 80.0
+    }
+  ]
+}

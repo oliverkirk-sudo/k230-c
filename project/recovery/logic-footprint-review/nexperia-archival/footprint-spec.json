@@ -1,0 +1,236 @@
+{
+  "status": "ARCHIVAL_PIXEL_GEOMETRY_CURRENT_TEXT_CROSSCHECKED_PROCESS_UNQUALIFIED",
+  "footprint": "cad/recovery-footprint-candidates/nexperia-archival/CMK230_NXP_Archival_Candidates.pretty/NXP_SOT1160-1_74AUP2G97_1.4x1.8_P0.4_ArchivalCrosschecked_CANDIDATE.kicad_mod",
+  "footprint_sha256": "b09cde8069458969de60dd1d9d311603daefbae0a68ac6ebeaf11a1b73726b6b",
+  "mpn": "74AUP2G97GUX",
+  "package": "SOT1160-1",
+  "source_acceptance": "source-acceptance.json",
+  "coordinate_frame": "Component side, origin package center, +X right, +Y down; upper-left long land is pin1",
+  "body_nominal_mm": [
+    1.4,
+    1.8
+  ],
+  "body_max_mm": [
+    1.5,
+    1.9
+  ],
+  "height_max_mm": 0.5,
+  "pitch_mm": 0.4,
+  "mask_expansion_each_side_mm": 0.0625,
+  "paste_reduction_each_side_mm": 0.02,
+  "source_stencil_mm": 0.1,
+  "copper_bbox_mm": [
+    1.7,
+    2.1
+  ],
+  "source_clearance_placement_bbox_mm": [
+    1.95,
+    2.35
+  ],
+  "project_courtyard_mm": [
+    2.5,
+    2.9
+  ],
+  "courtyard_basis": "Project choice, >=0.25 mm to courtyard centerline beyond source clearance/placement bounding dimensions, outward 0.05-mm grid rounding; not a manufacturer land dimension",
+  "pads": [
+    {
+      "pin": 1,
+      "function": "1B",
+      "net": "GND",
+      "x_mm": -0.525,
+      "y_mm": -0.2,
+      "copper_mm": [
+        0.65,
+        0.22
+      ],
+      "mask_mm": [
+        0.775,
+        0.345
+      ],
+      "paste_mm": [
+        0.61,
+        0.18
+      ]
+    },
+    {
+      "pin": 2,
+      "function": "1C",
+      "net": "BOOT_VOLTAGE_QUALIFIED_1V8",
+      "x_mm": -0.575,
+      "y_mm": 0.2,
+      "copper_mm": [
+        0.55,
+        0.22
+      ],
+      "mask_mm": [
+        0.675,
+        0.345
+      ],
+      "paste_mm": [
+        0.51,
+        0.18
+      ]
+    },
+    {
+      "pin": 3,
+      "function": "2Y",
+      "net": "RESET_RELEASE_REQUEST_1V8",
+      "x_mm": -0.4,
+      "y_mm": 0.775,
+      "copper_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_mm": [
+        0.345,
+        0.675
+      ],
+      "paste_mm": [
+        0.18,
+        0.51
+      ]
+    },
+    {
+      "pin": 4,
+      "function": "GND",
+      "net": "GND",
+      "x_mm": 0,
+      "y_mm": 0.775,
+      "copper_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_mm": [
+        0.345,
+        0.675
+      ],
+      "paste_mm": [
+        0.18,
+        0.51
+      ]
+    },
+    {
+      "pin": 5,
+      "function": "2A",
+      "net": "FIXED_RAILS_PGOOD_3V3",
+      "x_mm": 0.4,
+      "y_mm": 0.775,
+      "copper_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_mm": [
+        0.345,
+        0.675
+      ],
+      "paste_mm": [
+        0.18,
+        0.51
+      ]
+    },
+    {
+      "pin": 6,
+      "function": "2B",
+      "net": "GND",
+      "x_mm": 0.575,
+      "y_mm": 0.2,
+      "copper_mm": [
+        0.55,
+        0.22
+      ],
+      "mask_mm": [
+        0.675,
+        0.345
+      ],
+      "paste_mm": [
+        0.51,
+        0.18
+      ]
+    },
+    {
+      "pin": 7,
+      "function": "2C",
+      "net": "RSTN",
+      "x_mm": 0.575,
+      "y_mm": -0.2,
+      "copper_mm": [
+        0.55,
+        0.22
+      ],
+      "mask_mm": [
+        0.675,
+        0.345
+      ],
+      "paste_mm": [
+        0.51,
+        0.18
+      ]
+    },
+    {
+      "pin": 8,
+      "function": "1Y",
+      "net": "STORAGE_ENABLE_1V8",
+      "x_mm": 0.4,
+      "y_mm": -0.775,
+      "copper_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_mm": [
+        0.345,
+        0.675
+      ],
+      "paste_mm": [
+        0.18,
+        0.51
+      ]
+    },
+    {
+      "pin": 9,
+      "function": "VCC",
+      "net": "VDD1P8",
+      "x_mm": 0,
+      "y_mm": -0.775,
+      "copper_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_mm": [
+        0.345,
+        0.675
+      ],
+      "paste_mm": [
+        0.18,
+        0.51
+      ]
+    },
+    {
+      "pin": 10,
+      "function": "1A",
+      "net": "FIXED_RAILS_PGOOD_3V3",
+      "x_mm": -0.4,
+      "y_mm": -0.775,
+      "copper_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_mm": [
+        0.345,
+        0.675
+      ],
+      "paste_mm": [
+        0.18,
+        0.51
+      ]
+    }
+  ],
+  "native_layer_strategy": "10 numbered F.Cu-only rects, 10 unnumbered F.Mask-only rects, 10 unnumbered F.Paste-only rects; no exposed pad, no invented corner radii",
+  "process_qualified": false,
+  "active_CAD_assignment_changed": false,
+  "excluded_protrusions_max_per_side_mm": 0.075,
+  "body_max_including_protrusions_mm": [
+    1.65,
+    2.05
+  ],
+  "maximum_envelope_layer": "Cmts.User"
+}

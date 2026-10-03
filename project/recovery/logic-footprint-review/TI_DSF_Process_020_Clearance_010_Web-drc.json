@@ -1,0 +1,103 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T10:23:00-0700",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "TI_DSF_Process_020_Clearance_010_Web.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [INDEPENDENT_PAD_1] of UQA1 on F.Cu",
+                    "pos": {
+                        "x": 4.6,
+                        "y": 4.65
+                    },
+                    "uuid": "ef685895-2704-4880-8e81-2a6372653213"
+                },
+                {
+                    "description": "Pad 2 [INDEPENDENT_PAD_2] of UQA1 on F.Cu",
+                    "pos": {
+                        "x": 4.6,
+                        "y": 5.0
+                    },
+                    "uuid": "c2d7cbb8-e7cd-49ee-bbd0-82c1eee4655e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [INDEPENDENT_PAD_2] of UQA1 on F.Cu",
+                    "pos": {
+                        "x": 4.6,
+                        "y": 5.0
+                    },
+                    "uuid": "c2d7cbb8-e7cd-49ee-bbd0-82c1eee4655e"
+                },
+                {
+                    "description": "Pad 3 [INDEPENDENT_PAD_3] of UQA1 on F.Cu",
+                    "pos": {
+                        "x": 4.6,
+                        "y": 5.35
+                    },
+                    "uuid": "be0ba898-5326-4d72-8ca6-b8d19ee67870"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [INDEPENDENT_PAD_4] of UQA1 on F.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 5.35
+                    },
+                    "uuid": "6a2e1e38-b1d6-4957-85ed-654c10f772d2"
+                },
+                {
+                    "description": "Pad 5 [INDEPENDENT_PAD_5] of UQA1 on F.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 5.0
+                    },
+                    "uuid": "5df41f5f-2aab-4557-ac87-f865b4871ed6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 5 [INDEPENDENT_PAD_5] of UQA1 on F.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 5.0
+                    },
+                    "uuid": "5df41f5f-2aab-4557-ac87-f865b4871ed6"
+                },
+                {
+                    "description": "Pad 6 [INDEPENDENT_PAD_6] of UQA1 on F.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 4.65
+                    },
+                    "uuid": "a6d09cca-2046-40cd-8f89-0d7956cee610"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

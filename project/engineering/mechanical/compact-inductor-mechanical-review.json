@@ -1,0 +1,217 @@
+{
+  "status": "MECHANICAL_RESERVATION_CANDIDATE_ONLY_NOT_ELECTRICALLY_SELECTED_NOT_ROUTING_FEASIBILITY",
+  "review_date_utc": "2026-09-30",
+  "references": [
+    "L24",
+    "L25",
+    "L26"
+  ],
+  "candidate_mpn": "DFE201610E-R47M=P2",
+  "scope": "Mechanical alternative for L24/L25/L26 only. Does not alter integrated CAD, BOM, netlist, or baseline area screen.",
+  "sources": [
+    {
+      "publisher": "Murata",
+      "specification": "J(E)TE243A-0001E-01",
+      "type": "DFE201610E series reference specifications",
+      "url": "https://pim.murata.com/asset/pim4/inductor/J(E)TE243A-0001_PDF_INDUCTOR",
+      "legacy_url": "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0001.pdf",
+      "page_count": 10,
+      "exact_mpn_on_page": 2,
+      "physical_drawing_page": 1,
+      "recommended_pcb_pattern_page": 5,
+      "layout_precautions_page": 7,
+      "source_location": "/workspace/shared/k230-reference/mechanical/compact-inductor-Murata-JETE243A-0001-official.pdf",
+      "sha256": "5c02415289b2b9d2c0ceb283cfe004a986d9e729dadbfe92917a381db5eae84e",
+      "retrieval": "Downloaded from official Murata URL through dot cloud browser; downloaded bytes inspected locally",
+      "actual_visual_review": true,
+      "reviewed_page_pngs": [
+        "compact-inductor-Murata-p1.png",
+        "compact-inductor-Murata-p5.png",
+        "compact-inductor-Murata-p7.png"
+      ],
+      "pdf_metadata_creation_date": "2024-10-21; metadata only, not asserted publication date"
+    },
+    {
+      "publisher": "Texas Instruments",
+      "document": "TPS62824/TPS62825/TPS62826/TPS62827 and A variants, SLVSEF9I, March 2018 revised March 2024",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62827.pdf",
+      "source_location": "/workspace/shared/k230-reference/tps62827.pdf",
+      "page": 13,
+      "table": "8-5",
+      "use": "Candidate provenance only; TI table is not a package tolerance drawing or rail-specific qualification",
+      "actual_visual_review": true
+    }
+  ],
+  "manufacturer_dimensions_mm": {
+    "length": {
+      "nominal": 2.0,
+      "tolerance_plus_minus": 0.2,
+      "max": 2.2
+    },
+    "width": {
+      "nominal": 1.6,
+      "tolerance_plus_minus": 0.2,
+      "max": 1.8
+    },
+    "height": {
+      "max": 1.0
+    },
+    "terminal_depth_along_length": {
+      "nominal": 0.5,
+      "tolerance_plus_minus": 0.3,
+      "min": 0.2,
+      "max": 0.8,
+      "note": "Dimension visually read on the left terminal in p1 drawing; two opposed end terminals are depicted. No added terminal thickness or coplanarity tolerance inferred."
+    }
+  },
+  "manufacturer_recommended_pcb_pattern_mm": {
+    "overall_length": 2.4,
+    "overall_width": 1.8,
+    "inner_gap": 0.8,
+    "two_rectangular_pads": true,
+    "pad_length_derived_assuming_symmetry": 0.8,
+    "pad_width": 1.8,
+    "pad_center_pitch_derived": 1.6,
+    "pad_centers_derived_with_component_center_origin": [
+      [
+        -0.8,
+        0
+      ],
+      [
+        0.8,
+        0
+      ]
+    ],
+    "derivation": "Each equal pad length=(2.4-0.8)/2=0.8 mm. Derived coordinates are explanatory and are not an issued manufacturing footprint.",
+    "tolerances": "No land dimensional tolerances, paste, solder-mask, or courtyard definition given in p5 drawing."
+  },
+  "reservation_basis": {
+    "physical_max_xy_mm": [
+      2.2,
+      1.8
+    ],
+    "land_outer_xy_mm": [
+      2.4,
+      1.8
+    ],
+    "union_bounding_xy_mm": [
+      2.4,
+      1.8
+    ],
+    "provisional_clearance_each_side_mm": 0.25,
+    "primary_courtyard_xy_mm": [
+      2.9,
+      2.3
+    ],
+    "manufacturer_prescribed_courtyard": false,
+    "formula": "max(max-body dimension, recommended land outer dimension) + 2 * assumed assembly clearance per axis",
+    "interpretation": "Reservation used for area screening only. Margin must be approved for the assembler, placement tolerance, rework, thermal layout and component spacing."
+  },
+  "baseline": {
+    "source": "full-bom-area-screen.json",
+    "sha256": "f0e43cb06da1f73f0a66e424a0af90c178ac351d479c2cade8481b321131c3a6",
+    "existing_reference_values": [
+      {
+        "reference": "L24",
+        "value": "0.47uH XFL4015-471MEB REF",
+        "reservation_each_mm2": 21.16
+      },
+      {
+        "reference": "L25",
+        "value": "0.47uH XFL4015-471MEB REF",
+        "reservation_each_mm2": 21.16
+      },
+      {
+        "reference": "L26",
+        "value": "0.47uH XFL4015-471MEB REF",
+        "reservation_each_mm2": 21.16
+      }
+    ],
+    "existing_three_total_mm2": 63.48,
+    "dense_area_sum_mm2": 1218.5,
+    "area_0402_sum_mm2": 1356.28,
+    "provisional_inner_area_mm2": 1156,
+    "inner_area_basis": "38x38 mm overall board minus a provisional 2 mm band on each side => 34x34 mm. Original mechanical edge geometry remains unverified.",
+    "file_mtime_utc": "2026-09-30T11:54:18.679739+00:00",
+    "review_snapshot_read_at_utc": "2026-09-30T12:00:54Z",
+    "latest_design_status": "Frozen historical screen only; parent reports a fifth AUP U96 added after this screen. These totals are not the latest full-design fit."
+  },
+  "area_sensitivity": [
+    {
+      "clearance_each_side_mm": 0.25,
+      "reservation_xy_mm": [
+        2.9,
+        2.3
+      ],
+      "reservation_each_mm2": 6.67,
+      "reservation_three_mm2": 20.01,
+      "savings_three_mm2": 43.47,
+      "dense_area_sum_mm2": 1175.03,
+      "dense_excess_over_provisional_1156_mm2": 19.03,
+      "area_0402_sum_mm2": 1312.81,
+      "area_0402_excess_mm2": 156.81,
+      "label": "Primary body/land-plus-0.25 mechanical reservation"
+    },
+    {
+      "clearance_each_side_mm": 0.3,
+      "reservation_xy_mm": [
+        3.0,
+        2.4
+      ],
+      "reservation_each_mm2": 7.2,
+      "reservation_three_mm2": 21.6,
+      "savings_three_mm2": 41.88,
+      "dense_area_sum_mm2": 1176.62,
+      "dense_excess_over_provisional_1156_mm2": 20.62,
+      "area_0402_sum_mm2": 1314.4,
+      "area_0402_excess_mm2": 158.4,
+      "label": "Alternative 0.30 mm body/land-margin arithmetic only; same XY result as separate hypothetical mask case below"
+    },
+    {
+      "clearance_each_side_mm": 0.5,
+      "reservation_xy_mm": [
+        3.4,
+        2.8
+      ],
+      "reservation_each_mm2": 9.52,
+      "reservation_three_mm2": 28.56,
+      "savings_three_mm2": 34.92,
+      "dense_area_sum_mm2": 1183.58,
+      "dense_excess_over_provisional_1156_mm2": 27.58,
+      "area_0402_sum_mm2": 1321.36,
+      "area_0402_excess_mm2": 165.36,
+      "label": "Alternative 0.50 mm body/land-margin arithmetic only"
+    }
+  ],
+  "layout_precautions_from_murata_p7": [
+    "No through holes or copper pattern below coil except copper to its electrode; layer-specific application and exceptions must be resolved with Murata before routing. Do not silently assume inner-layer permission.",
+    "Other components must not contact the inductor.",
+    "Temperature rise depends on end-product installation and must be confirmed in the actual product."
+  ],
+  "not_verified": [
+    "Electrical acceptance for any L24/L25/L26 rail: peak/RMS current, saturation, loss, temperature rise, transient behavior and qualification remain open.",
+    "TI p13 table current entry 4.8 A is not a blanket continuous-current approval; Murata p2 distinguishes 4.8 A inductance-change and 3.6 A temperature-rise ratings with its test conditions.",
+    "Manufacturer courtyard, stencil/paste geometry, mask expansion, assembly tolerances, routing/via keepout implementation, supply status and final purchase specification are not approved.",
+    "Full-board packing, BGA escape, routing, decoupling placement, thermal and EMI behavior, single-side assembly compatibility and fabrication readiness are not proven."
+  ],
+  "conclusion": "Primary 0.25 mm body/land clearance scenario saves 14.49 mm2 per instance, 43.47 mm2 for three. Applied only to the frozen screen identified by hash, dense total would be 1175.03 mm2, still 19.03 mm2 over its provisional 1156 mm2. Parent reports fifth AUP U96 added, so this is not the latest full-design total. No fit or routing claim.",
+  "hypothetical_mask_sensitivity": {
+    "label": "Hypothetical future process only: +0.05 mm mask expansion per land edge, then 0.25 mm assembly clearance; no final mask geometry selected",
+    "mask_expansion_each_land_edge_mm": 0.05,
+    "hypothetical_mask_outer_xy_mm": [
+      2.5,
+      1.9
+    ],
+    "assembly_clearance_each_side_mm": 0.25,
+    "reservation_xy_mm": [
+      3.0,
+      2.4
+    ],
+    "reservation_each_mm2": 7.2,
+    "reservation_three_mm2": 21.6,
+    "savings_each_mm2": 13.96,
+    "savings_three_mm2": 41.88,
+    "physical_basis": "Expanded land outer span exceeds maximum body in both axes; add assembly clearance outside that hypothetical mask envelope.",
+    "note": "This is a sensitivity bound, not a manufacturer mask specification, mask design choice, CAD update, or manufacturing approval."
+  }
+}

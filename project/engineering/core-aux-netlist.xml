@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/shared/cm-k230-redesign/cad/core-aux/CMK230_Clock_Reset_REFERENCE.kicad_sch</source>
+    <date>2026-09-30T03:17:44-0700</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>K230 clocks reset and boot - reference adaptation ONLY</title>
+        <company/>
+        <rev>D1-subcircuit</rev>
+        <date/>
+        <source>CMK230_Clock_Reset_REFERENCE.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C41">
+      <value>12pF REF / TUNE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d968bc68-1eca-457b-8edb-38efd4945b84</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>12pF REF / TUNE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2748b51e-8128-4a66-998c-8986613bcf42</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>12pF REF / TUNE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff5764af-31c1-4005-a59c-e7a091c863aa</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>12pF REF / TUNE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1544489-8ef7-4689-afac-c3fb60ce7320</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>100nF REF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48a482e8-3084-461d-ac43-153d838af7b1</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>1M REF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b4aa187-c7af-4e39-b573-fc66f3dba9dc</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>1M REF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a047c47b-b4cf-4fe2-9c3a-7dc51b8ff0a2</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>100k REF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7851d768-d3d4-4ce3-8949-fe9c66c8b4aa</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>10k BOOT0 LOW</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d03896e-9ebf-41da-b547-f96c9b10fe4c</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>10k BOOT0 HIGH / DNP</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34614864-47f8-4fa2-a070-81327f079b5e</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>10k BOOT1 HIGH</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71504ba6-50d0-4720-8a40-42014c8c510e</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>10k BOOT1 LOW / DNP</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5a6b3fe-dafc-4956-85f7-f6871a5841ff</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>K230 SYSTEM BALLS ONLY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="K230_AUX_SUBSET" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>151b4c9a-201c-407e-a9ef-f84f6919d024</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768kHz / MPN TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="XTAL2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2da1239b-bfd6-4826-ae15-ef9f4d639a50</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>24MHz / MPN TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CoreAux" part="XTAL4_REF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Clock_Reset_REFERENCE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c749b076-7613-4f38-82b7-f4e9bf162388</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CoreAux" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreAux" part="K230_AUX_SUBSET">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">K230_AUX_SUBSET</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A8" name="CLK24M_XOUT" type="output"/>
+        <pin num="A12" name="CLK32K768_XOUT" type="output"/>
+        <pin num="B8" name="CLK24M_XIN" type="input"/>
+        <pin num="B9" name="RSTN" type="input"/>
+        <pin num="B12" name="CLK32K768_XIN" type="input"/>
+        <pin num="C8" name="GPIO0_BOOT0" type="input"/>
+        <pin num="C9" name="GPIO1_BOOT1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreAux" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreAux" part="XTAL2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XTAL2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreAux" part="XTAL4_REF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XTAL4_REF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="XTAL" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="XTAL" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CoreAux">
+      <uri>/workspace/shared/cm-k230-redesign/cad/core-aux/CoreAux.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BOOT0" class="Default">
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="U1" pin="C8" pinfunction="GPIO0_BOOT0" pintype="input"/>
+    </net>
+    <net code="2" name="/BOOT1" class="Default">
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="U1" pin="C9" pinfunction="GPIO1_BOOT1" pintype="input"/>
+    </net>
+    <net code="3" name="/CLK24_XIN" class="Default">
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U1" pin="B8" pinfunction="CLK24M_XIN" pintype="input"/>
+      <node ref="Y2" pin="3" pinfunction="XTAL" pintype="passive"/>
+    </net>
+    <net code="4" name="/CLK24_XOUT" class="Default">
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="U1" pin="A8" pinfunction="CLK24M_XOUT" pintype="output"/>
+      <node ref="Y2" pin="1" pinfunction="XTAL" pintype="passive"/>
+    </net>
+    <net code="5" name="/GND" class="Default">
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="Y2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="Y2" pin="4" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="6" name="/RSTN" class="Default">
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U1" pin="B9" pinfunction="RSTN" pintype="input"/>
+    </net>
+    <net code="7" name="/RTC_XIN" class="Default">
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="U1" pin="B12" pinfunction="CLK32K768_XIN" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/RTC_XOUT" class="Default">
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="U1" pin="A12" pinfunction="CLK32K768_XOUT" pintype="output"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/VDD_1V8" class="Default">
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

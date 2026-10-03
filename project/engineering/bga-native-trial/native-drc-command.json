@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "kicad-cli",
+    "pcb",
+    "drc",
+    "--format",
+    "json",
+    "--all-track-errors",
+    "--severity-all",
+    "--exit-code-violations",
+    "-o",
+    "/workspace/shared/cm-k230-redesign/engineering/bga-native-trial/native-drc.json",
+    "/workspace/shared/cm-k230-redesign/cad/bga-engineering-candidates/bh153-sparse-trial/BH153_SPARSE_LOCAL_TRIAL.kicad_pcb"
+  ],
+  "exit_code": 5,
+  "environment": {
+    "XDG_DATA_HOME": "/tmp/kicad-footprint-home/.local/share",
+    "XDG_CONFIG_HOME": "/tmp/kicad-footprint-home/.config",
+    "XDG_CACHE_HOME": "/tmp/kicad-footprint-home/.cache"
+  },
+  "schematic_parity": "Not run: the standalone local window intentionally omits all other schematic components; mapping checked pin-by-pin against current XML instead."
+}

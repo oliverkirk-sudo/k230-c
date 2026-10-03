@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "Integrated") (type "KiCad") (uri "${KIPRJMOD}/Integrated.kicad_sym") (options "") (descr "Review only physical-pin symbols")))

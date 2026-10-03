@@ -1,0 +1,29 @@
+{
+  "status": "PASS_EXACT_RELEVANT_U1_SEMANTIC_PARITY",
+  "compared_physical_balls": 390,
+  "compared_DDR_join_rows": 65,
+  "exact_fields": [
+    "ball",
+    "function",
+    "net",
+    "xml_net",
+    "xml_endpoint_count",
+    "category",
+    "disposition",
+    "x",
+    "y",
+    "ring",
+    "ddr65",
+    "physical_top_land_diameter"
+  ],
+  "whole_file_hash_changes": [
+    {
+      "path": "cad/high-temp-candidate/master.xml",
+      "trial_sha256": "5ecd0c50fecfa56826569ec897e47b306bce8e25fa89d5382a7b43a132359c5f",
+      "current_sha256": "11d048c076fb54df9ea63b926a1f7db53ffe712d9e26984d0a4df62109876263"
+    }
+  ],
+  "qualification": "Whole master XML may change due separately authorized passive metadata edits. Exact physical U1 ball/function/net/DDR mapping must remain identical; hashes are never silently replaced.",
+  "original_control_route_code_sha256": "1a7b6ff169fa0609177c5e47c556a713cd64a7d55224f850d2cb77151af7ec30",
+  "copied_core_code_sha256": "1a7b6ff169fa0609177c5e47c556a713cd64a7d55224f850d2cb77151af7ec30"
+}

@@ -1,0 +1,86 @@
+{
+  "scope": "Frozen area-screen counterfactual arithmetic only; not latest consolidated BOM, packing, routing, or fabrication feasibility",
+  "baseline": {
+    "path": "engineering/mechanical/full-bom-area-screen.json",
+    "sha256": "db89a92b5347689319a0f72bc0351deaea15d80f74cf58a9ec03a46eb736e82c",
+    "physical_components": 272,
+    "dense_sum_mm2": 1231.56,
+    "interior_mm2": 1156.0,
+    "provisional_edge_reserve_per_side_mm": 2,
+    "U96_present_in_baseline": true
+  },
+  "per_instance_area_mm2": {
+    "existing_rough_DBV": 11.52,
+    "DRL_chosen_courtyard": 7,
+    "DCK_chosen_courtyard": 12.16,
+    "DRV_chosen_courtyard": 7.8,
+    "existing_L24_L25_L26": 21.16,
+    "DFE_body_land_reservation": 6.67,
+    "DFE_hypothetical_mask_sensitivity": 7.2
+  },
+  "five_logic_refs": [
+    "U91",
+    "U92",
+    "U93",
+    "U94",
+    "U96"
+  ],
+  "supervisor_refs": [
+    "U89",
+    "U90"
+  ],
+  "inductor_refs": [
+    "L24",
+    "L25",
+    "L26"
+  ],
+  "recovered_area_mm2": {
+    "old_four_AUP_plus_two_supervisors": 25.52,
+    "new_five_AUP_plus_two_supervisors": 30.04,
+    "three_small_inductors_body_land": 43.47,
+    "three_small_inductors_mask_sensitivity": 41.88,
+    "new_five_AUP_two_supervisors_three_inductors_body_land": 73.51,
+    "new_five_AUP_two_supervisors_three_inductors_mask_sensitivity": 71.92
+  },
+  "frozen_scenarios": [
+    {
+      "label": "Old four AUP+two supervisors only",
+      "area_mm2": 1206.04,
+      "area_minus_provisional_interior_mm2": 50.04,
+      "latest_full_design_total": false
+    },
+    {
+      "label": "Old four AUP+two supervisors+three inductors body_land",
+      "area_mm2": 1162.57,
+      "area_minus_provisional_interior_mm2": 6.57,
+      "latest_full_design_total": false
+    },
+    {
+      "label": "Old four AUP+two supervisors+three inductors mask_sensitivity",
+      "area_mm2": 1164.16,
+      "area_minus_provisional_interior_mm2": 8.16,
+      "latest_full_design_total": false
+    },
+    {
+      "label": "Above body_land scenario plus new U96 DRL only",
+      "area_mm2": 1169.57,
+      "area_minus_provisional_interior_mm2": 13.57,
+      "latest_full_design_total": false
+    },
+    {
+      "label": "Above mask_sensitivity scenario plus new U96 DRL only",
+      "area_mm2": 1171.16,
+      "area_minus_provisional_interior_mm2": 15.16,
+      "latest_full_design_total": false
+    }
+  ],
+  "exclusions": [
+    "No other updated BOM items or new gate support parts modeled",
+    "No passive removal or value changes",
+    "No routing/escape/PDN/thermal/local power-loop allowance",
+    "No final land or mask selection for inductors",
+    "No source area baseline overwritten"
+  ],
+  "historical_after_Schmitt_correction": true,
+  "latest_topology_notice": "U92/U94 changed to 1G97 Schmitt AND; U96 and its capacitor removed; optional eight-rail monitor omitted. These frozen totals are not the latest BOM."
+}

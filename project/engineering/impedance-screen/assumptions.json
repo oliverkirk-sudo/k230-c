@@ -1,0 +1,101 @@
+{
+  "title": "CM-K230 L3/L8 and conditional L3/L6 impedance feasibility screen",
+  "date_utc": "2026-09-30",
+  "status": "ANALYTICAL_SCREEN_ONLY_NOT_MANUFACTURING_OR_SI_APPROVAL",
+  "target_ohms": {"single_ended": 50, "differential": 100},
+  "target_tolerance": null,
+  "target_tolerance_note": "No acceptance tolerance was retrieved from the K230 guide. None is invented or used to convert near-target values into passes.",
+  "calculator_license": {
+    "spdx": "GPL-2.0-or-later",
+    "reason": "The finite-stripline expressions and branch structure adapt the KiCad implementation; this is not asserted to be a clean-room implementation or covered by original-module MIT licensing.",
+    "notice": "NOTICE.md",
+    "license_copy": "COPYING-GPL-2.0.txt"
+  },
+  "scope": {
+    "board": "38 by 38 mm, top-side components only",
+    "write_scope": "This isolated engineering/impedance-screen directory only",
+    "main_cad_changed": false,
+    "vendor_contact_or_upload": false,
+    "agreement_acceptance": false,
+    "proprietary_ibis_run": false,
+    "field_solver_run": false,
+    "method": "Locally evaluated primary-source documented analytical equations, with independent coarse-formula comparison"
+  },
+  "geometry_conventions": {
+    "width": "Finished rectangular copper width, not necessarily the artwork width after etch compensation",
+    "gap": "Finished copper edge-to-edge spacing between equal-width differential traces",
+    "dielectric_gap": "Copper-surface-to-copper-surface dielectric gap, excluding signal copper thickness",
+    "plane_separation": "h_upper + signal_copper_thickness + h_lower; reference-plane copper is not counted twice",
+    "L3_asymmetry": "Both ground planes are included. Do not model L3 as a microstrip to its closest plane.",
+    "mask": "Uncoated L8 is a comparison geometry only; the design expects mask. No actual mask thickness or Dk is known.",
+    "adjacent_copper": "No coplanar copper, other traces, plane apertures or carrier conductors in the analytical uniform cross section"
+  },
+  "stack_cases": {
+    "PW_8L_1P2_70_CANDIDATE": {
+      "source_catalog_entry": 13,
+      "finished_copper_mm": 0.035,
+      "L3_upper_dielectric_mm": 0.13,
+      "L3_upper_catalog_Dk": 4.6,
+      "L3_lower_dielectric_mm": 0.109,
+      "L3_lower_catalog_Dk": 4.45,
+      "L3_reference_planes": ["L2 GND", "L4 GND"],
+      "L3_plane_separation_mm": 0.274,
+      "L3_homogeneous_nominal_surrogate_Dk": 4.525,
+      "L8_dielectric_mm": 0.1195,
+      "L8_catalog_Dk": 4.45,
+      "L8_reference_plane": "L7 GND",
+      "conditional_L6": "Identical mirrored dielectric distances and Dk values to L3 only if L5 is made continuous GND; this allocation alone does not fix the 1.2 mm width conflict"
+    },
+    "PW_8L_1P6_70_ALTERNATIVE": {
+      "source_catalog_entry": 1,
+      "finished_copper_mm": 0.035,
+      "L3_upper_dielectric_mm": 0.23,
+      "L3_upper_catalog_Dk": 4.6,
+      "L3_lower_dielectric_mm": 0.175,
+      "L3_lower_catalog_Dk": 4.74,
+      "L3_reference_planes": ["L2 GND", "L4 GND"],
+      "L3_plane_separation_mm": 0.44,
+      "L3_homogeneous_nominal_surrogate_Dk": 4.67,
+      "L6_upper_dielectric_mm": 0.175,
+      "L6_upper_catalog_Dk": 4.74,
+      "L6_lower_dielectric_mm": 0.23,
+      "L6_lower_catalog_Dk": 4.6,
+      "L6_conditional_reference_planes": ["L5 GND, replacing power", "L7 GND"],
+      "L8_dielectric_mm": 0.1195,
+      "L8_catalog_Dk": 4.45,
+      "conditional_layer_allocation": ["L1 components/fanout/local power", "L2 GND", "L3 DDR signals", "L4 GND", "L5 GND", "L6 DDR signals", "L7 GND", "L8 primarily power and other signals"],
+      "allocation_approval": "Not adopted; requires PDN/current-path, decoupling, return-path, escape and mechanical review"
+    }
+  },
+  "models": [
+    {"id": "KICAD_STRIPLINE", "purpose": "Finite-thickness centered stripline expression and harmonic combination of two virtual centered geometries for offset stripline", "implementation": "calculate_screen.py: strip_centered and strip_offset", "source": "https://docs.kicad.org/doxygen/common_2transline__calculations_2stripline_8cpp_source.html", "locator": "STRIPLINE::Analyse lines 47-51 and lineImpedance lines 142-176", "limitation": "Homogeneous rectangular analytical model, not a solver for the actual layered core/prepreg. Finite-copper thickness is included. No numeric accuracy guarantee is asserted for this construction."},
+    {"id": "HJ_MICROSTRIP", "purpose": "Uncoated single-ended L8 with finite copper correction", "implementation": "calculate_screen.py: air_impedance, hj_effective_er, hj_microstrip", "source": "https://qucs.sourceforge.net/tech/node75.html", "locator": "Equations 11.4, 11.6, 11.15-11.18 and 11.22-11.25; normalized-width interpretation also checked against Qucs implementation", "implementation_cross_reference": "https://github.com/Qucs/qucsator/blob/develop/src/components/microstrip/msline.cpp", "limitation": "No solder mask, anisotropy, copper trapezoid/roughness or adjacent carrier; quasi-static only. Published fit accuracies are not assigned to this manufactured board."},
+    {"id": "NI_ULTIBOARD", "purpose": "Independent coarse SE equations and user-defined-Z0 differential coupling heuristic", "implementation": "calculate_screen.py: ni_strip_offset, ni_microstrip, strip_diff, micro_diff", "source": "https://download.ni.com/support/manuals/374488e.pdf", "locator": "Printed pages 6-9, 6-12, 6-13; PDF pages 202, 205, 206 (zero-based)", "equations": {"microstrip_single": "Z0=87/sqrt(er+1.41)*ln(5.98*h/(0.8*w+t))", "asymmetric_stripline_single": "Z0=(1-hnear/(4*hfar))*80/sqrt(er)*ln(4*(2*hnear+t)/(0.67*pi*(0.8*w+t)))", "microstrip_diff": "Zdiff=2*Z0*(1-0.48*exp(-0.96*s/h))", "stripline_diff": "Zdiff=2*Z0*(1-0.347*exp(-2.9*s/(hnear+hfar+t)))"}, "limitation": "Empirical coupling expressions, not multilayer odd/even-mode field solutions. Substitution of KiCad/HJ Z0 is an explicitly labeled screening hybrid. Finite copper enters the SE formula, but sidewall coupling is not independently solved; model error is not bounded."}
+  ],
+  "uncertainty_policy": {
+    "catalog_Dk": "Catalog values have no supplied frequency/test-method/resin-content/lot tolerance qualification. Arithmetic midpoint is only a named nominal surrogate, never a measured effective Dk.",
+    "moved_plane_bracket": "Use symmetric h_near and symmetric h_far with uniform catalog Dk min/max to bracket geometry/material substitutions. The formula-computed interval is not a rigorous total-error or manufacturing interval.",
+    "illustrative_sensitivity": "Dk 4.0-4.8, copper 25-45 um, per-gap multipliers 0.9-1.1, and width +/-10 um are selected what-if inputs, not supplier tolerances or statistical corner limits.",
+    "board_thickness": "Catalog finished-board tolerance is not assigned to each dielectric ply. The published 50% and 70% copper-density constructions must not be blended.",
+    "frequency": "No operating frequency or edge-rise-time model is assigned. Need design Dk/Df versus frequency plus DDR edge spectrum for final impedance, loss and delay analysis.",
+    "mask": "Need actual cured top/side/field thickness and Dk; L8 mask can reduce impedance. Conditional all-space-fill endpoint is a loose ideal-media limit, not a real mask prediction.",
+    "via": "All-through-via topology remains; no via impedance, stub resonance, return-via or transition delay result is provided. Plane antipads and interrupted references require actual geometry.",
+    "targets": "50 and 100 ohm are nominal targets, with no adopted percentage tolerance"
+  },
+  "spacing_sources": {
+    "guide": "https://github.com/kendryte/k230_docs/blob/main/en/00_hardware/K230_Hardware_Design_Guide.md",
+    "figure": "https://raw.githubusercontent.com/kendryte/k230_docs/main/zh/00_hardware/images/HDG/image054.png",
+    "visually_checked_local_figure": "/workspace/shared/k230-reference/mechanical/k230-ddr-constrained/official-image054.png",
+    "figure_rules": "2H within byte; 3H from DQ/DM to DQS pair, byte to CA group, CA to CK pair, supply/Vref separation",
+    "three_W_ambiguity": "Text says 3W without defining edge-to-edge or center-to-center. Provisional envelope assumes the more conservative 3W edge gap; this is an engineering screen, not an assertion that the guide defined it that way.",
+    "H_ambiguity": "Figure does not specify offset-stripline H convention. Provisional L3/L6 envelope uses larger copper-surface-to-plane gap; solver/crosstalk review must resolve the actual geometry.",
+    "pair_gap": "Intrapair DQS/CK spacing is independently chosen for 100 ohm. Do not apply the neighbor-to-pair 3H label as a mandatory gap between complementary traces."
+  },
+  "additional_primary_sources": [
+    {"id": "PW_STACK", "url": "https://www.pcbway.com/multi-layer-laminated-structure.html", "local_file": "/workspace/shared/k230-reference/stackup/pcbway-stack.html", "source_authority": "Existing audited fabrication proposal; catalog entries 13 and 1", "sha256_from_proposal": "ef3b84e0ddb5a927228b99b05d2d4852a90badae07967bf95c3bde69588fe2a5"},
+    {"id": "POLAR_MASK", "url": "https://www.polarinstruments.com/support/cits/AP122.html", "purpose": "Coated microstrip requires mask Dk and thickness"},
+    {"id": "POLAR_OFFSET", "url": "https://www.polarinstruments.com/support/cits/AP160.html", "purpose": "Both references, finite copper and inversion dimension conventions"},
+    {"id": "POLAR_COUPON", "url": "https://www.polarinstruments.com/support/cits/AP124.html", "purpose": "Same-process controlled-impedance coupons and measured verification"}
+  ],
+  "stop_condition": "Useful source-backed numerical feasibility established for two existing catalog stacks. No further catalog search, custom vendor claim, CAD promotion or external action."
+}

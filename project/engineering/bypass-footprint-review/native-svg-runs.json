@@ -1,0 +1,97 @@
+[
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Cu,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/evidence/native-F.Cu.svg",
+      "/workspace/shared/cm-k230-redesign/cad/bypass-footprint-review/Bypass_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/evidence/native-F.Cu.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Mask,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/evidence/native-F.Mask.svg",
+      "/workspace/shared/cm-k230-redesign/cad/bypass-footprint-review/Bypass_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/evidence/native-F.Mask.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Paste,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/evidence/native-F.Paste.svg",
+      "/workspace/shared/cm-k230-redesign/cad/bypass-footprint-review/Bypass_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/evidence/native-F.Paste.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.CrtYd,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/evidence/native-F.CrtYd.svg",
+      "/workspace/shared/cm-k230-redesign/cad/bypass-footprint-review/Bypass_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/evidence/native-F.CrtYd.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Fab,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/evidence/native-F.Fab.svg",
+      "/workspace/shared/cm-k230-redesign/cad/bypass-footprint-review/Bypass_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/evidence/native-F.Fab.svg'.\nDone.\n",
+    "stderr": ""
+  }
+]

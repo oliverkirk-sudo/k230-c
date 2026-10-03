@@ -1,0 +1,293 @@
+[
+  {
+    "library": "Package_TO_SOT_SMD.pretty",
+    "name": "SOT-23-5",
+    "description": "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py",
+    "pads": [
+      {
+        "number": "1",
+        "xywh": [
+          -1.1375,
+          -0.95,
+          1.325,
+          0.6
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "2",
+        "xywh": [
+          -1.1375,
+          0.0,
+          1.325,
+          0.6
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "3",
+        "xywh": [
+          -1.1375,
+          0.95,
+          1.325,
+          0.6
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "4",
+        "xywh": [
+          1.1375,
+          0.95,
+          1.325,
+          0.6
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "5",
+        "xywh": [
+          1.1375,
+          -0.95,
+          1.325,
+          0.6
+        ],
+        "angle_deg": 0.0
+      }
+    ]
+  },
+  {
+    "library": "Package_DFN_QFN.pretty",
+    "name": "UQFN-16_1.8x2.6mm_P0.4mm",
+    "description": "UQFN, 16 Pin (https://www.ti.com/lit/ds/symlink/ts3a5017.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py",
+    "pads": [
+      {
+        "number": "1",
+        "xywh": [
+          -0.8,
+          -0.6,
+          0.9,
+          0.2
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "2",
+        "xywh": [
+          -0.85,
+          -0.2,
+          0.8,
+          0.2
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "3",
+        "xywh": [
+          -0.85,
+          0.2,
+          0.8,
+          0.2
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "4",
+        "xywh": [
+          -0.85,
+          0.6,
+          0.8,
+          0.2
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "5",
+        "xywh": [
+          -0.6,
+          1.25,
+          0.2,
+          0.8
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "6",
+        "xywh": [
+          -0.2,
+          1.25,
+          0.2,
+          0.8
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "7",
+        "xywh": [
+          0.2,
+          1.25,
+          0.2,
+          0.8
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "8",
+        "xywh": [
+          0.6,
+          1.25,
+          0.2,
+          0.8
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "9",
+        "xywh": [
+          0.85,
+          0.6,
+          0.8,
+          0.2
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "10",
+        "xywh": [
+          0.85,
+          0.2,
+          0.8,
+          0.2
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "11",
+        "xywh": [
+          0.85,
+          -0.2,
+          0.8,
+          0.2
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "12",
+        "xywh": [
+          0.85,
+          -0.6,
+          0.8,
+          0.2
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "13",
+        "xywh": [
+          0.6,
+          -1.25,
+          0.2,
+          0.8
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "14",
+        "xywh": [
+          0.2,
+          -1.25,
+          0.2,
+          0.8
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "15",
+        "xywh": [
+          -0.2,
+          -1.25,
+          0.2,
+          0.8
+        ],
+        "angle_deg": 0.0
+      },
+      {
+        "number": "16",
+        "xywh": [
+          -0.6,
+          -1.25,
+          0.2,
+          0.8
+        ],
+        "angle_deg": 0.0
+      }
+    ]
+  },
+  {
+    "library": "Package_SON.pretty",
+    "name": "WSON-6_1.5x1.5mm_P0.5mm",
+    "description": "WSON6, http://www.ti.com/lit/ds/symlink/tlv702.pdf",
+    "pads": [
+      {
+        "number": "1",
+        "xywh": [
+          -0.525,
+          -0.5,
+          0.28,
+          0.85
+        ],
+        "angle_deg": 270.0
+      },
+      {
+        "number": "2",
+        "xywh": [
+          -0.575,
+          0.0,
+          0.28,
+          0.75
+        ],
+        "angle_deg": 270.0
+      },
+      {
+        "number": "3",
+        "xywh": [
+          -0.575,
+          0.5,
+          0.28,
+          0.75
+        ],
+        "angle_deg": 270.0
+      },
+      {
+        "number": "4",
+        "xywh": [
+          0.575,
+          0.5,
+          0.28,
+          0.75
+        ],
+        "angle_deg": 270.0
+      },
+      {
+        "number": "5",
+        "xywh": [
+          0.575,
+          0.0,
+          0.28,
+          0.75
+        ],
+        "angle_deg": 270.0
+      },
+      {
+        "number": "6",
+        "xywh": [
+          0.575,
+          -0.5,
+          0.28,
+          0.75
+        ],
+        "angle_deg": 270.0
+      }
+    ]
+  }
+]

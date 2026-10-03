@@ -1,0 +1,87 @@
+[
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/NXP_Geometry_QA_ONLY-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/NXP_Geometry_QA_ONLY-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/NXP_Negative_Clearance_0181-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Negative_Clearance_0181.kicad_pcb"
+    ],
+    "returncode": 5,
+    "stdout": "Found 6 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/NXP_Negative_Clearance_0181-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/NXP_Negative_Mask_0056-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Negative_Mask_0056.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/NXP_Negative_Mask_0056-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/NXP_Process_020_0075-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Process_020_0075.kicad_pcb"
+    ],
+    "returncode": 5,
+    "stdout": "Found 10 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/NXP_Process_020_0075-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/NXP_U92_Actual_Nets_ONLY-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_U92_Actual_Nets_ONLY.kicad_pcb"
+    ],
+    "returncode": 5,
+    "stdout": "Found 0 violations\nFound 3 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/NXP_U92_Actual_Nets_ONLY-drc.json\n",
+    "stderr": ""
+  }
+]

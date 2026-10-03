@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/shared/cm-k230-redesign/cad/power/CMK230_Power_CANDIDATE.kicad_sch</source>
+    <date>2026-09-30T03:06:31-0700</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Six-rail power draft - sequencing and load validation incomplete</title>
+        <company/>
+        <rev>D1-subcircuit</rev>
+        <date/>
+        <source>CMK230_Power_CANDIDATE.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C201">
+      <value>47uF X7R / Ceff&gt;=10uF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>373ba8eb-81e8-4b98-a0eb-c024a5b06e8a</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>120pF C0G</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dff0d01-5aba-441b-a79f-349e59217c3a</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3666c86-39cf-4430-a4fb-20f29007d998</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbdb8b94-43a3-477d-8b1b-1c9d18ea3338</tstamps>
+    </comp>
+    <comp ref="C205">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>546a2aa1-fdbd-4a88-9da7-98a44b800351</tstamps>
+    </comp>
+    <comp ref="C206">
+      <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4a6f858-9abf-41ae-8a97-fe5582b26b4b</tstamps>
+    </comp>
+    <comp ref="C207">
+      <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e726593-4d57-4a8f-88f9-9cdf098942a5</tstamps>
+    </comp>
+    <comp ref="C208">
+      <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee657abd-1bbe-48e5-a9ef-c233a75a90c7</tstamps>
+    </comp>
+    <comp ref="C209">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40a0f8d4-9fa9-4b7c-bc33-13d2ca9cb72f</tstamps>
+    </comp>
+    <comp ref="C210">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfeed71a-6e76-4267-8abc-c575bdd3d452</tstamps>
+    </comp>
+    <comp ref="C211">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d04e66b-17a3-48ea-a815-11c3ea03ba1a</tstamps>
+    </comp>
+    <comp ref="C212">
+      <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14da1d77-1a60-4125-8334-2ce6a5a258f4</tstamps>
+    </comp>
+    <comp ref="C213">
+      <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>606dec47-16a6-48bd-b0a6-91a546ee939a</tstamps>
+    </comp>
+    <comp ref="C214">
+      <value>22uF X7R / total Ceff&gt;=30uF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e15dc855-c9bb-4f5b-851e-dbe75a9d3145</tstamps>
+    </comp>
+    <comp ref="C215">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d439497c-e24d-464f-926c-7d7052326787</tstamps>
+    </comp>
+    <comp ref="C216">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66268b20-79b1-413b-8fa9-dea9ce19ee75</tstamps>
+    </comp>
+    <comp ref="C217">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>442e8d80-d0d9-4414-8617-cfb8994d8e69</tstamps>
+    </comp>
+    <comp ref="C218">
+      <value>47uF X7R / Ceff&gt;=10uF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aa37c94-a6a0-4b7e-9ab2-df2a93b21cf2</tstamps>
+    </comp>
+    <comp ref="C219">
+      <value>120pF C0G</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cc49e92-6f96-4762-b5b7-6ffef7149a28</tstamps>
+    </comp>
+    <comp ref="C220">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4be4acd3-8b5b-40e7-a60d-0972def79859</tstamps>
+    </comp>
+    <comp ref="C221">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03669bdd-4a5c-4ebc-b810-26a505c478bd</tstamps>
+    </comp>
+    <comp ref="C222">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99281fc3-0879-4d13-bad2-c38c44c86f2a</tstamps>
+    </comp>
+    <comp ref="C223">
+      <value>47uF X7R / Ceff&gt;=10uF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e97c461e-4a93-4217-b0c0-5e651358a95e</tstamps>
+    </comp>
+    <comp ref="C224">
+      <value>120pF C0G</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ae0c955-834f-47a5-a23c-d449f756d128</tstamps>
+    </comp>
+    <comp ref="C225">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5675b836-daf8-426f-9f1f-b56f8cdae7a0</tstamps>
+    </comp>
+    <comp ref="C226">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>865be374-44ec-46d1-b8c1-7b05a8338443</tstamps>
+    </comp>
+    <comp ref="C227">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>339ce159-efd4-4620-84dd-57f7557bdb35</tstamps>
+    </comp>
+    <comp ref="C228">
+      <value>47uF X7R / Ceff&gt;=10uF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94c47ea9-c490-42b9-8dbd-66c7934ba05c</tstamps>
+    </comp>
+    <comp ref="C229">
+      <value>120pF C0G</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9073139-0f56-4e2d-86d6-3cb452ff8032</tstamps>
+    </comp>
+    <comp ref="C230">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d5a08be-60e5-4dee-97df-51bd2752abee</tstamps>
+    </comp>
+    <comp ref="C231">
+      <value>10uF 10V X7R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08303932-6952-4975-8a94-7d357dccba94</tstamps>
+    </comp>
+    <comp ref="C232">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae652d83-bf0a-4e3f-abc5-b18c24a7fa72</tstamps>
+    </comp>
+    <comp ref="C233">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5d3ae99-4524-495d-b6b4-6c635fcc7de9</tstamps>
+    </comp>
+    <comp ref="C234">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01ba0d7f-5afb-463d-a7c2-32ecb6441503</tstamps>
+    </comp>
+    <comp ref="C235">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>817741d9-243c-409f-add0-e63287f67a92</tstamps>
+    </comp>
+    <comp ref="C236">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d606556f-50d3-4716-bbb4-722650510f20</tstamps>
+    </comp>
+    <comp ref="C237">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee9f2388-f447-4556-8b75-fca9e23448e6</tstamps>
+    </comp>
+    <comp ref="C238">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b6b29e1-dd44-4f4b-8630-e7a978a3067d</tstamps>
+    </comp>
+    <comp ref="C239">
+      <value>100nF local second PMU ball</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7c1e61b-0a3c-45d7-978f-744d9c36a553</tstamps>
+    </comp>
+    <comp ref="C240">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c853a98c-4603-4939-ae05-b99ba0c0d7fd</tstamps>
+    </comp>
+    <comp ref="C241">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>651f85b2-f0e6-427a-8cdd-8f7d636963de</tstamps>
+    </comp>
+    <comp ref="C242">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37e015a3-1de5-4e94-8b18-0a93a05f9990</tstamps>
+    </comp>
+    <comp ref="C243">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd66dd7e-4f24-4911-a62b-903c17e3f64d</tstamps>
+    </comp>
+    <comp ref="C244">
+      <value>100nF REF / local bulk TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d9d25f2-45b3-4d8a-af78-97566c7793cb</tstamps>
+    </comp>
+    <comp ref="FB202">
+      <value>120Ohm@100MHz Rdc&lt;=0.1Ohm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="FB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c93ecddc-bec8-41c1-991c-dcbb4e9cd247</tstamps>
+    </comp>
+    <comp ref="FB203">
+      <value>120Ohm@100MHz Rdc&lt;=0.1Ohm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="FB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>204d86b7-0eda-4fb8-b93b-1c8ebec951f4</tstamps>
+    </comp>
+    <comp ref="FB204">
+      <value>120Ohm@100MHz Rdc&lt;=0.1Ohm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="FB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b79e0f1-ffc3-47b2-a37b-f5144efefe61</tstamps>
+    </comp>
+    <comp ref="FB205">
+      <value>120Ohm@100MHz Rdc&lt;=0.1Ohm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="FB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>521653b7-9f85-4f15-b69a-ec68739dc930</tstamps>
+    </comp>
+    <comp ref="FB206">
+      <value>120Ohm@100MHz Rdc&lt;=0.1Ohm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="FB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a21cf524-e50d-402d-b151-99011ce8efed</tstamps>
+    </comp>
+    <comp ref="FB207">
+      <value>120Ohm@100MHz Rdc&lt;=0.1Ohm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="FB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b5f247f-350d-4f01-88bc-a1e3fa08c1ab</tstamps>
+    </comp>
+    <comp ref="FB208">
+      <value>120Ohm@100MHz Rdc&lt;=0.1Ohm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="FB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47859885-2de9-4851-90d7-546d7d41c392</tstamps>
+    </comp>
+    <comp ref="FB209">
+      <value>120Ohm@100MHz Rdc&lt;=0.1Ohm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="FB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b90c6be0-ffec-420f-8778-e9049fedd7dd</tstamps>
+    </comp>
+    <comp ref="FB210">
+      <value>120Ohm@100MHz Rdc&lt;=0.1Ohm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="FB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b13a0db0-fb21-4e0e-a9f3-e0d71a0af546</tstamps>
+    </comp>
+    <comp ref="L21">
+      <value>0.47uH XFL4015-471MEB REF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="L" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fce4cadc-9796-44de-8a00-1a9d0224d510</tstamps>
+    </comp>
+    <comp ref="L22">
+      <value>0.24uH DFE201612E-R24M REF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="L" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a18bb64-6756-434d-b7b7-cfad9b217edf</tstamps>
+    </comp>
+    <comp ref="L23">
+      <value>0.24uH DFE201612E-R24M REF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="L" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dd28afe-64e8-4b9d-9d0e-b58320cdf263</tstamps>
+    </comp>
+    <comp ref="L24">
+      <value>0.47uH XFL4015-471MEB REF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="L" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb7fecfc-3c19-4c08-8bd1-a788f7b2a0bb</tstamps>
+    </comp>
+    <comp ref="L25">
+      <value>0.47uH XFL4015-471MEB REF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="L" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c9db683-5c2f-4c0c-bae5-05fb8e8db37f</tstamps>
+    </comp>
+    <comp ref="L26">
+      <value>0.47uH XFL4015-471MEB REF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="L" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1998544c-98a0-41d9-b891-4192a1676112</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>33.2k 0.1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>465f3ebc-e353-40a9-a568-99f407967e9c</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>100k 0.1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae922526-b1da-4bcf-873f-817d92b27d25</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>100k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cec18c06-6299-450e-bd0a-937116ad3519</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc519594-830c-480a-bf9a-7ed9c4260d9d</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>56.2k 1% / 0.8V / addr0x49</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49e6f1ec-36e5-4115-918e-a2d8f66ee254</tstamps>
+    </comp>
+    <comp ref="R206">
+      <value>56.2k 1% / 0.8V / addr0x49</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd173901-8118-454f-acc8-0bf92649dad3</tstamps>
+    </comp>
+    <comp ref="R207">
+      <value>84.5k 0.1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78a685ec-b200-49d4-b90f-7b570ae91a2b</tstamps>
+    </comp>
+    <comp ref="R208">
+      <value>100k 0.1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d75faa4-3695-47dd-a41e-1e4c33b3f12a</tstamps>
+    </comp>
+    <comp ref="R209">
+      <value>100k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a65480b-4018-4f6a-83ad-bf4e2f20ae40</tstamps>
+    </comp>
+    <comp ref="R210">
+      <value>200k 0.1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d50af12-5937-47fd-a6e9-8bbc432d759d</tstamps>
+    </comp>
+    <comp ref="R211">
+      <value>100k 0.1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc592be0-6908-4490-8a2c-825155831187</tstamps>
+    </comp>
+    <comp ref="R212">
+      <value>100k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44822212-7c31-4fc0-a970-9e8f7f1f71e2</tstamps>
+    </comp>
+    <comp ref="R213">
+      <value>453k 0.1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20a5c3b0-fa9d-4b6b-9380-3d306392d4e6</tstamps>
+    </comp>
+    <comp ref="R214">
+      <value>100k 0.1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab24d3d5-e24f-4392-a1b5-45b48a0c702f</tstamps>
+    </comp>
+    <comp ref="R215">
+      <value>100k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8b781fd-5165-4f29-b692-a692a0bd9195</tstamps>
+    </comp>
+    <comp ref="R216">
+      <value>4.7k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>633cebda-5634-4b9d-81eb-90bb2da4bd2b</tstamps>
+    </comp>
+    <comp ref="R217">
+      <value>4.7k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35ce7694-6f97-4b07-810b-5dee08473951</tstamps>
+    </comp>
+    <comp ref="R218">
+      <value>4.7k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40ce078d-2c62-4b85-8a64-16d5c308db18</tstamps>
+    </comp>
+    <comp ref="R219">
+      <value>4.7k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7803e5d7-89dc-4cae-92b3-d9326c4fc3d3</tstamps>
+    </comp>
+    <comp ref="R220">
+      <value>0R Rmax&lt;=50mOhm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98a53ef1-2f1b-4452-8d06-e72ac661edda</tstamps>
+    </comp>
+    <comp ref="R221">
+      <value>0R Rmax&lt;=50mOhm</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b159a4eb-9e2f-4600-b0f6-0c8a858f7eae</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>TPS62827ADMQ</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="TPS6282xA_DMQ" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>640c838e-2f00-40de-963c-4a2f9d1b51c6</tstamps>
+    </comp>
+    <comp ref="U22">
+      <value>TPS628640BYCGR</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="TPS628640B_YCG" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>239a8bf6-4203-4b16-81e3-afc9a4d4cd33</tstamps>
+    </comp>
+    <comp ref="U23">
+      <value>TPS628640BYCGR</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="TPS628640B_YCG" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78943570-b0b7-4ba0-981b-a38305fae483</tstamps>
+    </comp>
+    <comp ref="U24">
+      <value>TPS62826ADMQ</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="TPS6282xA_DMQ" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d790dd2c-4348-432c-ab3d-615a29863b48</tstamps>
+    </comp>
+    <comp ref="U25">
+      <value>TPS62825ADMQ</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="TPS6282xA_DMQ" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e79a6c3-966c-4a72-9444-24a4643efa19</tstamps>
+    </comp>
+    <comp ref="U26">
+      <value>TPS62826ADMQ</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power" part="TPS6282xA_DMQ" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CMK230_Power_CANDIDATE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8eec770f-0bea-47f6-aaff-9e4407792e2b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Power" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power" part="FB">
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power" part="L">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power" part="TPS6282xA_DMQ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS6282xA_DMQ</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="PG_OD" type="open_collector"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SW" type="power_out"/>
+        <pin num="6" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power" part="TPS628640B_YCG">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS628640B_YCG</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="AGND" type="power_in"/>
+        <pin num="A2" name="VSET_FAULT_HIGH" type="passive"/>
+        <pin num="A3" name="VOS" type="input"/>
+        <pin num="B1" name="PGND" type="power_in"/>
+        <pin num="B2" name="PGND" type="power_in"/>
+        <pin num="B3" name="PGND" type="power_in"/>
+        <pin num="C1" name="SW" type="power_out"/>
+        <pin num="C2" name="SW" type="passive"/>
+        <pin num="C3" name="SW" type="passive"/>
+        <pin num="D1" name="VIN" type="power_in"/>
+        <pin num="D2" name="VIN" type="power_in"/>
+        <pin num="D3" name="VIN" type="power_in"/>
+        <pin num="E1" name="EN" type="input"/>
+        <pin num="E2" name="SDA" type="bidirectional"/>
+        <pin num="E3" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Power">
+      <uri>/workspace/shared/cm-k230-redesign/cad/power/Power.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/AVDD0P8_MIPI" class="Default">
+      <node ref="C235" pin="1" pintype="passive"/>
+      <node ref="FB203" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/AVDD0P8_PLL" class="Default">
+      <node ref="C234" pin="1" pintype="passive"/>
+      <node ref="FB202" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/AVDD1P8_ADC" class="Default">
+      <node ref="C241" pin="1" pintype="passive"/>
+      <node ref="FB208" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/AVDD1P8_CODEC" class="Default">
+      <node ref="C242" pin="1" pintype="passive"/>
+      <node ref="FB209" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/AVDD1P8_MIPI" class="Default">
+      <node ref="C240" pin="1" pintype="passive"/>
+      <node ref="FB207" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/AVDD1P8_PMU" class="Default">
+      <node ref="C238" pin="1" pintype="passive"/>
+      <node ref="C239" pin="1" pintype="passive"/>
+      <node ref="FB206" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/AVDD1P8_USB" class="Default">
+      <node ref="C237" pin="1" pintype="passive"/>
+      <node ref="FB205" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/AVDD3P3_USB" class="Default">
+      <node ref="C243" pin="1" pintype="passive"/>
+      <node ref="FB210" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/CORE_ENABLE" class="Default">
+      <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="U21" pin="1" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="10" name="/CORE_PGOOD_5V" class="Default">
+      <node ref="R203" pin="1" pintype="passive"/>
+      <node ref="U21" pin="2" pinfunction="PG_OD" pintype="open_collector"/>
+      <node ref="U22" pin="E1" pinfunction="EN" pintype="input"/>
+      <node ref="U23" pin="E1" pinfunction="EN" pintype="input"/>
+      <node ref="U24" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U25" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U26" pin="1" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="11" name="/FB_1V8" class="Default">
+      <node ref="C224" pin="2" pintype="passive"/>
+      <node ref="R210" pin="2" pintype="passive"/>
+      <node ref="R211" pin="1" pintype="passive"/>
+      <node ref="U25" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="12" name="/FB_3V3" class="Default">
+      <node ref="C229" pin="2" pintype="passive"/>
+      <node ref="R213" pin="2" pintype="passive"/>
+      <node ref="R214" pin="1" pintype="passive"/>
+      <node ref="U26" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="13" name="/FB_CORE" class="Default">
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="U21" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="14" name="/FB_DDR" class="Default">
+      <node ref="C219" pin="2" pintype="passive"/>
+      <node ref="R207" pin="2" pintype="passive"/>
+      <node ref="R208" pin="1" pintype="passive"/>
+      <node ref="U24" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="15" name="/GND" class="Default">
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C205" pin="2" pintype="passive"/>
+      <node ref="C206" pin="2" pintype="passive"/>
+      <node ref="C207" pin="2" pintype="passive"/>
+      <node ref="C208" pin="2" pintype="passive"/>
+      <node ref="C209" pin="2" pintype="passive"/>
+      <node ref="C210" pin="2" pintype="passive"/>
+      <node ref="C211" pin="2" pintype="passive"/>
+      <node ref="C212" pin="2" pintype="passive"/>
+      <node ref="C213" pin="2" pintype="passive"/>
+      <node ref="C214" pin="2" pintype="passive"/>
+      <node ref="C215" pin="2" pintype="passive"/>
+      <node ref="C216" pin="2" pintype="passive"/>
+      <node ref="C217" pin="2" pintype="passive"/>
+      <node ref="C218" pin="2" pintype="passive"/>
+      <node ref="C220" pin="2" pintype="passive"/>
+      <node ref="C221" pin="2" pintype="passive"/>
+      <node ref="C222" pin="2" pintype="passive"/>
+      <node ref="C223" pin="2" pintype="passive"/>
+      <node ref="C225" pin="2" pintype="passive"/>
+      <node ref="C226" pin="2" pintype="passive"/>
+      <node ref="C227" pin="2" pintype="passive"/>
+      <node ref="C228" pin="2" pintype="passive"/>
+      <node ref="C230" pin="2" pintype="passive"/>
+      <node ref="C231" pin="2" pintype="passive"/>
+      <node ref="C232" pin="2" pintype="passive"/>
+      <node ref="C233" pin="2" pintype="passive"/>
+      <node ref="C234" pin="2" pintype="passive"/>
+      <node ref="C235" pin="2" pintype="passive"/>
+      <node ref="C236" pin="2" pintype="passive"/>
+      <node ref="C237" pin="2" pintype="passive"/>
+      <node ref="C238" pin="2" pintype="passive"/>
+      <node ref="C239" pin="2" pintype="passive"/>
+      <node ref="C240" pin="2" pintype="passive"/>
+      <node ref="C241" pin="2" pintype="passive"/>
+      <node ref="C242" pin="2" pintype="passive"/>
+      <node ref="C243" pin="2" pintype="passive"/>
+      <node ref="C244" pin="2" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="R206" pin="2" pintype="passive"/>
+      <node ref="R208" pin="2" pintype="passive"/>
+      <node ref="R211" pin="2" pintype="passive"/>
+      <node ref="R214" pin="2" pintype="passive"/>
+      <node ref="U21" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U22" pin="A1" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U22" pin="B1" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U22" pin="B2" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U22" pin="B3" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U23" pin="A1" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U23" pin="B1" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U23" pin="B2" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U23" pin="B3" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U24" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U25" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U26" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="16" name="/PGOOD_1V8" class="Default">
+      <node ref="R212" pin="1" pintype="passive"/>
+      <node ref="U25" pin="2" pinfunction="PG_OD" pintype="open_collector"/>
+    </net>
+    <net code="17" name="/PGOOD_3V3" class="Default">
+      <node ref="R215" pin="1" pintype="passive"/>
+      <node ref="U26" pin="2" pinfunction="PG_OD" pintype="open_collector"/>
+    </net>
+    <net code="18" name="/PGOOD_DDR" class="Default">
+      <node ref="R209" pin="1" pintype="passive"/>
+      <node ref="U24" pin="2" pinfunction="PG_OD" pintype="open_collector"/>
+    </net>
+    <net code="19" name="/PWR_CPU_SCL" class="Default">
+      <node ref="R216" pin="1" pintype="passive"/>
+      <node ref="U22" pin="E3" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="20" name="/PWR_CPU_SDA" class="Default">
+      <node ref="R217" pin="1" pintype="passive"/>
+      <node ref="U22" pin="E2" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/PWR_KPU_SCL" class="Default">
+      <node ref="R218" pin="1" pintype="passive"/>
+      <node ref="U23" pin="E3" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="22" name="/PWR_KPU_SDA" class="Default">
+      <node ref="R219" pin="1" pintype="passive"/>
+      <node ref="U23" pin="E2" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/SW_1V8" class="Default">
+      <node ref="L25" pin="1" pintype="passive"/>
+      <node ref="U25" pin="5" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="24" name="/SW_3V3" class="Default">
+      <node ref="L26" pin="1" pintype="passive"/>
+      <node ref="U26" pin="5" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="25" name="/SW_CORE" class="Default">
+      <node ref="L21" pin="1" pintype="passive"/>
+      <node ref="U21" pin="5" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="26" name="/SW_CPU" class="Default">
+      <node ref="L22" pin="1" pintype="passive"/>
+      <node ref="U22" pin="C1" pinfunction="SW" pintype="power_out"/>
+      <node ref="U22" pin="C2" pinfunction="SW" pintype="passive"/>
+      <node ref="U22" pin="C3" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="27" name="/SW_DDR" class="Default">
+      <node ref="L24" pin="1" pintype="passive"/>
+      <node ref="U24" pin="5" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="28" name="/SW_KPU" class="Default">
+      <node ref="L23" pin="1" pintype="passive"/>
+      <node ref="U23" pin="C1" pinfunction="SW" pintype="power_out"/>
+      <node ref="U23" pin="C2" pinfunction="SW" pintype="passive"/>
+      <node ref="U23" pin="C3" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="29" name="/VAA_DDR" class="Default">
+      <node ref="C236" pin="1" pintype="passive"/>
+      <node ref="FB204" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="/VDD0P8_CORE" class="Default">
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="FB202" pin="1" pintype="passive"/>
+      <node ref="FB203" pin="1" pintype="passive"/>
+      <node ref="L21" pin="2" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="R220" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="/VDD0P8_CPU" class="Default">
+      <node ref="C206" pin="1" pintype="passive"/>
+      <node ref="C207" pin="1" pintype="passive"/>
+      <node ref="C208" pin="1" pintype="passive"/>
+      <node ref="L22" pin="2" pintype="passive"/>
+      <node ref="U22" pin="A3" pinfunction="VOS" pintype="input"/>
+    </net>
+    <net code="32" name="/VDD0P8_DDR_CORE" class="Default">
+      <node ref="C233" pin="1" pintype="passive"/>
+      <node ref="R220" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/VDD0P8_KPU" class="Default">
+      <node ref="C212" pin="1" pintype="passive"/>
+      <node ref="C213" pin="1" pintype="passive"/>
+      <node ref="C214" pin="1" pintype="passive"/>
+      <node ref="L23" pin="2" pintype="passive"/>
+      <node ref="U23" pin="A3" pinfunction="VOS" pintype="input"/>
+    </net>
+    <net code="34" name="/VDD1P1_DDR_IO" class="Default">
+      <node ref="C218" pin="1" pintype="passive"/>
+      <node ref="C219" pin="1" pintype="passive"/>
+      <node ref="L24" pin="2" pintype="passive"/>
+      <node ref="R207" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/VDD1P8" class="Default">
+      <node ref="C223" pin="1" pintype="passive"/>
+      <node ref="C224" pin="1" pintype="passive"/>
+      <node ref="FB204" pin="1" pintype="passive"/>
+      <node ref="FB205" pin="1" pintype="passive"/>
+      <node ref="FB206" pin="1" pintype="passive"/>
+      <node ref="FB207" pin="1" pintype="passive"/>
+      <node ref="FB208" pin="1" pintype="passive"/>
+      <node ref="FB209" pin="1" pintype="passive"/>
+      <node ref="L25" pin="2" pintype="passive"/>
+      <node ref="R209" pin="2" pintype="passive"/>
+      <node ref="R210" pin="1" pintype="passive"/>
+      <node ref="R212" pin="2" pintype="passive"/>
+      <node ref="R215" pin="2" pintype="passive"/>
+      <node ref="R216" pin="2" pintype="passive"/>
+      <node ref="R217" pin="2" pintype="passive"/>
+      <node ref="R218" pin="2" pintype="passive"/>
+      <node ref="R219" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="/VDD3P3_SD" class="Default">
+      <node ref="C244" pin="1" pintype="passive"/>
+      <node ref="R221" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="/VDD_3V3" class="Default">
+      <node ref="C228" pin="1" pintype="passive"/>
+      <node ref="C229" pin="1" pintype="passive"/>
+      <node ref="FB210" pin="1" pintype="passive"/>
+      <node ref="L26" pin="2" pintype="passive"/>
+      <node ref="R213" pin="1" pintype="passive"/>
+      <node ref="R221" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="/VIN_5V" class="Default">
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="C205" pin="1" pintype="passive"/>
+      <node ref="C209" pin="1" pintype="passive"/>
+      <node ref="C210" pin="1" pintype="passive"/>
+      <node ref="C211" pin="1" pintype="passive"/>
+      <node ref="C215" pin="1" pintype="passive"/>
+      <node ref="C216" pin="1" pintype="passive"/>
+      <node ref="C217" pin="1" pintype="passive"/>
+      <node ref="C220" pin="1" pintype="passive"/>
+      <node ref="C221" pin="1" pintype="passive"/>
+      <node ref="C222" pin="1" pintype="passive"/>
+      <node ref="C225" pin="1" pintype="passive"/>
+      <node ref="C226" pin="1" pintype="passive"/>
+      <node ref="C227" pin="1" pintype="passive"/>
+      <node ref="C230" pin="1" pintype="passive"/>
+      <node ref="C231" pin="1" pintype="passive"/>
+      <node ref="C232" pin="1" pintype="passive"/>
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="R204" pin="2" pintype="passive"/>
+      <node ref="U21" pin="6" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U22" pin="D1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U22" pin="D2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U22" pin="D3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U23" pin="D1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U23" pin="D2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U23" pin="D3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U24" pin="6" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U25" pin="6" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U26" pin="6" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="39" name="/VSET_CPU" class="Default">
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="U22" pin="A2" pinfunction="VSET_FAULT_HIGH" pintype="passive"/>
+    </net>
+    <net code="40" name="/VSET_KPU" class="Default">
+      <node ref="R206" pin="1" pintype="passive"/>
+      <node ref="U23" pin="A2" pinfunction="VSET_FAULT_HIGH" pintype="passive"/>
+    </net>
+  </nets>
+</export>

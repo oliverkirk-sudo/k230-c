@@ -1,0 +1,63 @@
+{
+  "status": "STOPPED_REJECTED_STACK_IMPEDANCE_AND_COLLISIONS",
+  "best_edge_events": 106,
+  "iterations": [
+    {
+      "iteration": 0,
+      "conflicting_nets": 18,
+      "edge_events": 129,
+      "nodes": 3675212,
+      "elapsed_s": 49.954501435000566,
+      "layer_moves": 0
+    },
+    {
+      "iteration": 1,
+      "conflicting_nets": 16,
+      "edge_events": 124,
+      "nodes": 3648882,
+      "elapsed_s": 94.72375560000364,
+      "layer_moves": 0
+    },
+    {
+      "iteration": 2,
+      "conflicting_nets": 13,
+      "edge_events": 106,
+      "nodes": 3654828,
+      "elapsed_s": 147.7418771060038,
+      "layer_moves": 0
+    },
+    {
+      "iteration": 3,
+      "conflicting_nets": 14,
+      "edge_events": 118,
+      "nodes": 3636236,
+      "elapsed_s": 202.98546889600402,
+      "layer_moves": 0
+    },
+    {
+      "iteration": 4,
+      "conflicting_nets": 14,
+      "edge_events": 126,
+      "nodes": 3745573,
+      "elapsed_s": 253.89765585200075,
+      "layer_moves": 0
+    },
+    {
+      "iteration": 5,
+      "conflicting_nets": 14,
+      "edge_events": 133,
+      "nodes": 3636973,
+      "elapsed_s": 312.1865778970023,
+      "layer_moves": 0
+    },
+    {
+      "iteration": 6,
+      "conflicting_nets": 15,
+      "edge_events": 130,
+      "nodes": 3641454,
+      "elapsed_s": 362.0860027730014,
+      "layer_moves": 0
+    }
+  ],
+  "stop_reason": "Independent finite-thickness impedance screen rejects current catalog L3 4mil as50ohm; preserve congestion experiment, no further optimization of this width/stack."
+}

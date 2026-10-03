@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "scope": "Isolated mechanical candidate only",
+  "layers": {
+    "copper": {
+      "apertures": 16,
+      "minimum_gap_mm": 0.18
+    },
+    "mask": {
+      "apertures": 16,
+      "minimum_gap_mm": 0.08
+    },
+    "paste": {
+      "apertures": 16,
+      "minimum_gap_mm": 0.23
+    }
+  },
+  "numeric_assertions": 244,
+  "numbered_electrical_pads": 16,
+  "exposed_pad": false,
+  "master_U95_pin_names_match_datasheet": true,
+  "master_U95_pin_nets_snapshot": {
+    "7": "GND",
+    "8": "TFCARD_CLK",
+    "13": "TFCARD_CMD",
+    "10": "TFCARD_D0",
+    "9": "TFCARD_D1",
+    "12": "TFCARD_D2",
+    "11": "TFCARD_D3",
+    "5": "TF_HOST_CLK",
+    "16": "TF_HOST_CMD",
+    "3": "TF_HOST_D0",
+    "4": "TF_HOST_D1",
+    "1": "TF_HOST_D2",
+    "2": "TF_HOST_D3",
+    "15": "VDD1P8",
+    "14": "VDD_3V3",
+    "6": "unconnected-(U95-CLK_FB-Pad6)"
+  },
+  "project_courtyard_mm": [
+    2.8,
+    3.6
+  ],
+  "footprint_sha256": "afcbf8da2ffd6c19acfe00f450df0cfcf704d3af432f268401c0211fd8449168"
+}

@@ -1,0 +1,156 @@
+{
+  "status": "PASS_STRUCTURE_TRUTH_TABLE_AND_CONDITIONAL_DC_ONLY",
+  "source_netlist_sha256": "96108059ca509bbde234565dcda46a2a0273dd2cb296a5d3a95aac812d08976b",
+  "U14_part": "74AUP1G97GW,125 SCHMITT OR CANDIDATE",
+  "footprint": "CMK230_Nexperia_Standard_Candidates:Nexperia_SOT363-2_AUP1G97_DrawingVerified_CANDIDATE",
+  "exact_pin_map": {
+    "1": "GLOBAL_DISABLE",
+    "2": "GND",
+    "3": "VDD_3V3",
+    "4": "DISABLE_OR_TF",
+    "5": "VDD_3V3",
+    "6": "MODE_TF"
+  },
+  "pin_functions_types_verified": true,
+  "source_function": "Y=(A if C else B); A=1 gives B OR C",
+  "truth_table": [
+    {
+      "GLOBAL_DISABLE": false,
+      "MODE_TF": false,
+      "U13_disable": false
+    },
+    {
+      "GLOBAL_DISABLE": false,
+      "MODE_TF": true,
+      "U13_disable": true
+    },
+    {
+      "GLOBAL_DISABLE": true,
+      "MODE_TF": false,
+      "U13_disable": true
+    },
+    {
+      "GLOBAL_DISABLE": true,
+      "MODE_TF": true,
+      "U13_disable": true
+    }
+  ],
+  "storage_states": [
+    {
+      "PG_valid": false,
+      "R528_deliberately_populated": false,
+      "MODE_TF": false,
+      "U11_U12_disabled": true,
+      "U13_disabled": true
+    },
+    {
+      "PG_valid": false,
+      "R528_deliberately_populated": false,
+      "MODE_TF": true,
+      "U11_U12_disabled": true,
+      "U13_disabled": true
+    },
+    {
+      "PG_valid": false,
+      "R528_deliberately_populated": true,
+      "MODE_TF": false,
+      "U11_U12_disabled": true,
+      "U13_disabled": true
+    },
+    {
+      "PG_valid": false,
+      "R528_deliberately_populated": true,
+      "MODE_TF": true,
+      "U11_U12_disabled": true,
+      "U13_disabled": true
+    },
+    {
+      "PG_valid": true,
+      "R528_deliberately_populated": false,
+      "MODE_TF": false,
+      "U11_U12_disabled": true,
+      "U13_disabled": true
+    },
+    {
+      "PG_valid": true,
+      "R528_deliberately_populated": false,
+      "MODE_TF": true,
+      "U11_U12_disabled": true,
+      "U13_disabled": true
+    },
+    {
+      "PG_valid": true,
+      "R528_deliberately_populated": true,
+      "MODE_TF": false,
+      "U11_U12_disabled": false,
+      "U13_disabled": false
+    },
+    {
+      "PG_valid": true,
+      "R528_deliberately_populated": true,
+      "MODE_TF": true,
+      "U11_U12_disabled": false,
+      "U13_disabled": true
+    }
+  ],
+  "default_R528_DNP": true,
+  "unchanged_non_U14_pin_nets": 1503,
+  "unchanged_other_components": 252,
+  "protected_Samsung_and_source_files": 40,
+  "rail_V": [
+    3.2451295322889773,
+    3.392164299108761
+  ],
+  "R33_nominal_ohm": 270000.0,
+  "R33_total_acceptance_fraction": 0.1,
+  "R33_screen_ohm": [
+    243000.0,
+    297000.0
+  ],
+  "low_state": {
+    "worst_sink_A": 1.595952386464511e-05,
+    "specified_test_load_A": 2e-05,
+    "remaining_sink_budget_A": 4.040476135354893e-06,
+    "VOL_max_V": 0.11,
+    "TMUX_VIL_max_V": 0.45,
+    "margin_V": 0.34,
+    "supply_range_of_output_row_V": [
+      0.8,
+      3.6
+    ]
+  },
+  "high_state": {
+    "receiver_sink_leakage_A": 2e-06,
+    "VOH_min_V": 3.1351295322889774,
+    "TMUX_VIH_min_V": 1.2,
+    "margin_V": 1.9351295322889774,
+    "pullup_helps_output_high": true
+  },
+  "input_screens": {
+    "GLOBAL_DISABLE_high_leakage_A": 5.5e-06,
+    "GLOBAL_DISABLE_high_min_V": 3.1846295322889775,
+    "MODE_TF_leakage_A": 4.75e-06,
+    "MODE_TF_low_max_V": 0.052250000000000005,
+    "VTplus_max_at_discrete_3V_V": 2.32,
+    "VTminus_min_at_discrete_3V_V": 0.88,
+    "thresholds_guaranteed_at_actual_rail": false
+  },
+  "unpowered_screen": {
+    "Ioff_A": 7.5e-07,
+    "source_condition": "VCC=0, VI or VO=0\u20133.6V",
+    "hypothetical_independently_live_pullup_high_min_V": 2.4283795322889774,
+    "same_rail_loss_high_guaranteed": false
+  },
+  "sources": [
+    "https://assets.nexperia.com/documents/data-sheet/74AUP1G97.pdf Rev14 Tables3/4/8/12 andFig6",
+    "https://www.ti.com/lit/ds/symlink/tmux1574.pdf RevC p6",
+    "engineering/passive-resistor-candidates/U14_SLEW_ADDENDUM.md"
+  ],
+  "remaining_gates": [
+    "Resistance\u00b110% is a total acceptance requirement, not guaranteed life drift.",
+    "Discrete3V Schmitt threshold extension to actualrail remains open.",
+    "Actual output capacitance, edge rate, TMUX timing and noise remain open; pullup does not set ordinary push-pull rise time.",
+    "Same-rail collapse and partial supply are not qualified.",
+    "No bench, SI, thermal or production qualification."
+  ]
+}

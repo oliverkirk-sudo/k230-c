@@ -1,0 +1,43 @@
+{
+  "part": "X322524MOB4SI",
+  "source": "https://atta.szlcsc.com/upload/public/pdf/source/20230512/FCFA71FC9F356FF871B9CC5C5DAC5D5F.pdf",
+  "manufacturer_revision": "B.0 2022-03-01",
+  "page": 3,
+  "body_nominal_mm": [
+    3.2,
+    2.5,
+    0.7
+  ],
+  "body_tolerance_mm": [
+    0.1,
+    0.1,
+    0.1
+  ],
+  "pad_mm": [
+    1.4,
+    1.2
+  ],
+  "centers_x_mm": [
+    -1.1,
+    1.1
+  ],
+  "centers_y_mm": [
+    -0.85,
+    0.85
+  ],
+  "top_view_pin_map": {
+    "1": "bottom-left crystal",
+    "2": "bottom-right ground",
+    "3": "top-right crystal",
+    "4": "top-left ground"
+  },
+  "process_assumptions": {
+    "mask_expansion_mm": 0.05,
+    "paste": "1:1 unqualified",
+    "courtyard_mm": [
+      4.2,
+      3.5
+    ]
+  },
+  "status": "DRAWING_CANDIDATE_NOT_RELEASED"
+}

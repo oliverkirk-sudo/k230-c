@@ -1,0 +1,11 @@
+(version 1)
+# Candidate process rules; no waivers and no ignored severities.
+(rule "Local candidate copper clearance" (constraint clearance (min 0.1016mm)))
+(rule "Local candidate track minimum" (constraint track_width (min 0.1016mm)))
+(rule "Via nominal diameter" (condition "A.Type == 'Via'") (constraint via_diameter (min 0.30mm) (max 0.30mm)))
+(rule "Via nominal hole" (condition "A.Type == 'Via'") (constraint hole_size (min 0.15mm) (max 0.15mm)))
+(rule "Selected via nominal annulus" (condition "A.Type == 'Via'") (constraint annular_width (min 0.075mm)))
+(rule "Hole to other net copper" (constraint hole_clearance (min 0.20mm)))
+(rule "Mechanically drilled hole separation" (constraint hole_to_hole (min 0.20mm)))
+# Solder-mask minimum web 0.10 mm is stored in board setup. Individual NSMD
+# land apertures are 0.40 mm. In-footprint mask bridges are not allowed.

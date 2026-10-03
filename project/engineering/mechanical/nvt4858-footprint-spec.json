@@ -1,0 +1,224 @@
+{
+  "footprint": "CMK230_Translator_Candidate:NXP_SOT1161-2_NVT4858HK_1.8x2.6_P0.4_DrawingVerified_CANDIDATE",
+  "package": "SOT1161-2 XQFN16",
+  "coordinate_frame": "Component/top view, +X right, +Y down, body-centered origin",
+  "nominal_body_mm": [
+    1.8,
+    2.6
+  ],
+  "body_max_mm": [
+    1.9,
+    2.7
+  ],
+  "additional_protrusion_each_side_mm": 0.075,
+  "max_height_mm": 0.5,
+  "pitch_mm": 0.4,
+  "project_courtyard_mm": [
+    2.8,
+    3.6
+  ],
+  "vendor_clearance_outline_mm": [
+    2.35,
+    3.15
+  ],
+  "mask_expansion_each_side_mm": 0.05,
+  "paste_reduction_each_side_mm": 0.025,
+  "recommended_stencil_mm": 0.1,
+  "apertures": "16 rectangular copper, 16 explicit mask, 16 explicit paste; no exposed center pad",
+  "pad1_exception": "Side pad1 copper length .90 mm versus .85 mm for other seven side pads; shifted +.025 mm in X to keep common outer edge",
+  "manufacturing_status": "Drawing geometry checked only; assembly/process approval pending",
+  "pads": [
+    {
+      "pad": 1,
+      "function": "DAT2A",
+      "x_mm": -0.6,
+      "y_mm": -0.6,
+      "copper_width_mm": 0.9,
+      "copper_height_mm": 0.22,
+      "mask_width_mm": 1.0,
+      "mask_height_mm": 0.32,
+      "paste_width_mm": 0.85,
+      "paste_height_mm": 0.17
+    },
+    {
+      "pad": 2,
+      "function": "DAT3A",
+      "x_mm": -0.625,
+      "y_mm": -0.2,
+      "copper_width_mm": 0.85,
+      "copper_height_mm": 0.22,
+      "mask_width_mm": 0.95,
+      "mask_height_mm": 0.32,
+      "paste_width_mm": 0.8,
+      "paste_height_mm": 0.17
+    },
+    {
+      "pad": 3,
+      "function": "DAT0A",
+      "x_mm": -0.625,
+      "y_mm": 0.2,
+      "copper_width_mm": 0.85,
+      "copper_height_mm": 0.22,
+      "mask_width_mm": 0.95,
+      "mask_height_mm": 0.32,
+      "paste_width_mm": 0.8,
+      "paste_height_mm": 0.17
+    },
+    {
+      "pad": 4,
+      "function": "DAT1A",
+      "x_mm": -0.625,
+      "y_mm": 0.6,
+      "copper_width_mm": 0.85,
+      "copper_height_mm": 0.22,
+      "mask_width_mm": 0.95,
+      "mask_height_mm": 0.32,
+      "paste_width_mm": 0.8,
+      "paste_height_mm": 0.17
+    },
+    {
+      "pad": 5,
+      "function": "CLKA",
+      "x_mm": -0.6,
+      "y_mm": 1.175,
+      "copper_width_mm": 0.22,
+      "copper_height_mm": 0.55,
+      "mask_width_mm": 0.32,
+      "mask_height_mm": 0.65,
+      "paste_width_mm": 0.17,
+      "paste_height_mm": 0.5
+    },
+    {
+      "pad": 6,
+      "function": "CLK_FB",
+      "x_mm": -0.2,
+      "y_mm": 1.175,
+      "copper_width_mm": 0.22,
+      "copper_height_mm": 0.55,
+      "mask_width_mm": 0.32,
+      "mask_height_mm": 0.65,
+      "paste_width_mm": 0.17,
+      "paste_height_mm": 0.5
+    },
+    {
+      "pad": 7,
+      "function": "GND",
+      "x_mm": 0.2,
+      "y_mm": 1.175,
+      "copper_width_mm": 0.22,
+      "copper_height_mm": 0.55,
+      "mask_width_mm": 0.32,
+      "mask_height_mm": 0.65,
+      "paste_width_mm": 0.17,
+      "paste_height_mm": 0.5
+    },
+    {
+      "pad": 8,
+      "function": "CLKB",
+      "x_mm": 0.6,
+      "y_mm": 1.175,
+      "copper_width_mm": 0.22,
+      "copper_height_mm": 0.55,
+      "mask_width_mm": 0.32,
+      "mask_height_mm": 0.65,
+      "paste_width_mm": 0.17,
+      "paste_height_mm": 0.5
+    },
+    {
+      "pad": 9,
+      "function": "DAT1B",
+      "x_mm": 0.625,
+      "y_mm": 0.6,
+      "copper_width_mm": 0.85,
+      "copper_height_mm": 0.22,
+      "mask_width_mm": 0.95,
+      "mask_height_mm": 0.32,
+      "paste_width_mm": 0.8,
+      "paste_height_mm": 0.17
+    },
+    {
+      "pad": 10,
+      "function": "DAT0B",
+      "x_mm": 0.625,
+      "y_mm": 0.2,
+      "copper_width_mm": 0.85,
+      "copper_height_mm": 0.22,
+      "mask_width_mm": 0.95,
+      "mask_height_mm": 0.32,
+      "paste_width_mm": 0.8,
+      "paste_height_mm": 0.17
+    },
+    {
+      "pad": 11,
+      "function": "DAT3B",
+      "x_mm": 0.625,
+      "y_mm": -0.2,
+      "copper_width_mm": 0.85,
+      "copper_height_mm": 0.22,
+      "mask_width_mm": 0.95,
+      "mask_height_mm": 0.32,
+      "paste_width_mm": 0.8,
+      "paste_height_mm": 0.17
+    },
+    {
+      "pad": 12,
+      "function": "DAT2B",
+      "x_mm": 0.625,
+      "y_mm": -0.6,
+      "copper_width_mm": 0.85,
+      "copper_height_mm": 0.22,
+      "mask_width_mm": 0.95,
+      "mask_height_mm": 0.32,
+      "paste_width_mm": 0.8,
+      "paste_height_mm": 0.17
+    },
+    {
+      "pad": 13,
+      "function": "CMDB",
+      "x_mm": 0.6,
+      "y_mm": -1.175,
+      "copper_width_mm": 0.22,
+      "copper_height_mm": 0.55,
+      "mask_width_mm": 0.32,
+      "mask_height_mm": 0.65,
+      "paste_width_mm": 0.17,
+      "paste_height_mm": 0.5
+    },
+    {
+      "pad": 14,
+      "function": "VCCB",
+      "x_mm": 0.2,
+      "y_mm": -1.175,
+      "copper_width_mm": 0.22,
+      "copper_height_mm": 0.55,
+      "mask_width_mm": 0.32,
+      "mask_height_mm": 0.65,
+      "paste_width_mm": 0.17,
+      "paste_height_mm": 0.5
+    },
+    {
+      "pad": 15,
+      "function": "VCCA",
+      "x_mm": -0.2,
+      "y_mm": -1.175,
+      "copper_width_mm": 0.22,
+      "copper_height_mm": 0.55,
+      "mask_width_mm": 0.32,
+      "mask_height_mm": 0.65,
+      "paste_width_mm": 0.17,
+      "paste_height_mm": 0.5
+    },
+    {
+      "pad": 16,
+      "function": "CMDA",
+      "x_mm": -0.6,
+      "y_mm": -1.175,
+      "copper_width_mm": 0.22,
+      "copper_height_mm": 0.55,
+      "mask_width_mm": 0.32,
+      "mask_height_mm": 0.65,
+      "paste_width_mm": 0.17,
+      "paste_height_mm": 0.5
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "accept as conditional static screen; not qualified brownout boundary",
+  "nominal_V": 3.99735,
+  "resistor_total_error_fraction": 0.007,
+  "threshold_error_fraction": 0.02,
+  "hysteresis_max_fraction": 0.03,
+  "sense_bias_A": 2.5e-08,
+  "falling_min_V": 3.866256591516883,
+  "falling_max_V": 4.131190403164652,
+  "rising_max_conditional_V": 4.255059124584592,
+  "rail3v3_screen_max_V": 3.392164299,
+  "static_headroom_min_V": 0.4740922925168829,
+  "rising_bias_caveat": "ISENSE limit is specified at VSENSE=VIT; applying the same bound at VIT+VHYS requires verification",
+  "cad_modified": false
+}

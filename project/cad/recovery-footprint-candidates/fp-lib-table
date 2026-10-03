@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CMK230_Recovery_Logic_Candidates")(type "KiCad")(uri "${KIPRJMOD}/CMK230_Recovery_Logic_Candidates.pretty")(options "")(descr "Isolated recovery candidates; source examples, process unqualified"))
+)

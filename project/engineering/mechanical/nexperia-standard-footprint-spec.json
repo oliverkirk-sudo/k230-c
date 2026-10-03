@@ -1,0 +1,449 @@
+{
+  "status": "SOURCE_DERIVED_CANDIDATES_NO_MAIN_CAD_EDITS",
+  "packages": [
+    {
+      "package": "SOT353-1",
+      "footprint": "CMK230_Nexperia_Standard_Candidates:Nexperia_SOT353-1_AUP1G17_06_DrawingVerified_CANDIDATE",
+      "parts": [
+        "74AUP1G17GW,125",
+        "74AUP1G06GW,125"
+      ],
+      "reference_instances": [
+        "U91",
+        "U93"
+      ],
+      "source": {
+        "pdf": "/workspace/shared/k230-reference/mechanical/nexperia-high-temp/SOT353-1.pdf",
+        "url": "https://assets.nexperia.com/documents/package-information/SOT353-1.pdf",
+        "sha256": "9117da6e27ee855feb6f46e91cdce5788d9805b86e8325c9011db3c81a5558b9",
+        "document_date": "2022-11-15",
+        "outline_page": 2,
+        "outline_issue_date": "2021-12-16",
+        "reflow_page": 3,
+        "reflow_issue_date": "2022-11-03",
+        "access": "Normal public cloud-browser PDF view and download control; no login, access-warning override, or restricted-download retry"
+      },
+      "coordinate_frame": "Component top view, origin at body center, +X right, +Y down; package p2 top view rotated 90 degrees clockwise to put pin1 upper-left",
+      "nominal_body_mm": [
+        1.25,
+        2.0
+      ],
+      "maximum_body_mm": [
+        1.35,
+        2.2
+      ],
+      "excluded_protrusion_max_each_side_mm": 0.2,
+      "body_with_protrusions_max_mm": [
+        1.75,
+        2.6
+      ],
+      "maximum_lead_span_mm": 2.4,
+      "maximum_seated_height_mm": 1.1,
+      "pitch_mm": 0.65,
+      "pad_row_center_separation_mm": 1.95,
+      "copper_total_extent_mm": [
+        2.7,
+        1.7
+      ],
+      "mask_total_extent_mm": [
+        2.8,
+        1.8
+      ],
+      "paste_total_extent_mm": [
+        2.6,
+        1.6
+      ],
+      "vendor_occupied_bbox_mm": [
+        2.9,
+        2.35
+      ],
+      "vendor_occupied_polygon_mm": [
+        [
+          -1.45,
+          -1
+        ],
+        [
+          -0.775,
+          -1
+        ],
+        [
+          -0.775,
+          -1.175
+        ],
+        [
+          0.775,
+          -1.175
+        ],
+        [
+          0.775,
+          -1
+        ],
+        [
+          1.45,
+          -1
+        ],
+        [
+          1.45,
+          1
+        ],
+        [
+          0.775,
+          1
+        ],
+        [
+          0.775,
+          1.175
+        ],
+        [
+          -0.775,
+          1.175
+        ],
+        [
+          -0.775,
+          1
+        ],
+        [
+          -1.45,
+          1
+        ]
+      ],
+      "project_courtyard_mm": [
+        3.4,
+        3.1
+      ],
+      "project_courtyard_area_mm2": 10.54,
+      "courtyard_basis": "At least .25mm beyond vendor occupied bounding box, explicit mask openings, maximum leads and maximum body including drawing-excluded .2mm protrusions per side; Y enlarged to3.1mm for protrusions",
+      "recommended_stencil_mm": 0.125,
+      "mask_expansion_each_side_mm": 0.05,
+      "paste_reduction_each_side_mm": 0.05,
+      "apertures": "5 rectangular electrical copper pads + 5 explicit mask openings + 5 explicit paste openings; no exposed pad",
+      "status": "DRAWING_GEOMETRY_CANDIDATE_ASSEMBLY_PROCESS_UNQUALIFIED",
+      "pads": [
+        {
+          "pad": 1,
+          "x_mm": -0.975,
+          "y_mm": -0.65,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        },
+        {
+          "pad": 2,
+          "x_mm": -0.975,
+          "y_mm": 0,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        },
+        {
+          "pad": 3,
+          "x_mm": -0.975,
+          "y_mm": 0.65,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        },
+        {
+          "pad": 4,
+          "x_mm": 0.975,
+          "y_mm": 0.65,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        },
+        {
+          "pad": 5,
+          "x_mm": 0.975,
+          "y_mm": -0.65,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        }
+      ]
+    },
+    {
+      "package": "SOT363-2",
+      "footprint": "CMK230_Nexperia_Standard_Candidates:Nexperia_SOT363-2_AUP1G97_DrawingVerified_CANDIDATE",
+      "parts": [
+        "74AUP1G97GW,125"
+      ],
+      "reference_instances": [
+        "U92",
+        "U94"
+      ],
+      "source": {
+        "pdf": "/workspace/shared/k230-reference/mechanical/nexperia-high-temp/SOT363-2.pdf",
+        "url": "https://assets.nexperia.com/documents/package-information/SOT363-2.pdf",
+        "sha256": "42039a4f3d08415883afc978dbd1309b126fce0b8ef1503a7d0454af2f86c6fc",
+        "document_date": "2022-11-21",
+        "outline_page": 2,
+        "outline_issue_date": "2021-12-16",
+        "reflow_page": 3,
+        "reflow_issue_date": "2022-11-07",
+        "access": "Normal public cloud-browser PDF view and download control; no login, access-warning override, or restricted-download retry"
+      },
+      "coordinate_frame": "Component top view, origin at body center, +X right, +Y down; package p2 top view rotated 90 degrees clockwise to put pin1 upper-left",
+      "nominal_body_mm": [
+        1.25,
+        2.0
+      ],
+      "maximum_body_mm": [
+        1.35,
+        2.2
+      ],
+      "excluded_protrusion_max_each_side_mm": 0.2,
+      "body_with_protrusions_max_mm": [
+        1.75,
+        2.6
+      ],
+      "maximum_lead_span_mm": 2.4,
+      "maximum_seated_height_mm": 1.1,
+      "pitch_mm": 0.65,
+      "pad_row_center_separation_mm": 1.95,
+      "copper_total_extent_mm": [
+        2.7,
+        1.7
+      ],
+      "mask_total_extent_mm": [
+        2.8,
+        1.8
+      ],
+      "paste_total_extent_mm": [
+        2.6,
+        1.6
+      ],
+      "vendor_occupied_bbox_mm": [
+        2.9,
+        2.35
+      ],
+      "vendor_occupied_polygon_mm": [
+        [
+          -1.45,
+          -1
+        ],
+        [
+          -0.775,
+          -1
+        ],
+        [
+          -0.775,
+          -1.175
+        ],
+        [
+          0.775,
+          -1.175
+        ],
+        [
+          0.775,
+          -1
+        ],
+        [
+          1.45,
+          -1
+        ],
+        [
+          1.45,
+          1
+        ],
+        [
+          0.775,
+          1
+        ],
+        [
+          0.775,
+          1.175
+        ],
+        [
+          -0.775,
+          1.175
+        ],
+        [
+          -0.775,
+          1
+        ],
+        [
+          -1.45,
+          1
+        ]
+      ],
+      "project_courtyard_mm": [
+        3.4,
+        3.1
+      ],
+      "project_courtyard_area_mm2": 10.54,
+      "courtyard_basis": "At least .25mm beyond vendor occupied bounding box, explicit mask openings, maximum leads and maximum body including drawing-excluded .2mm protrusions per side; Y enlarged to3.1mm for protrusions",
+      "recommended_stencil_mm": 0.125,
+      "mask_expansion_each_side_mm": 0.05,
+      "paste_reduction_each_side_mm": 0.05,
+      "apertures": "6 rectangular electrical copper pads + 6 explicit mask openings + 6 explicit paste openings; no exposed pad",
+      "status": "DRAWING_GEOMETRY_CANDIDATE_ASSEMBLY_PROCESS_UNQUALIFIED",
+      "pads": [
+        {
+          "pad": 1,
+          "x_mm": -0.975,
+          "y_mm": -0.65,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        },
+        {
+          "pad": 2,
+          "x_mm": -0.975,
+          "y_mm": 0,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        },
+        {
+          "pad": 3,
+          "x_mm": -0.975,
+          "y_mm": 0.65,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        },
+        {
+          "pad": 4,
+          "x_mm": 0.975,
+          "y_mm": 0.65,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        },
+        {
+          "pad": 5,
+          "x_mm": 0.975,
+          "y_mm": 0,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        },
+        {
+          "pad": 6,
+          "x_mm": 0.975,
+          "y_mm": -0.65,
+          "copper_mm": [
+            0.75,
+            0.4
+          ],
+          "mask_mm": [
+            0.85,
+            0.5
+          ],
+          "paste_mm": [
+            0.65,
+            0.3
+          ]
+        }
+      ]
+    }
+  ],
+  "area_comparison": {
+    "standard_four_vendor_occupied_bbox_total_mm2": 27.26,
+    "X2SON_four_published_occupied_bbox_total_mm2": 5.04,
+    "vendor_occupied_bbox_delta_mm2": 22.22,
+    "standard_four_verified_project_courtyards_total_mm2": 42.16,
+    "X2SON_courtyard_status": "Not verified; no real courtyard-to-courtyard delta is claimed",
+    "standard_project_courtyard_vs_vendor_bbox_extra_mm2": 14.9,
+    "notes": [
+      "Manufacturer occupied dimensions are bounding boxes for stepped outlines, not literal copper areas.",
+      "Four-part courtyard total does not imply board placement, routing, thermal or PDN fit."
+    ]
+  },
+  "validation_files": [
+    "nexperia-standard-footprint-verification.json",
+    "nexperia-standard-geometry-drc.json",
+    "nexperia-standard-footprint-independent-review.json"
+  ],
+  "pin_review": "nexperia-standard-logic-variant-review.json"
+}

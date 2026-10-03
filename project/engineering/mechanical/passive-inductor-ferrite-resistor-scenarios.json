@@ -1,0 +1,145 @@
+{
+  "scope": "237_POPULATED_PART_BASELINE_CANDIDATES_ONLY",
+  "L22_L23_applied_delta_mm2": 2.96,
+  "baseline_dense_after_applied_correction_mm2": 1030.58,
+  "inductor_candidates": [
+    {
+      "references": [
+        "L21"
+      ],
+      "mpn": "DFE201612E-R47M=P2",
+      "proposed_reservation_mm": [
+        3,
+        2.4
+      ],
+      "delta_mm2": -13.96,
+      "inductance_uH": 0.47,
+      "max_DCR_mOhm": 26,
+      "current_at_30pct_L_drop_A": 5.5,
+      "current_at_40C_rise_A": 4.5,
+      "status": "not electrically qualified; no master change"
+    },
+    {
+      "references": [
+        "L21"
+      ],
+      "mpn": "XEL3520-471MEC",
+      "proposed_reservation_mm": [
+        4.1,
+        4.2
+      ],
+      "delta_mm2": -3.94,
+      "inductance_uH": 0.47,
+      "max_DCR_mOhm": 10.85,
+      "current_at_30pct_L_drop_A": 8,
+      "current_at_40C_rise_A": 12.1,
+      "status": "TI listed; application thermal and peak current unqualified; no master change"
+    }
+  ],
+  "ferrite_candidate": {
+    "references": [
+      "FB202",
+      "FB203",
+      "FB204",
+      "FB205",
+      "FB206",
+      "FB207",
+      "FB208",
+      "FB209",
+      "FB210"
+    ],
+    "mpn": "BLM15PX121SN1D",
+    "impedance_ohm_at_100MHz": 120,
+    "tolerance_pct": 25,
+    "max_DCR_initial_ohm": 0.055,
+    "rated_A_at_85C": 2,
+    "rated_A_at_125C": 1.1,
+    "foil_scenarios": [
+      {
+        "foil_um": 18,
+        "reservation_mm": [
+          1.8,
+          1.7
+        ],
+        "delta_nine_mm2": 1.8
+      },
+      {
+        "foil_um": 35,
+        "reservation_mm": [
+          1.8,
+          1.2
+        ],
+        "delta_nine_mm2": -6.3
+      },
+      {
+        "foil_um": 70,
+        "reservation_mm": [
+          1.8,
+          1.1
+        ],
+        "delta_nine_mm2": -7.92
+      }
+    ],
+    "status": "manufacturer geometry and ratings checked; branch electrical/noise and PCB stackup acceptance pending"
+  },
+  "unreserved_bulk_sensitivity": {
+    "existing_references": [
+      "C233",
+      "C234",
+      "C235",
+      "C236",
+      "C237",
+      "C238",
+      "C240",
+      "C241",
+      "C242",
+      "C243",
+      "C244"
+    ],
+    "additional_parts": 11,
+    "not_required_by_this_audit": true,
+    "add_0402_mm2": 17.6,
+    "add_0603_mm2": 31.46
+  },
+  "jumper_sensitivity": {
+    "mpn": "CRCW02010000Z0ED",
+    "max_resistance_ohm": 0.05,
+    "max_current_A_at_70C": 1,
+    "R561_180mA_drop_mV": 9,
+    "R561_180mA_power_mW": 1.62,
+    "R221_50mA_drop_mV": 2.5,
+    "R221_50mA_power_mW": 0.125,
+    "enlarge_both_to_0402_delta_mm2": 1.66,
+    "status": "0201 not rejected from known RMS loads; transient and thermal margins unresolved"
+  },
+  "power_feed_candidate": {
+    "reference": "R561",
+    "mpn": "WFZ040200000ZE66",
+    "max_resistance_ohm": 0.003,
+    "published_current_rating_A": 6.5,
+    "temperature_derating": "Power derating above70C; application PCB/current/temperature acceptance remains",
+    "reservation_mm": [
+      2,
+      1.2
+    ],
+    "delta_mm2": 1.63,
+    "drop_at_180mA_mV": 0.54,
+    "loss_at_180mA_mW": 0.0972,
+    "status": "Reservation applied to current area tool and MPN selected as candidate by lead"
+  },
+  "R220_land_pattern_correction_candidate": {
+    "reference": "R220",
+    "mpn": "WSL060300000ZEA9",
+    "manufacturer_copper_envelope_mm": [
+      2.52,
+      1.01
+    ],
+    "reservation_mm": [
+      3.2,
+      1.7
+    ],
+    "delta_mm2": 2.58,
+    "status": "Applied to current area tool by later lead authorization; do not double-count delta"
+  },
+  "historical_baseline_notice": "Earlier1030.58mm2 snapshot before R220/R561/Y2 corrections and laterMIPI additions. Use passive-physical-feasibility-status.json for currentbaseline."
+}

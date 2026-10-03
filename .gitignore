@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+**/runtime/
+**/config/
+**/cache/
+*.kicad_prl
+*.lck
+*.log
+*.r2-tmp
+.recovery-r2-backup/
+.env
+.env.*
+*.pem
+*.key

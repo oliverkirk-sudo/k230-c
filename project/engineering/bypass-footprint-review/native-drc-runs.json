@@ -1,0 +1,53 @@
+[
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/Bypass_Geometry_QA_ONLY-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/bypass-footprint-review/Bypass_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/Bypass_Geometry_QA_ONLY-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/Bypass_Negative_Clearance_026-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/bypass-footprint-review/Bypass_Negative_Clearance_026.kicad_pcb"
+    ],
+    "exit_code": 5,
+    "stdout": "Found 1 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/Bypass_Negative_Clearance_026-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/Bypass_Negative_Clearance_071-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/bypass-footprint-review/Bypass_Negative_Clearance_071.kicad_pcb"
+    ],
+    "exit_code": 5,
+    "stdout": "Found 2 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/engineering/bypass-footprint-review/Bypass_Negative_Clearance_071-drc.json\n",
+    "stderr": ""
+  }
+]

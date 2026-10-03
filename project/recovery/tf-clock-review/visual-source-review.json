@@ -1,0 +1,35 @@
+{
+  "review_date_utc": "2026-10-01",
+  "method": "Official PDF bytes rendered locally using pdftoppm, page images visually inspected with view_image",
+  "pages": [
+    {
+      "source": "NXP NVT4858 Rev. 2.4",
+      "page": 6,
+      "purpose": "Clock path direction, R1/R2 series elements, absence of CLKA pull",
+      "image": "/workspace/shared/k230-reference/tf-clock-review/nxp-functional-diagram.png",
+      "image_sha256": "3f80ff0c57674b53dc90b8eed1291c761d4934cd91ac486ec2291be9513a4bb1"
+    },
+    {
+      "source": "NXP NVT4858 Rev. 2.4",
+      "page": 14,
+      "purpose": "CLKA thresholds, output levels, capacitance and supply-current rows; no input-leakage specification",
+      "image": "/workspace/shared/k230-reference/tf-clock-review/nxp-static.png",
+      "image_sha256": "366e0b4db926ad3a487d3b732f594d27d422a2f8cd6c13a3b5ef8b466f84ac95"
+    },
+    {
+      "source": "NXP NVT4858 Rev. 2.4",
+      "page": 16,
+      "purpose": "Conditional host/card transition and 1.8/3.3 V propagation rows",
+      "image": "/workspace/shared/k230-reference/tf-clock-review/nxp-dynamic.png",
+      "image_sha256": "d678edc2bc93e5d7fbb1447a9926c550728bfcaa3f8a52c794d0ad9832de5da6"
+    },
+    {
+      "source": "TI TMUX1574 SCDS391C",
+      "page": 6,
+      "purpose": "OFF and powered-off leakage conditions, RON and control thresholds",
+      "image": "/workspace/shared/k230-reference/tf-clock-review/ti-leakage.png",
+      "image_sha256": "3188fea8efca202c39e0a8254cc3ab8dbbff3ba209dea9231baed55a2ff8eba1"
+    }
+  ],
+  "result": "Critical values agree with text extraction; TI font-cache warning did not prevent legible rendered content"
+}

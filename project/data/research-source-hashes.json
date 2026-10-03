@@ -1,0 +1,38 @@
+[
+  {
+    "filename": "CanMV-K230-V1.0_2023-09-15.pdf",
+    "bytes": 3100623,
+    "sha256": "fba13dac1faefe818d2d6a91670192aad5dd0baa62d63203a7ff34381b8cbcbb",
+    "included_in_package": false
+  },
+  {
+    "filename": "K230-USIP-EVB-LP4-V1_1-A_1-20230412-PCB.zip",
+    "bytes": 1934860,
+    "sha256": "0a96f107d71b2e8a3889a048ead231f86e5cd065013f8658c0469fad0e12129a",
+    "included_in_package": false
+  },
+  {
+    "filename": "K230-USIP-EVB-LP4-SCH-V1.1-A.1-20230330.DSN",
+    "bytes": 1792512,
+    "sha256": "41ce9c79d2c566aeb9de8c76b17521aa39ec0c030d4f17a721e236674d66a263",
+    "included_in_package": false
+  },
+  {
+    "filename": "K230-USIP-EVB-LP4-SCH-V1.1-A.1-20230330.xlsx",
+    "bytes": 19378,
+    "sha256": "86a2c9636f14a9bddbeafde9f23294dd75d97296b3f258287d33bae66a90e0c4",
+    "included_in_package": false
+  },
+  {
+    "filename": "emmc.pdf",
+    "bytes": 744944,
+    "sha256": "015be236158087add125892756a7ef7d63eaa7c0c55969c241597755eb784bd0",
+    "included_in_package": false
+  },
+  {
+    "filename": "lp4.pdf",
+    "bytes": 2073539,
+    "sha256": "feaa1ab8464bd3350b304acfe162be912655305cc1d32d84422653660378f461",
+    "included_in_package": false
+  }
+]

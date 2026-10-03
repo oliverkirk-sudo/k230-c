@@ -1,0 +1,49 @@
+{
+  "scope": "Drawing geometry only, no functional PCB sign-off",
+  "kicad_version": "9.0.2",
+  "units": "mm",
+  "coordinate_system": "component side, origin body center, positive X right, positive Y down",
+  "footprints": [
+    {
+      "name": "TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified",
+      "numbered_copper_pads": 16,
+      "paste_apertures": 16,
+      "explicit_mask_apertures": 16,
+      "min_copper_gap_mm": 0.2,
+      "min_mask_web_mm": 0.1,
+      "status": "PASS",
+      "sha256": "b2348872ac5828727b3154d2f79a2c8508ed8e9408343aa1c6f653c2714d3d69"
+    },
+    {
+      "name": "TI_DBV0005A_SN74LVC1G32_SOT23_5_DrawingVerified",
+      "numbered_copper_pads": 5,
+      "paste_apertures": 5,
+      "explicit_mask_apertures": 5,
+      "min_copper_gap_mm": 0.35,
+      "min_mask_web_mm": 0.25,
+      "status": "PASS",
+      "sha256": "747733ca44819d006b4b790e691a398bd7474cead43c705e02345dccabc06bd6"
+    },
+    {
+      "name": "TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified",
+      "numbered_copper_pads": 6,
+      "paste_apertures": 6,
+      "explicit_mask_apertures": 6,
+      "min_copper_gap_mm": 0.15,
+      "min_mask_web_mm": 0.25,
+      "status": "PASS",
+      "sha256": "ed4fe1de5279cb43653a73df85d7d9d6bad8bc4f43b171bd808e744982da027a"
+    },
+    {
+      "name": "TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified",
+      "numbered_copper_pads": 15,
+      "paste_apertures": 15,
+      "explicit_mask_apertures": 15,
+      "min_copper_gap_mm": 0.085,
+      "min_mask_web_mm": 0.15,
+      "status": "PASS",
+      "sha256": "1d730832473307aa1c8a048a17d344f71d982a29c77fce9c5cc41a1ce6ca0d09"
+    }
+  ],
+  "numeric_assertions_passed": 568
+}

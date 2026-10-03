@@ -1,0 +1,4182 @@
+{
+  "status": "MANUFACTURER_EVIDENCE_CANDIDATES_NOT_RELEASED",
+  "generated_UTC": "2026-09-30",
+  "scope": "Exact capacitor candidates, dimensions, DC-bias data and planning reservations only; no edits to the frozen master or existing mechanical reports.",
+  "source_master": {
+    "file": "/workspace/shared/cm-k230-redesign/cad/integrated/master.xml",
+    "sha256": "a12ca499b629565ff17fa50ce880a295f00863b2e61fe1e126069aa1ea035394"
+  },
+  "source_area_screen": {
+    "file": "/workspace/shared/cm-k230-redesign/engineering/mechanical/full-bom-area-screen.json",
+    "sha256": "3cf25a20fe006bdc7ebb9b3d22237a5069f318e86d148bcdeb6a1ce3b8432bbf"
+  },
+  "scope_limits": [
+    "No routed fit, packing, manufacturing footprint or board release is claimed.",
+    "No master capacitance was removed. All substitutions are sensitivity cases only.",
+    "The smallest verified candidate is not proof of the smallest available part worldwide.",
+    "The eleven local bulk TBD positions reserve only 100nF parts; final bulk values, counts and area remain unresolved.",
+    "Conservative rectangle comparisons do not prescribe 0.25 mm courtyards for all 0201 parts; the coherent scenario leaves those baseline reservations unchanged."
+  ],
+  "rail_components": [
+    {
+      "reference": "C201",
+      "value": "47uF X7R / Ceff>=10uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CORE"
+        }
+      ]
+    },
+    {
+      "reference": "C203",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C204",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C205",
+      "value": "100nF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C206",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CPU"
+        }
+      ]
+    },
+    {
+      "reference": "C207",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CPU"
+        }
+      ]
+    },
+    {
+      "reference": "C208",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CPU"
+        }
+      ]
+    },
+    {
+      "reference": "C209",
+      "value": "100nF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C210",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C211",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C212",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_KPU"
+        }
+      ]
+    },
+    {
+      "reference": "C213",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_KPU"
+        }
+      ]
+    },
+    {
+      "reference": "C214",
+      "value": "22uF X7R / total Ceff>=30uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_KPU"
+        }
+      ]
+    },
+    {
+      "reference": "C215",
+      "value": "100nF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C216",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C217",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C218",
+      "value": "47uF X7R / Ceff>=10uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "C220",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C221",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C222",
+      "value": "100nF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C223",
+      "value": "47uF X7R / Ceff>=10uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "C225",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C226",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C227",
+      "value": "100nF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C228",
+      "value": "47uF X7R / Ceff>=10uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD_3V3"
+        }
+      ]
+    },
+    {
+      "reference": "C230",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C231",
+      "value": "10uF 10V X7R",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C232",
+      "value": "100nF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "C233",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_DDR_CORE"
+        }
+      ]
+    },
+    {
+      "reference": "C234",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "1",
+          "net": "AVDD0P8_PLL"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C235",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "1",
+          "net": "AVDD0P8_MIPI"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C236",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VAA_DDR"
+        }
+      ]
+    },
+    {
+      "reference": "C237",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "1",
+          "net": "AVDD1P8_USB"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C238",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "1",
+          "net": "AVDD1P8_PMU"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C240",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "1",
+          "net": "AVDD1P8_MIPI"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C241",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "1",
+          "net": "AVDD1P8_ADC"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C242",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "1",
+          "net": "AVDD1P8_CODEC"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C243",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "1",
+          "net": "AVDD3P3_USB"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C244",
+      "value": "100nF REF / local bulk TBD",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD3P3_SD"
+        }
+      ]
+    },
+    {
+      "reference": "C64",
+      "value": "2.2uF/6.3V OLIMEX REF",
+      "nets": [
+        {
+          "pin": "1",
+          "net": "EMMC_VDDI"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C65",
+      "value": "220nF OLIMEX REF",
+      "nets": [
+        {
+          "pin": "1",
+          "net": "EMMC_VDDI"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C501",
+      "value": "4.7uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CORE"
+        }
+      ]
+    },
+    {
+      "reference": "C502",
+      "value": "4.7uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CORE"
+        }
+      ]
+    },
+    {
+      "reference": "C517",
+      "value": "4.7uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CPU"
+        }
+      ]
+    },
+    {
+      "reference": "C521",
+      "value": "4.7uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_KPU"
+        }
+      ]
+    },
+    {
+      "reference": "C522",
+      "value": "4.7uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_KPU"
+        }
+      ]
+    },
+    {
+      "reference": "C529",
+      "value": "4.7uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_DDR_CORE"
+        }
+      ]
+    },
+    {
+      "reference": "C534",
+      "value": "4.7uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "C540",
+      "value": "22uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "C541",
+      "value": "4.7uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "C552",
+      "value": "22uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "C553",
+      "value": "4.7uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "C562",
+      "value": "22uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "C563",
+      "value": "4.7uF",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "C815",
+      "value": "1uF X5R/X7R ESR<0.5Ohm",
+      "nets": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ]
+    }
+  ],
+  "TI_requirements": {
+    "TPS6282x_A_min_output_Ceff_uF": 10,
+    "TPS62827_non_A_min_output_Ceff_uF": 20,
+    "TPS6282x_A_min_input_Ceff_uF": 3,
+    "TPS62864_min_output_Ceff_uF": 30,
+    "TPS62864_sufficient_effective_input_uF": 8,
+    "sources": [
+      {
+        "url": "https://www.ti.com/lit/ds/symlink/tps62827.pdf",
+        "local": "/workspace/shared/k230-reference/tps62827.pdf",
+        "sections": "8.2.2.3, Table 8-3, and 8.2.2.5"
+      },
+      {
+        "url": "https://www.ti.com/lit/ds/symlink/tps62864.pdf",
+        "local": "/workspace/shared/k230-reference/tps62864.pdf",
+        "sections": "9.2.1.2.3, Table 9-3, and 9.2.1.2.5"
+      }
+    ]
+  },
+  "candidate_parts": [
+    {
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL03B104KP3NNWC",
+      "nominal_uF": 0.1,
+      "rated_V": 10,
+      "tolerance_fraction": 0.1,
+      "dielectric": "X7R",
+      "case_inch": "0201",
+      "body_nominal_xyz_mm": [
+        0.6,
+        0.3,
+        0.3
+      ],
+      "body_tolerance_xyz_mm": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "body_max_xyz_mm": [
+        0.63,
+        0.32999999999999996,
+        0.32999999999999996
+      ],
+      "provisional_conservative_reservation_xy_mm": [
+        1.55,
+        0.9
+      ],
+      "source": "samsung-CL03B104KP3NNW.html",
+      "dc_bias": {
+        "status": "OFFICIAL_TYPICAL_CURVE_NOT_GUARANTEED_MINIMUM",
+        "frequency_Hz": 1000,
+        "measurement_AC_Vrms": 1.0,
+        "temperature_C": 25.0,
+        "points": [
+          {
+            "V": 0.0,
+            "delta_C_percent": 0.0
+          },
+          {
+            "V": 0.05,
+            "delta_C_percent": -0.001347878348949292
+          },
+          {
+            "V": 0.1,
+            "delta_C_percent": 0.003500460189810141
+          },
+          {
+            "V": 0.15000000000000002,
+            "delta_C_percent": 0.01188949409297456
+          },
+          {
+            "V": 0.2,
+            "delta_C_percent": 0.02116370183724022
+          },
+          {
+            "V": 0.25,
+            "delta_C_percent": 0.028667561899303397
+          },
+          {
+            "V": 0.3,
+            "delta_C_percent": 0.03174555275586033
+          },
+          {
+            "V": 0.35,
+            "delta_C_percent": 0.02774215288360732
+          },
+          {
+            "V": 0.39999999999999997,
+            "delta_C_percent": 0.014001840759240547
+          },
+          {
+            "V": 0.44999999999999996,
+            "delta_C_percent": -0.012130905140543602
+          },
+          {
+            "V": 0.5,
+            "delta_C_percent": -0.05331160633904901
+          },
+          {
+            "V": 0.5477500000000001,
+            "delta_C_percent": -0.0833416318380912
+          },
+          {
+            "V": 0.592,
+            "delta_C_percent": -0.08491231246636388
+          },
+          {
+            "V": 0.6342500000000001,
+            "delta_C_percent": -0.07401411248748795
+          },
+          {
+            "V": 0.6759999999999999,
+            "delta_C_percent": -0.06663749616508419
+          },
+          {
+            "V": 0.71875,
+            "delta_C_percent": -0.07877292776277345
+          },
+          {
+            "V": 0.764,
+            "delta_C_percent": -0.12641087154417652
+          },
+          {
+            "V": 0.81325,
+            "delta_C_percent": -0.22554179177291445
+          },
+          {
+            "V": 0.868,
+            "delta_C_percent": -0.39215615271260784
+          },
+          {
+            "V": 0.92975,
+            "delta_C_percent": -0.6422444186268776
+          },
+          {
+            "V": 1.0,
+            "delta_C_percent": -0.9917970537793444
+          },
+          {
+            "V": 1.079075,
+            "delta_C_percent": -1.425707510398283
+          },
+          {
+            "V": 1.1655999999999997,
+            "delta_C_percent": -1.9190005582630538
+          },
+          {
+            "V": 1.2585250000000001,
+            "delta_C_percent": -2.4728636379639073
+          },
+          {
+            "V": 1.3568,
+            "delta_C_percent": -3.0884841900910915
+          },
+          {
+            "V": 1.4593749999999999,
+            "delta_C_percent": -3.767049655234858
+          },
+          {
+            "V": 1.5652,
+            "delta_C_percent": -4.509747473985456
+          },
+          {
+            "V": 1.673225,
+            "delta_C_percent": -5.317765086933137
+          },
+          {
+            "V": 1.7824000000000002,
+            "delta_C_percent": -6.192289934668148
+          },
+          {
+            "V": 1.8916749999999996,
+            "delta_C_percent": -7.134509457780741
+          },
+          {
+            "V": 2.0,
+            "delta_C_percent": -8.145611096861167
+          },
+          {
+            "V": 2.110275,
+            "delta_C_percent": -9.269052863990034
+          },
+          {
+            "V": 2.2252,
+            "delta_C_percent": -10.527746679340757
+          },
+          {
+            "V": 2.343425,
+            "delta_C_percent": -11.892060845642789
+          },
+          {
+            "V": 2.4636,
+            "delta_C_percent": -13.332363665625588
+          },
+          {
+            "V": 2.5843749999999996,
+            "delta_C_percent": -14.819023442018601
+          },
+          {
+            "V": 2.7044,
+            "delta_C_percent": -16.322408477551285
+          },
+          {
+            "V": 2.8223249999999998,
+            "delta_C_percent": -17.812887074953096
+          },
+          {
+            "V": 2.9368,
+            "delta_C_percent": -19.260827536953485
+          },
+          {
+            "V": 3.046475,
+            "delta_C_percent": -20.636598166281903
+          },
+          {
+            "V": 3.15,
+            "delta_C_percent": -21.91056726566782
+          },
+          {
+            "V": 3.2464749999999998,
+            "delta_C_percent": -23.09146762828733
+          },
+          {
+            "V": 3.3367999999999998,
+            "delta_C_percent": -24.214879973444777
+          },
+          {
+            "V": 3.4223250000000003,
+            "delta_C_percent": -25.29144449306194
+          },
+          {
+            "V": 3.5044,
+            "delta_C_percent": -26.331801379060607
+          },
+          {
+            "V": 3.5843749999999996,
+            "delta_C_percent": -27.346590823362554
+          },
+          {
+            "V": 3.6636,
+            "delta_C_percent": -28.346453017889566
+          },
+          {
+            "V": 3.743425,
+            "delta_C_percent": -29.34202815456343
+          },
+          {
+            "V": 3.8251999999999997,
+            "delta_C_percent": -30.34395642530592
+          },
+          {
+            "V": 3.9102749999999995,
+            "delta_C_percent": -31.362878022038828
+          },
+          {
+            "V": 4.0,
+            "delta_C_percent": -32.40943313668393
+          },
+          {
+            "V": 4.092575,
+            "delta_C_percent": -33.474920158325425
+          },
+          {
+            "V": 4.1856,
+            "delta_C_percent": -34.543470585572685
+          },
+          {
+            "V": 4.279525,
+            "delta_C_percent": -35.61497427463525
+          },
+          {
+            "V": 4.3748000000000005,
+            "delta_C_percent": -36.68932108172268
+          },
+          {
+            "V": 4.471875000000001,
+            "delta_C_percent": -37.76640086304451
+          },
+          {
+            "V": 4.571199999999999,
+            "delta_C_percent": -38.84610347481028
+          },
+          {
+            "V": 4.6732249999999995,
+            "delta_C_percent": -39.928318773229535
+          },
+          {
+            "V": 4.7784,
+            "delta_C_percent": -41.01293661451182
+          },
+          {
+            "V": 4.887174999999999,
+            "delta_C_percent": -42.0998468548667
+          },
+          {
+            "V": 5.0,
+            "delta_C_percent": -43.1889393505037
+          },
+          {
+            "V": 5.11605,
+            "delta_C_percent": -44.284624128028334
+          },
+          {
+            "V": 5.2344,
+            "delta_C_percent": -45.38946542541154
+          },
+          {
+            "V": 5.3553500000000005,
+            "delta_C_percent": -46.50058441591101
+          },
+          {
+            "V": 5.4792,
+            "delta_C_percent": -47.61510227278443
+          },
+          {
+            "V": 5.606249999999999,
+            "delta_C_percent": -48.7301401692895
+          },
+          {
+            "V": 5.7368,
+            "delta_C_percent": -49.84281927868392
+          },
+          {
+            "V": 5.871149999999999,
+            "delta_C_percent": -50.950260774225356
+          },
+          {
+            "V": 6.009600000000001,
+            "delta_C_percent": -52.04958582917152
+          },
+          {
+            "V": 6.15245,
+            "delta_C_percent": -53.13791561678009
+          },
+          {
+            "V": 6.3,
+            "delta_C_percent": -54.21237131030876
+          },
+          {
+            "V": 6.452450000000001,
+            "delta_C_percent": -55.281745552755865
+          },
+          {
+            "V": 6.6095999999999995,
+            "delta_C_percent": -56.35390859574211
+          },
+          {
+            "V": 6.77115,
+            "delta_C_percent": -57.424598025458806
+          },
+          {
+            "V": 6.936800000000001,
+            "delta_C_percent": -58.48955142809723
+          },
+          {
+            "V": 7.106249999999999,
+            "delta_C_percent": -59.54450638984866
+          },
+          {
+            "V": 7.279199999999999,
+            "delta_C_percent": -60.5852004969044
+          },
+          {
+            "V": 7.455349999999999,
+            "delta_C_percent": -61.607371335455724
+          },
+          {
+            "V": 7.634399999999999,
+            "delta_C_percent": -62.606756491693936
+          },
+          {
+            "V": 7.816049999999999,
+            "delta_C_percent": -63.579093551810324
+          },
+          {
+            "V": 8.0,
+            "delta_C_percent": -64.52012010199616
+          },
+          {
+            "V": 8.16985,
+            "delta_C_percent": -65.40732028707795
+          },
+          {
+            "V": 8.316799999999999,
+            "delta_C_percent": -66.23260557961282
+          },
+          {
+            "V": 8.45195,
+            "delta_C_percent": -67.01335455738793
+          },
+          {
+            "V": 8.5864,
+            "delta_C_percent": -67.76694579819042
+          },
+          {
+            "V": 8.73125,
+            "delta_C_percent": -68.51075787980746
+          },
+          {
+            "V": 8.897599999999999,
+            "delta_C_percent": -69.26216938002624
+          },
+          {
+            "V": 9.096549999999999,
+            "delta_C_percent": -70.03855887663393
+          },
+          {
+            "V": 9.339200000000002,
+            "delta_C_percent": -70.85730494741765
+          },
+          {
+            "V": 9.63665,
+            "delta_C_percent": -71.73578617016459
+          },
+          {
+            "V": 10.0,
+            "delta_C_percent": -72.69138112266195
+          }
+        ],
+        "interpolated_rail_points": [
+          {
+            "V": 0.8,
+            "delta_C_percent": -0.1988720518128987,
+            "typical_C_uF": 0.0998011279481871
+          },
+          {
+            "V": 1.1,
+            "delta_C_percent": -1.5450043266545141,
+            "typical_C_uF": 0.0984549956733455
+          },
+          {
+            "V": 1.8,
+            "delta_C_percent": -6.34404526394549,
+            "typical_C_uF": 0.09365595473605452
+          },
+          {
+            "V": 3.3,
+            "delta_C_percent": -23.75718194630064,
+            "typical_C_uF": 0.07624281805369937
+          },
+          {
+            "V": 5,
+            "delta_C_percent": -43.1889393505037,
+            "typical_C_uF": 0.05681106064949631
+          },
+          {
+            "V": 5.5,
+            "delta_C_percent": -47.797650783192196,
+            "typical_C_uF": 0.0522023492168078
+          }
+        ]
+      },
+      "notes": "10 V rating covers nominal 5 V, but capacitance drops to 56.81 nF typical. Samsung 0603 metric reflow land maximum is 1.02 x 0.36 mm for the +/-0.03 mm row; add 0.25 mm per side and round. Existing 1.1 x 0.7 mm dense reservation is not qualified by this conservative method.",
+      "release_status": "CANDIDATE_ONLY"
+    },
+    {
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL03A224KQ3NNNC",
+      "nominal_uF": 0.22,
+      "rated_V": 6.3,
+      "tolerance_fraction": 0.1,
+      "dielectric": "X5R",
+      "case_inch": "0201",
+      "body_nominal_xyz_mm": [
+        0.6,
+        0.3,
+        0.3
+      ],
+      "body_tolerance_xyz_mm": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "body_max_xyz_mm": [
+        0.63,
+        0.32999999999999996,
+        0.32999999999999996
+      ],
+      "provisional_conservative_reservation_xy_mm": [
+        1.55,
+        0.9
+      ],
+      "source": "samsung-CL03A224KQ3NNN.html",
+      "dc_bias": {
+        "status": "OFFICIAL_TYPICAL_CURVE_NOT_GUARANTEED_MINIMUM",
+        "frequency_Hz": 1000,
+        "measurement_AC_Vrms": 1.0,
+        "temperature_C": 25.0,
+        "points": [
+          {
+            "V": 0.0,
+            "delta_C_percent": 0.0
+          },
+          {
+            "V": 0.05,
+            "delta_C_percent": -0.24957198780197687
+          },
+          {
+            "V": 0.1,
+            "delta_C_percent": -0.46400242230248523
+          },
+          {
+            "V": 0.15000000000000002,
+            "delta_C_percent": -0.6583519692021546
+          },
+          {
+            "V": 0.2,
+            "delta_C_percent": -0.8476812942016139
+          },
+          {
+            "V": 0.25,
+            "delta_C_percent": -1.047051063001493
+          },
+          {
+            "V": 0.3,
+            "delta_C_percent": -1.2715219413024208
+          },
+          {
+            "V": 0.35,
+            "delta_C_percent": -1.5361545948050268
+          },
+          {
+            "V": 0.39999999999999997,
+            "delta_C_percent": -1.8560096892099411
+          },
+          {
+            "V": 0.44999999999999996,
+            "delta_C_percent": -2.2461478902177916
+          },
+          {
+            "V": 0.5,
+            "delta_C_percent": -2.721629863529209
+          },
+          {
+            "V": 0.5477500000000001,
+            "delta_C_percent": -3.2293401388498397
+          },
+          {
+            "V": 0.592,
+            "delta_C_percent": -3.724151653437724
+          },
+          {
+            "V": 0.6342500000000001,
+            "delta_C_percent": -4.23310768432208
+          },
+          {
+            "V": 0.6759999999999999,
+            "delta_C_percent": -4.783251508532128
+          },
+          {
+            "V": 0.71875,
+            "delta_C_percent": -5.401626403097087
+          },
+          {
+            "V": 0.764,
+            "delta_C_percent": -6.115275645046175
+          },
+          {
+            "V": 0.81325,
+            "delta_C_percent": -6.95124251140861
+          },
+          {
+            "V": 0.868,
+            "delta_C_percent": -7.9365702792136155
+          },
+          {
+            "V": 0.92975,
+            "delta_C_percent": -9.098302225490405
+          },
+          {
+            "V": 1.0,
+            "delta_C_percent": -10.463481627268203
+          },
+          {
+            "V": 1.079075,
+            "delta_C_percent": -12.077779483963058
+          },
+          {
+            "V": 1.1655999999999997,
+            "delta_C_percent": -13.938523693146179
+          },
+          {
+            "V": 1.2585250000000001,
+            "delta_C_percent": -16.000242879079522
+          },
+          {
+            "V": 1.3568,
+            "delta_C_percent": -18.21746566602504
+          },
+          {
+            "V": 1.4593749999999999,
+            "delta_C_percent": -20.54472067824469
+          },
+          {
+            "V": 1.5652,
+            "delta_C_percent": -22.93653654000043
+          },
+          {
+            "V": 1.673225,
+            "delta_C_percent": -25.3474418755542
+          },
+          {
+            "V": 1.7824000000000002,
+            "delta_C_percent": -27.73196530916798
+          },
+          {
+            "V": 1.8916749999999996,
+            "delta_C_percent": -30.0446354651037
+          },
+          {
+            "V": 2.0,
+            "delta_C_percent": -32.239980967623325
+          },
+          {
+            "V": 2.110275,
+            "delta_C_percent": -34.39770140796331
+          },
+          {
+            "V": 2.2252,
+            "delta_C_percent": -36.60922983757596
+          },
+          {
+            "V": 2.343425,
+            "delta_C_percent": -38.846695071046994
+          },
+          {
+            "V": 2.4636,
+            "delta_C_percent": -41.08222592296213
+          },
+          {
+            "V": 2.5843749999999996,
+            "delta_C_percent": -43.287951207907085
+          },
+          {
+            "V": 2.7044,
+            "delta_C_percent": -45.43599974046759
+          },
+          {
+            "V": 2.8223249999999998,
+            "delta_C_percent": -47.49850033522936
+          },
+          {
+            "V": 2.9368,
+            "delta_C_percent": -49.44758180677812
+          },
+          {
+            "V": 3.046475,
+            "delta_C_percent": -51.255372969699586
+          },
+          {
+            "V": 3.15,
+            "delta_C_percent": -52.894002638579494
+          },
+          {
+            "V": 3.2464749999999998,
+            "delta_C_percent": -54.34866038021498
+          },
+          {
+            "V": 3.3367999999999998,
+            "delta_C_percent": -55.64002162770076
+          },
+          {
+            "V": 3.4223250000000003,
+            "delta_C_percent": -56.79344399506889
+          },
+          {
+            "V": 3.5044,
+            "delta_C_percent": -57.834285096351415
+          },
+          {
+            "V": 3.5843749999999996,
+            "delta_C_percent": -58.78790254558038
+          },
+          {
+            "V": 3.6636,
+            "delta_C_percent": -59.67965395678786
+          },
+          {
+            "V": 3.743425,
+            "delta_C_percent": -60.534896944005894
+          },
+          {
+            "V": 3.8251999999999997,
+            "delta_C_percent": -61.37898912126652
+          },
+          {
+            "V": 3.9102749999999995,
+            "delta_C_percent": -62.237288102601816
+          },
+          {
+            "V": 4.0,
+            "delta_C_percent": -63.13515150204382
+          },
+          {
+            "V": 4.092575,
+            "delta_C_percent": -64.04792092912602
+          },
+          {
+            "V": 4.1856,
+            "delta_C_percent": -64.93560049311158
+          },
+          {
+            "V": 4.279525,
+            "delta_C_percent": -65.800541557627
+          },
+          {
+            "V": 4.3748000000000005,
+            "delta_C_percent": -66.64509548629884
+          },
+          {
+            "V": 4.471875000000001,
+            "delta_C_percent": -67.47161364275364
+          },
+          {
+            "V": 4.571199999999999,
+            "delta_C_percent": -68.2824473906179
+          },
+          {
+            "V": 4.6732249999999995,
+            "delta_C_percent": -69.07994809351817
+          },
+          {
+            "V": 4.7784,
+            "delta_C_percent": -69.866467115081
+          },
+          {
+            "V": 4.887174999999999,
+            "delta_C_percent": -70.64435581893287
+          },
+          {
+            "V": 5.0,
+            "delta_C_percent": -71.41596556870039
+          },
+          {
+            "V": 5.11605,
+            "delta_C_percent": -72.1801738867141
+          },
+          {
+            "V": 5.2344,
+            "delta_C_percent": -72.93391872310055
+          },
+          {
+            "V": 5.3553500000000005,
+            "delta_C_percent": -73.67664208318013
+          },
+          {
+            "V": 5.4792,
+            "delta_C_percent": -74.40778597227327
+          },
+          {
+            "V": 5.606249999999999,
+            "delta_C_percent": -75.12679239570042
+          },
+          {
+            "V": 5.7368,
+            "delta_C_percent": -75.83310335878193
+          },
+          {
+            "V": 5.871149999999999,
+            "delta_C_percent": -76.52616086683825
+          },
+          {
+            "V": 6.009600000000001,
+            "delta_C_percent": -77.20540692518978
+          },
+          {
+            "V": 6.15245,
+            "delta_C_percent": -77.87028353915694
+          },
+          {
+            "V": 6.3,
+            "delta_C_percent": -78.52023271406016
+          }
+        ],
+        "interpolated_rail_points": [
+          {
+            "V": 0.8,
+            "delta_C_percent": -6.726337719950696,
+            "typical_C_uF": 0.20520205701610847
+          },
+          {
+            "V": 1.1,
+            "delta_C_percent": -12.527777433424568,
+            "typical_C_uF": 0.19243888964646594
+          },
+          {
+            "V": 1.8,
+            "delta_C_percent": -28.10444753057698,
+            "typical_C_uF": 0.15817021543273063
+          },
+          {
+            "V": 3.3,
+            "delta_C_percent": -55.113898252029834,
+            "typical_C_uF": 0.09874942384553437
+          },
+          {
+            "V": 5,
+            "delta_C_percent": -71.41596556870039,
+            "typical_C_uF": 0.06288487574885915
+          },
+          {
+            "V": 5.5,
+            "delta_C_percent": -74.52549816123262,
+            "typical_C_uF": 0.056043904045288244
+          }
+        ]
+      },
+      "notes": "X5R, not X7R. C65 is on EMMC_VDDI; internal voltage and operating temperature need verification. Same 0201 land basis as CL03B104KP3NNWC. No 220 nF X7R 0201 candidate was verified.",
+      "release_status": "CANDIDATE_ONLY"
+    },
+    {
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL32B476KQVVPNE",
+      "nominal_uF": 47,
+      "rated_V": 6.3,
+      "tolerance_fraction": 0.1,
+      "dielectric": "X7R",
+      "case_inch": "1210",
+      "body_nominal_xyz_mm": [
+        3.2,
+        2.5,
+        2.5
+      ],
+      "body_tolerance_xyz_mm": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "body_max_xyz_mm": [
+        3.6,
+        2.8,
+        2.8
+      ],
+      "provisional_conservative_reservation_xy_mm": [
+        5.5,
+        3.5
+      ],
+      "source": "samsung-CL32B476KQVVPN.html",
+      "dc_bias": {
+        "status": "OFFICIAL_TYPICAL_CURVE_NOT_GUARANTEED_MINIMUM",
+        "frequency_Hz": 120,
+        "measurement_AC_Vrms": 0.5,
+        "temperature_C": 25.0,
+        "points": [
+          {
+            "V": 0.0,
+            "delta_C_percent": 0.0
+          },
+          {
+            "V": 0.05,
+            "delta_C_percent": 0.2850062222271165
+          },
+          {
+            "V": 0.1,
+            "delta_C_percent": 0.5861723391719482
+          },
+          {
+            "V": 0.15000000000000002,
+            "delta_C_percent": 0.89657268166976
+          },
+          {
+            "V": 0.2,
+            "delta_C_percent": 1.2092815805558166
+          },
+          {
+            "V": 0.25,
+            "delta_C_percent": 1.5173733666653832
+          },
+          {
+            "V": 0.3,
+            "delta_C_percent": 1.8139223708337249
+          },
+          {
+            "V": 0.35,
+            "delta_C_percent": 2.092002923896106
+          },
+          {
+            "V": 0.39999999999999997,
+            "delta_C_percent": 2.344689356687793
+          },
+          {
+            "V": 0.44999999999999996,
+            "delta_C_percent": 2.5650560000440485
+          },
+          {
+            "V": 0.5,
+            "delta_C_percent": 2.74617718480014
+          },
+          {
+            "V": 0.5477500000000001,
+            "delta_C_percent": 2.9079045342415113
+          },
+          {
+            "V": 0.592,
+            "delta_C_percent": 3.068448903401284
+          },
+          {
+            "V": 0.6342500000000001,
+            "delta_C_percent": 3.218423470736236
+          },
+          {
+            "V": 0.6759999999999999,
+            "delta_C_percent": 3.348441414703145
+          },
+          {
+            "V": 0.71875,
+            "delta_C_percent": 3.4491159137587895
+          },
+          {
+            "V": 0.764,
+            "delta_C_percent": 3.5110601463599473
+          },
+          {
+            "V": 0.81325,
+            "delta_C_percent": 3.5248872909633957
+          },
+          {
+            "V": 0.868,
+            "delta_C_percent": 3.4812105260259134
+          },
+          {
+            "V": 0.92975,
+            "delta_C_percent": 3.3706430300042785
+          },
+          {
+            "V": 1.0,
+            "delta_C_percent": 3.183797981355267
+          },
+          {
+            "V": 1.079075,
+            "delta_C_percent": 2.931092069688863
+          },
+          {
+            "V": 1.1655999999999997,
+            "delta_C_percent": 2.628046826388768
+          },
+          {
+            "V": 1.2585250000000001,
+            "delta_C_percent": 2.272932692572339
+          },
+          {
+            "V": 1.3568,
+            "delta_C_percent": 1.864020109356934
+          },
+          {
+            "V": 1.4593749999999999,
+            "delta_C_percent": 1.3995795178599102
+          },
+          {
+            "V": 1.5652,
+            "delta_C_percent": 0.877881359198626
+          },
+          {
+            "V": 1.673225,
+            "delta_C_percent": 0.2971960744904387
+          },
+          {
+            "V": 1.7824000000000002,
+            "delta_C_percent": -0.3442058951472935
+          },
+          {
+            "V": 1.8916749999999996,
+            "delta_C_percent": -1.0480541085972137
+          },
+          {
+            "V": 2.0,
+            "delta_C_percent": -1.816078124741963
+          },
+          {
+            "V": 2.110275,
+            "delta_C_percent": -2.6807529101301877
+          },
+          {
+            "V": 2.2252,
+            "delta_C_percent": -3.658326496225432
+          },
+          {
+            "V": 2.343425,
+            "delta_C_percent": -4.726188039282688
+          },
+          {
+            "V": 2.4636,
+            "delta_C_percent": -5.861726695556943
+          },
+          {
+            "V": 2.5843749999999996,
+            "delta_C_percent": -7.042331621303189
+          },
+          {
+            "V": 2.7044,
+            "delta_C_percent": -8.245391972776419
+          },
+          {
+            "V": 2.8223249999999998,
+            "delta_C_percent": -9.44829690623162
+          },
+          {
+            "V": 2.9368,
+            "delta_C_percent": -10.628435577923787
+          },
+          {
+            "V": 3.046475,
+            "delta_C_percent": -11.763197144107906
+          },
+          {
+            "V": 3.15,
+            "delta_C_percent": -12.82997076103897
+          },
+          {
+            "V": 3.2464749999999998,
+            "delta_C_percent": -13.83546215178933
+          },
+          {
+            "V": 3.3367999999999998,
+            "delta_C_percent": -14.806845000468075
+          },
+          {
+            "V": 3.4223250000000003,
+            "delta_C_percent": -15.752210404885314
+          },
+          {
+            "V": 3.5044,
+            "delta_C_percent": -16.67964946285115
+          },
+          {
+            "V": 3.5843749999999996,
+            "delta_C_percent": -17.597253272175692
+          },
+          {
+            "V": 3.6636,
+            "delta_C_percent": -18.513112930669042
+          },
+          {
+            "V": 3.743425,
+            "delta_C_percent": -19.435319536141304
+          },
+          {
+            "V": 3.8251999999999997,
+            "delta_C_percent": -20.37196418640259
+          },
+          {
+            "V": 3.9102749999999995,
+            "delta_C_percent": -21.331137979262998
+          },
+          {
+            "V": 4.0,
+            "delta_C_percent": -22.32093201253264
+          },
+          {
+            "V": 4.092575,
+            "delta_C_percent": -23.334487863904002
+          },
+          {
+            "V": 4.1856,
+            "delta_C_percent": -24.359604530662427
+          },
+          {
+            "V": 4.279525,
+            "delta_C_percent": -25.396359240007317
+          },
+          {
+            "V": 4.3748000000000005,
+            "delta_C_percent": -26.44482921913806
+          },
+          {
+            "V": 4.471875000000001,
+            "delta_C_percent": -27.505091695254052
+          },
+          {
+            "V": 4.571199999999999,
+            "delta_C_percent": -28.57722389555468
+          },
+          {
+            "V": 4.6732249999999995,
+            "delta_C_percent": -29.661303047239343
+          },
+          {
+            "V": 4.7784,
+            "delta_C_percent": -30.757406377507436
+          },
+          {
+            "V": 4.887174999999999,
+            "delta_C_percent": -31.86561111355835
+          },
+          {
+            "V": 5.0,
+            "delta_C_percent": -32.98599448259147
+          },
+          {
+            "V": 5.117850000000001,
+            "delta_C_percent": -34.123891424889955
+          },
+          {
+            "V": 5.2408,
+            "delta_C_percent": -35.2821857087006
+          },
+          {
+            "V": 5.3679499999999996,
+            "delta_C_percent": -36.45727780316833
+          },
+          {
+            "V": 5.4984,
+            "delta_C_percent": -37.64556817743806
+          },
+          {
+            "V": 5.6312500000000005,
+            "delta_C_percent": -38.843457300654684
+          },
+          {
+            "V": 5.765599999999999,
+            "delta_C_percent": -40.04734564196312
+          },
+          {
+            "V": 5.90055,
+            "delta_C_percent": -41.253633670508286
+          },
+          {
+            "V": 6.035200000000001,
+            "delta_C_percent": -42.45872185543509
+          },
+          {
+            "V": 6.16865,
+            "delta_C_percent": -43.659010665888445
+          },
+          {
+            "V": 6.3,
+            "delta_C_percent": -44.85090057101326
+          }
+        ],
+        "interpolated_rail_points": [
+          {
+            "V": 0.8,
+            "delta_C_percent": 3.521167297745209,
+            "typical_C_uF": 48.65494862994025
+          },
+          {
+            "V": 1.1,
+            "delta_C_percent": 2.857804329543766,
+            "typical_C_uF": 48.34316803488557
+          },
+          {
+            "V": 1.8,
+            "delta_C_percent": -0.45756877372627824,
+            "typical_C_uF": 46.78494267634865
+          },
+          {
+            "V": 3.3,
+            "delta_C_percent": -14.411086474795473,
+            "typical_C_uF": 40.226789356846126
+          },
+          {
+            "V": 5,
+            "delta_C_percent": -32.98599448259147,
+            "typical_C_uF": 31.49658259318201
+          },
+          {
+            "V": 5.5,
+            "delta_C_percent": -37.659995144672884,
+            "typical_C_uF": 29.299802282003743
+          }
+        ]
+      },
+      "notes": "Exact 1210 specification downloaded. Generic reflow table has a 3225 +/-0.3 mm row, with maximum copper 4.69 x 2.86 mm. Exact part length tolerance is +/-0.4 mm, so the rounded 5.5 x 3.5 mm reservation includes extra allowance and still needs exact footprint qualification.",
+      "release_status": "CANDIDATE_ONLY"
+    },
+    {
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL31B226KPHNNNE",
+      "nominal_uF": 22,
+      "rated_V": 10,
+      "tolerance_fraction": 0.1,
+      "dielectric": "X7R",
+      "case_inch": "1206",
+      "body_nominal_xyz_mm": [
+        3.2,
+        1.6,
+        1.6
+      ],
+      "body_tolerance_xyz_mm": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "body_max_xyz_mm": [
+        3.4000000000000004,
+        1.8,
+        1.8
+      ],
+      "provisional_conservative_reservation_xy_mm": [
+        4.9,
+        2.4
+      ],
+      "source": "samsung-CL31B226KPHNNN.html",
+      "dc_bias": {
+        "status": "OFFICIAL_TYPICAL_CURVE_NOT_GUARANTEED_MINIMUM",
+        "frequency_Hz": 120,
+        "measurement_AC_Vrms": 0.5,
+        "temperature_C": 25.0,
+        "points": [
+          {
+            "V": 0.0,
+            "delta_C_percent": 0.0
+          },
+          {
+            "V": 0.05,
+            "delta_C_percent": 0.14781466161797244
+          },
+          {
+            "V": 0.1,
+            "delta_C_percent": 0.30682535657131865
+          },
+          {
+            "V": 0.15000000000000002,
+            "delta_C_percent": 0.4722337848591643
+          },
+          {
+            "V": 0.2,
+            "delta_C_percent": 0.6392416464806345
+          },
+          {
+            "V": 0.25,
+            "delta_C_percent": 0.8030506414348552
+          },
+          {
+            "V": 0.3,
+            "delta_C_percent": 0.9588624697209517
+          },
+          {
+            "V": 0.35,
+            "delta_C_percent": 1.1018788313380496
+          },
+          {
+            "V": 0.39999999999999997,
+            "delta_C_percent": 1.2273014262852744
+          },
+          {
+            "V": 0.44999999999999996,
+            "delta_C_percent": 1.3303319545617516
+          },
+          {
+            "V": 0.5,
+            "delta_C_percent": 1.406172116166607
+          },
+          {
+            "V": 0.5477500000000001,
+            "delta_C_percent": 1.475452546063505
+          },
+          {
+            "V": 0.592,
+            "delta_C_percent": 1.554610722936871
+          },
+          {
+            "V": 0.6342500000000001,
+            "delta_C_percent": 1.632558612366969
+          },
+          {
+            "V": 0.6759999999999999,
+            "delta_C_percent": 1.6982081799340636
+          },
+          {
+            "V": 0.71875,
+            "delta_C_percent": 1.7404713912184198
+          },
+          {
+            "V": 0.764,
+            "delta_C_percent": 1.7482602118003023
+          },
+          {
+            "V": 0.81325,
+            "delta_C_percent": 1.7104866072599758
+          },
+          {
+            "V": 0.868,
+            "delta_C_percent": 1.616062543177704
+          },
+          {
+            "V": 0.92975,
+            "delta_C_percent": 1.4538999851337528
+          },
+          {
+            "V": 1.0,
+            "delta_C_percent": 1.212910898708386
+          },
+          {
+            "V": 1.0797499999999998,
+            "delta_C_percent": 0.8925485120635238
+          },
+          {
+            "V": 1.168,
+            "delta_C_percent": 0.5040077654281062
+          },
+          {
+            "V": 1.26325,
+            "delta_C_percent": 0.05381319248292854
+          },
+          {
+            "V": 1.364,
+            "delta_C_percent": -0.4515106730912135
+          },
+          {
+            "V": 1.46875,
+            "delta_C_percent": -1.0054392976135247
+          },
+          {
+            "V": 1.5759999999999998,
+            "delta_C_percent": -1.6014481474032098
+          },
+          {
+            "V": 1.6842499999999998,
+            "delta_C_percent": -2.2330126887794735
+          },
+          {
+            "V": 1.792,
+            "delta_C_percent": -2.89360838806152
+          },
+          {
+            "V": 1.8977499999999996,
+            "delta_C_percent": -3.576710711568555
+          },
+          {
+            "V": 2.0,
+            "delta_C_percent": -4.275795125619783
+          },
+          {
+            "V": 2.1,
+            "delta_C_percent": -5.0066699168364535
+          },
+          {
+            "V": 2.2,
+            "delta_C_percent": -5.784883649751202
+          },
+          {
+            "V": 2.3,
+            "delta_C_percent": -6.603522207550299
+          },
+          {
+            "V": 2.4,
+            "delta_C_percent": -7.4556714734200185
+          },
+          {
+            "V": 2.5,
+            "delta_C_percent": -8.334417330546637
+          },
+          {
+            "V": 2.6,
+            "delta_C_percent": -9.232845662116427
+          },
+          {
+            "V": 2.7,
+            "delta_C_percent": -10.14404235131566
+          },
+          {
+            "V": 2.8,
+            "delta_C_percent": -11.061093281330615
+          },
+          {
+            "V": 2.9,
+            "delta_C_percent": -11.977084335347563
+          },
+          {
+            "V": 3.0,
+            "delta_C_percent": -12.88510139655278
+          },
+          {
+            "V": 3.1,
+            "delta_C_percent": -13.79610460591327
+          },
+          {
+            "V": 3.2,
+            "delta_C_percent": -14.723353125847158
+          },
+          {
+            "V": 3.3,
+            "delta_C_percent": -15.663381371717401
+          },
+          {
+            "V": 3.4,
+            "delta_C_percent": -16.612723758886954
+          },
+          {
+            "V": 3.5,
+            "delta_C_percent": -17.56791470271877
+          },
+          {
+            "V": 3.6,
+            "delta_C_percent": -18.52548861857581
+          },
+          {
+            "V": 3.7,
+            "delta_C_percent": -19.481979921821026
+          },
+          {
+            "V": 3.8,
+            "delta_C_percent": -20.433923027817368
+          },
+          {
+            "V": 3.9,
+            "delta_C_percent": -21.377852351927796
+          },
+          {
+            "V": 4.0,
+            "delta_C_percent": -22.31030230951527
+          },
+          {
+            "V": 4.098649999999999,
+            "delta_C_percent": -23.22620985020069
+          },
+          {
+            "V": 4.1952,
+            "delta_C_percent": -24.126356107841502
+          },
+          {
+            "V": 4.2905500000000005,
+            "delta_C_percent": -25.016041774155465
+          },
+          {
+            "V": 4.3856,
+            "delta_C_percent": -25.900567540860315
+          },
+          {
+            "V": 4.48125,
+            "delta_C_percent": -26.785234099673815
+          },
+          {
+            "V": 4.578399999999999,
+            "delta_C_percent": -27.67534214231371
+          },
+          {
+            "V": 4.67795,
+            "delta_C_percent": -28.576192360497753
+          },
+          {
+            "V": 4.780799999999999,
+            "delta_C_percent": -29.4930854459437
+          },
+          {
+            "V": 4.88785,
+            "delta_C_percent": -30.431322090369292
+          },
+          {
+            "V": 5.0,
+            "delta_C_percent": -31.39620298549229
+          },
+          {
+            "V": 5.11605,
+            "delta_C_percent": -32.386887969707836
+          },
+          {
+            "V": 5.2344,
+            "delta_C_percent": -33.39741327293556
+          },
+          {
+            "V": 5.3553500000000005,
+            "delta_C_percent": -34.42539417417995
+          },
+          {
+            "V": 5.4792,
+            "delta_C_percent": -35.46844595244549
+          },
+          {
+            "V": 5.606249999999999,
+            "delta_C_percent": -36.52418388673668
+          },
+          {
+            "V": 5.7368,
+            "delta_C_percent": -37.590223256057996
+          },
+          {
+            "V": 5.871149999999999,
+            "delta_C_percent": -38.66417933941392
+          },
+          {
+            "V": 6.009600000000001,
+            "delta_C_percent": -39.74366741580893
+          },
+          {
+            "V": 6.15245,
+            "delta_C_percent": -40.826302764247544
+          },
+          {
+            "V": 6.3,
+            "delta_C_percent": -41.90970066373422
+          },
+          {
+            "V": 6.452450000000001,
+            "delta_C_percent": -43.00482433779612
+          },
+          {
+            "V": 6.6095999999999995,
+            "delta_C_percent": -44.120237510165886
+          },
+          {
+            "V": 6.77115,
+            "delta_C_percent": -45.24995621015627
+          },
+          {
+            "V": 6.936800000000001,
+            "delta_C_percent": -46.38799646708
+          },
+          {
+            "V": 7.106249999999999,
+            "delta_C_percent": -47.528374310249845
+          },
+          {
+            "V": 7.279199999999999,
+            "delta_C_percent": -48.66510576897851
+          },
+          {
+            "V": 7.455349999999999,
+            "delta_C_percent": -49.79220687257877
+          },
+          {
+            "V": 7.634399999999999,
+            "delta_C_percent": -50.903693650363344
+          },
+          {
+            "V": 7.816049999999999,
+            "delta_C_percent": -51.99358213164499
+          },
+          {
+            "V": 8.0,
+            "delta_C_percent": -53.05588834573645
+          },
+          {
+            "V": 8.16985,
+            "delta_C_percent": -54.060363895131744
+          },
+          {
+            "V": 8.316799999999999,
+            "delta_C_percent": -54.99640971378101
+          },
+          {
+            "V": 8.45195,
+            "delta_C_percent": -55.88751582818115
+          },
+          {
+            "V": 8.5864,
+            "delta_C_percent": -56.75717226482908
+          },
+          {
+            "V": 8.73125,
+            "delta_C_percent": -57.62886905022168
+          },
+          {
+            "V": 8.897599999999999,
+            "delta_C_percent": -58.526096210855854
+          },
+          {
+            "V": 9.096549999999999,
+            "delta_C_percent": -59.4723437732285
+          },
+          {
+            "V": 9.339200000000002,
+            "delta_C_percent": -60.49110176383654
+          },
+          {
+            "V": 9.63665,
+            "delta_C_percent": -61.60586020917684
+          },
+          {
+            "V": 10.0,
+            "delta_C_percent": -62.84010913574632
+          }
+        ],
+        "interpolated_rail_points": [
+          {
+            "V": 0.8,
+            "delta_C_percent": 1.720649049090622,
+            "typical_C_uF": 22.378542790799937
+          },
+          {
+            "V": 1.1,
+            "delta_C_percent": 0.8033932699177185,
+            "typical_C_uF": 22.176746519381897
+          },
+          {
+            "V": 1.8,
+            "delta_C_percent": -2.9452851595797833,
+            "typical_C_uF": 21.35203726489245
+          },
+          {
+            "V": 3.3,
+            "delta_C_percent": -15.663381371717401,
+            "typical_C_uF": 18.554056098222173
+          },
+          {
+            "V": 5,
+            "delta_C_percent": -31.39620298549229,
+            "typical_C_uF": 15.092835343191698
+          },
+          {
+            "V": 5.5,
+            "delta_C_percent": -35.64128616522201,
+            "typical_C_uF": 14.158917043651156
+          }
+        ]
+      },
+      "notes": "Official typical DC-bias curve recovered. Can screen one 22 uF as a replacement for a 47 uF nominal output position, or three 22 uF for CPU/KPU. Samsung 3216 +/-0.2 mm reflow land maximum is 4.38 x 1.86 mm. Add 0.25 mm per side and round to 4.9 x 2.4 mm.",
+      "release_status": "CANDIDATE_ONLY"
+    },
+    {
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL10B475KQ8NFQC",
+      "nominal_uF": 4.7,
+      "rated_V": 6.3,
+      "tolerance_fraction": 0.1,
+      "dielectric": "X7R",
+      "case_inch": "0603",
+      "body_nominal_xyz_mm": [
+        1.6,
+        0.8,
+        0.8
+      ],
+      "body_tolerance_xyz_mm": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "body_max_xyz_mm": [
+        1.75,
+        0.9500000000000001,
+        0.9500000000000001
+      ],
+      "provisional_conservative_reservation_xy_mm": [
+        3,
+        1.5
+      ],
+      "source": "samsung-CL10B475KQ8NFQ.html",
+      "dc_bias": {
+        "status": "OFFICIAL_TYPICAL_CURVE_NOT_GUARANTEED_MINIMUM",
+        "frequency_Hz": 1000,
+        "measurement_AC_Vrms": 1.0,
+        "temperature_C": 25.0,
+        "points": [
+          {
+            "V": 0.0,
+            "delta_C_percent": 0.0
+          },
+          {
+            "V": 0.1,
+            "delta_C_percent": -0.2930740153639797
+          },
+          {
+            "V": 0.2,
+            "delta_C_percent": -0.5346502459049701
+          },
+          {
+            "V": 0.30000000000000004,
+            "delta_C_percent": -0.746799170832824
+          },
+          {
+            "V": 0.4,
+            "delta_C_percent": -0.9515912693573936
+          },
+          {
+            "V": 0.5,
+            "delta_C_percent": -1.1710970206885314
+          },
+          {
+            "V": 0.6,
+            "delta_C_percent": -1.42738690403609
+          },
+          {
+            "V": 0.7,
+            "delta_C_percent": -1.7425313986099222
+          },
+          {
+            "V": 0.7999999999999999,
+            "delta_C_percent": -2.1386009836198805
+          },
+          {
+            "V": 0.8999999999999999,
+            "delta_C_percent": -2.637666138275816
+          },
+          {
+            "V": 1.0,
+            "delta_C_percent": -3.261797341787584
+          },
+          {
+            "V": 1.1,
+            "delta_C_percent": -4.013609112709831
+          },
+          {
+            "V": 1.2,
+            "delta_C_percent": -4.87166605698492
+          },
+          {
+            "V": 1.3,
+            "delta_C_percent": -5.821963784904281
+          },
+          {
+            "V": 1.4,
+            "delta_C_percent": -6.850497906759341
+          },
+          {
+            "V": 1.5,
+            "delta_C_percent": -7.943264032841529
+          },
+          {
+            "V": 1.6,
+            "delta_C_percent": -9.08625777344227
+          },
+          {
+            "V": 1.7,
+            "delta_C_percent": -10.265474738852994
+          },
+          {
+            "V": 1.7999999999999998,
+            "delta_C_percent": -11.466910539365129
+          },
+          {
+            "V": 1.9,
+            "delta_C_percent": -12.6765607852701
+          },
+          {
+            "V": 2.0,
+            "delta_C_percent": -13.88042108685934
+          },
+          {
+            "V": 2.1,
+            "delta_C_percent": -15.10764744136895
+          },
+          {
+            "V": 2.2,
+            "delta_C_percent": -16.388960695850116
+          },
+          {
+            "V": 2.3,
+            "delta_C_percent": -17.712703735316847
+          },
+          {
+            "V": 2.4,
+            "delta_C_percent": -19.06721944478317
+          },
+          {
+            "V": 2.5,
+            "delta_C_percent": -20.440850709263106
+          },
+          {
+            "V": 2.6,
+            "delta_C_percent": -21.821940413770683
+          },
+          {
+            "V": 2.7,
+            "delta_C_percent": -23.19883144331993
+          },
+          {
+            "V": 2.8,
+            "delta_C_percent": -24.55986668292485
+          },
+          {
+            "V": 2.9,
+            "delta_C_percent": -25.893389017599482
+          },
+          {
+            "V": 3.0,
+            "delta_C_percent": -27.18774133235785
+          },
+          {
+            "V": 3.1,
+            "delta_C_percent": -28.457365971629482
+          },
+          {
+            "V": 3.2,
+            "delta_C_percent": -29.72237532008292
+          },
+          {
+            "V": 3.3,
+            "delta_C_percent": -30.979617323090686
+          },
+          {
+            "V": 3.4,
+            "delta_C_percent": -32.22593992602529
+          },
+          {
+            "V": 3.5,
+            "delta_C_percent": -33.45819107425925
+          },
+          {
+            "V": 3.6,
+            "delta_C_percent": -34.67321871316507
+          },
+          {
+            "V": 3.7,
+            "delta_C_percent": -35.867870788115276
+          },
+          {
+            "V": 3.8,
+            "delta_C_percent": -37.038995244482386
+          },
+          {
+            "V": 3.9,
+            "delta_C_percent": -38.183440027638916
+          },
+          {
+            "V": 4.0,
+            "delta_C_percent": -39.29805308295737
+          },
+          {
+            "V": 4.098649999999999,
+            "delta_C_percent": -40.368926553672324
+          },
+          {
+            "V": 4.1952,
+            "delta_C_percent": -41.39160265008332
+          },
+          {
+            "V": 4.2905500000000005,
+            "delta_C_percent": -42.37710441816039
+          },
+          {
+            "V": 4.3856,
+            "delta_C_percent": -43.336454903873516
+          },
+          {
+            "V": 4.48125,
+            "delta_C_percent": -44.280677153192705
+          },
+          {
+            "V": 4.578399999999999,
+            "delta_C_percent": -45.22079421208796
+          },
+          {
+            "V": 4.67795,
+            "delta_C_percent": -46.167829126529284
+          },
+          {
+            "V": 4.780799999999999,
+            "delta_C_percent": -47.13280494248668
+          },
+          {
+            "V": 4.88785,
+            "delta_C_percent": -48.126744705930165
+          },
+          {
+            "V": 5.0,
+            "delta_C_percent": -49.16067146282974
+          },
+          {
+            "V": 5.117850000000001,
+            "delta_C_percent": -50.231819290330456
+          },
+          {
+            "V": 5.2408,
+            "delta_C_percent": -51.327220257692154
+          },
+          {
+            "V": 5.3679499999999996,
+            "delta_C_percent": -52.442594399057036
+          },
+          {
+            "V": 5.4984,
+            "delta_C_percent": -53.573661748567254
+          },
+          {
+            "V": 5.6312500000000005,
+            "delta_C_percent": -54.716142340365
+          },
+          {
+            "V": 5.765599999999999,
+            "delta_C_percent": -55.86575620859246
+          },
+          {
+            "V": 5.90055,
+            "delta_C_percent": -57.01822338739179
+          },
+          {
+            "V": 6.035200000000001,
+            "delta_C_percent": -58.1692639109052
+          },
+          {
+            "V": 6.16865,
+            "delta_C_percent": -59.31459781327483
+          },
+          {
+            "V": 6.3,
+            "delta_C_percent": -60.44994512864286
+          }
+        ],
+        "interpolated_rail_points": [
+          {
+            "V": 0.8,
+            "delta_C_percent": -2.138600983619881,
+            "typical_C_uF": 4.599485753769866
+          },
+          {
+            "V": 1.1,
+            "delta_C_percent": -4.013609112709831,
+            "typical_C_uF": 4.511360371702638
+          },
+          {
+            "V": 1.8,
+            "delta_C_percent": -11.466910539365132,
+            "typical_C_uF": 4.1610552046498395
+          },
+          {
+            "V": 3.3,
+            "delta_C_percent": -30.979617323090686,
+            "typical_C_uF": 3.243957985814738
+          },
+          {
+            "V": 5,
+            "delta_C_percent": -49.16067146282974,
+            "typical_C_uF": 2.3894484412470023
+          },
+          {
+            "V": 5.5,
+            "delta_C_percent": -53.58742139438491,
+            "typical_C_uF": 2.181391194463909
+          }
+        ]
+      },
+      "notes": "4.7 uF local decoupling candidate. Samsung 1608 +/-0.15 mm reflow land maximum is 2.41 x 1.0 mm; add 0.25 mm per side and round.",
+      "release_status": "CANDIDATE_ONLY"
+    },
+    {
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL21B106KPQNNWE",
+      "nominal_uF": 10,
+      "rated_V": 10,
+      "tolerance_fraction": 0.1,
+      "dielectric": "X7R",
+      "case_inch": "0805",
+      "body_nominal_xyz_mm": [
+        2,
+        1.25,
+        1.25
+      ],
+      "body_tolerance_xyz_mm": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "body_max_xyz_mm": [
+        2.15,
+        1.4,
+        1.4
+      ],
+      "provisional_conservative_reservation_xy_mm": [
+        3.5,
+        2
+      ],
+      "source": "samsung-CL21B106KPQNNW.html",
+      "dc_bias": {
+        "status": "OFFICIAL_TYPICAL_CURVE_NOT_GUARANTEED_MINIMUM",
+        "frequency_Hz": 1000,
+        "measurement_AC_Vrms": 1.0,
+        "temperature_C": 25.0,
+        "points": [
+          {
+            "V": 0.0,
+            "delta_C_percent": 0.0
+          },
+          {
+            "V": 0.05,
+            "delta_C_percent": -0.008369403678245114
+          },
+          {
+            "V": 0.1,
+            "delta_C_percent": -0.0028831506594810038
+          },
+          {
+            "V": 0.15000000000000002,
+            "delta_C_percent": 0.010520620471859799
+          },
+          {
+            "V": 0.2,
+            "delta_C_percent": 0.025903771131344788
+          },
+          {
+            "V": 0.25,
+            "delta_C_percent": 0.03732816273454141
+          },
+          {
+            "V": 0.3,
+            "delta_C_percent": 0.03885565669701718
+          },
+          {
+            "V": 0.35,
+            "delta_C_percent": 0.024548114434339574
+          },
+          {
+            "V": 0.39999999999999997,
+            "delta_C_percent": -0.01153260263792405
+          },
+          {
+            "V": 0.44999999999999996,
+            "delta_C_percent": -0.0753246331042059
+          },
+          {
+            "V": 0.5,
+            "delta_C_percent": -0.172766115548939
+          },
+          {
+            "V": 0.5477500000000001,
+            "delta_C_percent": -0.26616008731189633
+          },
+          {
+            "V": 0.592,
+            "delta_C_percent": -0.3284057217165035
+          },
+          {
+            "V": 0.6342500000000001,
+            "delta_C_percent": -0.38133536132267143
+          },
+          {
+            "V": 0.6759999999999999,
+            "delta_C_percent": -0.4467813486903108
+          },
+          {
+            "V": 0.71875,
+            "delta_C_percent": -0.5465760263793322
+          },
+          {
+            "V": 0.764,
+            "delta_C_percent": -0.7025517369496469
+          },
+          {
+            "V": 0.81325,
+            "delta_C_percent": -0.9365408229611651
+          },
+          {
+            "V": 0.868,
+            "delta_C_percent": -1.2703756269737987
+          },
+          {
+            "V": 0.92975,
+            "delta_C_percent": -1.725888491547457
+          },
+          {
+            "V": 1.0,
+            "delta_C_percent": -2.324911759242053
+          },
+          {
+            "V": 1.0797499999999998,
+            "delta_C_percent": -3.0762292402006275
+          },
+          {
+            "V": 1.168,
+            "delta_C_percent": -3.962079881107187
+          },
+          {
+            "V": 1.26325,
+            "delta_C_percent": -4.964478729333086
+          },
+          {
+            "V": 1.364,
+            "delta_C_percent": -6.065440832249677
+          },
+          {
+            "V": 1.46875,
+            "delta_C_percent": -7.246981237228315
+          },
+          {
+            "V": 1.5759999999999998,
+            "delta_C_percent": -8.491114991640355
+          },
+          {
+            "V": 1.6842499999999998,
+            "delta_C_percent": -9.77985714285715
+          },
+          {
+            "V": 1.792,
+            "delta_C_percent": -11.095222738250053
+          },
+          {
+            "V": 1.8977499999999996,
+            "delta_C_percent": -12.419226825190425
+          },
+          {
+            "V": 2.0,
+            "delta_C_percent": -13.73388445104961
+          },
+          {
+            "V": 2.1,
+            "delta_C_percent": -15.076630828534283
+          },
+          {
+            "V": 2.2,
+            "delta_C_percent": -16.4869143600223
+          },
+          {
+            "V": 2.3,
+            "delta_C_percent": -17.949769877391795
+          },
+          {
+            "V": 2.4,
+            "delta_C_percent": -19.450232212520906
+          },
+          {
+            "V": 2.5,
+            "delta_C_percent": -20.973336197287757
+          },
+          {
+            "V": 2.6,
+            "delta_C_percent": -22.5041166635705
+          },
+          {
+            "V": 2.7,
+            "delta_C_percent": -24.027608443247253
+          },
+          {
+            "V": 2.8,
+            "delta_C_percent": -25.52884636819617
+          },
+          {
+            "V": 2.9,
+            "delta_C_percent": -26.99286527029537
+          },
+          {
+            "V": 3.0,
+            "delta_C_percent": -28.40469998142299
+          },
+          {
+            "V": 3.1,
+            "delta_C_percent": -29.78127173509195
+          },
+          {
+            "V": 3.2,
+            "delta_C_percent": -31.14750065019505
+          },
+          {
+            "V": 3.3,
+            "delta_C_percent": -32.50041988668028
+          },
+          {
+            "V": 3.4,
+            "delta_C_percent": -33.83706260449563
+          },
+          {
+            "V": 3.5,
+            "delta_C_percent": -35.15446196358907
+          },
+          {
+            "V": 3.6,
+            "delta_C_percent": -36.449651123908595
+          },
+          {
+            "V": 3.7,
+            "delta_C_percent": -37.71966324540219
+          },
+          {
+            "V": 3.8,
+            "delta_C_percent": -38.96153148801783
+          },
+          {
+            "V": 3.9,
+            "delta_C_percent": -40.17228901170351
+          },
+          {
+            "V": 4.0,
+            "delta_C_percent": -41.3489689764072
+          },
+          {
+            "V": 4.098649999999999,
+            "delta_C_percent": -42.48345625116105
+          },
+          {
+            "V": 4.1952,
+            "delta_C_percent": -43.57431915288872
+          },
+          {
+            "V": 4.2905500000000005,
+            "delta_C_percent": -44.628616013375435
+          },
+          {
+            "V": 4.3856,
+            "delta_C_percent": -45.65340516440645
+          },
+          {
+            "V": 4.48125,
+            "delta_C_percent": -46.65574493776703
+          },
+          {
+            "V": 4.578399999999999,
+            "delta_C_percent": -47.64269366524242
+          },
+          {
+            "V": 4.67795,
+            "delta_C_percent": -48.62130967861786
+          },
+          {
+            "V": 4.780799999999999,
+            "delta_C_percent": -49.59865130967861
+          },
+          {
+            "V": 4.88785,
+            "delta_C_percent": -50.5817768902099
+          },
+          {
+            "V": 5.0,
+            "delta_C_percent": -51.57774475199702
+          },
+          {
+            "V": 5.11605,
+            "delta_C_percent": -52.58349266208433
+          },
+          {
+            "V": 5.2344,
+            "delta_C_percent": -53.58999962845996
+          },
+          {
+            "V": 5.3553500000000005,
+            "delta_C_percent": -54.59538584432472
+          },
+          {
+            "V": 5.4792,
+            "delta_C_percent": -55.59777150287943
+          },
+          {
+            "V": 5.606249999999999,
+            "delta_C_percent": -56.59527679732491
+          },
+          {
+            "V": 5.7368,
+            "delta_C_percent": -57.58602192086198
+          },
+          {
+            "V": 5.871149999999999,
+            "delta_C_percent": -58.56812706669144
+          },
+          {
+            "V": 6.009600000000001,
+            "delta_C_percent": -59.53971242801413
+          },
+          {
+            "V": 6.15245,
+            "delta_C_percent": -60.49889819803085
+          },
+          {
+            "V": 6.3,
+            "delta_C_percent": -61.44380456994241
+          },
+          {
+            "V": 6.452450000000001,
+            "delta_C_percent": -62.380483838008544
+          },
+          {
+            "V": 6.6095999999999995,
+            "delta_C_percent": -63.31424781720231
+          },
+          {
+            "V": 6.77115,
+            "delta_C_percent": -64.24210598179454
+          },
+          {
+            "V": 6.936800000000001,
+            "delta_C_percent": -65.1610678060561
+          },
+          {
+            "V": 7.106249999999999,
+            "delta_C_percent": -66.06814276425784
+          },
+          {
+            "V": 7.279199999999999,
+            "delta_C_percent": -66.96034033067062
+          },
+          {
+            "V": 7.455349999999999,
+            "delta_C_percent": -67.8346699795653
+          },
+          {
+            "V": 7.634399999999999,
+            "delta_C_percent": -68.68814118521271
+          },
+          {
+            "V": 7.816049999999999,
+            "delta_C_percent": -69.51776342188371
+          },
+          {
+            "V": 8.0,
+            "delta_C_percent": -70.32054616384916
+          },
+          {
+            "V": 8.16985,
+            "delta_C_percent": -71.0759732491176
+          },
+          {
+            "V": 8.316799999999999,
+            "delta_C_percent": -71.77574809585734
+          },
+          {
+            "V": 8.45195,
+            "delta_C_percent": -72.43520954857885
+          },
+          {
+            "V": 8.5864,
+            "delta_C_percent": -73.06969645179268
+          },
+          {
+            "V": 8.73125,
+            "delta_C_percent": -73.69454765000928
+          },
+          {
+            "V": 8.897599999999999,
+            "delta_C_percent": -74.32510198773917
+          },
+          {
+            "V": 9.096549999999999,
+            "delta_C_percent": -74.97669830949285
+          },
+          {
+            "V": 9.339200000000002,
+            "delta_C_percent": -75.6646754597808
+          },
+          {
+            "V": 9.63665,
+            "delta_C_percent": -76.4043722831135
+          },
+          {
+            "V": 10.0,
+            "delta_C_percent": -77.21112762400148
+          }
+        ],
+        "interpolated_rail_points": [
+          {
+            "V": 0.8,
+            "delta_C_percent": -0.8735894444910614,
+            "typical_C_uF": 9.912641055550894
+          },
+          {
+            "V": 1.1,
+            "delta_C_percent": -3.279498084148028,
+            "typical_C_uF": 9.672050191585198
+          },
+          {
+            "V": 1.8,
+            "delta_C_percent": -11.195383803928758,
+            "typical_C_uF": 8.880461619607123
+          },
+          {
+            "V": 3.3,
+            "delta_C_percent": -32.50041988668028,
+            "typical_C_uF": 6.749958011331972
+          },
+          {
+            "V": 5,
+            "delta_C_percent": -51.57774475199702,
+            "typical_C_uF": 4.842225524800298
+          },
+          {
+            "V": 5.5,
+            "delta_C_percent": -55.76107815478393,
+            "typical_C_uF": 4.423892184521607
+          }
+        ]
+      },
+      "notes": "Curve-bearing 0805 input fallback. Two parts fail the assumed 8 uF input sensitivity screen; nominal capacitance and voltage rating alone are insufficient. Samsung 2012 +/-0.15 mm land maximum is 2.91 x 1.40 mm; add 0.25 mm per side and round.",
+      "release_status": "CANDIDATE_ONLY"
+    },
+    {
+      "manufacturer": "Murata",
+      "mpn": "GRM188Z71A106MA73D",
+      "nominal_uF": 10,
+      "rated_V": 10,
+      "tolerance_fraction": 0.2,
+      "dielectric": "X7R(MURATA)",
+      "case_inch": "0603",
+      "body_nominal_xyz_mm": [
+        1.6,
+        0.8,
+        0.8
+      ],
+      "body_tolerance_xyz_mm": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "body_max_xyz_mm": [
+        1.8,
+        1.0,
+        1.0
+      ],
+      "provisional_conservative_reservation_xy_mm": [
+        3,
+        1.5
+      ],
+      "source": "GRM188Z71A106MA73-01A.pdf",
+      "dc_bias": {
+        "status": "EXACT_MPN_CURVE_NOT_RECOVERED_NO_CEFF_SIGNOFF"
+      },
+      "notes": "TI TPS62827 table 8-2 identifies this exact 0603 part. Murata reflow ranges: a=0.7-0.9, b=0.7-0.8, c=0.8-1.0 mm; maximum copper span a+2b=2.5 mm. Add 0.25 mm per side. Z7 temperature specification is measured with 50% rated DC applied; this does not guarantee absolute capacitance at 5 V.",
+      "release_status": "CANDIDATE_ONLY"
+    },
+    {
+      "manufacturer": "Murata",
+      "mpn": "GRM21BZ70J226ME44L",
+      "nominal_uF": 22,
+      "rated_V": 6.3,
+      "tolerance_fraction": 0.2,
+      "dielectric": "X7R(MURATA)",
+      "case_inch": "0805",
+      "body_nominal_xyz_mm": [
+        2,
+        1.25,
+        1.25
+      ],
+      "body_tolerance_xyz_mm": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "body_max_xyz_mm": [
+        2.2,
+        1.45,
+        1.45
+      ],
+      "provisional_conservative_reservation_xy_mm": [
+        3.5,
+        2
+      ],
+      "source": "GRM21BZ70J226ME44-01A.pdf",
+      "dc_bias": {
+        "status": "EXACT_MPN_CURVE_NOT_RECOVERED_NO_CEFF_SIGNOFF"
+      },
+      "notes": "TI TPS62864 table 9-2 identifies this exact 0805 part. Murata reflow ranges: a=1.0-1.4, b=0.6-0.8, c=1.2-1.4 mm. Maximum copper is 3.0 x 1.4 mm; body width maximum is 1.45 mm. Add 0.25 mm per side and round. Current 2.2 x 1.3 mm reservation is narrower than the maximum body.",
+      "release_status": "CANDIDATE_ONLY"
+    },
+    {
+      "manufacturer": "Murata",
+      "mpn": "GRM188Z71C475KE21D",
+      "nominal_uF": 4.7,
+      "rated_V": 16,
+      "tolerance_fraction": 0.1,
+      "dielectric": "X7R(MURATA)",
+      "case_inch": "0603",
+      "body_nominal_xyz_mm": [
+        1.6,
+        0.8,
+        0.8
+      ],
+      "body_tolerance_xyz_mm": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "body_max_xyz_mm": [
+        1.8,
+        1.0,
+        1.0
+      ],
+      "provisional_conservative_reservation_xy_mm": [
+        3,
+        1.5
+      ],
+      "source": "GRM188Z71C475KE21-01A.pdf",
+      "dc_bias": {
+        "status": "EXACT_MPN_CURVE_NOT_RECOVERED_NO_CEFF_SIGNOFF"
+      },
+      "notes": "4.7 uF, 16 V local decoupling candidate. Same Murata 0603 reflow envelope as the 10 uF input part. Exact DC-bias curve was not recovered.",
+      "release_status": "CANDIDATE_ONLY"
+    },
+    {
+      "manufacturer": "Murata",
+      "mpn": "GRM155R70J105KA12D",
+      "nominal_uF": 1,
+      "rated_V": 6.3,
+      "tolerance_fraction": 0.1,
+      "dielectric": "X7R(EIA)",
+      "case_inch": "0402",
+      "body_nominal_xyz_mm": [
+        1,
+        0.5,
+        0.5
+      ],
+      "body_tolerance_xyz_mm": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "body_max_xyz_mm": [
+        1.05,
+        0.55,
+        0.55
+      ],
+      "provisional_conservative_reservation_xy_mm": [
+        1.9,
+        1.1
+      ],
+      "source": "GRM155R70J105KA12-01A.pdf",
+      "dc_bias": {
+        "status": "EXACT_MPN_CURVE_NOT_RECOVERED_NO_CEFF_SIGNOFF"
+      },
+      "notes": "1 uF, 6.3 V X7R candidate for C815 on VDD1P8. Murata reflow ranges: a=0.3-0.5, b=0.35-0.45, c=0.4-0.6 mm; maximum copper is 1.4 x 0.6 mm. Add 0.25 mm per side. C815 ESR <0.5 ohm still needs verification at the relevant frequency.",
+      "release_status": "CANDIDATE_ONLY"
+    }
+  ],
+  "screen_factors": {
+    "initial_tolerance_factor": 0.9,
+    "temperature_factor": 0.85,
+    "aging_factor_illustrative_unqualified": 0.9,
+    "model_or_lot_guarantee_factor": null,
+    "explanation": "Multiplying factors is a sensitivity screen, not a vendor guaranteed combined-condition lower bound. DC-bias curves are typical and use the stated AC stimulus at 25 C. The 10% aging reserve is illustrative; no lifetime or vendor aging model is established. Ambient, capacitor temperature, self-heating and model/lot uncertainty remain unresolved."
+  },
+  "effective_capacitance_sensitivity_screens": [
+    {
+      "case": "Replace one nominal 47 uF output with one 22 uF candidate",
+      "mpn": "CL31B226KPHNNNE",
+      "quantity": 1,
+      "rail_nominal_V": 0.8,
+      "required_effective_uF": 10,
+      "typical_bias_only_uF": 22.378542790799937,
+      "after_initial_tolerance_uF": 20.140688511719944,
+      "after_temperature_factor_uF": 17.119585234961953,
+      "after_illustrative_aging_uF": 15.407626711465758,
+      "remaining_min_model_retention_factor_needed": 0.6490292234662194,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS6282xA table 8-3 lists 22 uF nominal with 0.47 uH; section 8.2.2.5 specifies 10 uF effective minimum. U21 is TPS62827A, not the non-A TPS62827 with 20 uF minimum."
+    },
+    {
+      "case": "Replace one nominal 47 uF output with one 22 uF candidate",
+      "mpn": "CL31B226KPHNNNE",
+      "quantity": 1,
+      "rail_nominal_V": 1.1,
+      "required_effective_uF": 10,
+      "typical_bias_only_uF": 22.176746519381897,
+      "after_initial_tolerance_uF": 19.959071867443708,
+      "after_temperature_factor_uF": 16.96521108732715,
+      "after_illustrative_aging_uF": 15.268689978594438,
+      "remaining_min_model_retention_factor_needed": 0.6549350346375001,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS6282xA table 8-3 lists 22 uF nominal with 0.47 uH; section 8.2.2.5 specifies 10 uF effective minimum. U21 is TPS62827A, not the non-A TPS62827 with 20 uF minimum."
+    },
+    {
+      "case": "Replace one nominal 47 uF output with one 22 uF candidate",
+      "mpn": "CL31B226KPHNNNE",
+      "quantity": 1,
+      "rail_nominal_V": 1.8,
+      "required_effective_uF": 10,
+      "typical_bias_only_uF": 21.35203726489245,
+      "after_initial_tolerance_uF": 19.216833538403204,
+      "after_temperature_factor_uF": 16.334308507642724,
+      "after_illustrative_aging_uF": 14.700877656878452,
+      "remaining_min_model_retention_factor_needed": 0.6802314959284802,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS6282xA table 8-3 lists 22 uF nominal with 0.47 uH; section 8.2.2.5 specifies 10 uF effective minimum. U21 is TPS62827A, not the non-A TPS62827 with 20 uF minimum."
+    },
+    {
+      "case": "Replace one nominal 47 uF output with one 22 uF candidate",
+      "mpn": "CL31B226KPHNNNE",
+      "quantity": 1,
+      "rail_nominal_V": 3.3,
+      "required_effective_uF": 10,
+      "typical_bias_only_uF": 18.554056098222173,
+      "after_initial_tolerance_uF": 16.698650488399956,
+      "after_temperature_factor_uF": 14.193852915139962,
+      "after_illustrative_aging_uF": 12.774467623625966,
+      "remaining_min_model_retention_factor_needed": 0.782811487306549,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS6282xA table 8-3 lists 22 uF nominal with 0.47 uH; section 8.2.2.5 specifies 10 uF effective minimum. U21 is TPS62827A, not the non-A TPS62827 with 20 uF minimum."
+    },
+    {
+      "case": "CPU/KPU three 22 uF outputs",
+      "mpn": "CL31B226KPHNNNE",
+      "quantity": 3,
+      "rail_nominal_V": 0.8,
+      "required_effective_uF": 30,
+      "typical_bias_only_uF": 67.13562837239981,
+      "after_initial_tolerance_uF": 60.42206553515983,
+      "after_temperature_factor_uF": 51.35875570488586,
+      "after_illustrative_aging_uF": 46.22288013439727,
+      "remaining_min_model_retention_factor_needed": 0.6490292234662194,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS62864 table 9-3 lists three 22 uF nominal with 0.24 uH. Minimum effective output is 30 uF; final inductor and transient qualification remain open."
+    },
+    {
+      "case": "Preserve nominal 47 uF output",
+      "mpn": "CL32B476KQVVPNE",
+      "quantity": 1,
+      "rail_nominal_V": 0.8,
+      "required_effective_uF": 10,
+      "typical_bias_only_uF": 48.65494862994025,
+      "after_initial_tolerance_uF": 43.789453766946224,
+      "after_temperature_factor_uF": 37.22103570190429,
+      "after_illustrative_aging_uF": 33.498932131713865,
+      "remaining_min_model_retention_factor_needed": 0.2985169784123618,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS6282xA table 8-3 includes 47 uF nominal with 0.47 uH; effective output minimum is 10 uF."
+    },
+    {
+      "case": "Preserve nominal 47 uF output",
+      "mpn": "CL32B476KQVVPNE",
+      "quantity": 1,
+      "rail_nominal_V": 1.1,
+      "required_effective_uF": 10,
+      "typical_bias_only_uF": 48.34316803488557,
+      "after_initial_tolerance_uF": 43.50885123139702,
+      "after_temperature_factor_uF": 36.98252354668746,
+      "after_illustrative_aging_uF": 33.284271192018714,
+      "remaining_min_model_retention_factor_needed": 0.3004422101451305,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS6282xA table 8-3 includes 47 uF nominal with 0.47 uH; effective output minimum is 10 uF."
+    },
+    {
+      "case": "Preserve nominal 47 uF output",
+      "mpn": "CL32B476KQVVPNE",
+      "quantity": 1,
+      "rail_nominal_V": 1.8,
+      "required_effective_uF": 10,
+      "typical_bias_only_uF": 46.78494267634865,
+      "after_initial_tolerance_uF": 42.10644840871379,
+      "after_temperature_factor_uF": 35.790481147406716,
+      "after_illustrative_aging_uF": 32.211433032666044,
+      "remaining_min_model_retention_factor_needed": 0.31044877729776466,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS6282xA table 8-3 includes 47 uF nominal with 0.47 uH; effective output minimum is 10 uF."
+    },
+    {
+      "case": "Preserve nominal 47 uF output",
+      "mpn": "CL32B476KQVVPNE",
+      "quantity": 1,
+      "rail_nominal_V": 3.3,
+      "required_effective_uF": 10,
+      "typical_bias_only_uF": 40.226789356846126,
+      "after_initial_tolerance_uF": 36.204110421161516,
+      "after_temperature_factor_uF": 30.773493857987287,
+      "after_illustrative_aging_uF": 27.696144472188557,
+      "remaining_min_model_retention_factor_needed": 0.3610610859587922,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS6282xA table 8-3 includes 47 uF nominal with 0.47 uH; effective output minimum is 10 uF."
+    },
+    {
+      "case": "VIN pair of 10 uF 0805 alternatives",
+      "mpn": "CL21B106KPQNNWE",
+      "quantity": 2,
+      "rail_nominal_V": 5,
+      "required_effective_uF": 8,
+      "typical_bias_only_uF": 9.684451049600597,
+      "after_initial_tolerance_uF": 8.716005944640537,
+      "after_temperature_factor_uF": 7.4086050529444565,
+      "after_illustrative_aging_uF": 6.667744547650011,
+      "remaining_min_model_retention_factor_needed": 1.1998060127872672,
+      "screen_passes_assumed_factors": false,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS62864 states 8 uF effective input is sufficient for most applications; TPS6282xA minimum is 3 uF. A 5.5 V endpoint is a sensitivity check, not an established carrier VIN requirement."
+    },
+    {
+      "case": "VIN pair of 10 uF 0805 alternatives",
+      "mpn": "CL21B106KPQNNWE",
+      "quantity": 2,
+      "rail_nominal_V": 5.5,
+      "required_effective_uF": 8,
+      "typical_bias_only_uF": 8.847784369043215,
+      "after_initial_tolerance_uF": 7.963005932138893,
+      "after_temperature_factor_uF": 6.768555042318059,
+      "after_illustrative_aging_uF": 6.091699538086254,
+      "remaining_min_model_retention_factor_needed": 1.313262407310596,
+      "screen_passes_assumed_factors": false,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "TPS62864 states 8 uF effective input is sufficient for most applications; TPS6282xA minimum is 3 uF. A 5.5 V endpoint is a sensitivity check, not an established carrier VIN requirement."
+    },
+    {
+      "case": "Alternative one 22 uF 1206 input (new topology candidate only)",
+      "mpn": "CL31B226KPHNNNE",
+      "quantity": 1,
+      "rail_nominal_V": 5,
+      "required_effective_uF": 8,
+      "typical_bias_only_uF": 15.092835343191698,
+      "after_initial_tolerance_uF": 13.583551808872528,
+      "after_temperature_factor_uF": 11.54601903754165,
+      "after_illustrative_aging_uF": 10.391417133787485,
+      "remaining_min_model_retention_factor_needed": 0.7698661209536243,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "Effective input requirement only. Replacing two master 10 uF capacitors by one 22 uF is a new feasibility option, not an approved electrical or layout implementation; ripple current and local placement still need validation."
+    },
+    {
+      "case": "Alternative one 22 uF 1206 input (new topology candidate only)",
+      "mpn": "CL31B226KPHNNNE",
+      "quantity": 1,
+      "rail_nominal_V": 5.5,
+      "required_effective_uF": 8,
+      "typical_bias_only_uF": 14.158917043651156,
+      "after_initial_tolerance_uF": 12.74302533928604,
+      "after_temperature_factor_uF": 10.831571538393135,
+      "after_illustrative_aging_uF": 9.748414384553822,
+      "remaining_min_model_retention_factor_needed": 0.8206462799402381,
+      "screen_passes_assumed_factors": true,
+      "guaranteed_pass": false,
+      "TI_allowed_combination_basis": "Effective input requirement only. Replacing two master 10 uF capacitors by one 22 uF is a new feasibility option, not an approved electrical or layout implementation; ripple current and local placement still need validation."
+    }
+  ],
+  "reservation_method": {
+    "type": "Provisional conservative planning envelope; not a PCB footprint",
+    "clearance_each_side_mm": 0.25,
+    "basis": "Use the union of maximum manufacturer recommended reflow lands and maximum body, add 0.25 mm on each side, then round up. Samsung 1210 length tolerance is outside the generic reflow table row, so extra allowance is provisional. Manufacturer solder lands do not themselves define a courtyard.",
+    "body_only_is_not_footprint": true
+  },
+  "sources": [
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL03B104KP3NNW.html",
+      "url": "https://product.samsungsem.com/mlcc/CL03B104KP3NNW.do",
+      "sha256": "4e60270bf4af8d3070db5d8a1799a504af4f8777f6ee8bfe5e5048269e42d8ed",
+      "bytes": 177054
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL03B104KP3NNW-specsheet.pdf",
+      "url": "https://product.samsungsem.com/part/download.do [POST masterKey=CL03B104KP3NNW&type=specsheet]",
+      "sha256": "5d081557bf851057e666fb0b4e4f243c8cdb259e75679b776c4892eca91fae90",
+      "bytes": 3010514
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL03A224KQ3NNN.html",
+      "url": "https://product.samsungsem.com/mlcc/CL03A224KQ3NNN.do",
+      "sha256": "dd9c811757f59680b8b18e2cdd63e26f52277e4ed94fdaac4908a18bf8464261",
+      "bytes": 166638
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL03A224KQ3NNN-specsheet.pdf",
+      "url": "https://product.samsungsem.com/part/download.do [POST masterKey=CL03A224KQ3NNN&type=specsheet]",
+      "sha256": "a268d06c4ef98b309ca62fafae6eb66a72c77c591d4bd7b0915438d22ed27681",
+      "bytes": 3013805
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL32B476KQVVPN.html",
+      "url": "https://product.samsungsem.com/mlcc/CL32B476KQVVPN.do",
+      "sha256": "4d45db33ae11299ccce6b5347921c77657c7ff135adf33e4c6f8df89ff07f633",
+      "bytes": 179605
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL32B476KQVVPN-specsheet.pdf",
+      "url": "https://product.samsungsem.com/part/download.do [POST masterKey=CL32B476KQVVPN&type=specsheet]",
+      "sha256": "65dbb462997163abc75cd1d29c19f0a90227978cafa5e35e8186698901897391",
+      "bytes": 2805399
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL31B226KPHNNN.html",
+      "url": "https://product.samsungsem.com/mlcc/CL31B226KPHNNN.do",
+      "sha256": "a5a27a23d508cecdf1c7225a0ab170488b74a8265b23f2fc8c685fcacfd6f37f",
+      "bytes": 183786
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL31B226KPHNNN-specsheet.pdf",
+      "url": "https://product.samsungsem.com/part/download.do [POST masterKey=CL31B226KPHNNN&type=specsheet]",
+      "sha256": "742b9759b46abf22af1f61562aac31870345cf654ca240911f98fda44cf58167",
+      "bytes": 3029926
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL10B475KQ8NFQ.html",
+      "url": "https://product.samsungsem.com/mlcc/CL10B475KQ8NFQ.do",
+      "sha256": "1702e94c76ede38896059fb1464d699710370444375265b8219de640ac49839b",
+      "bytes": 171389
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL10B475KQ8NFQ-specsheet.pdf",
+      "url": "https://product.samsungsem.com/part/download.do [POST masterKey=CL10B475KQ8NFQ&type=specsheet]",
+      "sha256": "89755befb9e3eec48c7962dd0b6ed5450c6a03d87ff0a78648e7b4d722907768",
+      "bytes": 3013187
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL21B106KPQNNW.html",
+      "url": "https://product.samsungsem.com/mlcc/CL21B106KPQNNW.do",
+      "sha256": "513325d0ec9066a72953adefa8c518cc918fc3c806c306d3d0c25b9611d6f1be",
+      "bytes": 178717
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/samsung-CL21B106KPQNNW-specsheet.pdf",
+      "url": "https://product.samsungsem.com/part/download.do [POST masterKey=CL21B106KPQNNW&type=specsheet]",
+      "sha256": "46987321ad8e05338b24e5ed442bf93393006661199052b0224317b19559ecda",
+      "bytes": 3012042
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/GRM188Z71A106MA73-01A.pdf",
+      "url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf",
+      "sha256": "302f1c1a67f22f47b6162c4490ac95620db431c8264c74db4846f723653acc3f",
+      "bytes": 2013381
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/GRM21BZ70J226ME44-01A.pdf",
+      "url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ70J226ME44-01A.pdf",
+      "sha256": "53c485911c10207e92d2c4599e7b0992ebec3ff134c0c2f2bd741f34b81b8f2e",
+      "bytes": 2004225
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/GRM188Z71C475KE21-01A.pdf",
+      "url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf",
+      "sha256": "7cf6195efe2cab32c91ce2f768ab63d9d47ebee1677bd7a9c03e7f09e1b81dab",
+      "bytes": 2021602
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/GRM155R70J105KA12-01A.pdf",
+      "url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J105KA12-01A.pdf",
+      "sha256": "5ab05a62b6032643895fcc7c56d50ee08f592e7e1ebd86239dedab5b019c5ece",
+      "bytes": 2003564
+    }
+  ],
+  "baseline_area_summary": {
+    "physical_component_count_excluding_DNP_logical_edge_and_testpoints": 237,
+    "all_xml_reference_count": 244,
+    "DNP_references": [
+      "R45",
+      "R47",
+      "JP1",
+      "R528"
+    ],
+    "type_counts": {
+      "U": 20,
+      "J": 1,
+      "C": 143,
+      "R": 60,
+      "Y": 2,
+      "JP": 1,
+      "FB": 9,
+      "L": 6,
+      "TP": 2
+    },
+    "board_area_mm2": 1444,
+    "assumed_edge_reserve_each_side_mm": 2,
+    "available_after_assumed_perimeter_band_mm2": 1156,
+    "dense_0201_small_passives_reservation_mm2": 1028.21,
+    "0402_small_passives_reservation_mm2": 1156.03,
+    "interpretation": "Area sum is only an optimistic lower-bound screen; does NOT prove packing, escape, routing, local decoupling, thermal feasibility or assembly compatibility. DNP/test point land reservations still consume area. Unknown component choices can grow. Edge band is an explicit provisional assumption, not recovered original geometry."
+  },
+  "coherent_review_candidate": {
+    "name": "Coherent X7R capacitor review candidate with robust input screen",
+    "status": "UNQUALIFIED_REVIEW_CANDIDATE_ONLY",
+    "selection": "Use CL31B226KPHNNNE for all 12 input positions, nine existing 22 uF positions and four formerly 47 uF output positions. Use CL10B475KQ8NFQC for ten local 4.7 uF positions. Other 108 capacitor positions retain baseline provisional reservations and remain unqualified.",
+    "count_changes": {
+      "baseline_all_capacitors": 143,
+      "candidate_all_capacitors": 143,
+      "baseline_reviewed_group_total": 35,
+      "candidate_reviewed_group_total": 35,
+      "added": 0,
+      "removed": 0
+    },
+    "group_area_deltas": [
+      {
+        "group": "All six regulator input pairs: 12 nominal 10 uF become 12 nominal 22 uF",
+        "references": [
+          "C203",
+          "C204",
+          "C210",
+          "C211",
+          "C216",
+          "C217",
+          "C220",
+          "C221",
+          "C225",
+          "C226",
+          "C230",
+          "C231"
+        ],
+        "baseline_count": 12,
+        "candidate_count": 12,
+        "candidate_mpn": "CL31B226KPHNNNE",
+        "candidate_reservation_xy_mm": [
+          4.9,
+          2.4
+        ],
+        "baseline_area_mm2": 34.32,
+        "candidate_area_mm2": 141.12,
+        "delta_mm2": 106.8,
+        "status": "Review candidate, not qualified hardware"
+      },
+      {
+        "group": "Nine existing nominal 22 uF including three memory decouplers",
+        "references": [
+          "C206",
+          "C207",
+          "C208",
+          "C212",
+          "C213",
+          "C214",
+          "C540",
+          "C552",
+          "C562"
+        ],
+        "baseline_count": 9,
+        "candidate_count": 9,
+        "candidate_mpn": "CL31B226KPHNNNE",
+        "candidate_reservation_xy_mm": [
+          4.9,
+          2.4
+        ],
+        "baseline_area_mm2": 25.74,
+        "candidate_area_mm2": 105.84,
+        "delta_mm2": 80.1,
+        "status": "Review candidate, not qualified hardware"
+      },
+      {
+        "group": "Four nominal 47 uF outputs become one nominal 22 uF each",
+        "references": [
+          "C201",
+          "C218",
+          "C223",
+          "C228"
+        ],
+        "baseline_count": 4,
+        "candidate_count": 4,
+        "candidate_mpn": "CL31B226KPHNNNE",
+        "candidate_reservation_xy_mm": [
+          4.9,
+          2.4
+        ],
+        "baseline_area_mm2": 20.16,
+        "candidate_area_mm2": 47.04,
+        "delta_mm2": 26.88,
+        "status": "Review candidate, not qualified hardware"
+      },
+      {
+        "group": "Ten local nominal 4.7 uF remain 0603 X7R",
+        "references": [
+          "C501",
+          "C502",
+          "C517",
+          "C521",
+          "C522",
+          "C529",
+          "C534",
+          "C541",
+          "C553",
+          "C563"
+        ],
+        "baseline_count": 10,
+        "candidate_count": 10,
+        "candidate_mpn": "CL10B475KQ8NFQC",
+        "candidate_reservation_xy_mm": [
+          3,
+          1.5
+        ],
+        "baseline_area_mm2": 28.6,
+        "candidate_area_mm2": 45.0,
+        "delta_mm2": 16.4,
+        "status": "Review candidate, not qualified hardware"
+      }
+    ],
+    "baseline_reviewed_group_area_mm2": 108.82,
+    "candidate_reviewed_group_area_mm2": 339.0,
+    "total_delta_mm2": 230.18,
+    "baseline_all_capacitor_reservation_mm2": 194.9,
+    "candidate_all_capacitor_reservation_mm2": 425.08,
+    "baseline_full_board_dense_reservation_mm2": 1028.21,
+    "candidate_full_board_dense_reservation_mm2": 1258.39,
+    "provisional_available_inside_perimeter_band_mm2": 1156,
+    "candidate_excess_over_provisional_available_mm2": 102.39,
+    "uniform_factor_screen": {
+      "initial_tolerance": 0.9,
+      "temperature": 0.85,
+      "aging_illustrative_unqualified": 0.9,
+      "model_margin_illustrative_unqualified": 0.9
+    },
+    "capacitance_checks": [
+      {
+        "case": "Each regulator input pair, worst converter VIN endpoint",
+        "mpn": "CL31B226KPHNNNE",
+        "quantity": 2,
+        "bias_V": 5.5,
+        "minimum_effective_uF": 8,
+        "official_typical_uF": 28.317834087302312,
+        "after_0p90_initial_tolerance_uF": 25.48605067857208,
+        "after_0p85_temperature_factor_uF": 21.66314307678627,
+        "after_0p90_illustrative_aging_uF": 19.496828769107644,
+        "after_0p90_unqualified_model_margin_uF": 17.54714589219688,
+        "arithmetic_margin_uF": 9.54714589219688,
+        "arithmetic_margin_percent": 119.339323652461,
+        "screen_passes": true,
+        "guaranteed": false
+      },
+      {
+        "case": "CPU/KPU output bank at converter maximum programmable voltage",
+        "mpn": "CL31B226KPHNNNE",
+        "quantity": 3,
+        "bias_V": 1.675,
+        "minimum_effective_uF": 30,
+        "official_typical_uF": 64.56183011524483,
+        "after_0p90_initial_tolerance_uF": 58.10564710372035,
+        "after_0p85_temperature_factor_uF": 49.3898000381623,
+        "after_0p90_illustrative_aging_uF": 44.45082003434607,
+        "after_0p90_unqualified_model_margin_uF": 40.005738030911466,
+        "arithmetic_margin_uF": 10.005738030911466,
+        "arithmetic_margin_percent": 33.352460103038226,
+        "screen_passes": true,
+        "guaranteed": false
+      },
+      {
+        "case": "Single 22 uF output replacing nominal 47 uF",
+        "mpn": "CL31B226KPHNNNE",
+        "quantity": 1,
+        "bias_V": 0.8,
+        "minimum_effective_uF": 10,
+        "official_typical_uF": 22.378542790799937,
+        "after_0p90_initial_tolerance_uF": 20.140688511719944,
+        "after_0p85_temperature_factor_uF": 17.119585234961953,
+        "after_0p90_illustrative_aging_uF": 15.407626711465758,
+        "after_0p90_unqualified_model_margin_uF": 13.866864040319182,
+        "arithmetic_margin_uF": 3.8668640403191823,
+        "arithmetic_margin_percent": 38.66864040319182,
+        "screen_passes": true,
+        "guaranteed": false
+      },
+      {
+        "case": "Single 22 uF output replacing nominal 47 uF",
+        "mpn": "CL31B226KPHNNNE",
+        "quantity": 1,
+        "bias_V": 1.1,
+        "minimum_effective_uF": 10,
+        "official_typical_uF": 22.176746519381897,
+        "after_0p90_initial_tolerance_uF": 19.959071867443708,
+        "after_0p85_temperature_factor_uF": 16.96521108732715,
+        "after_0p90_illustrative_aging_uF": 15.268689978594438,
+        "after_0p90_unqualified_model_margin_uF": 13.741820980734994,
+        "arithmetic_margin_uF": 3.7418209807349943,
+        "arithmetic_margin_percent": 37.41820980734993,
+        "screen_passes": true,
+        "guaranteed": false
+      },
+      {
+        "case": "Single 22 uF output replacing nominal 47 uF",
+        "mpn": "CL31B226KPHNNNE",
+        "quantity": 1,
+        "bias_V": 1.8,
+        "minimum_effective_uF": 10,
+        "official_typical_uF": 21.35203726489245,
+        "after_0p90_initial_tolerance_uF": 19.216833538403204,
+        "after_0p85_temperature_factor_uF": 16.334308507642724,
+        "after_0p90_illustrative_aging_uF": 14.700877656878452,
+        "after_0p90_unqualified_model_margin_uF": 13.230789891190607,
+        "arithmetic_margin_uF": 3.230789891190607,
+        "arithmetic_margin_percent": 32.307898911906065,
+        "screen_passes": true,
+        "guaranteed": false
+      },
+      {
+        "case": "Single 22 uF output replacing nominal 47 uF",
+        "mpn": "CL31B226KPHNNNE",
+        "quantity": 1,
+        "bias_V": 3.3,
+        "minimum_effective_uF": 10,
+        "official_typical_uF": 18.554056098222173,
+        "after_0p90_initial_tolerance_uF": 16.698650488399956,
+        "after_0p85_temperature_factor_uF": 14.193852915139962,
+        "after_0p90_illustrative_aging_uF": 12.774467623625966,
+        "after_0p90_unqualified_model_margin_uF": 11.49702086126337,
+        "arithmetic_margin_uF": 1.4970208612633709,
+        "arithmetic_margin_percent": 14.970208612633717,
+        "screen_passes": true,
+        "guaranteed": false
+      },
+      {
+        "case": "Single 22 uF output with illustrative +5% on 3.3 V",
+        "mpn": "CL31B226KPHNNNE",
+        "quantity": 1,
+        "bias_V": 3.465,
+        "minimum_effective_uF": 10,
+        "official_typical_uF": 18.20860846807692,
+        "after_0p90_initial_tolerance_uF": 16.38774762126923,
+        "after_0p85_temperature_factor_uF": 13.929585478078845,
+        "after_0p90_illustrative_aging_uF": 12.53662693027096,
+        "after_0p90_unqualified_model_margin_uF": 11.282964237243865,
+        "arithmetic_margin_uF": 1.2829642372438652,
+        "arithmetic_margin_percent": 12.829642372438643,
+        "screen_passes": true,
+        "guaranteed": false
+      },
+      {
+        "case": "Rejected lower-margin alternative: three 10 uF 0805 inputs",
+        "mpn": "CL21B106KPQNNWE",
+        "quantity": 3,
+        "bias_V": 5.5,
+        "minimum_effective_uF": 8,
+        "official_typical_uF": 13.271676553564822,
+        "after_0p90_initial_tolerance_uF": 11.94450889820834,
+        "after_0p85_temperature_factor_uF": 10.152832563477089,
+        "after_0p90_illustrative_aging_uF": 9.13754930712938,
+        "after_0p90_unqualified_model_margin_uF": 8.223794376416443,
+        "arithmetic_margin_uF": 0.22379437641644273,
+        "arithmetic_margin_percent": 2.797429705205534,
+        "screen_passes": true,
+        "guaranteed": false
+      }
+    ],
+    "DVFS_scope": "1.675 V is the TPS62864 maximum programmable voltage and a conservative capacitor-only screen. It is not an authorized K230 CPU/KPU voltage. The conflicting SoC DVFS limits remain unresolved.",
+    "limitations": [
+      "The 10% model margin is a chosen planning allowance, not a vendor guarantee or demonstrated lot bound.",
+      "The 10% aging allowance is unqualified; lifetime, AC stimulus and temperature under bias remain unresolved.",
+      "The 3.465 V output check is an illustrative +5% voltage-margin scenario, not an established rail tolerance budget.",
+      "Memory 22 uF and local 4.7 uF candidates preserve nominal values but their required effective local decoupling and PI response are not established.",
+      "Uniform 0.25 mm clearance is a scenario assumption, not a mandatory or universal manufacturer minimum.",
+      "The scenario does not imply no smaller qualified package exists. Smaller verified Murata 0805 22 uF remains open pending its curve and qualification.",
+      "No master BOM, netlist, geometry or capacitor count changed.",
+      "The area sum is a planning sensitivity only; even a lower sum would not establish routed fit."
+    ]
+  },
+  "reservation_scenario_summary": [
+    {
+      "group": "All six regulator input pairs: 12 nominal 10 uF become 12 nominal 22 uF",
+      "references": [
+        "C203",
+        "C204",
+        "C210",
+        "C211",
+        "C216",
+        "C217",
+        "C220",
+        "C221",
+        "C225",
+        "C226",
+        "C230",
+        "C231"
+      ],
+      "baseline_count": 12,
+      "candidate_count": 12,
+      "candidate_mpn": "CL31B226KPHNNNE",
+      "candidate_reservation_xy_mm": [
+        4.9,
+        2.4
+      ],
+      "baseline_area_mm2": 34.32,
+      "candidate_area_mm2": 141.12,
+      "delta_mm2": 106.8,
+      "status": "Review candidate, not qualified hardware"
+    },
+    {
+      "group": "Nine existing nominal 22 uF including three memory decouplers",
+      "references": [
+        "C206",
+        "C207",
+        "C208",
+        "C212",
+        "C213",
+        "C214",
+        "C540",
+        "C552",
+        "C562"
+      ],
+      "baseline_count": 9,
+      "candidate_count": 9,
+      "candidate_mpn": "CL31B226KPHNNNE",
+      "candidate_reservation_xy_mm": [
+        4.9,
+        2.4
+      ],
+      "baseline_area_mm2": 25.74,
+      "candidate_area_mm2": 105.84,
+      "delta_mm2": 80.1,
+      "status": "Review candidate, not qualified hardware"
+    },
+    {
+      "group": "Four nominal 47 uF outputs become one nominal 22 uF each",
+      "references": [
+        "C201",
+        "C218",
+        "C223",
+        "C228"
+      ],
+      "baseline_count": 4,
+      "candidate_count": 4,
+      "candidate_mpn": "CL31B226KPHNNNE",
+      "candidate_reservation_xy_mm": [
+        4.9,
+        2.4
+      ],
+      "baseline_area_mm2": 20.16,
+      "candidate_area_mm2": 47.04,
+      "delta_mm2": 26.88,
+      "status": "Review candidate, not qualified hardware"
+    },
+    {
+      "group": "Ten local nominal 4.7 uF remain 0603 X7R",
+      "references": [
+        "C501",
+        "C502",
+        "C517",
+        "C521",
+        "C522",
+        "C529",
+        "C534",
+        "C541",
+        "C553",
+        "C563"
+      ],
+      "baseline_count": 10,
+      "candidate_count": 10,
+      "candidate_mpn": "CL10B475KQ8NFQC",
+      "candidate_reservation_xy_mm": [
+        3,
+        1.5
+      ],
+      "baseline_area_mm2": 28.6,
+      "candidate_area_mm2": 45.0,
+      "delta_mm2": 16.4,
+      "status": "Review candidate, not qualified hardware"
+    }
+  ],
+  "manufacturer_reflow_land_ranges": [
+    {
+      "mpn": "CL31B226KPHNNNE",
+      "source_file": "samsung-CL31B226KPHNNN-specsheet.pdf",
+      "pdf_page": 33,
+      "case_metric": "3216",
+      "chip_tolerance_mm": 0.2,
+      "a_gap_range_mm": [
+        1.64,
+        1.76
+      ],
+      "b_each_pad_length_range_mm": [
+        1.19,
+        1.31
+      ],
+      "c_pad_width_range_mm": [
+        1.74,
+        1.86
+      ],
+      "copper_span_range_mm": [
+        4.02,
+        4.38
+      ],
+      "copper_midpoint_xy_mm": [
+        4.2,
+        1.8
+      ],
+      "body_max_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "visual_checked": true
+    },
+    {
+      "mpn": "CL10B475KQ8NFQC",
+      "source_file": "samsung-CL10B475KQ8NFQ-specsheet.pdf",
+      "pdf_page": 33,
+      "case_metric": "1608",
+      "chip_tolerance_mm": 0.15,
+      "a_gap_range_mm": [
+        0.65,
+        0.75
+      ],
+      "b_each_pad_length_range_mm": [
+        0.73,
+        0.83
+      ],
+      "c_pad_width_range_mm": [
+        0.9,
+        1.0
+      ],
+      "copper_span_range_mm": [
+        2.11,
+        2.41
+      ],
+      "copper_midpoint_xy_mm": [
+        2.26,
+        0.95
+      ],
+      "body_max_xy_mm": [
+        1.75,
+        0.95
+      ]
+    }
+  ],
+  "optional_single_input_scenario": {
+    "status": "SECONDARY_REVIEW_OPTION_NOT_APPLIED",
+    "rationale": "Four TPS6282xA regulators require at least 3 uF effective input; one selected 22 uF 1206 input screens well above this floor. Retain two inputs on each TPS62864. Ripple current, hot loop placement and input transient qualification remain required.",
+    "candidate_remove_reference_positions": [
+      "C204",
+      "C221",
+      "C226",
+      "C231"
+    ],
+    "candidate_keep_single_input_positions": [
+      "C203",
+      "C220",
+      "C225",
+      "C230"
+    ],
+    "candidate_keep_dual_input_positions": [
+      [
+        "C210",
+        "C211"
+      ],
+      [
+        "C216",
+        "C217"
+      ]
+    ],
+    "all_capacitor_count": 139,
+    "reviewed_high_cap_count": 31,
+    "added_capacitors": 0,
+    "removed_capacitors": 4,
+    "effective_single_input_at_5p5V_after_all_four_factors_uF": 8.77357294609844,
+    "required_TPS6282xA_input_uF": 3,
+    "arithmetic_margin_percent": 192.45243153661468,
+    "guaranteed": false,
+    "conservative_max_land_rounded_full_board_mm2": 1211.35,
+    "conservative_max_land_rounded_delta_vs_baseline_mm2": 183.14
+  },
+  "manufacturer_midpoint_assembly_sensitivities": [
+    {
+      "scenario": "All input pairs, manufacturer land midpoint +0.25 mm clearance",
+      "clearance_each_side_mm_assumed": 0.25,
+      "count_1206_22uF": 25,
+      "count_0603_4p7uF": 10,
+      "reservation_1206_xy_mm": [
+        4.7,
+        2.3
+      ],
+      "reservation_0603_xy_mm": [
+        2.76,
+        1.45
+      ],
+      "reviewed_group_area_mm2": 310.27,
+      "delta_from_original_high_cap_groups_mm2": 201.45,
+      "full_board_dense_screen_mm2": 1229.66,
+      "margin_to_provisional_1156_mm2": -73.66,
+      "status": "Assembly planning sensitivity only; neither clearance is manufacturer mandated or process qualified. Midpoint lands are within published ranges, but footprint and assembly validation remain required. No routed fit is established."
+    },
+    {
+      "scenario": "All input pairs, manufacturer land midpoint +0.10 mm clearance",
+      "clearance_each_side_mm_assumed": 0.1,
+      "count_1206_22uF": 25,
+      "count_0603_4p7uF": 10,
+      "reservation_1206_xy_mm": [
+        4.4,
+        2.0
+      ],
+      "reservation_0603_xy_mm": [
+        2.46,
+        1.15
+      ],
+      "reviewed_group_area_mm2": 248.29,
+      "delta_from_original_high_cap_groups_mm2": 139.47,
+      "full_board_dense_screen_mm2": 1167.68,
+      "margin_to_provisional_1156_mm2": -11.68,
+      "status": "Assembly planning sensitivity only; neither clearance is manufacturer mandated or process qualified. Midpoint lands are within published ranges, but footprint and assembly validation remain required. No routed fit is established."
+    },
+    {
+      "scenario": "Four single-input TPS6282xA rails, midpoint +0.25 mm clearance",
+      "clearance_each_side_mm_assumed": 0.25,
+      "count_1206_22uF": 21,
+      "count_0603_4p7uF": 10,
+      "reservation_1206_xy_mm": [
+        4.7,
+        2.3
+      ],
+      "reservation_0603_xy_mm": [
+        2.76,
+        1.45
+      ],
+      "reviewed_group_area_mm2": 267.03,
+      "delta_from_original_high_cap_groups_mm2": 158.21,
+      "full_board_dense_screen_mm2": 1186.42,
+      "margin_to_provisional_1156_mm2": -30.42,
+      "status": "Assembly planning sensitivity only; neither clearance is manufacturer mandated or process qualified. Midpoint lands are within published ranges, but footprint and assembly validation remain required. No routed fit is established."
+    },
+    {
+      "scenario": "Four single-input TPS6282xA rails, midpoint +0.10 mm clearance",
+      "clearance_each_side_mm_assumed": 0.1,
+      "count_1206_22uF": 21,
+      "count_0603_4p7uF": 10,
+      "reservation_1206_xy_mm": [
+        4.4,
+        2.0
+      ],
+      "reservation_0603_xy_mm": [
+        2.46,
+        1.15
+      ],
+      "reviewed_group_area_mm2": 213.09,
+      "delta_from_original_high_cap_groups_mm2": 104.27,
+      "full_board_dense_screen_mm2": 1132.48,
+      "margin_to_provisional_1156_mm2": 23.52,
+      "status": "Assembly planning sensitivity only; neither clearance is manufacturer mandated or process qualified. Midpoint lands are within published ranges, but footprint and assembly validation remain required. No routed fit is established."
+    }
+  ],
+  "validation": {
+    "JSON_parsed": true,
+    "master_sha256_unchanged_during_review": true,
+    "reviewed_group_reference_counts": [
+      12,
+      9,
+      4,
+      10
+    ],
+    "source_hashes_verified": true,
+    "missing_primary_dc_bias_curves": [
+      "GRM188Z71A106MA73D",
+      "GRM21BZ70J226ME44L",
+      "GRM188Z71C475KE21D",
+      "GRM155R70J105KA12D"
+    ]
+  },
+  "baseline_revision_note": "Includes current L22/L23, R220, R561 and Y2 mechanical corrections; source area report was read again after the lead notified this update."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "PASS_REQUESTED_U14_CANDIDATE_CHANGE_NOT_HARDWARE_QUALIFICATION",
+  "revision": "HT-DRAFT13",
+  "checks": [
+    "high-temp netlist/memory/gpio",
+    "interlock34structural16states",
+    "scaled-feedback8resistors4caps",
+    "precision19",
+    "bypass112",
+    "buffered-reset conditional screen",
+    "U14 map/truth/default-state/DC/non-U14-preservation regression"
+  ],
+  "erc_violations": 0,
+  "partial_import_footprints": 150,
+  "verified_pad_nets": 566,
+  "missing_footprints": 104,
+  "native_clearance_violations_retained": 58,
+  "native_unconnected_items": 351,
+  "native_unconnected_delta": 1,
+  "new_native_clearance_on_U14": false,
+  "render_review": "review.pdf page10 visually checked: six U14 pins, R33value and candidate notes legible",
+  "main_generator_changed": "cad/high-temp-candidate/build_review.py",
+  "shared_Samsung_generator_changed": false,
+  "artifacts_sha256": {
+    "cad/high-temp-candidate/master.xml": "96108059ca509bbde234565dcda46a2a0273dd2cb296a5d3a95aac812d08976b",
+    "cad/high-temp-candidate/build_review.py": "30d3e747b8896934547b361a83af9d67226a7347285b9d235013d05c0160486f",
+    "cad/high-temp-candidate/review.pdf": "1665eb46dfee968fd080996ff31932bbd69a0228cf4ecd88bc610971a979fa40",
+    "cad/high-temp-candidate/CMK230_Core_REVIEW.kicad_pcb": "a370b94b55cd7d74f3be4b48d08c6de0c920be886001f43e6908609761eb4daf",
+    "cad/high-temp-candidate/u14-or-validation.json": "8e086d9169f8d0a44568c8a1294c00ca65dce5b7100468ee4e5b5cdf6a9a9003",
+    "cad/high-temp-candidate/erc.json": "93376d33ee7be218a251ee6ccea7def637907eeb4f8ecca8a5f79845f472c939",
+    "tools/validate_high_temp_u14_or.py": "93d0c88656f41ea349cc3c8ca312eb3a06608d603aa6a4c1a4575e36eb30c2b5"
+  }
+}

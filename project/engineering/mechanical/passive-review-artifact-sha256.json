@@ -1,0 +1,62 @@
+[
+  {
+    "file": "engineering/mechanical/build_passive_candidate_area_scenarios.py",
+    "sha256": "06a2f9be6afdba1e33e9bd74fc55e5c53e12d026464be3d69c4e03eba780ed46"
+  },
+  {
+    "file": "engineering/mechanical/passive-candidate-area-packing-scenarios.json",
+    "sha256": "c63a2286d84da14b8d23e29e6729857e8841f560020066a2c9509f9801f9740a"
+  },
+  {
+    "file": "engineering/mechanical/passive-candidate-rectangle-input-snapshot.json",
+    "sha256": "1a6335b51e1be3bd075541353b7addb7cf9b0e311d19bcbe408b6a476840e5e0"
+  },
+  {
+    "file": "engineering/mechanical/passive-capacitor-X5R-conditional-review.json",
+    "sha256": "662bf761d4d20d13d4c6f01f59c07ae0c0bd18ddfb764073bf1dd3bd80cd3bfc"
+  },
+  {
+    "file": "engineering/mechanical/passive-capacitor-X5R-conditional-review.md",
+    "sha256": "962d9740d79fefaea9f8b88802d32a801b13d38ba284dcc5322e437acd203acc"
+  },
+  {
+    "file": "engineering/mechanical/passive-capacitor-candidate-review.json",
+    "sha256": "ac9e5489aa6e9b92e648701642fa689a0963f3dc15d6e7a60aaaa9e6010ec4a7"
+  },
+  {
+    "file": "engineering/mechanical/passive-capacitor-candidate-review.md",
+    "sha256": "0c253eb4734e33f3f3494eca049cddb6cfba35f8f00b550cb6b191958b2ad211"
+  },
+  {
+    "file": "engineering/mechanical/passive-envelope-correction-verification.json",
+    "sha256": "fe29369a900d90bfac47ed5f2c99feb5bbf048bbfb2d7cf324bcd039c272d9e9"
+  },
+  {
+    "file": "engineering/mechanical/passive-feasibility-input-snapshot.json",
+    "sha256": "aa2dc3a50f1142b3eccde4ca698e804c073f366e2da049c4501b9eaa5951bbc1"
+  },
+  {
+    "file": "engineering/mechanical/passive-hot-enclosure-review.md",
+    "sha256": "4fee587e3a8e1bf291feef51bf3e8e31670c7cda0d0f548c7950601d32972f1e"
+  },
+  {
+    "file": "engineering/mechanical/passive-inductor-candidate-review.md",
+    "sha256": "41041afb326328c03959b7db07de8b1d8d51905c7f1919d3e0a62c97c7f8b8bb"
+  },
+  {
+    "file": "engineering/mechanical/passive-inductor-ferrite-resistor-scenarios.json",
+    "sha256": "a3e50519db34353bb58d6c96e293cf9852fecaeebff670b2f6e542307c10fdfb"
+  },
+  {
+    "file": "engineering/mechanical/passive-physical-feasibility-review.md",
+    "sha256": "7f86f1321d1b1eff136ba7d0d47bea1e7eea5deff834b2204003b08c479014af"
+  },
+  {
+    "file": "engineering/mechanical/passive-physical-feasibility-status.json",
+    "sha256": "7b577d8b97d1a54d9f01dbb2904a528da452b3e3b8cd97aa0e069d6d474856e5"
+  },
+  {
+    "file": "engineering/mechanical/passive-small-parts-review.md",
+    "sha256": "905ade6abba74e7b7a494c43a107d4c8f3a61294060d7eacad6dea0ac8318717"
+  }
+]

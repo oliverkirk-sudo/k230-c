@@ -1,0 +1,175 @@
+{
+  "scope": "CANDIDATE_AREA_AND_RECTANGLE_SCREEN_ONLY",
+  "baseline_dense_area_mm2": 1028.21,
+  "baseline_envelopes": 243,
+  "baseline_source_sha256": "3cf25a20fe006bdc7ebb9b3d22237a5069f318e86d148bcdeb6a1ce3b8432bbf",
+  "cap_source_sha256": "ac9e5489aa6e9b92e648701642fa689a0963f3dc15d6e7a60aaaa9e6010ec4a7",
+  "provisional_interior_mm": [
+    34,
+    34
+  ],
+  "algorithm": "Same bounded20-seed rectangle heuristic and fixed BGA envelopes as baseline",
+  "not_checked": [
+    "local decoupling location and hot loops",
+    "electrical release and guaranteed Ceff",
+    "BGA escape and route corridors",
+    "PDN and thermal behavior",
+    "component height and assembly process",
+    "real castellation geometry"
+  ],
+  "cases": [
+    {
+      "name": "X7R: all input pairs, conservative maximum-land reservations",
+      "status": "UNQUALIFIED_REVIEW_SCENARIO",
+      "area_mm2": 1258.39,
+      "margin_to_1156_mm2": -102.39,
+      "removed_capacitor_positions": [],
+      "candidate_capacitor_count": 143,
+      "ferrite_35um_candidate": false,
+      "TI_listed_XEL3520_L21_candidate": false,
+      "packing": {
+        "result": "AREA_SUM_EXCEEDS_PROVISIONAL_INTERIOR",
+        "placed_count": null,
+        "requested_count": 243,
+        "packing_attempted": false
+      }
+    },
+    {
+      "name": "All input pairs, manufacturer land midpoint +0.25 mm clearance",
+      "status": "UNQUALIFIED_REVIEW_SCENARIO",
+      "area_mm2": 1229.66,
+      "margin_to_1156_mm2": -73.66,
+      "removed_capacitor_positions": [],
+      "candidate_capacitor_count": 143,
+      "ferrite_35um_candidate": false,
+      "TI_listed_XEL3520_L21_candidate": false,
+      "packing": {
+        "result": "AREA_SUM_EXCEEDS_PROVISIONAL_INTERIOR",
+        "placed_count": null,
+        "requested_count": 243,
+        "packing_attempted": false
+      }
+    },
+    {
+      "name": "All input pairs, manufacturer land midpoint +0.10 mm clearance",
+      "status": "UNQUALIFIED_REVIEW_SCENARIO",
+      "area_mm2": 1167.68,
+      "margin_to_1156_mm2": -11.68,
+      "removed_capacitor_positions": [],
+      "candidate_capacitor_count": 143,
+      "ferrite_35um_candidate": false,
+      "TI_listed_XEL3520_L21_candidate": false,
+      "packing": {
+        "result": "AREA_SUM_EXCEEDS_PROVISIONAL_INTERIOR",
+        "placed_count": null,
+        "requested_count": 243,
+        "packing_attempted": false
+      }
+    },
+    {
+      "name": "Four single-input TPS6282xA rails, midpoint +0.25 mm clearance",
+      "status": "UNQUALIFIED_REVIEW_SCENARIO",
+      "area_mm2": 1186.42,
+      "margin_to_1156_mm2": -30.42,
+      "removed_capacitor_positions": [
+        "C204",
+        "C221",
+        "C226",
+        "C231"
+      ],
+      "candidate_capacitor_count": 139,
+      "ferrite_35um_candidate": false,
+      "TI_listed_XEL3520_L21_candidate": false,
+      "packing": {
+        "result": "AREA_SUM_EXCEEDS_PROVISIONAL_INTERIOR",
+        "placed_count": null,
+        "requested_count": 239,
+        "packing_attempted": false
+      }
+    },
+    {
+      "name": "Four single-input TPS6282xA rails, midpoint +0.10 mm clearance",
+      "status": "UNQUALIFIED_REVIEW_SCENARIO",
+      "area_mm2": 1132.48,
+      "margin_to_1156_mm2": 23.52,
+      "removed_capacitor_positions": [
+        "C204",
+        "C221",
+        "C226",
+        "C231"
+      ],
+      "candidate_capacitor_count": 139,
+      "ferrite_35um_candidate": false,
+      "TI_listed_XEL3520_L21_candidate": false,
+      "packing": {
+        "result": "BOUNDED_HEURISTIC_INCOMPLETE_NOT_IMPOSSIBILITY_PROOF",
+        "placed_count": 217,
+        "requested_count": 239,
+        "unplaced": [
+          "R70",
+          "R563",
+          "C566",
+          "C555",
+          "R205",
+          "R221",
+          "C572",
+          "R570",
+          "C509",
+          "C573",
+          "R71",
+          "C530",
+          "C814",
+          "C574",
+          "R216",
+          "R32",
+          "C532",
+          "C232",
+          "C556",
+          "R67",
+          "R568",
+          "R44"
+        ],
+        "pairwise_overlap_count": 0,
+        "seed": 16,
+        "packing_attempted": true
+      }
+    },
+    {
+      "name": "X7R: four single inputs, midpoint +0.10 clearance, 35um ferrite and XEL3520 candidates",
+      "status": "UNQUALIFIED_REVIEW_SCENARIO",
+      "area_mm2": 1122.24,
+      "margin_to_1156_mm2": 33.76,
+      "removed_capacitor_positions": [
+        "C204",
+        "C221",
+        "C226",
+        "C231"
+      ],
+      "candidate_capacitor_count": 139,
+      "ferrite_35um_candidate": true,
+      "TI_listed_XEL3520_L21_candidate": true,
+      "packing": {
+        "result": "BOUNDED_HEURISTIC_INCOMPLETE_NOT_IMPOSSIBILITY_PROOF",
+        "placed_count": 229,
+        "requested_count": 239,
+        "unplaced": [
+          "C234",
+          "R31",
+          "R45",
+          "R62",
+          "R32",
+          "C519",
+          "C530",
+          "C503",
+          "C504",
+          "C558"
+        ],
+        "pairwise_overlap_count": 0,
+        "seed": 1,
+        "packing_attempted": true
+      }
+    }
+  ],
+  "snapshot_status": "Historical 243-envelope snapshot before two source-backed MIPI capacitors were added by lead; not current full BOM",
+  "temperature_status": "Later user reported sealed75-85C; air versus case pending. X5R excluded; all thermal qualification open."
+}

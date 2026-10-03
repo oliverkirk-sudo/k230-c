@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "Bias") (type "KiCad") (uri "${KIPRJMOD}/Bias.kicad_sym") (options "") (descr "Verified bias topology, values subject to final review")))

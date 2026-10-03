@@ -1,0 +1,3814 @@
+{
+  "extraction": "Exact NAME and DESIGNATOR from every RECORD=2 in the Altium ASCII symbol; independently spatially matched number/name on baseboard PDF page 1. Symbol coordinates are schematic graphical coordinates, NOT physical PCB positions.",
+  "files_sha256": {
+    "CM-K230.schdoc": "b81a35adc8bd6b72608139f274f3dddd91c1b4a9e4297dab25c3c9ebb77d2e63",
+    "schematic.pdf": "51156a34a327ab409131644769019951bf76a3f97ba6510cd6e92ea7c771ea0e"
+  },
+  "pin_count": 140,
+  "all_numbers_unique": true,
+  "missing_numbers": [],
+  "matching_pdf_pin_names": 140,
+  "duplicate_names": {
+    "GND": [
+      1,
+      2,
+      3,
+      36,
+      49,
+      57,
+      64,
+      71,
+      78,
+      89,
+      106
+    ],
+    "VIN_5V": [
+      4,
+      5,
+      6
+    ]
+  },
+  "electrical_caution": "All symbol ELECTRICAL fields are 4. Do not infer direction, voltage tolerance, power capability or sequencing from this generic symbol code. No SoC ball map is present in these sources.",
+  "pins": [
+    {
+      "pin": 1,
+      "name": "GND",
+      "symbol_line": 12,
+      "symbol_electrical_code": "4",
+      "symbol_x": 90,
+      "symbol_y": 40,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        144.74526977539062,
+        428.4007263183594,
+        153.457275390625,
+        432.0400085449219
+      ],
+      "pdf_name_bbox": [
+        148.3452606201172,
+        408.0959777832031,
+        157.05726623535156,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 2,
+      "name": "GND",
+      "symbol_line": 13,
+      "symbol_electrical_code": "4",
+      "symbol_x": 100,
+      "symbol_y": 40,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        151.9452667236328,
+        428.4007263183594,
+        160.6572723388672,
+        432.0400085449219
+      ],
+      "pdf_name_bbox": [
+        155.54527282714844,
+        408.0959777832031,
+        164.2572784423828,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 3,
+      "name": "GND",
+      "symbol_line": 14,
+      "symbol_electrical_code": "4",
+      "symbol_x": 110,
+      "symbol_y": 40,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        159.145263671875,
+        428.4007263183594,
+        167.85726928710938,
+        432.0400085449219
+      ],
+      "pdf_name_bbox": [
+        162.74526977539062,
+        408.0959777832031,
+        171.457275390625,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 4,
+      "name": "VIN_5V",
+      "symbol_line": 15,
+      "symbol_electrical_code": "4",
+      "symbol_x": 120,
+      "symbol_y": 40,
+      "pdf_name": "VIN_5V",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        166.3452606201172,
+        428.4007263183594,
+        175.05726623535156,
+        432.0400085449219
+      ],
+      "pdf_name_bbox": [
+        169.9452667236328,
+        400.0843505859375,
+        178.6572723388672,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 5,
+      "name": "VIN_5V",
+      "symbol_line": 16,
+      "symbol_electrical_code": "4",
+      "symbol_x": 130,
+      "symbol_y": 40,
+      "pdf_name": "VIN_5V",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        173.54527282714844,
+        428.4007263183594,
+        182.2572784423828,
+        432.0400085449219
+      ],
+      "pdf_name_bbox": [
+        177.145263671875,
+        400.0843505859375,
+        185.85726928710938,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 6,
+      "name": "VIN_5V",
+      "symbol_line": 17,
+      "symbol_electrical_code": "4",
+      "symbol_x": 140,
+      "symbol_y": 40,
+      "pdf_name": "VIN_5V",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        180.74526977539062,
+        428.4007263183594,
+        189.457275390625,
+        432.0400085449219
+      ],
+      "pdf_name_bbox": [
+        184.3452606201172,
+        400.0843505859375,
+        193.05726623535156,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 7,
+      "name": "VOUT_3V3",
+      "symbol_line": 18,
+      "symbol_electrical_code": "4",
+      "symbol_x": 150,
+      "symbol_y": 40,
+      "pdf_name": "VOUT_3V3",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        187.9452667236328,
+        428.4007263183594,
+        196.6572723388672,
+        432.0400085449219
+      ],
+      "pdf_name_bbox": [
+        191.54527282714844,
+        389.1730651855469,
+        200.2572784423828,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 8,
+      "name": "VOUT_1V8",
+      "symbol_line": 19,
+      "symbol_electrical_code": "4",
+      "symbol_x": 160,
+      "symbol_y": 40,
+      "pdf_name": "VOUT_1V8",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        195.145263671875,
+        428.4007263183594,
+        203.85726928710938,
+        432.0400085449219
+      ],
+      "pdf_name_bbox": [
+        198.74526977539062,
+        389.1730651855469,
+        207.457275390625,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 9,
+      "name": "BANK1_GPIO18",
+      "symbol_line": 20,
+      "symbol_electrical_code": "4",
+      "symbol_x": 170,
+      "symbol_y": 40,
+      "pdf_name": "BANK1_GPIO18",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        202.3452606201172,
+        428.4007263183594,
+        211.05726623535156,
+        432.0400085449219
+      ],
+      "pdf_name_bbox": [
+        205.9452667236328,
+        373.889404296875,
+        214.6572723388672,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 10,
+      "name": "BANK1_GPIO19",
+      "symbol_line": 21,
+      "symbol_electrical_code": "4",
+      "symbol_x": 180,
+      "symbol_y": 40,
+      "pdf_name": "BANK1_GPIO19",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        209.54527282714844,
+        428.4014587402344,
+        218.2572784423828,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        213.145263671875,
+        373.889404296875,
+        221.85726928710938,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 11,
+      "name": "BANK1_GPIO20",
+      "symbol_line": 22,
+      "symbol_electrical_code": "4",
+      "symbol_x": 190,
+      "symbol_y": 40,
+      "pdf_name": "BANK1_GPIO20",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        216.74526977539062,
+        428.4014587402344,
+        225.457275390625,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        220.3452606201172,
+        373.889404296875,
+        229.05726623535156,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 12,
+      "name": "BANK1_GPIO21",
+      "symbol_line": 23,
+      "symbol_electrical_code": "4",
+      "symbol_x": 200,
+      "symbol_y": 40,
+      "pdf_name": "BANK1_GPIO21",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        223.9452667236328,
+        428.4014587402344,
+        232.6572723388672,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        227.54527282714844,
+        373.889404296875,
+        236.2572784423828,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 13,
+      "name": "BANK1_GPIO22",
+      "symbol_line": 24,
+      "symbol_electrical_code": "4",
+      "symbol_x": 210,
+      "symbol_y": 40,
+      "pdf_name": "BANK1_GPIO22",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        231.145263671875,
+        428.4014587402344,
+        239.85726928710938,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        234.74526977539062,
+        373.889404296875,
+        243.457275390625,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 14,
+      "name": "BANK1_GPIO23",
+      "symbol_line": 25,
+      "symbol_electrical_code": "4",
+      "symbol_x": 220,
+      "symbol_y": 40,
+      "pdf_name": "BANK1_GPIO23",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        238.3452606201172,
+        428.4014587402344,
+        247.05726623535156,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        241.9452667236328,
+        373.889404296875,
+        250.6572723388672,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 15,
+      "name": "BANK1_GPIO24",
+      "symbol_line": 26,
+      "symbol_electrical_code": "4",
+      "symbol_x": 230,
+      "symbol_y": 40,
+      "pdf_name": "BANK1_GPIO24",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        245.54527282714844,
+        428.4014587402344,
+        254.2572784423828,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        249.145263671875,
+        373.889404296875,
+        257.8572692871094,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 16,
+      "name": "BANK1_GPIO25",
+      "symbol_line": 27,
+      "symbol_electrical_code": "4",
+      "symbol_x": 240,
+      "symbol_y": 40,
+      "pdf_name": "BANK1_GPIO25",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        252.74525451660156,
+        428.4014587402344,
+        261.4572448730469,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        256.34527587890625,
+        373.889404296875,
+        265.0572509765625,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 17,
+      "name": "TFCARD_D0",
+      "symbol_line": 28,
+      "symbol_electrical_code": "4",
+      "symbol_x": 250,
+      "symbol_y": 40,
+      "pdf_name": "TFCARD_D0",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        259.9452819824219,
+        428.4014587402344,
+        268.6572570800781,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        263.5452880859375,
+        384.0937805175781,
+        272.25726318359375,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 18,
+      "name": "TFCARD_D1",
+      "symbol_line": 29,
+      "symbol_electrical_code": "4",
+      "symbol_x": 260,
+      "symbol_y": 40,
+      "pdf_name": "TFCARD_D1",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        267.1452941894531,
+        428.4014587402344,
+        275.8572692871094,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        270.7452697753906,
+        384.0937805175781,
+        279.4572448730469,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 19,
+      "name": "TFCARD_D2",
+      "symbol_line": 30,
+      "symbol_electrical_code": "4",
+      "symbol_x": 270,
+      "symbol_y": 40,
+      "pdf_name": "TFCARD_D2",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        274.34527587890625,
+        428.4014587402344,
+        283.0572509765625,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        277.9452819824219,
+        384.0937805175781,
+        286.6572570800781,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 20,
+      "name": "TFCARD_D3",
+      "symbol_line": 31,
+      "symbol_electrical_code": "4",
+      "symbol_x": 280,
+      "symbol_y": 40,
+      "pdf_name": "TFCARD_D3",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        281.5452880859375,
+        428.4014587402344,
+        290.25726318359375,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        285.1452941894531,
+        384.0937805175781,
+        293.8572692871094,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 21,
+      "name": "TFCARD_CLK",
+      "symbol_line": 32,
+      "symbol_electrical_code": "4",
+      "symbol_x": 290,
+      "symbol_y": 40,
+      "pdf_name": "TFCARD_CLK",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        288.7452697753906,
+        428.4014587402344,
+        297.4572448730469,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        292.34527587890625,
+        379.72796630859375,
+        301.0572509765625,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 22,
+      "name": "TFCARD_CMD",
+      "symbol_line": 33,
+      "symbol_electrical_code": "4",
+      "symbol_x": 300,
+      "symbol_y": 40,
+      "pdf_name": "TFCARD_CMD",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        295.9452819824219,
+        428.4014587402344,
+        304.6572570800781,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        299.5452880859375,
+        377.55487060546875,
+        308.25726318359375,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 23,
+      "name": "BANK4_VDDIO",
+      "symbol_line": 34,
+      "symbol_electrical_code": "4",
+      "symbol_x": 310,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_VDDIO",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        303.1452941894531,
+        428.4014587402344,
+        311.8572692871094,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        306.7452697753906,
+        376.8086853027344,
+        315.4572448730469,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 24,
+      "name": "BANK4_GPIO50",
+      "symbol_line": 35,
+      "symbol_electrical_code": "4",
+      "symbol_x": 320,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO50",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        310.34527587890625,
+        428.4014587402344,
+        319.0572509765625,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        313.9452819824219,
+        373.889404296875,
+        322.6572570800781,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 25,
+      "name": "BANK4_GPIO51",
+      "symbol_line": 36,
+      "symbol_electrical_code": "4",
+      "symbol_x": 330,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO51",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        317.5452880859375,
+        428.4014587402344,
+        326.25726318359375,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        321.1452941894531,
+        373.889404296875,
+        329.8572692871094,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 26,
+      "name": "BANK4_GPIO52",
+      "symbol_line": 37,
+      "symbol_electrical_code": "4",
+      "symbol_x": 340,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO52",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        324.7452697753906,
+        428.4014587402344,
+        333.4572448730469,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        328.34527587890625,
+        373.889404296875,
+        337.0572509765625,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 27,
+      "name": "BANK4_GPIO53",
+      "symbol_line": 38,
+      "symbol_electrical_code": "4",
+      "symbol_x": 350,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO53",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        331.9452819824219,
+        428.4014587402344,
+        340.6572570800781,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        335.5452880859375,
+        373.889404296875,
+        344.25726318359375,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 28,
+      "name": "BANK4_GPIO54",
+      "symbol_line": 39,
+      "symbol_electrical_code": "4",
+      "symbol_x": 360,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO54",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        339.1452941894531,
+        428.4014587402344,
+        347.8572692871094,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        342.7452697753906,
+        373.889404296875,
+        351.4572448730469,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 29,
+      "name": "BANK4_GPIO55",
+      "symbol_line": 40,
+      "symbol_electrical_code": "4",
+      "symbol_x": 370,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO55",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        346.34527587890625,
+        428.4014587402344,
+        355.0572509765625,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        349.9452819824219,
+        373.889404296875,
+        358.6572570800781,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 30,
+      "name": "BANK4_GPIO56",
+      "symbol_line": 41,
+      "symbol_electrical_code": "4",
+      "symbol_x": 380,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO56",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        353.5452880859375,
+        428.4014587402344,
+        362.25726318359375,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        357.1452941894531,
+        373.889404296875,
+        365.8572692871094,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 31,
+      "name": "BANK4_GPIO57",
+      "symbol_line": 42,
+      "symbol_electrical_code": "4",
+      "symbol_x": 390,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO57",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        360.7452697753906,
+        428.4014587402344,
+        369.4572448730469,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        364.34527587890625,
+        373.889404296875,
+        373.0572509765625,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 32,
+      "name": "BANK4_GPIO58",
+      "symbol_line": 43,
+      "symbol_electrical_code": "4",
+      "symbol_x": 400,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO58",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        367.9452819824219,
+        428.4014587402344,
+        376.6572570800781,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        371.5452880859375,
+        373.889404296875,
+        380.25726318359375,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 33,
+      "name": "BANK4_GPIO59",
+      "symbol_line": 44,
+      "symbol_electrical_code": "4",
+      "symbol_x": 410,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO59",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        375.1452941894531,
+        428.4014587402344,
+        383.8572692871094,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        378.7452697753906,
+        373.889404296875,
+        387.4572448730469,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 34,
+      "name": "BANK4_GPIO60",
+      "symbol_line": 45,
+      "symbol_electrical_code": "4",
+      "symbol_x": 420,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO60",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        382.34527587890625,
+        428.4014587402344,
+        391.0572509765625,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        385.9452819824219,
+        373.889404296875,
+        394.6572570800781,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 35,
+      "name": "BANK4_GPIO61",
+      "symbol_line": 46,
+      "symbol_electrical_code": "4",
+      "symbol_x": 430,
+      "symbol_y": 40,
+      "pdf_name": "BANK4_GPIO61",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        389.5452880859375,
+        428.4014587402344,
+        398.25726318359375,
+        435.6800231933594
+      ],
+      "pdf_name_bbox": [
+        393.1452941894531,
+        373.889404296875,
+        401.8572692871094,
+        422.6400146484375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 36,
+      "name": "GND",
+      "symbol_line": 47,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 90,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        380.9053039550781,
+        444.3185729980469,
+        389.6172790527344
+      ],
+      "pdf_name_bbox": [
+        416.739990234375,
+        384.50531005859375,
+        431.2840270996094,
+        393.21728515625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 37,
+      "name": "USB1_N",
+      "symbol_line": 48,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 100,
+      "pdf_name": "USB1_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        373.7052917480469,
+        444.3185729980469,
+        382.4172668457031
+      ],
+      "pdf_name_bbox": [
+        405.82000732421875,
+        377.3052978515625,
+        431.2818603515625,
+        386.01727294921875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 38,
+      "name": "USB1_P",
+      "symbol_line": 49,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 110,
+      "pdf_name": "USB1_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        366.50531005859375,
+        444.3185729980469,
+        375.21728515625
+      ],
+      "pdf_name_bbox": [
+        406.17999267578125,
+        370.1053161621094,
+        431.2818298339844,
+        378.8172912597656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 39,
+      "name": "USB1_ID",
+      "symbol_line": 50,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 120,
+      "pdf_name": "USB1_ID",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        359.3052978515625,
+        444.3185729980469,
+        368.01727294921875
+      ],
+      "pdf_name_bbox": [
+        404.0,
+        362.9053039550781,
+        431.281494140625,
+        371.6172790527344
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 40,
+      "name": "USB0_P",
+      "symbol_line": 51,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 130,
+      "pdf_name": "USB0_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        352.1053161621094,
+        444.3185729980469,
+        360.8172912597656
+      ],
+      "pdf_name_bbox": [
+        406.17999267578125,
+        355.7052917480469,
+        431.2818298339844,
+        364.4172668457031
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 41,
+      "name": "USB0_N",
+      "symbol_line": 52,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 140,
+      "pdf_name": "USB0_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        344.9053039550781,
+        444.3185729980469,
+        353.6172790527344
+      ],
+      "pdf_name_bbox": [
+        405.82000732421875,
+        348.50531005859375,
+        431.2818603515625,
+        357.21728515625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 42,
+      "name": "USB0_ID",
+      "symbol_line": 53,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 150,
+      "pdf_name": "USB0_ID",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        337.7052917480469,
+        444.3185729980469,
+        346.4172668457031
+      ],
+      "pdf_name_bbox": [
+        404.0,
+        341.3052978515625,
+        431.281494140625,
+        350.01727294921875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 43,
+      "name": "ADC0",
+      "symbol_line": 54,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 160,
+      "pdf_name": "ADC0",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        330.50531005859375,
+        444.3185729980469,
+        339.21728515625
+      ],
+      "pdf_name_bbox": [
+        413.82000732421875,
+        334.1053161621094,
+        431.2767639160156,
+        342.8172912597656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 44,
+      "name": "ADC1",
+      "symbol_line": 55,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 170,
+      "pdf_name": "ADC1",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        323.3052978515625,
+        444.3185729980469,
+        332.01727294921875
+      ],
+      "pdf_name_bbox": [
+        413.82000732421875,
+        326.9053039550781,
+        431.2767639160156,
+        335.6172790527344
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 45,
+      "name": "ADC2",
+      "symbol_line": 56,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 180,
+      "pdf_name": "ADC2",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        316.1053161621094,
+        444.3185729980469,
+        324.8172912597656
+      ],
+      "pdf_name_bbox": [
+        413.82000732421875,
+        319.7052917480469,
+        431.2767639160156,
+        328.4172668457031
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 46,
+      "name": "ADC3",
+      "symbol_line": 57,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 190,
+      "pdf_name": "ADC3",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        308.9053039550781,
+        444.3185729980469,
+        317.6172790527344
+      ],
+      "pdf_name_bbox": [
+        413.82000732421875,
+        312.50531005859375,
+        431.2767639160156,
+        321.21728515625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 47,
+      "name": "ADC4",
+      "symbol_line": 58,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 200,
+      "pdf_name": "ADC4",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        301.7052917480469,
+        444.3185729980469,
+        310.4172668457031
+      ],
+      "pdf_name_bbox": [
+        413.82000732421875,
+        305.3052978515625,
+        431.2767639160156,
+        314.01727294921875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 48,
+      "name": "ADC5",
+      "symbol_line": 59,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 210,
+      "pdf_name": "ADC5",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        294.50531005859375,
+        444.3185729980469,
+        303.21728515625
+      ],
+      "pdf_name_bbox": [
+        413.82000732421875,
+        298.1053161621094,
+        431.2767639160156,
+        306.8172912597656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 49,
+      "name": "GND",
+      "symbol_line": 60,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 220,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        287.3052978515625,
+        444.3185729980469,
+        296.01727294921875
+      ],
+      "pdf_name_bbox": [
+        416.739990234375,
+        290.9053039550781,
+        431.2840270996094,
+        299.6172790527344
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 50,
+      "name": "MIC_BIAS",
+      "symbol_line": 61,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 230,
+      "pdf_name": "MIC_BIAS",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        280.10528564453125,
+        444.3185729980469,
+        288.8172607421875
+      ],
+      "pdf_name_bbox": [
+        400.7300109863281,
+        283.705322265625,
+        431.2842102050781,
+        292.41729736328125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 51,
+      "name": "MIC_NL",
+      "symbol_line": 62,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 240,
+      "pdf_name": "MIC_NL",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        272.90533447265625,
+        444.3185729980469,
+        281.6173095703125
+      ],
+      "pdf_name_bbox": [
+        407.2799987792969,
+        276.50531005859375,
+        431.2822265625,
+        285.21728515625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 52,
+      "name": "MIC_PL",
+      "symbol_line": 63,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 250,
+      "pdf_name": "MIC_PL",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        265.705322265625,
+        444.3185729980469,
+        274.41729736328125
+      ],
+      "pdf_name_bbox": [
+        407.6400146484375,
+        269.3052978515625,
+        431.2822265625,
+        278.01727294921875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 53,
+      "name": "MIC_NR",
+      "symbol_line": 64,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 260,
+      "pdf_name": "MIC_NR",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        258.50531005859375,
+        444.3185729980469,
+        267.21728515625
+      ],
+      "pdf_name_bbox": [
+        406.19000244140625,
+        262.10528564453125,
+        431.2787780761719,
+        270.8172607421875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 54,
+      "name": "MIC_PR",
+      "symbol_line": 65,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 270,
+      "pdf_name": "MIC_PR",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        251.30528259277344,
+        444.3185729980469,
+        260.01727294921875
+      ],
+      "pdf_name_bbox": [
+        406.54998779296875,
+        254.9053192138672,
+        431.27874755859375,
+        263.6173095703125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 55,
+      "name": "HP_OUTR",
+      "symbol_line": 66,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 280,
+      "pdf_name": "HP_OUTR",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        244.1052703857422,
+        444.3185729980469,
+        252.81727600097656
+      ],
+      "pdf_name_bbox": [
+        400.010009765625,
+        247.70530700683594,
+        431.28424072265625,
+        256.41729736328125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 56,
+      "name": "HP_OUTL",
+      "symbol_line": 67,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 290,
+      "pdf_name": "HP_OUTL",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        236.9053192138672,
+        444.3185729980469,
+        245.61732482910156
+      ],
+      "pdf_name_bbox": [
+        401.0899963378906,
+        240.5052947998047,
+        431.2776794433594,
+        249.21730041503906
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 57,
+      "name": "GND",
+      "symbol_line": 68,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 300,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        229.70530700683594,
+        444.3185729980469,
+        238.4173126220703
+      ],
+      "pdf_name_bbox": [
+        416.739990234375,
+        233.30528259277344,
+        431.2840270996094,
+        242.0172882080078
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 58,
+      "name": "CSI2_CLK_P",
+      "symbol_line": 69,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 310,
+      "pdf_name": "CSI2_CLK_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        222.5052947998047,
+        444.3185729980469,
+        231.21730041503906
+      ],
+      "pdf_name_bbox": [
+        392.3500061035156,
+        226.1052703857422,
+        431.27587890625,
+        234.81727600097656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 59,
+      "name": "CSI2_CLK_N",
+      "symbol_line": 70,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 320,
+      "pdf_name": "CSI2_CLK_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        215.30528259277344,
+        444.3185729980469,
+        224.0172882080078
+      ],
+      "pdf_name_bbox": [
+        391.989990234375,
+        218.9053192138672,
+        431.27587890625,
+        227.61732482910156
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 60,
+      "name": "CSI2_D4_N",
+      "symbol_line": 71,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 330,
+      "pdf_name": "CSI2_D4_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        208.1052703857422,
+        444.3185729980469,
+        216.81727600097656
+      ],
+      "pdf_name_bbox": [
+        396.3599853515625,
+        211.70530700683594,
+        431.2800598144531,
+        220.4173126220703
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 61,
+      "name": "CSI2_D4_P",
+      "symbol_line": 72,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 340,
+      "pdf_name": "CSI2_D4_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        200.9053192138672,
+        444.3185729980469,
+        209.61732482910156
+      ],
+      "pdf_name_bbox": [
+        396.7200012207031,
+        204.5052947998047,
+        431.2800598144531,
+        213.21730041503906
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 62,
+      "name": "CSI2_D5_P",
+      "symbol_line": 73,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 350,
+      "pdf_name": "CSI2_D5_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        193.70530700683594,
+        444.3185729980469,
+        202.4173126220703
+      ],
+      "pdf_name_bbox": [
+        396.7200012207031,
+        197.30528259277344,
+        431.2800598144531,
+        206.0172882080078
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 63,
+      "name": "CSI2_D5_N",
+      "symbol_line": 74,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 360,
+      "pdf_name": "CSI2_D5_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        186.5052947998047,
+        444.3185729980469,
+        195.21730041503906
+      ],
+      "pdf_name_bbox": [
+        396.3599853515625,
+        190.1052703857422,
+        431.2800598144531,
+        198.81727600097656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 64,
+      "name": "GND",
+      "symbol_line": 75,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 370,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        179.30528259277344,
+        444.3185729980469,
+        188.0172882080078
+      ],
+      "pdf_name_bbox": [
+        416.739990234375,
+        182.9053192138672,
+        431.2840270996094,
+        191.61732482910156
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 65,
+      "name": "CSI0_D1_N",
+      "symbol_line": 76,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 380,
+      "pdf_name": "CSI0_D1_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        172.1052703857422,
+        444.3185729980469,
+        180.81727600097656
+      ],
+      "pdf_name_bbox": [
+        396.3599853515625,
+        175.70530700683594,
+        431.2800598144531,
+        184.4173126220703
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 66,
+      "name": "CSI0_D1_P",
+      "symbol_line": 77,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 390,
+      "pdf_name": "CSI0_D1_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        164.9053192138672,
+        444.3185729980469,
+        173.61732482910156
+      ],
+      "pdf_name_bbox": [
+        396.7200012207031,
+        168.5052947998047,
+        431.2800598144531,
+        177.21730041503906
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 67,
+      "name": "CSI0_CLK_N",
+      "symbol_line": 78,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 400,
+      "pdf_name": "CSI0_CLK_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        157.70530700683594,
+        444.3185729980469,
+        166.4173126220703
+      ],
+      "pdf_name_bbox": [
+        391.989990234375,
+        161.30528259277344,
+        431.27587890625,
+        170.0172882080078
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 68,
+      "name": "CSI0_CLK_P",
+      "symbol_line": 79,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 410,
+      "pdf_name": "CSI0_CLK_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        150.5052947998047,
+        444.3185729980469,
+        159.21730041503906
+      ],
+      "pdf_name_bbox": [
+        392.3500061035156,
+        154.1052703857422,
+        431.27587890625,
+        162.81727600097656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 69,
+      "name": "CSI0_D0_P",
+      "symbol_line": 80,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 420,
+      "pdf_name": "CSI0_D0_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        143.30528259277344,
+        444.3185729980469,
+        152.0172882080078
+      ],
+      "pdf_name_bbox": [
+        396.7200012207031,
+        146.9053192138672,
+        431.2800598144531,
+        155.61732482910156
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 70,
+      "name": "CSI0_D0_N",
+      "symbol_line": 81,
+      "symbol_electrical_code": "4",
+      "symbol_x": 480,
+      "symbol_y": 430,
+      "pdf_name": "CSI0_D0_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        437.0400085449219,
+        136.1052703857422,
+        444.3185729980469,
+        144.81727600097656
+      ],
+      "pdf_name_bbox": [
+        396.3599853515625,
+        139.70530700683594,
+        431.2800598144531,
+        148.4173126220703
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 71,
+      "name": "GND",
+      "symbol_line": 82,
+      "symbol_electrical_code": "4",
+      "symbol_x": 430,
+      "symbol_y": 480,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        389.5452880859375,
+        97.12146759033203,
+        398.25726318359375,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        393.1452941894531,
+        110.15602111816406,
+        401.8572692871094,
+        124.70001220703125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 72,
+      "name": "CSI1_D2_N",
+      "symbol_line": 83,
+      "symbol_electrical_code": "4",
+      "symbol_x": 420,
+      "symbol_y": 480,
+      "pdf_name": "CSI1_D2_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        382.34527587890625,
+        97.12146759033203,
+        391.0572509765625,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        385.9452819824219,
+        110.15992736816406,
+        394.6572570800781,
+        145.08001708984375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 73,
+      "name": "CSI1_D2_P",
+      "symbol_line": 84,
+      "symbol_electrical_code": "4",
+      "symbol_x": 410,
+      "symbol_y": 480,
+      "pdf_name": "CSI1_D2_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        375.1452941894531,
+        97.12146759033203,
+        383.8572692871094,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        378.7452697753906,
+        110.1599349975586,
+        387.4572448730469,
+        144.72003173828125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 74,
+      "name": "CSI1_CLK_P",
+      "symbol_line": 85,
+      "symbol_electrical_code": "4",
+      "symbol_x": 400,
+      "symbol_y": 480,
+      "pdf_name": "CSI1_CLK_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        367.9452819824219,
+        97.12146759033203,
+        376.6572570800781,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        371.5452880859375,
+        110.1640853881836,
+        380.25726318359375,
+        149.09002685546875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 75,
+      "name": "CSI1_CLK_N",
+      "symbol_line": 86,
+      "symbol_electrical_code": "4",
+      "symbol_x": 390,
+      "symbol_y": 480,
+      "pdf_name": "CSI1_CLK_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        360.7452697753906,
+        97.12146759033203,
+        369.4572448730469,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        364.34527587890625,
+        110.16407775878906,
+        373.0572509765625,
+        149.45001220703125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 76,
+      "name": "CSI1_D3_P",
+      "symbol_line": 87,
+      "symbol_electrical_code": "4",
+      "symbol_x": 380,
+      "symbol_y": 480,
+      "pdf_name": "CSI1_D3_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        353.5452880859375,
+        97.12146759033203,
+        362.25726318359375,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        357.1452941894531,
+        110.1599349975586,
+        365.8572692871094,
+        144.72003173828125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 77,
+      "name": "CSI1_D3_N",
+      "symbol_line": 88,
+      "symbol_electrical_code": "4",
+      "symbol_x": 370,
+      "symbol_y": 480,
+      "pdf_name": "CSI1_D3_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        346.34527587890625,
+        97.12146759033203,
+        355.0572509765625,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        349.9452819824219,
+        110.15992736816406,
+        358.6572570800781,
+        145.08001708984375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 78,
+      "name": "GND",
+      "symbol_line": 89,
+      "symbol_electrical_code": "4",
+      "symbol_x": 360,
+      "symbol_y": 480,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        339.1452941894531,
+        97.12146759033203,
+        347.8572692871094,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        342.7452697753906,
+        110.15602111816406,
+        351.4572448730469,
+        124.70001220703125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 79,
+      "name": "DSI_D3_P",
+      "symbol_line": 90,
+      "symbol_electrical_code": "4",
+      "symbol_x": 350,
+      "symbol_y": 480,
+      "pdf_name": "DSI_D3_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        331.9452819824219,
+        97.12146759033203,
+        340.6572570800781,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        335.5452880859375,
+        110.1592025756836,
+        344.25726318359375,
+        141.08001708984375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 80,
+      "name": "DSI_D3_N",
+      "symbol_line": 91,
+      "symbol_electrical_code": "4",
+      "symbol_x": 340,
+      "symbol_y": 480,
+      "pdf_name": "DSI_D3_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        324.7452697753906,
+        97.12146759033203,
+        333.4572448730469,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        328.34527587890625,
+        110.15919494628906,
+        337.0572509765625,
+        141.44000244140625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 81,
+      "name": "DSI_D2_N",
+      "symbol_line": 92,
+      "symbol_electrical_code": "4",
+      "symbol_x": 330,
+      "symbol_y": 480,
+      "pdf_name": "DSI_D2_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        317.5452880859375,
+        97.12146759033203,
+        326.25726318359375,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        321.1452941894531,
+        110.15919494628906,
+        329.8572692871094,
+        141.44000244140625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 82,
+      "name": "DSI_D2_P",
+      "symbol_line": 93,
+      "symbol_electrical_code": "4",
+      "symbol_x": 320,
+      "symbol_y": 480,
+      "pdf_name": "DSI_D2_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        310.34527587890625,
+        97.12146759033203,
+        319.0572509765625,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        313.9452819824219,
+        110.1592025756836,
+        322.6572570800781,
+        141.08001708984375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 83,
+      "name": "DSI_CLK_P",
+      "symbol_line": 94,
+      "symbol_electrical_code": "4",
+      "symbol_x": 310,
+      "symbol_y": 480,
+      "pdf_name": "DSI_CLK_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        303.1452941894531,
+        97.12146759033203,
+        311.8572692871094,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        306.7452697753906,
+        110.1633529663086,
+        315.4572448730469,
+        145.45001220703125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 84,
+      "name": "DSI_CLK_N",
+      "symbol_line": 95,
+      "symbol_electrical_code": "4",
+      "symbol_x": 300,
+      "symbol_y": 480,
+      "pdf_name": "DSI_CLK_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        295.9452819824219,
+        97.12146759033203,
+        304.6572570800781,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        299.5452880859375,
+        110.16334533691406,
+        308.25726318359375,
+        145.80999755859375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 85,
+      "name": "DSI_D0_N",
+      "symbol_line": 96,
+      "symbol_electrical_code": "4",
+      "symbol_x": 290,
+      "symbol_y": 480,
+      "pdf_name": "DSI_D0_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        288.7452697753906,
+        97.12146759033203,
+        297.4572448730469,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        292.34527587890625,
+        110.15919494628906,
+        301.0572509765625,
+        141.44000244140625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 86,
+      "name": "DSI_D0_P",
+      "symbol_line": 97,
+      "symbol_electrical_code": "4",
+      "symbol_x": 280,
+      "symbol_y": 480,
+      "pdf_name": "DSI_D0_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        281.5452880859375,
+        97.12146759033203,
+        290.25726318359375,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        285.1452941894531,
+        110.1592025756836,
+        293.8572692871094,
+        141.08001708984375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 87,
+      "name": "DSI_D1_P",
+      "symbol_line": 98,
+      "symbol_electrical_code": "4",
+      "symbol_x": 270,
+      "symbol_y": 480,
+      "pdf_name": "DSI_D1_P",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        274.34527587890625,
+        97.12146759033203,
+        283.0572509765625,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        277.9452819824219,
+        110.1592025756836,
+        286.6572570800781,
+        141.08001708984375
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 88,
+      "name": "DSI_D1_N",
+      "symbol_line": 99,
+      "symbol_electrical_code": "4",
+      "symbol_x": 260,
+      "symbol_y": 480,
+      "pdf_name": "DSI_D1_N",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        267.1452941894531,
+        97.12146759033203,
+        275.8572692871094,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        270.7452697753906,
+        110.15919494628906,
+        279.4572448730469,
+        141.44000244140625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 89,
+      "name": "GND",
+      "symbol_line": 100,
+      "symbol_electrical_code": "4",
+      "symbol_x": 250,
+      "symbol_y": 480,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        259.9452819824219,
+        97.12146759033203,
+        268.6572570800781,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        263.5452880859375,
+        110.15602111816406,
+        272.25726318359375,
+        124.70001220703125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 90,
+      "name": "BANK2_VDDIO",
+      "symbol_line": 101,
+      "symbol_electrical_code": "4",
+      "symbol_x": 240,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_VDDIO",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        252.74525451660156,
+        97.12146759033203,
+        261.4572448730469,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        256.34527587890625,
+        110.15861511230469,
+        265.0572509765625,
+        155.99005126953125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 91,
+      "name": "BANK2_GPIO26",
+      "symbol_line": 102,
+      "symbol_electrical_code": "4",
+      "symbol_x": 230,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO26",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        245.54527282714844,
+        97.12146759033203,
+        254.2572784423828,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        249.145263671875,
+        110.15937042236328,
+        257.8572692871094,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 92,
+      "name": "BANK2_GPIO27",
+      "symbol_line": 103,
+      "symbol_electrical_code": "4",
+      "symbol_x": 220,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO27",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        238.3452606201172,
+        97.12146759033203,
+        247.05726623535156,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        241.9452667236328,
+        110.15937042236328,
+        250.6572723388672,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 93,
+      "name": "BANK2_GPIO28",
+      "symbol_line": 104,
+      "symbol_electrical_code": "4",
+      "symbol_x": 210,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO28",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        231.145263671875,
+        97.12146759033203,
+        239.85726928710938,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        234.74526977539062,
+        110.15937042236328,
+        243.457275390625,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 94,
+      "name": "BANK2_GPIO29",
+      "symbol_line": 105,
+      "symbol_electrical_code": "4",
+      "symbol_x": 200,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO29",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        223.9452667236328,
+        97.12146759033203,
+        232.6572723388672,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        227.54527282714844,
+        110.15937042236328,
+        236.2572784423828,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 95,
+      "name": "BANK2_GPIO30",
+      "symbol_line": 106,
+      "symbol_electrical_code": "4",
+      "symbol_x": 190,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO30",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        216.74526977539062,
+        97.12146759033203,
+        225.457275390625,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        220.3452606201172,
+        110.15937042236328,
+        229.05726623535156,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 96,
+      "name": "BANK2_GPIO31",
+      "symbol_line": 107,
+      "symbol_electrical_code": "4",
+      "symbol_x": 180,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO31",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        209.54527282714844,
+        97.12146759033203,
+        218.2572784423828,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        213.145263671875,
+        110.15937042236328,
+        221.85726928710938,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 97,
+      "name": "BANK2_GPIO32",
+      "symbol_line": 108,
+      "symbol_electrical_code": "4",
+      "symbol_x": 170,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO32",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        202.3452606201172,
+        97.12146759033203,
+        211.05726623535156,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        205.9452667236328,
+        110.15937042236328,
+        214.6572723388672,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 98,
+      "name": "BANK2_GPIO33",
+      "symbol_line": 109,
+      "symbol_electrical_code": "4",
+      "symbol_x": 160,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO33",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        195.145263671875,
+        97.12146759033203,
+        203.85726928710938,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        198.74526977539062,
+        110.15937042236328,
+        207.457275390625,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 99,
+      "name": "BANK2_GPIO34",
+      "symbol_line": 110,
+      "symbol_electrical_code": "4",
+      "symbol_x": 150,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO34",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        187.9452667236328,
+        97.12146759033203,
+        196.6572723388672,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        191.54527282714844,
+        110.15937042236328,
+        200.2572784423828,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 100,
+      "name": "BANK2_GPIO35",
+      "symbol_line": 111,
+      "symbol_electrical_code": "4",
+      "symbol_x": 140,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO35",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        180.74526977539062,
+        93.48218536376953,
+        189.457275390625,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        184.3452606201172,
+        110.15937042236328,
+        193.05726623535156,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 101,
+      "name": "BANK2_GPIO36",
+      "symbol_line": 112,
+      "symbol_electrical_code": "4",
+      "symbol_x": 130,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO36",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        173.54527282714844,
+        93.48218536376953,
+        182.2572784423828,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        177.145263671875,
+        110.15937042236328,
+        185.85726928710938,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 102,
+      "name": "BANK2_GPIO37",
+      "symbol_line": 113,
+      "symbol_electrical_code": "4",
+      "symbol_x": 120,
+      "symbol_y": 480,
+      "pdf_name": "BANK2_GPIO37",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        166.3452606201172,
+        93.48218536376953,
+        175.05726623535156,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        169.9452667236328,
+        110.15937042236328,
+        178.6572723388672,
+        158.9100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 103,
+      "name": "BANK5_VDDIO",
+      "symbol_line": 114,
+      "symbol_electrical_code": "4",
+      "symbol_x": 110,
+      "symbol_y": 480,
+      "pdf_name": "BANK5_VDDIO",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        159.145263671875,
+        93.48218536376953,
+        167.85726928710938,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        163.1737518310547,
+        110.16180419921875,
+        171.01455688476562,
+        151.4100341796875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 104,
+      "name": "BANK5_IO62",
+      "symbol_line": 115,
+      "symbol_electrical_code": "4",
+      "symbol_x": 100,
+      "symbol_y": 480,
+      "pdf_name": "BANK5_IO62",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        151.9452667236328,
+        93.48218536376953,
+        160.6572723388672,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        155.97373962402344,
+        110.15684509277344,
+        163.81454467773438,
+        145.52001953125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 105,
+      "name": "BANK5_IO63",
+      "symbol_line": 116,
+      "symbol_electrical_code": "4",
+      "symbol_x": 90,
+      "symbol_y": 480,
+      "pdf_name": "BANK5_IO63",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        144.74526977539062,
+        93.48218536376953,
+        153.457275390625,
+        104.4000244140625
+      ],
+      "pdf_name_bbox": [
+        148.77374267578125,
+        110.15684509277344,
+        156.6145477294922,
+        145.52001953125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 106,
+      "name": "GND",
+      "symbol_line": 117,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 430,
+      "pdf_name": "GND",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        136.1052703857422,
+        113.03782653808594,
+        144.81727600097656
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        139.70530700683594,
+        133.343994140625,
+        148.4173126220703
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 107,
+      "name": "BANK0_VDDIO",
+      "symbol_line": 118,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 420,
+      "pdf_name": "BANK0_VDDIO",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        143.30528259277344,
+        113.03782653808594,
+        152.0172882080078
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        147.33375549316406,
+        160.0481414794922,
+        155.174560546875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 108,
+      "name": "BANK0_GPIO2",
+      "symbol_line": 119,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 410,
+      "pdf_name": "BANK0_GPIO2",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        150.5052947998047,
+        113.03782653808594,
+        159.21730041503906
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        154.1052703857422,
+        163.9112548828125,
+        162.81727600097656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 109,
+      "name": "BANK0_GPIO3",
+      "symbol_line": 120,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 400,
+      "pdf_name": "BANK0_GPIO3",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        157.70530700683594,
+        113.03782653808594,
+        166.4173126220703
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        161.30528259277344,
+        163.9112548828125,
+        170.0172882080078
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 110,
+      "name": "BANK0_GPIO4",
+      "symbol_line": 121,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 390,
+      "pdf_name": "BANK0_GPIO4",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        164.9053192138672,
+        113.03782653808594,
+        173.61732482910156
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        168.5052947998047,
+        163.9112548828125,
+        177.21730041503906
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 111,
+      "name": "BANK0_GPIO5",
+      "symbol_line": 122,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 380,
+      "pdf_name": "BANK0_GPIO5",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        172.1052703857422,
+        113.03782653808594,
+        180.81727600097656
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        175.70530700683594,
+        163.9112548828125,
+        184.4173126220703
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 112,
+      "name": "BANK0_GPIO6",
+      "symbol_line": 123,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 370,
+      "pdf_name": "BANK0_GPIO6",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        179.30528259277344,
+        113.03782653808594,
+        188.0172882080078
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        182.9053192138672,
+        163.9112548828125,
+        191.61732482910156
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 113,
+      "name": "BANK0_GPIO7",
+      "symbol_line": 124,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 360,
+      "pdf_name": "BANK0_GPIO7",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        186.5052947998047,
+        113.03782653808594,
+        195.21730041503906
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        190.1052703857422,
+        163.9112548828125,
+        198.81727600097656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 114,
+      "name": "BANK0_GPIO8",
+      "symbol_line": 125,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 350,
+      "pdf_name": "BANK0_GPIO8",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        193.70530700683594,
+        113.03782653808594,
+        202.4173126220703
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        197.30528259277344,
+        163.9112548828125,
+        206.0172882080078
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 115,
+      "name": "BANK0_GPIO9",
+      "symbol_line": 126,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 340,
+      "pdf_name": "BANK0_GPIO9",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        200.9053192138672,
+        113.03782653808594,
+        209.61732482910156
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        204.5052947998047,
+        163.9112548828125,
+        213.21730041503906
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 116,
+      "name": "BANK0_GPIO10",
+      "symbol_line": 127,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 330,
+      "pdf_name": "BANK0_GPIO10",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        208.1052703857422,
+        113.03782653808594,
+        216.81727600097656
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        211.70530700683594,
+        167.55052185058594,
+        220.4173126220703
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 117,
+      "name": "BANK0_GPIO11",
+      "symbol_line": 128,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 320,
+      "pdf_name": "BANK0_GPIO11",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        215.30528259277344,
+        113.03782653808594,
+        224.0172882080078
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        218.9053192138672,
+        167.55052185058594,
+        227.61732482910156
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 118,
+      "name": "BANK0_GPIO12",
+      "symbol_line": 129,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 310,
+      "pdf_name": "BANK0_GPIO12",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        222.5052947998047,
+        113.03782653808594,
+        231.21730041503906
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        226.1052703857422,
+        167.55052185058594,
+        234.81727600097656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 119,
+      "name": "BANK0_GPIO13",
+      "symbol_line": 130,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 300,
+      "pdf_name": "BANK0_GPIO13",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        229.70530700683594,
+        113.03782653808594,
+        238.4173126220703
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        233.30528259277344,
+        167.55052185058594,
+        242.0172882080078
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 120,
+      "name": "BOOT0",
+      "symbol_line": 131,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 290,
+      "pdf_name": "BOOT0",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        236.9053192138672,
+        113.03782653808594,
+        245.61732482910156
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        240.5052947998047,
+        140.9890899658203,
+        249.21730041503906
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 121,
+      "name": "BOOT1",
+      "symbol_line": 132,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 280,
+      "pdf_name": "BOOT1",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        244.1052703857422,
+        113.03782653808594,
+        252.81727600097656
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        247.70530700683594,
+        140.9890899658203,
+        256.41729736328125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 122,
+      "name": "RSTN",
+      "symbol_line": 133,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 270,
+      "pdf_name": "RSTN",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        251.30528259277344,
+        113.03782653808594,
+        260.01727294921875
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        254.9053192138672,
+        136.61672973632812,
+        263.6173095703125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 123,
+      "name": "BANK3_VDDIO",
+      "symbol_line": 134,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 260,
+      "pdf_name": "BANK3_VDDIO",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        258.50531005859375,
+        113.03782653808594,
+        267.21728515625
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        262.10528564453125,
+        164.63125610351562,
+        270.8172607421875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 124,
+      "name": "BANK3_GPIO38",
+      "symbol_line": 135,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 250,
+      "pdf_name": "BANK3_GPIO38",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        265.705322265625,
+        113.03782653808594,
+        274.41729736328125
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        269.3052978515625,
+        167.55052185058594,
+        278.01727294921875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 125,
+      "name": "BANK3_GPIO39",
+      "symbol_line": 136,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 240,
+      "pdf_name": "BANK3_GPIO39",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        272.90533447265625,
+        113.03782653808594,
+        281.6173095703125
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        276.50531005859375,
+        167.55052185058594,
+        285.21728515625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 126,
+      "name": "BANK3_GPIO40",
+      "symbol_line": 137,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 230,
+      "pdf_name": "BANK3_GPIO40",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        280.10528564453125,
+        113.03782653808594,
+        288.8172607421875
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        283.705322265625,
+        167.55052185058594,
+        292.41729736328125
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 127,
+      "name": "BANK3_GPIO41",
+      "symbol_line": 138,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 220,
+      "pdf_name": "BANK3_GPIO41",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        287.3052978515625,
+        113.03782653808594,
+        296.01727294921875
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        290.9053039550781,
+        167.55052185058594,
+        299.6172790527344
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 128,
+      "name": "BANK3_GPIO42",
+      "symbol_line": 139,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 210,
+      "pdf_name": "BANK3_GPIO42",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        294.50531005859375,
+        113.03782653808594,
+        303.21728515625
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        298.1053161621094,
+        167.55052185058594,
+        306.8172912597656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 129,
+      "name": "BANK3_GPIO43",
+      "symbol_line": 140,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 200,
+      "pdf_name": "BANK3_GPIO43",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        301.7052917480469,
+        113.03782653808594,
+        310.4172668457031
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        305.3052978515625,
+        167.55052185058594,
+        314.01727294921875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 130,
+      "name": "BANK3_GPIO44",
+      "symbol_line": 141,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 190,
+      "pdf_name": "BANK3_GPIO44",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        308.9053039550781,
+        113.03782653808594,
+        317.6172790527344
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        312.50531005859375,
+        167.55052185058594,
+        321.21728515625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 131,
+      "name": "BANK3_GPIO45",
+      "symbol_line": 142,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 180,
+      "pdf_name": "BANK3_GPIO45",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        316.1053161621094,
+        113.03782653808594,
+        324.8172912597656
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        319.7052917480469,
+        167.55052185058594,
+        328.4172668457031
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 132,
+      "name": "BANK3_GPIO46",
+      "symbol_line": 143,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 170,
+      "pdf_name": "BANK3_GPIO46",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        323.3052978515625,
+        113.03782653808594,
+        332.01727294921875
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        326.9053039550781,
+        167.55052185058594,
+        335.6172790527344
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 133,
+      "name": "BANK3_GPIO47",
+      "symbol_line": 144,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 160,
+      "pdf_name": "BANK3_GPIO47",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        330.50531005859375,
+        113.03782653808594,
+        339.21728515625
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        334.1053161621094,
+        167.55052185058594,
+        342.8172912597656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 134,
+      "name": "BANK3_GPIO48",
+      "symbol_line": 145,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 150,
+      "pdf_name": "BANK3_GPIO48",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        337.7052917480469,
+        113.03782653808594,
+        346.4172668457031
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        341.3052978515625,
+        167.55052185058594,
+        350.01727294921875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 135,
+      "name": "BANK3_GPIO49",
+      "symbol_line": 146,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 140,
+      "pdf_name": "BANK3_GPIO49",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        344.9053039550781,
+        113.03782653808594,
+        353.6172790527344
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        348.50531005859375,
+        167.55052185058594,
+        357.21728515625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 136,
+      "name": "BANK1_VDDIO",
+      "symbol_line": 147,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 130,
+      "pdf_name": "BANK1_VDDIO",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        352.1053161621094,
+        113.03782653808594,
+        360.8172912597656
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        355.7052917480469,
+        164.63125610351562,
+        364.4172668457031
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 137,
+      "name": "BANK1_GPIO14",
+      "symbol_line": 148,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 120,
+      "pdf_name": "BANK1_GPIO14",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        359.3052978515625,
+        113.03782653808594,
+        368.01727294921875
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        362.9053039550781,
+        167.55052185058594,
+        371.6172790527344
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 138,
+      "name": "BANK1_GPIO15",
+      "symbol_line": 149,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 110,
+      "pdf_name": "BANK1_GPIO15",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        366.50531005859375,
+        113.03782653808594,
+        375.21728515625
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        370.1053161621094,
+        167.55052185058594,
+        378.8172912597656
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 139,
+      "name": "BANK1_GPIO16",
+      "symbol_line": 150,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 100,
+      "pdf_name": "BANK1_GPIO16",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        373.7052917480469,
+        113.03782653808594,
+        382.4172668457031
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        377.3052978515625,
+        167.55052185058594,
+        386.01727294921875
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    },
+    {
+      "pin": 140,
+      "name": "BANK1_GPIO17",
+      "symbol_line": 151,
+      "symbol_electrical_code": "4",
+      "symbol_x": 40,
+      "symbol_y": 90,
+      "pdf_name": "BANK1_GPIO17",
+      "pdf_page": 1,
+      "pdf_number_bbox": [
+        102.12000274658203,
+        380.9053039550781,
+        113.03782653808594,
+        389.6172790527344
+      ],
+      "pdf_name_bbox": [
+        118.80000305175781,
+        384.50531005859375,
+        167.55052185058594,
+        393.21728515625
+      ],
+      "status": "MATCH",
+      "source_symbol": "CM-K230.schdoc",
+      "source_crosscheck": "schematic.pdf page 1",
+      "io_voltage": "NOT_ESTABLISHED",
+      "soc_ball": "NOT_ESTABLISHED"
+    }
+  ]
+}

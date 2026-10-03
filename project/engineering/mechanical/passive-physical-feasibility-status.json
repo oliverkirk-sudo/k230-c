@@ -1,0 +1,51 @@
+{
+  "status": "PHYSICAL_FEASIBILITY_REMAINS_UNQUALIFIED",
+  "date_UTC": "2026-09-30",
+  "current_baseline": {
+    "XML_references": 246,
+    "functional_populated_components": 239,
+    "footprint_envelopes": 245,
+    "capacitors": 145,
+    "dense_area_mm2": 1029.75,
+    "0402_scenario_area_mm2": 1159.23,
+    "provisional_interior_area_mm2": 1156,
+    "rectangle_packing_placed": 245,
+    "rectangle_packing_requested": 245,
+    "pairwise_overlaps": 0
+  },
+  "temperature_block": "Sealed enclosure max75-85C; air vs component surface not yet established. No X5R selection or thermal acceptance.",
+  "historical_capacitor_scenarios": "passive-capacitor-candidate-review.json and passive-candidate-area-packing-scenarios.json retain243-envelope baseline; add later MIPI caps before comparing to current design",
+  "known_missing_required_bulk": false,
+  "local_PI_qualification": "Reference PLL/VAA branches retain100nF. AddedMIPIcaps are C245/C246. FuturePI may change components; no extra bulk is claimed required.",
+  "mechanical_corrections_applied": [
+    "L22/L23 3.0x2.4",
+    "R220 3.2x1.7",
+    "R561 candidate2.0x1.2",
+    "Y2 candidate4.2x3.5",
+    "U95 source-verified2.8x3.6"
+  ],
+  "NVT_footprint": "CMK230_Translator_Candidate:NXP_SOT1161-2_NVT4858HK_1.8x2.6_P0.4_DrawingVerified_CANDIDATE",
+  "NVT_checks": {
+    "native_numeric": 244,
+    "independent_checks": 288,
+    "copper_mask_paste_apertures": [
+      16,
+      16,
+      16
+    ],
+    "DRC_violations": 0
+  },
+  "blockers": [
+    "guaranteed effective capacitance at temperature/bias/lifetime",
+    "real component and junction temperatures at simultaneous load",
+    "BGA escape/return paths/localPDN/hotloop placement",
+    "memory and logic temperature-grade decisions owned by lead",
+    "castellation manufacturing geometry and actual edge keepout",
+    "assembly process and0.08mm NVTmaskweb"
+  ],
+  "source_hashes": {
+    "cad/integrated/master.xml": "1527d9796b7b4f8c41604a82e50ec71201094392fc9781f3f9bbccdb3f1020f1",
+    "engineering/mechanical/full-bom-area-screen.json": "18fcd594ff057bd5574cabde64b851afeb05d27d9784ae30bab311ce15e1488b",
+    "engineering/mechanical/full-envelope-packing-study.json": "b7c0730bc8d1a5195cf2e0c9f763bfc069f435abcf722836a08af9d8027c9802"
+  }
+}

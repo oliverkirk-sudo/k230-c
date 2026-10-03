@@ -1,0 +1,494 @@
+{
+  "status": "PRIMARY_SOURCE_REVIEW_COMPLETE_CANDIDATES_UNQUALIFIED",
+  "review_date_utc": "2026-09-30",
+  "report": "assembly-guidance-review.md",
+  "report_sha256": "48da37f4fa54abba27ca40f1920b3d14dbabf7f97923293eaf9f18e8dd7ff596",
+  "sources": [
+    {
+      "id": "TI_SPRAA99C",
+      "title": "nFBGA Packaging",
+      "revision_verified_in_body": "May 2021",
+      "publisher_primary": true,
+      "complete_pdf_archived": true,
+      "inspection": "Relevant pages visually inspected after local rendering; supporting text extracted locally",
+      "visually_reviewed_pdf_pages_1_based": [
+        6,
+        7,
+        11,
+        15
+      ],
+      "exact_part_qualification": false,
+      "retrieval": {
+        "filename": "ti-spraa99c-nfbga.pdf",
+        "url": "https://www.ti.com/lit/an/spraa99c/spraa99c.pdf",
+        "final_url": "https://www.ti.com/lit/an/spraa99c/spraa99c.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 4226470,
+        "pdf": true,
+        "sha256": "2c5c7bf14b4c2c47c7eb3c85a139727148bfd43bca351d9ad8c544abcbf955d9"
+      },
+      "local_pdf": "/workspace/shared/k230-reference/mechanical/bga-engineering-candidates/ti-spraa99c-nfbga.pdf"
+    },
+    {
+      "id": "IFX_XWLY_V03",
+      "title": "Recommendations for Board Assembly of Infineon xWLy Packages",
+      "revision_verified_in_body": "V03, 2016-01-11",
+      "publisher_primary": true,
+      "complete_pdf_archived": true,
+      "inspection": "Relevant pages visually inspected after local rendering; supporting text extracted locally",
+      "visually_reviewed_pdf_pages_1_based": [
+        8,
+        9
+      ],
+      "exact_part_qualification": false,
+      "retrieval": {
+        "filename": "infineon-xwly-assembly-v03-2016.pdf",
+        "url": "https://www.infineon.com/dgdl/Infineon-Recommendations_Board_Assembly_xWLy_Packages-AP-v03_00-EN.pdf?fileId=db3a3043163797a6011681c8e8cd1637",
+        "final_url": "https://www.infineon.com/assets/row/public/documents/10/63/infineon-recommendations-board-assembly-xwly-packages-ap-en.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 877654,
+        "pdf": true,
+        "sha256": "88ea1554976319e0b6ad86a9653a1ace260d5c886662bf47058946dfbef88684"
+      },
+      "local_pdf": "/workspace/shared/k230-reference/mechanical/bga-engineering-candidates/infineon-xwly-assembly-v03-2016.pdf"
+    },
+    {
+      "id": "IFX_AN98508_REVD",
+      "title": "Cypress Serial Peripheral Interface (SPI) FL Flash Layout Guide",
+      "revision_verified_in_web_body": "001-98508 Rev. *D",
+      "publisher_primary": true,
+      "complete_pdf_archived": false,
+      "inspection": "Official-hosted PDF text accessible in web before local HTTP403; no subsequent retrieval, no mirror, no rendered visual review",
+      "inspected_pdf_page_1_based": 26,
+      "exact_part_qualification": false,
+      "use": "Secondary ball-percent/mask-clearance sensitivity only; not required to instantiate candidate",
+      "retrieval": {
+        "filename": "infineon-an98508-spi-flash-revd.pdf",
+        "url": "https://community.infineon.com/gfawx74859/attachments/gfawx74859/KnowledgeBaseArticles/3788/1/Infineon-AN98508_Infineon_Serial_Peripheral_Interface_%28SPI%29_FL_Flash_Layout_Guide-ApplicationNotes-v05_00-EN.pdf",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    }
+  ],
+  "excluded_sources": [
+    {
+      "id": "NXP_AN4982",
+      "use": "none",
+      "retrieval": {
+        "filename": "nxp-an4982-bga.pdf",
+        "url": "https://www.nxp.com/docs/en/application-note/AN4982.pdf",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    {
+      "id": "MICRON_CSN33",
+      "use": "none",
+      "access_attempted_this_review": false,
+      "reason": "Explicit prior Request Rejected restriction; no retry or alternate retrieval; old search-index excerpt excluded"
+    }
+  ],
+  "local_input_hashes": [
+    {
+      "path": "/workspace/shared/k230-memory-review/thermal-candidates/candidate-manifest.json",
+      "sha256": "89d225c760723c6dd6499de260941f252d3b87947616d221aa675a995990047a"
+    },
+    {
+      "path": "/workspace/shared/cm-k230-redesign/engineering/mechanical/micron-fw-independent-mechanics.json",
+      "sha256": "8de1e4fd683cbc2cb9c1ea52b73532cb303509b01e5fdef4d6893a9999347033"
+    },
+    {
+      "path": "/workspace/shared/cm-k230-redesign/engineering/mechanical/micron-lp4-independent-grid-verification.json",
+      "sha256": "81b40d40c5b2e7664a3a5e870f7725e4413c472dcb3828802d45cc973e7c6570"
+    },
+    {
+      "path": "/workspace/shared/cm-k230-redesign/engineering/mechanical/bga-coordinate-verification.json",
+      "sha256": "8f39ad5ba65698e85b282bd51b11acbae1b5707762cc3edc31f8eecff70fd645"
+    },
+    {
+      "path": "/workspace/shared/k230-memory-review/thermal-candidates/micron-emmc.pdf",
+      "sha256": "52ad8018f63554d3e34f970b1516e488543c6a25bd144bcbf33d666fa2a82d71"
+    }
+  ],
+  "units": "mm",
+  "candidate_method": "Engineering inference from separately identified package interfaces and general guidance; never exact-part manufacturer qualification",
+  "candidate_rows": [
+    {
+      "id": "FW_0350",
+      "part": "MT53E256M32D2FW-046 AAT:B",
+      "status": "UNQUALIFIED_ENGINEERING_COMPARISON",
+      "construction": "NSMD",
+      "units": "mm",
+      "scope": "land/assembly engineering comparison",
+      "pitch_x": 0.8,
+      "pitch_y": 0.65,
+      "ball_nominal": 0.436,
+      "ball_min_max": [
+        0.386,
+        0.486
+      ],
+      "package_smd_interface_nominal": 0.4,
+      "pcb_copper_diameter": 0.35,
+      "pcb_mask_opening_diameter": 0.45,
+      "paste_aperture_diameter": 0.35,
+      "stencil_thickness_min_max": [
+        0.1,
+        0.12
+      ],
+      "derived": {
+        "radial_mask_clearance_nominal": 0.05,
+        "area_ratio_at_min_max_stencil": [
+          0.875,
+          0.729167
+        ],
+        "maximum_stencil_at_area_ratio_0_66": 0.132576,
+        "copper_edge_gap_narrowest": 0.3,
+        "nominal_mask_web_narrowest": 0.2,
+        "max_equal_trace_and_clearance_no_tolerances": 0.1,
+        "spare_for_0_075_trace_and_0_075_clearance": 0.075,
+        "spare_for_0_100_trace_and_0_100_clearance": 0.0,
+        "pcb_copper_to_package_interface_ratio": 0.875,
+        "pcb_copper_to_nominal_ball_ratio": 0.802752,
+        "mask_if_radial_clearance_0_075": 0.5,
+        "mask_web_if_radial_clearance_0_075": 0.15
+      },
+      "fabrication_or_assembly_capability_proven": false,
+      "manufacturer_qualified": false
+    },
+    {
+      "id": "FW_0360",
+      "part": "MT53E256M32D2FW-046 AAT:B",
+      "status": "UNQUALIFIED_ENGINEERING_COMPARISON",
+      "construction": "NSMD",
+      "units": "mm",
+      "scope": "land/assembly engineering comparison",
+      "pitch_x": 0.8,
+      "pitch_y": 0.65,
+      "ball_nominal": 0.436,
+      "ball_min_max": [
+        0.386,
+        0.486
+      ],
+      "package_smd_interface_nominal": 0.4,
+      "pcb_copper_diameter": 0.36,
+      "pcb_mask_opening_diameter": 0.46,
+      "paste_aperture_diameter": 0.36,
+      "stencil_thickness_min_max": [
+        0.1,
+        0.12
+      ],
+      "derived": {
+        "radial_mask_clearance_nominal": 0.05,
+        "area_ratio_at_min_max_stencil": [
+          0.9,
+          0.75
+        ],
+        "maximum_stencil_at_area_ratio_0_66": 0.136364,
+        "copper_edge_gap_narrowest": 0.29,
+        "nominal_mask_web_narrowest": 0.19,
+        "max_equal_trace_and_clearance_no_tolerances": 0.096667,
+        "spare_for_0_075_trace_and_0_075_clearance": 0.065,
+        "spare_for_0_100_trace_and_0_100_clearance": -0.01,
+        "pcb_copper_to_package_interface_ratio": 0.9,
+        "pcb_copper_to_nominal_ball_ratio": 0.825688,
+        "mask_if_radial_clearance_0_075": 0.51,
+        "mask_web_if_radial_clearance_0_075": 0.14
+      },
+      "fabrication_or_assembly_capability_proven": false,
+      "manufacturer_qualified": false
+    },
+    {
+      "id": "FW_0400",
+      "part": "MT53E256M32D2FW-046 AAT:B",
+      "status": "UNQUALIFIED_ENGINEERING_COMPARISON",
+      "construction": "NSMD",
+      "units": "mm",
+      "scope": "land/assembly engineering comparison",
+      "pitch_x": 0.8,
+      "pitch_y": 0.65,
+      "ball_nominal": 0.436,
+      "ball_min_max": [
+        0.386,
+        0.486
+      ],
+      "package_smd_interface_nominal": 0.4,
+      "pcb_copper_diameter": 0.4,
+      "pcb_mask_opening_diameter": 0.5,
+      "paste_aperture_diameter": 0.4,
+      "stencil_thickness_min_max": [
+        0.1,
+        0.12
+      ],
+      "derived": {
+        "radial_mask_clearance_nominal": 0.05,
+        "area_ratio_at_min_max_stencil": [
+          1.0,
+          0.833333
+        ],
+        "maximum_stencil_at_area_ratio_0_66": 0.151515,
+        "copper_edge_gap_narrowest": 0.25,
+        "nominal_mask_web_narrowest": 0.15,
+        "max_equal_trace_and_clearance_no_tolerances": 0.083333,
+        "spare_for_0_075_trace_and_0_075_clearance": 0.025,
+        "spare_for_0_100_trace_and_0_100_clearance": -0.05,
+        "pcb_copper_to_package_interface_ratio": 1.0,
+        "pcb_copper_to_nominal_ball_ratio": 0.917431,
+        "mask_if_radial_clearance_0_075": 0.55,
+        "mask_web_if_radial_clearance_0_075": 0.1
+      },
+      "fabrication_or_assembly_capability_proven": false,
+      "manufacturer_qualified": false
+    },
+    {
+      "id": "BH_0270",
+      "part": "MTFC16GAPALBH-AAT",
+      "status": "UNQUALIFIED_ENGINEERING_COMPARISON",
+      "construction": "NSMD",
+      "units": "mm",
+      "scope": "land/assembly engineering comparison",
+      "pitch_x": 0.5,
+      "pitch_y": 0.5,
+      "ball_nominal": 0.319,
+      "ball_min_max": null,
+      "package_smd_interface_nominal": 0.3,
+      "pcb_copper_diameter": 0.27,
+      "pcb_mask_opening_diameter": 0.37,
+      "paste_aperture_diameter": 0.27,
+      "stencil_thickness_min_max": [
+        0.1,
+        0.1
+      ],
+      "derived": {
+        "radial_mask_clearance_nominal": 0.05,
+        "area_ratio_at_min_max_stencil": [
+          0.675,
+          0.675
+        ],
+        "maximum_stencil_at_area_ratio_0_66": 0.102273,
+        "copper_edge_gap_narrowest": 0.23,
+        "nominal_mask_web_narrowest": 0.13,
+        "max_equal_trace_and_clearance_no_tolerances": 0.076667,
+        "spare_for_0_075_trace_and_0_075_clearance": 0.005,
+        "spare_for_0_100_trace_and_0_100_clearance": -0.07,
+        "pcb_copper_to_package_interface_ratio": 0.9,
+        "pcb_copper_to_nominal_ball_ratio": 0.846395,
+        "mask_if_radial_clearance_0_075": 0.42,
+        "mask_web_if_radial_clearance_0_075": 0.08
+      },
+      "fabrication_or_assembly_capability_proven": false,
+      "manufacturer_qualified": false
+    },
+    {
+      "id": "BH_0300",
+      "part": "MTFC16GAPALBH-AAT",
+      "status": "UNQUALIFIED_ENGINEERING_COMPARISON",
+      "construction": "NSMD",
+      "units": "mm",
+      "scope": "land/assembly engineering comparison",
+      "pitch_x": 0.5,
+      "pitch_y": 0.5,
+      "ball_nominal": 0.319,
+      "ball_min_max": null,
+      "package_smd_interface_nominal": 0.3,
+      "pcb_copper_diameter": 0.3,
+      "pcb_mask_opening_diameter": 0.4,
+      "paste_aperture_diameter": 0.3,
+      "stencil_thickness_min_max": [
+        0.1,
+        0.1
+      ],
+      "derived": {
+        "radial_mask_clearance_nominal": 0.05,
+        "area_ratio_at_min_max_stencil": [
+          0.75,
+          0.75
+        ],
+        "maximum_stencil_at_area_ratio_0_66": 0.113636,
+        "copper_edge_gap_narrowest": 0.2,
+        "nominal_mask_web_narrowest": 0.1,
+        "max_equal_trace_and_clearance_no_tolerances": 0.066667,
+        "spare_for_0_075_trace_and_0_075_clearance": -0.025,
+        "spare_for_0_100_trace_and_0_100_clearance": -0.1,
+        "pcb_copper_to_package_interface_ratio": 1.0,
+        "pcb_copper_to_nominal_ball_ratio": 0.940439,
+        "mask_if_radial_clearance_0_075": 0.45,
+        "mask_web_if_radial_clearance_0_075": 0.05
+      },
+      "fabrication_or_assembly_capability_proven": false,
+      "manufacturer_qualified": false
+    },
+    {
+      "id": "K230_0250",
+      "part": "K230",
+      "status": "UNQUALIFIED_ENGINEERING_COMPARISON",
+      "construction": "NSMD",
+      "units": "mm",
+      "scope": "escape comparison only",
+      "pitch_x": 0.65,
+      "pitch_y": 0.65,
+      "ball_nominal": 0.3,
+      "ball_min_max": [
+        0.25,
+        0.35
+      ],
+      "package_smd_interface_nominal": 0.27,
+      "pcb_copper_diameter": 0.25,
+      "pcb_mask_opening_diameter": 0.35,
+      "paste_aperture_diameter": 0.25,
+      "stencil_thickness_min_max": [
+        0.08,
+        0.09
+      ],
+      "derived": {
+        "radial_mask_clearance_nominal": 0.05,
+        "area_ratio_at_min_max_stencil": [
+          0.78125,
+          0.694444
+        ],
+        "maximum_stencil_at_area_ratio_0_66": 0.094697,
+        "copper_edge_gap_narrowest": 0.4,
+        "nominal_mask_web_narrowest": 0.3,
+        "max_equal_trace_and_clearance_no_tolerances": 0.133333,
+        "spare_for_0_075_trace_and_0_075_clearance": 0.175,
+        "spare_for_0_100_trace_and_0_100_clearance": 0.1,
+        "pcb_copper_to_package_interface_ratio": 0.925926,
+        "pcb_copper_to_nominal_ball_ratio": 0.833333,
+        "mask_if_radial_clearance_0_075": 0.4,
+        "mask_web_if_radial_clearance_0_075": 0.25
+      },
+      "fabrication_or_assembly_capability_proven": false,
+      "manufacturer_qualified": false
+    },
+    {
+      "id": "K230_0270",
+      "part": "K230",
+      "status": "UNQUALIFIED_ENGINEERING_COMPARISON",
+      "construction": "NSMD",
+      "units": "mm",
+      "scope": "escape comparison only",
+      "pitch_x": 0.65,
+      "pitch_y": 0.65,
+      "ball_nominal": 0.3,
+      "ball_min_max": [
+        0.25,
+        0.35
+      ],
+      "package_smd_interface_nominal": 0.27,
+      "pcb_copper_diameter": 0.27,
+      "pcb_mask_opening_diameter": 0.37,
+      "paste_aperture_diameter": 0.27,
+      "stencil_thickness_min_max": [
+        0.1,
+        0.1
+      ],
+      "derived": {
+        "radial_mask_clearance_nominal": 0.05,
+        "area_ratio_at_min_max_stencil": [
+          0.675,
+          0.675
+        ],
+        "maximum_stencil_at_area_ratio_0_66": 0.102273,
+        "copper_edge_gap_narrowest": 0.38,
+        "nominal_mask_web_narrowest": 0.28,
+        "max_equal_trace_and_clearance_no_tolerances": 0.126667,
+        "spare_for_0_075_trace_and_0_075_clearance": 0.155,
+        "spare_for_0_100_trace_and_0_100_clearance": 0.08,
+        "pcb_copper_to_package_interface_ratio": 1.0,
+        "pcb_copper_to_nominal_ball_ratio": 0.9,
+        "mask_if_radial_clearance_0_075": 0.42,
+        "mask_web_if_radial_clearance_0_075": 0.23
+      },
+      "fabrication_or_assembly_capability_proven": false,
+      "manufacturer_qualified": false
+    },
+    {
+      "id": "BH_SMD_CU0400_SM0300",
+      "part": "MTFC16GAPALBH-AAT",
+      "status": "UNQUALIFIED_ENGINEERING_COMPARISON",
+      "construction": "SMD",
+      "units": "mm",
+      "scope": "Distinct generic SMD option for DFM/process review; no adoption or Micron qualification",
+      "numeric_source": {
+        "source_id": "TI_SPRAA99C",
+        "pdf_page_1_based": 7,
+        "table": "2-1",
+        "row": "0.5 mm pitch, SMD",
+        "transfer_limit": "Exact numeric TI construction example; Micron applicability not established"
+      },
+      "pitch_x": 0.5,
+      "pitch_y": 0.5,
+      "ball_nominal": 0.319,
+      "ball_min_max": null,
+      "package_smd_interface_nominal": 0.3,
+      "physical_solder_balls": 153,
+      "bare_package_test_pads_excluded": 56,
+      "pcb_copper_diameter": 0.4,
+      "pcb_mask_opening_diameter": 0.3,
+      "pcb_wettable_top_diameter_nominal": 0.3,
+      "paste_aperture_diameter": 0.3,
+      "stencil_thickness_min_max": [
+        0.1,
+        0.1
+      ],
+      "derived": {
+        "radial_mask_overlap_nominal": 0.05,
+        "area_ratio_at_min_max_stencil": [
+          0.75,
+          0.75
+        ],
+        "maximum_stencil_at_area_ratio_0_66": 0.113636,
+        "copper_edge_gap_narrowest": 0.1,
+        "nominal_mask_web_narrowest": 0.2,
+        "literal_4mil_clearance": 0.1016,
+        "copper_clearance_spare_vs_literal_4mil": -0.0016,
+        "passes_literal_4mil_nominal_geometry": false,
+        "literal_100um_clearance": 0.1,
+        "copper_clearance_spare_vs_literal_100um": 0.0,
+        "passes_literal_100um_nominal_geometry_only": true,
+        "max_equal_trace_and_clearance_no_tolerances": 0.033333,
+        "spare_for_0_075_trace_and_0_075_clearance": -0.125,
+        "spare_for_0_100_trace_and_0_100_clearance": -0.2,
+        "pcb_copper_to_package_interface_ratio": 1.333333,
+        "pcb_wettable_top_to_package_interface_ratio": 1.0,
+        "pcb_copper_to_nominal_ball_ratio": 1.253918
+      },
+      "mask_registration_condition": "minimum finished copper radius - maximum mask opening radius > worst-case relative mask-to-copper registration displacement, including any required residual overlap; no budget verified",
+      "reliability_limit": "Covered pad sidewall and mask-constrained joint differ from NSMD; no inherited NSMD reliability qualification or life prediction",
+      "routing_limit": "Inter-pad top-layer 75/75 um escape fails; VIPPO needs separate full-grid drill/capture, fill/cap, planarity, layer and electrical validation",
+      "process_condition": "Separate literal 100 um copper process with demonstrated tolerance capability; unchanged literal 4 mil clearance cannot pass",
+      "fabrication_or_assembly_capability_proven": false,
+      "manufacturer_qualified": false
+    }
+  ],
+  "formulas": {
+    "area_ratio_round_aperture": "paste_diameter / (4 * stencil_thickness)",
+    "stencil_limit_for_area_ratio_0_66": "paste_diameter / 2.64",
+    "copper_gap": "min(pitch_x,pitch_y) - copper_diameter",
+    "mask_web_nominal": "min(pitch_x,pitch_y) - mask_opening_diameter",
+    "straight_escape_condition": "trace_width + 2 * clearance <= pitch - copper_diameter, before all tolerances",
+    "smd_mask_overlap": "(copper_diameter - mask_opening_diameter) / 2; positive overlap, distinct from NSMD clearance",
+    "smd_wettable_top_diameter_nominal": "mask_opening_diameter, provided mask registration preserves overlap"
+  },
+  "guardrail_checks": {
+    "paste_0_27_stencil_0_12_area_ratio": 0.5625000000000001,
+    "paste_0_25_stencil_0_10_area_ratio": 0.625,
+    "both_fail_0_66": true,
+    "generic_ti_0_8_example_area_ratio_exact": 0.6578947368421053,
+    "generic_ti_0_8_rounding_note": "Exact 0.6578947 is printed 0.66; this boundary should not be rounded into proof of process margin",
+    "BH_SMD_4mil_fails_by_mm": 0.0016,
+    "BH_SMD_100um_nominal_spare_mm": 0.0,
+    "BH_SMD_mask_web_not_copper_spacing": true
+  },
+  "cautions": [
+    "Only 153 BH solder balls generate lands; its 56 bare test pads do not.",
+    "FW rectangular pitch is 0.80 by 0.65; evaluate the narrow axis.",
+    "K230 pitch-only TI 0.350 copper example is not evidence for its smaller 0.300 nominal ball and 0.270 package opening.",
+    "Source stencil thickness examples are not one common assembly specification.",
+    "Mask registration/etch tolerances, minimum web, trace escape, via design and full-BOM stencil/reflow remain unqualified.",
+    "Device high-temperature rating is not board-level solder-joint lifetime qualification.",
+    "Complete third-party PDFs and renders remain outside the redesign deliverable tree.",
+    "BH SMD 0.400 copper/0.300 mask is distinct from NSMD candidates; 0.200 mask web does not change 0.100 copper clearance.",
+    "Literal 4 mil is 0.1016 mm: BH SMD case fails by 0.0016 mm. Literal 0.100 mm reaches equality before a verified tolerance budget.",
+    "A sparse 0.350 mm NSMD VIPPO routing proof does not establish source-backed Micron land applicability or validate the distinct SMD option."
+  ]
+}

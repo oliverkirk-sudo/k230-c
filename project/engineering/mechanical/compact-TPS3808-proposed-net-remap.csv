@@ -1,0 +1,15 @@
+reference,function,dbv_pin,drv_pin,existing_net_or_intent,integration_action
+U89,RESET_N,1,6,VDD1P8,Move existing named net to DRV pin
+U89,GND,2,5,VIN_GUARD_SENSE,Move existing named net to DRV pin
+U89,MR_N,3,4,UNRESOLVED,Move existing named net to DRV pin
+U89,CT,4,3,VDD1P8,Preserve intentional open CT on new pin3
+U89,SENSE,5,2,GND,Move existing named net to DRV pin
+U89,VDD,6,1,FIXED_RAILS_PGOOD_3V3,Move existing named net to DRV pin
+U89,EP_GND,NONE,7,GND,Add explicit symbol pin7 and connect to GND; solder mandatory
+U90,RESET_N,1,6,VDD1P8,Move existing named net to DRV pin
+U90,GND,2,5,VDD1P8,Move existing named net to DRV pin
+U90,MR_N,3,4,UNRESOLVED,Move existing named net to DRV pin
+U90,CT,4,3,RESET_RELEASE_REQUEST_1V8,Preserve intentional open CT on new pin3
+U90,SENSE,5,2,GND,Move existing named net to DRV pin
+U90,VDD,6,1,SOC_RSTN,Move existing named net to DRV pin
+U90,EP_GND,NONE,7,GND,Add explicit symbol pin7 and connect to GND; solder mandatory

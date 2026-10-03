@@ -1,0 +1,33 @@
+{
+  "status": "SOURCE_BACKED_CANDIDATE_SCHEMATIC_DELTA_VERIFIED",
+  "old_pin_bindings_preserved": 1509,
+  "old_components_preserved": 254,
+  "new_pin_bindings": 1511,
+  "new_components": 255,
+  "added_component": "R574",
+  "added_bindings": {
+    "1": "TF_HOST_CLK",
+    "2": "GND"
+  },
+  "footprint_unselected": true,
+  "negative_controls_rejected": [
+    "missing_pulldown",
+    "pulldown_to_supply",
+    "wrong_clock_side",
+    "default_strap_populated"
+  ],
+  "R528_remains_DNP": true,
+  "source_hashes": {
+    "cad/high-temp-candidate/master.xml": "96108059ca509bbde234565dcda46a2a0273dd2cb296a5d3a95aac812d08976b",
+    "cad/recovery-tf-candidate/master.xml": "3c7feec5cffad9baaf01ec164458c2e949200bd4755b0f5b13225f27a83c4930"
+  },
+  "electrical_qualification": false,
+  "open_gates": [
+    "CLKA numerical leakage overtemperature",
+    "off-switch leakage applicability",
+    "activeclockdriver margin and timing",
+    "off-channel capacitivefeedthrough",
+    "partialpower externalclock behavior",
+    "actual resistorland and effectiveboard geometry"
+  ]
+}

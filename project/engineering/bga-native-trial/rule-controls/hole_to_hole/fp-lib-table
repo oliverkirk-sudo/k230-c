@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BH153_Engineering")(type "KiCad")(uri "/workspace/shared/cm-k230-redesign/cad/bga-engineering-candidates/bh153-sparse-trial/BH153_Engineering.pretty")(options "")(descr "Unqualified local engineering candidate"))
+)

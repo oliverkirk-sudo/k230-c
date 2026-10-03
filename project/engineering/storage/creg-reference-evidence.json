@@ -1,0 +1,14 @@
+[
+  {
+    "source_url": "https://raw.githubusercontent.com/OLIMEX/OLINUXINO/master/HARDWARE/A20-OLinuXino-MICRO/1.%20Latest%20hardware%20revision/A20-OLINUXINO-MICRO_Rev_N.pdf",
+    "github_blob_sha": "ba125e115dfc8f9dec93f1564cd1130b926eceb5",
+    "sha256": "680f291c9cf30c4d8274df3de035a69f0f2d9e9cbc4979b0f03ad381a5226e25",
+    "source_name": "A20-OLINUXINO-MICRO_Rev_N.pdf"
+  },
+  {
+    "source_url": "https://raw.githubusercontent.com/OLIMEX/OLINUXINO/master/HARDWARE/A20-OLinuXino-MICRO/1.%20Latest%20hardware%20revision/A20-OLINUXINO-MICRO_e16Gs16M_Rev_N_bom.pdf",
+    "github_blob_sha": "7d9b5992eedc762f1adf82336deb00d627d332ff",
+    "sha256": "e751545d7b91ba8dd4dd311dcb40ed45922158712b3e0b4d098ba40343a937fb",
+    "source_name": "A20-OLINUXINO-MICRO_e16Gs16M_Rev_N_bom.pdf"
+  }
+]

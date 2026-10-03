@@ -1,0 +1,41 @@
+{
+  "source": "https://www.vishay.com/doc?28950",
+  "revision": "12-Jul-2022",
+  "page": 1,
+  "exact_series_link": "https://www.vishay.com/docs/28758/tnpw_e3.pdf Soldering Recommendations",
+  "status": "SOURCE_COPPER_VERIFIED_PROCESS_CANDIDATES",
+  "candidates": [
+    {
+      "footprint": "Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "copper_pad_xy_mm": [
+        0.55,
+        0.6
+      ],
+      "inner_gap_mm": 0.4,
+      "outer_span_mm": 1.5,
+      "courtyard_xy_mm": [
+        2.1,
+        1.2
+      ],
+      "mask_expansion_mm": 0.05,
+      "paste": "1:1 default, assembly unqualified",
+      "sha256": "662f9d711a726134cb242cabdaeb77dd1f8c223c213ed4e90eaa17c0d82cf032"
+    },
+    {
+      "footprint": "Vishay_TNPW0402_IEC61188_SourceLand_PROCESS_CANDIDATE",
+      "copper_pad_xy_mm": [
+        0.35,
+        0.55
+      ],
+      "inner_gap_mm": 0.55,
+      "outer_span_mm": 1.25,
+      "courtyard_xy_mm": [
+        1.85,
+        1.15
+      ],
+      "mask_expansion_mm": 0.05,
+      "paste": "1:1 default, assembly unqualified",
+      "sha256": "341b095a9ec34d7c3c16c8db2f2b94c423d9390700061f26ec8bc938576b43bc"
+    }
+  ]
+}

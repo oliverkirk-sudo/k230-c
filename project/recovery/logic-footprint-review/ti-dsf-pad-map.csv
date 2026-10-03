@@ -1,0 +1,7 @@
+pin,function,candidate_net,x_mm,y_mm,copper_w_mm,copper_h_mm,copper_radius_mm,mask_w_mm,mask_h_mm,mask_radius_mm,paste_w_mm,paste_h_mm,paste_radius_mm
+1,In1,GLOBAL_DISABLE,-0.4,-0.35,0.6,0.17,0.05,0.7,0.27,0.1,0.6,0.15,0.05
+2,GND,GND,-0.4,0,0.6,0.17,0.05,0.7,0.27,0.1,0.6,0.15,0.05
+3,In0,VDD_3V3,-0.4,0.35,0.6,0.17,0.05,0.7,0.27,0.1,0.6,0.15,0.05
+4,Y,DISABLE_OR_TF,0.4,0.35,0.6,0.17,0.05,0.7,0.27,0.1,0.6,0.15,0.05
+5,VCC,VDD_3V3,0.4,0,0.6,0.17,0.05,0.7,0.27,0.1,0.6,0.15,0.05
+6,In2,MODE_TF,0.4,-0.35,0.6,0.17,0.05,0.7,0.27,0.1,0.6,0.15,0.05

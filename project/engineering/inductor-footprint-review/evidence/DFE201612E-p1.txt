@@ -1,0 +1,37 @@
+ Spec No. J(E)TE243A-0006D-01
+                                       Reference Only                                            1/10
+
+参考図 Reference Specifications                                  型名       Type             DFE201612E
+                                        民生機器用チップコイル(チップインダクタ)
+                                     CHIP COIL (CHIP INDUCTOR) for Consumer equipment
+
+
+
+ 外形寸法 Physical Dimensions
+
+
+
+                                                                     ■部品質量（参考値）
+                                                                      Unit Mass(Typical value)
+                                                                         0.0188ｇ
+
+                                                                     ※製品本体への表示はありません。
+                                                                      No Marking
+
+
+
+
+                                              単位 Unit ： mm
+
+
+
+
+ 優先言語            Priority language
+    優先言語は日本語とする。
+    Let a priority language be Japanese.
+
+
+
+
+                                              MURATA MFG.CO., LTD.
+

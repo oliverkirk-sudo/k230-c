@@ -1,0 +1,58 @@
+[
+  {
+    "file": "cad/verified-footprints/translator-candidate/CMK230_Translator_Candidate.pretty/NXP_SOT1161-2_NVT4858HK_1.8x2.6_P0.4_DrawingVerified_CANDIDATE.kicad_mod",
+    "sha256": "afcbf8da2ffd6c19acfe00f450df0cfcf704d3af432f268401c0211fd8449168"
+  },
+  {
+    "file": "cad/verified-footprints/translator-candidate/NVT4858_Geometry_QA_ONLY.kicad_pcb",
+    "sha256": "872736d74fa086db0e195d1c15ff909cff2fd5c03e4963668bbdaa7cb0ca3f1e"
+  },
+  {
+    "file": "cad/verified-footprints/translator-candidate/NVT4858_Geometry_QA_ONLY.kicad_pro",
+    "sha256": "6e98f6918f0984b87881f7826823020e4e2e615978097a3492884e1335b1dc96"
+  },
+  {
+    "file": "cad/verified-footprints/translator-candidate/README.md",
+    "sha256": "5de66c627d656460ec2b9f16f2e0a53dbeb46c0b6bc136b2dfb231dd64d602ae"
+  },
+  {
+    "file": "cad/verified-footprints/translator-candidate/fp-lib-table",
+    "sha256": "199572708eded322a833a209477889134eb81ff0fab56aa51bfe263aaab7ddec"
+  },
+  {
+    "file": "engineering/mechanical/nvt4858-footprint-layer-gallery.png",
+    "sha256": "4d3ac620654d63f26074395ccfa0b85e83655dbb781b2e53da3b9aa5979ad30f"
+  },
+  {
+    "file": "engineering/mechanical/nvt4858-footprint-spec.json",
+    "sha256": "3271f605903d1fd8ed8731ee206e4e3c27b571576f0ab64bd07cb5217b3a478e"
+  },
+  {
+    "file": "engineering/mechanical/nvt4858-footprint-verification.json",
+    "sha256": "669b5f6a68703bfaa9c28b03ce7528d226ab496aa13edcc714dc88b7cde49ab5"
+  },
+  {
+    "file": "engineering/mechanical/nvt4858-geometry-drc.json",
+    "sha256": "51815bf2da617e023d1bfa083254b8e4747bb4d1bcedceb92265a897d27cc309"
+  },
+  {
+    "file": "engineering/mechanical/nvt4858-gerber-verification.json",
+    "sha256": "824fcbbfc0b29466556fd7958f506916641eee042c22944f8b17263d5da809cd"
+  },
+  {
+    "file": "engineering/mechanical/nvt4858-independent-review.json",
+    "sha256": "d91c0a8ef0fee8a3df16a1f8543afa3e82e0d17f16af53000238176c4c62525f"
+  },
+  {
+    "file": "engineering/mechanical/nvt4858-native-render.png",
+    "sha256": "d0207885b39957b290cce1e5df4a4888d8124da79bda2340404adc8a5d1db342"
+  },
+  {
+    "file": "engineering/mechanical/nvt4858-pad-coordinate-audit.csv",
+    "sha256": "03cdd02c7c2150b27cff5cc8ff91bd19f5c693bc5a520f332de2dd5cd8d560eb"
+  },
+  {
+    "file": "engineering/mechanical/nvt4858-source-manifest.json",
+    "sha256": "cd12037074b10e3a14c9398bf5347cd6de1d0263f1d28e633787593b80c35ac6"
+  }
+]

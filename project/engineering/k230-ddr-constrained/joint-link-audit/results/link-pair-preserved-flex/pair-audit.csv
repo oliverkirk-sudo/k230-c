@@ -1,0 +1,7 @@
+pair,candidate_paths_exist,same_layer,layer,actual_vias,actual_layer_changes,equal_actual_vias,planar_lengths_mm,planar_length_skew_mm,soc_package_lengths_um,dram_package_delays,timing_match_qualified,accepted_DDR_pair
+DDR_DQSA0,True,True,L3,"[2, 2]","[2, 2]",True,"[22.837507610973464, 15.675007610973463]",7.162500000000001,"[""6342.48"", ""6135.17""]",UNAVAILABLE,False,False
+DDR_DQSA1,True,True,L8,"[2, 2]","[2, 2]",True,"[7.637507610973463, 13.812507610973464]",6.175000000000001,"[""7005.11"", ""6768.98""]",UNAVAILABLE,False,False
+DDR_DQSB0,True,True,L3,"[2, 2]","[2, 2]",True,"[32.412507610973464, 26.56250761097346]",5.850000000000005,"[""4623.9"", ""4942.59""]",UNAVAILABLE,False,False
+DDR_DQSB1,True,True,L3,"[2, 2]","[2, 2]",True,"[11.700007610973461, 19.337507610973457]",7.637499999999996,"[""6516.79"", ""6628.66""]",UNAVAILABLE,False,False
+DDR_CLKA,True,True,L3,"[2, 2]","[2, 2]",True,"[13.62500761097347, 7.625007610973464]",6.000000000000005,"[""6252.24"", ""6050.13""]",UNAVAILABLE,False,False
+DDR_CLKB,True,True,L3,"[2, 2]","[2, 2]",True,"[14.275007610973464, 7.62500761097346]",6.650000000000004,"[""5403.63"", ""5418.33""]",UNAVAILABLE,False,False

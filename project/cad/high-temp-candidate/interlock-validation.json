@@ -1,0 +1,158 @@
+{
+  "kind": "COMPACT_STRUCTURAL_AND_STATIC_LOGIC_ONLY",
+  "structural_checks": 34,
+  "default_R528_DNP": true,
+  "R561_default_1V8_feed_present": true,
+  "default_storage_disabled_when_logic_supplies_are_valid": true,
+  "logic_states": [
+    {
+      "fixed_rail_pg_and_vin_guard_good": false,
+      "external_reset_high": false,
+      "qualification_link_populated": false,
+      "delay_elapsed": false,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": false,
+      "external_reset_high": false,
+      "qualification_link_populated": false,
+      "delay_elapsed": true,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": false,
+      "external_reset_high": false,
+      "qualification_link_populated": true,
+      "delay_elapsed": false,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": false,
+      "external_reset_high": false,
+      "qualification_link_populated": true,
+      "delay_elapsed": true,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": false,
+      "external_reset_high": true,
+      "qualification_link_populated": false,
+      "delay_elapsed": false,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": false,
+      "external_reset_high": true,
+      "qualification_link_populated": false,
+      "delay_elapsed": true,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": false,
+      "external_reset_high": true,
+      "qualification_link_populated": true,
+      "delay_elapsed": false,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": false,
+      "external_reset_high": true,
+      "qualification_link_populated": true,
+      "delay_elapsed": true,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": true,
+      "external_reset_high": false,
+      "qualification_link_populated": false,
+      "delay_elapsed": false,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": true,
+      "external_reset_high": false,
+      "qualification_link_populated": false,
+      "delay_elapsed": true,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": true,
+      "external_reset_high": false,
+      "qualification_link_populated": true,
+      "delay_elapsed": false,
+      "storage_enabled": true,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": true,
+      "external_reset_high": false,
+      "qualification_link_populated": true,
+      "delay_elapsed": true,
+      "storage_enabled": true,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": true,
+      "external_reset_high": true,
+      "qualification_link_populated": false,
+      "delay_elapsed": false,
+      "storage_enabled": false,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": true,
+      "external_reset_high": true,
+      "qualification_link_populated": false,
+      "delay_elapsed": true,
+      "storage_enabled": false,
+      "internal_reset_released": true
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": true,
+      "external_reset_high": true,
+      "qualification_link_populated": true,
+      "delay_elapsed": false,
+      "storage_enabled": true,
+      "internal_reset_released": false
+    },
+    {
+      "fixed_rail_pg_and_vin_guard_good": true,
+      "external_reset_high": true,
+      "qualification_link_populated": true,
+      "delay_elapsed": true,
+      "storage_enabled": true,
+      "internal_reset_released": true
+    }
+  ],
+  "wrongly_populated_strap_example": {
+    "strap_populated": true,
+    "fixed_rail_pg_and_vin_guard_good": true,
+    "otp_first_drive_unverified": true,
+    "hardware_would_enable": true,
+    "release_decision": "FORBIDDEN_UNTIL_EVIDENCE_AND_AUTHORIZED_CONFIGURATION"
+  },
+  "specified_reset_delay_ms": [
+    12,
+    28
+  ],
+  "mux_normal_turn_on_max_us": 35,
+  "not_proved": [
+    "OTP/BootROM first drive",
+    "partial-supply ramps",
+    "brownout maximum response time",
+    "effective load capacitance",
+    "TF HS50 or eMMC HS200 timing",
+    "carrier power sequencing",
+    "physical board behavior"
+  ]
+}

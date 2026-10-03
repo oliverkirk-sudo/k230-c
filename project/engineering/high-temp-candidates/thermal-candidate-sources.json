@@ -1,0 +1,235 @@
+{
+  "status": "research-only alternatives; not drop-in or approved BOM",
+  "parts": [
+    {
+      "part": "MT53E256M32D2FW-046 AAT:B",
+      "role": "1 GiB LPDDR4 candidate",
+      "temperature": {
+        "min_C": -40,
+        "max_C": 105,
+        "basis": "case center/top; datasheet p1 and224"
+      },
+      "package": {
+        "code": "FW",
+        "balls": 200,
+        "size_mm": [
+          10,
+          14.5,
+          1.1
+        ]
+      },
+      "supplies": {
+        "VDD1_V": [
+          1.7,
+          1.95
+        ],
+        "VDD2_V": [
+          1.06,
+          1.17
+        ],
+        "VDDQ_LPDDR4_V": [
+          1.06,
+          1.17
+        ]
+      },
+      "ballmap": {
+        "source_page": 21,
+        "figure": 5,
+        "orientation": "top view, ball down",
+        "status": "Full physical/absent grid independently checked; see project comparison/audit files. Not drop-in qualification."
+      },
+      "pdf": "micron-lp4.pdf",
+      "url": "https://www.mouser.com/datasheet/2/671/200b_z00m_sdp_ddp_auto_lpddr4_lpddr4x-3193603.pdf",
+      "order_status": "Exact manufacturer catalog part; shipping option not selected; catalog Production; no procurement approval",
+      "sha256": "b29c808baa7e42fca9b7ccc54b673142d26b49a1fee6b3053cc8691c21832552"
+    },
+    {
+      "part": "MTFC16GAPALBH-AAT",
+      "role": "16 GB eMMC HS200 candidate",
+      "temperature": {
+        "min_C": -40,
+        "max_C": 105,
+        "basis": "ambient Ta, Table12 p26"
+      },
+      "package": {
+        "code": "BH",
+        "balls": 153,
+        "size_mm": [
+          11.5,
+          13,
+          1.1
+        ]
+      },
+      "supplies": {
+        "VCC_V": [
+          2.7,
+          3.6
+        ],
+        "VCCQ_1V8_V": [
+          1.7,
+          1.95
+        ],
+        "VCCQ_3V3_V": [
+          2.7,
+          3.6
+        ]
+      },
+      "ballmap": {
+        "source_page": 9,
+        "figure": 3,
+        "orientation": "top view, ball down",
+        "csv": "MTFC16GAPALBH-AAT_grid196_physical153.csv",
+        "status": "Full physical/absent grid independently checked; see project comparison/audit files. Not drop-in qualification."
+      },
+      "creg": {
+        "source": "Table13 p27, Figure8 p26, VDDIM description p7",
+        "C5_uF": {
+          "min": 1,
+          "max": 4.7,
+          "typ": 1
+        },
+        "C6_uF": {
+          "min": 0.1,
+          "max": 0.1,
+          "typ": 0.1
+        },
+        "connection": "VDDIM to ground, close placement; never tie VDDIM directly to supply/ground",
+        "ESR": "not specified in inspected table",
+        "voltage_rating": "not specified in inspected table",
+        "note": "p7 prose mentions at least0.1uF and1uF recommended; use stricter complete p27 network for candidate, pending revision confirmation"
+      },
+      "pdf": "micron-emmc.pdf",
+      "url": "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/234/EMMC_5F00_DATASHEET.pdf",
+      "order_status": "Base order code confirmed manufacturer Table1; tray/reel option not selected; lifecycle not fully resolved",
+      "sha256": "52ad8018f63554d3e34f970b1516e488543c6a25bd144bcbf33d666fa2a82d71"
+    },
+    {
+      "part": "74AUP1G97GXZ",
+      "role": "Schmitt configurable AND candidate",
+      "temperature": {
+        "min_C": -40,
+        "max_C": 125,
+        "basis": "ambient"
+      },
+      "package": {
+        "code": "SOT1255-2/X2SON6",
+        "size_mm": [
+          1,
+          0.8,
+          0.32
+        ]
+      },
+      "pins": {
+        "1": "B",
+        "2": "GND",
+        "3": "A",
+        "4": "Y",
+        "5": "VCC",
+        "6": "C"
+      },
+      "supply_V": [
+        0.8,
+        3.6
+      ],
+      "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G97.pdf",
+      "source_status": "Official PDF body read through web; direct local download returned403, not retried",
+      "order_status": "Orderable code verified official product page; no procurement",
+      "review_status": "Conditional125C electrical contract reviewed; footprint/process and full-supply/ramp qualification remain open."
+    },
+    {
+      "part": "74AUP1G17GX,125",
+      "role": "Schmitt buffer candidate",
+      "temperature": {
+        "min_C": -40,
+        "max_C": 125,
+        "basis": "ambient"
+      },
+      "package": {
+        "code": "SOT1226-3/X2SON5",
+        "size_mm": [
+          0.8,
+          0.8,
+          0.32
+        ]
+      },
+      "pins": {
+        "1": "NC",
+        "2": "A",
+        "3": "GND",
+        "4": "Y",
+        "5": "VCC"
+      },
+      "supply_V": [
+        0.8,
+        3.6
+      ],
+      "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G17.pdf",
+      "source_status": "Official PDF body read through web; direct local download returned403, not retried",
+      "order_status": "Orderable code verified official product page; no procurement",
+      "review_status": "Conditional125C electrical contract reviewed; footprint/process and full-supply/ramp qualification remain open."
+    },
+    {
+      "part": "74AUP1G17GX4Z",
+      "role": "smallest listed Schmitt buffer alternative",
+      "temperature": {
+        "min_C": -40,
+        "max_C": 125,
+        "basis": "ambient"
+      },
+      "package": {
+        "code": "SOT1269-2/X2SON4",
+        "size_mm": [
+          0.6,
+          0.6,
+          0.32
+        ]
+      },
+      "pins": {
+        "1": "A",
+        "2": "GND",
+        "3": "Y",
+        "4": "VCC"
+      },
+      "supply_V": [
+        0.8,
+        3.6
+      ],
+      "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G17.pdf",
+      "source_status": "Official PDF body read through web; direct local download returned403, not retried",
+      "order_status": "Orderable code verified official product page; no procurement",
+      "review_status": "Conditional125C electrical contract reviewed; footprint/process and full-supply/ramp qualification remain open."
+    },
+    {
+      "part": "74AUP1G06GX,125",
+      "role": "open-drain inverter candidate",
+      "temperature": {
+        "min_C": -40,
+        "max_C": 125,
+        "basis": "ambient"
+      },
+      "package": {
+        "code": "SOT1226-3/X2SON5",
+        "size_mm": [
+          0.8,
+          0.8,
+          0.32
+        ]
+      },
+      "pins": {
+        "1": "NC",
+        "2": "A",
+        "3": "GND",
+        "4": "Y_OD",
+        "5": "VCC"
+      },
+      "supply_V": [
+        0.8,
+        3.6
+      ],
+      "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G06.pdf",
+      "source_status": "Official PDF body read through web; direct local download returned403, not retried",
+      "order_status": "Orderable code verified official product page; no procurement",
+      "review_status": "Conditional125C electrical contract reviewed; footprint/process and full-supply/ramp qualification remain open."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+from pathlib import Path
+import json,hashlib
+B=Path(__file__).resolve().parents[1];P=B/'cad/high-temp-candidate/scaled-feedback-validation.json';a=json.load(open(P));rs={r['rail']:r for r in a['rails']};out=[]
+# Bounds are selected-device supply limits, not transient response guarantees.
+for key,lo,hi,branch_drop,step in [('CORE',.744,.88,0,3),('DDR',1.06,1.17,0, None),('1V8',1.70,1.95,0,None),('3V3',3.07,3.60,0,None)]:
+ r=rs[key];low=r['static_min_with_bias_V'];high=r['static_max_with_bias_V'];margin=min(low-lo-branch_drop,hi-high)
+ out.append({'rail':key,'regulator_static_min_V':low,'regulator_static_max_V':high,'selected_device_min_V':lo,'selected_device_max_V':hi,'remaining_low_budget_V':low-lo-branch_drop,'remaining_high_budget_V':hi-high,'minimum_combined_distribution_ripple_step_budget_V':margin,'illustrative_full_step_A':step,'zero_reserve_target_impedance_ohm':margin/step if step else None,'limitation':'This budget must cover distribution, ripple, switching noise, load steps and all unmodeled errors together; do not spend it independently on each.'})
+d={'status':'PARAMETRIC_PDN_BUDGET_ONLY_NOT_SIMULATION_OR_QUALIFICATION','source_sha256':hashlib.sha256(P.read_bytes()).hexdigest(),'rails':out,'CORE_step_basis':'3A design-stress illustration from official recommended CORE supply capacity, not a measured load-step waveform','DDR_current_gate':'DDR PHY and selected DRAM simultaneous transient/load profile still required; no invented amperes','top_side_constraint':'No components beneath BGAs; local ball vias and continuous suitable planes are essential; outside-body distance is not electrical loop length','package_plane_model_gate':'Actual via/plane inductance, resonances, package parameters and mounted capacitor impedance unavailable; no arbitrary ESL values inserted','reference_sources':['https://github.com/kendryte/k230_docs/blob/main/en/00_hardware/K230_Hardware_Design_Guide.md','Micron exact-part LPDDR4 and eMMC supply tables referenced in thermal-candidate-sources.json']}
+O=B/'engineering/routing';(O/'pdn-budget-screen.json').write_text(json.dumps(d,indent=2));print(json.dumps(out,indent=2))

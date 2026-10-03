@@ -1,0 +1,13 @@
+{
+  "kicad": "9.0.2",
+  "components": 254,
+  "pin_bindings": 1509,
+  "binding_differences": [],
+  "component_differences": [],
+  "erc_total": 150,
+  "erc_categories": {
+    "footprint_link_issues": 150
+  },
+  "status": "PARTIAL_DELTA_BASE_LIBRARIES_MISSING",
+  "production_ready": false
+}

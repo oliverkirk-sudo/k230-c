@@ -1,0 +1,164 @@
+[
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Cu",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Cu.svg",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Cu.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Mask",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Mask.svg",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Mask.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Paste",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Paste.svg",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Paste.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,F.Mask,F.Paste,F.Silkscreen,F.Fab,F.Courtyard",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Cu.gtl'.\nPlotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Paste.gtp'.\nPlotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Silkscreen.gto'.\nPlotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Mask.gts'.\nPlotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Courtyard.gbr'.\nPlotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Fab.gbr'.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Cu",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Cu.svg",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Aperture_Override_Control.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Cu.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Mask",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Mask.svg",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Aperture_Override_Control.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Mask.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Paste",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Paste.svg",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Aperture_Override_Control.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Paste.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,F.Mask,F.Paste,F.Silkscreen,F.Fab,F.Courtyard",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Aperture_Override_Control.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Cu.gtl'.\nPlotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Paste.gtp'.\nPlotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Silkscreen.gto'.\nPlotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Mask.gts'.\nPlotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Courtyard.gbr'.\nPlotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Fab.gbr'.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Mask",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-mask-0075",
+      "/workspace/shared/cm-k230-redesign/cad/recovery-footprint-candidates/nexperia-archival/NXP_Process_020_0075.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-mask-0075/NXP_Process_020_0075-F_Mask.gts'.\n",
+    "stderr": ""
+  }
+]

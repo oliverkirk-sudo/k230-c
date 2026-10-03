@@ -1,0 +1,42 @@
+ Spec No. J(E)TE243A-0006D-01
+                                      Reference Only                                                                        5/10
+
+DFE201612E Type 一般仕様 General Specifications ( 3/3 )
+
+ 標準状態            Standard atmospheric conditions
+  特に指定が無い限り、測定は常温(温度 5～35℃)、常湿(湿度45～85%)、常気圧(気圧86～106kPa)にて行う。
+  ただし、判定に疑義を生じた場合は温度20±2℃、湿度65±5%、気圧86～106kPaにて行う。
+   Unless otherwise specified, the standard range of atmospheric conditions in making measurements and test as follows;
+         Ambient temperature : 5℃ to 35℃ ,         Relative humidity : 45% to 85% ,               Air pressure : 86kPa to 106kPa
+   If more strict measurement is required, measurement shall be made within following limits;
+         Ambient temperature : 20±2℃ ,             Relative humidity : 65±5% ,                    Air pressure : 86kPa to 106kPa
+
+
+ ﾘﾌﾛｰはんだ条件                 Reflow soldering condition
+
+
+
+                                                                       ＊ﾘﾌﾛｰ回数 ： 2回まで
+                                                                        Reflow times ： 2 times max
+                                                                    ＊ﾘﾌﾛｰ炉の熱源には、遠赤外線を推奨致します。
+                                                                    熱源としてﾊﾛｹﾞﾝﾗﾝﾌﾟを使用されますと、輻射熱が
+                                                                    高く、耐熱範囲を超える場合があり推奨できません。
+                                                                    We recommend infrared ray as heat source of reflow bath.
+                                                                    However halogen lamp shall be used, side heat will be beyond
+                                                                    range of resistance heat, so we can’t recommend it.
+
+
+
+
+ 推奨ﾊﾟﾀｰﾝ図             Recommended PCB pattern
+
+
+
+
+                                              単位 Unit : mm
+
+
+
+
+                                               MURATA MFG.CO., LTD.
+

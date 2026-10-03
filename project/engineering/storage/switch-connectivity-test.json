@@ -1,0 +1,35 @@
+{
+  "kind": "static truth-table connectivity ONLY",
+  "pin_net_assignments_verified": 71,
+  "exported_pin_assignments": 71,
+  "states": [
+    {
+      "MODE_TF": 0,
+      "GLOBAL_DISABLE": 0,
+      "connectivity_pass": true
+    },
+    {
+      "MODE_TF": 0,
+      "GLOBAL_DISABLE": 1,
+      "connectivity_pass": true
+    },
+    {
+      "MODE_TF": 1,
+      "GLOBAL_DISABLE": 0,
+      "connectivity_pass": true
+    },
+    {
+      "MODE_TF": 1,
+      "GLOBAL_DISABLE": 1,
+      "connectivity_pass": true
+    }
+  ],
+  "not_tested": [
+    "BootROM voltage",
+    "partial-power ramp",
+    "propagation delay",
+    "HS200 SI/eye/tuning",
+    "real switch leakage",
+    "physical hardware"
+  ]
+}

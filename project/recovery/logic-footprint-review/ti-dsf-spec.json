@@ -1,0 +1,115 @@
+{
+  "status": "TI_DRAWING_GEOMETRY_CANDIDATE_ONLY_NEXPERIA_BLOCKED",
+  "footprint": "CMK230_Recovery_Logic_Candidates:TI_DSF0006A_SN74LVC1G97_1x1_P0.35_SourceExample_CANDIDATE",
+  "file": "cad/recovery-footprint-candidates/CMK230_Recovery_Logic_Candidates.pretty/TI_DSF0006A_SN74LVC1G97_1x1_P0.35_SourceExample_CANDIDATE.kicad_mod",
+  "footprint_sha256": "c5a328ba3e3158f90fc6d069c13a7c6861276090a027d08a9acb9eba2e997937",
+  "mpn": "SN74LVC1G97DSFR",
+  "reference": "U14",
+  "package": "DSF0006A",
+  "source": {
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf",
+    "path": "/workspace/shared/k230-reference/sn74lvc1g97.pdf",
+    "sha256": "53e8bc4d0f966f6e1d8d28987240f17a07e94bec6658ebc92ab322dccae7f416",
+    "datasheet_revision": "SCES416N January 2017",
+    "drawing_revision": "4220597/B 06/2022",
+    "physical_pages": [
+      3,
+      29,
+      30,
+      31
+    ],
+    "pixels_independently_inspected": true
+  },
+  "coordinate_frame": "Component side, origin at body center, +X right, +Y down; pin1 upper-left. Bottom-view package drawing not copied unmirrored.",
+  "body_midrange_mm": [
+    1,
+    1
+  ],
+  "body_min_mm": [
+    0.95,
+    0.95
+  ],
+  "body_max_mm": [
+    1.05,
+    1.05
+  ],
+  "height_max_mm": 0.4,
+  "pitch_mm": 0.35,
+  "copper_land_mm": [
+    0.6,
+    0.17
+  ],
+  "copper_corner_radius_mm": 0.05,
+  "paste_aperture_mm": [
+    0.6,
+    0.15
+  ],
+  "paste_corner_radius_mm": 0.05,
+  "source_example_stencil_mm": 0.09,
+  "mask_strategy": "Project-selected NSMD +0.05 mm true constant offset; source allows at most 0.07 mm. Explicit non-copper mask apertures, independent of board/footprint margin settings.",
+  "mask_opening_mm": [
+    0.7,
+    0.27
+  ],
+  "mask_corner_radius_mm": 0.1,
+  "mask_expansion_mm": 0.05,
+  "source_max_mask_expansion_mm": 0.07,
+  "courtyard_mm": [
+    2,
+    1.6
+  ],
+  "courtyard_area_mm2": 3.2,
+  "courtyard_basis": "Project choice: >=0.25 mm to outline centerline beyond mask/body maximum, outward 0.05-mm rounding. 0.025-mm half stroke reduces physical inner-edge distance. Not a TI area claim.",
+  "pins": [
+    {
+      "number": 1,
+      "x_mm": -0.4,
+      "y_mm": -0.35,
+      "function": "In1",
+      "net": "GLOBAL_DISABLE"
+    },
+    {
+      "number": 2,
+      "x_mm": -0.4,
+      "y_mm": 0,
+      "function": "GND",
+      "net": "GND"
+    },
+    {
+      "number": 3,
+      "x_mm": -0.4,
+      "y_mm": 0.35,
+      "function": "In0",
+      "net": "VDD_3V3"
+    },
+    {
+      "number": 4,
+      "x_mm": 0.4,
+      "y_mm": 0.35,
+      "function": "Y",
+      "net": "DISABLE_OR_TF"
+    },
+    {
+      "number": 5,
+      "x_mm": 0.4,
+      "y_mm": 0,
+      "function": "VCC",
+      "net": "VDD_3V3"
+    },
+    {
+      "number": 6,
+      "x_mm": 0.4,
+      "y_mm": -0.35,
+      "function": "In2",
+      "net": "MODE_TF"
+    }
+  ],
+  "assembly_approval": false,
+  "active_schematic_assignment_changed": false,
+  "gates": [
+    "Actual soldermask web/registration and finished copper clearances must be approved by the selected factory.",
+    "0.09-mm stencil is TI example only: check aperture release, corner fidelity, deposited volume, reflow, placement and rework.",
+    "Pin1 marking/orientation and local bypass/routing need final board review.",
+    "No assembled-height, thermal, electrical, placement/routing or complete-board-fit qualification is implied."
+  ]
+}

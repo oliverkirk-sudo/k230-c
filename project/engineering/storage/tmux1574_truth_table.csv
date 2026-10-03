@@ -1,0 +1,5 @@
+VDD,EN,SEL,result
+valid,0,0,Dx connected to SxA
+valid,0,1,Dx connected to SxB
+valid,1,X,All channels off
+0,X,X,Signal pins high impedance with signals limited to 3.6V

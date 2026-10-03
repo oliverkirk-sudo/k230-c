@@ -1,0 +1,19 @@
+{
+  "source_reviewed_memory_electrical_types": 353,
+  "source_reviewed_soc_electrical_types": 390,
+  "virtual_source_declarations": 26,
+  "physical_memory_power_ground_balls_audited": 131,
+  "emmc_supply_polarity_mismatches": [],
+  "special_power_bias_mismatches": [],
+  "xml_assignment_mismatches": [],
+  "ddr_join_mismatches": [],
+  "exposed_gpio_net_collisions": [],
+  "exposed_gpio_count": 62,
+  "TF_nets_bypassing_selector": [],
+  "unique_references": 254,
+  "net_count_including_open_pin_nets": 457,
+  "erc_counts": {},
+  "erc_severity": {},
+  "erc_total": 0,
+  "status": "REVIEW_ONLY_ERC_ZERO_NOT_HARDWARE_QUALIFIED"
+}

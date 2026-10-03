@@ -1,0 +1,7 @@
+edge_pin,edge_name,vendor_declared_function,canaan_reference_soc_ball_not_physical_module_proof,alternative_MMC1_same_function_edge_pin_TEST_ONLY,alternative_edge_name
+17,TFCARD_D0,MMC0_D0,D5,30,BANK4_GPIO56
+18,TFCARD_D1,MMC0_D1,C5,31,BANK4_GPIO57
+19,TFCARD_D2,MMC0_D2,B5,32,BANK4_GPIO58
+20,TFCARD_D3,MMC0_D3,C6,33,BANK4_GPIO59
+21,TFCARD_CLK,MMC0_CLK,A5,29,BANK4_GPIO55
+22,TFCARD_CMD,MMC0_CMD,D6,28,BANK4_GPIO54

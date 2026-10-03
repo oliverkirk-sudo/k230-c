@@ -1,0 +1,57 @@
+[
+  {
+    "part": "TMUX1574",
+    "local_source": "/workspace/shared/k230-switch-review/tmux1574-ti-rev-c.pdf",
+    "official_url": "https://www.ti.com/lit/ds/symlink/tmux1574.pdf",
+    "pdf_pages_one_based": [
+      3,
+      36,
+      37,
+      38
+    ],
+    "drawing_revision": "RSV0016A / 4220314/C 02/2020",
+    "sha256": "e728f7dbb2a05665c98752fe113662b859ecf6988dc8c58e02a9b49265839867",
+    "review": "Actual page pixels viewed plus text/dimension checks"
+  },
+  {
+    "part": "SN74LVC1G32",
+    "local_source": "/workspace/shared/k230-reference/mechanical/sn74lvc1g32-ti.pdf",
+    "official_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf",
+    "pdf_pages_one_based": [
+      41,
+      42,
+      43
+    ],
+    "drawing_revision": "DBV0005A / 4214839/K 08/2024",
+    "sha256": "b64786a568abe6a715c6f15dbc8ab1ffde3ad1017a1128a98931200e12c4c416",
+    "review": "Actual page pixels viewed plus text/dimension checks"
+  },
+  {
+    "part": "TPS6282xA",
+    "local_source": "/workspace/shared/k230-reference/tps62827.pdf",
+    "official_url": "https://www.ti.com/lit/ds/symlink/tps62827.pdf",
+    "pdf_pages_one_based": [
+      3,
+      32,
+      33,
+      34
+    ],
+    "drawing_revision": "DMQ0006A / 4222645/E 09/2023",
+    "sha256": "8a309f2a40486a380242d3f178eb4bda3ef4dca3deca647fa82f763d14866f63",
+    "review": "Actual page pixels viewed plus text/dimension checks"
+  },
+  {
+    "part": "TPS628640B",
+    "local_source": "/workspace/shared/k230-reference/tps62864.pdf",
+    "official_url": "https://www.ti.com/lit/ds/symlink/tps62864.pdf",
+    "pdf_pages_one_based": [
+      4,
+      30,
+      31,
+      32
+    ],
+    "drawing_revision": "YCG0015 / 4224261/B 08/2019",
+    "sha256": "f49cda50b21c8a84ea153120043efd31a5c4a58d2c0465909ea7f804806b8919",
+    "review": "Actual page pixels viewed plus text/dimension checks"
+  }
+]

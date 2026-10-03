@@ -1,0 +1,31 @@
+{
+  "source_sha256": "e574f923d723d017d38cdfb35ff006cd1e4b658c73c9f18d89b5fceb46a4a627",
+  "source_url": "https://www.ti.com/lit/ds/symlink/sn74aup1g97.pdf",
+  "logic_pages": [
+    1,
+    2,
+    3
+  ],
+  "mechanical_pages": [
+    18,
+    19,
+    20
+  ],
+  "logic": "Y=(C AND A) OR ((NOT C) AND B)",
+  "AND_configuration": "B pin1=GND; pin2=GND; A pin3/C pin6=signals; Y pin4; VCC pin5",
+  "truth_table_rows_checked": 8,
+  "AND_rows_checked": 4,
+  "all_inputs_Schmitt_trigger": true,
+  "new_footprint": "CMK230_Compact_Candidates:TI_DRL0006A_AUP1G97_DrawingVerified_CANDIDATE",
+  "current_requested_refs": {
+    "U91": "SN74AUP1G07 DRL5",
+    "U93": "SN74AUP1G06 DRL5",
+    "U92": "SN74AUP1G97 DRL6 Schmitt AND",
+    "U94": "SN74AUP1G97 DRL6 Schmitt AND",
+    "U89": "TPS3808G01 DRV+EP7",
+    "U90": "TPS3808G01 DRV+EP7"
+  },
+  "U96_status": "Removed by design lead; earlier 1G17 candidate remains alternative only",
+  "master_CAD_modified": false,
+  "previous_compact_area_scenarios": "Historical; not current BOM after topology correction"
+}

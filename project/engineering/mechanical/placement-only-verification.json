@@ -1,0 +1,39 @@
+{
+  "status": "PASS_FOR_ILLUSTRATIVE_BODY_FIT_ONLY",
+  "outline_mm": [
+    38,
+    38
+  ],
+  "top_side_footprints": 13,
+  "bga_placeholders_no_copper": 3,
+  "bga_center_crosses": 743,
+  "small_ic_instances": 10,
+  "small_numbered_copper_pads": 107,
+  "tracks_and_vias": 0,
+  "zones": 0,
+  "castellation_pads": 0,
+  "drills": 0,
+  "minimum_chosen_courtyard_to_outline_mm": 2.45,
+  "minimum_courtyard_pair_gap_mm": 0.85,
+  "closest_courtyard_pair": [
+    "U11",
+    "U24"
+  ],
+  "illustrative_edge_band_mm": 2,
+  "illustrative_edge_band_not_manufacturing_geometry": true,
+  "excluded": [
+    "passives and decoupling placement",
+    "inductor placement and switch-current loops",
+    "clock/crystal placement",
+    "escape fanout and routing",
+    "stackup and via design",
+    "thermal and PDN analysis",
+    "complete final BOM fit",
+    "castellation/drill/plating/edge manufacturing geometry",
+    "schematic parity / electrical connectivity"
+  ],
+  "files": {
+    "pcb": "/workspace/shared/cm-k230-redesign/cad/verified-footprints/placement-only/CMK230_Placement_ONLY_NOT_FOR_FAB.kicad_pcb",
+    "positions": "/workspace/shared/cm-k230-redesign/engineering/mechanical/placement-only-positions.csv"
+  }
+}

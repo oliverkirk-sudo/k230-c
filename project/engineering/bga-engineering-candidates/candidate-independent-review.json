@@ -1,0 +1,406 @@
+{
+  "status": "PASS_BOUNDED_ANALYSIS_REVIEW_MANUFACTURING_RELEASE_NOT_ESTABLISHED",
+  "review_date_utc": "2026-09-30",
+  "scope": "Independent review of bounded engineering candidates; no PCB, assembly, routing, PDN, or fabrication qualification",
+  "review_method": "Read-only source inspection, visual PDF/render inspection, independent arithmetic and current-XML cross-checks. Independently recomputed every local collision margin; also regenerated all four final escape JSON reports in memory before the creator write boundary and obtained exact object equality. Only this reviewer JSON was written.",
+  "reviewed_candidate_file_sha256": {
+    "MEMORY_SOC_ESCAPE_REVIEW.md": "af1fcf31329fb08e40d3010e6ec5fc60877a4eb0bceea8bc9e5bb24d7146d6eb",
+    "README.md": "7cdea57addc048b6cda26a9e51c293fdf85e73df67edd7ec004e101cad2f20e6",
+    "alternate-via-process-check.json": "27746ae6ed7082e8d6ae933f61a440ce4d13165575b9d3e5b8ee4756d9c178fd",
+    "analyze_topside_bypass_reach.py": "e1c4f88198bb04955edea0b9b68d1073385bafd5d32b76d8bc71da75687f9ecb",
+    "assembly-guidance-evidence.json": "46b21b7d17d228f748b72f9b52d4c8887e2567866ad843f8e79d3ea2fde181c6",
+    "assembly-guidance-review.md": "48da37f4fa54abba27ca40f1920b3d14dbabf7f97923293eaf9f18e8dd7ff596",
+    "check_alternate_via_process.py": "5947a72d6d10abe6bc5f156d2f79fd60d951206e96f615b537d6bcaebf920aa1",
+    "emmc-sparse-through-via-conditional-witness-cu030-via030-hole0125.png": "b2e52c956b21aa3b486635629cc352feae776b5ddca99180d5e75e0dc6e8c6c3",
+    "emmc-sparse-through-via-conditional-witness-cu030-via030-hole0125.svg": "7cd15f10735ba3744cf45f5a660caf1a905441155a868e4d45f2a99be8c8dd3f",
+    "emmc-sparse-through-via-conditional-witness-cu030-via030-hole015.png": "ffcf151c78600a26dadce634f2e2d6d7ee95ee01b1302b4d3ecf049d4d06ab49",
+    "emmc-sparse-through-via-conditional-witness-cu030-via030-hole015.svg": "b2bdf12d0ab945bc647c6e549ba846a6d6b434e06d9c435c8524f0aa77b1f70b",
+    "emmc-sparse-through-via-conditional-witness-smd-cu040-100um.png": "d0b4a150f37db50af3097599f2a8b2b8d25360ee23ef4f9579c3585f6ad6d6ba",
+    "emmc-sparse-through-via-conditional-witness-smd-cu040-100um.svg": "cffadec21f1b8977f5574cedab7384e2ce40f8bdc82e389ea11b4412f505f59e",
+    "emmc-sparse-through-via-conditional-witness.png": "f6eeafe608e3193f35670b455d3a2c61c0b06f9bf76be0862b97538a36ca21c5",
+    "emmc-sparse-through-via-conditional-witness.svg": "f8e87aa0361da41af7abda909d4e78c4dfde6176cdefce5f57c91e9d0129a42f",
+    "evaluate_memory_escape.py": "7d8a7b27f025ff282e604f0eb16eb709890b4a9c3649f42ffd6d817ec2022a68",
+    "memory-escape-artifact-sha256.json": "c0d92ea255262efa3352f5e57079f977fa3cb880432b9200088bb10a2dbd5165",
+    "memory-soc-functional-balls-cu030-via030-hole0125.csv": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0",
+    "memory-soc-functional-balls-cu030-via030-hole015.csv": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0",
+    "memory-soc-functional-balls-smd-cu040-100um.csv": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0",
+    "memory-soc-functional-balls.csv": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0",
+    "memory-soc-functional-escape-analysis-cu030-via030-hole0125.json": "ee952371399010e8b20d080072083c8d5fefbb09932698a5ae1187bbc75fe5a8",
+    "memory-soc-functional-escape-analysis-cu030-via030-hole015.json": "560e9693d3e38b40918b494d0e3bc7b31e39402e71b4a3a49b58d2a8972eb2a7",
+    "memory-soc-functional-escape-analysis-smd-cu040-100um.json": "28444c5622ca74ff14ffb74afe48189e321cfc38eb8057b71c902ec37d5643df",
+    "memory-soc-functional-escape-analysis.json": "d5fa5e174e98c7b2caa3eaf91de624d2751bfb7fbfd46b078b7e27a1b74e0fab",
+    "micron-emmc-package-evidence.json": "f71c3fd958760af18d23d57d2a2227868a28473f0dc2b3a016be0a76db126ceb",
+    "topside-bypass-reach.json": "2011f2317cbe464e6620ede433b04b4f3b543c375ee1cda7a05d250d588b2777",
+    "topside-bypass-reach.png": "beb554c623909ea84c1642f289b1427303e930389e0537c60ed35dab8ac7e773",
+    "verify_exact_package_evidence.py": "c583b01b9366ef3a2b893941f0956dada506f964ce4ac1073bcae156d6cc2356"
+  },
+  "assembly_guidance": {
+    "candidate_count": 8,
+    "candidate_ids": [
+      "FW_0350",
+      "FW_0360",
+      "FW_0400",
+      "BH_0270",
+      "BH_0300",
+      "K230_0250",
+      "K230_0270",
+      "BH_SMD_CU0400_SM0300"
+    ],
+    "all_explicitly_unqualified": true,
+    "independent_arithmetic": "All eight cases pass recomputation of circular aperture area ratio, narrow-axis copper gap, mask web, maximum equal trace/clearance, and 75/100 micrometre trace spare",
+    "primary_guidance_checked": [
+      "TI SPRAA99C pp6,7,11,15; p7 table visually inspected",
+      "Infineon xWLy V03 2016 pp8,9; p8 table visually inspected"
+    ],
+    "guidance_pdf_hashes_match": true,
+    "candidate_report_hash_matches": true,
+    "referenced_input_hashes_match": true,
+    "BH_SMD_check": {
+      "copper_diameter_mm": 0.4,
+      "mask_opening_mm": 0.3,
+      "copper_gap_mm": 0.1,
+      "mask_web_mm": 0.2,
+      "literal_4mil_clearance_mm": 0.1016,
+      "literal_4mil_nominal_margin_mm": -0.0016,
+      "literal_100um_nominal_margin_mm": 0.0,
+      "paste_area_ratio": 0.75,
+      "mask_overlap_each_side_mm": 0.05,
+      "interpretation": "Distinct generic TI SMD example only. Nominal 100 micrometre equality does not demonstrate etch/registration tolerance or exact Micron applicability."
+    },
+    "restricted_source_use": "No Micron CSN-33 access or retry, and no dependence on the earlier search-index excerpt. Restricted Infineon AN98508 download was not retried; its text-only limitation is disclosed."
+  },
+  "exact_Micron_BH_package": {
+    "source_pdf": "/workspace/shared/k230-memory-review/thermal-candidates/micron-emmc.pdf",
+    "source_sha256": "52ad8018f63554d3e34f970b1516e488543c6a25bd144bcbf33d666fa2a82d71",
+    "source_figure": 5,
+    "source_pdf_page_1_based": 11,
+    "source_revision": "Rev. G 10/18 EN",
+    "mechanical_page_visually_inspected": true,
+    "physical_ball_count": 153,
+    "bare_Au_test_pad_count": 56,
+    "independent_vector_circle_counts_by_diameter_in_PDF_points": {
+      "4.060": 153,
+      "3.419": 56,
+      "12.606_A1_mark": 1
+    },
+    "mechanical_occupancy_matches_electrical_grid": true,
+    "bottom_view_to_top_view_horizontal_reversal_correct": true,
+    "post_reflow_ball_diameter_mm": 0.319,
+    "ball_diameter_is_not_PCB_copper_diameter": true,
+    "package_SMD_ball_pad_condition_mm": 0.3,
+    "package_condition_is_not_board_land_recommendation": true,
+    "test_pads_have_no_solder_balls_or_corresponding_generated_PCB_solder_lands": true,
+    "body_nominal_mm": [
+      11.5,
+      13.0
+    ],
+    "body_tolerance_each_axis_mm": 0.1,
+    "height_nominal_mm": 1.0,
+    "height_tolerance_mm": 0.1,
+    "ball_pitch_mm": [
+      0.5,
+      0.5
+    ],
+    "ball_center_span_mm": [
+      6.5,
+      6.5
+    ],
+    "finding": "Evidence and verification script correctly separate the 153 solder balls, the 56 auxiliary test contacts, and package-side versus board-side dimensions"
+  },
+  "related_geometry": {
+    "Micron_FW": {
+      "mechanical_page_24_visually_inspected": true,
+      "physical_count": 200,
+      "grid_sites": 264,
+      "pitch_mm": [
+        0.8,
+        0.65
+      ],
+      "center_span_mm": [
+        8.8,
+        13.65
+      ],
+      "body_nominal_mm": [
+        10.0,
+        14.5
+      ],
+      "ball_nominal_mm": 0.436,
+      "ball_tolerance_mm": 0.05,
+      "package_SMD_condition_mm": 0.4,
+      "interpretation": "Package opening and post-reflow ball geometry do not specify PCB copper, mask, paste or mounted standoff"
+    },
+    "K230": {
+      "mechanical_table_image007_visually_inspected": true,
+      "physical_count": 390,
+      "grid_sites": 400,
+      "pitch_mm": [
+        0.65,
+        0.65
+      ],
+      "body_nominal_mm": [
+        13.0,
+        13.0
+      ],
+      "body_maximum_mm": [
+        13.1,
+        13.1
+      ],
+      "ball_nominal_mm": 0.3,
+      "ball_minimum_maximum_mm": [
+        0.25,
+        0.35
+      ],
+      "all_390_coordinate_formulas_match": true
+    }
+  },
+  "topside_bypass": {
+    "allocation_count": 77,
+    "unique_reference_count": 77,
+    "all_allocated_references_found_on_expected_rail_and_GND_in_current_XML": true,
+    "source_hashes_match_current_files": true,
+    "all_U1_ball_sets_match_current_XML": true,
+    "all_per_ball_bounds_recomputed": true,
+    "image_visually_inspected": true,
+    "central_CORE_balls": {
+      "K11_mm": [
+        0.325,
+        -0.325
+      ],
+      "L11_mm": [
+        0.325,
+        0.325
+      ]
+    },
+    "maximum_body_half_width_mm": 6.55,
+    "component_separation_assumption_mm": 0.25,
+    "central_lower_bound_formula": "6.55 - 0.325 + 0.25",
+    "central_lower_bound_mm": 6.475,
+    "interpretation": "Minimum planar distance to an external top-side component or land extent under the declared maximum-body keepout plus 0.25 mm separation assumption. Not a route length, PDN loop length, inductance, impedance, or acceptance limit.",
+    "allocation_scope_correct": "The 77 grouped parts include shared memory rails and are not all claimed as K230-only local capacitors",
+    "current_XML_sha256": "5ecd0c50fecfa56826569ec897e47b306bce8e25fa89d5382a7b43a132359c5f",
+    "K230_power_balls_on_allocated_rails": 40,
+    "latest_XML_refresh_rechecked": true
+  },
+  "escape_review": {
+    "status": "PASS_CONDITIONAL_LOCAL_GEOMETRY_AND_SCOPE",
+    "full_physical_point_counts": {
+      "FW200": 200,
+      "BH153": 153,
+      "K230": 390
+    },
+    "all_four_CSVs_preserve_exact_physical_sets_and_functions": true,
+    "BH_unused_physical_lands_retained": {
+      "NC": 109,
+      "RFU": 4,
+      "VSF": 7
+    },
+    "BH_vias_on_NC_RFU_VSF_sites": 0,
+    "BH_modeled_vias": 29,
+    "BH_supply_ground_vias": 20,
+    "BH_host_signal_vias": 8,
+    "BH_VDDIM_vias": 1,
+    "BH_host_signals_reaching_outside_maximum_body_projection": 11,
+    "BH_DS_retained_without_HS200_via": true,
+    "BH_A6_is_VSS_and_M6_is_CLK_confirmed_against_source": true,
+    "BH_CMD_CLK_remote_vias_use_absent_L5_L6_sites": true,
+    "BH_independent_collision_counts_by_kind": {
+      "physical_land": 912,
+      "PTH": 423,
+      "trace_to_trace": 51,
+      "via_pad_to_via_pad": 365,
+      "via_to_physical_land": 4326,
+      "drill_to_physical_land": 4326,
+      "physical_land_to_physical_land": 11628
+    },
+    "BH_independent_method": "Separate point-to-segment complex projection and segment intersection/distance arithmetic, plus exhaustive via/land pair distances from emitted routes and exact source grid. Copper and drill exclusions were checked separately.",
+    "BH_variants": [
+      {
+        "file": "memory-soc-functional-escape-analysis-cu030-via030-hole0125.json",
+        "BGA_copper_mm": 0.3,
+        "via_copper_mm": 0.3,
+        "hole_assumption_mm": 0.125,
+        "width_clearance_mm": [
+          0.1016,
+          0.1016
+        ],
+        "independently_recomputed_check_count": 22031,
+        "independently_recomputed_failures": 0,
+        "minimum_margin_mm": 0.0984,
+        "nominal_annulus_mm": 0.0875,
+        "annulus_margin_vs_selected_PCBWay_rule_mm": 0.0113,
+        "hole_margin_vs_selected_PCBWay_rule_mm": -0.025,
+        "source_hashes_match": true,
+        "in_memory_creator_replay_matches_exactly": true
+      },
+      {
+        "file": "memory-soc-functional-escape-analysis-cu030-via030-hole015.json",
+        "BGA_copper_mm": 0.3,
+        "via_copper_mm": 0.3,
+        "hole_assumption_mm": 0.15,
+        "width_clearance_mm": [
+          0.1016,
+          0.1016
+        ],
+        "independently_recomputed_check_count": 22031,
+        "independently_recomputed_failures": 0,
+        "minimum_margin_mm": 0.0984,
+        "nominal_annulus_mm": 0.075,
+        "annulus_margin_vs_selected_PCBWay_rule_mm": -0.0012,
+        "hole_margin_vs_selected_PCBWay_rule_mm": 0.0,
+        "source_hashes_match": true,
+        "in_memory_creator_replay_matches_exactly": true
+      },
+      {
+        "file": "memory-soc-functional-escape-analysis-smd-cu040-100um.json",
+        "BGA_copper_mm": 0.4,
+        "via_copper_mm": 0.35,
+        "hole_assumption_mm": 0.15,
+        "width_clearance_mm": [
+          0.1,
+          0.1
+        ],
+        "independently_recomputed_check_count": 22031,
+        "independently_recomputed_failures": 0,
+        "minimum_margin_mm": -0.0,
+        "nominal_annulus_mm": 0.1,
+        "annulus_margin_vs_selected_PCBWay_rule_mm": 0.0238,
+        "hole_margin_vs_selected_PCBWay_rule_mm": 0.0,
+        "source_hashes_match": true,
+        "in_memory_creator_replay_matches_exactly": true
+      },
+      {
+        "file": "memory-soc-functional-escape-analysis.json",
+        "BGA_copper_mm": 0.35,
+        "via_copper_mm": 0.35,
+        "hole_assumption_mm": 0.15,
+        "width_clearance_mm": [
+          0.1016,
+          0.1016
+        ],
+        "independently_recomputed_check_count": 22031,
+        "independently_recomputed_failures": 0,
+        "minimum_margin_mm": 0.0484,
+        "nominal_annulus_mm": 0.1,
+        "annulus_margin_vs_selected_PCBWay_rule_mm": 0.0238,
+        "hole_margin_vs_selected_PCBWay_rule_mm": 0.0,
+        "source_hashes_match": true,
+        "in_memory_creator_replay_matches_exactly": true
+      }
+    ],
+    "BH_extra_drill_to_other_via_copper_screen": {
+      "all_pass": true,
+      "minimum_over_variants_mm": 0.0976,
+      "interpretation": "Additional independent check. Retained via copper spacing controls more tightly than the hole rule for these four geometries."
+    },
+    "K230_signal_count": 209,
+    "K230_signal_rings": [
+      56,
+      59,
+      42,
+      34,
+      16,
+      2
+    ],
+    "K230_DDR_count": 65,
+    "K230_DDR_rings": [
+      16,
+      17,
+      16,
+      12,
+      4
+    ],
+    "K230_deepest_witnesses": [
+      {
+        "BGA_copper_mm": 0.25,
+        "checks": 2341,
+        "independently_recomputed_checks_match": true,
+        "minimum_margin_mm": 0.058019407771,
+        "independently_recomputed_failures": 0,
+        "all_390_lands_considered": true,
+        "additional_all_75855_land_pairs_minimum_margin_mm": 0.2984,
+        "additional_drill_to_other_via_copper_margin_mm": 1.5476
+      },
+      {
+        "BGA_copper_mm": 0.27,
+        "checks": 2341,
+        "independently_recomputed_checks_match": true,
+        "minimum_margin_mm": 0.048019407771,
+        "independently_recomputed_failures": 0,
+        "all_390_lands_considered": true,
+        "additional_all_75855_land_pairs_minimum_margin_mm": 0.2784,
+        "additional_drill_to_other_via_copper_margin_mm": 1.5476
+      }
+    ],
+    "K230_other_required_vias_explicitly_unrouted_and_reserved": true,
+    "LPDDR_functional_scope": {
+      "physical_non_supply_functional_balls": 68,
+      "live_SoC_joins": 65,
+      "live_join_quadrants": {
+        "NW": 15,
+        "NE": 17,
+        "SW": 15,
+        "SE": 18
+      },
+      "local_ZQ_ODT_balls_excluded_from_off_package_join_demand": true,
+      "full_LPDDR_escape_not_claimed": true
+    },
+    "no_uniform_grid_impossibility_or_mandatory_HDI_claim": true,
+    "no_global_eight_layer_sufficiency_or_manufacturing_approval_claim": true,
+    "unresolved_gates_preserved": [
+      "Exact-part copper/mask/paste and assembly applicability",
+      "Finished bore/tool convention and registration/etch/annulus capability",
+      "Mask tolerance, fill/cap and flatness",
+      "Other K230/FW signals and power/ground vias",
+      "Return-plane continuity and antipad webs",
+      "Top-side bypass and VDDIM capacitor/return geometry",
+      "Complete route, SI/PI, timing and mission-profile reliability"
+    ],
+    "resolved_review_findings": [
+      {
+        "issue": "Selected-rule fields were named as literal 4 mil in the 100 micrometre variant; historical interbody corridor also hardcoded a layer bound",
+        "resolution": "Final selected-rule field names are correct; unsupported historical placement/corridor-capacity section was removed entirely from script and reports"
+      },
+      {
+        "issue": "Binary float comparison reported nominal 0.100 mm trace equality false in a hypothetical BH 0.200 mm land trial",
+        "resolution": "A 1e-12 mm arithmetic epsilon is used for dimensional comparison; final equality booleans pass, all four JSONs match in-memory replay, and nominal zero is still zero fabrication allowance"
+      }
+    ],
+    "artifact_manifest_count": 18,
+    "artifact_manifest_all_hashes_match": true,
+    "report_README_scope_review": "README and MEMORY_SOC_ESCAPE_REVIEW preserve package/PCB separation, physical land occupancy, conditional local proof, selected-process blockers, and absence of current whole-board placement evidence"
+  },
+  "reviewer_change_scope": {
+    "only_written_file": "engineering/bga-engineering-candidates/candidate-independent-review.json",
+    "frozen_v10_files_modified_by_reviewer": false,
+    "full_source_PDFs_copied_into_project": false,
+    "vendor_contact_upload_or_order": false
+  },
+  "review_completed_utc": "2026-09-30T15:07:14+00:00",
+  "alternate_JLC_via_screen": {
+    "status": "PASS_NOMINAL_ALTERNATE_FACTORY_SCREEN_ONLY",
+    "source_archive": "/workspace/shared/k230-reference/stackup/jlc-cap.html",
+    "source_archive_sha256": "76832166745b57856e7cb0e040aed6372b95c1c5fcfffdc2953f7a7bf6a11129",
+    "primary_table_rows_independently_read": true,
+    "published_multilayer_minimum_hole_pad_mm": [
+      0.15,
+      0.25
+    ],
+    "preferred_pad_diameter_increase_mm": 0.15,
+    "source_prefers_minimum_hole_mm": 0.2,
+    "source_0p15_hole_has_extra_cost_selection": true,
+    "nominal_0p30_0p15_via_matches_diameter_increase_guidance": true,
+    "applied_hole_clearance_mm": 0.2,
+    "independent_counts": {
+      "via_hole_to_top_land": 4326,
+      "via_hole_to_route": 418,
+      "via_hole_to_other_via_copper": 730
+    },
+    "independent_total_checks": 5474,
+    "independent_failures": 0,
+    "independent_minimum_margin_mm": 0.075,
+    "current_input_hashes_match": true,
+    "interpretation": "The selected PCBWay 0.0762 mm annulus rule is not a universal topology limit. JLC nominal via guidance supports this separate screen; its stack, castellation, registration, assembly, PDN and combined-process acceptance remain unresolved. No frozen stack change or factory acceptance is asserted."
+  },
+  "open_review_defects": [],
+  "release_decision": "Accept as bounded engineering evidence only. No exact-part-qualified footprints, complete routed-fit proof, PDN closure, or manufacturing release is established."
+}

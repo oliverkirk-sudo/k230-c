@@ -1,0 +1,70 @@
+[
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/Murata_Geometry_QA_ONLY-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/inductor-footprint-review/Murata_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/Murata_Geometry_QA_ONLY-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/Murata_Negative_Clearance_081-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/inductor-footprint-review/Murata_Negative_Clearance_081.kicad_pcb"
+    ],
+    "returncode": 5,
+    "stdout": "Found 2 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/Murata_Negative_Clearance_081-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/Murata_Paste_Override_Control-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/inductor-footprint-review/Murata_Paste_Override_Control.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/Murata_Paste_Override_Control-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/Murata_Undercoil_Unenforced_Control-drc.json",
+      "/workspace/shared/cm-k230-redesign/cad/inductor-footprint-review/Murata_Undercoil_Unenforced_Control.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/Murata_Undercoil_Unenforced_Control-drc.json\n",
+    "stderr": ""
+  }
+]

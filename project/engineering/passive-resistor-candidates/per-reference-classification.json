@@ -1,0 +1,1716 @@
+{
+  "status": "CONDITIONAL_STATIC_ACCEPTANCE_SCREEN_NOT_LIFETIME_OR_BOARD_QUALIFICATION",
+  "scope": "42 initially unassigned resistor positions; no CAD edits by this audit",
+  "input_master_sha256": "11d048c076fb54df9ea63b926a1f7db53ffe712d9e26984d0a4df62109876263",
+  "input_static_rail_sha256": "c67c5077776f835d9a15a89bee19ce600c35ece65ce7b60455de2ad0b5107f80",
+  "counts": {
+    "all_resistors": 61,
+    "already_assigned_precision": 19,
+    "audited_unassigned": 42,
+    "ordinary_nonzero": 35,
+    "startup_precision": 2,
+    "zero_links": 5,
+    "dnp_in_audit": 3,
+    "proposed_nominal_changes": 9
+  },
+  "sources": {
+    "CRCW": {
+      "url": "https://www.vishay.com/docs/20052/crcw0201e3.pdf",
+      "locator": "20052, 21-Sep-2022, pp1-4",
+      "local_sha256": "95854b1c87ad23bded6a4bc3f6c09c1d6fedb230cada90c6c80b39376ad35af1"
+    },
+    "TNPW": {
+      "url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "locator": "28758, 10-Apr-2026, pp2-4",
+      "local_sha256": "6f0508c568cb355aaf2accdd33fe3a780d3ea5ef207c4c9a71839a8acadc33a5"
+    },
+    "TNPW_LANDS": {
+      "url": "https://www.vishay.com/doc?28950",
+      "locator": "28950, 12-Jul-2022, p1",
+      "local_sha256": "9e2b145c937da3be1e926b8afc2856959754eeb4d1103241d838038f7308144e"
+    },
+    "TPS3808": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "locator": "Rev N, Aug-2026, electrical characteristics p6",
+      "local_sha256": "74d889c0f68af88032f1633c26381817cc03e10d9fd3b4c177a044ad3ed86eed"
+    },
+    "TPS6282X": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps62827.pdf",
+      "locator": "electrical characteristics p5",
+      "local_sha256": "8a309f2a40486a380242d3f178eb4bda3ef4dca3deca647fa82f763d14866f63"
+    },
+    "TPS62864": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps62864.pdf",
+      "locator": "Rev C, pp5-8 and Table8-1 p12",
+      "local_sha256": "f49cda50b21c8a84ea153120043efd31a5c4a58d2c0465909ea7f804806b8919"
+    },
+    "LVC32": {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf",
+      "locator": "Rev W, Aug-2026, pp6-7",
+      "local_sha256": "b64786a568abe6a715c6f15dbc8ab1ffde3ad1017a1128a98931200e12c4c416"
+    },
+    "TMUX": {
+      "url": "https://www.ti.com/lit/ds/symlink/tmux1574.pdf",
+      "locator": "Rev C, p6 and sections8.3.4/8.3.5",
+      "local_sha256": "e728f7dbb2a05665c98752fe113662b859ecf6988dc8c58e02a9b49265839867"
+    },
+    "MICRON_EMMC": {
+      "url": "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/234/EMMC_5F00_DATASHEET.pdf",
+      "locator": "Micron automotive eMMC Rev G, Table13 p27",
+      "local_sha256": "52ad8018f63554d3e34f970b1516e488543c6a25bd144bcbf33d666fa2a82d71"
+    },
+    "MICRON_LP4": {
+      "url": "https://www.mouser.com/datasheet/2/671/200b_z00m_sdp_ddp_auto_lpddr4_lpddr4x-3193603.pdf",
+      "locator": "Micron automotive LPDDR4/4X Rev F, Table153 p223 and Table170 p234",
+      "local_sha256": "b29c808baa7e42fca9b7ccc54b673142d26b49a1fee6b3053cc8691c21832552"
+    },
+    "AUP97": {
+      "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G97.pdf",
+      "locator": "Rev14 pp6-8; 125C column; discrete VCC test points"
+    },
+    "AUP17": {
+      "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G17.pdf",
+      "locator": "Rev14 pp5-7; 125C column; discrete VCC test points"
+    },
+    "AUP06": {
+      "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G06.pdf",
+      "locator": "Rev12 pp5-7; 125C column"
+    },
+    "K230_GUIDE": {
+      "url": "https://github.com/kendryte/k230_docs/blob/main/en/00_hardware/K230_Hardware_Design_Guide.md",
+      "locator": "power table VDD3P3_SD=50mA design budget; not transient maximum"
+    },
+    "K230_PINOUT": {
+      "url": "https://kendryte-download.canaan-creative.com/developer/k230/HDK/K230%E7%A1%AC%E4%BB%B6%E6%96%87%E6%A1%A3/K230_PINOUT_V1.2_20240822.xlsx",
+      "locator": "main rows12/13/32/82, PMU IO AVDD1P8_LDO; default rows67-69/71 input/pulldown"
+    },
+    "K230_IO": {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20240304/CED0BDC8B8BEDC72BFC23F1C8A2ED83A.pdf",
+      "locator": "Manufacturer-authored datasheet mirror, PDF pp29-30; generic IO, PMU applicability unproven"
+    },
+    "I2C_RC": {
+      "url": "https://www.ti.com/lit/an/slva689/slva689.pdf",
+      "locator": "p2, ideal30-70% RC rise-time relation"
+    }
+  },
+  "references": [
+    {
+      "reference": "R41",
+      "current_value": "1M REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "RTC_XIN"
+        },
+        {
+          "pin": "1",
+          "net": "RTC_XOUT"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "RTC crystal feedback",
+      "current_nominal_ohm": 1000000.0,
+      "proposed_nominal_ohm": 1000000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW02011M00FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        900000.0,
+        1100000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "check_key": null,
+      "electrical_gate": "1M value is in100ppm family range. Oscillator gain, startup, crystal drive and leakage must be checked; no resistance-only oscillation approval.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 3.7458260321819535e-06,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R42",
+      "current_value": "1M REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "CLK24_XIN"
+        },
+        {
+          "pin": "1",
+          "net": "CLK24_XOUT"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "24MHz crystal feedback",
+      "current_nominal_ohm": 1000000.0,
+      "proposed_nominal_ohm": 1000000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW02011M00FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        900000.0,
+        1100000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "check_key": null,
+      "electrical_gate": "1M value is in100ppm family range. Oscillator gain, startup, crystal drive and leakage must be checked; no resistance-only oscillation approval.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 3.7458260321819535e-06,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R43",
+      "current_value": "100k REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "RSTN"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "external reset request pullup",
+      "current_nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "R43",
+      "electrical_gate": "Known Schmitt leakage screen passes; carrier and C45 leakage/RC must be included.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 3.7458260321819534e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R44",
+      "current_value": "10k BOOT0 LOW",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "BOOT0"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "BOOT0 low strap",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "check_key": null,
+      "electrical_gate": "Boot sampling, internal pulls, exact GPIO thresholds/leakage and carrier drive remain open.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.0003745826032181953,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R45",
+      "current_value": "10k BOOT0 HIGH / DNP",
+      "current_footprint": "",
+      "dnp": true,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "BOOT0"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "BOOT0 high option DNP",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "check_key": null,
+      "electrical_gate": "Preserve DNP. Do not fit simultaneously with R44 without a deliberate boot network change.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.0003745826032181953,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R46",
+      "current_value": "10k BOOT1 HIGH",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "BOOT1"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "BOOT1 high strap",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "check_key": null,
+      "electrical_gate": "Boot sampling, internal pulls, exact GPIO thresholds/leakage and carrier drive remain open.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.0003745826032181953,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R47",
+      "current_value": "10k BOOT1 LOW / DNP",
+      "current_footprint": "",
+      "dnp": true,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "BOOT1"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "BOOT1 low option DNP",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "check_key": null,
+      "electrical_gate": "Preserve DNP. Do not fit simultaneously with R46 without a deliberate boot network change.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.0003745826032181953,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R31",
+      "current_value": "10k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "MODE_TF"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "MODE_TF default pulldown",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "R31",
+      "electrical_gate": "Valid-supply conditional static screen passes; JP1 remains cold-only.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 3.392164299108761,
+      "conservative_full_rail_power_W": 0.0012785309591275592,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R32",
+      "current_value": "10k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "GLOBAL_DISABLE"
+        },
+        {
+          "pin": "2",
+          "net": "VDD_3V3"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "GLOBAL_DISABLE pullup",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "R32",
+      "electrical_gate": "Conditional valid-supply static screen passes; full AUP supply interpretation remains open.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 3.392164299108761,
+      "conservative_full_rail_power_W": 0.0012785309591275592,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R33",
+      "current_value": "10k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "DISABLE_OR_TF"
+        },
+        {
+          "pin": "2",
+          "net": "VDD_3V3"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "U14 output/U13 EN pullup",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 43000,
+      "nominal_change_proposed": true,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020143K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        38700.0,
+        47300.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "STATIC_LOAD_SCREEN_ONLY_U14_INPUT_SLEW_OPEN",
+      "check_key": "R33",
+      "electrical_gate": "Propose43k to put the low-state load within the all-supply100uA guarantee; current10k has unclosed125C low margin. R33 alone does not resolve U14 input slew. AUP97 true-OR/270k is a separate explicit alternative proposal.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 3.392164299108761,
+      "conservative_full_rail_power_W": 0.0002973327811924556,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function.",
+      "additional_review": "U14_SLEW_ADDENDUM.md"
+    },
+    {
+      "reference": "R34",
+      "current_value": "10k RESET BIAS",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_RSTN"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC reset pullup",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R34_RST",
+      "electrical_gate": "Micron resistance range passes; source/switch waveform and reset state remain open.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.0003745826032181953,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R203",
+      "current_value": "100k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "CORE_PGOOD_5V"
+        },
+        {
+          "pin": "2",
+          "net": "VIN_5V"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "core PG to downstream enable pullup",
+      "current_nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "check_key": "R203",
+      "electrical_gate": "High/sink loading plausible; published PG VOL equals EN VIL so positive low noise margin is unclosed.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 5.5,
+      "conservative_full_rail_power_W": 0.00033611111111111114,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R204",
+      "current_value": "10k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "CORE_ENABLE"
+        },
+        {
+          "pin": "2",
+          "net": "VIN_5V"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "core regulator enable pullup",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "R204",
+      "electrical_gate": "Valid-supply input-leakage screen passes; startup remains a system gate.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 5.5,
+      "conservative_full_rail_power_W": 0.003361111111111111,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R205",
+      "current_value": "56.2k 1% / 0.8V / addr0x49",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VSET_CPU"
+        }
+      ],
+      "classification": "PRECISION_STARTUP_SELECTION",
+      "role": "TPS628640 startup voltage/address selection",
+      "candidate_family": "Vishay TNPW0402 e3",
+      "candidate_mpn": "TNPW040256K2BYED",
+      "proposed_nominal_ohm": 56200,
+      "total_resistance_acceptance_fraction": 0.007,
+      "check_key": "R205_R206",
+      "layout_disposition": "USE_EXISTING_REVIEWED_TNPW0402_SOURCE_LAND",
+      "electrical_gate": "Retain TI\u00b11% total VSET requirement and conditional\u00b10.70% mission-profile acceptance. Not an ordinary\u00b110% resistor.",
+      "sources": [
+        "TNPW",
+        "TNPW_LANDS",
+        "TPS62864"
+      ]
+    },
+    {
+      "reference": "R206",
+      "current_value": "56.2k 1% / 0.8V / addr0x49",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VSET_KPU"
+        }
+      ],
+      "classification": "PRECISION_STARTUP_SELECTION",
+      "role": "TPS628640 startup voltage/address selection",
+      "candidate_family": "Vishay TNPW0402 e3",
+      "candidate_mpn": "TNPW040256K2BYED",
+      "proposed_nominal_ohm": 56200,
+      "total_resistance_acceptance_fraction": 0.007,
+      "check_key": "R205_R206",
+      "layout_disposition": "USE_EXISTING_REVIEWED_TNPW0402_SOURCE_LAND",
+      "electrical_gate": "Retain TI\u00b11% total VSET requirement and conditional\u00b10.70% mission-profile acceptance. Not an ordinary\u00b110% resistor.",
+      "sources": [
+        "TNPW",
+        "TNPW_LANDS",
+        "TPS62864"
+      ]
+    },
+    {
+      "reference": "R216",
+      "current_value": "4.7k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "PWR_CPU_SCL"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "private CPU I2C SCL pullup",
+      "current_nominal_ohm": 4700.0,
+      "proposed_nominal_ohm": 4700.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW02014K70FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        4230.0,
+        5170.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "check_key": "private_i2c",
+      "electrical_gate": "Regulator-side high bound only; PMU pad electrical applicability, low drive and RC/ramp remain open.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.0007969842621663731,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R217",
+      "current_value": "4.7k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "PWR_CPU_SDA"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "private CPU I2C SDA pullup",
+      "current_nominal_ohm": 4700.0,
+      "proposed_nominal_ohm": 4700.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW02014K70FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        4230.0,
+        5170.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "check_key": "private_i2c",
+      "electrical_gate": "Regulator-side high bound only; PMU pad electrical applicability, low drive and RC/ramp remain open.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.0007969842621663731,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R218",
+      "current_value": "4.7k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "PWR_KPU_SCL"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "private KPU I2C SCL pullup",
+      "current_nominal_ohm": 4700.0,
+      "proposed_nominal_ohm": 4700.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW02014K70FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        4230.0,
+        5170.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "check_key": "private_i2c",
+      "electrical_gate": "Regulator-side high bound only; PMU pad electrical applicability, low drive and RC/ramp remain open.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.0007969842621663731,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R219",
+      "current_value": "4.7k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "PWR_KPU_SDA"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "private KPU I2C SDA pullup",
+      "current_nominal_ohm": 4700.0,
+      "proposed_nominal_ohm": 4700.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW02014K70FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        4230.0,
+        5170.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "check_key": "private_i2c",
+      "electrical_gate": "Regulator-side high bound only; PMU pad electrical applicability, low drive and RC/ramp remain open.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.0007969842621663731,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R220",
+      "current_value": "0R WSL060300000ZEA9 Rmax=0.25mOhm",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "VDD0P8_CORE"
+        },
+        {
+          "pin": "2",
+          "net": "VDD0P8_DDR_CORE"
+        }
+      ],
+      "classification": "PREVIOUSLY_REVIEWED_POWER_JUMPER",
+      "role": "DDR core supply feed",
+      "candidate_mpn": "WSL060300000ZEA9",
+      "layout_disposition": "KEEP_EXISTING_SEPARATE_SOURCE_REVIEW",
+      "electrical_gate": "No commodity0201 substitution; use existing part-specific source/current/land review and retained hot/inrush gates.",
+      "existing_review": "../mechanical/passive-small-parts-review.md"
+    },
+    {
+      "reference": "R221",
+      "current_value": "0R Rmax<=50mOhm",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "VDD3P3_SD"
+        },
+        {
+          "pin": "1",
+          "net": "VDD_3V3"
+        }
+      ],
+      "classification": "ROLE_SPECIFIC_ZERO_LINK",
+      "role": "K230 VDD3P3_SD supply branch",
+      "candidate_mpn": "CRCW02010000Z0ED",
+      "layout_disposition": "CONDITIONAL_ROLE_SPECIFIC_0201_CANDIDATE",
+      "check_key": "zero_links.R221",
+      "electrical_gate": "50mA is guide budget, not peak/inrush maximum;1A jumper rating explicitly70C. Hot current/resistance not qualified.",
+      "sources": [
+        "CRCW",
+        "K230_GUIDE"
+      ]
+    },
+    {
+      "reference": "R61",
+      "current_value": "10k REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "LPDDR4_ODT_A"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "LPDDR4 ODT_CA_A pullup",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "R61_R62",
+      "electrical_gate": "Selected Micron leakage/threshold screen passes, subject to local VDD2 and ODT/rank configuration.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.138630967555891,
+      "conservative_full_rail_power_W": 0.00014405338669747384,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R62",
+      "current_value": "10k REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "LPDDR4_ODT_B"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "LPDDR4 ODT_CA_B pullup",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "R61_R62",
+      "electrical_gate": "Selected Micron leakage/threshold screen passes, subject to local VDD2 and ODT/rank configuration.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.138630967555891,
+      "conservative_full_rail_power_W": 0.00014405338669747384,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R573",
+      "current_value": "47k Micron DS BIAS REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DS_UNUSED"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "unused eMMC DS pulldown",
+      "current_nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 47000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020147K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        42300.0,
+        51700.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R573_DS",
+      "electrical_gate": "Micron resistance range passes; keep separate from host MMC0_STROBE.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 7.969842621663731e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R401",
+      "current_value": "0R PMU AUTO-START STRAP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "AVDD1P8_PMU"
+        },
+        {
+          "pin": "2",
+          "net": "PMU_INT4_AUTO_START"
+        }
+      ],
+      "classification": "ROLE_SPECIFIC_ZERO_LINK",
+      "role": "same-domain PMU auto-start input strap",
+      "candidate_mpn": null,
+      "layout_disposition": "SELECTION_DEFERRED_PENDING_INPUT_CURRENT",
+      "check_key": "zero_links.R401",
+      "electrical_gate": "Do not select until PMU input current/internal pull and firmware ownership are checked. Never drive the strapped input low.",
+      "sources": [
+        "CRCW",
+        "K230_GUIDE"
+      ]
+    },
+    {
+      "reference": "R402",
+      "current_value": "10k INT0 INACTIVE",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "PMU_INT0"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "PMU INT0 inactive pulldown",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "check_key": null,
+      "electrical_gate": "Exact PMU input leakage/internal pull and startup state must be checked; physical family candidate only.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.0003745826032181953,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R561",
+      "current_value": "0R WFZ040200000ZE66 3mOhm CANDIDATE",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "PREVIOUSLY_REVIEWED_POWER_JUMPER",
+      "role": "eMMC VCCQ feed",
+      "candidate_mpn": "WFZ040200000ZE66",
+      "layout_disposition": "KEEP_EXISTING_SEPARATE_SOURCE_REVIEW",
+      "electrical_gate": "No commodity0201 substitution; use existing part-specific source/current/land review and retained hot/inrush gates.",
+      "existing_review": "../mechanical/passive-small-parts-review.md"
+    },
+    {
+      "reference": "R562",
+      "current_value": "22k CMD PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_CMD"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC CMD pullup",
+      "current_nominal_ohm": 22000.0,
+      "proposed_nominal_ohm": 22000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020122K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        19800.0,
+        24200.000000000004
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R562_CMD",
+      "electrical_gate": "Micron resistance range passes. Active-mode signal timing, switch loading and protocol setup remain open.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 0.00017026481964463425,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R563",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT0"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC DAT0 pullup",
+      "current_nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 43000,
+      "nominal_change_proposed": true,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020143K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        38700.0,
+        47300.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R563_R570_DAT_proposed",
+      "electrical_gate": "Propose43k:47k\u00b110% exceeds Micron50k maximum;43k\u00b110% passes. No CAD edit made.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 8.711223330655706e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R564",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT1"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC DAT1 pullup",
+      "current_nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 43000,
+      "nominal_change_proposed": true,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020143K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        38700.0,
+        47300.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R563_R570_DAT_proposed",
+      "electrical_gate": "Propose43k:47k\u00b110% exceeds Micron50k maximum;43k\u00b110% passes. No CAD edit made.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 8.711223330655706e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R565",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT2"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC DAT2 pullup",
+      "current_nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 43000,
+      "nominal_change_proposed": true,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020143K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        38700.0,
+        47300.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R563_R570_DAT_proposed",
+      "electrical_gate": "Propose43k:47k\u00b110% exceeds Micron50k maximum;43k\u00b110% passes. No CAD edit made.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 8.711223330655706e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R566",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT3"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC DAT3 pullup",
+      "current_nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 43000,
+      "nominal_change_proposed": true,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020143K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        38700.0,
+        47300.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R563_R570_DAT_proposed",
+      "electrical_gate": "Propose43k:47k\u00b110% exceeds Micron50k maximum;43k\u00b110% passes. No CAD edit made.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 8.711223330655706e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R567",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT4"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC DAT4 pullup",
+      "current_nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 43000,
+      "nominal_change_proposed": true,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020143K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        38700.0,
+        47300.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R563_R570_DAT_proposed",
+      "electrical_gate": "Propose43k:47k\u00b110% exceeds Micron50k maximum;43k\u00b110% passes. No CAD edit made.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 8.711223330655706e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R568",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT5"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC DAT5 pullup",
+      "current_nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 43000,
+      "nominal_change_proposed": true,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020143K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        38700.0,
+        47300.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R563_R570_DAT_proposed",
+      "electrical_gate": "Propose43k:47k\u00b110% exceeds Micron50k maximum;43k\u00b110% passes. No CAD edit made.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 8.711223330655706e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R569",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT6"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC DAT6 pullup",
+      "current_nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 43000,
+      "nominal_change_proposed": true,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020143K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        38700.0,
+        47300.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R563_R570_DAT_proposed",
+      "electrical_gate": "Propose43k:47k\u00b110% exceeds Micron50k maximum;43k\u00b110% passes. No CAD edit made.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 8.711223330655706e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R570",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT7"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC DAT7 pullup",
+      "current_nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 43000,
+      "nominal_change_proposed": true,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020143K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        38700.0,
+        47300.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "emmc_ranges.R563_R570_DAT_proposed",
+      "electrical_gate": "Propose43k:47k\u00b110% exceeds Micron50k maximum;43k\u00b110% passes. No CAD edit made.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 8.711223330655706e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R571",
+      "current_value": "100k CLK IDLE LOW CANDIDATE",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_CLK"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "eMMC CLK idle pulldown",
+      "current_nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "check_key": null,
+      "electrical_gate": "Exact eMMC CLK leakage/low limit and switch state are not established here; family/physical candidate only.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 3.7458260321819534e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R572",
+      "current_value": "100k HOST STROBE BIAS CANDIDATE",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "MMC0_STROBE"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "unused host strobe pulldown",
+      "current_nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "check_key": "R572",
+      "electrical_gate": "Dedicated K230 pin limits/internal pulls unresolved; generic10uA model fails low-state proof.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 3.7458260321819534e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R527",
+      "current_value": "10k RAW PG PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "FIXED_RAILS_PGOOD_3V3"
+        },
+        {
+          "pin": "1",
+          "net": "VDD_3V3"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "raw fixed-rail PG pullup",
+      "current_nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "R527",
+      "electrical_gate": "Conditional sink/current/static level screen passes; narrow sink reserve and published test-point caveats retained.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 3.392164299108761,
+      "conservative_full_rail_power_W": 0.0012785309591275592,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R528",
+      "current_value": "0R QUALIFICATION STRAP DNP",
+      "current_footprint": "",
+      "dnp": true,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "BOOT_VOLTAGE_QUALIFIED_1V8"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ],
+      "classification": "ROLE_SPECIFIC_ZERO_LINK",
+      "role": "DNP boot qualification strap",
+      "candidate_mpn": "CRCW02010000Z0ED",
+      "layout_disposition": "CONDITIONAL_ROLE_SPECIFIC_0201_CANDIDATE",
+      "check_key": "zero_links.R528",
+      "electrical_gate": "Do not populate qualification strap by default; this current check grants no boot-voltage qualification.",
+      "sources": [
+        "CRCW",
+        "AUP97"
+      ]
+    },
+    {
+      "reference": "R529",
+      "current_value": "100k DEFAULT INHIBIT",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "BOOT_VOLTAGE_QUALIFIED_1V8"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "default inhibit pulldown",
+      "current_nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "R529",
+      "electrical_gate": "Conditional discrete1.65V low screen passes; R528 stays DNP.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 3.7458260321819534e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    },
+    {
+      "reference": "R530",
+      "current_value": "100k 1% DELAY NODE PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "RESET_DELAYED_1V8"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ],
+      "classification": "ORDINARY_NONZERO",
+      "role": "delayed reset pullup",
+      "current_nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "candidate_family": "Vishay CRCW0201 e3",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "order_code_status": "MANUFACTURER_SCHEMA_SUPPORTED_NOT_STOCK_OR_LIFECYCLE_VERIFIED",
+      "initial_tolerance_fraction": 0.01,
+      "tcr_ppm_per_K": 100,
+      "total_resistance_acceptance_fraction": 0.1,
+      "screen_resistance_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "layout_disposition": "CONDITIONAL_SOURCE_LAND_CANDIDATE",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "check_key": "R530",
+      "electrical_gate": "Conditional discrete1.65V high/low screen passes. Current value says1% but the proposed total acceptance screen is10%; this is not an exact delay tolerance.",
+      "sources": [
+        "CRCW"
+      ],
+      "power_screen_voltage_V": 1.836094613293051,
+      "conservative_full_rail_power_W": 3.7458260321819534e-05,
+      "power_gate": "Full-rail DC stress illustration. Actual resistor film temperature, thermal path and voltage/transients must be verified; does not establish operating function."
+    }
+  ]
+}

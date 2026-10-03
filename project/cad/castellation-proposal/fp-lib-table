@@ -1,0 +1,3 @@
+(fp_lib_table
+ (lib (name "CMK230_Castellation_Proposal")(type "KiCad")(uri "${KIPRJMOD}/CMK230_Castellation_Proposal.pretty")(options "")(descr "PROCESS UNQUALIFIED module edge proposal"))
+)

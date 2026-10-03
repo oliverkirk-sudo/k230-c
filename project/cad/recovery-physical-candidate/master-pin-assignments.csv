@@ -1,0 +1,1536 @@
+reference,unit,pin,function,net,status,sheet
+U1,1,A13,VSS,GND,named ground ball,01_SoC_1
+U1,1,A16,VSS,GND,named ground ball,01_SoC_1
+U1,1,A19,VSS,GND,named ground ball,01_SoC_1
+U1,1,B13,VSS,GND,named ground ball,01_SoC_1
+U1,1,B20,VSS,GND,named ground ball,01_SoC_1
+U1,1,C13,VSS,GND,named ground ball,01_SoC_1
+U1,1,D9,VSS,GND,named ground ball,01_SoC_1
+U1,1,D10,VSS,GND,named ground ball,01_SoC_1
+U1,1,D11,VSS,GND,named ground ball,01_SoC_1
+U1,1,D13,VSS,GND,named ground ball,01_SoC_1
+U1,1,D15,VSS,GND,named ground ball,01_SoC_1
+U1,1,E4,VSS,GND,named ground ball,01_SoC_1
+U1,1,E6,VSS,GND,named ground ball,01_SoC_1
+U1,1,E7,VSS,GND,named ground ball,01_SoC_1
+U1,1,E8,VSS,GND,named ground ball,01_SoC_1
+U1,1,E9,AVDD3P3_USB,AVDD3P3_USB,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,E10,VDD3P3_SD,VDD3P3_SD,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,E11,VDD1P8,VDD1P8,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,E12,VSS,GND,named ground ball,01_SoC_1
+U1,1,E13,VSS,GND,named ground ball,01_SoC_1
+U1,1,E14,VSS,GND,named ground ball,01_SoC_1
+U1,1,E15,VSS,GND,named ground ball,01_SoC_1
+U1,1,E16,VSS,GND,named ground ball,01_SoC_1
+U1,1,E19,VSS,GND,named ground ball,01_SoC_1
+U1,1,F4,VSS,GND,named ground ball,01_SoC_1
+U1,1,F6,VSS,GND,named ground ball,01_SoC_1
+U1,1,F9,AVDD1P8_USB,AVDD1P8_USB,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,F10,VSS,GND,named ground ball,01_SoC_1
+U1,1,F11,AVSS,GND,named ground ball,01_SoC_1
+U1,1,F12,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,F13,VDD1P8,VDD1P8,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,F14,AVDD1P8_LDO,AVDD1P8_PMU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,F15,AVDD1P8_RTC,AVDD1P8_PMU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,F16,VSS,GND,named ground ball,01_SoC_1
+U1,1,G6,VSS,GND,named ground ball,01_SoC_1
+U1,1,G9,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,G10,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,G11,AVDD0P8_PLL,AVDD0P8_PLL,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,G12,VDD0P8_CPU,VDD0P8_CPU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,1,G13,VSS,GND,named ground ball,01_SoC_1
+U1,2,G14,VSS,GND,named ground ball,01_SoC_1
+U1,2,G15,VSS,GND,named ground ball,01_SoC_1
+U1,2,G16,VSS,GND,named ground ball,01_SoC_1
+U1,2,H7,VSS,GND,named ground ball,01_SoC_1
+U1,2,H8,VDD0P8_KPU,VDD0P8_KPU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,H9,VDD0P8_KPU,VDD0P8_KPU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,H10,VDD0P8_KPU,VDD0P8_KPU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,H11,VSS,GND,named ground ball,01_SoC_1
+U1,2,H12,VDD0P8_CPU,VDD0P8_CPU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,H13,VSS,GND,named ground ball,01_SoC_1
+U1,2,H14,VDD1P1_DDR_IO,VDD1P1_DDR_IO,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,H15,VSS,GND,named ground ball,01_SoC_1
+U1,2,H16,VSS,GND,named ground ball,01_SoC_1
+U1,2,H20,VSS,GND,named ground ball,01_SoC_1
+U1,2,J7,VSS,GND,named ground ball,01_SoC_1
+U1,2,J8,VDD0P8_KPU,VDD0P8_KPU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,J9,VDD0P8_KPU,VDD0P8_KPU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,J10,VDD0P8_KPU,VDD0P8_KPU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,J11,VSS,GND,named ground ball,01_SoC_1
+U1,2,J12,VDD0P8_CPU,VDD0P8_CPU,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,J13,VSS,GND,named ground ball,01_SoC_1
+U1,2,J14,VDD1P1_DDR_IO,VDD1P1_DDR_IO,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,J15,VSS,GND,named ground ball,01_SoC_1
+U1,2,K3,VSS,GND,named ground ball,01_SoC_1
+U1,2,K6,VSS,GND,named ground ball,01_SoC_1
+U1,2,K8,VSS,GND,named ground ball,01_SoC_1
+U1,2,K9,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,K10,VSS,GND,named ground ball,01_SoC_1
+U1,2,K11,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,K12,VSS,GND,named ground ball,01_SoC_1
+U1,2,K13,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,K14,VSS,GND,named ground ball,01_SoC_1
+U1,2,K15,VAA_DDR,VAA_DDR,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,K16,VSS,GND,named ground ball,01_SoC_1
+U1,2,K18,VSS,GND,named ground ball,01_SoC_1
+U1,2,L7,VSS,GND,named ground ball,01_SoC_1
+U1,2,L8,VSS,GND,named ground ball,01_SoC_1
+U1,2,L9,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,2,L10,VSS,GND,named ground ball,01_SoC_1
+U1,2,L11,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,L12,VSS,GND,named ground ball,01_SoC_1
+U1,3,L13,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,L14,VDD1P1_DDR_IO,VDD1P1_DDR_IO,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,L15,VSS,GND,named ground ball,01_SoC_1
+U1,3,L19,VSS,GND,named ground ball,01_SoC_1
+U1,3,M6,VSS,GND,named ground ball,01_SoC_1
+U1,3,M8,VSS,GND,named ground ball,01_SoC_1
+U1,3,M9,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,M10,VSS,GND,named ground ball,01_SoC_1
+U1,3,M11,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,M12,VSS,GND,named ground ball,01_SoC_1
+U1,3,M13,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,M14,VDD1P1_DDR_IO,VDD1P1_DDR_IO,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,M15,VSS,GND,named ground ball,01_SoC_1
+U1,3,M16,VSS,GND,named ground ball,01_SoC_1
+U1,3,N3,VSS,GND,named ground ball,01_SoC_1
+U1,3,N5,VSS,GND,named ground ball,01_SoC_1
+U1,3,N8,VSS,GND,named ground ball,01_SoC_1
+U1,3,N9,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,N10,VSS,GND,named ground ball,01_SoC_1
+U1,3,N11,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,N12,VSS,GND,named ground ball,01_SoC_1
+U1,3,N13,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,N14,VDD1P1_DDR_IO,VDD1P1_DDR_IO,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,N15,VSS,GND,named ground ball,01_SoC_1
+U1,3,N16,VSS,GND,named ground ball,01_SoC_1
+U1,3,P6,VSS,GND,named ground ball,01_SoC_1
+U1,3,P7,VSS,GND,named ground ball,01_SoC_1
+U1,3,P8,VSS,GND,named ground ball,01_SoC_1
+U1,3,P9,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,P10,VSS,GND,named ground ball,01_SoC_1
+U1,3,P11,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,P12,VSS,GND,named ground ball,01_SoC_1
+U1,3,P13,VDD0P8_CORE,VDD0P8_CORE,canonical rail endpoint; PMU shared RTC/LDO filtered domain,01_SoC_1
+U1,3,P14,VSS,GND,named ground ball,01_SoC_1
+U1,3,P15,VSS,GND,named ground ball,01_SoC_1
+U1,3,P20,VSS,GND,named ground ball,01_SoC_1
+U1,3,R3,VSS,GND,named ground ball,01_SoC_1
+U1,3,R6,VSS,GND,named ground ball,01_SoC_1
+U1,3,R7,VSS,GND,named ground ball,01_SoC_1
+U1,4,R10,VSS,GND,named ground ball,01_SoC_1
+U1,4,R12,VSS,GND,named ground ball,01_SoC_1
+U1,4,R14,VSS,GND,named ground ball,01_SoC_1
+U1,4,R16,VSS,GND,named ground ball,01_SoC_1
+U1,4,T3,VSS,GND,named ground ball,01_SoC_1
+U1,4,T7,VSS,GND,named ground ball,01_SoC_1
+U1,4,T8,VSS,GND,named ground ball,01_SoC_1
+U1,4,T9,VSS,GND,named ground ball,01_SoC_1
+U1,4,T15,VSS,GND,named ground ball,01_SoC_1
+U1,4,U3,VSS,GND,named ground ball,01_SoC_1
+U1,4,U8,VSS,GND,named ground ball,01_SoC_1
+U1,4,U19,VSS,GND,named ground ball,01_SoC_1
+U1,4,V3,VSS,GND,named ground ball,01_SoC_1
+U1,4,V4,VSS,GND,named ground ball,01_SoC_1
+U1,4,V5,VSS,GND,named ground ball,01_SoC_1
+U1,4,V6,VSS,GND,named ground ball,01_SoC_1
+U1,4,V7,VSS,GND,named ground ball,01_SoC_1
+U1,4,V8,VSS,GND,named ground ball,01_SoC_1
+U1,4,W1,VSS,GND,named ground ball,01_SoC_1
+U1,4,W16,VSS,GND,named ground ball,01_SoC_1
+U1,4,W20,VSS,GND,named ground ball,01_SoC_1
+U1,4,Y13,VSS,GND,named ground ball,01_SoC_1
+U1,4,Y19,VSS,GND,named ground ball,01_SoC_1
+U1,5,A14,DDR_DQB3,DDR_DQB0,01studio exact DDR join,02_SoC_2
+U1,5,A15,DDR_DQSB0N,DDR_DQSB0_N,01studio exact DDR join,02_SoC_2
+U1,5,A17,DDR_DQB4,DDR_DQB1,01studio exact DDR join,02_SoC_2
+U1,5,A18,DDR_DQSB1N,DDR_DQSB1_N,01studio exact DDR join,02_SoC_2
+U1,5,B14,DDR_DQB2,DDR_DQB3,01studio exact DDR join,02_SoC_2
+U1,5,B15,DDR_DQSB0P,DDR_DQSB0_P,01studio exact DDR join,02_SoC_2
+U1,5,B16,DDR_DQB5,DDR_DQB5,01studio exact DDR join,02_SoC_2
+U1,5,B17,DDR_DQB7,DDR_DQB7,01studio exact DDR join,02_SoC_2
+U1,5,B18,DDR_DQSB1P,DDR_DQSB1_P,01studio exact DDR join,02_SoC_2
+U1,5,B19,DDR_DQB9,DDR_DQB15,01studio exact DDR join,02_SoC_2
+U1,5,C14,DDR_DQB0,DDR_DQB2,01studio exact DDR join,02_SoC_2
+U1,5,C15,DDR_DMIB0,DDR_DMIB0,01studio exact DDR join,02_SoC_2
+U1,5,C16,DDR_DQB6,DDR_DQB6,01studio exact DDR join,02_SoC_2
+U1,5,C17,DDR_DQB15,DDR_DQB9,01studio exact DDR join,02_SoC_2
+U1,5,C18,DDR_DQB12,DDR_DQB8,01studio exact DDR join,02_SoC_2
+U1,5,C19,DDR_DQB8,DDR_DQB14,01studio exact DDR join,02_SoC_2
+U1,5,C20,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,5,D14,DDR_DQB1,DDR_DQB4,01studio exact DDR join,02_SoC_2
+U1,5,D16,DDR_DQB14,DDR_DQB13,01studio exact DDR join,02_SoC_2
+U1,5,D17,DDR_DQB13,DDR_DQB10,01studio exact DDR join,02_SoC_2
+U1,5,D18,DDR_DMIB1,DDR_DMIB1,01studio exact DDR join,02_SoC_2
+U1,5,D19,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,5,D20,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,5,E17,DDR_DQB10,DDR_DQB11,01studio exact DDR join,02_SoC_2
+U1,5,E18,DDR_DQB11,DDR_DQB12,01studio exact DDR join,02_SoC_2
+U1,5,E20,DDR_CAB0,DDR_CAB0,01studio exact DDR join,02_SoC_2
+U1,5,F17,DDR_CAB4,DDR_CAB4,01studio exact DDR join,02_SoC_2
+U1,5,F18,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,5,F19,DDR_CAB5,DDR_CAB5,01studio exact DDR join,02_SoC_2
+U1,5,F20,DDR_CLKBN,DDR_CLKB_N,01studio exact DDR join,02_SoC_2
+U1,5,G17,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,5,G18,DDR_CAB2,DDR_CAB2,01studio exact DDR join,02_SoC_2
+U1,5,G19,DDR_CAB1,DDR_CAB1,01studio exact DDR join,02_SoC_2
+U1,5,G20,DDR_CLKBP,DDR_CLKB_P,01studio exact DDR join,02_SoC_2
+U1,5,H17,DDR_CAB3,DDR_CAB3,01studio exact DDR join,02_SoC_2
+U1,5,H18,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,5,H19,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,5,J16,DDR_RESET,DDR_RESET,01studio exact DDR join,02_SoC_2
+U1,5,J17,DDR_CKEB1,,REFERENCE_SINGLE_RANK_UNUSED_OUTPUT,02_SoC_2
+U1,5,J18,DDR_CKEB0,DDR_CKEB0,01studio exact DDR join,02_SoC_2
+U1,6,J19,DDR_CSB1,,REFERENCE_SINGLE_RANK_UNUSED_OUTPUT,02_SoC_2
+U1,6,J20,DDR_CSB0,DDR_CSB0,01studio exact DDR join,02_SoC_2
+U1,6,K17,DDR_VREF,DDR_VREF,parent verified 01studio bias source,02_SoC_2
+U1,6,K19,DDR_ZN,DDR_ZN,parent verified 01studio bias source,02_SoC_2
+U1,6,K20,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,6,L16,DDR_CAA1,DDR_CAA1,01studio exact DDR join,02_SoC_2
+U1,6,L17,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,6,L18,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,6,L20,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,6,M17,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,6,M18,DDR_CAA4,DDR_CAA4,01studio exact DDR join,02_SoC_2
+U1,6,M19,DDR_CAA0,DDR_CAA0,01studio exact DDR join,02_SoC_2
+U1,6,M20,DDR_NA,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,6,N17,DDR_CKEA0,DDR_CKEA0,01studio exact DDR join,02_SoC_2
+U1,6,N18,DDR_NC,,OFFICIAL_PINOUT_LP4_MODE_UNUSED,02_SoC_2
+U1,6,N19,DDR_CAA2,DDR_CAA2,01studio exact DDR join,02_SoC_2
+U1,6,N20,DDR_CAA3,DDR_CAA3,01studio exact DDR join,02_SoC_2
+U1,6,P16,DDR_DQA14,DDR_DQA10,01studio exact DDR join,02_SoC_2
+U1,6,P17,DDR_DMIA1,DDR_DMIA1,01studio exact DDR join,02_SoC_2
+U1,6,P18,DDR_CKEA1,,REFERENCE_SINGLE_RANK_UNUSED_OUTPUT,02_SoC_2
+U1,6,P19,DDR_CAA5,DDR_CAA5,01studio exact DDR join,02_SoC_2
+U1,6,R17,DDR_DQA8,DDR_DQA11,01studio exact DDR join,02_SoC_2
+U1,6,R18,DDR_DQA10,DDR_DQA12,01studio exact DDR join,02_SoC_2
+U1,6,R19,DDR_CLKAP,DDR_CLKA_P,01studio exact DDR join,02_SoC_2
+U1,6,R20,DDR_CLKAN,DDR_CLKA_N,01studio exact DDR join,02_SoC_2
+U1,6,T16,DDR_DQA1,DDR_DQA3,01studio exact DDR join,02_SoC_2
+U1,6,T17,DDR_DQA15,DDR_DQA9,01studio exact DDR join,02_SoC_2
+U1,6,T18,DDR_DQA9,DDR_DQA13,01studio exact DDR join,02_SoC_2
+U1,6,T19,DDR_CSA1,,REFERENCE_SINGLE_RANK_UNUSED_OUTPUT,02_SoC_2
+U1,6,T20,DDR_CSA0,DDR_CSA0,01studio exact DDR join,02_SoC_2
+U1,6,U16,DDR_DQA0,DDR_DQA4,01studio exact DDR join,02_SoC_2
+U1,6,U17,DDR_DQA7,DDR_DQA2,01studio exact DDR join,02_SoC_2
+U1,6,U18,DDR_DQA13,DDR_DQA14,01studio exact DDR join,02_SoC_2
+U1,6,U20,DDR_DQA11,DDR_DQA15,01studio exact DDR join,02_SoC_2
+U1,6,V16,DDR_DQA2,DDR_DQA1,01studio exact DDR join,02_SoC_2
+U1,6,V17,DDR_DMIA0,DDR_DMIA0,01studio exact DDR join,02_SoC_2
+U1,6,V18,DDR_DQA5,DDR_DQA5,01studio exact DDR join,02_SoC_2
+U1,6,V19,DDR_DQSA1N,DDR_DQSA1_N,01studio exact DDR join,02_SoC_2
+U1,6,V20,DDR_DQSA1P,DDR_DQSA1_P,01studio exact DDR join,02_SoC_2
+U1,6,W17,DDR_DQSA0P,DDR_DQSA0_P,01studio exact DDR join,02_SoC_2
+U1,7,W18,DDR_DQA4,DDR_DQA6,01studio exact DDR join,02_SoC_2
+U1,7,W19,DDR_DQA12,DDR_DQA8,01studio exact DDR join,02_SoC_2
+U1,7,Y16,DDR_DQA3,DDR_DQA0,01studio exact DDR join,02_SoC_2
+U1,7,Y17,DDR_DQSA0N,DDR_DQSA0_N,01studio exact DDR join,02_SoC_2
+U1,7,Y18,DDR_DQA6,DDR_DQA7,01studio exact DDR join,02_SoC_2
+U1,8,N6,AVDD0P8_MIPI,AVDD0P8_MIPI,canonical rail endpoint; PMU shared RTC/LDO filtered domain,02_SoC_2
+U1,8,N7,AVDD1P8_MIPI,AVDD1P8_MIPI,canonical rail endpoint; PMU shared RTC/LDO filtered domain,02_SoC_2
+U1,8,R1,MIPI_RX2_CLK_P,CSI2_CLK_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,R2,MIPI_RX2_CLK_N,CSI2_CLK_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,R8,AVDD0P8_MIPI,AVDD0P8_MIPI,canonical rail endpoint; PMU shared RTC/LDO filtered domain,02_SoC_2
+U1,8,R9,AVDD1P8_MIPI,AVDD1P8_MIPI,canonical rail endpoint; PMU shared RTC/LDO filtered domain,02_SoC_2
+U1,8,T1,MIPI_RX2_D4_N,CSI2_D4_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,T2,MIPI_RX2_D4_P,CSI2_D4_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,U1,MIPI_RX2_D5_P,CSI2_D5_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,U2,MIPI_RX2_D5_N,CSI2_D5_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,U6,MIPI_ATB,,GUIDE_EXPLICIT_MIPI_ATB_FLOAT,02_SoC_2
+U1,8,U7,MIPI_REXT,MIPI_REXT,parent verified 01studio bias source,02_SoC_2
+U1,8,V1,MIPI_RX0_D1_N,CSI0_D1_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,V2,MIPI_RX0_D1_P,CSI0_D1_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,W2,MIPI_RX0_CLK_P,CSI0_CLK_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,W3,MIPI_RX0_D0_N,CSI0_D0_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,W4,MIPI_RX1_D2_P,CSI1_D2_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,W5,MIPI_RX1_CLK_N,CSI1_CLK_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,W6,MIPI_RX1_D3_N,CSI1_D3_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,W7,MIPI_TX1_D3_N,DSI_D3_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,W8,MIPI_TX1_D2_P,DSI_D2_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,W9,MIPI_TX0_CLK_N,DSI_CLK_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,W10,MIPI_TX0_D0_P,DSI_D0_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,W11,MIPI_TX0_D1_N,DSI_D1_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,Y2,MIPI_RX0_CLK_N,CSI0_CLK_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,Y3,MIPI_RX0_D0_P,CSI0_D0_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,Y4,MIPI_RX1_D2_N,CSI1_D2_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,Y5,MIPI_RX1_CLK_P,CSI1_CLK_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,Y6,MIPI_RX1_D3_P,CSI1_D3_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,Y7,MIPI_TX1_D3_P,DSI_D3_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,Y8,MIPI_TX1_D2_N,DSI_D2_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,Y9,MIPI_TX0_CLK_P,DSI_CLK_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,Y10,MIPI_TX0_D0_N,DSI_D0_N,module-name correspondence CANDIDATE,02_SoC_2
+U1,8,Y11,MIPI_TX0_D1_P,DSI_D1_P,module-name correspondence CANDIDATE,02_SoC_2
+U1,9,A2,USB0_DP,USB0_P,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,A3,USB1_VBUS,USB1_VBUS,parent verified 01studio bias source,03_SoC_3
+U1,9,A4,USB1_DN,USB1_N,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,A5,MMC0_CLK,MMC0_CLK,dedicated storage path; strobe unresolved,03_SoC_3
+U1,9,A6,MMC0_RST_N,MMC0_RST_N,dedicated storage path; strobe unresolved,03_SoC_3
+U1,9,A7,MMC0_D5,MMC0_D5,dedicated storage path; strobe unresolved,03_SoC_3
+U1,9,A8,CLK24M_XOUT,CLK24_XOUT,existing aux,03_SoC_3
+U1,9,A9,TEST_EN,GND,parent verified private GPIO assignment / TEST_EN ground,03_SoC_3
+U1,9,A10,GPIO66/INT2,PWR_CPU_SDA,parent verified private GPIO assignment / TEST_EN ground,03_SoC_3
+U1,9,A11,GPIO67/INT3,PWR_KPU_SCL,parent verified private GPIO assignment / TEST_EN ground,03_SoC_3
+U1,9,A12,CLK32K768_XOUT,RTC_XOUT,existing aux,03_SoC_3
+U1,9,A20,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,03_SoC_3
+U1,9,B1,ADC_2,ADC2,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,B2,USB0_DN,USB0_N,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,B3,USB1_ID,USB1_ID,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,B4,USB1_DP,USB1_P,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,B5,MMC0_D2,MMC0_D2,dedicated storage path; strobe unresolved,03_SoC_3
+U1,9,B6,MMC0_STROBE,MMC0_STROBE,dedicated storage path; strobe unresolved,03_SoC_3
+U1,9,B7,MMC0_D6,MMC0_D6,dedicated storage path; strobe unresolved,03_SoC_3
+U1,9,B8,CLK24M_XIN,CLK24_XIN,existing aux,03_SoC_3
+U1,9,B9,RSTN,SOC_RSTN,existing aux,03_SoC_3
+U1,9,B10,GPIO65/INT1,PWR_CPU_SCL,parent verified private GPIO assignment / TEST_EN ground,03_SoC_3
+U1,9,B11,GPIO70/OUT0,PMU_OUT0_STATUS,parent verified private GPIO assignment / TEST_EN ground,03_SoC_3
+U1,9,B12,CLK32K768_XIN,RTC_XIN,existing aux,03_SoC_3
+U1,9,C1,ADC_4,ADC4,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,C2,ADC_0,ADC0,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,C3,USB0_VBUS,USB0_VBUS,parent verified 01studio bias source,03_SoC_3
+U1,9,C4,USB1_TXRTUNE,USB1_TXRTUNE,parent verified 01studio bias source,03_SoC_3
+U1,9,C5,MMC0_D1,MMC0_D1,dedicated storage path; strobe unresolved,03_SoC_3
+U1,9,C6,MMC0_D3,MMC0_D3,dedicated storage path; strobe unresolved,03_SoC_3
+U1,9,C7,MMC0_D7,MMC0_D7,dedicated storage path; strobe unresolved,03_SoC_3
+U1,9,C8,GPIO0/BOOT0,BOOT0,existing aux,03_SoC_3
+U1,9,C9,GPIO1/BOOT1,BOOT1,existing aux,03_SoC_3
+U1,9,C10,GPIO64/INT0,PMU_INT0,parent verified private GPIO assignment / TEST_EN ground,03_SoC_3
+U1,9,C11,GPIO71/OUT1,PMU_OUT1_STATUS,parent verified private GPIO assignment / TEST_EN ground,03_SoC_3
+U1,9,C12,GPIO68/INT4,PMU_INT4_AUTO_START,parent verified private GPIO assignment / TEST_EN ground,03_SoC_3
+U1,9,D1,ADC_5,ADC5,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,D2,ADC_1,ADC1,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,D3,USB0_ID,USB0_ID,module-name correspondence CANDIDATE,03_SoC_3
+U1,9,D4,USB0_TXRTUNE,USB0_TXRTUNE,parent verified 01studio bias source,03_SoC_3
+U1,10,D5,MMC0_D0,MMC0_D0,dedicated storage path; strobe unresolved,03_SoC_3
+U1,10,D6,MMC0_CMD,MMC0_CMD,dedicated storage path; strobe unresolved,03_SoC_3
+U1,10,D7,MMC0_D4,MMC0_D4,dedicated storage path; strobe unresolved,03_SoC_3
+U1,10,D8,ANA_TS_VTEST,,REFERENCE_UNUSED_ANALOG_TEST_OUTPUT,03_SoC_3
+U1,10,D12,GPIO69/INT5,PWR_KPU_SDA,parent verified private GPIO assignment / TEST_EN ground,03_SoC_3
+U1,10,E1,MIC_PL,MIC_PL,module-name correspondence CANDIDATE,03_SoC_3
+U1,10,E2,MIC_NL,MIC_NL,module-name correspondence CANDIDATE,03_SoC_3
+U1,10,E3,MIC_BIAS,MIC_BIAS,module-name correspondence CANDIDATE,03_SoC_3
+U1,10,F1,MIC_PR,MIC_PR,module-name correspondence CANDIDATE,03_SoC_3
+U1,10,F2,MIC_NR,MIC_NR,module-name correspondence CANDIDATE,03_SoC_3
+U1,10,F3,CODEC_VCM,CODEC_VCM,parent verified 01studio bias source,03_SoC_3
+U1,10,F7,AVDD1P8_CODEC,AVDD1P8_CODEC,canonical rail endpoint; PMU shared RTC/LDO filtered domain,03_SoC_3
+U1,10,F8,AVDD1P8_ADC,AVDD1P8_ADC,canonical rail endpoint; PMU shared RTC/LDO filtered domain,03_SoC_3
+U1,10,G1,HP_OUTL,HP_OUTL,module-name correspondence CANDIDATE,03_SoC_3
+U1,10,G2,HP_OUTR,HP_OUTR,module-name correspondence CANDIDATE,03_SoC_3
+U1,10,G3,ADC_3,ADC3,module-name correspondence CANDIDATE,03_SoC_3
+U1,10,G7,AVSS,GND,named ground ball,03_SoC_3
+U1,10,G8,AVSS,GND,named ground ball,03_SoC_3
+U1,10,Y1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,03_SoC_3
+U1,10,Y20,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,03_SoC_3
+U1,11,G4,GPIO48/UART4_TXD/IIC0_SCL/SPI2AXI_DIN,BANK3_GPIO48,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,G5,GPIO49/UART4_RXD/IIC0_SDA/SPI2AXI_DOUT,BANK3_GPIO49,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,H1,GPIO42/UART1_RTS/PWM0/QSPI1_D2,BANK3_GPIO42,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,H2,GPIO44/UART2_TXD/IIC3_SCL/SPI2AXI_CLK,BANK3_GPIO44,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,H3,GPIO45/UART2_RXD/IIC3_SDA/SPI2AXI_CS,BANK3_GPIO45,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,H4,GPIO46/UART2_RTS/PWM2/IIC4_SCL,BANK3_GPIO46,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,H5,GPIO47/UART2_CTS/PWM3/IIC4_SDA,BANK3_GPIO47,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,H6,VDDIO_BANK3,BANK3_VDDIO,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,J1,GPIO41/UART1_RXD/IIC1_SDA/QSPI1_D1,BANK3_GPIO41,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,J2,GPIO40/UART1_TXD/IIC1_SCL/QSPI1_D0,BANK3_GPIO40,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,J3,GPIO39/UART0_RXD/QSPI1_CLK/VSYNC0,BANK3_GPIO39,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,J4,GPIO38/UART0_TXD/QSPI1_CS0/HSYNC0,BANK3_GPIO38,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,J5,GPIO14/OSPI_CS/QSPI0_CS0,BANK1_GPIO14,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,J6,GPIO43/UART1_CTS/PWM1/QSPI1_D3,BANK3_GPIO43,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,K1,GPIO15/OSPI_CLK/QSPI0_CLK,BANK1_GPIO15,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,K2,GPIO16/OSPI_D0/QSPI1_CS4/QSPI0_D0,BANK1_GPIO16,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,K4,GPIO17/OSPI_D1/QSPI1_CS3/QSPI0_D1,BANK1_GPIO17,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,K5,GPIO18/OSPI_D2/QSPI1_CS2/QSPI0_D2,BANK1_GPIO18,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,K7,VDDIO_BANK1,BANK1_VDDIO,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,L1,GPIO19/OSPI_D3/QSPI1_CS1/QSPI0_D3,BANK1_GPIO19,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,L2,GPIO20/OSPI_D4/QSPI1_CS0/PULSE_CNTR0,BANK1_GPIO20,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,L3,GPIO21/OSPI_D5/QSPI1_CLK/PULSE_CNTR1,BANK1_GPIO21,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,L4,GPIO22/OSPI_D6/QSPI1_D0/PULSE_CNTR2,BANK1_GPIO22,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,L5,GPIO23/OSPI_D7/QSPI1_D1/PULSE_CNTR3,BANK1_GPIO23,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,L6,GPIO24/OSPI_DQS/QSPI1_D2/PULSE_CNTR4,BANK1_GPIO24,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,M1,GPIO25/PWM5/QSPI1_D3/PULSE_CNTR5,BANK1_GPIO25,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,M2,GPIO54/QSPI0_CS0/MMC1_CMD/PWM0,BANK4_GPIO54,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,M3,GPIO52/UART3_RTS/PWM4/IIC3_SCL,BANK4_GPIO52,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,M4,GPIO51/UART3_RXD/IIC2_SDA/QSPI0_CS3,BANK4_GPIO51,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,M5,GPIO50/UART3_TXD/IIC2_SCL/QSPI0_CS4,BANK4_GPIO50,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,M7,VDDIO_BANK4,BANK4_VDDIO,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,N1,GPIO57/QSPI0_D1/MMC1_D1/PWM3,BANK4_GPIO57,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,N2,GPIO55/QSPI0_CLK/MMC1_CLK/PWM1,BANK4_GPIO55,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,N4,GPIO53/UART3_CTS/PWM5/IIC3_SDA,BANK4_GPIO53,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,P1,GPIO58/QSPI0_D2/MMC1_D2/PWM4,BANK4_GPIO58,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,P2,GPIO59/QSPI0_D3/MMC1_D3/PWM5,BANK4_GPIO59,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,P3,GPIO56/QSPI0_D0/MMC1_D0/PWM2,BANK4_GPIO56,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,P4,GPIO61/PWM1/IIC0_SDA/QSPI0_CS1/VSYNC1,BANK4_GPIO61,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,P5,GPIO60/PWM0/IIC0_SCL/QSPI0_CS2/HSYNC1,BANK4_GPIO60,module-name correspondence CANDIDATE,03_SoC_3
+U1,11,R11,VDDIO_BANK2,BANK2_VDDIO,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,R13,VDDIO_BANK0,BANK0_VDDIO,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,R15,VDDIO_BANK5,BANK5_VDDIO,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,T10,GPIO36/IIC3_SCL/IIS_D_IN1/PDM_IN2/UART4_TXD,BANK2_GPIO36,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,T11,GPIO33/IIC0_SDA/IIS_WS/UART3_RXD,BANK2_GPIO33,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,T12,GPIO13/M_CLK1,BANK0_GPIO13,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,T13,GPIO9/PWM4/UART1_TXD/IIC1_SCL,BANK0_GPIO9,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,T14,GPIO62/M_CLK2/UART3_DE,BANK5_IO62,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,U9,GPIO34/IIC1_SCL/IIS_D_IN0/PDM_IN3/UART3_RTS,BANK2_GPIO34,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,U10,GPIO32/IIC0_SCL/IIS_CLK/UART3_TXD,BANK2_GPIO32,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,U11,GPIO26/MMC1_CLK/PDM_CLK,BANK2_GPIO26,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,U12,GPIO8/PWM3/IIC4_SDA,BANK0_GPIO8,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,U13,GPIO10/3D_CTRL_IN/UART1_RXD/IIC1_SDA,BANK0_GPIO10,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,U14,GPIO5/JTAG_TMS/PULSE_CNTR3/UART2_TXD,BANK0_GPIO5,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,U15,GPIO63/M_CLK3/UART3_RE,BANK5_IO63,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,V9,GPIO31/MMC1_D3/UART3_CTS/3D_CTRL_OUT2,BANK2_GPIO31,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,V10,GPIO30/MMC1_D2/UART3_RTS/3D_CTRL_OUT1,BANK2_GPIO30,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,V11,GPIO29/MMC1_D1/UART3_RXD/3D_CTRL_IN,BANK2_GPIO29,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,V12,GPIO28/MMC1_D0/UART3_TXD/PDM_IN1,BANK2_GPIO28,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,V13,GPIO12/3D_CTRL_OUT2/UART2_RXD/IIC2_SDA,BANK0_GPIO12,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,V14,GPIO6/JTAG_RST/PULSE_CNTR4/UART2_RXD,BANK0_GPIO6,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,V15,GPIO3/JTAG_TDI/PULSE_CNTR1/UART1_TXD,BANK0_GPIO3,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,W12,GPIO35/IIC1_SDA/IIS_D_OUT0/PDM_IN1/UART3_CTS,BANK2_GPIO35,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,W13,GPIO27/MMC1_CMD/PULSE_CNTR5/PDM_IN0,BANK2_GPIO27,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,W14,GPIO7/PWM2/IIC4_SCL,BANK0_GPIO7,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,W15,GPIO2/JTAG_TCK/PULSE_CNTR0,BANK0_GPIO2,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,Y12,GPIO37/IIC3_SDA/IIS_D_OUT1/PDM_IN0/UART4_RXD,BANK2_GPIO37,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,Y14,GPIO11/3D_CTRL_OUT1/UART2_TXD/IIC2_SCL,BANK0_GPIO11,module-name correspondence CANDIDATE,03_SoC_3
+U1,12,Y15,GPIO4/JTAG_TDO/PULSE_CNTR2/UART1_RXD,BANK0_GPIO4,module-name correspondence CANDIDATE,03_SoC_3
+U2,1,A1,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,1,A2,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,1,A3,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,A4,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,A5,ZQ0,LPDDR4_ZQ,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,A8,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,1,A9,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,A10,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,A11,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,1,A12,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,1,B1,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,1,B2,DQ0_A,DDR_DQA0,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,B3,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,B4,DQ7_A,DDR_DQA7,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,B5,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,B8,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,B9,DQ15_A,DDR_DQA15,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,B10,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,B11,DQ8_A,DDR_DQA8,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,B12,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,1,C1,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,C2,DQ1_A,DDR_DQA1,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,C3,DMI0_A,DDR_DMIA0,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,C4,DQ6_A,DDR_DQA6,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,C5,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,C8,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,C9,DQ14_A,DDR_DQA14,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,C10,DMI1_A,DDR_DMIA1,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,C11,DQ9_A,DDR_DQA9,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,C12,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,D1,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,D2,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,D3,DQS0_t_A,DDR_DQSA0_P,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,D4,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,D5,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,D8,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,D9,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,D10,DQS1_t_A,DDR_DQSA1_P,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,D11,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,1,D12,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,E1,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,E2,DQ2_A,DDR_DQA2,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,E3,DQS0_c_A,DDR_DQSA0_N,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,E4,DQ5_A,DDR_DQA5,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,E5,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,E8,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,E9,DQ13_A,DDR_DQA13,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,E10,DQS1_c_A,DDR_DQSA1_N,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,E11,DQ10_A,DDR_DQA10,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,E12,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,F1,VDD1,VDD1P8,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,F2,DQ3_A,DDR_DQA3,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,F3,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,F4,DQ4_A,DDR_DQA4,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,F5,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,F8,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,F9,DQ12_A,DDR_DQA12,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,F10,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,F11,DQ11_A,DDR_DQA11,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,F12,VDD1,VDD1P8,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,G1,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,G2,ODT_CA_A,LPDDR4_ODT_A,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,G3,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,G4,VDD1,VDD1P8,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,G5,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,G8,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,G9,VDD1,VDD1P8,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,G10,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,G11,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,2,G12,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,H1,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,H2,CA0_A,DDR_CAA0,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,H3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,2,H4,CS0_A,DDR_CSA0,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,H5,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,H8,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,H9,CA2_A,DDR_CAA2,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,H10,CA3_A,DDR_CAA3,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,H11,CA4_A,DDR_CAA4,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,2,H12,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,J1,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,J2,CA1_A,DDR_CAA1,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,J3,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,J4,CKE0_A,DDR_CKEA0,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,J5,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,3,J8,CK_t_A,DDR_CLKA_P,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,J9,CK_c_A,DDR_CLKA_N,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,J10,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,J11,CA5_A,DDR_CAA5,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,J12,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,K1,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,K2,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,K3,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,K4,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,K5,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,3,K8,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,3,K9,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,K10,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,K11,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,K12,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,N1,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,N2,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,N3,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,N4,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,N5,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,3,N8,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,3,N9,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,N10,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,N11,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,N12,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,P1,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,P2,CA1_B,DDR_CAB1,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,P3,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,P4,CKE0_B,DDR_CKEB0,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,P5,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,3,P8,CK_t_B,DDR_CLKB_P,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,P9,CK_c_B,DDR_CLKB_N,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,P10,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,P11,CA5_B,DDR_CAB5,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,3,P12,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,R1,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,R2,CA0_B,DDR_CAB0,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,R3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,04_LPDDR4_1
+U2,4,R4,CS0_B,DDR_CSB0,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,R5,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,R8,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,R9,CA2_B,DDR_CAB2,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,R10,CA3_B,DDR_CAB3,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,R11,CA4_B,DDR_CAB4,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,R12,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,T1,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,T2,ODT_CA_B,LPDDR4_ODT_B,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,T3,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,T4,VDD1,VDD1P8,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,T5,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,T8,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,T9,VDD1,VDD1P8,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,T10,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,T11,RESET_n,DDR_RESET,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,T12,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,U1,VDD1,VDD1P8,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,U2,DQ3_B,DDR_DQB3,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,U3,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,U4,DQ4_B,DDR_DQB4,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,U5,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,U8,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,U9,DQ12_B,DDR_DQB12,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,U10,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,U11,DQ11_B,DDR_DQB11,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,U12,VDD1,VDD1P8,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,V1,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,V2,DQ2_B,DDR_DQB2,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,V3,DQS0_c_B,DDR_DQSB0_N,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,V4,DQ5_B,DDR_DQB5,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,V5,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,V8,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,V9,DQ13_B,DDR_DQB13,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,V10,DQS1_c_B,DDR_DQSB1_N,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,V11,DQ10_B,DDR_DQB10,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,4,V12,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,04_LPDDR4_1
+U2,5,W1,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,W2,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,W3,DQS0_t_B,DDR_DQSB0_P,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,W4,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,W5,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,W8,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,W9,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,W10,DQS1_t_B,DDR_DQSB1_P,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,W11,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,W12,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,Y1,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,Y2,DQ1_B,DDR_DQB1,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,Y3,DMI0_B,DDR_DMIB0,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,Y4,DQ6_B,DDR_DQB6,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,Y5,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,Y8,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,Y9,DQ14_B,DDR_DQB14,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,Y10,DMI1_B,DDR_DMIB1,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,Y11,DQ9_B,DDR_DQB9,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,Y12,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AA1,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,05_LPDDR4_2
+U2,5,AA2,DQ0_B,DDR_DQB0,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AA3,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AA4,DQ7_B,DDR_DQB7,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AA5,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AA8,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AA9,DQ15_B,DDR_DQB15,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AA10,VDDQ,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AA11,DQ8_B,DDR_DQB8,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AA12,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,05_LPDDR4_2
+U2,5,AB1,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,05_LPDDR4_2
+U2,5,AB2,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,05_LPDDR4_2
+U2,5,AB3,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AB4,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AB5,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AB8,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AB9,VDD2,VDD1P1_DDR_IO,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AB10,VSS,GND,65 exact SoC joins; source NC/DNU flagged; bias on dedicated sheet,05_LPDDR4_2
+U2,5,AB11,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,05_LPDDR4_2
+U2,5,AB12,DNU,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,05_LPDDR4_2
+U3,1,A1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,A2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,A3,DAT0,EMMC_DAT0,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,A4,DAT1,EMMC_DAT1,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,A5,DAT2,EMMC_DAT2,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,A6,VSS,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,A7,RFU,,MANUFACTURER_RFU_NO_USE_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,A8,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,A9,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,A10,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,A11,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,A12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,A13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,A14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,B1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,B2,DAT3,EMMC_DAT3,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,B3,DAT4,EMMC_DAT4,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,B4,DAT5,EMMC_DAT5,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,B5,DAT6,EMMC_DAT6,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,B6,DAT7,EMMC_DAT7,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,B7,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,B8,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,B9,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,B10,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,B11,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,B12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,B13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,B14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,C1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,C2,VDDIM,EMMC_VDDIM,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,C3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,C4,VSSQ,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,C5,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,C6,VCCQ,VEMMC_IO,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,1,C7,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,C8,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,C9,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,C10,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,C11,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,1,C12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,C13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,C14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,D1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,D2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,D3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,D4,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,D12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,D13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,D14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,E1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,E2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,E3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,E5,RFU,,MANUFACTURER_RFU_NO_USE_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,E6,VCC,VDD_3V3,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,2,E7,VSS,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,2,E8,VSF1,,MICRON_VENDOR_FUNCTION_INTENTIONALLY_UNUSED_NOT_NC,06_eMMC_1
+U3,2,E9,VSF2,,MICRON_VENDOR_FUNCTION_INTENTIONALLY_UNUSED_NOT_NC,06_eMMC_1
+U3,2,E10,VSF3,,MICRON_VENDOR_FUNCTION_INTENTIONALLY_UNUSED_NOT_NC,06_eMMC_1
+U3,2,E12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,E13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,E14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,F1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,F2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,F3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,F5,VCC,VDD_3V3,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,2,F10,VSF4,,MICRON_VENDOR_FUNCTION_INTENTIONALLY_UNUSED_NOT_NC,06_eMMC_1
+U3,2,F12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,F13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,F14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,G1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,G2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,G3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,G5,VSS,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,2,G10,VSF5,,MICRON_VENDOR_FUNCTION_INTENTIONALLY_UNUSED_NOT_NC,06_eMMC_1
+U3,2,G12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,G13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,G14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,H1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,H2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,2,H3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,H5,DS,EMMC_DS_UNUSED,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,3,H10,VSS,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,3,H12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,H13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,H14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,J1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,J2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,J3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,J5,VSS,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,3,J10,VCC,VDD_3V3,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,3,J12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,J13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,J14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,K1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,K2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,K3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,K5,RST_n,EMMC_RSTN,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,3,K6,RFU,,MANUFACTURER_RFU_NO_USE_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,K7,RFU,,MANUFACTURER_RFU_NO_USE_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,K8,VSS,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,3,K9,VCC,VDD_3V3,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,3,K10,VSF6,,MICRON_VENDOR_FUNCTION_INTENTIONALLY_UNUSED_NOT_NC,06_eMMC_1
+U3,3,K12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,K13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,K14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,L1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,L2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,L3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,L12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,L13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,L14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,M1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,M2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,M3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,M4,VCCQ,VEMMC_IO,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,3,M5,CMD,EMMC_CMD,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,3,M6,CLK,EMMC_CLK,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,3,M7,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,M8,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,3,M9,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,M10,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,M11,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,M12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,M13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,M14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N2,VSSQ,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,4,N3,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N4,VCCQ,VEMMC_IO,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,4,N5,VSSQ,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,4,N6,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N7,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N8,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N9,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N10,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N11,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,N14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,P1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,P2,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,P3,VCCQ,VEMMC_IO,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,4,P4,VSSQ,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,4,P5,VCCQ,VEMMC_IO,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,4,P6,VSSQ,GND,153-ball grid verified; NC/RFU no-use flagged; VDDI analog stabilization only; reference caps unqualified; HS400 strobe unused,06_eMMC_1
+U3,4,P7,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,P8,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,P9,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,P10,VSF7,,MICRON_VENDOR_FUNCTION_INTENTIONALLY_UNUSED_NOT_NC,06_eMMC_1
+U3,4,P11,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,P12,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,P13,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+U3,4,P14,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,06_eMMC_1
+J1,1,1,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,2,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,3,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,4,VIN_5V,VIN_5V,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,5,VIN_5V,VIN_5V,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,6,VIN_5V,VIN_5V,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,7,VOUT_3V3,VDD_3V3,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,8,VOUT_1V8,VDD1P8,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,9,BANK1_GPIO18,BANK1_GPIO18,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,10,BANK1_GPIO19,BANK1_GPIO19,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,11,BANK1_GPIO20,BANK1_GPIO20,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,12,BANK1_GPIO21,BANK1_GPIO21,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,13,BANK1_GPIO22,BANK1_GPIO22,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,14,BANK1_GPIO23,BANK1_GPIO23,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,15,BANK1_GPIO24,BANK1_GPIO24,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,16,BANK1_GPIO25,BANK1_GPIO25,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,17,TFCARD_D0,TFCARD_D0,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,18,TFCARD_D1,TFCARD_D1,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,19,TFCARD_D2,TFCARD_D2,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,20,TFCARD_D3,TFCARD_D3,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,21,TFCARD_CLK,TFCARD_CLK,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,22,TFCARD_CMD,TFCARD_CMD,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,23,BANK4_VDDIO,BANK4_VDDIO,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,24,BANK4_GPIO50,BANK4_GPIO50,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,25,BANK4_GPIO51,BANK4_GPIO51,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,26,BANK4_GPIO52,BANK4_GPIO52,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,27,BANK4_GPIO53,BANK4_GPIO53,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,28,BANK4_GPIO54,BANK4_GPIO54,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,29,BANK4_GPIO55,BANK4_GPIO55,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,30,BANK4_GPIO56,BANK4_GPIO56,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,31,BANK4_GPIO57,BANK4_GPIO57,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,32,BANK4_GPIO58,BANK4_GPIO58,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,33,BANK4_GPIO59,BANK4_GPIO59,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,34,BANK4_GPIO60,BANK4_GPIO60,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,1,35,BANK4_GPIO61,BANK4_GPIO61,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,36,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,37,USB1_N,USB1_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,38,USB1_P,USB1_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,39,USB1_ID,USB1_ID,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,40,USB0_P,USB0_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,41,USB0_N,USB0_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,42,USB0_ID,USB0_ID,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,43,ADC0,ADC0,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,44,ADC1,ADC1,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,45,ADC2,ADC2,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,46,ADC3,ADC3,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,47,ADC4,ADC4,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,48,ADC5,ADC5,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,49,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,50,MIC_BIAS,MIC_BIAS,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,51,MIC_NL,MIC_NL,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,52,MIC_PL,MIC_PL,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,53,MIC_NR,MIC_NR,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,54,MIC_PR,MIC_PR,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,55,HP_OUTR,HP_OUTR,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,56,HP_OUTL,HP_OUTL,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,57,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,58,CSI2_CLK_P,CSI2_CLK_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,59,CSI2_CLK_N,CSI2_CLK_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,60,CSI2_D4_N,CSI2_D4_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,61,CSI2_D4_P,CSI2_D4_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,62,CSI2_D5_P,CSI2_D5_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,63,CSI2_D5_N,CSI2_D5_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,64,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,65,CSI0_D1_N,CSI0_D1_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,66,CSI0_D1_P,CSI0_D1_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,67,CSI0_CLK_N,CSI0_CLK_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,68,CSI0_CLK_P,CSI0_CLK_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,69,CSI0_D0_P,CSI0_D0_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,2,70,CSI0_D0_N,CSI0_D0_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,71,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,72,CSI1_D2_N,CSI1_D2_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,73,CSI1_D2_P,CSI1_D2_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,74,CSI1_CLK_P,CSI1_CLK_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,75,CSI1_CLK_N,CSI1_CLK_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,76,CSI1_D3_P,CSI1_D3_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,77,CSI1_D3_N,CSI1_D3_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,78,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,79,DSI_D3_P,DSI_D3_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,80,DSI_D3_N,DSI_D3_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,81,DSI_D2_N,DSI_D2_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,82,DSI_D2_P,DSI_D2_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,83,DSI_CLK_P,DSI_CLK_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,84,DSI_CLK_N,DSI_CLK_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,85,DSI_D0_N,DSI_D0_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,86,DSI_D0_P,DSI_D0_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,87,DSI_D1_P,DSI_D1_P,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,88,DSI_D1_N,DSI_D1_N,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,89,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,90,BANK2_VDDIO,BANK2_VDDIO,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,91,BANK2_GPIO26,BANK2_GPIO26,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,92,BANK2_GPIO27,BANK2_GPIO27,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,93,BANK2_GPIO28,BANK2_GPIO28,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,94,BANK2_GPIO29,BANK2_GPIO29,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,95,BANK2_GPIO30,BANK2_GPIO30,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,96,BANK2_GPIO31,BANK2_GPIO31,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,97,BANK2_GPIO32,BANK2_GPIO32,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,98,BANK2_GPIO33,BANK2_GPIO33,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,99,BANK2_GPIO34,BANK2_GPIO34,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,100,BANK2_GPIO35,BANK2_GPIO35,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,101,BANK2_GPIO36,BANK2_GPIO36,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,102,BANK2_GPIO37,BANK2_GPIO37,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,103,BANK5_VDDIO,BANK5_VDDIO,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,104,BANK5_IO62,BANK5_IO62,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,3,105,BANK5_IO63,BANK5_IO63,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,106,GND,GND,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,107,BANK0_VDDIO,BANK0_VDDIO,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,108,BANK0_GPIO2,BANK0_GPIO2,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,109,BANK0_GPIO3,BANK0_GPIO3,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,110,BANK0_GPIO4,BANK0_GPIO4,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,111,BANK0_GPIO5,BANK0_GPIO5,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,112,BANK0_GPIO6,BANK0_GPIO6,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,113,BANK0_GPIO7,BANK0_GPIO7,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,114,BANK0_GPIO8,BANK0_GPIO8,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,115,BANK0_GPIO9,BANK0_GPIO9,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,116,BANK0_GPIO10,BANK0_GPIO10,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,117,BANK0_GPIO11,BANK0_GPIO11,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,118,BANK0_GPIO12,BANK0_GPIO12,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,119,BANK0_GPIO13,BANK0_GPIO13,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,120,BOOT0,BOOT0,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,121,BOOT1,BOOT1,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,122,RSTN,RSTN,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,123,BANK3_VDDIO,BANK3_VDDIO,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,124,BANK3_GPIO38,BANK3_GPIO38,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,125,BANK3_GPIO39,BANK3_GPIO39,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,126,BANK3_GPIO40,BANK3_GPIO40,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,127,BANK3_GPIO41,BANK3_GPIO41,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,128,BANK3_GPIO42,BANK3_GPIO42,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,129,BANK3_GPIO43,BANK3_GPIO43,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,130,BANK3_GPIO44,BANK3_GPIO44,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,131,BANK3_GPIO45,BANK3_GPIO45,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,132,BANK3_GPIO46,BANK3_GPIO46,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,133,BANK3_GPIO47,BANK3_GPIO47,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,134,BANK3_GPIO48,BANK3_GPIO48,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,135,BANK3_GPIO49,BANK3_GPIO49,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,136,BANK1_VDDIO,BANK1_VDDIO,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,137,BANK1_GPIO14,BANK1_GPIO14,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,138,BANK1_GPIO15,BANK1_GPIO15,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,139,BANK1_GPIO16,BANK1_GPIO16,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+J1,4,140,BANK1_GPIO17,BANK1_GPIO17,140 same-module pads; NOT carrier footprint,07_Edge_Contract_1
+Y1,1,1,1,RTC_XOUT,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+Y1,1,2,2,RTC_XIN,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R41,1,1,~,RTC_XOUT,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R41,1,2,~,RTC_XIN,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+C41,1,1,~,RTC_XOUT,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+C41,1,2,~,GND,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+C42,1,1,~,RTC_XIN,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+C42,1,2,~,GND,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+Y2,1,1,XTAL,CLK24_XOUT,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+Y2,1,2,GND,GND,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+Y2,1,3,XTAL,CLK24_XIN,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+Y2,1,4,GND,GND,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R42,1,1,~,CLK24_XOUT,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R42,1,2,~,CLK24_XIN,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+C43,1,1,~,CLK24_XOUT,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+C43,1,2,~,GND,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+C44,1,1,~,CLK24_XIN,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+C44,1,2,~,GND,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R43,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R43,1,2,~,RSTN,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+C45,1,1,~,RSTN,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+C45,1,2,~,GND,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R44,1,1,~,BOOT0,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R44,1,2,~,GND,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R45,1,1,~,BOOT0,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R45,1,2,~,VDD1P8,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R46,1,1,~,BOOT1,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R46,1,2,~,VDD1P8,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R47,1,1,~,BOOT1,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+R47,1,2,~,GND,existing reference subcircuit; integration unqualified,08_Clock_Reset_Boot
+U11,1,1,S1B,TF_HOST_CLK,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,2,D1,MMC0_CLK,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,3,S2A,EMMC_CMD,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,4,S2B,TF_HOST_CMD,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,5,D2,MMC0_CMD,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,6,GND,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,7,D3,MMC0_D0,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,8,S3B,TF_HOST_D0,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,9,S3A,EMMC_DAT0,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,10,D4,MMC0_D1,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,11,S4B,TF_HOST_D1,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,12,S4A,EMMC_DAT1,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,13,EN,GLOBAL_DISABLE,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,14,VDD,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,15,SEL,MODE_TF,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U11,1,16,S1A,EMMC_CLK,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,1,S1B,TF_HOST_D2,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,2,D1,MMC0_D2,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,3,S2A,EMMC_DAT3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,4,S2B,TF_HOST_D3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,5,D2,MMC0_D3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,6,GND,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,7,D3,EMMC_RSTN,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,8,S3B,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,9,S3A,MMC0_RST_N,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,10,D4,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,11,S4B,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,12,S4A,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,13,EN,GLOBAL_DISABLE,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,14,VDD,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,15,SEL,MODE_TF,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U12,1,16,S1A,EMMC_DAT2,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,1,S1B,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,2,D1,MMC0_D4,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,3,S2A,EMMC_DAT5,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,4,S2B,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,5,D2,MMC0_D5,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,6,GND,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,7,D3,MMC0_D6,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,8,S3B,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,9,S3A,EMMC_DAT6,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,10,D4,MMC0_D7,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,11,S4B,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,12,S4A,EMMC_DAT7,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,13,EN,DISABLE_OR_TF,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,14,VDD,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,15,SEL,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U13,1,16,S1A,EMMC_DAT4,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U14,1,1,In1,GLOBAL_DISABLE,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U14,1,2,GND,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U14,1,3,In0_TIE_HIGH,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U14,1,4,Y,DISABLE_OR_TF,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U14,1,5,VCC,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U14,1,6,In2,MODE_TF,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+R31,1,1,~,MODE_TF,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+R31,1,2,~,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+JP1,1,1,1,MODE_TF,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+JP1,1,2,2,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+R32,1,1,~,GLOBAL_DISABLE,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+R32,1,2,~,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+R33,1,1,~,DISABLE_OR_TF,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+R33,1,2,~,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+R34,1,1,~,EMMC_RSTN,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+R34,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+C31,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+C31,1,2,~,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+C32,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+C32,1,2,~,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+C33,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+C33,1,2,~,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+C34,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+C34,1,2,~,GND,existing reference subcircuit; integration unqualified,09_Cold_Storage_Selector
+U21,1,1,EN,CORE_ENABLE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U21,1,2,PG_OD,CORE_PGOOD_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U21,1,3,FB,FB_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U21,1,4,GND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U21,1,5,SW,SW_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U21,1,6,VIN,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L21,1,1,~,SW_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L21,1,2,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C201,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C201,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R201,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R201,1,2,~,FB_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R202,1,1,~,FB_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R202,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C202,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C202,1,2,~,FB_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R203,1,1,~,CORE_PGOOD_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R203,1,2,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R204,1,1,~,CORE_ENABLE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R204,1,2,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C203,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C203,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C204,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C204,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C205,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C205,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,A1,AGND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,A2,VSET_FAULT_HIGH,VSET_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,A3,VOS,VDD0P8_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,B1,PGND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,B2,PGND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,B3,PGND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,C1,SW,SW_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,C2,SW,SW_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,C3,SW,SW_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,D1,VIN,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,D2,VIN,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,D3,VIN,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,E1,EN,CORE_PGOOD_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,E2,SDA,PWR_CPU_SDA,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U22,1,E3,SCL,PWR_CPU_SCL,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L22,1,1,~,SW_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L22,1,2,~,VDD0P8_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C206,1,1,~,VDD0P8_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C206,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C207,1,1,~,VDD0P8_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C207,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C208,1,1,~,VDD0P8_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C208,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R205,1,1,~,VSET_CPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R205,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C209,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C209,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C210,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C210,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C211,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C211,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,A1,AGND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,A2,VSET_FAULT_HIGH,VSET_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,A3,VOS,VDD0P8_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,B1,PGND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,B2,PGND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,B3,PGND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,C1,SW,SW_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,C2,SW,SW_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,C3,SW,SW_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,D1,VIN,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,D2,VIN,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,D3,VIN,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,E1,EN,CORE_PGOOD_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,E2,SDA,PWR_KPU_SDA,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U23,1,E3,SCL,PWR_KPU_SCL,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L23,1,1,~,SW_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L23,1,2,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C212,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C212,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C213,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C213,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C214,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C214,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R206,1,1,~,VSET_KPU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R206,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C215,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C215,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C216,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C216,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C217,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C217,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U24,1,1,EN,CORE_PGOOD_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U24,1,2,PG_OD,FIXED_RAILS_PGOOD_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U24,1,3,FB,FB_DDR,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U24,1,4,GND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U24,1,5,SW,SW_DDR,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U24,1,6,VIN,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L24,1,1,~,SW_DDR,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L24,1,2,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C218,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C218,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R207,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R207,1,2,~,FB_DDR,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R208,1,1,~,FB_DDR,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R208,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C219,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C219,1,2,~,FB_DDR,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C220,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C220,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C221,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C221,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C222,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C222,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U25,1,1,EN,CORE_PGOOD_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U25,1,2,PG_OD,FIXED_RAILS_PGOOD_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U25,1,3,FB,FB_1V8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U25,1,4,GND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U25,1,5,SW,SW_1V8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U25,1,6,VIN,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L25,1,1,~,SW_1V8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L25,1,2,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C223,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C223,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R210,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R210,1,2,~,FB_1V8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R211,1,1,~,FB_1V8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R211,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C224,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C224,1,2,~,FB_1V8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C225,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C225,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C226,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C226,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C227,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C227,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U26,1,1,EN,CORE_PGOOD_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U26,1,2,PG_OD,FIXED_RAILS_PGOOD_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U26,1,3,FB,FB_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U26,1,4,GND,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U26,1,5,SW,SW_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+U26,1,6,VIN,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L26,1,1,~,SW_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+L26,1,2,~,VDD_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C228,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C228,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R213,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R213,1,2,~,FB_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R214,1,1,~,FB_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R214,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C229,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C229,1,2,~,FB_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C230,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C230,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C231,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C231,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C232,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C232,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R216,1,1,~,PWR_CPU_SCL,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R216,1,2,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R217,1,1,~,PWR_CPU_SDA,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R217,1,2,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R218,1,1,~,PWR_KPU_SCL,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R218,1,2,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R219,1,1,~,PWR_KPU_SDA,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R219,1,2,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R220,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R220,1,2,~,VDD0P8_DDR_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C233,1,1,~,VDD0P8_DDR_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C233,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB202,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB202,1,2,~,AVDD0P8_PLL,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C234,1,1,~,AVDD0P8_PLL,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C234,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB203,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB203,1,2,~,AVDD0P8_MIPI,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C235,1,1,~,AVDD0P8_MIPI,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C235,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB204,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB204,1,2,~,VAA_DDR,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C236,1,1,~,VAA_DDR,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C236,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB205,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB205,1,2,~,AVDD1P8_USB,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C237,1,1,~,AVDD1P8_USB,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C237,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB206,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB206,1,2,~,AVDD1P8_PMU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C238,1,1,~,AVDD1P8_PMU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C238,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C239,1,1,~,AVDD1P8_PMU,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C239,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB207,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB207,1,2,~,AVDD1P8_MIPI,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C240,1,1,~,AVDD1P8_MIPI,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C240,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB208,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB208,1,2,~,AVDD1P8_ADC,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C241,1,1,~,AVDD1P8_ADC,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C241,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB209,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB209,1,2,~,AVDD1P8_CODEC,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C242,1,1,~,AVDD1P8_CODEC,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C242,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB210,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+FB210,1,2,~,AVDD3P3_USB,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C243,1,1,~,AVDD3P3_USB,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C243,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R221,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R221,1,2,~,VDD3P3_SD,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C244,1,1,~,VDD3P3_SD,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C244,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C245,1,1,~,AVDD1P8_MIPI,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C245,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C246,1,1,~,AVDD0P8_MIPI,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+C246,1,2,~,GND,existing reference subcircuit; integration unqualified,10_Six_Rail_Power
+R61,1,1,~,LPDDR4_ODT_A,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R61,1,2,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R62,1,1,~,LPDDR4_ODT_B,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R62,1,2,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R63,1,1,~,LPDDR4_ZQ,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R63,1,2,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R64,1,1,~,DDR_ZN,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R64,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R65,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R65,1,2,~,DDR_VREF,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R66,1,1,~,DDR_VREF,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R66,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C61,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C61,1,2,~,DDR_VREF,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C62,1,1,~,DDR_VREF,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C62,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R67,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R67,1,2,~,USB0_VBUS,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R68,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R68,1,2,~,USB1_VBUS,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R69,1,1,~,USB0_TXRTUNE,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R69,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R70,1,1,~,USB1_TXRTUNE,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R70,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R71,1,1,~,MIPI_REXT,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R71,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C63,1,1,~,CODEC_VCM,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C63,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C64,1,1,~,EMMC_VDDIM,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C64,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C65,1,1,~,EMMC_VDDIM,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C65,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C66,1,1,~,CODEC_VCM,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C66,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C67,1,1,~,MIC_BIAS,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C67,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C68,1,1,~,MIC_BIAS,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C68,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C69,1,1,~,VEMMC_IO,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C69,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C70,1,1,~,VEMMC_IO,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C70,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C71,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C71,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C72,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C72,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R573,1,1,~,EMMC_DS_UNUSED,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+R573,1,2,~,GND,existing reference subcircuit; integration unqualified,11_DDR_USB_MIPI_Bias
+C501,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C501,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C502,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C502,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C503,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C503,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C504,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C504,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C505,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C505,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C506,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C506,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C507,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C507,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C508,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C508,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C509,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C509,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C510,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C510,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C511,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C511,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C512,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C512,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C513,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C513,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C514,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C514,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C515,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C515,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C516,1,1,~,VDD0P8_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C516,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C517,1,1,~,VDD0P8_CPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C517,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C518,1,1,~,VDD0P8_CPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C518,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C519,1,1,~,VDD0P8_CPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C519,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C520,1,1,~,VDD0P8_CPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C520,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C521,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C521,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C522,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C522,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C523,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C523,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C524,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C524,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C525,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C525,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C526,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C526,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C527,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C527,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C528,1,1,~,VDD0P8_KPU,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C528,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C529,1,1,~,VDD0P8_DDR_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C529,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C530,1,1,~,VDD0P8_DDR_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C530,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C531,1,1,~,VDD0P8_DDR_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C531,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C532,1,1,~,VDD0P8_DDR_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C532,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C533,1,1,~,VDD0P8_DDR_CORE,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C533,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C534,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C534,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C535,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C535,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C536,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C536,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C537,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C537,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C538,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C538,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C539,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C539,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C540,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C540,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C541,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C541,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C542,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C542,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C543,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C543,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C544,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C544,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C545,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C545,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C546,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C546,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C547,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C547,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C548,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C548,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C549,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C549,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C550,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C550,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C551,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C551,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C552,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C552,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C553,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C553,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C554,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C554,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C555,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C555,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C556,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C556,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C557,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C557,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C558,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C558,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C559,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C559,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C560,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C560,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C561,1,1,~,VDD1P1_DDR_IO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C561,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C562,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C562,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C563,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C563,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C564,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C564,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C565,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C565,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C566,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C566,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C567,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C567,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C568,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C568,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C569,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C569,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C570,1,1,~,BANK0_VDDIO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C570,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C571,1,1,~,BANK1_VDDIO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C571,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C572,1,1,~,BANK2_VDDIO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C572,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C573,1,1,~,BANK3_VDDIO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C573,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C574,1,1,~,BANK4_VDDIO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C574,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C575,1,1,~,BANK5_VDDIO,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C575,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C576,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C576,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C577,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+C577,1,2,~,GND,existing reference subcircuit; integration unqualified,12_Local_Decoupling
+R401,1,1,~,AVDD1P8_PMU,existing reference subcircuit; integration unqualified,13_PMU_Automatic_Startup
+R401,1,2,~,PMU_INT4_AUTO_START,existing reference subcircuit; integration unqualified,13_PMU_Automatic_Startup
+R402,1,1,~,PMU_INT0,existing reference subcircuit; integration unqualified,13_PMU_Automatic_Startup
+R402,1,2,~,GND,existing reference subcircuit; integration unqualified,13_PMU_Automatic_Startup
+TP81,1,1,OBSERVE,PMU_OUT0_STATUS,existing reference subcircuit; integration unqualified,13_PMU_Automatic_Startup
+TP82,1,1,OBSERVE,PMU_OUT1_STATUS,existing reference subcircuit; integration unqualified,13_PMU_Automatic_Startup
+R561,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R561,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R562,1,1,~,EMMC_CMD,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R562,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R563,1,1,~,EMMC_DAT0,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R563,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R564,1,1,~,EMMC_DAT1,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R564,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R565,1,1,~,EMMC_DAT2,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R565,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R566,1,1,~,EMMC_DAT3,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R566,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R567,1,1,~,EMMC_DAT4,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R567,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R568,1,1,~,EMMC_DAT5,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R568,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R569,1,1,~,EMMC_DAT6,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R569,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R570,1,1,~,EMMC_DAT7,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R570,1,2,~,VEMMC_IO,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R571,1,1,~,EMMC_CLK,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R571,1,2,~,GND,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R572,1,1,~,MMC0_STROBE,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+R572,1,2,~,GND,existing reference subcircuit; integration unqualified,14_EMMC_Local_Bias
+U89,1,1,VDD,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U89,1,2,SENSE,VIN_GUARD_SENSE,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U89,1,3,CT_NC_20MS,,TPS3808_CT_OPEN_SELECTS_20MS,15_Hardware_Reset_Interlock
+U89,1,4,MR,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U89,1,5,GND,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U89,1,6,RESET_OD,FIXED_RAILS_PGOOD_3V3,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U89,1,7,EP_GND,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R525,1,1,~,VIN_5V,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R525,1,2,~,VIN_GUARD_SENSE,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R526,1,1,~,VIN_GUARD_SENSE,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R526,1,2,~,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R527,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R527,1,2,~,FIXED_RAILS_PGOOD_3V3,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C809,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C809,1,2,~,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U90,1,1,VDD,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U90,1,2,SENSE,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U90,1,3,CT_NC_20MS,,TPS3808_CT_OPEN_SELECTS_20MS,15_Hardware_Reset_Interlock
+U90,1,4,MR,RESET_RELEASE_REQUEST_1V8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U90,1,5,GND,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U90,1,6,RESET_OD,RESET_DELAYED_1V8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U90,1,7,EP_GND,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U91,1,1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,15_Hardware_Reset_Interlock
+U91,1,2,A,RESET_DELAYED_1V8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U91,1,3,GND,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U91,1,4,Y,SOC_RSTN,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U91,1,5,VCC,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R530,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R530,1,2,~,RESET_DELAYED_1V8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U92,1,1,1B_TIE_LOW,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U92,1,2,1C,BOOT_VOLTAGE_QUALIFIED_1V8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U92,1,3,2Y,RESET_RELEASE_REQUEST_1V8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U92,1,4,GND,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U92,1,5,2A,FIXED_RAILS_PGOOD_3V3,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U92,1,6,2B_TIE_LOW,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U92,1,7,2C,RSTN,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U92,1,8,1Y,STORAGE_ENABLE_1V8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U92,1,9,VCC,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U92,1,10,1A,FIXED_RAILS_PGOOD_3V3,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U93,1,1,NC,,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,15_Hardware_Reset_Interlock
+U93,1,2,A,STORAGE_ENABLE_1V8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U93,1,3,GND,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U93,1,4,Y_OD,GLOBAL_DISABLE,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U93,1,5,VCC,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R528,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R528,1,2,~,BOOT_VOLTAGE_QUALIFIED_1V8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R529,1,1,~,BOOT_VOLTAGE_QUALIFIED_1V8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+R529,1,2,~,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C810,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C810,1,2,~,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C811,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C811,1,2,~,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C812,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C812,1,2,~,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C813,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C813,1,2,~,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C814,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+C814,1,2,~,GND,existing reference subcircuit; integration unqualified,15_Hardware_Reset_Interlock
+U95,1,1,DAT2A,TF_HOST_D2,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,2,DAT3A,TF_HOST_D3,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,3,DAT0A,TF_HOST_D0,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,4,DAT1A,TF_HOST_D1,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,5,CLKA,TF_HOST_CLK,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,6,CLK_FB,,OPTIONAL_TF_CLOCK_FEEDBACK_UNUSED_TIMING_GATE,16_TF_Voltage_Translation
+U95,1,7,GND,GND,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,8,CLKB,TFCARD_CLK,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,9,DAT1B,TFCARD_D1,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,10,DAT0B,TFCARD_D0,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,11,DAT3B,TFCARD_D3,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,12,DAT2B,TFCARD_D2,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,13,CMDB,TFCARD_CMD,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,14,VCCB,VDD_3V3,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,15,VCCA,VDD1P8,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+U95,1,16,CMDA,TF_HOST_CMD,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+C815,1,1,~,VDD1P8,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+C815,1,2,~,GND,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+C816,1,1,~,VDD_3V3,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+C816,1,2,~,GND,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+R574,1,1,~,TF_HOST_CLK,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+R574,1,2,~,GND,existing reference subcircuit; integration unqualified,16_TF_Voltage_Translation
+#PS001,1,1,SOURCE_DECLARATION,VDD0P8_CORE,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS002,1,1,SOURCE_DECLARATION,AVDD0P8_PLL,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS003,1,1,SOURCE_DECLARATION,AVDD0P8_MIPI,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS004,1,1,SOURCE_DECLARATION,VDD0P8_DDR_CORE,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS005,1,1,SOURCE_DECLARATION,VDD0P8_CPU,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS006,1,1,SOURCE_DECLARATION,VDD0P8_KPU,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS007,1,1,SOURCE_DECLARATION,VDD1P1_DDR_IO,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS008,1,1,SOURCE_DECLARATION,VDD1P8,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS009,1,1,SOURCE_DECLARATION,VAA_DDR,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS010,1,1,SOURCE_DECLARATION,AVDD1P8_USB,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS011,1,1,SOURCE_DECLARATION,AVDD1P8_PMU,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS012,1,1,SOURCE_DECLARATION,AVDD1P8_MIPI,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS013,1,1,SOURCE_DECLARATION,AVDD1P8_ADC,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS014,1,1,SOURCE_DECLARATION,AVDD1P8_CODEC,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS015,1,1,SOURCE_DECLARATION,VEMMC_IO,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS016,1,1,SOURCE_DECLARATION,VDD_3V3,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS017,1,1,SOURCE_DECLARATION,AVDD3P3_USB,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS018,1,1,SOURCE_DECLARATION,VDD3P3_SD,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS019,1,1,SOURCE_DECLARATION,VIN_5V,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS020,1,1,SOURCE_DECLARATION,GND,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS021,1,1,SOURCE_DECLARATION,BANK0_VDDIO,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS022,1,1,SOURCE_DECLARATION,BANK1_VDDIO,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS023,1,1,SOURCE_DECLARATION,BANK2_VDDIO,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS024,1,1,SOURCE_DECLARATION,BANK3_VDDIO,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS025,1,1,SOURCE_DECLARATION,BANK4_VDDIO,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations
+#PS026,1,1,SOURCE_DECLARATION,BANK5_VDDIO,CAD_DECLARATION_TRACEABLE_NOT_HARDWARE_PART,17_Audited_Source_Declarations

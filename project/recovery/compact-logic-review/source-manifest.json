@@ -1,0 +1,208 @@
+{
+  "date_utc": "2026-10-01",
+  "baseline_vendor_originals_absent_on_recovery": true,
+  "vendor_original_directory": "/workspace/shared/k230-reference",
+  "sources": [
+    {
+      "filename": "sn74lvc1g97.pdf",
+      "source_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf",
+      "revision": "SCES416N Jan2017; live appended package information",
+      "relevant_pdf_pages_1based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        29,
+        30,
+        31
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": "/workspace/shared/k230-reference/sn74lvc1g97.pdf",
+      "bytes": 2101651,
+      "sha256": "53e8bc4d0f966f6e1d8d28987240f17a07e94bec6658ebc92ab322dccae7f416",
+      "availability": "original_retrieved",
+      "visual_review": "TI DSF physical pages29\u201331 viewed locally"
+    },
+    {
+      "filename": "scyb010a.pdf",
+      "source_url": "https://www.ti.com/lit/ml/scyb010a/scyb010a.pdf",
+      "revision": "A",
+      "relevant_pdf_pages_1based": [
+        1
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": "/workspace/shared/k230-reference/scyb010a.pdf",
+      "bytes": 259756,
+      "sha256": "0512ecd290e1fd7b21e98fd76e203bf72f940bb3c7ccd0d579f5b722e1ec8fa0",
+      "availability": "original_retrieved",
+      "visual_review": "not claimed in this recovery pass"
+    },
+    {
+      "filename": "tmux1574.pdf",
+      "source_url": "https://www.ti.com/lit/ds/symlink/tmux1574.pdf",
+      "revision": "SCDS391C Dec2019",
+      "relevant_pdf_pages_1based": [
+        6
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": "/workspace/shared/k230-reference/tmux1574.pdf",
+      "bytes": 2518744,
+      "sha256": "e728f7dbb2a05665c98752fe113662b859ecf6988dc8c58e02a9b49265839867",
+      "availability": "original_retrieved",
+      "visual_review": "not claimed in this recovery pass"
+    },
+    {
+      "filename": "tps3808.pdf",
+      "source_url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "revision": "SBVS050N Aug2026",
+      "relevant_pdf_pages_1based": [
+        6,
+        7
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": "/workspace/shared/k230-reference/tps3808.pdf",
+      "bytes": 2046179,
+      "sha256": "74d889c0f68af88032f1633c26381817cc03e10d9fd3b4c177a044ad3ed86eed",
+      "availability": "original_retrieved",
+      "visual_review": "not claimed in this recovery pass"
+    },
+    {
+      "filename": "74AUP1G97.pdf",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G97.pdf",
+      "revision": "14 Jul2023",
+      "relevant_pdf_pages_1based": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        11
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": null,
+      "availability": "primary_web_text_only",
+      "local_original_download": "HTTP403; no bypass or retry",
+      "visual_review": "not claimed in this recovery pass"
+    },
+    {
+      "filename": "74AUP2G97.pdf",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G97.pdf",
+      "revision": "4 Aug2023",
+      "relevant_pdf_pages_1based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": null,
+      "availability": "primary_web_text_only",
+      "local_original_download": "HTTP403; no bypass or retry",
+      "visual_review": "not claimed in this recovery pass"
+    },
+    {
+      "filename": "74AUP2G08.pdf",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G08.pdf",
+      "revision": "12 Jul2023",
+      "relevant_pdf_pages_1based": [
+        5
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": null,
+      "availability": "primary_web_text_only",
+      "local_original_download": "HTTP403; no bypass or retry",
+      "visual_review": "not claimed in this recovery pass"
+    },
+    {
+      "filename": "74AUP1G06.pdf",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G06.pdf",
+      "revision": "12 Nov2024",
+      "relevant_pdf_pages_1based": [
+        4,
+        6,
+        7
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": null,
+      "availability": "primary_web_text_only",
+      "local_original_download": "not_attempted",
+      "visual_review": "not claimed in this recovery pass"
+    },
+    {
+      "filename": "SOT1160-1.pdf",
+      "source_url": "https://assets.nexperia.com/documents/package-information/SOT1160-1.pdf",
+      "revision": "7Jun2022",
+      "relevant_pdf_pages_1based": [
+        1,
+        2,
+        3
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": null,
+      "availability": "primary_web_text_only",
+      "local_original_download": "not_attempted",
+      "visual_review": "not claimed in this recovery pass"
+    },
+    {
+      "filename": "SOT1255-2.pdf",
+      "source_url": "https://assets.nexperia.com/documents/package-information/SOT1255-2.pdf",
+      "revision": "27Aug2020",
+      "relevant_pdf_pages_1based": [
+        1,
+        2,
+        3
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": null,
+      "availability": "primary_web_text_only",
+      "local_original_download": "not_attempted",
+      "visual_review": "not claimed in this recovery pass"
+    },
+    {
+      "filename": "Nexperia_LOGIC_Handbook_201029.pdf",
+      "source_url": "https://assets.nexperia.com/documents/brochure/Nexperia_LOGIC_Handbook_201029.pdf",
+      "revision": "2020",
+      "relevant_pdf_pages_1based": [
+        130
+      ],
+      "primary_web_text_reviewed": true,
+      "local_file": null,
+      "availability": "primary_web_text_only",
+      "local_original_download": "not_attempted",
+      "visual_review": "not claimed in this recovery pass"
+    }
+  ],
+  "orderable_primary_pages": [
+    {
+      "mpn": "SN74LVC1G97DSFR",
+      "status_observed": "Active",
+      "url": "https://www.ti.com/product/SN74LVC1G97/part-details/SN74LVC1G97DSFR"
+    },
+    {
+      "mpn": "74AUP2G97GUX",
+      "12NC": "935304484115",
+      "status_observed": "Active",
+      "url": "https://www.nexperia.com/products/analog-logic-ics/logic/gates/configurable-gates/serie/74aup2g97"
+    },
+    {
+      "mpn": "74AUP1G97GXZ",
+      "12NC": "935307123147",
+      "status_observed": "Active",
+      "url": "https://www.nexperia.com/products/analog-logic-ics/logic/gates/configurable-gates/serie/74aup1g97"
+    }
+  ],
+  "historical_manifests": {
+    "compact-TI-source-manifest.json": "Older TI AUP alternatives; not current BOM and old originals were absent",
+    "compact-AUP1G97-status.json": "Old U91/U92/U94 topology; source evidence only, not current integration"
+  }
+}

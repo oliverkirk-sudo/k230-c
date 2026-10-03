@@ -1,0 +1,185 @@
+{
+  "status": "U14_INPUT_SLEW_NOT_CLOSED_BY_R33_CHANGE; BOUNDED_SCHMITT_ALTERNATIVE_ONLY",
+  "cad_edits": false,
+  "LVC_existing": {
+    "part": "SN74LVC1G32DBVR",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf",
+    "revision": "W",
+    "pages": [
+      6,
+      7,
+      8,
+      10,
+      13,
+      14
+    ],
+    "max_input_dt_dv_ns_per_V": 10,
+    "applicable_VCC_V": [
+      3.0,
+      3.6
+    ],
+    "GLOBAL_DISABLE_model": {
+      "Rmax_ohm": 11000,
+      "sink_leakage_A": 9.75e-06,
+      "Vinf_V": 3.137879532288977,
+      "illustrative_crossing_V": [
+        0.8,
+        2.0
+      ],
+      "ln_factor": 0.720077864803155,
+      "average_limit_Cmax_F": 1.5149876759609998e-12,
+      "local_slope_at_2V_Cmax_F": 1.0344359384445246e-12,
+      "known_typical_input_C_sum_F": 1e-11,
+      "average_dt_dv_at_10pF_ns_per_V": 66.00713760695588,
+      "C_is_guaranteed": false,
+      "missing_C": [
+        "U93 output",
+        "trace",
+        "pads",
+        "measurement fixture"
+      ],
+      "interpretation": "Illustrative necessary slope screen, not a manufacturer-defined test interval or observed failure. Actual capacitance and transient waveforms unavailable."
+    },
+    "MODE_TF": "Cold-only JP1 makes this a fixed strap during valid stable-supply operation. Open is pulled low; closed tracks3V3. No powered switching authorized; supply ramp/contact settling still unqualified.",
+    "output_load": "Only U13.EN plus R33 and PCB/probe capacitance. R33 does not set normal push-pull output rise time.",
+    "output_capacitance_condition_F": 5e-11,
+    "output_tpd_max_s": 4e-09,
+    "output_tpd_conditions": "3.3V\u00b10.3V,125C table, CL50pF/RL500ohm measurement network, input tr/tf\u22642.5ns. Not an output-rise-time guarantee and not directly applicable to the slow input.",
+    "dedicated_output_rise_fall_max_found": false
+  },
+  "AUP_alternative": {
+    "part": "74AUP1G97GW,125",
+    "source": "https://assets.nexperia.com/documents/data-sheet/74AUP1G97.pdf",
+    "revision": "14",
+    "pages": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "correct_OR": "A=1; Y=B OR C",
+    "incorrect_B_high_configuration": "B=1; Y=A OR NOT C",
+    "proposed_GW_pin_map": {
+      "1": "B=GLOBAL_DISABLE",
+      "2": "GND",
+      "3": "A=VDD_3V3",
+      "4": "Y=DISABLE_OR_TF",
+      "5": "VCC=VDD_3V3",
+      "6": "C=MODE_TF"
+    },
+    "supply_V": [
+      0.8,
+      3.6
+    ],
+    "max_input_V": 3.6,
+    "static_rail_headroom_to_3p6V_V": 0.20783570089123904,
+    "input_leakage_A": 7.5e-07,
+    "GLOBAL_DISABLE_total_high_leakage_A": 5.5e-06,
+    "GLOBAL_DISABLE_high_min_V": 3.1846295322889775,
+    "MODE_TF_total_input_leakage_A": 4.75e-06,
+    "MODE_TF_low_max_V": 0.052250000000000005,
+    "Schmitt_thresholds_at_discrete_3V_125C": {
+      "VTplus_max_V": 2.32,
+      "VTminus_min_V": 0.88,
+      "hysteresis_min_V": 0.79,
+      "GLOBAL_DISABLE_high_margin_V": 0.8646295322889777,
+      "GLOBAL_DISABLE_low_margin_V": 0.49,
+      "MODE_TF_low_margin_V": 0.82775,
+      "MODE_TF_high_margin_V": 0.9251295322889774,
+      "gate": "These are3.0V tabulated thresholds. Extension to3.245\u20133.392V is not silently interpolated; full-range interpretation/characterization remains open."
+    },
+    "slow_input_evidence": "Existing nexperia-aup97-slow-input-review.json: specified Schmitt thresholds/hysteresis, no input-transition row, and manufacturer handbook support slow inputs at valid stable supply. Dynamic table fast-input conditions are not slew restrictions.",
+    "continuous_range_output_125C": {
+      "supply_V": [
+        0.8,
+        3.6
+      ],
+      "IOL_A": 2e-05,
+      "VOL_max_V": 0.11,
+      "IOH_A": -2e-05,
+      "VOH_min_expression": "VCC-0.11V"
+    },
+    "R33_options": {
+      "43000": {
+        "resistance_screen_ohm": [
+          38700.0,
+          47300.00000000001
+        ],
+        "total_acceptance_fraction": 0.1,
+        "sink_bound_A": 8.965282426637625e-05,
+        "reserve_to_20uA_A": -6.965282426637625e-05,
+        "continuous_range_20uA_row_pass": false,
+        "low_margin_if_20uA_row_applies_V": null,
+        "active_high_min_V": 3.1351295322889774,
+        "active_high_margin_to_TMUX_VIH_V": 1.9351295322889774,
+        "unpowered_Ioff_A": 7.5e-07,
+        "unpowered_Ioff_condition": "VCC=0; VI or VO=0\u20133.6V",
+        "hypothetical_separate_live_pullup_high_min_V": 3.115054532288977,
+        "hypothetical_separate_live_pullup_high_margin_V": 1.9150545322889772,
+        "same_rail_power_loss_high_claim": false
+      },
+      "220000": {
+        "resistance_screen_ohm": [
+          198000.0,
+          242000.00000000003
+        ],
+        "total_acceptance_fraction": 0.1,
+        "sink_bound_A": 1.9132142924791725e-05,
+        "reserve_to_20uA_A": 8.67857075208277e-07,
+        "continuous_range_20uA_row_pass": true,
+        "low_margin_if_20uA_row_applies_V": 0.34,
+        "active_high_min_V": 3.1351295322889774,
+        "active_high_margin_to_TMUX_VIH_V": 1.9351295322889774,
+        "unpowered_Ioff_A": 7.5e-07,
+        "unpowered_Ioff_condition": "VCC=0; VI or VO=0\u20133.6V",
+        "hypothetical_separate_live_pullup_high_min_V": 2.579629532288977,
+        "hypothetical_separate_live_pullup_high_margin_V": 1.3796295322889771,
+        "same_rail_power_loss_high_claim": false
+      },
+      "270000": {
+        "resistance_screen_ohm": [
+          243000.0,
+          297000.0
+        ],
+        "total_acceptance_fraction": 0.1,
+        "sink_bound_A": 1.595952386464511e-05,
+        "reserve_to_20uA_A": 4.040476135354893e-06,
+        "continuous_range_20uA_row_pass": true,
+        "low_margin_if_20uA_row_applies_V": 0.34,
+        "active_high_min_V": 3.1351295322889774,
+        "active_high_margin_to_TMUX_VIH_V": 1.9351295322889774,
+        "unpowered_Ioff_A": 7.5e-07,
+        "unpowered_Ioff_condition": "VCC=0; VI or VO=0\u20133.6V",
+        "hypothetical_separate_live_pullup_high_min_V": 2.4283795322889774,
+        "hypothetical_separate_live_pullup_high_margin_V": 1.2283795322889774,
+        "same_rail_power_loss_high_claim": false
+      }
+    },
+    "source_dynamic_conditions": {
+      "supply_V": [
+        3.0,
+        3.6
+      ],
+      "CL_to_tpd_max": {
+        "5pF": 4.3e-09,
+        "10pF": 5.1e-09,
+        "15pF": 5.7e-09,
+        "30pF": 7.4e-09
+      },
+      "input_tr_tf_max_s": 3e-09,
+      "measurement": "50% input-to50% output, RL1Mohm. No standalone maximum output rise/fall specification. Slow-input application does not inherit these nanosecond delay guarantees."
+    },
+    "actual_capacitive_load_verified": false,
+    "retained_gates": [
+      "Same supply rail means no retained-high promise during rail loss.",
+      "Below0.8V and especially0.2\u20130.8V is not deterministic logic.",
+      "AtVCC0\u20130.2V additional IOFF is0.75uA; do not call it ordinary powered logic.",
+      "Actual output rise/fall, load capacitance, receiver switch timing, source noise and threshold-range applicability need validation.",
+      "Keep local bypass;6-pin SOT363-2 symbol/footprint remap required. No drop-in5-pin replacement."
+    ]
+  }
+}

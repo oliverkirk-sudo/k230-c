@@ -1,0 +1,136 @@
+{
+  "status": "SCHEMATIC_FOOTPRINT_BINDINGS_VERIFIED",
+  "components": 254,
+  "pin_bindings_unchanged": 1509,
+  "changed_component_fields": [
+    "U14.footprint",
+    "U92.footprint"
+  ],
+  "native_pad_bindings": [
+    {
+      "reference": "U14",
+      "pad": "1",
+      "net": "GLOBAL_DISABLE",
+      "x_mm": -0.4,
+      "y_mm": -0.35
+    },
+    {
+      "reference": "U14",
+      "pad": "2",
+      "net": "GND",
+      "x_mm": -0.4,
+      "y_mm": 0.0
+    },
+    {
+      "reference": "U14",
+      "pad": "3",
+      "net": "VDD_3V3",
+      "x_mm": -0.4,
+      "y_mm": 0.35
+    },
+    {
+      "reference": "U14",
+      "pad": "4",
+      "net": "DISABLE_OR_TF",
+      "x_mm": 0.4,
+      "y_mm": 0.35
+    },
+    {
+      "reference": "U14",
+      "pad": "5",
+      "net": "VDD_3V3",
+      "x_mm": 0.4,
+      "y_mm": 0.0
+    },
+    {
+      "reference": "U14",
+      "pad": "6",
+      "net": "MODE_TF",
+      "x_mm": 0.4,
+      "y_mm": -0.35
+    },
+    {
+      "reference": "U92",
+      "pad": "1",
+      "net": "GND",
+      "x_mm": -0.525,
+      "y_mm": -0.2
+    },
+    {
+      "reference": "U92",
+      "pad": "2",
+      "net": "BOOT_VOLTAGE_QUALIFIED_1V8",
+      "x_mm": -0.575,
+      "y_mm": 0.2
+    },
+    {
+      "reference": "U92",
+      "pad": "3",
+      "net": "RESET_RELEASE_REQUEST_1V8",
+      "x_mm": -0.4,
+      "y_mm": 0.775
+    },
+    {
+      "reference": "U92",
+      "pad": "4",
+      "net": "GND",
+      "x_mm": 0.0,
+      "y_mm": 0.775
+    },
+    {
+      "reference": "U92",
+      "pad": "5",
+      "net": "FIXED_RAILS_PGOOD_3V3",
+      "x_mm": 0.4,
+      "y_mm": 0.775
+    },
+    {
+      "reference": "U92",
+      "pad": "6",
+      "net": "GND",
+      "x_mm": 0.575,
+      "y_mm": 0.2
+    },
+    {
+      "reference": "U92",
+      "pad": "7",
+      "net": "RSTN",
+      "x_mm": 0.575,
+      "y_mm": -0.2
+    },
+    {
+      "reference": "U92",
+      "pad": "8",
+      "net": "STORAGE_ENABLE_1V8",
+      "x_mm": 0.4,
+      "y_mm": -0.775
+    },
+    {
+      "reference": "U92",
+      "pad": "9",
+      "net": "VDD1P8",
+      "x_mm": 0.0,
+      "y_mm": -0.775
+    },
+    {
+      "reference": "U92",
+      "pad": "10",
+      "net": "FIXED_RAILS_PGOOD_3V3",
+      "x_mm": -0.4,
+      "y_mm": -0.775
+    }
+  ],
+  "negative_controls": [
+    "wrong_footprint",
+    "lost_DNP",
+    "changed_logic_net"
+  ],
+  "ERC_violations": 0,
+  "R528_DNP": true,
+  "PCB_rebuilt": false,
+  "manufacturing_qualified": false,
+  "sha256": {
+    "cad/recovery-physical-candidate/master.xml": "d6410392ae3f65d1b86c47aea0ec6adce01d70b7d07208b87036491a19af9a26",
+    "cad/recovery-compact-candidate/master.xml": "87e61363803398574579a628d9ed9235d0bc0903a1457c88b4b9b6054369bdbd"
+  }
+}

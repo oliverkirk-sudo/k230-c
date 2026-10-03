@@ -1,0 +1,228 @@
+{
+  "status": "PASS_ISOLATED_GEOMETRY_NOT_MANUFACTURING_RELEASE",
+  "kicad": "9.0.2+dfsg-1",
+  "units": "mm",
+  "source_transcription": "TI PDF pp3,29-31 4220597/B 06/2022; independent validator constants, no builder/spec import",
+  "electrical_copper_pads": 6,
+  "mask_only_apertures": 6,
+  "paste_only_apertures": 6,
+  "total_native_pads": 18,
+  "negative_geometry_controls": [
+    {
+      "control": "bottom_view_mirror",
+      "caught": true
+    },
+    {
+      "control": "swap_pins_1_6",
+      "caught": true
+    },
+    {
+      "control": "global_style_paste_shrink",
+      "caught": true
+    },
+    {
+      "control": "wrong_copper_corner_radius",
+      "caught": true
+    },
+    {
+      "control": "invented_exposed_pad",
+      "caught": true
+    },
+    {
+      "control": "missing_mask_aperture",
+      "caught": true
+    }
+  ],
+  "min_copper_gap_mm": 0.18,
+  "min_mask_web_mm": 0.08,
+  "min_paste_aperture_gap_mm": 0.2,
+  "native_geometry_mask_web_controls": [
+    {
+      "required_web_mm": 0.075,
+      "actual_minimum_mm": 0.08,
+      "meets_geometric_rule": true,
+      "factory_approved": false
+    },
+    {
+      "required_web_mm": 0.08,
+      "actual_minimum_mm": 0.08,
+      "meets_geometric_rule": true,
+      "factory_approved": false
+    },
+    {
+      "required_web_mm": 0.081,
+      "actual_minimum_mm": 0.08,
+      "meets_geometric_rule": false,
+      "factory_approved": false
+    },
+    {
+      "required_web_mm": 0.1,
+      "actual_minimum_mm": 0.08,
+      "meets_geometric_rule": false,
+      "factory_approved": false
+    }
+  ],
+  "mask_expansion_sensitivity": [
+    {
+      "expansion_per_side_mm": 0.03,
+      "same_column_mask_web_mm": 0.12,
+      "opposing_mask_gap_mm": 0.14,
+      "status": "unbuilt within-source option; process unqualified"
+    },
+    {
+      "expansion_per_side_mm": 0.04,
+      "same_column_mask_web_mm": 0.1,
+      "opposing_mask_gap_mm": 0.12,
+      "status": "unbuilt within-source option; process unqualified"
+    },
+    {
+      "expansion_per_side_mm": 0.05,
+      "same_column_mask_web_mm": 0.08,
+      "opposing_mask_gap_mm": 0.1,
+      "status": "candidate selected"
+    },
+    {
+      "expansion_per_side_mm": 0.06,
+      "same_column_mask_web_mm": 0.06,
+      "opposing_mask_gap_mm": 0.08,
+      "status": "unbuilt within-source option; process unqualified"
+    },
+    {
+      "expansion_per_side_mm": 0.07,
+      "same_column_mask_web_mm": 0.04,
+      "opposing_mask_gap_mm": 0.06,
+      "status": "unbuilt within-source option; process unqualified"
+    }
+  ],
+  "stencil_geometry_screen": {
+    "paste_area_per_aperture_mm2": 0.08785398163397448,
+    "copper_area_per_pad_mm2": 0.09985398163397449,
+    "paste_to_copper_area_ratio": 0.879824521730267,
+    "paste_wall_area_at_source_009_stencil_mm2": 0.12727433388230813,
+    "paste_area_to_wall_area_ratio": 0.6902725707070991,
+    "minimum_width_to_stencil_thickness": 1.6666666666666667,
+    "status": "geometric quantities only; no stencil-release or assembly acceptance"
+  },
+  "pin_net_parity": {
+    "reference": "U14",
+    "matches_frozen_export": true,
+    "pad_net_map": {
+      "4": "DISABLE_OR_TF",
+      "1": "GLOBAL_DISABLE",
+      "2": "GND",
+      "6": "MODE_TF",
+      "3": "VDD_3V3",
+      "5": "VDD_3V3"
+    },
+    "U14_footprint_field_remains_blank": true,
+    "U92_footprint_field_remains_blank": true,
+    "new_system_pcb_created": false
+  },
+  "persisted_board_library_geometry_parity": true,
+  "export_override_parity": {
+    "F.Cu": {
+      "equal_geometry": true,
+      "geometry_element_count": 6
+    },
+    "F.Mask": {
+      "equal_geometry": true,
+      "geometry_element_count": 6
+    },
+    "F.Paste": {
+      "equal_geometry": true,
+      "geometry_element_count": 6
+    }
+  },
+  "gerber_source_geometry_parity": {
+    "F_Cu": [
+      {
+        "mode": "base",
+        "aperture_size_mm": [
+          0.6,
+          0.17
+        ],
+        "roundrect_radius_mm": 0.05,
+        "flash_count": 6
+      },
+      {
+        "mode": "overrides",
+        "aperture_size_mm": [
+          0.6,
+          0.17
+        ],
+        "roundrect_radius_mm": 0.05,
+        "flash_count": 6
+      }
+    ],
+    "F_Mask": [
+      {
+        "mode": "base",
+        "aperture_size_mm": [
+          0.7,
+          0.27
+        ],
+        "source_roundrect_radius_mm": 0.1,
+        "separate_region_count": 6,
+        "arc_vertex_quantization_tolerance_mm": 2e-06,
+        "maximum_arc_chord_inset_mm": 0.001921471959676957
+      },
+      {
+        "mode": "overrides",
+        "aperture_size_mm": [
+          0.7,
+          0.27
+        ],
+        "source_roundrect_radius_mm": 0.1,
+        "separate_region_count": 6,
+        "arc_vertex_quantization_tolerance_mm": 2e-06,
+        "maximum_arc_chord_inset_mm": 0.001921471959676957
+      }
+    ],
+    "F_Paste": [
+      {
+        "mode": "base",
+        "aperture_size_mm": [
+          0.6,
+          0.15
+        ],
+        "roundrect_radius_mm": 0.05,
+        "flash_count": 6
+      },
+      {
+        "mode": "overrides",
+        "aperture_size_mm": [
+          0.6,
+          0.15
+        ],
+        "roundrect_radius_mm": 0.05,
+        "flash_count": 6
+      }
+    ]
+  },
+  "actual_net_fixture_drc": {
+    "violations": 0,
+    "unconnected_items": 1,
+    "expected_unconnected_net": "VDD_3V3 pins3/5",
+    "reason": "Unrouted source-bound local footprint fixture; no invented tie route or system placement"
+  },
+  "intrinsic_drc": {
+    "clearance_mm": 0.15,
+    "mask_web_rule_mm": 0.075,
+    "violations": 0,
+    "unconnected": 0,
+    "all_pads_have_independent_nets": true,
+    "meaning": "Intrinsic footprint fixture only, no routed-system DRC or schematic DRC parity claim"
+  },
+  "drc_sensitivity": {
+    "TI_DSF_Negative_Clearance_0181": {
+      "clearance": 4
+    },
+    "TI_DSF_Negative_Mask_Web_0081": {},
+    "TI_DSF_Process_020_Clearance_010_Web": {
+      "clearance": 4
+    }
+  },
+  "native_mask_drc_blind_spot": "KiCad9.0.2 does not report the 0.08-mm web of these explicit mask-only pads under a 0.081-mm minimum. The independent native pad-geometry controls reject 0.081 and 0.10 mm. Clean DRC is NOT proof of a mask-web process rule.",
+  "frozen_electrical_files_unchanged": 31,
+  "numeric_assertions_passed": 327
+}

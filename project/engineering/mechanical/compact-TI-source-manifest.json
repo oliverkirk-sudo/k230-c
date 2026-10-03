@@ -1,0 +1,115 @@
+[
+  {
+    "part": "sn74aup1g06",
+    "source_url": "https://www.ti.com/lit/ds/symlink/sn74aup1g06.pdf",
+    "local_file": "/workspace/shared/k230-reference/sn74aup1g06.pdf",
+    "sha256": "22c139293d086fb2de29a0691fb3e5ddde8c09110a78851e3200c250ab583bfd",
+    "pages_by_package": {
+      "DRL": [
+        3,
+        49,
+        50,
+        51
+      ],
+      "DCK": [
+        3,
+        33,
+        34,
+        35
+      ]
+    },
+    "visual_review": "Actual function and mechanical/board/stencil pages viewed. Source page images kept outside distributable tree."
+  },
+  {
+    "part": "sn74aup1g07",
+    "source_url": "https://www.ti.com/lit/ds/symlink/sn74aup1g07.pdf",
+    "local_file": "/workspace/shared/k230-reference/sn74aup1g07.pdf",
+    "sha256": "adbf835afb162e13161f454c8fa1f81c553923e0f628119fe2ecd2840be1d4b2",
+    "pages_by_package": {
+      "DRL": [
+        3,
+        45,
+        46,
+        47
+      ],
+      "DCK": [
+        3,
+        32,
+        33,
+        34
+      ]
+    },
+    "visual_review": "Actual function and mechanical/board/stencil pages viewed. Source page images kept outside distributable tree."
+  },
+  {
+    "part": "sn74aup1g08",
+    "source_url": "https://www.ti.com/lit/ds/symlink/sn74aup1g08.pdf",
+    "local_file": "/workspace/shared/k230-reference/sn74aup1g08.pdf",
+    "sha256": "6d3ebde01544528256297fbf38fcbc9b0c09f1d28147a3b911a6aa684c962256",
+    "pages_by_package": {
+      "DRL": [
+        3,
+        34,
+        35,
+        36
+      ],
+      "DCK": [
+        3,
+        50,
+        51,
+        52
+      ]
+    },
+    "visual_review": "Actual function and mechanical/board/stencil pages viewed. Source page images kept outside distributable tree."
+  },
+  {
+    "part": "sn74aup1g17",
+    "source_url": "https://www.ti.com/lit/ds/symlink/sn74aup1g17.pdf",
+    "local_file": "/workspace/shared/k230-reference/sn74aup1g17.pdf",
+    "sha256": "b59bfa5c4d9d6b4cd91efd46edec046b94670ebe894f3a46ce8089801ac3f36a",
+    "pages_by_package": {
+      "DRL": [
+        3,
+        35,
+        36,
+        37
+      ]
+    },
+    "visual_review": "Actual function and mechanical/board/stencil pages viewed. Source page images kept outside distributable tree."
+  },
+  {
+    "part": "sn74aup1g97",
+    "source_url": "https://www.ti.com/lit/ds/symlink/sn74aup1g97.pdf",
+    "local_file": "/workspace/shared/k230-reference/sn74aup1g97.pdf",
+    "sha256": "e574f923d723d017d38cdfb35ff006cd1e4b658c73c9f18d89b5fceb46a4a627",
+    "pages_by_package": {
+      "DRL6": [
+        1,
+        2,
+        3,
+        18,
+        19,
+        20
+      ]
+    },
+    "visual_review": "Actual function and mechanical/board/stencil pages viewed. Source page images kept outside distributable tree."
+  },
+  {
+    "part": "tps3808",
+    "source_url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "local_file": "/workspace/shared/k230-reference/tps3808.pdf",
+    "sha256": "74d889c0f68af88032f1633c26381817cc03e10d9fd3b4c177a044ad3ed86eed",
+    "pages_by_package": {
+      "DRV": [
+        4,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    "visual_review": "Actual function and mechanical/board/stencil pages viewed. Source page images kept outside distributable tree."
+  }
+]

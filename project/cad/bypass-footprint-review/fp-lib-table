@@ -1,0 +1,3 @@
+(fp_lib_table
+ (lib (name "CMK230_Bypass_Candidates")(type "KiCad")(uri "/workspace/shared/cm-k230-redesign/cad/verified-footprints/bypass-candidates/CMK230_Bypass_Candidates.pretty")(options "")(descr "Read-only production candidate source library"))
+)

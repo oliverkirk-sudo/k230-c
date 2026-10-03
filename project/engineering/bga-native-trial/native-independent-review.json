@@ -1,0 +1,4076 @@
+{
+  "status": "PASS_NATIVE_GEOMETRY_MAPPING_WITH_17_OPEN_POWER_CONNECTIONS_AND_32_DANGLING_WARNINGS",
+  "scope": "Independent native parser comparison. No manufacturing, full-core routing, PDN, SI or assembly qualification.",
+  "checks": [
+    {
+      "check": "Exactly one top-side component; no invented connector or port components",
+      "pass": true
+    },
+    {
+      "check": "Native component reference is actual U3",
+      "pass": true
+    },
+    {
+      "check": "153 distinct native physical pad names exactly match Micron occupied grid",
+      "pass": true
+    },
+    {
+      "check": "A1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A4: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A4: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A4: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A4: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A4: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A4: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A6: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A6: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A6: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A6: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A6: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A6: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A7: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A7: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A7: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A7: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A7: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A7: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A8: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A8: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A8: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A8: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A8: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A8: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A9: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A9: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A9: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A9: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A9: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A9: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A11: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A11: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A11: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A11: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A11: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A11: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "A14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "A14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "A14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "A14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "A14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "A14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B4: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B4: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B4: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B4: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B4: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B4: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B6: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B6: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B6: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B6: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B6: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B6: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B7: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B7: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B7: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B7: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B7: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B7: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B8: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B8: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B8: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B8: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B8: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B8: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B9: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B9: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B9: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B9: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B9: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B9: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B11: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B11: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B11: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B11: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B11: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B11: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "B14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "B14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "B14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "B14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "B14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "B14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C4: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C4: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C4: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C4: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C4: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C4: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C6: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C6: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C6: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C6: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C6: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C6: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C7: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C7: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C7: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C7: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C7: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C7: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C8: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C8: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C8: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C8: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C8: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C8: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C9: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C9: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C9: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C9: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C9: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C9: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C11: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C11: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C11: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C11: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C11: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C11: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "C14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "C14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "C14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "C14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "C14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "C14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "D1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "D1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "D1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "D1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "D1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "D1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "D2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "D2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "D2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "D2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "D2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "D2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "D3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "D3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "D3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "D3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "D3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "D3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "D4: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "D4: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "D4: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "D4: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "D4: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "D4: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "D12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "D12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "D12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "D12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "D12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "D12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "D13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "D13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "D13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "D13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "D13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "D13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "D14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "D14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "D14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "D14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "D14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "D14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E6: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E6: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E6: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E6: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E6: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E6: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E7: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E7: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E7: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E7: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E7: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E7: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E8: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E8: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E8: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E8: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E8: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E8: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E9: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E9: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E9: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E9: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E9: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E9: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "E14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "E14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "E14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "E14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "E14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "E14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "F1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "F1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "F1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "F1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "F1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "F1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "F2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "F2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "F2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "F2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "F2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "F2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "F3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "F3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "F3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "F3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "F3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "F3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "F5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "F5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "F5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "F5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "F5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "F5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "F10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "F10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "F10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "F10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "F10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "F10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "F12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "F12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "F12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "F12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "F12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "F12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "F13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "F13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "F13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "F13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "F13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "F13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "F14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "F14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "F14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "F14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "F14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "F14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "G1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "G1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "G1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "G1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "G1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "G1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "G2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "G2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "G2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "G2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "G2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "G2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "G3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "G3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "G3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "G3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "G3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "G3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "G5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "G5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "G5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "G5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "G5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "G5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "G10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "G10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "G10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "G10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "G10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "G10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "G12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "G12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "G12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "G12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "G12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "G12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "G13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "G13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "G13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "G13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "G13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "G13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "G14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "G14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "G14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "G14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "G14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "G14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "H1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "H1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "H1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "H1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "H1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "H1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "H2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "H2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "H2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "H2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "H2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "H2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "H3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "H3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "H3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "H3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "H3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "H3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "H5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "H5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "H5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "H5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "H5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "H5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "H10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "H10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "H10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "H10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "H10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "H10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "H12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "H12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "H12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "H12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "H12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "H12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "H13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "H13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "H13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "H13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "H13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "H13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "H14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "H14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "H14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "H14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "H14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "H14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "J1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "J1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "J1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "J1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "J1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "J1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "J2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "J2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "J2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "J2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "J2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "J2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "J3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "J3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "J3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "J3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "J3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "J3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "J5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "J5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "J5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "J5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "J5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "J5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "J10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "J10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "J10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "J10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "J10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "J10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "J12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "J12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "J12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "J12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "J12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "J12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "J13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "J13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "J13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "J13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "J13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "J13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "J14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "J14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "J14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "J14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "J14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "J14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K6: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K6: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K6: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K6: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K6: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K6: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K7: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K7: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K7: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K7: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K7: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K7: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K8: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K8: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K8: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K8: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K8: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K8: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K9: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K9: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K9: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K9: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K9: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K9: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "K14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "K14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "K14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "K14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "K14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "K14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "L1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "L1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "L1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "L1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "L1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "L1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "L2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "L2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "L2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "L2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "L2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "L2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "L3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "L3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "L3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "L3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "L3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "L3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "L12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "L12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "L12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "L12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "L12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "L12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "L13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "L13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "L13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "L13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "L13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "L13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "L14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "L14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "L14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "L14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "L14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "L14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M4: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M4: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M4: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M4: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M4: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M4: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M6: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M6: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M6: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M6: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M6: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M6: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M7: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M7: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M7: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M7: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M7: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M7: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M8: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M8: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M8: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M8: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M8: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M8: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M9: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M9: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M9: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M9: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M9: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M9: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M11: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M11: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M11: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M11: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M11: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M11: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "M14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "M14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "M14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "M14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "M14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "M14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N4: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N4: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N4: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N4: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N4: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N4: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N6: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N6: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N6: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N6: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N6: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N6: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N7: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N7: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N7: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N7: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N7: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N7: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N8: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N8: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N8: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N8: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N8: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N8: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N9: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N9: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N9: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N9: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N9: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N9: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N11: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N11: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N11: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N11: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N11: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N11: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "N14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "N14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "N14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "N14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "N14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "N14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P1: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P1: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P1: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P1: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P1: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P1: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P2: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P2: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P2: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P2: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P2: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P2: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P3: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P3: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P3: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P3: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P3: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P3: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P4: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P4: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P4: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P4: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P4: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P4: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P5: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P5: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P5: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P5: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P5: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P5: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P6: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P6: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P6: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P6: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P6: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P6: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P7: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P7: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P7: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P7: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P7: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P7: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P8: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P8: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P8: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P8: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P8: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P8: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P9: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P9: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P9: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P9: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P9: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P9: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P10: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P10: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P10: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P10: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P10: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P10: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P11: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P11: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P11: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P11: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P11: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P11: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P12: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P12: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P12: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P12: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P12: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P12: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P13: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P13: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P13: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P13: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P13: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P13: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "P14: exact component-top coordinates",
+      "pass": true
+    },
+    {
+      "check": "P14: NSMD circular 0.30 mm copper",
+      "pass": true
+    },
+    {
+      "check": "P14: SMD front copper/mask/paste only",
+      "pass": true
+    },
+    {
+      "check": "P14: 0.40 mm mask opening and 0.30 mm paste aperture",
+      "pass": true
+    },
+    {
+      "check": "P14: exact current XML net identity",
+      "pass": true
+    },
+    {
+      "check": "P14: exact physical pin function retained",
+      "pass": true
+    },
+    {
+      "check": "NC109 / RFU4 / VSF7 remain distinct physical functions",
+      "pass": true
+    },
+    {
+      "check": "120 unused lands retain unique isolated XML net identities",
+      "pass": true
+    },
+    {
+      "check": "DS remains a physical named unused strobe net",
+      "pass": true
+    },
+    {
+      "check": "Exactly29 through vias, including all20 modeled PG connections",
+      "pass": true
+    },
+    {
+      "check": "All native via centers and real nets match frozen witness",
+      "pass": true
+    },
+    {
+      "check": "Via0: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via0: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via1: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via1: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via2: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via2: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via3: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via3: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via4: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via4: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via5: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via5: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via6: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via6: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via7: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via7: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via8: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via8: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via9: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via9: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via10: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via10: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via11: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via11: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via12: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via12: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via13: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via13: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via14: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via14: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via15: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via15: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via16: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via16: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via17: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via17: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via18: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via18: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via19: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via19: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via20: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via20: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via21: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via21: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via22: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via22: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via23: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via23: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via24: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via24: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via25: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via25: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via26: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via26: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via27: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via27: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "Via28: 0.30/0.15 mm through geometry on every copper layer",
+      "pass": true
+    },
+    {
+      "check": "Via28: annuli retained in this specific native trial",
+      "pass": true
+    },
+    {
+      "check": "All16 native route segments match frozen points, nets, layers and widths",
+      "pass": true
+    },
+    {
+      "check": "Eight copper layers; proposed1.2mm reference thickness",
+      "pass": true
+    },
+    {
+      "check": "No invented reference or power-plane fills",
+      "pass": true
+    },
+    {
+      "check": "Project rule min_clearance",
+      "pass": true
+    },
+    {
+      "check": "Project rule min_track_width",
+      "pass": true
+    },
+    {
+      "check": "Project rule min_via_diameter",
+      "pass": true
+    },
+    {
+      "check": "Project rule min_through_hole_diameter",
+      "pass": true
+    },
+    {
+      "check": "Project rule min_via_annular_width",
+      "pass": true
+    },
+    {
+      "check": "Project rule min_hole_clearance",
+      "pass": true
+    },
+    {
+      "check": "Project rule min_hole_to_hole",
+      "pass": true
+    },
+    {
+      "check": "No DRC exclusions or ignored severities",
+      "pass": true
+    },
+    {
+      "check": "Native minimum mask web remains 0.10 mm",
+      "pass": true
+    },
+    {
+      "check": "Native footprint mask-bridge allowance is disabled",
+      "pass": true
+    },
+    {
+      "check": "Active custom-rule definition hole_clearance (min 0.20mm)",
+      "pass": true
+    },
+    {
+      "check": "Active custom-rule definition hole_to_hole (min 0.20mm)",
+      "pass": true
+    },
+    {
+      "check": "Active custom-rule definition annular_width (min 0.075mm)",
+      "pass": true
+    },
+    {
+      "check": "Active custom-rule definition clearance (min 0.1016mm)",
+      "pass": true
+    },
+    {
+      "check": "Native DRC reports only expected dangling geometry warnings",
+      "pass": true
+    },
+    {
+      "check": "Native unfinished-power connectivity is retained as17 errors",
+      "pass": true
+    },
+    {
+      "check": "No source schematic-parity claim for a standalone fragment",
+      "pass": true
+    },
+    {
+      "check": "Candidate byte identity preserved by positive controls",
+      "pass": true
+    },
+    {
+      "check": "Independent raw positive-control count annulus",
+      "pass": true
+    },
+    {
+      "check": "Independent raw positive-control count hole_to_copper",
+      "pass": true
+    },
+    {
+      "check": "Independent raw positive-control count hole_to_hole",
+      "pass": true
+    },
+    {
+      "check": "Independent raw positive-control count mask_web",
+      "pass": true
+    }
+  ],
+  "total_checks": 1009,
+  "failed": [],
+  "native_counts": {
+    "physical_SMD_lands": 153,
+    "through_vias": 29,
+    "route_segments": 16,
+    "components": 1,
+    "NC": 109,
+    "RFU": 4,
+    "VSF": 7,
+    "unused_DS": 1
+  },
+  "native_drc": {
+    "geometry_rule_violations": 0,
+    "unconnected_errors": 17,
+    "warning_types": {
+      "track_dangling": 12,
+      "via_dangling": 20
+    },
+    "overall_DRC_clean": false,
+    "interpretation": "Power/ground plane networks and the 12 local host/VDDIM exits are deliberately unfinished. Native DRC adds these connectivity findings beyond the analytic local collision proof; none are suppressed."
+  },
+  "sources_sha256": {
+    "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_SPARSE_LOCAL_TRIAL.kicad_pcb": "249c4b4cdce3db5db4c7092605d266da878519568d416896176d386688f98ffa",
+    "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_SPARSE_LOCAL_TRIAL.kicad_pro": "b0e15ce28afa246b065fb960b1d85078a0d7da6c6a55a128cb3429b5be1abe5a",
+    "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_SPARSE_LOCAL_TRIAL.kicad_dru": "0c181309dacfbee84a8fdddfe4849262705e4653ffbb0f2e9f4d450818332a32",
+    "engineering/bga-engineering-candidates/memory-soc-functional-escape-analysis-cu030-via030-hole015.json": "560e9693d3e38b40918b494d0e3bc7b31e39402e71b4a3a49b58d2a8972eb2a7",
+    "engineering/high-temp-candidates/micron-emmc-ball-comparison.json": "5a7bcd70f1fa75ff84a657e5ad98c206eb732eaa78c8b98c274069b8c4692a55",
+    "cad/high-temp-candidate/master.xml": "5ecd0c50fecfa56826569ec897e47b306bce8e25fa89d5382a7b43a132359c5f",
+    "cad/high-temp-candidate/master-pin-assignments.csv": "43925a589d42ceccdd22a3ea83d5ca12999db1f94df2c797d25ccd7922dd53c5",
+    "engineering/bga-native-trial/native-drc.json": "7b9e7abc4d448b14a46818c902f64c792789c38aee6c9808379c12ece0ed4b00",
+    "engineering/bga-native-trial/rule-control-results.json": "a8266f8a9cbd9e38b75f0cc5e9d0680479fd3f3f0a6772742b7ff0a06c1d500f"
+  },
+  "annotation_note": "The project has small fabrication/drawing-layer analysis labels; there is no printed front/back silkscreen artwork. Annotation sizing is not a manufacturing legend specification."
+}

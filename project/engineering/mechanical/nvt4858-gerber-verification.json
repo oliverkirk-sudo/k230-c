@@ -1,0 +1,20 @@
+{
+  "scope": "Isolated native Gerber geometry only",
+  "layers": {
+    "F_Cu": {
+      "status": "PASS",
+      "checked_rectangular_flashes": 16,
+      "coordinates_sizes_and_layer_checked": true
+    },
+    "F_Mask": {
+      "status": "PASS",
+      "checked_rectangular_flashes": 16,
+      "coordinates_sizes_and_layer_checked": true
+    },
+    "F_Paste": {
+      "status": "PASS",
+      "checked_rectangular_flashes": 16,
+      "coordinates_sizes_and_layer_checked": true
+    }
+  }
+}

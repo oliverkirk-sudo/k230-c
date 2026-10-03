@@ -1,0 +1,308 @@
+{
+  "status": "TI_COMPLETE_ISOLATED_SOURCE_EXAMPLE_NEXPERIA_BLOCKED",
+  "active_CAD_unchanged": true,
+  "protected_electrical_files": {
+    "cad/recovery-compact-candidate/01_SoC_1.kicad_sch": "c57f55d3cca16789d83916cb1d15e5eef28224145d3c6f422c0eea393214e2ce",
+    "cad/recovery-compact-candidate/02_SoC_2.kicad_sch": "7358cfdc74d0cdc74a5eee9a9badf4fa58bc8d24d2cf46412650adeaa8cbaccf",
+    "cad/recovery-compact-candidate/03_SoC_3.kicad_sch": "ade0576bb7480d12a215fa78428e61a7cba6c75b2d3695fd690fb5af1e846e62",
+    "cad/recovery-compact-candidate/04_LPDDR4_1.kicad_sch": "1ac235de31edc3e429e309052ea0dc208e9e2c3cfd12ec4493a1cae933f2de63",
+    "cad/recovery-compact-candidate/05_LPDDR4_2.kicad_sch": "4d33a8b8f34f29cc1fd4969505418947131ff9f1176d63ef8beac9cbc0ad1139",
+    "cad/recovery-compact-candidate/06_eMMC_1.kicad_sch": "0e9981b91138408a99a64be87c1e04dcd3d45d870103cb47354bb7d3c05b1376",
+    "cad/recovery-compact-candidate/07_Edge_Contract_1.kicad_sch": "4f8615783bd500607ab61812a8532b34325c1afc423107d023bde4b2c43682e6",
+    "cad/recovery-compact-candidate/08_Clock_Reset_Boot.kicad_sch": "fa60a9a8192135141c31db6bc42ee311504e499d3cf911e8c3f7382e88b7e0a8",
+    "cad/recovery-compact-candidate/09_Cold_Storage_Selector.kicad_sch": "240254d3995cb7455f06f63764b131480f0cf385b9d81ea8e1a02515f826732a",
+    "cad/recovery-compact-candidate/10_Six_Rail_Power.kicad_sch": "8cccfc0eebf364c24a3f8f27abe810eedddd7569e9f82f39e42150d659d95d32",
+    "cad/recovery-compact-candidate/11_DDR_USB_MIPI_Bias.kicad_sch": "78e207b76b04a579a141c61eb2ba25d8e6bb0ed99c0bf74826a47ba8c87229e2",
+    "cad/recovery-compact-candidate/12_Local_Decoupling.kicad_sch": "7c6366ee71f22522c21f54be7cd2e5cc25d77b790e5bcf68c8a2131bc6eec171",
+    "cad/recovery-compact-candidate/13_PMU_Automatic_Startup.kicad_sch": "1699205c4edde801e5e4eb227f9bbdc28b9777e6e642dba37968e2aae4489ccb",
+    "cad/recovery-compact-candidate/14_EMMC_Local_Bias.kicad_sch": "c5b74c5d0a87968158867a90784675ce2a3675ec4fbdaac69c33fae75047aebc",
+    "cad/recovery-compact-candidate/15_Hardware_Reset_Interlock.kicad_sch": "80247cc5821fd954205300297914403a2b2a911b63d8b7b1f38d7e86daa2a329",
+    "cad/recovery-compact-candidate/16_TF_Voltage_Translation.kicad_sch": "d9e8b7d5a2699f4656479e9c28e1de4ccc25bd2db9ef56745bc64457d1f710a8",
+    "cad/recovery-compact-candidate/17_Audited_Source_Declarations.kicad_sch": "7167f5739237a3ae3a512e039673843581f174f0a875d5f99bb1f688a9129302",
+    "cad/recovery-compact-candidate/CMK230_Core_REVIEW.kicad_pro": "0602ca786fb4635f0df8b22d673b422f2c541040b54b229c906f383db71a74da",
+    "cad/recovery-compact-candidate/CMK230_Core_REVIEW.kicad_sch": "cafb2ec9cbdc602f4698d89953da65f08028910a40ac6fd324252847ab052dd1",
+    "cad/recovery-compact-candidate/Integrated.kicad_sym": "0f1f654f9a4b7ec054835d945c7f01369e44bc8b4839636675b910a605334be7",
+    "cad/recovery-compact-candidate/README.md": "311f75e558ff6241ea9ea3a018a3e23c03d645a9a39dc11962549334f08dbf78",
+    "cad/recovery-compact-candidate/build_review.py": "6a5f0321635bb33764a88fe333e7e0beba9a3a27a3c1362d32620f3d87965db1",
+    "cad/recovery-compact-candidate/bypass-candidate-assignments.json": "9ab85473b20c8ca44f461271aa42eb618ac41de1ddcdab693e751568b36bf701",
+    "cad/recovery-compact-candidate/erc.json": "6c405ffda6003bb88141a579e5cb63dbf2eff5c49c4dffe3ad1fa00743e9735c",
+    "cad/recovery-compact-candidate/fp-lib-table": "53c62d8e83fde34eae7b4c4a735d29c6f49479ee6cac714ee478e6f36c2a5387",
+    "cad/recovery-compact-candidate/master-pin-assignments.csv": "dcdd840fcecd90e8c938c5e5412328d91e37069e2022666fb3caffa767e8dfd3",
+    "cad/recovery-compact-candidate/master.xml": "87e61363803398574579a628d9ed9235d0bc0903a1457c88b4b9b6054369bdbd",
+    "cad/recovery-compact-candidate/memory-types.json": "a1c6bd14f2b5e9494c4e1c09d58f19088ea649693284705d370e8de1a39309b1",
+    "cad/recovery-compact-candidate/power-source-paths.json": "f7ca9d5bece2a314cac9ffadd19dd60de416e3f87d02a5f7b291b8a68ee4d9be",
+    "cad/recovery-compact-candidate/source-validation.json": "a8e8e6c226374ff23c513d3ddc8d1c4a38120f2eb11e76b1bb992ff228679472",
+    "cad/recovery-compact-candidate/sym-lib-table": "fe8577018d1343220a17259ab4eb0569e6399660b9481fb29872407be2d897b1"
+  },
+  "sources": {
+    "/workspace/shared/k230-reference/sn74lvc1g97.pdf": "53e8bc4d0f966f6e1d8d28987240f17a07e94bec6658ebc92ab322dccae7f416"
+  },
+  "files": {
+    "recovery/logic-footprint-review/REVIEW.md": {
+      "sha256": "913e7db63d049c0e8f39f35953c06c83d49e9096c21f9fea345a60d228fc6797",
+      "bytes": 10725
+    },
+    "recovery/logic-footprint-review/TI_DSF_Geometry_QA_ONLY-drc.json": {
+      "sha256": "7cd98e602fbb32b8678d54858dbe43c047468c627e2a8a33c5a699114f2d6e69",
+      "bytes": 289
+    },
+    "recovery/logic-footprint-review/TI_DSF_Negative_Clearance_0181-drc.json": {
+      "sha256": "461f9c1392a86218946abd30aa343adac263f450812d724c5344e683884a049a",
+      "bytes": 3656
+    },
+    "recovery/logic-footprint-review/TI_DSF_Negative_Mask_Web_0081-drc.json": {
+      "sha256": "e93b910ade6bd17a897cb646ed9fbf178f34f29425084ca7d335e3b8b33fc802",
+      "bytes": 295
+    },
+    "recovery/logic-footprint-review/TI_DSF_Process_020_Clearance_010_Web-drc.json": {
+      "sha256": "a12b277413eb018f4d01c00afd85d0c1ebf032e7133cdab6ac5e8ee5ee78a55f",
+      "bytes": 3662
+    },
+    "recovery/logic-footprint-review/TI_DSF_U14_Pin_Parity_ONLY-drc.json": {
+      "sha256": "776b2115f88abb71fcae1b51732f843a75f8781da9f7c61c9b504bbb4607306e",
+      "bytes": 1075
+    },
+    "recovery/logic-footprint-review/audit-run.log": {
+      "sha256": "a8d2047247d08cdfc48312d2ddcfd1900fbc6c66508f643f7a283e59c6bb9858",
+      "bytes": 12814
+    },
+    "recovery/logic-footprint-review/audit_dsf_candidate.py": {
+      "sha256": "793fac9f502dbe77ac86464deb6c20c36e80b11cf97c333e8484d3038427e27a",
+      "bytes": 18107
+    },
+    "recovery/logic-footprint-review/build_dsf_candidate.py": {
+      "sha256": "007da34ab3396e038991297bae45d8678b41538cf87409200795093d4ce2f36d",
+      "bytes": 6765
+    },
+    "recovery/logic-footprint-review/evidence/TI_DSF_native_layer_review.png": {
+      "sha256": "19d4d5d5a5441cc34a42f16f3c4a4e1e43d033ca942772b8fb260e9a251f88f5",
+      "bytes": 191500
+    },
+    "recovery/logic-footprint-review/evidence/TI_DSF_native_layer_review.svg": {
+      "sha256": "34a4e36674a62344a03df6e7cf01b51c8723764f94dccb5ab78f5fe06f4fea39",
+      "bytes": 11516
+    },
+    "recovery/logic-footprint-review/evidence/TI_DSF_page_29.png": {
+      "sha256": "553b51b4c5cf445655eaf84d6294ad55bedfbc33584acb577932d94810d11df6",
+      "bytes": 114902
+    },
+    "recovery/logic-footprint-review/evidence/TI_DSF_page_30.png": {
+      "sha256": "bb968b53d61485f00d57e3e1b41bc4bf0ddc8d0a0f9ca52efc408c000df12622",
+      "bytes": 107340
+    },
+    "recovery/logic-footprint-review/evidence/TI_DSF_page_31.png": {
+      "sha256": "5625f70e61a3d756f7b746b6f79a9e8cf6bdf6b1ef7b82566cdfd8ce0686aa33",
+      "bytes": 85177
+    },
+    "recovery/logic-footprint-review/evidence/TI_DSF_pin_map_page_3.png": {
+      "sha256": "b04b2fc09ffb1918a3310233b6b4feacbafcf44163760a2a8e0aa1e90e5c40d6",
+      "bytes": 140632
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-base/TI_DSF_Geometry_QA_ONLY-F_Courtyard.gbr": {
+      "sha256": "dba6ee060cfe7002f6eb15e0db4da1da78c82e425f8a4c909729265b7e5bf9bb",
+      "bytes": 606
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-base/TI_DSF_Geometry_QA_ONLY-F_Cu.gtl": {
+      "sha256": "a4201260a38ddddba192bc2ce2db5b11ee55335dc5bd35cc63efdcd614f2f563",
+      "bytes": 1561
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-base/TI_DSF_Geometry_QA_ONLY-F_Fab.gbr": {
+      "sha256": "155f30ddb6084cba753b095ca56aef59e4cd1a92bd44c307708fb1758ed5d66e",
+      "bytes": 6689
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-base/TI_DSF_Geometry_QA_ONLY-F_Mask.gts": {
+      "sha256": "37526b36053121c9e695707127470d91caebc889abb0cf1fcf4931d0fb0cbc0b",
+      "bytes": 3347
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-base/TI_DSF_Geometry_QA_ONLY-F_Paste.gtp": {
+      "sha256": "056b75310e77fc0420a965d99699c604e7f0d3a62335b7c37e339527629f6b44",
+      "bytes": 1286
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-base/TI_DSF_Geometry_QA_ONLY-F_Silkscreen.gto": {
+      "sha256": "b0dcce42c7e2632844db2361b8e226570d64379cd0848d32af3c8fea471d612d",
+      "bytes": 2355
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-base/TI_DSF_Geometry_QA_ONLY-job.gbrjob": {
+      "sha256": "70d573b0f05325707ec96413162161fc147eb68a47d3ec488430932a46d4b141",
+      "bytes": 2218
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-overrides/TI_DSF_Aperture_Override_Control-F_Courtyard.gbr": {
+      "sha256": "5ba3e48f6bce9267ddc0fe4e7b226a10749d9f63ae8e2fad2095382afa637127",
+      "bytes": 615
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-overrides/TI_DSF_Aperture_Override_Control-F_Cu.gtl": {
+      "sha256": "97c7f580506f6366338067b4d3109efe0bff7fd5baf87f487532e26167af2d6c",
+      "bytes": 1570
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-overrides/TI_DSF_Aperture_Override_Control-F_Fab.gbr": {
+      "sha256": "173564714ad8d63a2da93f09c433b216c4fa9453614db53a1600bc325a879c68",
+      "bytes": 6698
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-overrides/TI_DSF_Aperture_Override_Control-F_Mask.gts": {
+      "sha256": "458360dc919ca783bac13054152eff9d5b44294d5e0c5be9ac3736ac19aa7cb7",
+      "bytes": 3356
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-overrides/TI_DSF_Aperture_Override_Control-F_Paste.gtp": {
+      "sha256": "a64eb9378bfbee36b47d58382ade7b44358fdc2e72cb4c6e120b5ece6f3a6a2f",
+      "bytes": 1295
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-overrides/TI_DSF_Aperture_Override_Control-F_Silkscreen.gto": {
+      "sha256": "ca0224b71dc8f0e45d5031d7658ad80ecbd71c49a1b565c4e662ca4f0280db2c",
+      "bytes": 2364
+    },
+    "recovery/logic-footprint-review/evidence/gerbers-overrides/TI_DSF_Aperture_Override_Control-job.gbrjob": {
+      "sha256": "7b436c9cee3644b7a517f2554094ffea8aef81245833652e17580fa6ee746d49",
+      "bytes": 2272
+    },
+    "recovery/logic-footprint-review/evidence/native-base-F.Cu.svg": {
+      "sha256": "9b8c0c8d1a5887094e8f5a57152f7c00f161bc152c3a10b4a641688dd797de7d",
+      "bytes": 2904
+    },
+    "recovery/logic-footprint-review/evidence/native-base-F.Mask.svg": {
+      "sha256": "e182e36fd0e6fef57e0bb2cf4a839c973fb3761675994a4002c329a30142e484",
+      "bytes": 2906
+    },
+    "recovery/logic-footprint-review/evidence/native-base-F.Paste.svg": {
+      "sha256": "588859d12cfe84cb4340a9dca9e7cb1cd95cd4b5462b23f936aa96322649612c",
+      "bytes": 2907
+    },
+    "recovery/logic-footprint-review/evidence/native-overrides-F.Cu.svg": {
+      "sha256": "33df9691c431ec591269c42e4c5db273a8862ee1b506ba9c04b5402d96a32531",
+      "bytes": 2909
+    },
+    "recovery/logic-footprint-review/evidence/native-overrides-F.Mask.svg": {
+      "sha256": "6749abbcc4f541fa0d79ea0cd4f188dcb3de9a526e6b8d49c60def8e2b06dec0",
+      "bytes": 2911
+    },
+    "recovery/logic-footprint-review/evidence/native-overrides-F.Paste.svg": {
+      "sha256": "d60186ab600ebdbf749aeaad14de404c76e7f856971584a58c8e7391a29d47f9",
+      "bytes": 2912
+    },
+    "recovery/logic-footprint-review/frozen-electrical-inputs.json": {
+      "sha256": "aa0af69f455f5440d1e2efc8723e77fc2d7c4505e0cc9d365e9fbadfe2abe3ee",
+      "bytes": 3988
+    },
+    "recovery/logic-footprint-review/native-drc-runs.json": {
+      "sha256": "c3b753344048466478d0e61dc9ce88f84c844a535a81a9525c881ebd08fef2d0",
+      "bytes": 3200
+    },
+    "recovery/logic-footprint-review/native-export-runs.json": {
+      "sha256": "31469168d6273423cc8e676ab9024b5dd0d7d7166b923c63d468e525384d4c64",
+      "bytes": 6470
+    },
+    "recovery/logic-footprint-review/nexperia-blocked-gate.json": {
+      "sha256": "0d34031e3bf4d133686903b269f1bb8fda5a4b8f2d1d6bd5d0bf1737f6596a87",
+      "bytes": 817
+    },
+    "recovery/logic-footprint-review/render_review.py": {
+      "sha256": "2b15f211a5e01647ac184565bf76e465a83de87db17d421e60a83d015ce1258a",
+      "bytes": 3285
+    },
+    "recovery/logic-footprint-review/source-manifest.json": {
+      "sha256": "4f88a2ebf44263d33ee52ab303512265e07765dbde817c4946244a2cdad99411",
+      "bytes": 1919
+    },
+    "recovery/logic-footprint-review/ti-dsf-pad-map.csv": {
+      "sha256": "73dd9b8dad1ec6fadedff53d325c958c4ed1ce318427d3857c1eaf2b8b58cb1e",
+      "bytes": 548
+    },
+    "recovery/logic-footprint-review/ti-dsf-spec.json": {
+      "sha256": "31ecc5fb5c70398fb8c3c2cfaae5493cbe4c0f07672b143e6676605c4a11d92e",
+      "bytes": 3343
+    },
+    "recovery/logic-footprint-review/validation.json": {
+      "sha256": "514a87b13ef027b8c28f47ef4bb24a4d8df89cd3d3cd82eec8c4c094075cb6a6",
+      "bytes": 6215
+    },
+    "cad/recovery-footprint-candidates/CMK230_Recovery_Logic_Candidates.pretty/TI_DSF0006A_SN74LVC1G97_1x1_P0.35_SourceExample_CANDIDATE.kicad_mod": {
+      "sha256": "c5a328ba3e3158f90fc6d069c13a7c6861276090a027d08a9acb9eba2e997937",
+      "bytes": 5055
+    },
+    "cad/recovery-footprint-candidates/README.md": {
+      "sha256": "20e8db262012f8930e5d98b9a9cc0f13f812d7af213c4f6466bfe2a76babf094",
+      "bytes": 1091
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Aperture_Override_Control.kicad_pcb": {
+      "sha256": "bf51cd1732b521fca969ac8f9c06ff94a4903947679cf71cde3a3ea8c6283ed2",
+      "bytes": 11014
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Aperture_Override_Control.kicad_pro": {
+      "sha256": "ebbebaae5a1baed4d2b5b2235bf1ea45085453866b1e4918cb7262fab6fedc08",
+      "bytes": 1148
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Geometry_QA_ONLY.kicad_pcb": {
+      "sha256": "2d6a254ce229fce6e88fdfb52e83f569e2653589fdaafd2c523e101d817b1185",
+      "bytes": 10847
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Geometry_QA_ONLY.kicad_prl": {
+      "sha256": "5ba284c64972087e7bdc0ac298b6a2c4ce80fb0a1ab8dd81f528a85cdd40461b",
+      "bytes": 2074
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Geometry_QA_ONLY.kicad_pro": {
+      "sha256": "be2994f836566315f6830f119aa3275b1b744beb9ed57507c9a9d0d28e04919b",
+      "bytes": 1055
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Negative_Clearance_0181.kicad_pcb": {
+      "sha256": "2d6a254ce229fce6e88fdfb52e83f569e2653589fdaafd2c523e101d817b1185",
+      "bytes": 10847
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Negative_Clearance_0181.kicad_pro": {
+      "sha256": "7cbc85e4a415ee5f1a118a27cfa0344235c273e3e78ff8e0f9312c1da5b2ae4f",
+      "bytes": 1064
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Negative_Mask_Web_0081.kicad_pcb": {
+      "sha256": "333649f04e7b01c171d0b619d387494a1d58196661707498056063d7cab6c187",
+      "bytes": 10847
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Negative_Mask_Web_0081.kicad_pro": {
+      "sha256": "89e5e052e4cfd08738a8665d4e063e07b377b81cd62814c9684bb202d7c474c3",
+      "bytes": 1061
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Process_020_Clearance_010_Web.kicad_pcb": {
+      "sha256": "a9e3c6e66364b4e3f0b68a64d547d362cc75d281ea7c30cc259c5ee94a8ea8ef",
+      "bytes": 10845
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_Process_020_Clearance_010_Web.kicad_pro": {
+      "sha256": "000d92216b8314d6f7b231106997795c255b6000771a8e4587a245e50d19ee61",
+      "bytes": 1064
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_U14_Pin_Parity_ONLY.kicad_pcb": {
+      "sha256": "507f0e07f1c8d23598dc8ac1e76804e7ecce7ad1ac946fa39bd2d38d9ae1b3af",
+      "bytes": 10725
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_U14_Pin_Parity_ONLY.kicad_prl": {
+      "sha256": "05f5cf36c51e335c0694b9c658ad2550706a98cf41b1fafab05b969001699fc4",
+      "bytes": 2077
+    },
+    "cad/recovery-footprint-candidates/TI_DSF_U14_Pin_Parity_ONLY.kicad_pro": {
+      "sha256": "478b1ee6f3124359e2fec0067d2f393ff73dd24f81ca0f1759f0ab64ea9bfa63",
+      "bytes": 1058
+    },
+    "cad/recovery-footprint-candidates/fp-lib-table": {
+      "sha256": "0544d2d2d2ada1b456df17fa313d9b16991e88688523ca6d1dc4070a5f240925",
+      "bytes": 241
+    }
+  },
+  "validation": {
+    "numeric_assertions": 327,
+    "intrinsic_drc": {
+      "clearance_mm": 0.15,
+      "mask_web_rule_mm": 0.075,
+      "violations": 0,
+      "unconnected": 0,
+      "all_pads_have_independent_nets": true,
+      "meaning": "Intrinsic footprint fixture only, no routed-system DRC or schematic DRC parity claim"
+    },
+    "actual_net_fixture_drc": {
+      "violations": 0,
+      "unconnected_items": 1,
+      "expected_unconnected_net": "VDD_3V3 pins3/5",
+      "reason": "Unrouted source-bound local footprint fixture; no invented tie route or system placement"
+    },
+    "nexperia_geometry_generated": false
+  },
+  "non_deliverable_exclusions": [
+    "cad/recovery-footprint-candidates/runtime (tool runtime cache/config/data)"
+  ],
+  "all_jobs_terminal": true
+}

@@ -1,0 +1,117 @@
+                   1                                                         2                                                             3                                           4                                                            5                                                        6
+
+
+
+
+    HDMI
+                                                                                   U3
+                                                                             47     MLRXA_D0P           TX_C+       22    HDMI_CLK_P
+                                                                             46     MLRXA_D0N           TX_C-       21    HDMI_CLK_N
+A                                                                            45     MLRXA_D1P          TX_D0+       25    HDMI_D0_P                                                                                                                                                                                          A
+                                                                             44                                     24    HDMI_D0_N               GND
+                                                                                    MLRXA_D1N          TX_D0-                                                       VDD_5V
+                                                                             43     MLRXA_DCP          TX_D1+       28    HDMI_D1_P
+                                                                             42     MLRXA_DCN          TX_D1-       27    HDMI_D1_N
+                                                                             41     MLRXA_D2P          TX_D2+       30    HDMI_D2_P
+                                                                             40     MLRXA_D2N          TX_D2-       29    HDMI_D2_N                    R51     R52     R53
+                                                                             39     MLRXA_D3P                                                          100k    4.7k    4.7k                                      U4                                                       U5
+                                                       LT9611 swap           38     MLRXA_D3N       HPD_GPIO2       13    HDMI_HPD                                                           HDMI_D2_P       1    IO1       NC       10                 HDMI_D0_P    1     IO1       NC    10
+                                                                                                        DSDA        14    HDMI_SDA                                                           HDMI_D2_N       2    IO2       NC       9                  HDMI_D0_N    2     IO2       NC    9
+                                                                 DSI_D3_P    58     MLRXB_D0P            DSCL       15    HDMI_SCL                                                           HDMI_D1_P       4    IO3       NC       7                  HDMI_CLK_P   4     IO3       NC    7
+                                                                 DSI_D3_N    57     MLRXB_D0N             CEC       26    HDMI_CEC                                                           HDMI_D1_N       5    IO4       NC       6                  HDMI_CLK_N   5     IO4       NC    6
+                                                                 DSI_D2_N    56     MLRXB_D1P                                                             D1
+                                                                 DSI_D2_P    55     MLRXB_D1N              ESDA     16                     R54      10k                                                      3    GND GND            8                               3     GND GND         8
+                                                                                                                                                                             VDD_3V3   GND                                                     GND
+                                                                 DSI_CLK_P   54     MLRXB_DCP              ESCL     31
+      VDD_1V8                                                    DSI_CLK_N   53                                                                           B0520WS                                                TPD4E05U06                                               TPD4E05U06
+                                                                                    MLRXB_DCN
+                                                                 DSI_D0_N    52     MLRXB_D2P           VCC33       37
+                                                                                                                          VDD_3V3
+                                                                 DSI_D0_P    51     MLRXB_D2N           VCC33       10
+                                                                 DSI_D1_P    50     MLRXB_D3P        VCC18_RX       48
+             R55       R56   R57    R58                                                                                   VDD_1V8_RX
+                                                                 DSI_D1_N    49     MLRXB_D3N        VCC18_TX       19
+             10k       10k   4.7k   4.7k                                                                                  VDD_1V8_TX
+                                                                                                          VDD       11
+                                                                                                                          VDD_1V8
+                                           I2C_SDA                           35     CSDA                  VDD       36
+                                           I2C_SCL                           34     CSCL
+                                           HDMI_RSTN                         33     RSTN
+                                           HDMI_INT                          12     INT_ATST_GPIO3     GPIO12       2
+                                                                             32     ADDR_GPIO0         GPIO13       1
+                             VDD_3V3
+                                                                                                       GPIO14       64
+             C44                                                              9     SCLK_GPIO4         GPIO15       63
+                                                        T1
+                                                                              8     WS_GPIO5           GPIO16       62
+                                                             TestPoint
+B            100nF                                                            7     SD0_GPIO6          GPIO17       61                                                                                                                                                                                                       B
+                                                                              6     SD1_GPIO7          GPIO18       60
+                                                                              5     SD2_GPIO8          GPIO19       59
+                                                                              4     SPDIF_SD3_GPIO9
+          GND                                                                 3     MCLK_GPIO10                           R59       2k
+                                                                                                           REXT     20
+                                                                 LT9611_XTALO17     XTALO                  VCOM     23    C45      4.7uF
+                                                                                                                                                  GND
+                                                                 LT9611_XTALI 18    XTALI                  EPAD     65
+
+                                                                                   LT9611                                                                                                                                            HDMI
+
+
+
+
+                                                                                                                                                                                                         HDMI_D2_P               1       D2+
+                                                                                                                                                                                                                                                                          S_2    2
+                                                                                                                                                                                                                                                                                          GND
+                                                                                                                                                                                                         HDMI_D2_N               3       D2-
+                                                                                                                                                                                                                                                                          D1+    4             HDMI_D1_P
+                                                                                                                                                                                                                                 5       S_1
+                                                                                                                                                                                                                      GND
+                                                                                                                                                                                                                                                                          D1-    6             HDMI_D1_N
+                                                                      B1       220R@100MHz                                                                                                               HDMI_D0_P               7       D0+
+                                                       VDD_1V8                                               VDD_1V8_RX         VDD_1V8
+                                                                                                                                                                                                                                                                          S_0    8
+                                                                                                                                                                                                                                                                                          GND
+                                                                                            C46      C47                                         C48          C49                                        HDMI_D0_N               9       D0-
+                                                                                                                                                                                                                                                                         CLK+    10            HDMI_CLK_P
+                                                                                            4.7uF    100nF                                       4.7uF        100nF                                                          11          S_C
+                                                                                                                                                                                                                      GND
+                                                                                                                                                                                                                                                                         CLK-    12            HDMI_CLK_N
+C                                                                                                             GND                GND                                                                                                                                                                                         C
+                                                                                                                                                                                                         HDMI_CEC            13          CEC
+                LT9611_XTALI                                          B2       220R@100MHz                                                                                                                                                                                NC     14
+                                                                                                             VDD_1V8_TX         VDD_3V3
+                                                                                                                                                                                                         HDMI_SCL            15          SCL
+                                                                                            C50                                                  C51          C52      C53                                                                                               SDA     16            HDMI_SDA
+                R60
+                                                                                                                                                                                                                             17          DDC/CECG
+                1M                                                                                                                                                                                                    GND                                                                  D2
+                                                                                            4.7uF                                                4.7uF        100nF    100nF                                                                                              +5V    18
+                                                                                                                                                                                                                                                                                                            VDD_5V
+                LT9611_XTALO           Y3                                                                                                                                                                HDMI_HPD            19          HOTPLUG
+                                                                                                              GND                GND
+      C54       C55          1        2                                                                                                                                                                                                                                                     B0520WS
+                                                                                                                                                                                                                                                                         GND     20
+                             4        3                                                                                                                                                                                                                                  GND     21
+      12pF      12pF
+                                                                                                                                                                                                                                                                         GND     22
+                        27MHz@1.8V 2520封装                                                                                                                                                                                                                                GND     23
+
+
+    GND                                                                                                                                                                                                                              HDMI-MH                                          GND
+
+
+
+
+D                                                                                                                                                                                                                                                                                                                            D
+
+
+
+                                                                                                                                                                                                                                                        Title
+
+
+                                                                                                                                                                                                                                                        Size    Number                                            Revision
+                                                                                                                                                                                                                                                         A3
+                                                                                                                                                                                                                                                        Date:                                         Sheet Of
+                                                                                                                                                                                                                                                        File:                                         Drawn By:
+                   1                                                         2                                                             3                                           4                                                            5                                                        6

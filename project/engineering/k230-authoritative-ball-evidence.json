@@ -1,0 +1,3942 @@
+{
+  "source": "CanMV-K230-V1.0_2023-09-15.pdf",
+  "sha256": "fba13dac1faefe818d2d6a91670192aad5dd0baa62d63203a7ff34381b8cbcbb",
+  "method": "Unique PDF words; symbol pin-name baseline +3.273 pt below same-row ball designator; fixed component/body columns; visually checked pages 1 and 7. PDF coordinates are points, top-left origin.",
+  "pins": [
+    {
+      "soc_ball": "R13",
+      "soc_signal": "VDDIO_BANK0",
+      "reference_net": "VDDIO_BANK0",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        116.88,
+        441.385,
+        128.884,
+        450.097
+      ],
+      "signal_bbox": [
+        138.24,
+        444.655,
+        184.071,
+        453.367
+      ],
+      "net_bbox": [
+        53.28,
+        441.385,
+        99.111,
+        450.097
+      ]
+    },
+    {
+      "soc_ball": "W15",
+      "soc_signal": "GPIO2/JTAG_TCK/PULSE_CNTR0",
+      "reference_net": "BANK0_GPIO2",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        115.42,
+        455.785,
+        128.877,
+        464.497
+      ],
+      "signal_bbox": [
+        138.24,
+        459.055,
+        242.267,
+        467.767
+      ],
+      "net_bbox": [
+        53.28,
+        455.785,
+        98.391,
+        464.497
+      ]
+    },
+    {
+      "soc_ball": "V15",
+      "soc_signal": "GPIO3/JTAG_TDI/PULSE_CNTR1/UART1_TXD",
+      "reference_net": "BANK0_GPIO3",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.24,
+        462.985,
+        128.884,
+        471.697
+      ],
+      "signal_bbox": [
+        138.24,
+        466.255,
+        279.727,
+        474.967
+      ],
+      "net_bbox": [
+        53.28,
+        462.985,
+        98.391,
+        471.697
+      ]
+    },
+    {
+      "soc_ball": "Y15",
+      "soc_signal": "GPIO4/JTAG_TDO/PULSE_CNTR2/UART1_RXD",
+      "reference_net": "BANK0_GPIO4",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.24,
+        470.185,
+        128.884,
+        478.897
+      ],
+      "signal_bbox": [
+        138.24,
+        473.455,
+        283.726,
+        482.167
+      ],
+      "net_bbox": [
+        53.28,
+        470.185,
+        98.391,
+        478.897
+      ]
+    },
+    {
+      "soc_ball": "U14",
+      "soc_signal": "GPIO5/JTAG_TMS/PULSE_CNTR3/UART2_TXD",
+      "reference_net": "BANK0_GPIO5",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        116.88,
+        477.385,
+        128.884,
+        486.097
+      ],
+      "signal_bbox": [
+        138.24,
+        480.655,
+        282.999,
+        489.367
+      ],
+      "net_bbox": [
+        53.28,
+        477.385,
+        98.391,
+        486.097
+      ]
+    },
+    {
+      "soc_ball": "V14",
+      "soc_signal": "GPIO6/JTAG_RST/PULSE_CNTR4/UART2_RXD",
+      "reference_net": "BANK0_GPIO6",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.24,
+        484.585,
+        128.884,
+        493.297
+      ],
+      "signal_bbox": [
+        138.24,
+        487.855,
+        282.999,
+        496.567
+      ],
+      "net_bbox": [
+        53.28,
+        484.585,
+        98.391,
+        493.297
+      ]
+    },
+    {
+      "soc_ball": "W14",
+      "soc_signal": "GPIO7/PWM2/IIC4_SCL",
+      "reference_net": "BANK0_GPIO7",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        115.42,
+        491.785,
+        128.877,
+        500.497
+      ],
+      "signal_bbox": [
+        138.24,
+        495.055,
+        209.9,
+        503.767
+      ],
+      "net_bbox": [
+        53.28,
+        491.785,
+        98.391,
+        500.497
+      ]
+    },
+    {
+      "soc_ball": "U12",
+      "soc_signal": "GPIO8/PWM3/IIC4_SDA",
+      "reference_net": "BANK0_GPIO8",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        116.88,
+        498.985,
+        128.884,
+        507.697
+      ],
+      "signal_bbox": [
+        138.24,
+        502.255,
+        210.626,
+        510.967
+      ],
+      "net_bbox": [
+        53.28,
+        498.985,
+        98.391,
+        507.697
+      ]
+    },
+    {
+      "soc_ball": "T13",
+      "soc_signal": "GPIO9/PWM4/UART1_TXD/IIC1_SCL",
+      "reference_net": "BANK0_GPIO9",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.6,
+        506.185,
+        128.878,
+        514.897
+      ],
+      "signal_bbox": [
+        138.24,
+        509.455,
+        249.905,
+        518.167
+      ],
+      "net_bbox": [
+        53.28,
+        506.185,
+        98.391,
+        514.897
+      ]
+    },
+    {
+      "soc_ball": "U13",
+      "soc_signal": "GPIO10/3D_CTRL_IN/UART1_RXD/IIC1_SDA",
+      "reference_net": "BANK0_GPIO10",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        116.88,
+        513.385,
+        128.884,
+        522.097
+      ],
+      "signal_bbox": [
+        138.24,
+        516.655,
+        274.641,
+        525.367
+      ],
+      "net_bbox": [
+        53.28,
+        513.385,
+        102.031,
+        522.097
+      ]
+    },
+    {
+      "soc_ball": "Y14",
+      "soc_signal": "GPIO11/3D_CTRL_OUT1/UART2_TXD/IIC2_SCL",
+      "reference_net": "BANK0_GPIO11",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.24,
+        520.585,
+        128.884,
+        529.297
+      ],
+      "signal_bbox": [
+        138.24,
+        523.855,
+        284.099,
+        532.567
+      ],
+      "net_bbox": [
+        53.28,
+        520.585,
+        102.031,
+        529.297
+      ]
+    },
+    {
+      "soc_ball": "V13",
+      "soc_signal": "GPIO12/3D_CTRL_OUT2/UART2_RXD/IIC2_SDA",
+      "reference_net": "BANK0_GPIO12",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.24,
+        527.785,
+        128.884,
+        536.497
+      ],
+      "signal_bbox": [
+        138.24,
+        531.055,
+        285.552,
+        539.767
+      ],
+      "net_bbox": [
+        53.28,
+        527.785,
+        102.031,
+        536.497
+      ]
+    },
+    {
+      "soc_ball": "T12",
+      "soc_signal": "GPIO13/M_CLK1",
+      "reference_net": "BANK0_GPIO13",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.6,
+        534.985,
+        128.878,
+        543.697
+      ],
+      "signal_bbox": [
+        138.24,
+        538.255,
+        189.17,
+        546.967
+      ],
+      "net_bbox": [
+        53.28,
+        534.985,
+        102.031,
+        543.697
+      ]
+    },
+    {
+      "soc_ball": "K7",
+      "soc_signal": "VDDIO_BANK1",
+      "reference_net": "VDDIO_BANK1",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        120.87,
+        549.385,
+        128.875,
+        558.097
+      ],
+      "signal_bbox": [
+        138.24,
+        552.655,
+        184.071,
+        561.367
+      ],
+      "net_bbox": [
+        53.28,
+        549.385,
+        99.111,
+        558.097
+      ]
+    },
+    {
+      "soc_ball": "J5",
+      "soc_signal": "GPIO14/OSPI_CS/QSPI0_CS0",
+      "reference_net": "BANK1_GPIO14",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        121.97,
+        563.785,
+        128.882,
+        572.497
+      ],
+      "signal_bbox": [
+        138.24,
+        567.055,
+        229.556,
+        575.767
+      ],
+      "net_bbox": [
+        53.28,
+        563.785,
+        102.031,
+        572.497
+      ]
+    },
+    {
+      "soc_ball": "K1",
+      "soc_signal": "GPIO15/OSPI_CLK/QSPI0_CLK",
+      "reference_net": "BANK1_GPIO15",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        120.87,
+        570.985,
+        128.875,
+        579.697
+      ],
+      "signal_bbox": [
+        138.24,
+        574.255,
+        233.195,
+        582.967
+      ],
+      "net_bbox": [
+        53.28,
+        570.985,
+        102.031,
+        579.697
+      ]
+    },
+    {
+      "soc_ball": "K2",
+      "soc_signal": "GPIO16/OSPI_D0/QSPI1_CS4/QSPI0_D0",
+      "reference_net": "BANK1_GPIO16",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        120.87,
+        578.185,
+        128.875,
+        586.897
+      ],
+      "signal_bbox": [
+        138.24,
+        581.455,
+        261.936,
+        590.167
+      ],
+      "net_bbox": [
+        53.28,
+        578.185,
+        102.031,
+        586.897
+      ]
+    },
+    {
+      "soc_ball": "K4",
+      "soc_signal": "GPIO17/OSPI_D1/QSPI1_CS3/QSPI0_D1",
+      "reference_net": "BANK1_GPIO17",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        120.87,
+        585.385,
+        128.875,
+        594.097
+      ],
+      "signal_bbox": [
+        138.24,
+        588.655,
+        261.936,
+        597.367
+      ],
+      "net_bbox": [
+        53.28,
+        585.385,
+        102.031,
+        594.097
+      ]
+    },
+    {
+      "soc_ball": "K5",
+      "soc_signal": "GPIO18/OSPI_D2/QSPI1_CS2/QSPI0_D2",
+      "reference_net": "BANK1_GPIO18",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        120.87,
+        592.585,
+        128.875,
+        601.297
+      ],
+      "signal_bbox": [
+        138.24,
+        595.855,
+        261.936,
+        604.567
+      ],
+      "net_bbox": [
+        53.28,
+        592.585,
+        102.031,
+        601.297
+      ]
+    },
+    {
+      "soc_ball": "L1",
+      "soc_signal": "GPIO19/OSPI_D3/QSPI1_CS1/QSPI0_D3",
+      "reference_net": "BANK1_GPIO19",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        121.6,
+        599.785,
+        128.879,
+        608.497
+      ],
+      "signal_bbox": [
+        138.24,
+        603.055,
+        261.936,
+        611.767
+      ],
+      "net_bbox": [
+        53.28,
+        599.785,
+        102.031,
+        608.497
+      ]
+    },
+    {
+      "soc_ball": "L2",
+      "soc_signal": "GPIO20/OSPI_D4/QSPI1_CS0/PULSE_CNTR0",
+      "reference_net": "BANK1_GPIO20",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        121.6,
+        606.985,
+        128.879,
+        615.697
+      ],
+      "signal_bbox": [
+        138.24,
+        610.255,
+        277.566,
+        618.967
+      ],
+      "net_bbox": [
+        53.28,
+        606.985,
+        102.031,
+        615.697
+      ]
+    },
+    {
+      "soc_ball": "L3",
+      "soc_signal": "GPIO21/OSPI_D5/QSPI1_CLK/PULSE_CNTR1",
+      "reference_net": "BANK1_GPIO21",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        121.6,
+        614.185,
+        128.879,
+        622.897
+      ],
+      "signal_bbox": [
+        138.24,
+        617.455,
+        277.566,
+        626.167
+      ],
+      "net_bbox": [
+        53.28,
+        614.185,
+        102.031,
+        622.897
+      ]
+    },
+    {
+      "soc_ball": "L4",
+      "soc_signal": "GPIO22/OSPI_D6/QSPI1_D0/PULSE_CNTR2",
+      "reference_net": "BANK1_GPIO22",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        121.6,
+        621.385,
+        128.879,
+        630.097
+      ],
+      "signal_bbox": [
+        138.24,
+        624.655,
+        273.201,
+        633.367
+      ],
+      "net_bbox": [
+        53.28,
+        621.385,
+        102.031,
+        630.097
+      ]
+    },
+    {
+      "soc_ball": "L5",
+      "soc_signal": "GPIO23/OSPI_D7/QSPI1_D1/PULSE_CNTR3",
+      "reference_net": "BANK1_GPIO23",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        121.6,
+        628.585,
+        128.879,
+        637.297
+      ],
+      "signal_bbox": [
+        138.24,
+        631.855,
+        273.201,
+        640.567
+      ],
+      "net_bbox": [
+        53.28,
+        628.585,
+        102.031,
+        637.297
+      ]
+    },
+    {
+      "soc_ball": "L6",
+      "soc_signal": "GPIO24/OSPI_DQS/QSPI1_D2/PULSE_CNTR4",
+      "reference_net": "BANK1_GPIO24",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        121.6,
+        635.785,
+        128.879,
+        644.497
+      ],
+      "signal_bbox": [
+        138.24,
+        639.055,
+        279.02,
+        647.767
+      ],
+      "net_bbox": [
+        53.28,
+        635.785,
+        102.031,
+        644.497
+      ]
+    },
+    {
+      "soc_ball": "M1",
+      "soc_signal": "GPIO25/PWM5/QSPI1_D3/PULSE_CNTR5",
+      "reference_net": "BANK1_GPIO25",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        119.79,
+        642.985,
+        128.882,
+        651.697
+      ],
+      "signal_bbox": [
+        138.24,
+        646.255,
+        265.189,
+        654.967
+      ],
+      "net_bbox": [
+        53.28,
+        642.985,
+        102.031,
+        651.697
+      ]
+    },
+    {
+      "soc_ball": "R11",
+      "soc_signal": "VDDIO_BANK2",
+      "reference_net": "VDDIO_BANK2",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        116.88,
+        657.385,
+        128.884,
+        666.097
+      ],
+      "signal_bbox": [
+        138.24,
+        660.655,
+        184.071,
+        669.367
+      ],
+      "net_bbox": [
+        53.28,
+        657.385,
+        99.111,
+        666.097
+      ]
+    },
+    {
+      "soc_ball": "U11",
+      "soc_signal": "GPIO26/MMC1_CLK/PDM_CLK",
+      "reference_net": "BANK2_GPIO26",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        116.88,
+        671.785,
+        128.884,
+        680.497
+      ],
+      "signal_bbox": [
+        138.24,
+        675.055,
+        232.082,
+        683.767
+      ],
+      "net_bbox": [
+        53.28,
+        671.785,
+        102.031,
+        680.497
+      ]
+    },
+    {
+      "soc_ball": "W13",
+      "soc_signal": "GPIO27/MMC1_CMD/PULSE_CNTR5/PDM_IN0",
+      "reference_net": "BANK2_GPIO27",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        115.42,
+        678.985,
+        128.877,
+        687.697
+      ],
+      "signal_bbox": [
+        138.24,
+        682.255,
+        280.447,
+        690.967
+      ],
+      "net_bbox": [
+        53.28,
+        678.985,
+        102.031,
+        687.697
+      ]
+    },
+    {
+      "soc_ball": "V12",
+      "soc_signal": "GPIO28/MMC1_D0/UART3_TXD/PDM_IN1",
+      "reference_net": "BANK2_GPIO28",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.24,
+        686.185,
+        128.884,
+        694.897
+      ],
+      "signal_bbox": [
+        138.24,
+        689.455,
+        265.176,
+        698.167
+      ],
+      "net_bbox": [
+        53.28,
+        686.185,
+        102.031,
+        694.897
+      ]
+    },
+    {
+      "soc_ball": "V11",
+      "soc_signal": "GPIO29/MMC1_D1/UART3_RXD/3D_CTRL_IN",
+      "reference_net": "BANK2_GPIO29",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.24,
+        693.385,
+        128.884,
+        702.097
+      ],
+      "signal_bbox": [
+        138.24,
+        696.655,
+        276.814,
+        705.367
+      ],
+      "net_bbox": [
+        53.28,
+        693.385,
+        102.031,
+        702.097
+      ]
+    },
+    {
+      "soc_ball": "V10",
+      "soc_signal": "GPIO30/MMC1_D2/UART3_RTS/3D_CTRL_OUT1",
+      "reference_net": "BANK2_GPIO30",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.24,
+        700.585,
+        128.884,
+        709.297
+      ],
+      "signal_bbox": [
+        138.24,
+        703.855,
+        286.999,
+        712.567
+      ],
+      "net_bbox": [
+        53.28,
+        700.585,
+        102.031,
+        709.297
+      ]
+    },
+    {
+      "soc_ball": "V9",
+      "soc_signal": "GPIO31/MMC1_D3/UART3_CTS/3D_CTRL_OUT2",
+      "reference_net": "BANK2_GPIO31",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        120.87,
+        707.785,
+        128.875,
+        716.497
+      ],
+      "signal_bbox": [
+        138.24,
+        711.055,
+        286.999,
+        719.767
+      ],
+      "net_bbox": [
+        53.28,
+        707.785,
+        102.031,
+        716.497
+      ]
+    },
+    {
+      "soc_ball": "U10",
+      "soc_signal": "GPIO32/IIC0_SCL/IIS_CLK/UART3_TXD",
+      "reference_net": "BANK2_GPIO32",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        116.88,
+        714.985,
+        128.884,
+        723.697
+      ],
+      "signal_bbox": [
+        138.24,
+        718.255,
+        258.284,
+        726.967
+      ],
+      "net_bbox": [
+        53.28,
+        714.985,
+        102.031,
+        723.697
+      ]
+    },
+    {
+      "soc_ball": "T11",
+      "soc_signal": "GPIO33/IIC0_SDA/IIS_WS/UART3_RXD",
+      "reference_net": "BANK2_GPIO33",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.6,
+        722.185,
+        128.878,
+        730.897
+      ],
+      "signal_bbox": [
+        138.24,
+        725.455,
+        257.551,
+        734.167
+      ],
+      "net_bbox": [
+        53.28,
+        722.185,
+        102.031,
+        730.897
+      ]
+    },
+    {
+      "soc_ball": "U9",
+      "soc_signal": "GPIO34/IIC1_SCL/IIS_D_IN0/PDM_IN3/UART3_RTS",
+      "reference_net": "BANK2_GPIO34",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        120.51,
+        729.385,
+        128.875,
+        738.097
+      ],
+      "signal_bbox": [
+        138.24,
+        732.655,
+        294.29,
+        741.367
+      ],
+      "net_bbox": [
+        53.28,
+        729.385,
+        102.031,
+        738.097
+      ]
+    },
+    {
+      "soc_ball": "W12",
+      "soc_signal": "GPIO35/IIC1_SDA/IIS_D_OUT0/PDM_IN1/UART3_CTS",
+      "reference_net": "BANK2_GPIO35",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        115.42,
+        736.585,
+        128.877,
+        745.297
+      ],
+      "signal_bbox": [
+        138.24,
+        739.855,
+        302.289,
+        748.567
+      ],
+      "net_bbox": [
+        53.28,
+        736.585,
+        102.031,
+        745.297
+      ]
+    },
+    {
+      "soc_ball": "T10",
+      "soc_signal": "GPIO36/IIC3_SCL/IIS_D_IN1/PDM_IN2/UART4_TXD",
+      "reference_net": "BANK2_GPIO36",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.6,
+        743.785,
+        128.878,
+        752.497
+      ],
+      "signal_bbox": [
+        138.24,
+        747.055,
+        294.29,
+        755.767
+      ],
+      "net_bbox": [
+        53.28,
+        743.785,
+        102.031,
+        752.497
+      ]
+    },
+    {
+      "soc_ball": "Y12",
+      "soc_signal": "GPIO37/IIC3_SDA/IIS_D_OUT1/PDM_IN0/UART4_RXD",
+      "reference_net": "BANK2_GPIO37",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        117.24,
+        750.985,
+        128.884,
+        759.697
+      ],
+      "signal_bbox": [
+        138.24,
+        754.255,
+        303.015,
+        762.967
+      ],
+      "net_bbox": [
+        53.28,
+        750.985,
+        102.031,
+        759.697
+      ]
+    },
+    {
+      "soc_ball": "H6",
+      "soc_signal": "VDDIO_BANK3",
+      "reference_net": "VDDIO_BANK3",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        441.385,
+        590.845,
+        450.097
+      ],
+      "signal_bbox": [
+        527.29,
+        444.655,
+        573.121,
+        453.367
+      ],
+      "net_bbox": [
+        614.88,
+        441.385,
+        660.711,
+        450.097
+      ]
+    },
+    {
+      "soc_ball": "J4",
+      "soc_signal": "GPIO38/UART0_TXD/QSPI1_CS0/HSYNC0",
+      "reference_net": "BANK3_GPIO38",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        455.785,
+        589.392,
+        464.497
+      ],
+      "signal_bbox": [
+        443.62,
+        459.055,
+        573.116,
+        467.767
+      ],
+      "net_bbox": [
+        614.88,
+        455.785,
+        663.631,
+        464.497
+      ]
+    },
+    {
+      "soc_ball": "J3",
+      "soc_signal": "GPIO39/UART0_RXD/QSPI1_CLK/VSYNC0",
+      "reference_net": "BANK3_GPIO39",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        462.985,
+        589.392,
+        471.697
+      ],
+      "signal_bbox": [
+        443.26,
+        466.255,
+        573.122,
+        474.967
+      ],
+      "net_bbox": [
+        614.88,
+        462.985,
+        663.631,
+        471.697
+      ]
+    },
+    {
+      "soc_ball": "J2",
+      "soc_signal": "GPIO40/UART1_TXD/IIC1_SCL/QSPI1_D0",
+      "reference_net": "BANK3_GPIO40",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        470.185,
+        589.392,
+        478.897
+      ],
+      "signal_bbox": [
+        446.16,
+        473.455,
+        573.116,
+        482.167
+      ],
+      "net_bbox": [
+        614.88,
+        470.185,
+        663.631,
+        478.897
+      ]
+    },
+    {
+      "soc_ball": "J1",
+      "soc_signal": "GPIO41/UART1_RXD/IIC1_SDA/QSPI1_D1",
+      "reference_net": "BANK3_GPIO41",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        477.385,
+        589.392,
+        486.097
+      ],
+      "signal_bbox": [
+        444.71,
+        480.655,
+        573.119,
+        489.367
+      ],
+      "net_bbox": [
+        614.88,
+        477.385,
+        663.631,
+        486.097
+      ]
+    },
+    {
+      "soc_ball": "H1",
+      "soc_signal": "GPIO42/UART1_RTS/PWM0/QSPI1_D2",
+      "reference_net": "BANK3_GPIO42",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        484.585,
+        590.845,
+        493.297
+      ],
+      "signal_bbox": [
+        454.9,
+        487.855,
+        573.118,
+        496.567
+      ],
+      "net_bbox": [
+        614.88,
+        484.585,
+        663.631,
+        493.297
+      ]
+    },
+    {
+      "soc_ball": "J6",
+      "soc_signal": "GPIO43/UART1_CTS/PWM1/QSPI1_D3",
+      "reference_net": "BANK3_GPIO43",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        491.785,
+        589.392,
+        500.497
+      ],
+      "signal_bbox": [
+        454.9,
+        495.055,
+        573.118,
+        503.767
+      ],
+      "net_bbox": [
+        614.88,
+        491.785,
+        663.631,
+        500.497
+      ]
+    },
+    {
+      "soc_ball": "H2",
+      "soc_signal": "GPIO44/UART2_TXD/IIC3_SCL/SPI2AXI_CLK",
+      "reference_net": "BANK3_GPIO44",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        498.985,
+        590.845,
+        507.697
+      ],
+      "signal_bbox": [
+        436.34,
+        502.255,
+        573.121,
+        510.967
+      ],
+      "net_bbox": [
+        614.88,
+        498.985,
+        663.631,
+        507.697
+      ]
+    },
+    {
+      "soc_ball": "H3",
+      "soc_signal": "GPIO45/UART2_RXD/IIC3_SDA/SPI2AXI_CS",
+      "reference_net": "BANK3_GPIO45",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        506.185,
+        590.845,
+        514.897
+      ],
+      "signal_bbox": [
+        438.53,
+        509.455,
+        573.125,
+        518.167
+      ],
+      "net_bbox": [
+        614.88,
+        506.185,
+        663.631,
+        514.897
+      ]
+    },
+    {
+      "soc_ball": "H4",
+      "soc_signal": "GPIO46/UART2_RTS/PWM2/IIC4_SCL",
+      "reference_net": "BANK3_GPIO46",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        513.385,
+        590.845,
+        522.097
+      ],
+      "signal_bbox": [
+        457.82,
+        516.655,
+        573.125,
+        525.367
+      ],
+      "net_bbox": [
+        614.88,
+        513.385,
+        663.631,
+        522.097
+      ]
+    },
+    {
+      "soc_ball": "H5",
+      "soc_signal": "GPIO47/UART2_CTS/PWM3/IIC4_SDA",
+      "reference_net": "BANK3_GPIO47",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        520.585,
+        590.845,
+        529.297
+      ],
+      "signal_bbox": [
+        457.09,
+        523.855,
+        573.122,
+        532.567
+      ],
+      "net_bbox": [
+        614.88,
+        520.585,
+        663.631,
+        529.297
+      ]
+    },
+    {
+      "soc_ball": "G4",
+      "soc_signal": "GPIO48/UART4_TXD/IIC0_SCL/SPI2AXI_DIN",
+      "reference_net": "BANK3_GPIO48",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        527.785,
+        591.212,
+        536.497
+      ],
+      "signal_bbox": [
+        437.8,
+        531.055,
+        573.121,
+        539.767
+      ],
+      "net_bbox": [
+        614.88,
+        527.785,
+        663.631,
+        536.497
+      ]
+    },
+    {
+      "soc_ball": "G5",
+      "soc_signal": "GPIO49/UART4_RXD/IIC0_SDA/SPI2AXI_DOUT",
+      "reference_net": "BANK3_GPIO49",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        534.985,
+        591.212,
+        543.697
+      ],
+      "signal_bbox": [
+        429.07,
+        538.255,
+        573.116,
+        546.967
+      ],
+      "net_bbox": [
+        614.88,
+        534.985,
+        663.631,
+        543.697
+      ]
+    },
+    {
+      "soc_ball": "M7",
+      "soc_signal": "VDDIO_BANK4",
+      "reference_net": "VDDIO_BANK4",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        549.385,
+        591.572,
+        558.097
+      ],
+      "signal_bbox": [
+        527.29,
+        552.655,
+        573.121,
+        561.367
+      ],
+      "net_bbox": [
+        614.88,
+        549.385,
+        660.711,
+        558.097
+      ]
+    },
+    {
+      "soc_ball": "M5",
+      "soc_signal": "GPIO50/UART3_TXD/IIC2_SCL/QSPI0_CS4",
+      "reference_net": "BANK4_GPIO50",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        563.785,
+        591.572,
+        572.497
+      ],
+      "signal_bbox": [
+        441.8,
+        567.055,
+        573.122,
+        575.767
+      ],
+      "net_bbox": [
+        614.88,
+        563.785,
+        663.631,
+        572.497
+      ]
+    },
+    {
+      "soc_ball": "M4",
+      "soc_signal": "GPIO51/UART3_RXD/IIC2_SDA/QSPI0_CS3",
+      "reference_net": "BANK4_GPIO51",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        570.985,
+        591.572,
+        579.697
+      ],
+      "signal_bbox": [
+        440.35,
+        574.255,
+        573.125,
+        582.967
+      ],
+      "net_bbox": [
+        614.88,
+        570.985,
+        663.631,
+        579.697
+      ]
+    },
+    {
+      "soc_ball": "M3",
+      "soc_signal": "GPIO52/UART3_RTS/PWM4/IIC3_SCL",
+      "reference_net": "BANK4_GPIO52",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        578.185,
+        591.572,
+        586.897
+      ],
+      "signal_bbox": [
+        457.82,
+        581.455,
+        573.125,
+        590.167
+      ],
+      "net_bbox": [
+        614.88,
+        578.185,
+        663.631,
+        586.897
+      ]
+    },
+    {
+      "soc_ball": "N4",
+      "soc_signal": "GPIO53/UART3_CTS/PWM5/IIC3_SDA",
+      "reference_net": "BANK4_GPIO53",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        585.385,
+        590.845,
+        594.097
+      ],
+      "signal_bbox": [
+        457.09,
+        588.655,
+        573.122,
+        597.367
+      ],
+      "net_bbox": [
+        614.88,
+        585.385,
+        663.631,
+        594.097
+      ]
+    },
+    {
+      "soc_ball": "M2",
+      "soc_signal": "GPIO54/QSPI0_CS0/MMC1_CMD/PWM0",
+      "reference_net": "BANK4_GPIO54",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        592.585,
+        591.572,
+        601.297
+      ],
+      "signal_bbox": [
+        450.91,
+        595.855,
+        573.12,
+        604.567
+      ],
+      "net_bbox": [
+        614.88,
+        592.585,
+        663.631,
+        601.297
+      ]
+    },
+    {
+      "soc_ball": "N2",
+      "soc_signal": "GPIO55/QSPI0_CLK/MMC1_CLK/PWM1",
+      "reference_net": "BANK4_GPIO55",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        599.785,
+        590.845,
+        608.497
+      ],
+      "signal_bbox": [
+        453.08,
+        603.055,
+        573.117,
+        611.767
+      ],
+      "net_bbox": [
+        614.88,
+        599.785,
+        663.631,
+        608.497
+      ]
+    },
+    {
+      "soc_ball": "P3",
+      "soc_signal": "GPIO56/QSPI0_D0/MMC1_D0/PWM2",
+      "reference_net": "BANK4_GPIO56",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        606.985,
+        590.485,
+        615.697
+      ],
+      "signal_bbox": [
+        461.81,
+        610.255,
+        573.116,
+        618.967
+      ],
+      "net_bbox": [
+        614.88,
+        606.985,
+        663.631,
+        615.697
+      ]
+    },
+    {
+      "soc_ball": "N1",
+      "soc_signal": "GPIO57/QSPI0_D1/MMC1_D1/PWM3",
+      "reference_net": "BANK4_GPIO57",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        614.185,
+        590.845,
+        622.897
+      ],
+      "signal_bbox": [
+        461.81,
+        617.455,
+        573.116,
+        626.167
+      ],
+      "net_bbox": [
+        614.88,
+        614.185,
+        663.631,
+        622.897
+      ]
+    },
+    {
+      "soc_ball": "P1",
+      "soc_signal": "GPIO58/QSPI0_D2/MMC1_D2/PWM4",
+      "reference_net": "BANK4_GPIO58",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        621.385,
+        590.485,
+        630.097
+      ],
+      "signal_bbox": [
+        461.81,
+        624.655,
+        573.116,
+        633.367
+      ],
+      "net_bbox": [
+        614.88,
+        621.385,
+        663.631,
+        630.097
+      ]
+    },
+    {
+      "soc_ball": "P2",
+      "soc_signal": "GPIO59/QSPI0_D3/MMC1_D3/PWM5",
+      "reference_net": "BANK4_GPIO59",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        628.585,
+        590.485,
+        637.297
+      ],
+      "signal_bbox": [
+        461.81,
+        631.855,
+        573.116,
+        640.567
+      ],
+      "net_bbox": [
+        614.88,
+        628.585,
+        663.631,
+        637.297
+      ]
+    },
+    {
+      "soc_ball": "P5",
+      "soc_signal": "GPIO60/PWM0/IIC0_SCL/QSPI0_CS2/HSYNC1",
+      "reference_net": "BANK4_GPIO60",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        635.785,
+        590.485,
+        644.497
+      ],
+      "signal_bbox": [
+        431.98,
+        639.055,
+        573.12,
+        647.767
+      ],
+      "net_bbox": [
+        614.88,
+        635.785,
+        663.631,
+        644.497
+      ]
+    },
+    {
+      "soc_ball": "P4",
+      "soc_signal": "GPIO61/PWM1/IIC0_SDA/QSPI0_CS1/VSYNC1",
+      "reference_net": "BANK4_GPIO61",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        642.985,
+        590.485,
+        651.697
+      ],
+      "signal_bbox": [
+        431.61,
+        646.255,
+        573.117,
+        654.967
+      ],
+      "net_bbox": [
+        614.88,
+        642.985,
+        663.631,
+        651.697
+      ]
+    },
+    {
+      "soc_ball": "R15",
+      "soc_signal": "VDDIO_BANK5",
+      "reference_net": "VDDIO_BANK5",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        657.385,
+        594.484,
+        666.097
+      ],
+      "signal_bbox": [
+        527.29,
+        660.655,
+        573.121,
+        669.367
+      ],
+      "net_bbox": [
+        614.88,
+        657.385,
+        660.711,
+        666.097
+      ]
+    },
+    {
+      "soc_ball": "T14",
+      "soc_signal": "GPIO62/M_CLK2/UART3_DE",
+      "reference_net": "BANK5_GPIO62",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        671.785,
+        593.758,
+        680.497
+      ],
+      "signal_bbox": [
+        486.18,
+        675.055,
+        573.117,
+        683.767
+      ],
+      "net_bbox": [
+        614.88,
+        671.785,
+        663.631,
+        680.497
+      ]
+    },
+    {
+      "soc_ball": "U15",
+      "soc_signal": "GPIO63/M_CLK3/UART3_RE",
+      "reference_net": "BANK5_GPIO63",
+      "source_page": 1,
+      "source_unit": "U1.5",
+      "ball_bbox": [
+        582.48,
+        678.985,
+        594.484,
+        687.697
+      ],
+      "signal_bbox": [
+        486.18,
+        682.255,
+        573.117,
+        690.967
+      ],
+      "net_bbox": [
+        614.88,
+        678.985,
+        663.631,
+        687.697
+      ]
+    },
+    {
+      "soc_ball": "B12",
+      "soc_signal": "CLK32K768_XIN",
+      "reference_net": "RTC_XIN",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.64,
+        66.985,
+        359.284,
+        75.697
+      ],
+      "signal_bbox": [
+        368.64,
+        70.255,
+        418.484,
+        78.967
+      ],
+      "net_bbox": [
+        290.88,
+        66.985,
+        318.882,
+        75.697
+      ]
+    },
+    {
+      "soc_ball": "A12",
+      "soc_signal": "CLK32K768_XOUT",
+      "reference_net": "RTC_XOUT",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.64,
+        74.185,
+        359.284,
+        82.897
+      ],
+      "signal_bbox": [
+        368.64,
+        77.455,
+        425.756,
+        86.167
+      ],
+      "net_bbox": [
+        290.88,
+        74.185,
+        326.154,
+        82.897
+      ]
+    },
+    {
+      "soc_ball": "B8",
+      "soc_signal": "CLK24M_XIN",
+      "reference_net": "24M__XIN",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        351.27,
+        81.385,
+        359.275,
+        90.097
+      ],
+      "signal_bbox": [
+        368.64,
+        84.655,
+        408.652,
+        93.367
+      ],
+      "net_bbox": [
+        290.88,
+        81.385,
+        321.801,
+        90.097
+      ]
+    },
+    {
+      "soc_ball": "A8",
+      "soc_signal": "CLK24M_XOUT",
+      "reference_net": "24M__XOUT",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        351.27,
+        88.585,
+        359.275,
+        97.297
+      ],
+      "signal_bbox": [
+        368.64,
+        91.855,
+        415.924,
+        100.567
+      ],
+      "net_bbox": [
+        290.88,
+        88.585,
+        329.073,
+        97.297
+      ]
+    },
+    {
+      "soc_ball": "B9",
+      "soc_signal": "RSTN",
+      "reference_net": "RSTN",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        351.27,
+        102.985,
+        359.275,
+        111.697
+      ],
+      "signal_bbox": [
+        368.64,
+        106.255,
+        386.457,
+        114.967
+      ],
+      "net_bbox": [
+        290.88,
+        102.985,
+        308.697,
+        111.697
+      ]
+    },
+    {
+      "soc_ball": "A9",
+      "soc_signal": "TEST_EN",
+      "reference_net": "TEST_EN",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        351.27,
+        110.185,
+        359.275,
+        118.897
+      ],
+      "signal_bbox": [
+        368.64,
+        113.455,
+        398.101,
+        122.167
+      ],
+      "net_bbox": [
+        290.88,
+        110.185,
+        320.341,
+        118.897
+      ]
+    },
+    {
+      "soc_ball": "C8",
+      "soc_signal": "GPIO0/BOOT0",
+      "reference_net": "BOOT0",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        350.91,
+        124.585,
+        359.275,
+        133.297
+      ],
+      "signal_bbox": [
+        368.64,
+        127.855,
+        412.658,
+        136.567
+      ],
+      "net_bbox": [
+        290.88,
+        124.585,
+        313.069,
+        133.297
+      ]
+    },
+    {
+      "soc_ball": "C9",
+      "soc_signal": "GPIO1/BOOT1",
+      "reference_net": "BOOT1",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        350.91,
+        131.785,
+        359.275,
+        140.497
+      ],
+      "signal_bbox": [
+        368.64,
+        135.055,
+        412.658,
+        143.767
+      ],
+      "net_bbox": [
+        290.88,
+        131.785,
+        313.069,
+        140.497
+      ]
+    },
+    {
+      "soc_ball": "D8",
+      "soc_signal": "ANA_TS_VTEST",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        350.91,
+        138.985,
+        359.275,
+        147.697
+      ],
+      "signal_bbox": [
+        368.64,
+        142.255,
+        418.837,
+        150.967
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "A1",
+      "soc_signal": "NC",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        351.27,
+        146.185,
+        359.275,
+        154.897
+      ],
+      "signal_bbox": [
+        368.64,
+        149.455,
+        378.092,
+        158.167
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "A20",
+      "soc_signal": "NC",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.64,
+        153.385,
+        359.284,
+        162.097
+      ],
+      "signal_bbox": [
+        368.64,
+        156.655,
+        378.092,
+        165.367
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "Y1",
+      "soc_signal": "NC",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        351.27,
+        160.585,
+        359.275,
+        169.297
+      ],
+      "signal_bbox": [
+        368.64,
+        163.855,
+        378.092,
+        172.567
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "Y20",
+      "soc_signal": "NC",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.64,
+        167.785,
+        359.284,
+        176.497
+      ],
+      "signal_bbox": [
+        368.64,
+        171.055,
+        378.092,
+        179.767
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "C10",
+      "soc_signal": "GPIO64/INT0",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.28,
+        182.185,
+        359.284,
+        190.897
+      ],
+      "signal_bbox": [
+        368.64,
+        185.455,
+        408.292,
+        194.167
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "B10",
+      "soc_signal": "GPIO65/INT1",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.64,
+        189.385,
+        359.284,
+        198.097
+      ],
+      "signal_bbox": [
+        368.64,
+        192.655,
+        408.292,
+        201.367
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "A10",
+      "soc_signal": "GPIO66/INT2",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.64,
+        196.585,
+        359.284,
+        205.297
+      ],
+      "signal_bbox": [
+        368.64,
+        199.855,
+        408.292,
+        208.567
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "A11",
+      "soc_signal": "GPIO67/INT3",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.64,
+        203.785,
+        359.284,
+        212.497
+      ],
+      "signal_bbox": [
+        368.64,
+        207.055,
+        408.292,
+        215.767
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "C12",
+      "soc_signal": "GPIO68/INT4",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.28,
+        210.985,
+        359.284,
+        219.697
+      ],
+      "signal_bbox": [
+        368.64,
+        214.255,
+        408.292,
+        222.967
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "D12",
+      "soc_signal": "GPIO69/INT5",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.28,
+        218.185,
+        359.284,
+        226.897
+      ],
+      "signal_bbox": [
+        368.64,
+        221.455,
+        408.292,
+        230.167
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "B11",
+      "soc_signal": "GPIO70/OUT0",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.64,
+        232.585,
+        359.284,
+        241.297
+      ],
+      "signal_bbox": [
+        368.64,
+        235.855,
+        411.565,
+        244.567
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "C11",
+      "soc_signal": "GPIO71/OUT1",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        347.28,
+        239.785,
+        359.284,
+        248.497
+      ],
+      "signal_bbox": [
+        368.64,
+        243.055,
+        411.565,
+        251.767
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "F8",
+      "soc_signal": "AVDD1P8_ADC",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        351.64,
+        254.185,
+        359.279,
+        262.897
+      ],
+      "signal_bbox": [
+        368.64,
+        257.455,
+        415.924,
+        266.167
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "G8",
+      "soc_signal": "AVSS",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        350.55,
+        261.385,
+        359.282,
+        270.097
+      ],
+      "signal_bbox": [
+        368.64,
+        264.655,
+        386.103,
+        273.367
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "C2",
+      "soc_signal": "ADC_0",
+      "reference_net": "ADC0",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        350.91,
+        275.785,
+        359.275,
+        284.497
+      ],
+      "signal_bbox": [
+        368.64,
+        279.055,
+        389.736,
+        287.767
+      ],
+      "net_bbox": [
+        290.88,
+        275.785,
+        308.337,
+        284.497
+      ]
+    },
+    {
+      "soc_ball": "D2",
+      "soc_signal": "ADC_1",
+      "reference_net": "ADC1",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        350.91,
+        290.185,
+        359.275,
+        298.897
+      ],
+      "signal_bbox": [
+        368.64,
+        293.455,
+        389.736,
+        302.167
+      ],
+      "net_bbox": [
+        290.88,
+        290.185,
+        308.337,
+        298.897
+      ]
+    },
+    {
+      "soc_ball": "B1",
+      "soc_signal": "ADC_2",
+      "reference_net": "ADC2",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        351.27,
+        304.585,
+        359.275,
+        313.297
+      ],
+      "signal_bbox": [
+        368.64,
+        307.855,
+        389.736,
+        316.567
+      ],
+      "net_bbox": [
+        290.88,
+        304.585,
+        308.337,
+        313.297
+      ]
+    },
+    {
+      "soc_ball": "G3",
+      "soc_signal": "ADC_3",
+      "reference_net": "ADC3",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        350.55,
+        318.985,
+        359.282,
+        327.697
+      ],
+      "signal_bbox": [
+        368.64,
+        322.255,
+        389.736,
+        330.967
+      ],
+      "net_bbox": [
+        290.88,
+        318.985,
+        308.337,
+        327.697
+      ]
+    },
+    {
+      "soc_ball": "C1",
+      "soc_signal": "ADC_4",
+      "reference_net": "ADC4",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        350.91,
+        333.385,
+        359.275,
+        342.097
+      ],
+      "signal_bbox": [
+        368.64,
+        336.655,
+        389.736,
+        345.367
+      ],
+      "net_bbox": [
+        290.88,
+        333.385,
+        308.337,
+        342.097
+      ]
+    },
+    {
+      "soc_ball": "D1",
+      "soc_signal": "ADC_5",
+      "reference_net": "ADC5",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        350.91,
+        347.785,
+        359.275,
+        356.497
+      ],
+      "signal_bbox": [
+        368.64,
+        351.055,
+        389.736,
+        359.767
+      ],
+      "net_bbox": [
+        290.88,
+        347.785,
+        308.337,
+        356.497
+      ]
+    },
+    {
+      "soc_ball": "B6",
+      "soc_signal": "MMC0_STROBE",
+      "reference_net": "MMC0_STROBE",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        66.985,
+        590.485,
+        75.697
+      ],
+      "signal_bbox": [
+        523.3,
+        70.255,
+        573.124,
+        78.967
+      ],
+      "net_bbox": [
+        607.68,
+        66.985,
+        657.504,
+        75.697
+      ]
+    },
+    {
+      "soc_ball": "A6",
+      "soc_signal": "MMC0_RST_N",
+      "reference_net": "MMC0_RSTN",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        74.185,
+        590.485,
+        82.897
+      ],
+      "signal_bbox": [
+        528.75,
+        77.455,
+        573.115,
+        86.167
+      ],
+      "net_bbox": [
+        607.68,
+        74.185,
+        648.406,
+        82.897
+      ]
+    },
+    {
+      "soc_ball": "A5",
+      "soc_signal": "MMC0_CLK",
+      "reference_net": "MMC0_CLK",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        81.385,
+        590.485,
+        90.097
+      ],
+      "signal_bbox": [
+        537.48,
+        84.655,
+        573.12,
+        93.367
+      ],
+      "net_bbox": [
+        607.68,
+        81.385,
+        643.32,
+        90.097
+      ]
+    },
+    {
+      "soc_ball": "D6",
+      "soc_signal": "MMC0_CMD",
+      "reference_net": "MMC0_CMD",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        88.585,
+        590.845,
+        97.297
+      ],
+      "signal_bbox": [
+        535.31,
+        91.855,
+        573.123,
+        100.567
+      ],
+      "net_bbox": [
+        607.68,
+        88.585,
+        645.493,
+        97.297
+      ]
+    },
+    {
+      "soc_ball": "D5",
+      "soc_signal": "MMC0_D0",
+      "reference_net": "MMC0_DATA_0",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        95.785,
+        590.845,
+        104.497
+      ],
+      "signal_bbox": [
+        541.85,
+        99.055,
+        573.124,
+        107.767
+      ],
+      "net_bbox": [
+        607.68,
+        95.785,
+        655.325,
+        104.497
+      ]
+    },
+    {
+      "soc_ball": "C5",
+      "soc_signal": "MMC0_D1",
+      "reference_net": "MMC0_DATA_1",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        102.985,
+        590.845,
+        111.697
+      ],
+      "signal_bbox": [
+        541.85,
+        106.255,
+        573.124,
+        114.967
+      ],
+      "net_bbox": [
+        607.68,
+        102.985,
+        655.325,
+        111.697
+      ]
+    },
+    {
+      "soc_ball": "B5",
+      "soc_signal": "MMC0_D2",
+      "reference_net": "MMC0_DATA_2",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        110.185,
+        590.485,
+        118.897
+      ],
+      "signal_bbox": [
+        541.85,
+        113.455,
+        573.124,
+        122.167
+      ],
+      "net_bbox": [
+        607.68,
+        110.185,
+        655.325,
+        118.897
+      ]
+    },
+    {
+      "soc_ball": "C6",
+      "soc_signal": "MMC0_D3",
+      "reference_net": "MMC0_DATA_3",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        117.385,
+        590.845,
+        126.097
+      ],
+      "signal_bbox": [
+        541.85,
+        120.655,
+        573.124,
+        129.367
+      ],
+      "net_bbox": [
+        607.68,
+        117.385,
+        655.325,
+        126.097
+      ]
+    },
+    {
+      "soc_ball": "D7",
+      "soc_signal": "MMC0_D4",
+      "reference_net": "MMC0_DATA_4",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        124.585,
+        590.845,
+        133.297
+      ],
+      "signal_bbox": [
+        541.85,
+        127.855,
+        573.124,
+        136.567
+      ],
+      "net_bbox": [
+        607.68,
+        124.585,
+        655.325,
+        133.297
+      ]
+    },
+    {
+      "soc_ball": "A7",
+      "soc_signal": "MMC0_D5",
+      "reference_net": "MMC0_DATA_5",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        131.785,
+        590.485,
+        140.497
+      ],
+      "signal_bbox": [
+        541.85,
+        135.055,
+        573.124,
+        143.767
+      ],
+      "net_bbox": [
+        607.68,
+        131.785,
+        655.325,
+        140.497
+      ]
+    },
+    {
+      "soc_ball": "B7",
+      "soc_signal": "MMC0_D6",
+      "reference_net": "MMC0_DATA_6",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        138.985,
+        590.485,
+        147.697
+      ],
+      "signal_bbox": [
+        541.85,
+        142.255,
+        573.124,
+        150.967
+      ],
+      "net_bbox": [
+        607.68,
+        138.985,
+        655.325,
+        147.697
+      ]
+    },
+    {
+      "soc_ball": "C7",
+      "soc_signal": "MMC0_D7",
+      "reference_net": "MMC0_DATA_7",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        146.185,
+        590.845,
+        154.897
+      ],
+      "signal_bbox": [
+        541.85,
+        149.455,
+        573.124,
+        158.167
+      ],
+      "net_bbox": [
+        607.68,
+        146.185,
+        655.325,
+        154.897
+      ]
+    },
+    {
+      "soc_ball": "D3",
+      "soc_signal": "USB0_ID",
+      "reference_net": "USB0_ID",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        160.585,
+        590.845,
+        169.297
+      ],
+      "signal_bbox": [
+        545.84,
+        163.855,
+        573.122,
+        172.567
+      ],
+      "net_bbox": [
+        607.68,
+        160.585,
+        634.962,
+        169.297
+      ]
+    },
+    {
+      "soc_ball": "A2",
+      "soc_signal": "USB0_DP",
+      "reference_net": "USB0_P",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        167.785,
+        590.485,
+        176.497
+      ],
+      "signal_bbox": [
+        543.29,
+        171.055,
+        573.118,
+        179.767
+      ],
+      "net_bbox": [
+        607.68,
+        167.785,
+        632.782,
+        176.497
+      ]
+    },
+    {
+      "soc_ball": "B2",
+      "soc_signal": "USB0_DN",
+      "reference_net": "USB0_N",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        174.985,
+        590.485,
+        183.697
+      ],
+      "signal_bbox": [
+        542.93,
+        178.255,
+        573.118,
+        186.967
+      ],
+      "net_bbox": [
+        607.68,
+        174.985,
+        633.142,
+        183.697
+      ]
+    },
+    {
+      "soc_ball": "B3",
+      "soc_signal": "USB1_ID",
+      "reference_net": "USB1_ID",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        189.385,
+        590.485,
+        198.097
+      ],
+      "signal_bbox": [
+        545.84,
+        192.655,
+        573.122,
+        201.367
+      ],
+      "net_bbox": [
+        607.68,
+        189.385,
+        634.962,
+        198.097
+      ]
+    },
+    {
+      "soc_ball": "B4",
+      "soc_signal": "USB1_DP",
+      "reference_net": "USB1_P",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        196.585,
+        590.485,
+        205.297
+      ],
+      "signal_bbox": [
+        543.29,
+        199.855,
+        573.118,
+        208.567
+      ],
+      "net_bbox": [
+        607.68,
+        196.585,
+        632.782,
+        205.297
+      ]
+    },
+    {
+      "soc_ball": "A4",
+      "soc_signal": "USB1_DN",
+      "reference_net": "USB1_N",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        203.785,
+        590.485,
+        212.497
+      ],
+      "signal_bbox": [
+        542.93,
+        207.055,
+        573.118,
+        215.767
+      ],
+      "net_bbox": [
+        607.68,
+        203.785,
+        633.142,
+        212.497
+      ]
+    },
+    {
+      "soc_ball": "C3",
+      "soc_signal": "USB0_VBUS",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        218.185,
+        590.845,
+        226.897
+      ],
+      "signal_bbox": [
+        534.56,
+        221.455,
+        573.119,
+        230.167
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "A3",
+      "soc_signal": "USB1_VBUS",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        225.385,
+        590.485,
+        234.097
+      ],
+      "signal_bbox": [
+        534.56,
+        228.655,
+        573.119,
+        237.367
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "D4",
+      "soc_signal": "USB0_TXRTUNE",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        232.585,
+        590.845,
+        241.297
+      ],
+      "signal_bbox": [
+        521.48,
+        235.855,
+        573.124,
+        244.567
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "C4",
+      "soc_signal": "USB1_TXRTUNE",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        239.785,
+        590.845,
+        248.497
+      ],
+      "signal_bbox": [
+        521.48,
+        243.055,
+        573.124,
+        251.767
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "F7",
+      "soc_signal": "AVDD1P8_CODEC",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        254.185,
+        590.119,
+        262.897
+      ],
+      "signal_bbox": [
+        516.02,
+        257.455,
+        573.123,
+        266.167
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "G7",
+      "soc_signal": "AVSS",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        261.385,
+        591.212,
+        270.097
+      ],
+      "signal_bbox": [
+        555.66,
+        264.655,
+        573.123,
+        273.367
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "E1",
+      "soc_signal": "MIC_PL",
+      "reference_net": "MIC_L_P",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        275.785,
+        590.485,
+        284.497
+      ],
+      "signal_bbox": [
+        549.48,
+        279.055,
+        573.122,
+        287.767
+      ],
+      "net_bbox": [
+        607.68,
+        275.785,
+        634.962,
+        284.497
+      ]
+    },
+    {
+      "soc_ball": "E2",
+      "soc_signal": "MIC_NL",
+      "reference_net": "MIC_L_N",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        282.985,
+        590.485,
+        291.697
+      ],
+      "signal_bbox": [
+        549.12,
+        286.255,
+        573.122,
+        294.967
+      ],
+      "net_bbox": [
+        607.68,
+        282.985,
+        635.322,
+        291.697
+      ]
+    },
+    {
+      "soc_ball": "F1",
+      "soc_signal": "MIC_PR",
+      "reference_net": "MIC_R_P",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        297.385,
+        590.119,
+        306.097
+      ],
+      "signal_bbox": [
+        548.39,
+        300.655,
+        573.119,
+        309.367
+      ],
+      "net_bbox": [
+        607.68,
+        297.385,
+        636.048,
+        306.097
+      ]
+    },
+    {
+      "soc_ball": "F2",
+      "soc_signal": "MIC_NR",
+      "reference_net": "MIC_R_N",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        304.585,
+        590.119,
+        313.297
+      ],
+      "signal_bbox": [
+        548.03,
+        307.855,
+        573.119,
+        316.567
+      ],
+      "net_bbox": [
+        607.68,
+        304.585,
+        636.408,
+        313.297
+      ]
+    },
+    {
+      "soc_ball": "G1",
+      "soc_signal": "HP_OUTL",
+      "reference_net": "HP_OUT_L",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        318.985,
+        591.212,
+        327.697
+      ],
+      "signal_bbox": [
+        542.93,
+        322.255,
+        573.118,
+        330.967
+      ],
+      "net_bbox": [
+        607.68,
+        318.985,
+        641.507,
+        327.697
+      ]
+    },
+    {
+      "soc_ball": "G2",
+      "soc_signal": "HP_OUTR",
+      "reference_net": "HP_OUT_R",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        326.185,
+        591.212,
+        334.897
+      ],
+      "signal_bbox": [
+        541.85,
+        329.455,
+        573.124,
+        338.167
+      ],
+      "net_bbox": [
+        607.68,
+        326.185,
+        642.594,
+        334.897
+      ]
+    },
+    {
+      "soc_ball": "E3",
+      "soc_signal": "MIC_BIAS",
+      "reference_net": "MIC_BIAS",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        340.585,
+        590.485,
+        349.297
+      ],
+      "signal_bbox": [
+        542.57,
+        343.855,
+        573.124,
+        352.567
+      ],
+      "net_bbox": [
+        607.68,
+        340.585,
+        638.234,
+        349.297
+      ]
+    },
+    {
+      "soc_ball": "F3",
+      "soc_signal": "CODEC_VCM",
+      "reference_net": "",
+      "source_page": 1,
+      "source_unit": "U1.4",
+      "ball_bbox": [
+        582.48,
+        347.785,
+        590.119,
+        356.497
+      ],
+      "signal_bbox": [
+        531.3,
+        351.055,
+        573.119,
+        359.767
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "Y9",
+      "soc_signal": "MIPI_TX0_CLK_P",
+      "reference_net": "DSI_CLK_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        135.27,
+        95.785,
+        143.275,
+        104.497
+      ],
+      "signal_bbox": [
+        152.64,
+        99.055,
+        206.116,
+        107.767
+      ],
+      "net_bbox": [
+        74.88,
+        95.785,
+        110.167,
+        104.497
+      ]
+    },
+    {
+      "soc_ball": "W9",
+      "soc_signal": "MIPI_TX0_CLK_N",
+      "reference_net": "DSI_CLK_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        133.46,
+        102.985,
+        143.278,
+        111.697
+      ],
+      "signal_bbox": [
+        152.64,
+        106.255,
+        206.476,
+        114.967
+      ],
+      "net_bbox": [
+        74.88,
+        102.985,
+        110.527,
+        111.697
+      ]
+    },
+    {
+      "soc_ball": "W10",
+      "soc_signal": "MIPI_TX0_D0_P",
+      "reference_net": "DSI_D0_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        129.82,
+        110.185,
+        143.277,
+        118.897
+      ],
+      "signal_bbox": [
+        152.64,
+        113.455,
+        201.751,
+        122.167
+      ],
+      "net_bbox": [
+        74.88,
+        110.185,
+        105.801,
+        118.897
+      ]
+    },
+    {
+      "soc_ball": "Y10",
+      "soc_signal": "MIPI_TX0_D0_N",
+      "reference_net": "DSI_D0_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        131.64,
+        117.385,
+        143.284,
+        126.097
+      ],
+      "signal_bbox": [
+        152.64,
+        120.655,
+        202.111,
+        129.367
+      ],
+      "net_bbox": [
+        74.88,
+        117.385,
+        106.161,
+        126.097
+      ]
+    },
+    {
+      "soc_ball": "Y11",
+      "soc_signal": "MIPI_TX0_D1_P",
+      "reference_net": "DSI_D1_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        131.64,
+        124.585,
+        143.284,
+        133.297
+      ],
+      "signal_bbox": [
+        152.64,
+        127.855,
+        201.751,
+        136.567
+      ],
+      "net_bbox": [
+        74.88,
+        124.585,
+        105.801,
+        133.297
+      ]
+    },
+    {
+      "soc_ball": "W11",
+      "soc_signal": "MIPI_TX0_D1_N",
+      "reference_net": "DSI_D1_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        129.82,
+        131.785,
+        143.277,
+        140.497
+      ],
+      "signal_bbox": [
+        152.64,
+        135.055,
+        202.111,
+        143.767
+      ],
+      "net_bbox": [
+        74.88,
+        131.785,
+        106.161,
+        140.497
+      ]
+    },
+    {
+      "soc_ball": "W8",
+      "soc_signal": "MIPI_TX1_D2_P",
+      "reference_net": "DSI_D2_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        133.46,
+        138.985,
+        143.278,
+        147.697
+      ],
+      "signal_bbox": [
+        152.64,
+        142.255,
+        201.751,
+        150.967
+      ],
+      "net_bbox": [
+        74.88,
+        138.985,
+        105.801,
+        147.697
+      ]
+    },
+    {
+      "soc_ball": "Y8",
+      "soc_signal": "MIPI_TX1_D2_N",
+      "reference_net": "DSI_D2_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        135.27,
+        146.185,
+        143.275,
+        154.897
+      ],
+      "signal_bbox": [
+        152.64,
+        149.455,
+        202.111,
+        158.167
+      ],
+      "net_bbox": [
+        74.88,
+        146.185,
+        106.161,
+        154.897
+      ]
+    },
+    {
+      "soc_ball": "Y7",
+      "soc_signal": "MIPI_TX1_D3_P",
+      "reference_net": "DSI_D3_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        135.27,
+        153.385,
+        143.275,
+        162.097
+      ],
+      "signal_bbox": [
+        152.64,
+        156.655,
+        201.751,
+        165.367
+      ],
+      "net_bbox": [
+        74.88,
+        153.385,
+        105.801,
+        162.097
+      ]
+    },
+    {
+      "soc_ball": "W7",
+      "soc_signal": "MIPI_TX1_D3_N",
+      "reference_net": "DSI_D3_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        133.46,
+        160.585,
+        143.278,
+        169.297
+      ],
+      "signal_bbox": [
+        152.64,
+        163.855,
+        202.111,
+        172.567
+      ],
+      "net_bbox": [
+        74.88,
+        160.585,
+        106.161,
+        169.297
+      ]
+    },
+    {
+      "soc_ball": "N7",
+      "soc_signal": "AVDD1P8_MIPI",
+      "reference_net": "",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        134.91,
+        189.385,
+        143.275,
+        198.097
+      ],
+      "signal_bbox": [
+        152.64,
+        192.655,
+        199.564,
+        201.367
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "R9",
+      "soc_signal": "AVDD1P8_MIPI",
+      "reference_net": "",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        134.91,
+        196.585,
+        143.275,
+        205.297
+      ],
+      "signal_bbox": [
+        152.64,
+        199.855,
+        199.564,
+        208.567
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "N6",
+      "soc_signal": "AVDD0P8_MIPI",
+      "reference_net": "",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        134.91,
+        203.785,
+        143.275,
+        212.497
+      ],
+      "signal_bbox": [
+        152.64,
+        207.055,
+        199.564,
+        215.767
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "R8",
+      "soc_signal": "AVDD0P8_MIPI",
+      "reference_net": "",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        134.91,
+        210.985,
+        143.275,
+        219.697
+      ],
+      "signal_bbox": [
+        152.64,
+        214.255,
+        199.564,
+        222.967
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "U7",
+      "soc_signal": "MIPI_REXT",
+      "reference_net": "",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        134.91,
+        218.185,
+        143.275,
+        226.897
+      ],
+      "signal_bbox": [
+        152.64,
+        221.455,
+        187.193,
+        230.167
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "U6",
+      "soc_signal": "MIPI_ATB",
+      "reference_net": "",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        134.91,
+        225.385,
+        143.275,
+        234.097
+      ],
+      "signal_bbox": [
+        152.64,
+        228.655,
+        182.468,
+        237.367
+      ],
+      "net_bbox": []
+    },
+    {
+      "soc_ball": "W2",
+      "soc_signal": "MIPI_RX0_CLK_P",
+      "reference_net": "CSI_CLK0_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        95.785,
+        318.698,
+        104.497
+      ],
+      "signal_bbox": [
+        245.32,
+        99.055,
+        299.523,
+        107.767
+      ],
+      "net_bbox": [
+        355.68,
+        95.785,
+        394.606,
+        104.497
+      ]
+    },
+    {
+      "soc_ball": "Y2",
+      "soc_signal": "MIPI_RX0_CLK_N",
+      "reference_net": "CSI_CLK0_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        102.985,
+        316.885,
+        111.697
+      ],
+      "signal_bbox": [
+        244.96,
+        106.255,
+        299.523,
+        114.967
+      ],
+      "net_bbox": [
+        355.68,
+        102.985,
+        394.966,
+        111.697
+      ]
+    },
+    {
+      "soc_ball": "Y3",
+      "soc_signal": "MIPI_RX0_D0_P",
+      "reference_net": "CSI_D0_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        110.185,
+        316.885,
+        118.897
+      ],
+      "signal_bbox": [
+        249.68,
+        113.455,
+        299.517,
+        122.167
+      ],
+      "net_bbox": [
+        355.68,
+        110.185,
+        386.601,
+        118.897
+      ]
+    },
+    {
+      "soc_ball": "W3",
+      "soc_signal": "MIPI_RX0_D0_N",
+      "reference_net": "CSI_D0_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        117.385,
+        318.698,
+        126.097
+      ],
+      "signal_bbox": [
+        249.32,
+        120.655,
+        299.517,
+        129.367
+      ],
+      "net_bbox": [
+        355.68,
+        117.385,
+        386.961,
+        126.097
+      ]
+    },
+    {
+      "soc_ball": "V2",
+      "soc_signal": "MIPI_RX0_D1_P",
+      "reference_net": "CSI_D1_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        124.585,
+        316.885,
+        133.297
+      ],
+      "signal_bbox": [
+        249.68,
+        127.855,
+        299.517,
+        136.567
+      ],
+      "net_bbox": [
+        355.68,
+        124.585,
+        386.601,
+        133.297
+      ]
+    },
+    {
+      "soc_ball": "V1",
+      "soc_signal": "MIPI_RX0_D1_N",
+      "reference_net": "CSI_D1_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        131.785,
+        316.885,
+        140.497
+      ],
+      "signal_bbox": [
+        249.32,
+        135.055,
+        299.517,
+        143.767
+      ],
+      "net_bbox": [
+        355.68,
+        131.785,
+        386.961,
+        140.497
+      ]
+    },
+    {
+      "soc_ball": "Y5",
+      "soc_signal": "MIPI_RX1_CLK_P",
+      "reference_net": "CSI_CLK1_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        146.185,
+        316.885,
+        154.897
+      ],
+      "signal_bbox": [
+        245.32,
+        149.455,
+        299.523,
+        158.167
+      ],
+      "net_bbox": [
+        355.68,
+        146.185,
+        394.606,
+        154.897
+      ]
+    },
+    {
+      "soc_ball": "W5",
+      "soc_signal": "MIPI_RX1_CLK_N",
+      "reference_net": "CSI_CLK1_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        153.385,
+        318.698,
+        162.097
+      ],
+      "signal_bbox": [
+        244.96,
+        156.655,
+        299.523,
+        165.367
+      ],
+      "net_bbox": [
+        355.68,
+        153.385,
+        394.966,
+        162.097
+      ]
+    },
+    {
+      "soc_ball": "W4",
+      "soc_signal": "MIPI_RX1_D2_P",
+      "reference_net": "CSI_D2_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        160.585,
+        318.698,
+        169.297
+      ],
+      "signal_bbox": [
+        249.68,
+        163.855,
+        299.517,
+        172.567
+      ],
+      "net_bbox": [
+        355.68,
+        160.585,
+        386.601,
+        169.297
+      ]
+    },
+    {
+      "soc_ball": "Y4",
+      "soc_signal": "MIPI_RX1_D2_N",
+      "reference_net": "CSI_D2_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        167.785,
+        316.885,
+        176.497
+      ],
+      "signal_bbox": [
+        249.32,
+        171.055,
+        299.517,
+        179.767
+      ],
+      "net_bbox": [
+        355.68,
+        167.785,
+        386.961,
+        176.497
+      ]
+    },
+    {
+      "soc_ball": "Y6",
+      "soc_signal": "MIPI_RX1_D3_P",
+      "reference_net": "CSI_D3_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        174.985,
+        316.885,
+        183.697
+      ],
+      "signal_bbox": [
+        249.68,
+        178.255,
+        299.517,
+        186.967
+      ],
+      "net_bbox": [
+        355.68,
+        174.985,
+        386.601,
+        183.697
+      ]
+    },
+    {
+      "soc_ball": "W6",
+      "soc_signal": "MIPI_RX1_D3_N",
+      "reference_net": "CSI_D3_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        182.185,
+        318.698,
+        190.897
+      ],
+      "signal_bbox": [
+        249.32,
+        185.455,
+        299.517,
+        194.167
+      ],
+      "net_bbox": [
+        355.68,
+        182.185,
+        386.961,
+        190.897
+      ]
+    },
+    {
+      "soc_ball": "R1",
+      "soc_signal": "MIPI_RX2_CLK_P",
+      "reference_net": "CSI_CLK2_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        196.585,
+        317.245,
+        205.297
+      ],
+      "signal_bbox": [
+        245.32,
+        199.855,
+        299.523,
+        208.567
+      ],
+      "net_bbox": [
+        355.68,
+        196.585,
+        394.606,
+        205.297
+      ]
+    },
+    {
+      "soc_ball": "R2",
+      "soc_signal": "MIPI_RX2_CLK_N",
+      "reference_net": "CSI_CLK2_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        203.785,
+        317.245,
+        212.497
+      ],
+      "signal_bbox": [
+        244.96,
+        207.055,
+        299.523,
+        215.767
+      ],
+      "net_bbox": [
+        355.68,
+        203.785,
+        394.966,
+        212.497
+      ]
+    },
+    {
+      "soc_ball": "T2",
+      "soc_signal": "MIPI_RX2_D4_P",
+      "reference_net": "CSI_D4_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        210.985,
+        316.519,
+        219.697
+      ],
+      "signal_bbox": [
+        249.68,
+        214.255,
+        299.517,
+        222.967
+      ],
+      "net_bbox": [
+        355.68,
+        210.985,
+        386.601,
+        219.697
+      ]
+    },
+    {
+      "soc_ball": "T1",
+      "soc_signal": "MIPI_RX2_D4_N",
+      "reference_net": "CSI_D4_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        218.185,
+        316.519,
+        226.897
+      ],
+      "signal_bbox": [
+        249.32,
+        221.455,
+        299.517,
+        230.167
+      ],
+      "net_bbox": [
+        355.68,
+        218.185,
+        386.961,
+        226.897
+      ]
+    },
+    {
+      "soc_ball": "U1",
+      "soc_signal": "MIPI_RX2_D5_P",
+      "reference_net": "CSI_D5_P",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        225.385,
+        317.245,
+        234.097
+      ],
+      "signal_bbox": [
+        249.68,
+        228.655,
+        299.517,
+        237.367
+      ],
+      "net_bbox": [
+        355.68,
+        225.385,
+        386.601,
+        234.097
+      ]
+    },
+    {
+      "soc_ball": "U2",
+      "soc_signal": "MIPI_RX2_D5_N",
+      "reference_net": "CSI_D5_N",
+      "source_page": 7,
+      "source_unit": "U1.3",
+      "ball_bbox": [
+        308.88,
+        232.585,
+        317.245,
+        241.297
+      ],
+      "signal_bbox": [
+        249.32,
+        235.855,
+        299.517,
+        244.567
+      ],
+      "net_bbox": [
+        355.68,
+        232.585,
+        386.961,
+        241.297
+      ]
+    }
+  ]
+}

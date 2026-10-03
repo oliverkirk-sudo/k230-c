@@ -1,0 +1,210 @@
+reference,value_or_candidate,footprint,DNP,excluded_from_BOM,stage,blocking_value,notes
+U1,K230 full 390 physical balls,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U2,K4F8E304HB 1GB LPDDR4 REVIEW,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U3,KLMAG1JETD 16GB eMMC REVIEW,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+J1,CM-K230 edge contract ONLY,,False,True,REVIEW_ONLY_NOT_PROCUREMENT,,140-pad interface model; not a physical extra connector
+C41,12pF REF / TUNE,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C42,12pF REF / TUNE,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C43,12pF REF / TUNE,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C44,12pF REF / TUNE,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C45,100nF REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R41,1M REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R42,1M REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R43,100k REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R44,10k BOOT0 LOW,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R45,10k BOOT0 HIGH / DNP,,True,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R46,10k BOOT1 HIGH,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R47,10k BOOT1 LOW / DNP,,True,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+Y1,32.768kHz / MPN TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+Y2,24MHz / MPN TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C31,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C32,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C33,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C34,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+JP1,OPEN=EMMC / CLOSED=TF; COLD ONLY,,True,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R31,10k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R32,10k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R33,10k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R34,10k RESET BIAS,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U11,TMUX1574RSVR / CANDIDATE,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U12,TMUX1574RSVR / CANDIDATE,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U13,TMUX1574RSVR / CANDIDATE,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U14,SN74LVC1G32DBVR,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C201,47uF X7R / Ceff>=10uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C202,120pF C0G,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C203,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C204,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C205,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C206,22uF X7R / total Ceff>=30uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C207,22uF X7R / total Ceff>=30uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C208,22uF X7R / total Ceff>=30uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C209,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C210,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C211,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C212,22uF X7R / total Ceff>=30uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C213,22uF X7R / total Ceff>=30uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C214,22uF X7R / total Ceff>=30uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C215,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C216,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C217,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C218,47uF X7R / Ceff>=10uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C219,120pF C0G,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C220,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C221,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C222,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C223,47uF X7R / Ceff>=10uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C224,120pF C0G,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C225,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C226,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C227,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C228,47uF X7R / Ceff>=10uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C229,120pF C0G,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C230,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C231,10uF 10V X7R,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C232,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C233,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C234,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C235,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C236,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C237,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C238,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C239,100nF local second PMU ball,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C240,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C241,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C242,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C243,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+C244,100nF REF / local bulk TBD,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+FB202,120Ohm@100MHz Rdc<=0.1Ohm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+FB203,120Ohm@100MHz Rdc<=0.1Ohm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+FB204,120Ohm@100MHz Rdc<=0.1Ohm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+FB205,120Ohm@100MHz Rdc<=0.1Ohm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+FB206,120Ohm@100MHz Rdc<=0.1Ohm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+FB207,120Ohm@100MHz Rdc<=0.1Ohm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+FB208,120Ohm@100MHz Rdc<=0.1Ohm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+FB209,120Ohm@100MHz Rdc<=0.1Ohm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+FB210,120Ohm@100MHz Rdc<=0.1Ohm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+L21,0.47uH XFL4015-471MEB REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+L22,0.24uH DFE201612E-R24M REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+L23,0.24uH DFE201612E-R24M REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+L24,0.47uH XFL4015-471MEB REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+L25,0.47uH XFL4015-471MEB REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+L26,0.47uH XFL4015-471MEB REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R201,33.2k 0.1%,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R202,100k 0.1%,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R203,100k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R204,10k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R205,56.2k 1% / 0.8V / addr0x49,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R206,56.2k 1% / 0.8V / addr0x49,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R207,84.5k 0.1%,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R208,100k 0.1%,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R209,100k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R210,200k 0.1%,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R211,100k 0.1%,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R212,100k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R213,453k 0.1%,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R214,100k 0.1%,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R215,100k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R216,4.7k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R217,4.7k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R218,4.7k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R219,4.7k,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R220,0R Rmax<=50mOhm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R221,0R Rmax<=50mOhm,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U21,TPS62827ADMQ,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U22,TPS628640BYCGR,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U23,TPS628640BYCGR,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U24,TPS62826ADMQ,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U25,TPS62825ADMQ,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+U26,TPS62826ADMQ,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C61,100nF REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C62,100nF REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C63,100nF REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C64,CReg TBD - verify Samsung,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,YES,Footprint and exact sourcing not released
+R61,10k REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R62,10k REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R63,240R 1% REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R64,240R 1% REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R65,240R 1% REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R66,240R 1% REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R67,30k 1% REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R68,30k 1% REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R69,200R 1% REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R70,200R 1% REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+R71,200R 1% REF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C501,4.7uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C502,4.7uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C503,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C504,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C505,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C506,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C507,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C508,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C509,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C510,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C511,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C512,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C513,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C514,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C515,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C516,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C517,4.7uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C518,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C519,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C520,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C521,4.7uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C522,4.7uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C523,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C524,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C525,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C526,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C527,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C528,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C529,4.7uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C530,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C531,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C532,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C533,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C534,4.7uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C535,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C536,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C537,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C538,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C539,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C540,22uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C541,4.7uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C542,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C543,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C544,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C545,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C546,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C547,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C548,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C549,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C550,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C551,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C552,22uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C553,4.7uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C554,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C555,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C556,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C557,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C558,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C559,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C560,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C561,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C562,22uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C563,4.7uF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C564,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C565,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C566,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C567,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C568,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C569,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C570,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C571,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C572,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C573,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C574,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C575,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C576,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released
+C577,100nF,,False,False,REVIEW_ONLY_NOT_PROCUREMENT,,Footprint and exact sourcing not released

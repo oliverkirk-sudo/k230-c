@@ -1,0 +1,68 @@
+{
+  "review_date_utc": "2026-09-30",
+  "part": "74AUP1G97GW,125",
+  "references": ["U92", "U94"],
+  "status": "PASS_INPUT_SLEW_SCREEN_AT_VALID_STABLE_SUPPLY_ONLY",
+  "scope": "Bounded check of a nominal 100 kohm / 100 nF external RSTN ramp at a valid, stable 1.8 V logic supply. No CAD edits or complete reset/power-sequencing qualification.",
+  "RC_nominal": {"resistance_ohm": 100000, "capacitance_F": 1e-7, "time_constant_ms": 10, "first_order_10_to_90_percent_rise_ms": 21.9722457734},
+  "datasheet": {
+    "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G97.pdf",
+    "revision": "14",
+    "date": "2023-07-24",
+    "recommended_operating_conditions": {
+      "section": 9,
+      "table": 7,
+      "pdf_page": 5,
+      "VCC_V": [0.8, 3.6],
+      "VI_V": [0, 3.6],
+      "ambient_C": [-40, 125],
+      "input_transition_row": "Absent",
+      "input_transition_footnote": "None",
+      "qualification": "Do not describe this table as containing an explicit unlimited entry; it specifies no input-transition constraint."
+    },
+    "characterized_Schmitt_input_evidence": {
+      "section": 12,
+      "table": 12,
+      "pdf_page": 11,
+      "parameters": ["VT+", "VT-", "VH"],
+      "temperature_columns_include": "-40 to +125 C",
+      "example_at_VCC_1p65V_only": {"VTplus_V": [0.91, 1.31], "VTminus_V": [0.47, 0.84], "VH_V": [0.27, 0.66]},
+      "example_limit": "The 1.65 V entries are quoted only as direct evidence of characterized hysteresis; they are not substituted for exact 1.8 V switching thresholds or used to guarantee reset timing."
+    },
+    "fast_edge_test_condition": {
+      "section": "11.1",
+      "table": 10,
+      "pdf_page": 10,
+      "tr_equals_tf_max_ns": 3,
+      "interpretation": "Propagation-delay measurement condition, not a recommended-operating input slew limit. The tabulated nanosecond delay limits are not a full guarantee of RC-generated reset timing."
+    }
+  },
+  "manufacturer_interpretation": {
+    "title": "Nexperia Logic Application Handbook / Design Engineer's Guide",
+    "url": "https://assets.nexperia.com/documents/brochure/Nexperia_LOGIC_Handbook_201029.pdf",
+    "location": "FAQ, PDF page 130: What is the difference between a Schmitt Trigger and Schmitt Trigger Action input?; also section 6.2.3",
+    "short_quote": "There is no maximum input transition fall and rise rate to be obeyed (∆t/∆V).",
+    "applicability": "The handbook identifies true Schmitt inputs by specified VT+/VT- thresholds and distinguishes them from unquantified Schmitt-action inputs. The 97 Table 12 supplies those thresholds and hysteresis, while Table 7 supplies no conflicting transition limit.",
+    "evidence_method": "Official manufacturer PDF content read through web search; independent second review agrees. No restricted local-download retry."
+  },
+  "contrast_with_06": {
+    "part": "74AUP1G06GW,125",
+    "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G06.pdf",
+    "revision": "12, 2024-11-13",
+    "section": 9,
+    "table": 6,
+    "pdf_page": 4,
+    "parameter": "Delta t / Delta V input transition rise and fall rate",
+    "range_ns_per_V": [0, 200],
+    "VCC_condition_V": [0.8, 3.6],
+    "application": "The same RC must not directly drive the 06. Its existing direct gate-output drive from U92 is retained; actual valid-supply loading/edge verification and partial-power behavior remain separate checks."
+  },
+  "conclusion": "Manufacturer-specified Schmitt transfer characteristics, absence of a 97 transition restriction, and explicit manufacturer handbook guidance support the 10 ms nominal RC at the 97 input during valid stable-supply operation. This is a justified interpretation of the complete manufacturer evidence, not an invented unlimited row or footnote in Table 7.",
+  "not_qualified_by_this_check": [
+    "Correct reset behavior during the logic supply ramp, especially below the 0.8 V recommended minimum",
+    "Partial-power and brownout behavior",
+    "Guaranteed reset delay, pulse width, or release timing across resistor/capacitor tolerance, DC bias, temperature, leakage and actual threshold spread",
+    "Actual gate-output loading/edge rate into U93 and full thermal/power behavior"
+  ],
+  "independent_review": "A separate source review confirmed Table 7, Table 12, Table 10 and the handbook FAQ interpretation."
+}

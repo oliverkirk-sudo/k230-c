@@ -1,0 +1,2480 @@
+{
+  "status": "CONDITIONAL_ANALYTIC_ESCAPE_STUDY_NOT_CAD_RELEASE",
+  "source_sha256": {
+    "/workspace/shared/cm-k230-redesign/engineering/mechanical/micron-lp4-independent-grid-verification.json": "81b40d40c5b2e7664a3a5e870f7725e4413c472dcb3828802d45cc973e7c6570",
+    "/workspace/shared/cm-k230-redesign/engineering/mechanical/micron-fw-independent-mechanics.json": "8de1e4fd683cbc2cb9c1ea52b73532cb303509b01e5fdef4d6893a9999347033",
+    "/workspace/shared/cm-k230-redesign/engineering/mechanical/bga-coordinate-verification.json": "8f39ad5ba65698e85b282bd51b11acbae1b5707762cc3edc31f8eecff70fd645",
+    "/workspace/shared/cm-k230-redesign/engineering/mechanical/core-stackup-process-proposal.json": "54c0d8362029b1aab3370c88b05b10580add0d1659c5402fe8db59d25d1d58d1",
+    "/workspace/shared/cm-k230-redesign/engineering/mechanical/bga-K230-physical-centers.csv": "0c9d8fc2a2b1e21dab63619da982fff17881238f2dd89abc5a81ed27068cc1dd",
+    "/workspace/shared/cm-k230-redesign/engineering/pin-types/k230-all390-type-audit.csv": "2bffea5b356a21ac97134c369cfe31c8af2ba9ea836f6c5712a1d2e61bb37747",
+    "/workspace/shared/cm-k230-redesign/cad/high-temp-candidate/master-pin-assignments.csv": "43925a589d42ceccdd22a3ea83d5ca12999db1f94df2c797d25ccd7922dd53c5",
+    "/workspace/shared/cm-k230-redesign/engineering/decoupling-allocation.csv": "1c6299b30b5f14faddf167e5c29fa6bc6426d559c3094ca23ad0980565249292",
+    "/workspace/shared/k230-memory-review/thermal-candidates/MTFC16GAPALBH-AAT_grid196_physical153.csv": "756da3df4d1cdcf6135fc08eb3d9b6b8f0cfc59b88a771cf4dc3bc22362015e3",
+    "/workspace/shared/cm-k230-redesign/engineering/routing/high-temp-ddr-route-contract.csv": "3ce34ee4fd1f1f72cc833b49415ea8eae62887d0ba0a30fc86febdcef86a106f"
+  },
+  "units": "mm",
+  "rule_basis": {
+    "trace_width": 0.1,
+    "copper_clearance": 0.1,
+    "via_pad": 0.35,
+    "drill_assumption": 0.15,
+    "hole_clearance": 0.1524
+  },
+  "arithmetic_comparison": {
+    "equality_epsilon_mm": 1e-12,
+    "purpose": "Floating-point representation error only; not a fabrication-rule relaxation. Zero nominal clearance margin remains zero process tolerance."
+  },
+  "packages": {
+    "FW200": {
+      "counts": {
+        "unused": 22,
+        "ground": 58,
+        "power": 52,
+        "non_supply_functional": 68
+      },
+      "physical_count": 200,
+      "pitch_x_mm": 0.8,
+      "pitch_y_mm": 0.65,
+      "trials": [
+        {
+          "land_mm": 0.3,
+          "max_trace_between_lands_x_mm": 0.3,
+          "max_trace_between_lands_y_mm": 0.15,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": true,
+          "dogbone": {
+            "nearest_center_mm": 0.515388203202,
+            "land_mm": 0.3,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.190388203202,
+            "copper_gap_margin_mm": 0.090388203202,
+            "drill_to_land_gap_mm": 0.290388203202,
+            "hole_gap_margin_mm": 0.137988203202,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        },
+        {
+          "land_mm": 0.325,
+          "max_trace_between_lands_x_mm": 0.275,
+          "max_trace_between_lands_y_mm": 0.125,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": true,
+          "dogbone": {
+            "nearest_center_mm": 0.515388203202,
+            "land_mm": 0.325,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.177888203202,
+            "copper_gap_margin_mm": 0.077888203202,
+            "drill_to_land_gap_mm": 0.277888203202,
+            "hole_gap_margin_mm": 0.125488203202,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        },
+        {
+          "land_mm": 0.35,
+          "max_trace_between_lands_x_mm": 0.25,
+          "max_trace_between_lands_y_mm": 0.1,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": true,
+          "dogbone": {
+            "nearest_center_mm": 0.515388203202,
+            "land_mm": 0.35,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.165388203202,
+            "copper_gap_margin_mm": 0.065388203202,
+            "drill_to_land_gap_mm": 0.265388203202,
+            "hole_gap_margin_mm": 0.112988203202,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        },
+        {
+          "land_mm": 0.375,
+          "max_trace_between_lands_x_mm": 0.225,
+          "max_trace_between_lands_y_mm": 0.075,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.515388203202,
+            "land_mm": 0.375,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.152888203202,
+            "copper_gap_margin_mm": 0.052888203202,
+            "drill_to_land_gap_mm": 0.252888203202,
+            "hole_gap_margin_mm": 0.100488203202,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        },
+        {
+          "land_mm": 0.4,
+          "max_trace_between_lands_x_mm": 0.2,
+          "max_trace_between_lands_y_mm": 0.05,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.515388203202,
+            "land_mm": 0.4,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.140388203202,
+            "copper_gap_margin_mm": 0.040388203202,
+            "drill_to_land_gap_mm": 0.240388203202,
+            "hole_gap_margin_mm": 0.087988203202,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        },
+        {
+          "land_mm": 0.425,
+          "max_trace_between_lands_x_mm": 0.175,
+          "max_trace_between_lands_y_mm": 0.025,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.515388203202,
+            "land_mm": 0.425,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.127888203202,
+            "copper_gap_margin_mm": 0.027888203202,
+            "drill_to_land_gap_mm": 0.227888203202,
+            "hole_gap_margin_mm": 0.075488203202,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        },
+        {
+          "land_mm": 0.45,
+          "max_trace_between_lands_x_mm": 0.15,
+          "max_trace_between_lands_y_mm": 0.0,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.515388203202,
+            "land_mm": 0.45,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.115388203202,
+            "copper_gap_margin_mm": 0.015388203202,
+            "drill_to_land_gap_mm": 0.215388203202,
+            "hole_gap_margin_mm": 0.062988203202,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        }
+      ],
+      "cell_center_max_land_for_selected_via_mm": 0.480776406404
+    },
+    "BH153": {
+      "counts": {
+        "NC": 109,
+        "signal": 12,
+        "ground": 11,
+        "RFU": 4,
+        "internal_regulator": 1,
+        "power": 9,
+        "vendor_specific": 7
+      },
+      "physical_count": 153,
+      "pitch_x_mm": 0.5,
+      "pitch_y_mm": 0.5,
+      "trials": [
+        {
+          "land_mm": 0.2,
+          "max_trace_between_lands_x_mm": 0.1,
+          "max_trace_between_lands_y_mm": 0.1,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": true,
+          "dogbone": {
+            "nearest_center_mm": 0.353553390593,
+            "land_mm": 0.2,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.078553390593,
+            "copper_gap_margin_mm": -0.021446609407,
+            "drill_to_land_gap_mm": 0.178553390593,
+            "hole_gap_margin_mm": 0.026153390593,
+            "passes_nominal_copper_and_hole_clearance": false
+          }
+        },
+        {
+          "land_mm": 0.25,
+          "max_trace_between_lands_x_mm": 0.05,
+          "max_trace_between_lands_y_mm": 0.05,
+          "one_selected_trace_x": false,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.353553390593,
+            "land_mm": 0.25,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.053553390593,
+            "copper_gap_margin_mm": -0.046446609407,
+            "drill_to_land_gap_mm": 0.153553390593,
+            "hole_gap_margin_mm": 0.001153390593,
+            "passes_nominal_copper_and_hole_clearance": false
+          }
+        },
+        {
+          "land_mm": 0.275,
+          "max_trace_between_lands_x_mm": 0.025,
+          "max_trace_between_lands_y_mm": 0.025,
+          "one_selected_trace_x": false,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.353553390593,
+            "land_mm": 0.275,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.041053390593,
+            "copper_gap_margin_mm": -0.058946609407,
+            "drill_to_land_gap_mm": 0.141053390593,
+            "hole_gap_margin_mm": -0.011346609407,
+            "passes_nominal_copper_and_hole_clearance": false
+          }
+        },
+        {
+          "land_mm": 0.3,
+          "max_trace_between_lands_x_mm": 0.0,
+          "max_trace_between_lands_y_mm": 0.0,
+          "one_selected_trace_x": false,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.353553390593,
+            "land_mm": 0.3,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.028553390593,
+            "copper_gap_margin_mm": -0.071446609407,
+            "drill_to_land_gap_mm": 0.128553390593,
+            "hole_gap_margin_mm": -0.023846609407,
+            "passes_nominal_copper_and_hole_clearance": false
+          }
+        },
+        {
+          "land_mm": 0.325,
+          "max_trace_between_lands_x_mm": -0.025,
+          "max_trace_between_lands_y_mm": -0.025,
+          "one_selected_trace_x": false,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.353553390593,
+            "land_mm": 0.325,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.016053390593,
+            "copper_gap_margin_mm": -0.083946609407,
+            "drill_to_land_gap_mm": 0.116053390593,
+            "hole_gap_margin_mm": -0.036346609407,
+            "passes_nominal_copper_and_hole_clearance": false
+          }
+        },
+        {
+          "land_mm": 0.35,
+          "max_trace_between_lands_x_mm": -0.05,
+          "max_trace_between_lands_y_mm": -0.05,
+          "one_selected_trace_x": false,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.353553390593,
+            "land_mm": 0.35,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.003553390593,
+            "copper_gap_margin_mm": -0.096446609407,
+            "drill_to_land_gap_mm": 0.103553390593,
+            "hole_gap_margin_mm": -0.048846609407,
+            "passes_nominal_copper_and_hole_clearance": false
+          }
+        },
+        {
+          "land_mm": 0.4,
+          "max_trace_between_lands_x_mm": -0.1,
+          "max_trace_between_lands_y_mm": -0.1,
+          "one_selected_trace_x": false,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.353553390593,
+            "land_mm": 0.4,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": -0.021446609407,
+            "copper_gap_margin_mm": -0.121446609407,
+            "drill_to_land_gap_mm": 0.078553390593,
+            "hole_gap_margin_mm": -0.073846609407,
+            "passes_nominal_copper_and_hole_clearance": false
+          }
+        }
+      ],
+      "cell_center_max_land_for_selected_via_mm": 0.157106781187
+    },
+    "K230": {
+      "counts": {
+        "signal": 209,
+        "ground": 105,
+        "unused": 23,
+        "power": 53
+      },
+      "physical_count": 390,
+      "pitch_x_mm": 0.65,
+      "pitch_y_mm": 0.65,
+      "trials": [
+        {
+          "land_mm": 0.275,
+          "max_trace_between_lands_x_mm": 0.175,
+          "max_trace_between_lands_y_mm": 0.175,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": true,
+          "dogbone": {
+            "nearest_center_mm": 0.459619407771,
+            "land_mm": 0.275,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.147119407771,
+            "copper_gap_margin_mm": 0.047119407771,
+            "drill_to_land_gap_mm": 0.247119407771,
+            "hole_gap_margin_mm": 0.094719407771,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        },
+        {
+          "land_mm": 0.3,
+          "max_trace_between_lands_x_mm": 0.15,
+          "max_trace_between_lands_y_mm": 0.15,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": true,
+          "dogbone": {
+            "nearest_center_mm": 0.459619407771,
+            "land_mm": 0.3,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.134619407771,
+            "copper_gap_margin_mm": 0.034619407771,
+            "drill_to_land_gap_mm": 0.234619407771,
+            "hole_gap_margin_mm": 0.082219407771,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        },
+        {
+          "land_mm": 0.325,
+          "max_trace_between_lands_x_mm": 0.125,
+          "max_trace_between_lands_y_mm": 0.125,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": true,
+          "dogbone": {
+            "nearest_center_mm": 0.459619407771,
+            "land_mm": 0.325,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.122119407771,
+            "copper_gap_margin_mm": 0.022119407771,
+            "drill_to_land_gap_mm": 0.222119407771,
+            "hole_gap_margin_mm": 0.069719407771,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        },
+        {
+          "land_mm": 0.35,
+          "max_trace_between_lands_x_mm": 0.1,
+          "max_trace_between_lands_y_mm": 0.1,
+          "one_selected_trace_x": true,
+          "one_selected_trace_y": true,
+          "dogbone": {
+            "nearest_center_mm": 0.459619407771,
+            "land_mm": 0.35,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.109619407771,
+            "copper_gap_margin_mm": 0.009619407771,
+            "drill_to_land_gap_mm": 0.209619407771,
+            "hole_gap_margin_mm": 0.057219407771,
+            "passes_nominal_copper_and_hole_clearance": true
+          }
+        },
+        {
+          "land_mm": 0.375,
+          "max_trace_between_lands_x_mm": 0.075,
+          "max_trace_between_lands_y_mm": 0.075,
+          "one_selected_trace_x": false,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.459619407771,
+            "land_mm": 0.375,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.097119407771,
+            "copper_gap_margin_mm": -0.002880592229,
+            "drill_to_land_gap_mm": 0.197119407771,
+            "hole_gap_margin_mm": 0.044719407771,
+            "passes_nominal_copper_and_hole_clearance": false
+          }
+        },
+        {
+          "land_mm": 0.4,
+          "max_trace_between_lands_x_mm": 0.05,
+          "max_trace_between_lands_y_mm": 0.05,
+          "one_selected_trace_x": false,
+          "one_selected_trace_y": false,
+          "dogbone": {
+            "nearest_center_mm": 0.459619407771,
+            "land_mm": 0.4,
+            "via_pad_mm": 0.35,
+            "via_land_copper_gap_mm": 0.084619407771,
+            "copper_gap_margin_mm": -0.015380592229,
+            "drill_to_land_gap_mm": 0.184619407771,
+            "hole_gap_margin_mm": 0.032219407771,
+            "passes_nominal_copper_and_hole_clearance": false
+          }
+        }
+      ],
+      "cell_center_max_land_for_selected_via_mm": 0.369238815543
+    }
+  },
+  "via_corridor_sensitivity": [
+    {
+      "pitch_mm": 0.5,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.1524,
+      "retained_pad_max_trace_mm": -0.05,
+      "nonfunctional_pad_removed_max_trace_mm": 0.0452,
+      "combined_retained_pad_max_trace_mm": -0.05,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": -0.05,
+      "removed_pad_hole_antipad_diameter_mm": 0.4548,
+      "removed_pad_plane_web_mm": 0.0452
+    },
+    {
+      "pitch_mm": 0.5,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.1778,
+      "retained_pad_max_trace_mm": -0.05,
+      "nonfunctional_pad_removed_max_trace_mm": -0.0056,
+      "combined_retained_pad_max_trace_mm": -0.05,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": -0.05,
+      "removed_pad_hole_antipad_diameter_mm": 0.5056,
+      "removed_pad_plane_web_mm": -0.0056
+    },
+    {
+      "pitch_mm": 0.5,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.2,
+      "retained_pad_max_trace_mm": -0.05,
+      "nonfunctional_pad_removed_max_trace_mm": -0.05,
+      "combined_retained_pad_max_trace_mm": -0.05,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": -0.05,
+      "removed_pad_hole_antipad_diameter_mm": 0.55,
+      "removed_pad_plane_web_mm": -0.05
+    },
+    {
+      "pitch_mm": 0.5,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.2286,
+      "retained_pad_max_trace_mm": -0.05,
+      "nonfunctional_pad_removed_max_trace_mm": -0.1072,
+      "combined_retained_pad_max_trace_mm": -0.1072,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.6072,
+      "retained_pad_plane_web_mm": -0.1072,
+      "removed_pad_hole_antipad_diameter_mm": 0.6072,
+      "removed_pad_plane_web_mm": -0.1072
+    },
+    {
+      "pitch_mm": 0.5,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.1524,
+      "retained_pad_max_trace_mm": -0.05,
+      "nonfunctional_pad_removed_max_trace_mm": -0.0048,
+      "combined_retained_pad_max_trace_mm": -0.05,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": -0.05,
+      "removed_pad_hole_antipad_diameter_mm": 0.5048,
+      "removed_pad_plane_web_mm": -0.0048
+    },
+    {
+      "pitch_mm": 0.5,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.1778,
+      "retained_pad_max_trace_mm": -0.05,
+      "nonfunctional_pad_removed_max_trace_mm": -0.0556,
+      "combined_retained_pad_max_trace_mm": -0.0556,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.5556,
+      "retained_pad_plane_web_mm": -0.0556,
+      "removed_pad_hole_antipad_diameter_mm": 0.5556,
+      "removed_pad_plane_web_mm": -0.0556
+    },
+    {
+      "pitch_mm": 0.5,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.2,
+      "retained_pad_max_trace_mm": -0.05,
+      "nonfunctional_pad_removed_max_trace_mm": -0.1,
+      "combined_retained_pad_max_trace_mm": -0.1,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.6,
+      "retained_pad_plane_web_mm": -0.1,
+      "removed_pad_hole_antipad_diameter_mm": 0.6,
+      "removed_pad_plane_web_mm": -0.1
+    },
+    {
+      "pitch_mm": 0.5,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.2286,
+      "retained_pad_max_trace_mm": -0.05,
+      "nonfunctional_pad_removed_max_trace_mm": -0.1572,
+      "combined_retained_pad_max_trace_mm": -0.1572,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.6572,
+      "retained_pad_plane_web_mm": -0.1572,
+      "removed_pad_hole_antipad_diameter_mm": 0.6572,
+      "removed_pad_plane_web_mm": -0.1572
+    },
+    {
+      "pitch_mm": 0.65,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.1524,
+      "retained_pad_max_trace_mm": 0.1,
+      "nonfunctional_pad_removed_max_trace_mm": 0.1952,
+      "combined_retained_pad_max_trace_mm": 0.1,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": 0.1,
+      "removed_pad_hole_antipad_diameter_mm": 0.4548,
+      "removed_pad_plane_web_mm": 0.1952
+    },
+    {
+      "pitch_mm": 0.65,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.1778,
+      "retained_pad_max_trace_mm": 0.1,
+      "nonfunctional_pad_removed_max_trace_mm": 0.1444,
+      "combined_retained_pad_max_trace_mm": 0.1,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": 0.1,
+      "removed_pad_hole_antipad_diameter_mm": 0.5056,
+      "removed_pad_plane_web_mm": 0.1444
+    },
+    {
+      "pitch_mm": 0.65,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.2,
+      "retained_pad_max_trace_mm": 0.1,
+      "nonfunctional_pad_removed_max_trace_mm": 0.1,
+      "combined_retained_pad_max_trace_mm": 0.1,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": 0.1,
+      "removed_pad_hole_antipad_diameter_mm": 0.55,
+      "removed_pad_plane_web_mm": 0.1
+    },
+    {
+      "pitch_mm": 0.65,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.2286,
+      "retained_pad_max_trace_mm": 0.1,
+      "nonfunctional_pad_removed_max_trace_mm": 0.0428,
+      "combined_retained_pad_max_trace_mm": 0.0428,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.6072,
+      "retained_pad_plane_web_mm": 0.0428,
+      "removed_pad_hole_antipad_diameter_mm": 0.6072,
+      "removed_pad_plane_web_mm": 0.0428
+    },
+    {
+      "pitch_mm": 0.65,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.1524,
+      "retained_pad_max_trace_mm": 0.1,
+      "nonfunctional_pad_removed_max_trace_mm": 0.1452,
+      "combined_retained_pad_max_trace_mm": 0.1,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": 0.1,
+      "removed_pad_hole_antipad_diameter_mm": 0.5048,
+      "removed_pad_plane_web_mm": 0.1452
+    },
+    {
+      "pitch_mm": 0.65,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.1778,
+      "retained_pad_max_trace_mm": 0.1,
+      "nonfunctional_pad_removed_max_trace_mm": 0.0944,
+      "combined_retained_pad_max_trace_mm": 0.0944,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.5556,
+      "retained_pad_plane_web_mm": 0.0944,
+      "removed_pad_hole_antipad_diameter_mm": 0.5556,
+      "removed_pad_plane_web_mm": 0.0944
+    },
+    {
+      "pitch_mm": 0.65,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.2,
+      "retained_pad_max_trace_mm": 0.1,
+      "nonfunctional_pad_removed_max_trace_mm": 0.05,
+      "combined_retained_pad_max_trace_mm": 0.05,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.6,
+      "retained_pad_plane_web_mm": 0.05,
+      "removed_pad_hole_antipad_diameter_mm": 0.6,
+      "removed_pad_plane_web_mm": 0.05
+    },
+    {
+      "pitch_mm": 0.65,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.2286,
+      "retained_pad_max_trace_mm": 0.1,
+      "nonfunctional_pad_removed_max_trace_mm": -0.0072,
+      "combined_retained_pad_max_trace_mm": -0.0072,
+      "retained_pad_passes_selected_width": false,
+      "removed_pad_passes_selected_width": false,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.6572,
+      "retained_pad_plane_web_mm": -0.0072,
+      "removed_pad_hole_antipad_diameter_mm": 0.6572,
+      "removed_pad_plane_web_mm": -0.0072
+    },
+    {
+      "pitch_mm": 0.8,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.1524,
+      "retained_pad_max_trace_mm": 0.25,
+      "nonfunctional_pad_removed_max_trace_mm": 0.3452,
+      "combined_retained_pad_max_trace_mm": 0.25,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": 0.25,
+      "removed_pad_hole_antipad_diameter_mm": 0.4548,
+      "removed_pad_plane_web_mm": 0.3452
+    },
+    {
+      "pitch_mm": 0.8,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.1778,
+      "retained_pad_max_trace_mm": 0.25,
+      "nonfunctional_pad_removed_max_trace_mm": 0.2944,
+      "combined_retained_pad_max_trace_mm": 0.25,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": 0.25,
+      "removed_pad_hole_antipad_diameter_mm": 0.5056,
+      "removed_pad_plane_web_mm": 0.2944
+    },
+    {
+      "pitch_mm": 0.8,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.2,
+      "retained_pad_max_trace_mm": 0.25,
+      "nonfunctional_pad_removed_max_trace_mm": 0.25,
+      "combined_retained_pad_max_trace_mm": 0.25,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": 0.25,
+      "removed_pad_hole_antipad_diameter_mm": 0.55,
+      "removed_pad_plane_web_mm": 0.25
+    },
+    {
+      "pitch_mm": 0.8,
+      "drill_assumption_mm": 0.15,
+      "hole_clearance_mm": 0.2286,
+      "retained_pad_max_trace_mm": 0.25,
+      "nonfunctional_pad_removed_max_trace_mm": 0.1928,
+      "combined_retained_pad_max_trace_mm": 0.1928,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.6072,
+      "retained_pad_plane_web_mm": 0.1928,
+      "removed_pad_hole_antipad_diameter_mm": 0.6072,
+      "removed_pad_plane_web_mm": 0.1928
+    },
+    {
+      "pitch_mm": 0.8,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.1524,
+      "retained_pad_max_trace_mm": 0.25,
+      "nonfunctional_pad_removed_max_trace_mm": 0.2952,
+      "combined_retained_pad_max_trace_mm": 0.25,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.55,
+      "retained_pad_plane_web_mm": 0.25,
+      "removed_pad_hole_antipad_diameter_mm": 0.5048,
+      "removed_pad_plane_web_mm": 0.2952
+    },
+    {
+      "pitch_mm": 0.8,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.1778,
+      "retained_pad_max_trace_mm": 0.25,
+      "nonfunctional_pad_removed_max_trace_mm": 0.2444,
+      "combined_retained_pad_max_trace_mm": 0.2444,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.5556,
+      "retained_pad_plane_web_mm": 0.2444,
+      "removed_pad_hole_antipad_diameter_mm": 0.5556,
+      "removed_pad_plane_web_mm": 0.2444
+    },
+    {
+      "pitch_mm": 0.8,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.2,
+      "retained_pad_max_trace_mm": 0.25,
+      "nonfunctional_pad_removed_max_trace_mm": 0.2,
+      "combined_retained_pad_max_trace_mm": 0.2,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.6,
+      "retained_pad_plane_web_mm": 0.2,
+      "removed_pad_hole_antipad_diameter_mm": 0.6,
+      "removed_pad_plane_web_mm": 0.2
+    },
+    {
+      "pitch_mm": 0.8,
+      "drill_assumption_mm": 0.2,
+      "hole_clearance_mm": 0.2286,
+      "retained_pad_max_trace_mm": 0.25,
+      "nonfunctional_pad_removed_max_trace_mm": 0.1428,
+      "combined_retained_pad_max_trace_mm": 0.1428,
+      "retained_pad_passes_selected_width": true,
+      "removed_pad_passes_selected_width": true,
+      "retained_pad_min_plane_antipad_diameter_mm": 0.6572,
+      "retained_pad_plane_web_mm": 0.1428,
+      "removed_pad_hole_antipad_diameter_mm": 0.6572,
+      "removed_pad_plane_web_mm": 0.1428
+    }
+  ],
+  "K230_functional": {
+    "connected_signal_count": 209,
+    "signal_ring_histogram": {
+      "0": 56,
+      "1": 59,
+      "2": 42,
+      "3": 34,
+      "4": 16,
+      "5": 2
+    },
+    "DDR65_count": 65,
+    "DDR_ring_histogram": {
+      "0": 16,
+      "1": 17,
+      "2": 16,
+      "3": 12,
+      "4": 4
+    },
+    "deepest_signal_balls": [
+      {
+        "ball": "J6",
+        "function": "GPIO43/UART1_CTS/PWM1/QSPI1_D3",
+        "net": "BANK3_GPIO43",
+        "category": "signal",
+        "physical": true,
+        "x_mm": -2.925,
+        "y_mm": -0.975,
+        "ring": 5
+      },
+      {
+        "ball": "L6",
+        "function": "GPIO24/OSPI_DQS/QSPI1_D2/PULSE_CNTR4",
+        "net": "BANK1_GPIO24",
+        "category": "signal",
+        "physical": true,
+        "x_mm": -2.925,
+        "y_mm": 0.325,
+        "ring": 5
+      }
+    ],
+    "counts_by_ring": {
+      "0": {
+        "signal": 56,
+        "ground": 11,
+        "unused": 8
+      },
+      "1": {
+        "signal": 59,
+        "ground": 5,
+        "unused": 4
+      },
+      "2": {
+        "signal": 42,
+        "ground": 13,
+        "unused": 5
+      },
+      "3": {
+        "signal": 34,
+        "unused": 6,
+        "ground": 8
+      },
+      "4": {
+        "ground": 20,
+        "power": 3,
+        "signal": 16
+      },
+      "5": {
+        "ground": 19,
+        "power": 15,
+        "signal": 2
+      },
+      "6": {
+        "ground": 13,
+        "power": 15
+      },
+      "7": {
+        "power": 11,
+        "ground": 9
+      },
+      "8": {
+        "power": 7,
+        "ground": 5
+      },
+      "9": {
+        "ground": 2,
+        "power": 2
+      }
+    },
+    "DDR_sector_column_min": 14
+  },
+  "K230_deepest_local_witness": [
+    {
+      "status": "PASS_TWO_SIGNAL_LOCAL_GEOMETRY_ONLY",
+      "BGA_copper_mm": 0.25,
+      "via_copper_mm": 0.35,
+      "assumed_drill_mm": 0.15,
+      "trace_width_mm": 0.1016,
+      "copper_clearance_mm": 0.1016,
+      "hole_clearance_mm": 0.1524,
+      "all390_physical_top_lands_retained": true,
+      "checks": 2341,
+      "minimum_margin_mm": 0.058019407771,
+      "controlling_checks": [
+        {
+          "ball": "J6",
+          "other": "H5",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.058019407771
+        },
+        {
+          "ball": "J6",
+          "other": "H6",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.058019407771
+        },
+        {
+          "ball": "J6",
+          "other": "J5",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.058019407771
+        },
+        {
+          "ball": "L6",
+          "other": "L5",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.058019407771
+        },
+        {
+          "ball": "L6",
+          "other": "M5",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.058019407771
+        },
+        {
+          "ball": "L6",
+          "other": "M6",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.058019407771
+        },
+        {
+          "ball": "J6",
+          "other": "H5",
+          "layer": "L1",
+          "kind": "drill_to_land",
+          "margin_mm": 0.107219407771
+        },
+        {
+          "ball": "J6",
+          "other": "H6",
+          "layer": "L1",
+          "kind": "drill_to_land",
+          "margin_mm": 0.107219407771
+        }
+      ],
+      "failures": [],
+      "source_ball_centers": {
+        "J6": [
+          -2.925,
+          -0.975
+        ],
+        "L6": [
+          -2.925,
+          0.325
+        ]
+      },
+      "vias": [
+        {
+          "ball": "J6",
+          "xy": [
+            -3.25,
+            -1.3
+          ]
+        },
+        {
+          "ball": "L6",
+          "xy": [
+            -3.25,
+            0.65
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "ball": "J6",
+          "layer": "L1",
+          "points": [
+            [
+              -2.925,
+              -0.975
+            ],
+            [
+              -3.25,
+              -1.3
+            ]
+          ]
+        },
+        {
+          "ball": "J6",
+          "layer": "L3",
+          "points": [
+            [
+              -3.25,
+              -1.3
+            ],
+            [
+              -7.2,
+              -1.3
+            ]
+          ]
+        },
+        {
+          "ball": "L6",
+          "layer": "L1",
+          "points": [
+            [
+              -2.925,
+              0.325
+            ],
+            [
+              -3.25,
+              0.65
+            ]
+          ]
+        },
+        {
+          "ball": "L6",
+          "layer": "L3",
+          "points": [
+            [
+              -3.25,
+              0.65
+            ],
+            [
+              -7.2,
+              0.65
+            ]
+          ]
+        }
+      ],
+      "scope_limit": "Only two staggered local dogbones and their L3 egress are modeled. Every other required signal/power/ground via is unrouted/reserved and may obstruct these exits. No full K230 escape, PDN, plane continuity, timing or assembly approval."
+    },
+    {
+      "status": "PASS_TWO_SIGNAL_LOCAL_GEOMETRY_ONLY",
+      "BGA_copper_mm": 0.27,
+      "via_copper_mm": 0.35,
+      "assumed_drill_mm": 0.15,
+      "trace_width_mm": 0.1016,
+      "copper_clearance_mm": 0.1016,
+      "hole_clearance_mm": 0.1524,
+      "all390_physical_top_lands_retained": true,
+      "checks": 2341,
+      "minimum_margin_mm": 0.048019407771,
+      "controlling_checks": [
+        {
+          "ball": "J6",
+          "other": "H5",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.048019407771
+        },
+        {
+          "ball": "J6",
+          "other": "H6",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.048019407771
+        },
+        {
+          "ball": "J6",
+          "other": "J5",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.048019407771
+        },
+        {
+          "ball": "L6",
+          "other": "L5",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.048019407771
+        },
+        {
+          "ball": "L6",
+          "other": "M5",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.048019407771
+        },
+        {
+          "ball": "L6",
+          "other": "M6",
+          "layer": "L1",
+          "kind": "via_pad_to_land",
+          "margin_mm": 0.048019407771
+        },
+        {
+          "ball": "J6",
+          "other": "H5",
+          "layer": "L1",
+          "kind": "drill_to_land",
+          "margin_mm": 0.097219407771
+        },
+        {
+          "ball": "J6",
+          "other": "H6",
+          "layer": "L1",
+          "kind": "drill_to_land",
+          "margin_mm": 0.097219407771
+        }
+      ],
+      "failures": [],
+      "source_ball_centers": {
+        "J6": [
+          -2.925,
+          -0.975
+        ],
+        "L6": [
+          -2.925,
+          0.325
+        ]
+      },
+      "vias": [
+        {
+          "ball": "J6",
+          "xy": [
+            -3.25,
+            -1.3
+          ]
+        },
+        {
+          "ball": "L6",
+          "xy": [
+            -3.25,
+            0.65
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "ball": "J6",
+          "layer": "L1",
+          "points": [
+            [
+              -2.925,
+              -0.975
+            ],
+            [
+              -3.25,
+              -1.3
+            ]
+          ]
+        },
+        {
+          "ball": "J6",
+          "layer": "L3",
+          "points": [
+            [
+              -3.25,
+              -1.3
+            ],
+            [
+              -7.2,
+              -1.3
+            ]
+          ]
+        },
+        {
+          "ball": "L6",
+          "layer": "L1",
+          "points": [
+            [
+              -2.925,
+              0.325
+            ],
+            [
+              -3.25,
+              0.65
+            ]
+          ]
+        },
+        {
+          "ball": "L6",
+          "layer": "L3",
+          "points": [
+            [
+              -3.25,
+              0.65
+            ],
+            [
+              -7.2,
+              0.65
+            ]
+          ]
+        }
+      ],
+      "scope_limit": "Only two staggered local dogbones and their L3 egress are modeled. Every other required signal/power/ground via is unrouted/reserved and may obstruct these exits. No full K230 escape, PDN, plane continuity, timing or assembly approval."
+    }
+  ],
+  "LPDDR_non_supply_functional_quadrants": {
+    "NW": [
+      "A5",
+      "B2",
+      "B4",
+      "C2",
+      "C3",
+      "C4",
+      "D3",
+      "E2",
+      "E3",
+      "E4",
+      "F2",
+      "F4",
+      "G2",
+      "H2",
+      "H4",
+      "J2",
+      "J4"
+    ],
+    "NE": [
+      "B9",
+      "B11",
+      "C9",
+      "C10",
+      "C11",
+      "D10",
+      "E9",
+      "E10",
+      "E11",
+      "F9",
+      "F11",
+      "H9",
+      "H10",
+      "H11",
+      "J8",
+      "J9",
+      "J11"
+    ],
+    "SW": [
+      "P2",
+      "P4",
+      "R2",
+      "R4",
+      "T2",
+      "U2",
+      "U4",
+      "V2",
+      "V3",
+      "V4",
+      "W3",
+      "Y2",
+      "Y3",
+      "Y4",
+      "AA2",
+      "AA4"
+    ],
+    "SE": [
+      "P8",
+      "P9",
+      "P11",
+      "R9",
+      "R10",
+      "R11",
+      "T11",
+      "U9",
+      "U11",
+      "V9",
+      "V10",
+      "V11",
+      "W10",
+      "Y9",
+      "Y10",
+      "Y11",
+      "AA9",
+      "AA11"
+    ]
+  },
+  "LPDDR_live_SoC_joins_by_quadrant": {
+    "NW": [
+      "B2",
+      "B4",
+      "C2",
+      "C3",
+      "C4",
+      "D3",
+      "E2",
+      "E3",
+      "E4",
+      "F2",
+      "F4",
+      "H2",
+      "H4",
+      "J2",
+      "J4"
+    ],
+    "NE": [
+      "B9",
+      "B11",
+      "C9",
+      "C10",
+      "C11",
+      "D10",
+      "E9",
+      "E10",
+      "E11",
+      "F9",
+      "F11",
+      "H9",
+      "H10",
+      "H11",
+      "J8",
+      "J9",
+      "J11"
+    ],
+    "SW": [
+      "P2",
+      "P4",
+      "R2",
+      "R4",
+      "U2",
+      "U4",
+      "V2",
+      "V3",
+      "V4",
+      "W3",
+      "Y2",
+      "Y3",
+      "Y4",
+      "AA2",
+      "AA4"
+    ],
+    "SE": [
+      "P8",
+      "P9",
+      "P11",
+      "R9",
+      "R10",
+      "R11",
+      "T11",
+      "U9",
+      "U11",
+      "V9",
+      "V10",
+      "V11",
+      "W10",
+      "Y9",
+      "Y10",
+      "Y11",
+      "AA9",
+      "AA11"
+    ]
+  },
+  "DDR_route_contract_gate": {
+    "live_joins": 65,
+    "groups": {
+      "A_BYTE0": 11,
+      "A_BYTE1": 11,
+      "A_ADDRESS_COMMAND": 10,
+      "B_BYTE1": 11,
+      "B_BYTE0": 11,
+      "RESET_ASYNCHRONOUS": 1,
+      "B_ADDRESS_COMMAND": 10
+    },
+    "local_functional_balls_excluded_from_SoC_egress": [
+      "A5/ZQ0",
+      "G2/ODT_CA_A",
+      "T2/ODT_CA_B"
+    ],
+    "timing_status": "Local geometric fanout and PCB equal length do not establish flight-time matching; use official SoC package lengths, missing Micron package delay model, actual manufactured dielectric/via delays, SI and training."
+  },
+  "eMMC_local_witness": {
+    "status": "PASS_CONDITIONAL_LOCAL_GEOMETRY_ONLY",
+    "note": "No PDN, impedance, return-via, length match, solder mask, placement or final net routing approval. All physical lands retained, all 20 power/ground balls have modeled vias; DS not used in HS200. VDDIM escape included but its top-side capacitor and return via not placed.",
+    "trial_round_BGA_land_mm": 0.4,
+    "via_pad_mm": 0.35,
+    "assumed_drill_mm": 0.15,
+    "hole_to_copper_mm": 0.1524,
+    "nominal_annular_ring_mm": 0.1,
+    "annular_ring_margin_vs_published_3mil_mm": 0.0238,
+    "mechanical_hole_margin_vs_published_0p15_mm": 0.0,
+    "via_pad_fits_BGA_copper": true,
+    "process_warning": "Geometry PASS does not override annular-ring or drill minima, or qualify the exact-part copper/mask construction.",
+    "nominal_local_signal_egress_layers": [
+      "L1",
+      "L3"
+    ],
+    "required_host_signals": 11,
+    "signal_balls_L1": [
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "signal_balls_L3": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "K5",
+      "M5",
+      "M6"
+    ],
+    "power_ground_via_count": 20,
+    "modeled_via_count": 29,
+    "minimum_checked_margin_mm": -0.0,
+    "checks": 22031,
+    "failures": [],
+    "vias": [
+      {
+        "ball": "C2",
+        "net": "VDDIM",
+        "xy": [
+          -2.75,
+          -2.25
+        ]
+      },
+      {
+        "ball": "C4",
+        "net": "VSSQ",
+        "xy": [
+          -1.75,
+          -2.25
+        ]
+      },
+      {
+        "ball": "C6",
+        "net": "VCCQ",
+        "xy": [
+          -0.75,
+          -2.25
+        ]
+      },
+      {
+        "ball": "E6",
+        "net": "VCC",
+        "xy": [
+          -0.75,
+          -1.25
+        ]
+      },
+      {
+        "ball": "E7",
+        "net": "VSS",
+        "xy": [
+          -0.25,
+          -1.25
+        ]
+      },
+      {
+        "ball": "F5",
+        "net": "VCC",
+        "xy": [
+          -1.25,
+          -0.75
+        ]
+      },
+      {
+        "ball": "G5",
+        "net": "VSS",
+        "xy": [
+          -1.25,
+          -0.25
+        ]
+      },
+      {
+        "ball": "H10",
+        "net": "VSS",
+        "xy": [
+          1.25,
+          0.25
+        ]
+      },
+      {
+        "ball": "J5",
+        "net": "VSS",
+        "xy": [
+          -1.25,
+          0.75
+        ]
+      },
+      {
+        "ball": "J10",
+        "net": "VCC",
+        "xy": [
+          1.25,
+          0.75
+        ]
+      },
+      {
+        "ball": "K8",
+        "net": "VSS",
+        "xy": [
+          0.25,
+          1.25
+        ]
+      },
+      {
+        "ball": "K9",
+        "net": "VCC",
+        "xy": [
+          0.75,
+          1.25
+        ]
+      },
+      {
+        "ball": "M4",
+        "net": "VCCQ",
+        "xy": [
+          -1.75,
+          2.25
+        ]
+      },
+      {
+        "ball": "N2",
+        "net": "VSSQ",
+        "xy": [
+          -2.75,
+          2.75
+        ]
+      },
+      {
+        "ball": "N4",
+        "net": "VCCQ",
+        "xy": [
+          -1.75,
+          2.75
+        ]
+      },
+      {
+        "ball": "N5",
+        "net": "VSSQ",
+        "xy": [
+          -1.25,
+          2.75
+        ]
+      },
+      {
+        "ball": "P3",
+        "net": "VCCQ",
+        "xy": [
+          -2.25,
+          3.25
+        ]
+      },
+      {
+        "ball": "P4",
+        "net": "VSSQ",
+        "xy": [
+          -1.75,
+          3.25
+        ]
+      },
+      {
+        "ball": "P5",
+        "net": "VCCQ",
+        "xy": [
+          -1.25,
+          3.25
+        ]
+      },
+      {
+        "ball": "P6",
+        "net": "VSSQ",
+        "xy": [
+          -0.75,
+          3.25
+        ]
+      },
+      {
+        "ball": "B2",
+        "net": "DAT3",
+        "xy": [
+          -2.75,
+          -2.75
+        ]
+      },
+      {
+        "ball": "B3",
+        "net": "DAT4",
+        "xy": [
+          -2.25,
+          -2.75
+        ]
+      },
+      {
+        "ball": "B4",
+        "net": "DAT5",
+        "xy": [
+          -1.75,
+          -2.75
+        ]
+      },
+      {
+        "ball": "B5",
+        "net": "DAT6",
+        "xy": [
+          -1.25,
+          -2.75
+        ]
+      },
+      {
+        "ball": "B6",
+        "net": "DAT7",
+        "xy": [
+          -0.75,
+          -2.75
+        ]
+      },
+      {
+        "ball": "K5",
+        "net": "RST_n",
+        "xy": [
+          -1.25,
+          1.25
+        ]
+      },
+      {
+        "ball": "M5",
+        "net": "CMD",
+        "xy": [
+          -1.25,
+          1.75
+        ]
+      },
+      {
+        "ball": "M6",
+        "net": "CLK",
+        "xy": [
+          -0.75,
+          1.75
+        ]
+      },
+      {
+        "ball": "A6",
+        "net": "VSS",
+        "xy": [
+          0.0,
+          -4.5
+        ]
+      }
+    ],
+    "routes": [
+      {
+        "ball": "A3",
+        "net": "DAT0",
+        "layer": "L1",
+        "points": [
+          [
+            -2.25,
+            -3.25
+          ],
+          [
+            -2.25,
+            -7.0
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "A4",
+        "net": "DAT1",
+        "layer": "L1",
+        "points": [
+          [
+            -1.75,
+            -3.25
+          ],
+          [
+            -1.75,
+            -7.0
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "A5",
+        "net": "DAT2",
+        "layer": "L1",
+        "points": [
+          [
+            -1.25,
+            -3.25
+          ],
+          [
+            -1.25,
+            -7.0
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "B2",
+        "net": "DAT3",
+        "layer": "L3",
+        "points": [
+          [
+            -2.75,
+            -2.75
+          ],
+          [
+            -2.75,
+            -7.0
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "B3",
+        "net": "DAT4",
+        "layer": "L3",
+        "points": [
+          [
+            -2.25,
+            -2.75
+          ],
+          [
+            -2.25,
+            -7.0
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "B4",
+        "net": "DAT5",
+        "layer": "L3",
+        "points": [
+          [
+            -1.75,
+            -2.75
+          ],
+          [
+            -1.75,
+            -7.0
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "B5",
+        "net": "DAT6",
+        "layer": "L3",
+        "points": [
+          [
+            -1.25,
+            -2.75
+          ],
+          [
+            -1.25,
+            -7.0
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "B6",
+        "net": "DAT7",
+        "layer": "L3",
+        "points": [
+          [
+            -0.75,
+            -2.75
+          ],
+          [
+            -0.75,
+            -7.0
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "M5",
+        "net": "CMD",
+        "layer": "L1",
+        "points": [
+          [
+            -1.25,
+            2.25
+          ],
+          [
+            -1.25,
+            1.75
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "M5",
+        "net": "CMD",
+        "layer": "L3",
+        "points": [
+          [
+            -1.25,
+            1.75
+          ],
+          [
+            -6.25,
+            1.75
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "M6",
+        "net": "CLK",
+        "layer": "L1",
+        "points": [
+          [
+            -0.75,
+            2.25
+          ],
+          [
+            -0.75,
+            1.75
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "M6",
+        "net": "CLK",
+        "layer": "L3",
+        "points": [
+          [
+            -0.75,
+            1.75
+          ],
+          [
+            6.25,
+            1.75
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "K5",
+        "net": "RST_n",
+        "layer": "L3",
+        "points": [
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            -6.25,
+            1.25
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "C2",
+        "net": "VDDIM",
+        "layer": "L3",
+        "points": [
+          [
+            -2.75,
+            -2.25
+          ],
+          [
+            -6.25,
+            -2.25
+          ]
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "ball": "A6",
+        "net": "VSS",
+        "layer": "L1",
+        "points": [
+          [
+            -0.75,
+            -3.25
+          ],
+          [
+            -0.75,
+            -3.75
+          ],
+          [
+            0.0,
+            -4.5
+          ]
+        ],
+        "width_mm": 0.1
+      }
+    ]
+  },
+  "decoupling": {
+    "count": 77,
+    "by_rail": {
+      "VDD0P8_CORE": 16,
+      "VDD0P8_CPU": 4,
+      "VDD0P8_KPU": 8,
+      "VDD0P8_DDR_CORE": 5,
+      "VDD1P1_DDR_IO": 28,
+      "VDD1P8": 10,
+      "BANK0_VDDIO": 1,
+      "BANK1_VDDIO": 1,
+      "BANK2_VDDIO": 1,
+      "BANK3_VDDIO": 1,
+      "BANK4_VDDIO": 1,
+      "BANK5_VDDIO": 1
+    },
+    "local_geometry_unassigned": true,
+    "top_only": true,
+    "eMMC_VDDIM_C2_nominal_minimum_distance_to_body_edge_mm": 3.0
+  },
+  "invariants": {
+    "frozen_files_modified": false,
+    "CAD_modified": false,
+    "CSN33_not_accessed_or_retried": true,
+    "source_0p40_FW_and_0p30_BH_package_SMD_notes_not_used_as_PCB_recommendations": true
+  },
+  "top_side_decoupler_distance_bounds": {
+    "K230": {
+      "interpretation": "Geometric lower bound from a power-ball center to outside the maximum body projection. Add capacitor land/courtyard, manufacturing clearance, and actual route/via detours; not an electrical path model or placement approval.",
+      "maximum_body_half_width_mm": 6.55,
+      "maximum_body_half_height_mm": 6.55,
+      "minimum_over_power_balls_mm": 2.975,
+      "maximum_over_power_balls_mm": 6.225,
+      "balls": [
+        {
+          "ball": "E9",
+          "function": "AVDD3P3_USB",
+          "distance_to_nearest_max_body_edge_mm": 2.975
+        },
+        {
+          "ball": "E10",
+          "function": "VDD3P3_SD",
+          "distance_to_nearest_max_body_edge_mm": 2.975
+        },
+        {
+          "ball": "E11",
+          "function": "VDD1P8",
+          "distance_to_nearest_max_body_edge_mm": 2.975
+        },
+        {
+          "ball": "F7",
+          "function": "AVDD1P8_CODEC",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "F8",
+          "function": "AVDD1P8_ADC",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "F9",
+          "function": "AVDD1P8_USB",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "F12",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "F13",
+          "function": "VDD1P8",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "F14",
+          "function": "AVDD1P8_LDO",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "F15",
+          "function": "AVDD1P8_RTC",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "G9",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "G10",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "G11",
+          "function": "AVDD0P8_PLL",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "G12",
+          "function": "VDD0P8_CPU",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "H6",
+          "function": "VDDIO_BANK3",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "H8",
+          "function": "VDD0P8_KPU",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "H9",
+          "function": "VDD0P8_KPU",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "H10",
+          "function": "VDD0P8_KPU",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "H12",
+          "function": "VDD0P8_CPU",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "H14",
+          "function": "VDD1P1_DDR_IO",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "J8",
+          "function": "VDD0P8_KPU",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "J9",
+          "function": "VDD0P8_KPU",
+          "distance_to_nearest_max_body_edge_mm": 5.575
+        },
+        {
+          "ball": "J10",
+          "function": "VDD0P8_KPU",
+          "distance_to_nearest_max_body_edge_mm": 5.575
+        },
+        {
+          "ball": "J12",
+          "function": "VDD0P8_CPU",
+          "distance_to_nearest_max_body_edge_mm": 5.575
+        },
+        {
+          "ball": "J14",
+          "function": "VDD1P1_DDR_IO",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "K7",
+          "function": "VDDIO_BANK1",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "K9",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 5.575
+        },
+        {
+          "ball": "K11",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 6.225
+        },
+        {
+          "ball": "K13",
+          "function": "VDD0P8_DDR_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "K15",
+          "function": "VAA_DDR",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "L9",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 5.575
+        },
+        {
+          "ball": "L11",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 6.225
+        },
+        {
+          "ball": "L13",
+          "function": "VDD0P8_DDR_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "L14",
+          "function": "VDD1P1_DDR_IO",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "M7",
+          "function": "VDDIO_BANK4",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "M9",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 5.575
+        },
+        {
+          "ball": "M11",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 5.575
+        },
+        {
+          "ball": "M13",
+          "function": "VDD0P8_DDR_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "M14",
+          "function": "VDD1P1_DDR_IO",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "N6",
+          "function": "AVDD0P8_MIPI",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "N7",
+          "function": "AVDD1P8_MIPI",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "N9",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "N11",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "N13",
+          "function": "VDD0P8_DDR_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.925
+        },
+        {
+          "ball": "N14",
+          "function": "VDD1P1_DDR_IO",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "P9",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "P11",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "P13",
+          "function": "VDD0P8_CORE",
+          "distance_to_nearest_max_body_edge_mm": 4.275
+        },
+        {
+          "ball": "R8",
+          "function": "AVDD0P8_MIPI",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "R9",
+          "function": "AVDD1P8_MIPI",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "R11",
+          "function": "VDDIO_BANK2",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "R13",
+          "function": "VDDIO_BANK0",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        },
+        {
+          "ball": "R15",
+          "function": "VDDIO_BANK5",
+          "distance_to_nearest_max_body_edge_mm": 3.625
+        }
+      ]
+    },
+    "FW200": {
+      "interpretation": "Geometric lower bound from a power-ball center to outside the maximum body projection. Add capacitor land/courtyard, manufacturing clearance, and actual route/via detours; not an electrical path model or placement approval.",
+      "maximum_body_half_width_mm": 5.05,
+      "maximum_body_half_height_mm": 7.3,
+      "minimum_over_power_balls_mm": 0.475,
+      "maximum_over_power_balls_mm": 3.85,
+      "balls": [
+        {
+          "ball": "A4",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.475
+        },
+        {
+          "ball": "A9",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.475
+        },
+        {
+          "ball": "B3",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 1.125
+        },
+        {
+          "ball": "B5",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 1.125
+        },
+        {
+          "ball": "B8",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 1.125
+        },
+        {
+          "ball": "B10",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 1.125
+        },
+        {
+          "ball": "D1",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "D5",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 2.425
+        },
+        {
+          "ball": "D8",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 2.425
+        },
+        {
+          "ball": "D12",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "F1",
+          "function": "VDD1",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "F3",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 2.25
+        },
+        {
+          "ball": "F5",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 3.725
+        },
+        {
+          "ball": "F8",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 3.725
+        },
+        {
+          "ball": "F10",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 2.25
+        },
+        {
+          "ball": "F12",
+          "function": "VDD1",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "G4",
+          "function": "VDD1",
+          "distance_to_nearest_max_body_edge_mm": 3.05
+        },
+        {
+          "ball": "G9",
+          "function": "VDD1",
+          "distance_to_nearest_max_body_edge_mm": 3.05
+        },
+        {
+          "ball": "H1",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "H5",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 3.85
+        },
+        {
+          "ball": "H8",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 3.85
+        },
+        {
+          "ball": "H12",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "K1",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "K3",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 2.25
+        },
+        {
+          "ball": "K10",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 2.25
+        },
+        {
+          "ball": "K12",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "N1",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "N3",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 2.25
+        },
+        {
+          "ball": "N10",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 2.25
+        },
+        {
+          "ball": "N12",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "R1",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "R5",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 3.85
+        },
+        {
+          "ball": "R8",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 3.85
+        },
+        {
+          "ball": "R12",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "T4",
+          "function": "VDD1",
+          "distance_to_nearest_max_body_edge_mm": 3.05
+        },
+        {
+          "ball": "T9",
+          "function": "VDD1",
+          "distance_to_nearest_max_body_edge_mm": 3.05
+        },
+        {
+          "ball": "U1",
+          "function": "VDD1",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "U3",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 2.25
+        },
+        {
+          "ball": "U5",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 3.725
+        },
+        {
+          "ball": "U8",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 3.725
+        },
+        {
+          "ball": "U10",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 2.25
+        },
+        {
+          "ball": "U12",
+          "function": "VDD1",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "W1",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "W5",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 2.425
+        },
+        {
+          "ball": "W8",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 2.425
+        },
+        {
+          "ball": "W12",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 0.65
+        },
+        {
+          "ball": "AA3",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 1.125
+        },
+        {
+          "ball": "AA5",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 1.125
+        },
+        {
+          "ball": "AA8",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 1.125
+        },
+        {
+          "ball": "AA10",
+          "function": "VDDQ",
+          "distance_to_nearest_max_body_edge_mm": 1.125
+        },
+        {
+          "ball": "AB4",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.475
+        },
+        {
+          "ball": "AB9",
+          "function": "VDD2",
+          "distance_to_nearest_max_body_edge_mm": 0.475
+        }
+      ]
+    },
+    "BH153": {
+      "interpretation": "Geometric lower bound from a power-ball center to outside the maximum body projection. Add capacitor land/courtyard, manufacturing clearance, and actual route/via detours; not an electrical path model or placement approval.",
+      "maximum_body_half_width_mm": 5.8,
+      "maximum_body_half_height_mm": 6.55,
+      "minimum_over_power_balls_mm": 3.3,
+      "maximum_over_power_balls_mm": 5.05,
+      "balls": [
+        {
+          "ball": "C6",
+          "function": "VCCQ",
+          "distance_to_nearest_max_body_edge_mm": 4.3
+        },
+        {
+          "ball": "E6",
+          "function": "VCC",
+          "distance_to_nearest_max_body_edge_mm": 5.05
+        },
+        {
+          "ball": "F5",
+          "function": "VCC",
+          "distance_to_nearest_max_body_edge_mm": 4.55
+        },
+        {
+          "ball": "J10",
+          "function": "VCC",
+          "distance_to_nearest_max_body_edge_mm": 4.55
+        },
+        {
+          "ball": "K9",
+          "function": "VCC",
+          "distance_to_nearest_max_body_edge_mm": 5.05
+        },
+        {
+          "ball": "M4",
+          "function": "VCCQ",
+          "distance_to_nearest_max_body_edge_mm": 4.05
+        },
+        {
+          "ball": "N4",
+          "function": "VCCQ",
+          "distance_to_nearest_max_body_edge_mm": 3.8
+        },
+        {
+          "ball": "P3",
+          "function": "VCCQ",
+          "distance_to_nearest_max_body_edge_mm": 3.3
+        },
+        {
+          "ball": "P5",
+          "function": "VCCQ",
+          "distance_to_nearest_max_body_edge_mm": 3.3
+        }
+      ]
+    }
+  },
+  "registration_sensitivity": {
+    "nominal_via_pad_mm": 0.35,
+    "nominal_hole_assumption_mm": 0.15,
+    "published_min_ring_mm": 0.0762,
+    "nominal_ring_mm": 0.1,
+    "radial_registration_etch_budget_before_min_ring_mm": 0.0238,
+    "maximum_actual_drill_at_zero_registration_budget_mm": 0.1976,
+    "ring_if_actual_drill_0p20_mm": 0.075,
+    "warning": "Nominal requested hole may be finished bore. A 0.20-mm compensated drill cannot retain a 0.0762-mm annulus in a 0.35-mm pad even with zero registration error under this conservative circle model. Fabricator-specific breakout rules are not assumed."
+  }
+}

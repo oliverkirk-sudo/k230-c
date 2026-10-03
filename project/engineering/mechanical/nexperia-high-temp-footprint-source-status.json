@@ -1,0 +1,71 @@
+{
+  "review_date_utc": "2026-09-30",
+  "status": "PCB_FOOTPRINT_DRAWINGS_EXIST_VISUAL_GEOMETRY_REVIEW_BLOCKED",
+  "scope": "Conditional high-temperature CM-K230 core candidate; package and footprint audit only",
+  "cad_edits_performed": false,
+  "candidate_footprints_created": false,
+  "isolated_DRC": "NOT_RUN_NO_FOOTPRINT_CREATED",
+  "reason": "Both exact package PDFs publish a separate reflow footprint, but local public downloads returned HTTP 403 and the web screenshot interface returned no image payload. Text extraction cannot safely determine all copper polygon vertices, mask/paste contours, or top-view orientation.",
+  "packages": [
+    {
+      "package": "SOT1226-3",
+      "industry_code": "X2SON5",
+      "references": ["U91", "U93"],
+      "parts": ["74AUP1G17GX,125", "74AUP1G06GX,125"],
+      "official_package_page": "https://www.nexperia.com/packages/SOT1226-3.html",
+      "official_package_pdf": "https://assets.nexperia.com/documents/package-information/SOT1226-3.pdf",
+      "package_document_date": "2020-08-27",
+      "outline_issue_dates": ["2019-11-06", "2019-11-07"],
+      "reflow_drawing_issue_date": "2019-11-06",
+      "reflow_drawing_pdf_page": 3,
+      "reflow_drawing_figure": 2,
+      "text_verified_package_body_mm": {"nominal": [0.8, 0.8], "minimum": [0.75, 0.75], "maximum": [0.85, 0.85]},
+      "text_verified_seated_height_mm": {"minimum": 0.30, "nominal": 0.32, "maximum": 0.35},
+      "text_verified_package_pitch_mm": 0.5,
+      "published_footprint_dimensions_mm": [1.2, 1.0],
+      "published_footprint_area_mm2": 1.2,
+      "dimension_orientation_status": "These are the manufacturer's summary dimensions; X/Y orientation has not been visually verified and no project courtyard is derived.",
+      "numbered_pin_functions": {"1": "NC", "2": "A", "3": "GND", "4": "Y (open-drain for 74AUP1G06)", "5": "VCC"},
+      "source_gap": [
+        "Actual page 2 image needed to verify package terminal positions and top/bottom orientation.",
+        "Actual page 3 image needed to associate the dimension lines with the five copper lands and their central-pad shape.",
+        "Actual page 3 image needed to distinguish copper lands, solder resist openings and paste apertures; the extracted 45-degree annotation alone is insufficient."
+      ],
+      "retrieval": {"plain_download_attempts": 1, "result": "HTTP 403 Forbidden", "local_pdf_saved": false, "sha256": null, "retried": false, "web_text_readable": true, "web_screenshot_result": "Citation reference only; no image payload"}
+    },
+    {
+      "package": "SOT1255-2",
+      "industry_code": "X2SON6",
+      "references": ["U92", "U94"],
+      "parts": ["74AUP1G97GXZ"],
+      "official_package_page": "https://www.nexperia.com/packages/SOT1255-2.html",
+      "official_package_pdf": "https://assets.nexperia.com/documents/package-information/SOT1255-2.pdf",
+      "package_document_date": "2020-08-27",
+      "outline_issue_dates": ["2019-11-07", "2019-11-08"],
+      "reflow_drawing_issue_date": "2019-11-05",
+      "reflow_drawing_pdf_page": 3,
+      "reflow_drawing_figure": 2,
+      "text_verified_package_body_nominal_mm": [1.0, 0.8],
+      "text_verified_seated_height_mm": {"minimum": 0.30, "nominal": 0.32, "maximum": 0.35},
+      "text_verified_package_pitch_values_mm": [0.4, 0.6],
+      "published_footprint_dimensions_mm": [1.2, 1.1],
+      "published_footprint_area_mm2": 1.32,
+      "dimension_orientation_status": "These are the manufacturer's summary dimensions; X/Y orientation has not been visually verified and no project courtyard is derived.",
+      "numbered_pin_functions": {"1": "B", "2": "GND", "3": "A", "4": "Y", "5": "VCC", "6": "C"},
+      "source_gap": [
+        "Actual page 2 image needed to verify positions of all six numbered terminals, including interior terminals.",
+        "Actual page 3 image needed to establish all copper polygon vertices and exact positioning of the central lands.",
+        "Actual page 3 image needed to distinguish solder resist and paste polygons, including the 60-degree detail and small clearances; extracted numbers alone are not a land pattern."
+      ],
+      "retrieval": {"plain_download_attempts": 1, "result": "HTTP 403 Forbidden", "local_pdf_saved": false, "sha256": null, "retried": false, "web_text_readable": true, "web_screenshot_result": "Citation reference only; no image payload"}
+    }
+  ],
+  "pin_audit": "nexperia-high-temp-pin-review.json",
+  "use_limits": [
+    "Do not assign TI DRL footprints to these Nexperia X2SON packages.",
+    "Manufacturer footprint summary area is not a project courtyard, completed placement result, escape result or thermal qualification.",
+    "No footprint is verified until numbered copper, mask and paste geometry is visually derived and checked against the drawings, followed by isolated CAD/DRC review.",
+    "The source retrieval block does not mean the manufacturer lacks recommended PCB lands. Both exact documents explicitly include reflow footprints on page 3."
+  ],
+  "next_required_evidence": "Readable, legitimately accessible images or PDFs of pages 2 and 3 of the two exact package documents, followed by the normal independent geometry and DRC checks."
+}

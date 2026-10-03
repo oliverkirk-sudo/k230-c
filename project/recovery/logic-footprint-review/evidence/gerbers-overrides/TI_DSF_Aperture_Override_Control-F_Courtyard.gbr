@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2+dfsg-1*%
+%TF.CreationDate,2026-10-01T10:23:03-07:00*%
+%TF.ProjectId,TI_DSF_Aperture_Override_Control,54495f44-5346-45f4-9170-657274757265,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Other,User*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.2+dfsg-1) date 2026-10-01 10:23:03*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.050000*%
+G04 APERTURE END LIST*
+%TO.C,UQA1*%
+D10*
+X4000000Y-4200000D02*
+X6000000Y-4200000D01*
+X6000000Y-5800000D01*
+X4000000Y-5800000D01*
+X4000000Y-4200000D01*
+%TD*%
+M02*

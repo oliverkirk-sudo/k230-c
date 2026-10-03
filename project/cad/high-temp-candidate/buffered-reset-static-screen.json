@@ -1,0 +1,25 @@
+{
+  "scope": "CONDITIONAL_STATIC_VALID_SUPPLY_ONLY",
+  "supply_min_V": 1.7644766146971205,
+  "supply_max_V": 1.836094613293051,
+  "intermediate_leakage_max_A": 1.0500000000000001e-06,
+  "intermediate_high_min_V": 1.6584266146971205,
+  "intermediate_VTplus_max_at_1p65V": 1.31,
+  "intermediate_low_max_V": 0.4,
+  "intermediate_VTminus_min_at_1p65V": 0.47,
+  "final_high_min_V": 1.6544766146971204,
+  "conditional_soc_VIH_V": 1.1469097995531283,
+  "high_margin_V": 0.507566815143992,
+  "final_low_max_V": 0.39,
+  "conditional_soc_VIL_V": 0.6175668151439921,
+  "low_margin_V": 0.22756681514399213,
+  "low_sink_including_19k_PU_and_10uA_A": 0.0001066365585943711,
+  "buffer_spec_test_sink_A": 0.0019,
+  "limitations": [
+    "Static regulator tolerance only; distribution/ripple excluded.",
+    "Numerical general-I/O limits not explicitly guaranteed for dedicated RSTN.",
+    "Schmitt thresholds tabulated at discrete supply point; full-range interpretation needs qualification.",
+    "MR assertion150ns is typical, not a guaranteed maximum.",
+    "Below-valid-supply and arbitrary brownout reset are not qualified."
+  ]
+}

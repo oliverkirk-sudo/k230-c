@@ -1,0 +1,1121 @@
+{
+  "title": "CM-K230 core stackup and fabrication-process proposal",
+  "date_utc": "2026-09-30",
+  "status": "REVIEW_PROPOSAL_ONLY_NOT_FABRICATION_OR_ROUTABILITY_APPROVAL",
+  "scope": {
+    "board_mm": [
+      38,
+      38
+    ],
+    "components": "Top side only",
+    "edge_contacts": 140,
+    "edge_pitch_mm": 1.0,
+    "fixed": "Existing edge numbering and mating coordinates must be retained by the separate edge proposal.",
+    "excluded": [
+      "Main CAD edits",
+      "Vendor contact",
+      "Design-file uploads",
+      "Quotes/orders",
+      "Peripherals/carrier redesign",
+      "External heatsink design"
+    ]
+  },
+  "decision": {
+    "preferred_trial": "An 8-layer, nominal 1.2 mm, 1 oz finished copper, ENIG, plated-through build with selectively filled/capped vias. Use PCBWay catalog entry 13 as the first mechanical/electrical simulation stack, subject to density and fabrication acceptance.",
+    "why": "Published 1.2 mm 8-layer construction reduces through-via length and inner dielectric spacing compared with 1.6 mm while preserving four proposed signal layers and three ground layers. The original STEP now corroborates a nominal board-model thickness of 1.538354 mm and overall model height of 2.738258 mm. The 1.2 mm trial deliberately changes that nominal stack height; original fabrication thickness/tolerance and certified assembled height remain unavailable.",
+    "fallback": "Nominal 1.6 mm through-hole entry 1 remains the closer-to-original-thickness alternative if assembly stiffness, mating/enclosure height, or fab review requires it. Its nominal/published finished thicknesses are still not identical to the original STEP board-model thickness. Escalate to a separately qualified 8-layer HDI stack only if actual BGA escape fails; more ordinary layers alone cannot cure pad/drill clearance failures.",
+    "not_established": [
+      "A single supplier acceptance covering 1 mm castellations and the entire fine-BGA process",
+      "Production BGA lands",
+      "Complete routing",
+      "Controlled-impedance trace dimensions",
+      "Thermal/PDN closure"
+    ]
+  },
+  "published_stackup_candidates": [
+    {
+      "id": "PW_8L_1P2_70_CANDIDATE",
+      "source": "PW_STACK",
+      "catalog_entry": 13,
+      "layer_count": 8,
+      "nominal_order_thickness_mm": 1.2,
+      "published_finished_thickness_mm": 1.19,
+      "published_finished_tolerance_percent": 10,
+      "published_finished_range_mm": [
+        1.071,
+        1.309
+      ],
+      "inner_copper_density_assumption_percent": 70,
+      "finished_copper_each_layer_mm": [
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "outer_starting_foil_mm": 0.0175,
+      "outer_finish": "Plated to 1 oz; surface finish selected separately",
+      "dielectric_after_lamination_L1_to_L8_mm": [
+        0.1195,
+        0.13,
+        0.109,
+        0.13,
+        0.109,
+        0.13,
+        0.1195
+      ],
+      "dielectric_type_L1_to_L8": [
+        "2116 RC58%",
+        "core",
+        "2116 RC58%",
+        "core",
+        "2116 RC58%",
+        "core",
+        "2116 RC58%"
+      ],
+      "published_Dk_L1_to_L8": [
+        4.45,
+        4.6,
+        4.45,
+        4.6,
+        4.45,
+        4.6,
+        4.45
+      ],
+      "core_thickness_including_two_coppers_mm": 0.2,
+      "calculated_dielectric_plus_finished_copper_mm": 1.127,
+      "thickness_reconciliation": "Finished catalog thickness also includes processing/surface layers; do not invent mask thickness by assigning the remaining difference. Published Dk values are catalog inputs, not a frequency-qualified laminate model.",
+      "process_limit": "Catalog explicitly applies to through-hole builds, excluding blind and buried vias."
+    },
+    {
+      "id": "PW_8L_1P6_70_ALTERNATIVE",
+      "source": "PW_STACK",
+      "catalog_entry": 1,
+      "layer_count": 8,
+      "nominal_order_thickness_mm": 1.6,
+      "published_finished_thickness_mm": 1.62,
+      "published_finished_tolerance_percent": 10,
+      "published_finished_range_mm": [
+        1.458,
+        1.782
+      ],
+      "inner_copper_density_assumption_percent": 70,
+      "finished_copper_each_layer_mm": [
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "outer_starting_foil_mm": 0.0175,
+      "outer_finish": "Plated to 1 oz; surface finish selected separately",
+      "dielectric_after_lamination_L1_to_L8_mm": [
+        0.1195,
+        0.23,
+        0.175,
+        0.23,
+        0.175,
+        0.23,
+        0.1195
+      ],
+      "dielectric_type_L1_to_L8": [
+        "2116 RC58%",
+        "core",
+        "7628 RC46%",
+        "core",
+        "7628 RC46%",
+        "core",
+        "2116 RC58%"
+      ],
+      "published_Dk_L1_to_L8": [
+        4.45,
+        4.6,
+        4.74,
+        4.6,
+        4.74,
+        4.6,
+        4.45
+      ],
+      "core_thickness_including_two_coppers_mm": 0.3,
+      "calculated_dielectric_plus_finished_copper_mm": 1.559,
+      "thickness_reconciliation": "Finished catalog thickness also includes processing/surface layers; do not invent mask thickness by assigning the remaining difference. Published Dk values are catalog inputs, not a frequency-qualified laminate model.",
+      "process_limit": "Catalog explicitly applies to through-hole builds, excluding blind and buried vias."
+    }
+  ],
+  "copper_density_sensitivity": {
+    "source": "PW_STACK",
+    "not_interchangeable_with_selected_70_percent_model": true,
+    "one_point_two_mm_entry14_50_percent": {
+      "outer_PP_mm": 0.1125,
+      "inner_PP_mm": 0.095,
+      "core_dielectric_mm": 0.13,
+      "finished_mm": 1.15,
+      "tolerance_percent": 10
+    },
+    "one_point_six_mm_entry2_50_percent": {
+      "outer_PP_mm": 0.1125,
+      "inner_PP_mm": 0.161,
+      "core_dielectric_mm": 0.23,
+      "finished_mm": 1.58,
+      "tolerance_percent": 10
+    },
+    "gate": "Compute actual copper coverage per relevant layer, including antipads and hatch/fill; obtain final pressed dielectric schedule before any impedance geometry is released. Do not average the 50% and 70% entries into an invented stock stack."
+  },
+  "proposed_layer_roles": [
+    {
+      "layer": "L1",
+      "role": "Components, BGA fanout, short signals, local power",
+      "reference": "L2 GND"
+    },
+    {
+      "layer": "L2",
+      "role": "Continuous GND",
+      "restriction": "No signal routing except separately approved HDI landing-island construction in a new stack."
+    },
+    {
+      "layer": "L3",
+      "role": "Primary internal high-speed routing",
+      "reference": "L2 and L4 GND"
+    },
+    {
+      "layer": "L4",
+      "role": "Continuous GND"
+    },
+    {
+      "layer": "L5",
+      "role": "Partitioned power distribution",
+      "restriction": "Rail islands require PDN/current-density design and decoupling."
+    },
+    {
+      "layer": "L6",
+      "role": "Additional routing",
+      "reference": "L7 GND plus L5 power proximity",
+      "restriction": "No high-speed route across L5 splits. Field-solve actual adjacent planes; use for slower nets until return paths are qualified."
+    },
+    {
+      "layer": "L7",
+      "role": "Continuous GND"
+    },
+    {
+      "layer": "L8",
+      "role": "Signals, ground stitching and local power; no components",
+      "reference": "L7 GND",
+      "restriction": "Bottom copper is permitted by top-components-only; protect non-castellation copper with solder mask and check carrier clearance."
+    }
+  ],
+  "fabrication_envelope": {
+    "source_ids": [
+      "PW_CAP",
+      "PW_ADV",
+      "PW_VIPPO"
+    ],
+    "material": "FR-4 stock laminate is not a locked material. Request a temperature/reflow-appropriate named laminate; TG, loss, CTE, moisture and CAF performance remain release inputs.",
+    "surface_finish": "ENIG proposed for flat fine-BGA and castellation lands",
+    "copper": "1 oz finished all layers in the published trial; no 2 oz substitution without redoing trace/space and impedance.",
+    "routing_rules": {
+      "ordinary_target_width_clearance_mm": [
+        0.15,
+        0.15
+      ],
+      "fine_BGA_trial_width_clearance_mm": [
+        0.1016,
+        0.1016
+      ],
+      "fine_BGA_trial_status": "Literal 4/4 mil, premium/DFM-confirmed region. PCBWay basic table rounds 4 mil to 0.1 mm; its detailed table makes 4/4 mil on 35 um inner copper a higher-difficulty case.",
+      "three_mil_or_less": "Not assigned to the selected 1 oz stack. Advertised 2/2 mil depends on thinner starting copper and local use, and is not a global capability for this build."
+    },
+    "via_candidates": [
+      {
+        "id": "general_PTH",
+        "nominal_hole_request_mm": 0.2,
+        "copper_pad_diameter_mm": 0.5,
+        "nominal_annular_ring_mm": 0.15,
+        "purpose": "General interconnect away from dense BGA escape"
+      },
+      {
+        "id": "fine_PTH_trial",
+        "nominal_hole_request_mm": 0.15,
+        "copper_pad_diameter_mm": 0.35,
+        "nominal_annular_ring_mm": 0.1,
+        "purpose": "Conditional dogbone or via-in-pad where qualified component land accepts it",
+        "premium_process": true
+      }
+    ],
+    "via_size_qualification": "Hole request is not a claim that the production drill tool equals the final plated bore. Fabricator must resolve drill compensation, nominal-versus-retained annulus, registration and fill/cap geometry. Do not use generic through-hole tolerance to qualify a tiny BGA via.",
+    "published_advanced_minima": {
+      "hole_to_other_net_copper_mm": 0.1524,
+      "via_annular_ring_mm": 0.0762,
+      "mechanical_min_hole_mm": 0.15,
+      "laser_fill_min_hole_mm": 0.1,
+      "laser_general_min_finished_mm": 0.076
+    },
+    "inner_hole_clearance_selection": "Use at least 0.1524 mm only as the advanced-process trial; detailed 8-layer table gives 0.2286 mm normal, 0.1778–0.2286 mm medium, and 0.1524–0.1778 mm high difficulty. All are hole-edge-to-copper requirements, distinct from pad clearance.",
+    "through_via_aspect_ratio": {
+      "published_advanced_table_limit_used": 12,
+      "more_aggressive_same_page_20_to_1_not_used": true,
+      "worst_selected_published_thickness_over_nominal_0p15_hole": 8.7267,
+      "interpretation": "An analytical thickness/hole screen only; actual drilling and plating acceptance still required."
+    },
+    "under_solder_via_treatment": "Resin filled, planarized and copper capped (VIPPO) for any through-via within a solderable BGA/component land. Tenting or soldermask plugging alone is not equivalent. Preserve castellated PTHs as open edge contacts, not filled BGA vias.",
+    "finish_cap_gate": "Specify fill material, cap/flatness acceptance and cross-section/inspection criteria with the assembler/fabricator before release."
+  },
+  "castellation_compatibility": {
+    "status": "PUBLISHED_PATH_EXISTS_BUT_CONFLICTING_GUIDANCE_REQUIRES_WRITTEN_ACCEPTANCE",
+    "calculation": "For equal holes centered 1.0 mm apart, nominal web = 1.0 - hole diameter. Pad width, mask bridge, milling and finished bore tolerance impose separate constraints.",
+    "PCBWay": {
+      "detailed_half_hole_source": "PW_HALF",
+      "minimum_diameter_mm": 0.4,
+      "standard_min_hole_edge_gap_mm": 0.55,
+      "premium_gap_range_mm": [
+        0.47,
+        0.55
+      ],
+      "candidate_screens": [
+        {
+          "diameter_mm": 0.4,
+          "nominal_web_mm": 0.6,
+          "comment": "Meets detailed-page nominal minima; smallest hole option needs assembly/mechanical review.",
+          "relation_to_original_STEP_nominal": "Smaller than original nominal 0.50 mm model cutout; would be an intentional geometric change"
+        },
+        {
+          "diameter_mm": 0.45,
+          "nominal_web_mm": 0.55,
+          "comment": "At nominal standard web minimum; no margin.",
+          "relation_to_original_STEP_nominal": "Smaller than original nominal 0.50 mm model cutout; would be an intentional geometric change"
+        },
+        {
+          "diameter_mm": 0.5,
+          "nominal_web_mm": 0.5,
+          "comment": "Falls in stated premium web band; plausible edge-proposal candidate.",
+          "relation_to_original_STEP_nominal": "Matches nominal cutout diameter only; no drill authority"
+        }
+      ],
+      "conflict": "PW_CAP advanced row 12 permits >=0.5 mm diameter and >=0.3 mm web; PW_HALF_CONFLICT instead says >=0.6 mm hole and >=0.55 mm spacing, requiring >=1.15 mm pitch. No page is silently treated as universal authorization."
+    },
+    "JLCPCB": {
+      "capability_table_source": "JLC_CAP",
+      "table_hole_min_mm": 0.5,
+      "table_gap_min_mm": 0.5,
+      "table_implied_min_pitch_mm": 1.0,
+      "conflicting_help_sources": [
+        "JLC_HALF",
+        "JLC_HALF_BLOG"
+      ],
+      "help_hole_min_mm": 0.6,
+      "help_gap_min_mm": 0.6,
+      "help_implied_min_pitch_mm": 1.2,
+      "disposition": "Not an unconditional candidate for the fixed 1 mm edge pitch; written exception/clarification would be required."
+    },
+    "edge_requirements": "Use the separate dimensional edge proposal. Do not infer original module holes from carrier lands; preserve nominal 1 mm pitch and all 140 identities. Bisected plated holes, top/bottom copper and mask, internal antipads, annular anchoring, corner clearances and routed panel support require qualification together.",
+    "keepout": "The existing 2 mm perimeter reserve remains a planning reservation, not a sourced manufacturing keepout. Replace it only after actual inner pad reach, mask, copper clearance, routing tolerance, component courtyard and panel tab envelope are combined.",
+    "original_model_nominal": "The original STEP audit now corroborates 140 radius 0.25 mm cutouts at 1 mm nominal pitch, 35 per side. Thus the 0.50 mm candidate matches nominal model cutout diameter. This does not establish actual drill-tool diameter, plating allowance, copper lands, mask or manufacturing tolerance."
+  },
+  "conditional_escape_analysis": {
+    "method": "Necessary local geometric bounds; not a router, not proof of global escape, SI, manufacturability or solderability.",
+    "input_land_policy": "All four BGA copper/mask/paste dimensions remain unknown. Package ball diameter, K230 package-context 0.270 mm mask statement and Micron package 0.40 mm SMD pad note are not PCB land specifications.",
+    "formulas": {
+      "one_trace_between_round_equal_lands": "D_land <= p - w - 2*c",
+      "n_traces_between_round_equal_lands": "D_land <= p - n*w - (n+1)*c",
+      "center_of_rectangular_cell_dogbone": "D_land <= sqrt(px^2 + py^2) - D_via_pad - 2*c; check drill clearance independently",
+      "corridor_between_equal_holes": "w <= p - d_hole_or_compensated_drill - 2*c_hole; use the fab-defined hole boundary and actual pad clearance as additional constraints"
+    },
+    "numeric_screens": [
+      {
+        "part": "K230",
+        "pitch_x_mm": 0.65,
+        "pitch_y_mm": 0.65,
+        "physical_balls": 390,
+        "land_diameter_unknown": true,
+        "one_trace_bounds": [
+          {
+            "screen": "0.100/0.100 mm analytical screen",
+            "w_mm": 0.1,
+            "c_mm": 0.1,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.35,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.35
+          },
+          {
+            "screen": "literal 4/4 mil screen",
+            "w_mm": 0.1016,
+            "c_mm": 0.1016,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.3452,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.3452
+          },
+          {
+            "screen": "3/3 mil sensitivity only",
+            "w_mm": 0.0762,
+            "c_mm": 0.0762,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.4214,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.4214
+          },
+          {
+            "screen": "3 mil trace with 0.09 mm pad clearance",
+            "w_mm": 0.0762,
+            "c_mm": 0.09,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.3938,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.3938
+          }
+        ],
+        "cell_center_dogbone_bounds": [
+          {
+            "via_pad_diameter_mm": 0.35,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.369239
+          },
+          {
+            "via_pad_diameter_mm": 0.4,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.319239
+          },
+          {
+            "via_pad_diameter_mm": 0.5,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.219239
+          }
+        ],
+        "via_row_corridor_bounds": [
+          {
+            "axis": "x",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.1952
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.1452
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.1
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.05
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.1952
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.1452
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.1
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.05
+          }
+        ]
+      },
+      {
+        "part": "Samsung_K4F8E304HB",
+        "pitch_x_mm": 0.8,
+        "pitch_y_mm": 0.65,
+        "physical_balls": 200,
+        "land_diameter_unknown": true,
+        "one_trace_bounds": [
+          {
+            "screen": "0.100/0.100 mm analytical screen",
+            "w_mm": 0.1,
+            "c_mm": 0.1,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.5,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.35
+          },
+          {
+            "screen": "literal 4/4 mil screen",
+            "w_mm": 0.1016,
+            "c_mm": 0.1016,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.4952,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.3452
+          },
+          {
+            "screen": "3/3 mil sensitivity only",
+            "w_mm": 0.0762,
+            "c_mm": 0.0762,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.5714,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.4214
+          },
+          {
+            "screen": "3 mil trace with 0.09 mm pad clearance",
+            "w_mm": 0.0762,
+            "c_mm": 0.09,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.5438,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.3938
+          }
+        ],
+        "cell_center_dogbone_bounds": [
+          {
+            "via_pad_diameter_mm": 0.35,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.480776
+          },
+          {
+            "via_pad_diameter_mm": 0.4,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.430776
+          },
+          {
+            "via_pad_diameter_mm": 0.5,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.330776
+          }
+        ],
+        "via_row_corridor_bounds": [
+          {
+            "axis": "x",
+            "pitch_mm": 0.8,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.3452
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.8,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.2952
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.8,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.25
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.8,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.2
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.1952
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.1452
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.1
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.05
+          }
+        ]
+      },
+      {
+        "part": "Samsung_KLMAG1JETD",
+        "pitch_x_mm": 0.5,
+        "pitch_y_mm": 0.5,
+        "physical_balls": 153,
+        "land_diameter_unknown": true,
+        "one_trace_bounds": [
+          {
+            "screen": "0.100/0.100 mm analytical screen",
+            "w_mm": 0.1,
+            "c_mm": 0.1,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.2,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.2
+          },
+          {
+            "screen": "literal 4/4 mil screen",
+            "w_mm": 0.1016,
+            "c_mm": 0.1016,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.1952,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.1952
+          },
+          {
+            "screen": "3/3 mil sensitivity only",
+            "w_mm": 0.0762,
+            "c_mm": 0.0762,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.2714,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.2714
+          },
+          {
+            "screen": "3 mil trace with 0.09 mm pad clearance",
+            "w_mm": 0.0762,
+            "c_mm": 0.09,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.2438,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.2438
+          }
+        ],
+        "cell_center_dogbone_bounds": [
+          {
+            "via_pad_diameter_mm": 0.35,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.157107
+          },
+          {
+            "via_pad_diameter_mm": 0.4,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.107107
+          },
+          {
+            "via_pad_diameter_mm": 0.5,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.007107
+          }
+        ],
+        "via_row_corridor_bounds": [
+          {
+            "axis": "x",
+            "pitch_mm": 0.5,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.0452
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.5,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": -0.0048
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.5,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": -0.05
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.5,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": -0.1
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.5,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.0452
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.5,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": -0.0048
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.5,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": -0.05
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.5,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": -0.1
+          }
+        ]
+      },
+      {
+        "part": "Micron_MT53E256M32D2FW_candidate",
+        "pitch_x_mm": 0.8,
+        "pitch_y_mm": 0.65,
+        "physical_balls": 200,
+        "land_diameter_unknown": true,
+        "one_trace_bounds": [
+          {
+            "screen": "0.100/0.100 mm analytical screen",
+            "w_mm": 0.1,
+            "c_mm": 0.1,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.5,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.35
+          },
+          {
+            "screen": "literal 4/4 mil screen",
+            "w_mm": 0.1016,
+            "c_mm": 0.1016,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.4952,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.3452
+          },
+          {
+            "screen": "3/3 mil sensitivity only",
+            "w_mm": 0.0762,
+            "c_mm": 0.0762,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.5714,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.4214
+          },
+          {
+            "screen": "3 mil trace with 0.09 mm pad clearance",
+            "w_mm": 0.0762,
+            "c_mm": 0.09,
+            "max_equal_round_land_diameter_one_trace_x_mm": 0.5438,
+            "max_equal_round_land_diameter_one_trace_y_mm": 0.3938
+          }
+        ],
+        "cell_center_dogbone_bounds": [
+          {
+            "via_pad_diameter_mm": 0.35,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.480776
+          },
+          {
+            "via_pad_diameter_mm": 0.4,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.430776
+          },
+          {
+            "via_pad_diameter_mm": 0.5,
+            "copper_clearance_mm": 0.1,
+            "maximum_round_BGA_land_diameter_mm": 0.330776
+          }
+        ],
+        "via_row_corridor_bounds": [
+          {
+            "axis": "x",
+            "pitch_mm": 0.8,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.3452
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.8,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.2952
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.8,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.25
+          },
+          {
+            "axis": "x",
+            "pitch_mm": 0.8,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.2
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.1952
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.1524,
+            "maximum_trace_width_between_holes_mm": 0.1452
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.15,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.1
+          },
+          {
+            "axis": "y",
+            "pitch_mm": 0.65,
+            "hole_or_compensated_drill_diameter_mm": 0.2,
+            "hole_edge_to_other_net_copper_clearance_mm": 0.2,
+            "maximum_trace_width_between_holes_mm": 0.05
+          }
+        ]
+      }
+    ],
+    "interpretation": [
+      "At 0.100/0.100 mm, a 0.65 mm axis allows one trace only if D_land <=0.35 mm; literal 4/4 mil reduces that bound to0.3452 mm. Samsung and Micron LPDDR have an easier0.8 mm X axis but the same0.65 mm Y bottleneck.",
+      "For the0.5 mm eMMC grid, the0.100/0.100 bound is0.20 mm (0.1952 mm for literal4/4 mil). This is not permission to shrink its land. The advanced fab minimum BGA diameter0.2032 mm itself exceeds the literal4/4 bound.",
+      "A0.35 mm via pad between four populated0.5 mm sites leaves at most0.157107 mm for the surrounding equal BGA lands at0.1 mm copper clearance. Therefore a universal dogbone-every-ball eMMC pattern is not justified.",
+      "At0.5 mm via-row pitch,0.15 mm holes and0.1524 mm hole-edge clearance leave only0.0452 mm for a trace;0.20 mm production drill would leave a negative corridor. Filled/capped holes do not remove these internal exclusions.",
+      "The eMMC has153 physical balls but only33 previously classified explicit functional/power/ground balls, plus107 NC and13 RFU. Exploit the exact occupied/functional map in an escape study; physical NC/RFU balls still need qualified assembly lands and cannot be erased to make room.",
+      "The K230 has390 balls on a20x20 grid, including10 absent sites; A1 is absent. LPDDR physical occupancy has200 balls on12x22 with central row/column gaps. Use existing audited coordinates rather than full rectangular-grid shortcuts.",
+      "A successful trial must route every required connection, power and return with actual lands, antipads, neck-down lengths and top-side decouplers. Available layer count alone is not routability evidence."
+    ]
+  },
+  "HDI_alternative": {
+    "status": "SEPARATE_FABRICATION_ENVELOPE_NOT_A_DROP_IN_CHANGE",
+    "published_example": {
+      "source": "WE_HDI8",
+      "name": "HDI8_2-4l6b-2_150_35_2V13",
+      "layer_count": 8,
+      "dielectrics_mm": [
+        0.065,
+        0.065,
+        0.41,
+        0.125,
+        0.41,
+        0.065,
+        0.065
+      ],
+      "copper_mm": [
+        0.03,
+        0.03,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.03,
+        0.03
+      ],
+      "mask_each_side_mm": 0.015,
+      "surface_finish_each_side_nominal_mm": 0.006,
+      "published_total_mm": 1.506,
+      "published_tolerance_percent": 10,
+      "sum_of_rounded_listed_values_mm": 1.507,
+      "rounding_note": "Listed individual rounded dimensions sum1 um above the printed total; retain the printed1.506 mm nominal and have the fabricator resolve its production stack.",
+      "material": "IPC-4101/127/128 FR-4.1, filled, halogen-free",
+      "finish": "ENIG",
+      "via_structure": "Figure shows L1–2 andL2–3 staggered laser microvias, mirrored below; a buriedL2–7 hole and full through hole.",
+      "castellation_evidence": "Not established for this Würth stack; this is an independently published HDI feasibility reference, not acceptance of140 castellations."
+    },
+    "microvia_reference_rules": {
+      "source": "WE_HDI_RULES",
+      "standard_final_hole_mm": 0.1,
+      "standard_pad_mm": 0.3,
+      "outer_dielectric_range_mm": [
+        0.058,
+        0.07
+      ],
+      "second_buildup_range_mm": [
+        0.055,
+        0.068
+      ],
+      "five_tenths_BGA_reference_variants": "The poster offers0.5 mm pitch via-in-pad and dogbone constructions including0.275 mm microvia pads with0.075 mm routing. These are process examples, not land recommendations for Samsung eMMC."
+    },
+    "other_published_supplier_envelope": {
+      "source": "JLC_HDI",
+      "laser_hole_mm": [
+        0.075,
+        0.15
+      ],
+      "default_laser_mm": 0.1,
+      "max_dielectric_depth_to_hole_ratio": 1,
+      "minimum_radial_annular_ring_mm": 0.075,
+      "minimum_hole_edge_spacing_different_nets_mm": 0.24,
+      "preferred_trace_space_mil": [
+        3.5,
+        3.5
+      ],
+      "minimum_trace_space_mil": [
+        3,
+        3
+      ],
+      "extreme_not_selected_mil": [
+        2.7,
+        2.7
+      ],
+      "via_fill": "Laser copper-filled/planarized; mechanical buried resin-filled/plated cap",
+      "note": "Do not combine JLC dimensions with the Würth example as one qualified process."
+    },
+    "escalation_gate": "If qualified lands cannot escape in the through-hole trial, request a matched8-layer1+6+1 or2+4+2 drawing/process quote later under separate authorization. L1–2 alone reaches a ground reference layer, so signal landing islands/transfer topology and retained ground continuity must be designed explicitly. Prefer a validated staggered sequence; do not assume stacked microvia reliability."
+  },
+  "impedance_and_return_path": {
+    "released_dimensions": null,
+    "approved_stackup": null,
+    "manufacturer_target_evidence": {
+      "source": "K230_HDG",
+      "DDR_single_ended_ohm": 50,
+      "DDR_clock_DQS_differential_ohm": 100,
+      "spacing_guidance": "3W",
+      "routing_guidance": "Match chip-package plus PCB lengths; equal via counts for same signal type; avoid more than two layer changes."
+    },
+    "fab_tolerance_is_not_SI_approval": {
+      "source": "PW_ADV",
+      "published_impedance_tolerance": "±10%;50 ohms and below ±5 ohms"
+    },
+    "release_requirements": "Field-solve finished copper, pressed dielectric, actual Dk/loss versus frequency, mask, pad escape neckdowns and adjacent planes. Define per-net targets and test coupons. Check DDR via discontinuities, reference continuity and stitching; audit edge MIPI/USB return paths against the preserved pinout. No50/100-ohm trace width is implied by this proposal."
+  },
+  "acceptance_gates": [
+    {
+      "id": "G1",
+      "required": "Approve exact module outline, 1 mm edge centers and 140-pad identities. Reconcile the original STEP nominal 0.50 mm cutouts, 1.538354 mm board-model thickness and 2.738258 mm overall height with the proposed new fabrication and assembly height ranges; original manufactured tolerances are unavailable. Validate half-hole copper/mask/plating geometry and tolerance separately."
+    },
+    {
+      "id": "G2",
+      "required": "One selected fabricator must accept the entire combined stack, dense-via, VIPPO,1 mm castellation and panelization process in writing; resolve contradictory public guidance. No vendor contact performed."
+    },
+    {
+      "id": "G3",
+      "required": "Qualify exact K230, Samsung LPDDR/eMMC and optional Micron PCB lands, solder mask, paste and assembly construction. Manufacturer ball dimensions alone do not close this."
+    },
+    {
+      "id": "G4",
+      "required": "Resolve CAD hole convention versus finished bore/tool diameter, retained annulus, drill registration, copper clearances and fill/cap inspection. Use actual compensated drill in geometric escape checks."
+    },
+    {
+      "id": "G5",
+      "required": "Route an isolated real-land escape trial using the audited ball occupancy and functional map; all required balls, six rails, returns and top-side decouplers must connect without waivers hidden by a body-fit study."
+    },
+    {
+      "id": "G6",
+      "required": "Select copper-density-specific pressed stack and named laminate; obtain impedance calculations/coupon acceptance for required interfaces, including short escape neckdowns."
+    },
+    {
+      "id": "G7",
+      "required": "Verify ground/rail connectivity, via current, IR drop, PDN and thermal performance within the core-only scope. No external heatsink is assumed."
+    },
+    {
+      "id": "G8",
+      "required": "Finish top-side assembly placement, stencil/reflow/BGA X-ray strategy and board warpage/height check; qualify all bottom-side copper against the carrier."
+    },
+    {
+      "id": "G9",
+      "required": "Verify castellation milling, open-hole plating, panel support tab/fiducial/tooling geometry and final Gerber/drill/CAM review. No V-score may cut through plated edge contacts."
+    },
+    {
+      "id": "G10",
+      "required": "Only after all above gates may the chosen process be promoted to master CAD and fabrication release. Micron remains a separate electrical/firmware/ordering substitution decision."
+    }
+  ],
+  "input_audits": [
+    {
+      "path": "engineering/mechanical/bga-coordinate-verification.json",
+      "sha256": "8f39ad5ba65698e85b282bd51b11acbae1b5707762cc3edc31f8eecff70fd645"
+    },
+    {
+      "path": "engineering/mechanical/micron-fw-independent-mechanics.json",
+      "sha256": "8de1e4fd683cbc2cb9c1ea52b73532cb303509b01e5fdef4d6893a9999347033"
+    },
+    {
+      "path": "engineering/mechanical/placement-only-verification.json",
+      "sha256": "e1d0eff83e8c7675d08dcf582727420ee01c6598c19aeedbdf3ef77322e84c8b"
+    },
+    {
+      "path": "engineering/mechanical/original-step-edge-evidence.json",
+      "sha256": "c02317669a09b5703040d271bdfc6b35f0fc68bb18f18e47ab768258b2094238"
+    }
+  ],
+  "sources": [
+    {
+      "id": "PW_STACK",
+      "title": "PCBWay current multilayer stackup catalog",
+      "url": "https://www.pcbway.com/multi-layer-laminated-structure.html",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "locator": "8 Layers; entries 13, 14 (1.2 mm) and 1, 2 (1.6 mm)",
+      "retrieval": "Official HTML fetched directly; web extractor failed. This supersedes the crossed-out 2017 blog table.",
+      "local_reference": "/workspace/shared/k230-reference/stackup/pcbway-stack.html",
+      "sha256": "ef3b84e0ddb5a927228b99b05d2d4852a90badae07967bf95c3bde69588fe2a5"
+    },
+    {
+      "id": "PW_CAP",
+      "title": "PCBWay PCB capabilities",
+      "url": "https://www.pcbway.com/capabilities.html",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "locator": "Basic specifications; advanced table rows 12–19",
+      "local_reference": "/workspace/shared/k230-reference/stackup/pcbway-cap.html",
+      "sha256": "d18c16c5ee2df61154e332602737f427ff55f6d6059f1166c58a98a9bbe60bd9"
+    },
+    {
+      "id": "PW_ADV",
+      "title": "PCBWay advanced capabilities",
+      "url": "https://www.pcbway.com/advanced-pcb-capabilities.html",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "locator": "Advanced High-quality PCB Manufacturing Capabilities rows 8–18",
+      "local_reference": "/workspace/shared/k230-reference/stackup/pcbway-advanced.html",
+      "sha256": "ad71e4d126ea06b4bcc7bb934a9e3fe0ffc04908cc3a4c1ff777bf6655f5a3c9"
+    },
+    {
+      "id": "PW_HALF",
+      "title": "PCBWay plated half-holes",
+      "url": "https://www.pcbway.com/pcb_prototype/What_are_Plated_Half_Holes_Castellated_Holes_.html",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "local_reference": "/workspace/shared/k230-reference/stackup/pcbway-half.html",
+      "sha256": "69324a9e398939d466c738a5a66240b85942044f91399914d4214c0c8c0e2e2b"
+    },
+    {
+      "id": "PW_HALF_CONFLICT",
+      "title": "PCBWay partial half-hole help article",
+      "url": "https://www.pcbway.com/helpcenter/drill_hole_or_via_issues/The_castellated_holes_are_partial_set_in_outline_instead_of_in_the_center_for_common_designs.html",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "published_update": "12/03/2024 as printed; date convention unspecified",
+      "local_reference": "/workspace/shared/k230-reference/stackup/pcbway-half-conflict.html",
+      "sha256": "92e2f09dfea23df7986e15fe6f1d8ab86ad229f3887109049b7a8a4b2e3564c8"
+    },
+    {
+      "id": "PW_VIPPO",
+      "title": "PCBWay via-in-pad",
+      "url": "https://www.pcbway.com/pcb_prototype/PCB_Via_in_Pad.html",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "retrieval": "Read with web tool; direct archive fetch returned HTTP 502",
+      "locator": "Note: resin fill and electroplated cap for BGA vias"
+    },
+    {
+      "id": "JLC_CAP",
+      "title": "JLCPCB rigid PCB capabilities",
+      "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "local_reference": "/workspace/shared/k230-reference/stackup/jlc-cap.html",
+      "sha256": "76832166745b57856e7cb0e040aed6372b95c1c5fcfffdc2953f7a7bf6a11129"
+    },
+    {
+      "id": "JLC_HALF",
+      "title": "JLCPCB castellated-hole help",
+      "url": "https://jlcpcb.com/help/article/what-is-castellated-holes",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "published_update": "2026-09-09",
+      "local_reference": "/workspace/shared/k230-reference/stackup/jlc-half-help.html",
+      "sha256": "d15727d8137fe5663472e2da9c08bea1fedefa56bb41f654b2150f68e84ea3e4"
+    },
+    {
+      "id": "JLC_HALF_BLOG",
+      "title": "JLCPCB castellated design requirements",
+      "url": "https://jlcpcb.com/blog/castellated-pcbs-introduction-and-design-requirements",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "published_update": "2026-09-08",
+      "locator": "Basic Dimensions table and explicit hole-edge clearance wording"
+    },
+    {
+      "id": "JLC_HDI",
+      "title": "JLCPCB HDI capabilities FAQ",
+      "url": "https://jlcpcb.com/help/article/hdi-pcb-capabilities-faq",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "local_reference": "/workspace/shared/k230-reference/stackup/jlc-hdi.html",
+      "sha256": "0e4ae585f3f3587be5f1a0c780a1547e108c4cbbf6ab061992ada4e1a397002e"
+    },
+    {
+      "id": "WE_HDI8",
+      "title": "Würth HDI8_2-4l6b-2_150_35_2V13 stackup",
+      "url": "https://www.we-online.com/files/pdf1/hdi8_2-4l6b-2_150_35_2v13.pdf",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "revision": "Template 10/2023",
+      "visually_reviewed": true,
+      "local_reference": "/workspace/shared/k230-reference/stackup/we-hdi8.pdf",
+      "sha256": "5c73059b0152a3a20649abdfb74795e4b75a23df6978003825dc18518d7c2058"
+    },
+    {
+      "id": "WE_HDI_RULES",
+      "title": "Würth HDI Microvia Standard Design Rules",
+      "url": "https://www.we-online.com/designruleshdi_en",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "revision": "1.5 / 12.2021 / 503635 EN",
+      "local_reference": "/workspace/shared/k230-reference/stackup/we-hdi-rules.pdf",
+      "sha256": "69d822f22b5a6ec81e7aa748913d2fb868b6ed5acfde0afb04dd744cfcdc35d4"
+    },
+    {
+      "id": "K230_HDG",
+      "title": "Canaan K230 Hardware Design Guide",
+      "url": "https://github.com/kendryte/k230_docs/blob/main/en/00_hardware/K230_Hardware_Design_Guide.md",
+      "checked_utc": "2026-09-30",
+      "evidence": "Manufacturer/fabricator primary publication",
+      "locator": "PCB Design Recommendations / DDR Design and package section"
+    }
+  ],
+  "validation": {
+    "all_values_mm_unless_key_says_otherwise": true,
+    "source_values_separated_from_proposals_and_calculations": true,
+    "no_BGA_land_diameter_released": true,
+    "no_controlled_impedance_trace_width_released": true,
+    "main_CAD_changed": false,
+    "vendor_contact_upload_order": false,
+    "original_STEP_nominal_evidence_reconciled": true
+  },
+  "original_STEP_nominal_mechanical_evidence": {
+    "input_audit": "engineering/mechanical/original-step-edge-evidence.json",
+    "source": "01Studio CM-K230 original3d-model.zip /3d-model.step",
+    "source_step_sha256": "09060dac4ab16863aa22c73fc33afcaee7124c3957267031e0896ad70fc82cc9",
+    "evidence_status": "Corroborated nominal reference-model geometry; not manufacturing drill, thickness tolerance, or certified assembled-height authority",
+    "board_model_thickness_mm": 1.538354076708,
+    "model_overall_height_mm": 2.738258076708,
+    "derived_model_envelope_above_board_top_mm": 1.199904,
+    "edge_cutouts": {
+      "count": 140,
+      "per_side": 35,
+      "nominal_pitch_mm": 1.0,
+      "nominal_radius_mm": 0.25,
+      "nominal_diameter_mm": 0.5
+    },
+    "height_comparison_assumption": "The following total-height figures only replace board thickness while preserving the old STEP envelope above its board top. They do not predict height of the redesigned BOM, solder joints, mask, warpage or assembly tolerances.",
+    "trial_height_comparisons": [
+      {
+        "candidate": "1.2 mm nominal order thickness",
+        "board_thickness_mm": 1.2,
+        "board_height_change_vs_STEP_mm": -0.338354076708,
+        "conditional_overall_height_mm": 2.399904
+      },
+      {
+        "candidate": "Selected entry 13 published finished thickness",
+        "board_thickness_mm": 1.19,
+        "board_height_change_vs_STEP_mm": -0.348354076708,
+        "conditional_overall_height_mm": 2.389904
+      },
+      {
+        "candidate": "1.6 mm nominal order thickness alternative",
+        "board_thickness_mm": 1.6,
+        "board_height_change_vs_STEP_mm": 0.061645923292,
+        "conditional_overall_height_mm": 2.799904
+      },
+      {
+        "candidate": "Alternative entry 1 published finished thickness",
+        "board_thickness_mm": 1.62,
+        "board_height_change_vs_STEP_mm": 0.081645923292,
+        "conditional_overall_height_mm": 2.819904
+      }
+    ],
+    "remaining_gate": "Approve redesigned finished-board and assembled-module height ranges against the mating/enclosure requirement; do not promote STEP precision into fabrication tolerances."
+  }
+}

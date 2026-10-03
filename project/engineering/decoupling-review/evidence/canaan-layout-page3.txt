@@ -1,0 +1,293 @@
+               1                                                     2                                           3                                                       4                                                      5                                                                   6
+
+
+
+                                                                                             GND
+
+    Power-K230
+
+
+
+
+                                                         C13
+
+                                                         D10
+                                                         D11
+                                                         D13
+                                                         D15
+                                                         A13
+                                                         A16
+                                                         A19
+                                                         B13
+                                                         B20
+
+
+
+
+                                                         E12
+                                                         E13
+                                                         E14
+                                                         E15
+                                                         E16
+                                                         E19
+
+
+                                                         F10
+                                                         F16
+                                                                                                                                            VDD_0V8
+
+
+
+
+                                                         D9
+
+
+
+
+                                                         E4
+                                                         E6
+                                                         E7
+                                                         E8
+
+
+
+
+                                                         F4
+                                                         F6
+                                                                                                          U1.1
+                                                                                                          K230
+                                                                                                                                CORE_0V8
+
+
+
+
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+A                                                                                                                                KPU_0V8                                                                                                                                                                              A
+                                             F12   VDD0P8_CORE                                     VSS   G6
+                              CORE_0V8
+                                              G9   VDD0P8_CORE                                     VSS   G13
+                                             G10   VDD0P8_CORE                                     VSS   G14
+                                              K9   VDD0P8_CORE                                     VSS   G15
+                                             K11   VDD0P8_CORE                                     VSS   G16
+                                              L9   VDD0P8_CORE                                     VSS   H7
+                                             L11   VDD0P8_CORE                                     VSS   H11
+                                                                                                                     CORE_0V8
+                                              M9   VDD0P8_CORE                                     VSS   H13
+                                             M11   VDD0P8_CORE                                     VSS   H15                         C56       C57     C58         C59       C60     C61     C62     C63      C64      C65       C66             C67      C68       C69     C70       C71         C72
+                                              N9   VDD0P8_CORE                                     VSS   H16
+                                             N11   VDD0P8_CORE                                     VSS   H20                         22uF      4.7uF   100nF       100nF     100nF   100nF   100nF   100nF    100nF    100nF     100nF           100nF    100nF     100nF   100nF     100nF       100nF
+                                              P9   VDD0P8_CORE                                     VSS   J7
+                                                                                                                       GND
+                                             P11   VDD0P8_CORE                                     VSS   J11
+                                             P13   VDD0P8_CORE                                     VSS   J13
+                                                                                                                      KPU_0V8
+                                                                                                   VSS   J15
+                                              H8   VDD0P8_KPU                                      VSS   K3                          C73       C74     C75         C76       C77     C78     C79
+                                  KPU_0V8
+                                              H9   VDD0P8_KPU                                      VSS   K6
+                                             H10   VDD0P8_KPU                                      VSS   K8                          22uF      22uF    4.7uF       100nF     100nF   100nF   100nF
+                                              J8   VDD0P8_KPU                                      VSS   K10
+                                                                                                                       GND                                                                                             VDD_5V                          VDD_5V               VDD_5V                  VDD_3V3
+                                              J9   VDD0P8_KPU                                      VSS   K12
+                                             J10   VDD0P8_KPU                                      VSS   K14
+                                                                                                                      DDR_1V2
+                                                                                                   VSS   K16
+                                             G12   VDD0P8_CPU                                      VSS   K18                         C80       C81     C82         C83       C84     C85     C86
+                              CORE_0V8
+                                             H12   VDD0P8_CPU                                      VSS   L7
+                                                                                                                                                                                                                              R103                        R104                    R105                      R102
+                                             J12   VDD0P8_CPU                                      VSS   L8                          22uF      4.7uF   100nF       100nF     100nF   100nF   100nF
+                                                                                                                                                                                                                              10k                         10k                     10k                       1k
+                                                                                                   VSS   L10
+                                                                                                                       GND
+                                             K13   VDD0P8_DDR_CORE                                 VSS   L12
+                              CORE_0V8
+B                                            L13   VDD0P8_DDR_CORE                                 VSS   L15                                                                                                                           EN_1V8                     EN_DDR                 EN_3V3                       B
+                                             M13   VDD0P8_DDR_CORE                                 VSS   L19
+                                             N13   VDD0P8_DDR_CORE                                 VSS   M6
+                                                                                                         M8                                                                                                                   C153                        C154                    C155                          D16
+                                                                                                   VSS                                                                                                                                                                                                          LED
+                                             H14   VDD1P1_DDR_IO                                   VSS   M10
+                                DDR_1V2
+                                             J14   VDD1P1_DDR_IO                                   VSS   M12                                                                                                                  100nF                       100nF                   100nF
+                                             L14   VDD1P1_DDR_IO                                   VSS   M15
+                                             M14   VDD1P1_DDR_IO                                   VSS   M16
+                                             N14   VDD1P1_DDR_IO                                   VSS   N3
+                                                                                                   VSS   N5
+                                             K15   VAA_DDR                                         VSS   N8                                                                                                             GND                             GND                  GND                        GND
+                         VAA_DDR
+                                                                                                   VSS   N10
+                                             E11   VDD1P8                                          VSS   N12
+                           VDD_1V8
+                                             F13   VDD1P8                                          VSS   N15
+                                                                                                   VSS   N16
+                                              F9   AVDD1P8_USB                                     VSS   P6
+                           VDD_1V8                                                                                                                                 U14
+                                             F14   AVDD1P8_LDO                                     VSS   P7                                                                                  L1
+                                                                                                                                                               4    VIN         LX   3
+                                             F15   AVDD1P8_RTC                                     VSS   P8                                  VDD_5V                                                                                                                         VDD_0V8
+                    VDD_1V8_RTC                                                                                                                                                              1.5uH
+                                             G11   AVDD0P8_PLL                                     VSS   P10                                                                                                 C137                                C138     C139      C140
+                   AVDD_0V8_PLL                                                                                                                                2                     5                                R94
+                                             F11
+                                                                                                   VSS   P12
+                                                                                                         P14
+                                                                                                                                                                    GND        NC
+                                                                                                                                                                                                             12pF
+                                                                                                                                                                                                                      68.1k
+                                                                                                                                                                                                                                                 22uF     22uF      22uF
+                                                                                                                                                                                                                                                                                      0V8 - R1 = R2 / 3
+                            GND                    AVSS                                            VSS                                                         1                     6                                  R95          200k
+                                                                                                         P15                                                        EN         FB                                                                                            GND
+                                                                                                   VSS
+                                              E9   AVDD3P3_USB                                     VSS   P20
+                           VDD_3V3                                                                                                                                 MT3420B
+                                             E10                                                         R3
+                                                   VDD3P3_SD                                       VSS                                                                    RY3420/RY3430
+                                                                                                                                                        GND U15                              L2
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+                                                          VSS
+
+
+
+
+                                                                                                                                                           4 VIN                LX   3
+                                                                                                           GND                               VDD_5V                                                                                                                         DDR_1V2
+                                                                                                                                                                                             2.2uH           C141                                C142     C143      C144
+C                                                                                                                                                              2                     5                                R96                                                                                             C
+                                                                                                                                                                    GND        NC                                                                                                     1V2 - R1 = R2
+                                                         Y19
+                                                         Y13
+                                                         W20
+                                                         W16
+                                                          W1
+                                                          V8
+                                                          V7
+                                                          V6
+                                                          V5
+                                                          V4
+                                                          V3
+                                                         U19
+                                                          U8
+                                                          U3
+                                                         T15
+                                                          T9
+                                                          T8
+                                                          T7
+                                                          T3
+                                                         R16
+                                                         R14
+                                                         R12
+                                                         R10
+                                                          R7
+                                                          R6
+
+
+
+
+                                                                                                                                                                                                                      200k
+                                                                                                                                                                                                             12pF                                22uF     22uF      22uF
+                                                                                                                                           EN_DDR              1    EN         FB    6                                   R97         200k
+                                                                                                                                                                                                                                                                             GND
+                                                                                                                                                                   MT3420B
+     VDD_3V3                                                                                 GND
+                                                                                                                                                        GND U16                              L3
+                                                                                                                                                           4 VIN                LX   3
+                                                                                                                                             VDD_5V                                                                                                                         VDD_3V3
+         C87       C88                                                                                                                                                                       4.7uH           C145                                C146     C147      C148
+                                                                                                                                                               2    GND        NC    5                                R98
+         100nF     100nF
+                                        VDD_1V8
+                                                    B3      120R@100MHz
+                                                                                          VAA_DDR                                          EN_3V3              1                     6
+                                                                                                                                                                                                             12pF
+                                                                                                                                                                                                                      453k
+                                                                                                                                                                                                                        R99          100k
+                                                                                                                                                                                                                                                 22uF     22uF      22uF              3V3 - R1 = R2 * 4.5
+                                                                                                                                                                    EN         FB                                                                                            GND
+                                                                          C89
+                                                                                                                                                                   MT3420B
+                                                                          100nF
+      GND                                   GND                                                                                                         GND U17                              L4
+                                                                                                                                                           4 VIN                LX   3
+                                                                                                                                             VDD_5V                                                                                                                         VDD_1V8
+                                                                                                                                                                                             2.2uH           C149                                C150     C151      C152
+                                        VDD_1V8                                                                                                                2                     5                                R100
+                                                                          C90
+                                                                                                                                                                    GND        NC
+                                                                                                                                                                                                             12pF
+                                                                                                                                                                                                                      200k
+                                                                                                                                                                                                                                                 22uF     22uF      22uF
+                                                                                                                                                                                                                                                                                      1V8 - R1 = R2 * 2
+     VDD_1V8                                                                                                                               EN_1V8              1    EN         FB    6                                  R101         100k
+                                                                                                                                                                                                                                                                             GND
+                                                                          100nF
+                                            GND                                                                                                                    MT3420B
+         C91       C92
+                                                                                                                                                        GND
+         100nF     100nF
+                                        VDD_1V8                                           VDD_1V8_RTC                                                                                                                   Vo = 0.6 * (R1+R2) / R2
+                                                                          C93     C94                                                                                                                                                                                         R2 <= 200k
+D                                                                         100nF   100nF
+                                                                                                                                                                                                                        R1 = (Vo / 0.6 - 1) * R2                                                                      D
+      GND
+                                                                                           GND
+                                                                                                                          VDD_5V                                                                                        R2 = 0.6 * R1 / (Vo - 0.6)
+                                                                                                                                     C129      C130    C131        C132      C133    C134    C135    C136
+                                                    B4      120R@100MHz                                                                                                                                                                 Title
+                                       CORE_0V8                                           AVDD_0V8_PLL                               22uF      22uF    22uF        22uF      22uF    22uF    22uF    22uF
+                                                                          C95
+                                                                                                                           GND
+                                                                                                                                                                                                                                        Size             Number                                           Revision
+                                                                          100nF
+                                            GND                                                                                                                                                                                             A3
+                                                                                                                                                                                                                                        Date:                                               Sheet Of
+                                                                                                                                                                                                                                        File:                                               Drawn By:
+               1                                                     2                                           3                                                       4                                                      5                                                                   6

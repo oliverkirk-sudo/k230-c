@@ -1,0 +1,454 @@
+{
+  "status": "PASS",
+  "review_type": "Independent visual source review and independently derived numeric comparison",
+  "reviewed_at_utc": "2026-09-30T13:09:26.938730+00:00",
+  "scope": "Isolated NVT4858HKZ SOT1161-2 mechanical candidate; no design integration or manufacturing release",
+  "candidate_file": "/workspace/shared/cm-k230-redesign/cad/verified-footprints/translator-candidate/CMK230_Translator_Candidate.pretty/NXP_SOT1161-2_NVT4858HK_1.8x2.6_P0.4_DrawingVerified_CANDIDATE.kicad_mod",
+  "candidate_sha256": "afcbf8da2ffd6c19acfe00f450df0cfcf704d3af432f268401c0211fd8449168",
+  "sources": [
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/NXP-SOT1161-2.pdf",
+      "url": "https://www.nxp.com/docs/en/package-information/SOT1161-2.pdf",
+      "pages": [
+        2,
+        3
+      ],
+      "sha256": "71f73daf7330d4881f0add714010053926e6d6ef10df35e0b171d3e5cfc00e2f"
+    },
+    {
+      "file": "/workspace/shared/k230-reference/mechanical/passive-review/NXP-NVT4858.pdf",
+      "url": "https://www.nxp.com/docs/en/data-sheet/NVT4858.pdf",
+      "pages": [
+        4,
+        7,
+        8,
+        9
+      ],
+      "sha256": "860baa17e52fb658dcd98bf911f81600ecbd4f3133b560c9e4696af17bc28385"
+    }
+  ],
+  "visual_review": {
+    "source_pages_inspected": [
+      "SOT1161-2 pp2-3",
+      "NVT4858 pp7-9"
+    ],
+    "method": "Source package outline and reflow drawing viewed as page images; NVT4858 pinning page and pin-description tables rendered afresh and visually inspected. Ordering p4 text cross-check also completed.",
+    "orientation": "NVT4858 p7 Figure 4 is transparent top view, terminal side down. Candidate places pin1 upper left side, pins1-4 downward,5-8 left-to-right along bottom,9-12 upward on right,13-16 right-to-left across top. Package underside drawing p2 reverses Y relative to this component/top view.",
+    "pad1_exception": "Correct: .90 x .22 mm copper at (-.600,-.600), with shared left outer copper edge -1.050. Other seven horizontal copper pads are .85 x .22. Pin1 mask is 1.00 x .32 and paste .85 x .17. Copper asymmetry points inward; rectangular land follows p3 although physical pin1 depiction in p7 includes an inner chamfer."
+  },
+  "independent_derivation": {
+    "horizontal_copper_outer_span_mm": 2.1,
+    "vertical_copper_outer_span_mm": 2.9,
+    "regular_side_center_abs_x_mm": 0.625,
+    "pin1_center_x_mm": -0.6000000000000001,
+    "top_bottom_center_abs_y_mm": 1.1749999999999998,
+    "pitch_mm": 0.4,
+    "mask_expansion_per_edge_mm": 0.05,
+    "paste_shrink_per_edge_mm": 0.025,
+    "recommended_stencil_mm": 0.1
+  },
+  "checks": 288,
+  "errors": [],
+  "electrical_pad_count": 16,
+  "exposed_center_pad_present": false,
+  "layers": {
+    "F.Cu": {
+      "aperture_count": 16,
+      "minimum_gap_mm": 0.18
+    },
+    "F.Mask": {
+      "aperture_count": 16,
+      "minimum_gap_mm": 0.08
+    },
+    "F.Paste": {
+      "aperture_count": 16,
+      "minimum_gap_mm": 0.23
+    }
+  },
+  "independent_expected_pads": [
+    {
+      "pad": 1,
+      "function": "DAT2A",
+      "x_mm": -0.6,
+      "y_mm": -0.6,
+      "copper_size_mm": [
+        0.9,
+        0.22
+      ],
+      "mask_size_mm": [
+        1.0,
+        0.32
+      ],
+      "paste_size_mm": [
+        0.85,
+        0.17
+      ]
+    },
+    {
+      "pad": 2,
+      "function": "DAT3A",
+      "x_mm": -0.625,
+      "y_mm": -0.2,
+      "copper_size_mm": [
+        0.85,
+        0.22
+      ],
+      "mask_size_mm": [
+        0.95,
+        0.32
+      ],
+      "paste_size_mm": [
+        0.8,
+        0.17
+      ]
+    },
+    {
+      "pad": 3,
+      "function": "DAT0A",
+      "x_mm": -0.625,
+      "y_mm": 0.2,
+      "copper_size_mm": [
+        0.85,
+        0.22
+      ],
+      "mask_size_mm": [
+        0.95,
+        0.32
+      ],
+      "paste_size_mm": [
+        0.8,
+        0.17
+      ]
+    },
+    {
+      "pad": 4,
+      "function": "DAT1A",
+      "x_mm": -0.625,
+      "y_mm": 0.6,
+      "copper_size_mm": [
+        0.85,
+        0.22
+      ],
+      "mask_size_mm": [
+        0.95,
+        0.32
+      ],
+      "paste_size_mm": [
+        0.8,
+        0.17
+      ]
+    },
+    {
+      "pad": 5,
+      "function": "CLKA",
+      "x_mm": -0.6,
+      "y_mm": 1.175,
+      "copper_size_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_size_mm": [
+        0.32,
+        0.65
+      ],
+      "paste_size_mm": [
+        0.17,
+        0.5
+      ]
+    },
+    {
+      "pad": 6,
+      "function": "CLK_FB",
+      "x_mm": -0.2,
+      "y_mm": 1.175,
+      "copper_size_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_size_mm": [
+        0.32,
+        0.65
+      ],
+      "paste_size_mm": [
+        0.17,
+        0.5
+      ]
+    },
+    {
+      "pad": 7,
+      "function": "GND",
+      "x_mm": 0.2,
+      "y_mm": 1.175,
+      "copper_size_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_size_mm": [
+        0.32,
+        0.65
+      ],
+      "paste_size_mm": [
+        0.17,
+        0.5
+      ]
+    },
+    {
+      "pad": 8,
+      "function": "CLKB",
+      "x_mm": 0.6,
+      "y_mm": 1.175,
+      "copper_size_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_size_mm": [
+        0.32,
+        0.65
+      ],
+      "paste_size_mm": [
+        0.17,
+        0.5
+      ]
+    },
+    {
+      "pad": 9,
+      "function": "DAT1B",
+      "x_mm": 0.625,
+      "y_mm": 0.6,
+      "copper_size_mm": [
+        0.85,
+        0.22
+      ],
+      "mask_size_mm": [
+        0.95,
+        0.32
+      ],
+      "paste_size_mm": [
+        0.8,
+        0.17
+      ]
+    },
+    {
+      "pad": 10,
+      "function": "DAT0B",
+      "x_mm": 0.625,
+      "y_mm": 0.2,
+      "copper_size_mm": [
+        0.85,
+        0.22
+      ],
+      "mask_size_mm": [
+        0.95,
+        0.32
+      ],
+      "paste_size_mm": [
+        0.8,
+        0.17
+      ]
+    },
+    {
+      "pad": 11,
+      "function": "DAT3B",
+      "x_mm": 0.625,
+      "y_mm": -0.2,
+      "copper_size_mm": [
+        0.85,
+        0.22
+      ],
+      "mask_size_mm": [
+        0.95,
+        0.32
+      ],
+      "paste_size_mm": [
+        0.8,
+        0.17
+      ]
+    },
+    {
+      "pad": 12,
+      "function": "DAT2B",
+      "x_mm": 0.625,
+      "y_mm": -0.6,
+      "copper_size_mm": [
+        0.85,
+        0.22
+      ],
+      "mask_size_mm": [
+        0.95,
+        0.32
+      ],
+      "paste_size_mm": [
+        0.8,
+        0.17
+      ]
+    },
+    {
+      "pad": 13,
+      "function": "CMDB",
+      "x_mm": 0.6,
+      "y_mm": -1.175,
+      "copper_size_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_size_mm": [
+        0.32,
+        0.65
+      ],
+      "paste_size_mm": [
+        0.17,
+        0.5
+      ]
+    },
+    {
+      "pad": 14,
+      "function": "VCCB",
+      "x_mm": 0.2,
+      "y_mm": -1.175,
+      "copper_size_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_size_mm": [
+        0.32,
+        0.65
+      ],
+      "paste_size_mm": [
+        0.17,
+        0.5
+      ]
+    },
+    {
+      "pad": 15,
+      "function": "VCCA",
+      "x_mm": -0.2,
+      "y_mm": -1.175,
+      "copper_size_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_size_mm": [
+        0.32,
+        0.65
+      ],
+      "paste_size_mm": [
+        0.17,
+        0.5
+      ]
+    },
+    {
+      "pad": 16,
+      "function": "CMDA",
+      "x_mm": -0.6,
+      "y_mm": -1.175,
+      "copper_size_mm": [
+        0.22,
+        0.55
+      ],
+      "mask_size_mm": [
+        0.32,
+        0.65
+      ],
+      "paste_size_mm": [
+        0.17,
+        0.5
+      ]
+    }
+  ],
+  "integrated_symbol_roles_and_types": {
+    "1": {
+      "function": "DAT2A",
+      "type": "bidirectional"
+    },
+    "2": {
+      "function": "DAT3A",
+      "type": "bidirectional"
+    },
+    "3": {
+      "function": "DAT0A",
+      "type": "bidirectional"
+    },
+    "4": {
+      "function": "DAT1A",
+      "type": "bidirectional"
+    },
+    "5": {
+      "function": "CLKA",
+      "type": "input"
+    },
+    "6": {
+      "function": "CLK_FB",
+      "type": "output"
+    },
+    "7": {
+      "function": "GND",
+      "type": "power_in"
+    },
+    "8": {
+      "function": "CLKB",
+      "type": "output"
+    },
+    "9": {
+      "function": "DAT1B",
+      "type": "bidirectional"
+    },
+    "10": {
+      "function": "DAT0B",
+      "type": "bidirectional"
+    },
+    "11": {
+      "function": "DAT3B",
+      "type": "bidirectional"
+    },
+    "12": {
+      "function": "DAT2B",
+      "type": "bidirectional"
+    },
+    "13": {
+      "function": "CMDB",
+      "type": "bidirectional"
+    },
+    "14": {
+      "function": "VCCB",
+      "type": "power_in"
+    },
+    "15": {
+      "function": "VCCA",
+      "type": "power_in"
+    },
+    "16": {
+      "function": "CMDA",
+      "type": "bidirectional"
+    }
+  },
+  "integrated_symbol_roles_and_types_match": true,
+  "outline_observations": {
+    "nominal_body_mm": [
+      1.8,
+      2.6
+    ],
+    "source_max_body_mm": [
+      1.9,
+      2.7
+    ],
+    "source_protrusions_excluded_mm_per_side": 0.075,
+    "candidate_dwgs_envelope_mm": [
+      2.05,
+      2.85
+    ],
+    "vendor_occupied_area_mm": [
+      2.35,
+      3.15
+    ],
+    "candidate_courtyard_mm": [
+      2.8,
+      3.6
+    ],
+    "candidate_courtyard_contains_vendor_area": true
+  },
+  "limitations": [
+    "No schematic electrical-circuit adequacy or signal integrity signoff is implied by role/type comparison.",
+    "PCB fabrication and assembly capability for 0.08 mm solder-mask web and 0.10 mm stencil still requires process approval.",
+    "Master design and candidate footprint were not modified."
+  ]
+}

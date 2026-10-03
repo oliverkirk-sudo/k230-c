@@ -1,0 +1,66 @@
+net,soc_ball,dram_ball,local_dogbones_verified,complete_ball_to_ball,actual_via_sequence,actual_layer_sequence,actual_layer_changes
+DDR_DQA0,Y16,B2,True,True,"[""U1:Y16"", ""U2:B2""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQA7,Y18,B4,True,False,,,
+DDR_DQA15,U20,B9,True,False,,,
+DDR_DQA8,W19,B11,True,True,"[""U1:W19"", ""U2:B11""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DQA1,V16,C2,True,True,"[""U1:V16"", ""U2:C2""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DMIA0,V17,C3,True,True,"[""U1:V17"", ""U2:C3""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQA6,W18,C4,True,False,,,
+DDR_DQA14,U18,C9,True,True,"[""U1:U18"", ""U2:C9""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DMIA1,P17,C10,True,False,,,
+DDR_DQA9,T17,C11,True,True,"[""U1:T17"", ""U2:C11""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DQSA0_P,W17,D3,True,True,"[""U1:W17"", ""U2:D3""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQSA1_P,V20,D10,True,True,"[""U1:V20"", ""U2:D10""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DQA2,U17,E2,True,True,"[""U1:U17"", ""U2:E2""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQSA0_N,Y17,E3,True,True,"[""U1:Y17"", ""U2:E3""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQA5,V18,E4,True,True,"[""U1:V18"", ""U2:E4""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQA13,T18,E9,True,True,"[""U1:T18"", ""U2:E9""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DQSA1_N,V19,E10,True,True,"[""U1:V19"", ""U2:E10""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DQA10,P16,E11,True,False,,,
+DDR_DQA3,T16,F2,True,True,"[""U1:T16"", ""U2:F2""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQA4,U16,F4,True,True,"[""U1:U16"", ""U2:F4""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQA12,R18,F9,True,True,"[""U1:R18"", ""U2:F9""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DQA11,R17,F11,True,False,,,
+DDR_CAA0,M19,H2,True,True,"[""U1:M19"", ""U2:H2""]","[""L1"", ""L3"", ""L1""]",2
+DDR_CSA0,T20,H4,True,False,,,
+DDR_CAA2,N19,H9,True,False,,,
+DDR_CAA3,N20,H10,True,False,,,
+DDR_CAA4,M18,H11,True,False,,,
+DDR_CAA1,L16,J2,True,False,,,
+DDR_CKEA0,N17,J4,True,True,"[""U1:N17"", ""U2:J4""]","[""L1"", ""L3"", ""L1""]",2
+DDR_CLKA_P,R19,J8,True,True,"[""U1:R19"", ""U2:J8""]","[""L1"", ""L3"", ""L1""]",2
+DDR_CLKA_N,R20,J9,True,True,"[""U1:R20"", ""U2:J9""]","[""L1"", ""L3"", ""L1""]",2
+DDR_CAA5,P19,J11,True,True,"[""U1:P19"", ""U2:J11""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQB8,C18,AA11,True,True,"[""U1:C18"", ""U2:AA11""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQB15,B19,AA9,True,False,,,
+DDR_DQB7,B17,AA4,True,False,,,
+DDR_DQB0,A14,AA2,True,True,"[""U1:A14"", ""U2:AA2""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DQB9,C17,Y11,True,False,,,
+DDR_DQB14,C19,Y9,True,False,,,
+DDR_DQB6,C16,Y4,True,True,"[""U1:C16"", ""U2:Y4""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DQB1,A17,Y2,True,False,,,
+DDR_DQB10,D17,V11,True,True,"[""U1:D17"", ""U2:V11""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQB13,D16,V9,True,True,"[""U1:D16"", ""U2:V9""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQB5,B16,V4,True,False,,,
+DDR_DQB2,C14,V2,True,False,,,
+DDR_DQB11,E17,U11,True,True,"[""U1:E17"", ""U2:U11""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQB12,E18,U9,True,True,"[""U1:E18"", ""U2:U9""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQB4,D14,U4,True,True,"[""U1:D14"", ""U2:U4""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DQB3,B14,U2,True,True,"[""U1:B14"", ""U2:U2""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DMIB1,D18,Y10,True,False,,,
+DDR_DMIB0,C15,Y3,True,False,,,
+DDR_DQSB1_P,B18,W10,True,True,"[""U1:B18"", ""U2:W10""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQSB0_P,B15,W3,True,True,"[""U1:B15"", ""U2:W3""]","[""L1"", ""L8"", ""L1""]",2
+DDR_DQSB1_N,A18,V10,True,True,"[""U1:A18"", ""U2:V10""]","[""L1"", ""L3"", ""L1""]",2
+DDR_DQSB0_N,A15,V3,True,True,"[""U1:A15"", ""U2:V3""]","[""L1"", ""L8"", ""L1""]",2
+DDR_RESET,J16,T11,True,False,,,
+DDR_CSB0,J20,R4,True,False,,,
+DDR_CLKB_N,F20,P9,True,True,"[""U1:F20"", ""U2:P9""]","[""L1"", ""L8"", ""L1""]",2
+DDR_CLKB_P,G20,P8,True,True,"[""U1:G20"", ""U2:P8""]","[""L1"", ""L8"", ""L1""]",2
+DDR_CKEB0,J18,P4,True,False,,,
+DDR_CAB4,F17,R11,True,True,"[""U1:F17"", ""U2:R11""]","[""L1"", ""L8"", ""L1""]",2
+DDR_CAB3,H17,R10,True,False,,,
+DDR_CAB2,G18,R9,True,False,,,
+DDR_CAB0,E20,R2,True,False,,,
+DDR_CAB5,F19,P11,True,True,"[""U1:F19"", ""U2:P11""]","[""L1"", ""L8"", ""L1""]",2
+DDR_CAB1,G19,P2,True,False,,,

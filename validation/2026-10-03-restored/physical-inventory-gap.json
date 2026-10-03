@@ -1,0 +1,427 @@
+{
+  "assigned": 149,
+  "unassigned": [
+    {
+      "ref": "U1",
+      "value": "K230 full 390 physical balls"
+    },
+    {
+      "ref": "U2",
+      "value": "MT53E256M32D2FW-046 AAT:B 1GB CANDIDATE"
+    },
+    {
+      "ref": "U3",
+      "value": "MTFC16GAPALBH-AAT 16GB CANDIDATE"
+    },
+    {
+      "ref": "C41",
+      "value": "12pF REF / TUNE"
+    },
+    {
+      "ref": "C42",
+      "value": "12pF REF / TUNE"
+    },
+    {
+      "ref": "C43",
+      "value": "12pF REF / TUNE"
+    },
+    {
+      "ref": "C44",
+      "value": "12pF REF / TUNE"
+    },
+    {
+      "ref": "R41",
+      "value": "1M REF"
+    },
+    {
+      "ref": "R42",
+      "value": "1M REF"
+    },
+    {
+      "ref": "R43",
+      "value": "100k REF"
+    },
+    {
+      "ref": "R44",
+      "value": "10k BOOT0 LOW"
+    },
+    {
+      "ref": "R45",
+      "value": "10k BOOT0 HIGH / DNP"
+    },
+    {
+      "ref": "R46",
+      "value": "10k BOOT1 HIGH"
+    },
+    {
+      "ref": "R47",
+      "value": "10k BOOT1 LOW / DNP"
+    },
+    {
+      "ref": "Y1",
+      "value": "32.768kHz / MPN TBD"
+    },
+    {
+      "ref": "JP1",
+      "value": "OPEN=EMMC / CLOSED=TF; COLD ONLY"
+    },
+    {
+      "ref": "R31",
+      "value": "10k"
+    },
+    {
+      "ref": "R32",
+      "value": "10k"
+    },
+    {
+      "ref": "R33",
+      "value": "270k CRCW0201 1pct 100ppm TOTAL<=10pct CANDIDATE"
+    },
+    {
+      "ref": "R34",
+      "value": "10k RESET BIAS"
+    },
+    {
+      "ref": "C201",
+      "value": "47uF X7R / Ceff>=10uF"
+    },
+    {
+      "ref": "C202",
+      "value": "1.2nF C0G FEEDFORWARD"
+    },
+    {
+      "ref": "C203",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C204",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C206",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "ref": "C207",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "ref": "C208",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "ref": "C210",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C211",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C212",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "ref": "C213",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "ref": "C214",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "ref": "C216",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C217",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C218",
+      "value": "47uF X7R / Ceff>=10uF"
+    },
+    {
+      "ref": "C219",
+      "value": "1.2nF C0G FEEDFORWARD"
+    },
+    {
+      "ref": "C220",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C221",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C223",
+      "value": "47uF X7R / Ceff>=10uF"
+    },
+    {
+      "ref": "C224",
+      "value": "1.2nF C0G FEEDFORWARD"
+    },
+    {
+      "ref": "C225",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C226",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C228",
+      "value": "47uF X7R / Ceff>=10uF"
+    },
+    {
+      "ref": "C229",
+      "value": "1.2nF C0G FEEDFORWARD"
+    },
+    {
+      "ref": "C230",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "C231",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "ref": "FB202",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "ref": "FB203",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "ref": "FB204",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "ref": "FB205",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "ref": "FB206",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "ref": "FB207",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "ref": "FB208",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "ref": "FB209",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "ref": "FB210",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "ref": "L21",
+      "value": "0.47uH XFL4015-471MEB REF"
+    },
+    {
+      "ref": "L22",
+      "value": "0.24uH DFE201612E-R24M REF"
+    },
+    {
+      "ref": "L23",
+      "value": "0.24uH DFE201612E-R24M REF"
+    },
+    {
+      "ref": "L24",
+      "value": "0.47uH DFE201610E-R47M=P2 CANDIDATE"
+    },
+    {
+      "ref": "L25",
+      "value": "0.47uH DFE201610E-R47M=P2 CANDIDATE"
+    },
+    {
+      "ref": "L26",
+      "value": "0.47uH DFE201610E-R47M=P2 CANDIDATE"
+    },
+    {
+      "ref": "R203",
+      "value": "100k"
+    },
+    {
+      "ref": "R204",
+      "value": "10k"
+    },
+    {
+      "ref": "R205",
+      "value": "56.2k 1% / 0.8V / addr0x49"
+    },
+    {
+      "ref": "R206",
+      "value": "56.2k 1% / 0.8V / addr0x49"
+    },
+    {
+      "ref": "R216",
+      "value": "4.7k"
+    },
+    {
+      "ref": "R217",
+      "value": "4.7k"
+    },
+    {
+      "ref": "R218",
+      "value": "4.7k"
+    },
+    {
+      "ref": "R219",
+      "value": "4.7k"
+    },
+    {
+      "ref": "R220",
+      "value": "0R WSL060300000ZEA9 Rmax=0.25mOhm"
+    },
+    {
+      "ref": "R221",
+      "value": "0R Rmax<=50mOhm"
+    },
+    {
+      "ref": "C64",
+      "value": "2.2uF Micron CReg 1-4.7uF REF"
+    },
+    {
+      "ref": "C65",
+      "value": "100nF Micron CReg REF"
+    },
+    {
+      "ref": "C69",
+      "value": "2.2uF Micron VCCQ Table13 REF"
+    },
+    {
+      "ref": "C70",
+      "value": "100nF Micron VCCQ REF"
+    },
+    {
+      "ref": "C71",
+      "value": "2.2uF Micron VCC Table13 REF"
+    },
+    {
+      "ref": "C72",
+      "value": "100nF Micron VCC REF"
+    },
+    {
+      "ref": "R61",
+      "value": "10k REF"
+    },
+    {
+      "ref": "R62",
+      "value": "10k REF"
+    },
+    {
+      "ref": "R573",
+      "value": "47k Micron DS BIAS REF"
+    },
+    {
+      "ref": "C540",
+      "value": "22uF"
+    },
+    {
+      "ref": "C552",
+      "value": "22uF"
+    },
+    {
+      "ref": "C562",
+      "value": "22uF"
+    },
+    {
+      "ref": "R401",
+      "value": "0R PMU AUTO-START STRAP"
+    },
+    {
+      "ref": "R402",
+      "value": "10k INT0 INACTIVE"
+    },
+    {
+      "ref": "TP81",
+      "value": "PMU OUT0 OBSERVE ONLY"
+    },
+    {
+      "ref": "TP82",
+      "value": "PMU OUT1 OBSERVE ONLY"
+    },
+    {
+      "ref": "R561",
+      "value": "0R WFZ040200000ZE66 3mOhm CANDIDATE"
+    },
+    {
+      "ref": "R562",
+      "value": "22k CMD PULLUP"
+    },
+    {
+      "ref": "R563",
+      "value": "47k DATA PULLUP"
+    },
+    {
+      "ref": "R564",
+      "value": "47k DATA PULLUP"
+    },
+    {
+      "ref": "R565",
+      "value": "47k DATA PULLUP"
+    },
+    {
+      "ref": "R566",
+      "value": "47k DATA PULLUP"
+    },
+    {
+      "ref": "R567",
+      "value": "47k DATA PULLUP"
+    },
+    {
+      "ref": "R568",
+      "value": "47k DATA PULLUP"
+    },
+    {
+      "ref": "R569",
+      "value": "47k DATA PULLUP"
+    },
+    {
+      "ref": "R570",
+      "value": "47k DATA PULLUP"
+    },
+    {
+      "ref": "R571",
+      "value": "100k CLK IDLE LOW CANDIDATE"
+    },
+    {
+      "ref": "R572",
+      "value": "100k HOST STROBE BIAS CANDIDATE"
+    },
+    {
+      "ref": "R527",
+      "value": "10k RAW PG PULLUP"
+    },
+    {
+      "ref": "R528",
+      "value": "0R QUALIFICATION STRAP DNP"
+    },
+    {
+      "ref": "R529",
+      "value": "100k DEFAULT INHIBIT"
+    },
+    {
+      "ref": "R530",
+      "value": "100k 1% DELAY NODE PULLUP"
+    },
+    {
+      "ref": "C815",
+      "value": "1uF X5R/X7R ESR<0.5Ohm"
+    },
+    {
+      "ref": "R574",
+      "value": "10k CRCW020110K0FKED IDLE BIAS CANDIDATE"
+    }
+  ],
+  "active_full_board_exists": false,
+  "six_layer_geometry_recovered": false
+}

@@ -1,0 +1,24 @@
+soc_rail,min_V,nominal_V,max_V,guide_current_mA,budget_assumption_V,soc_only_power_W,source_line,external_loads_included,status
+AVDD1P8_RTC,1.674,1.8,1.98,10,1.8,0.018,639,NO,guide_allocation_NOT_measured_consumption
+AVDD1P8_LDO,1.674,1.8,1.98,10,1.8,0.018,640,NO,guide_allocation_NOT_measured_consumption
+VDD0P8_CORE,0.72,0.8,0.88,2250,0.8,1.8,646,NO,guide_allocation_NOT_measured_consumption
+VDD0P8_CPU,0.72,0.8,0.88,1000,0.8,0.8,647,NO,guide_allocation_NOT_measured_consumption
+VDD0P8_KPU,0.72,0.8,0.88,3000,0.8,2.4,648,NO,guide_allocation_NOT_measured_consumption
+VDD0P8_DDR_CORE,0.744,0.8,0.88,400,0.8,0.32,654,NO,guide_allocation_NOT_measured_consumption
+VDD1P1_DDR_IO (LPDDR4),1.06,1.1,1.17,800,1.1,0.88,655,NO,guide_allocation_NOT_measured_consumption
+VAA_DDR,1.674,1.8,1.98,10,1.8,0.018,657,NO,guide_allocation_NOT_measured_consumption
+VDDIO3P3_0,1.62/2.97,1.8/3.3,1.98/3.63,50,3.3,0.165,671,NO,guide_allocation_NOT_measured_consumption
+VDDIO3P3_1,1.62/2.97,1.8/3.3,1.98/3.63,50,3.3,0.165,672,NO,guide_allocation_NOT_measured_consumption
+VDDIO3P3_2,1.62/2.97,1.8/3.3,1.98/3.63,50,3.3,0.165,673,NO,guide_allocation_NOT_measured_consumption
+VDDIO3P3_3,1.62/2.97,1.8/3.3,1.98/3.63,50,3.3,0.165,674,NO,guide_allocation_NOT_measured_consumption
+VDDIO3P3_4,1.62/2.97,1.8/3.3,1.98/3.63,50,3.3,0.165,675,NO,guide_allocation_NOT_measured_consumption
+VDDIO3P3_5,1.62/2.97,1.8/3.3,1.98/3.63,50,3.3,0.165,676,NO,guide_allocation_NOT_measured_consumption
+AVDD3P3_USB,3.07,3.3,3.63,50,3.3,0.165,682,NO,guide_allocation_NOT_measured_consumption
+AVDD1P8_USB,1.674,1.8,1.98,60,1.8,0.108,683,NO,guide_allocation_NOT_measured_consumption
+AVDD0P8_PLL,0.72,0.8,0.88,120,0.8,0.096,689,NO,guide_allocation_NOT_measured_consumption
+AVDD0P8_MIPI,0.744,0.8,0.88,100,0.8,0.08,695,NO,guide_allocation_NOT_measured_consumption
+AVDD1P8_MIPI,1.674,1.8,1.98,30,1.8,0.054,696,NO,guide_allocation_NOT_measured_consumption
+AVDD1P8_ADC,1.62,1.8,1.98,10,1.8,0.018,702,NO,guide_allocation_NOT_measured_consumption
+AVDD1P8_CODEC,1.62,1.8,1.98,100,1.8,0.18,708,NO,guide_allocation_NOT_measured_consumption
+VDD3P3_SD,2.7,3.3,3.63,50,3.3,0.165,714,NO,guide_allocation_NOT_measured_consumption
+VDD1P8,1.62,1.8,1.98,500,1.8,0.9,715,NO,guide_allocation_NOT_measured_consumption

@@ -1,0 +1,313 @@
+{
+  "status": "COMPLETE_STANDALONE_ARCHIVAL_SOURCE_CANDIDATE_PROCESS_UNQUALIFIED",
+  "all_jobs_terminal": true,
+  "active_CAD_assignment_changed": false,
+  "TI_snapshot": {
+    "path": "recovery/logic-footprint-review/freeze-manifest.json",
+    "sha256": "6ba3a7a75788ee7ea6ffe0388ac4928956bad4aeef90b3acb1507d035d8ce0d7",
+    "protected_files_unchanged": 61
+  },
+  "electrical_snapshot": {
+    "master_xml_sha256": "87e61363803398574579a628d9ed9235d0bc0903a1457c88b4b9b6054369bdbd",
+    "protected_files_unchanged": 31
+  },
+  "original_source_hashes": {
+    "/workspace/shared/k230-reference/SOT1160-1_NXP_archival_reflow.pdf": "3aba5537e19187d51c9c8494937482a1e8f376b4a8ee977cc2be10288faa9e91",
+    "/workspace/shared/k230-reference/SOT1160-1_NXP_archival_outline.pdf": "1cf1d5a02ef2ac5086c67892f8e00020de084d5d2cfe602539a228cd0722e692"
+  },
+  "validation": {
+    "numeric_assertions": 1577,
+    "negative_controls": [
+      {
+        "control": "wrong_terminal_view_mirror",
+        "caught": true
+      },
+      {
+        "control": "lose_long_pin1_asymmetry",
+        "caught": true
+      },
+      {
+        "control": "swap_pin1_pin2",
+        "caught": true
+      },
+      {
+        "control": "missing_mask",
+        "caught": true
+      },
+      {
+        "control": "one_to_one_paste",
+        "caught": true
+      },
+      {
+        "control": "invented_EP11",
+        "caught": true
+      }
+    ],
+    "intrinsic_drc": {
+      "violations": 0,
+      "unconnected": 0,
+      "provisional_clearance_mm": 0.15,
+      "provisional_mask_web_mm": 0.05
+    },
+    "actual_net_fixture": {
+      "geometry_violations": 0,
+      "unconnected_items": 3,
+      "expected": "Two GND ties and one FIXED_RAILS_PGOOD_3V3 tie intentionally unrouted in local fixture",
+      "system_schematic_DRC_parity_claimed": false
+    },
+    "mask_export_process_control": {
+      "source_mask_expansion_per_side_mm": 0.0625,
+      "nominal_web_mm": 0.055,
+      "base_native_mask_web_setting_mm": 0.05,
+      "base_individual_regions": 10,
+      "strict_native_mask_web_setting_mm": 0.075,
+      "strict_complex_merged_regions": 1,
+      "strict_rejected_by_source_exact_aperture_check": true,
+      "meaning": "Explicit mask-only pads do not prevent native global minimum-width merging. 0.075-mm output is a diagnostic merged-mask control, not the source-exact candidate release. No gang-mask or reduced-expansion manufacturing approval."
+    }
+  },
+  "files": {
+    "recovery/logic-footprint-review/nexperia-archival/NXP_Geometry_QA_ONLY-drc.json": {
+      "sha256": "d2483ddc77a072eab56dc3f3ebf1bebf082eaf921cf692356cbe0ed31255061b",
+      "bytes": 286
+    },
+    "recovery/logic-footprint-review/nexperia-archival/NXP_Negative_Clearance_0181-drc.json": {
+      "sha256": "6e582b553334f7b4a779f40e41d70640e2ab70b046f4617cfdda62e82266f49c",
+      "bytes": 5291
+    },
+    "recovery/logic-footprint-review/nexperia-archival/NXP_Negative_Mask_0056-drc.json": {
+      "sha256": "fd03369eccd8780b0453da901afb125c12c0a5a41dc4109e9946ba9b920ed6d9",
+      "bytes": 288
+    },
+    "recovery/logic-footprint-review/nexperia-archival/NXP_Process_020_0075-drc.json": {
+      "sha256": "726e732b3e73a45f18b1242df5dd3c6bde2d0e3ac67f79f27c72e375696fc358",
+      "bytes": 8614
+    },
+    "recovery/logic-footprint-review/nexperia-archival/NXP_U92_Actual_Nets_ONLY-drc.json": {
+      "sha256": "0a0b65bdf40f7a4dc43f2431de114e5dfff7aa34ed7bcf8df00371693d821329",
+      "bytes": 2653
+    },
+    "recovery/logic-footprint-review/nexperia-archival/REVIEW.md": {
+      "sha256": "e021dd7fbc3ba45fa46aa6bf126c35ce6399a86659bc3d8e8430f24a34a572e2",
+      "bytes": 11155
+    },
+    "recovery/logic-footprint-review/nexperia-archival/audit-run.log": {
+      "sha256": "efe0de621ba739fd888a59c58b8dc85ec5bc899cb081b4e6bda589569aa68d5e",
+      "bytes": 11679
+    },
+    "recovery/logic-footprint-review/nexperia-archival/audit_candidate.py": {
+      "sha256": "9505fccdc0e4a4805315f9e1ea089a13e14f538290dce30b3a8f717069365124",
+      "bytes": 14812
+    },
+    "recovery/logic-footprint-review/nexperia-archival/build_candidate.py": {
+      "sha256": "d0f4bab7edf45465615da7446d2113bbd140f349c2bd8fe23c2d2e9ca84a140d",
+      "bytes": 5994
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/NXP_mask_export_control.png": {
+      "sha256": "7b03f125aade9ca1e1d297808a20f95625026f35fd36706a957afd500d8d4a3e",
+      "bytes": 175739
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/NXP_mask_export_control.svg": {
+      "sha256": "0073c3de96fbef3207152102446eb76bca96ba3dfa1598faaec0f0049696401b",
+      "bytes": 5738
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/NXP_native_layer_review.png": {
+      "sha256": "7c1ed1cce079a854667f13517a2ae138734dedf0aaaaddba84a114b865461384",
+      "bytes": 232040
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/NXP_native_layer_review.svg": {
+      "sha256": "fc84b9fe312ed8d6570d470d84229573fc928e434cd8d3b96f5a1b1ea4e63c28",
+      "bytes": 10725
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Courtyard.gbr": {
+      "sha256": "d1956713bed2ada926919e0740cb464bec9bbeddb0f9d42da1c1b02ff0df3dbb",
+      "bytes": 603
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Cu.gtl": {
+      "sha256": "f0c95ff2947ea343842bb318a36e83e751d6998c9e6ab618e7be89e2fd6b55eb",
+      "bytes": 1292
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Fab.gbr": {
+      "sha256": "cc00141a1fab7f1dfb8786bbea92e2a88921c651febcba278edfa6edc78d1816",
+      "bytes": 5278
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Mask.gts": {
+      "sha256": "eb0e8d869b780715a411eed134aa28320977eb5b7479068965bf56d8cc81aa09",
+      "bytes": 1732
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Paste.gtp": {
+      "sha256": "d7f3065c3f277366882dced094c77522cdbc97d884e558022592fe6488049358",
+      "bytes": 820
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-F_Silkscreen.gto": {
+      "sha256": "951d263293609159ddf5454f22616fb6c18b8bd10aaa70b2b36555f18f90034f",
+      "bytes": 2572
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-base/NXP_Geometry_QA_ONLY-job.gbrjob": {
+      "sha256": "e1f839dcfc90008d74e355c2dbe68d4992168712457eb956c5ee662303c39bfa",
+      "bytes": 2200
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-mask-0075/NXP_Process_020_0075-F_Mask.gts": {
+      "sha256": "c1c3998a407e207420e7f3f057658734bd03ad5fd483cfc7a4ae86ee3ac49e47",
+      "bytes": 3269
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-mask-0075/NXP_Process_020_0075-job.gbrjob": {
+      "sha256": "1817699a8d352910066d1f9b4aaebaf8dca2656939e00223de9a8da4d2d22c2b",
+      "bytes": 1652
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Courtyard.gbr": {
+      "sha256": "926f7eba66487417cb0152ed9d97e740372fd9ec299608a96a2efb4ed7774f3f",
+      "bytes": 612
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Cu.gtl": {
+      "sha256": "5e4286286be7864fca97194a60fdc4627cb473d1169f20d50f34eed15927e189",
+      "bytes": 1301
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Fab.gbr": {
+      "sha256": "8825aa54830d4cdf9867b3ac851174e34b9c57e1affbd0378cd7cdb2191ca50f",
+      "bytes": 5287
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Mask.gts": {
+      "sha256": "8bc56db6a75d7463d89f7c91de9bc738f3c33b55449c5b64fee061effb33a15b",
+      "bytes": 1741
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Paste.gtp": {
+      "sha256": "2ea2013902d7739ed532b3afa50cb8a8ca64eb422a1bf820c8a1c5cbebecba0c",
+      "bytes": 829
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-F_Silkscreen.gto": {
+      "sha256": "404e458754c5508aa21f76b8d0bdf145acdb5181261b8e13a03dc2af44610c93",
+      "bytes": 2581
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/gerbers-overrides/NXP_Aperture_Override_Control-job.gbrjob": {
+      "sha256": "3d97769a388122620a46958a15e68a4ec14467c1df968c5e4d3776d2a6708dc0",
+      "bytes": 2254
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Cu.svg": {
+      "sha256": "c47d413437c1bcd32904258474875993584c72ab6951fad029f9a8e1c6bf3837",
+      "bytes": 2152
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Mask.svg": {
+      "sha256": "134ce51521e4d4af116868f11cda28092168d815c0ca4dd1f165fd6d8692c8dd",
+      "bytes": 2154
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/native-base-F.Paste.svg": {
+      "sha256": "160cc9d3bf9b8c5e58767e59b0ecf54d30362e498ffa0d8cbef5c37fa3f618c5",
+      "bytes": 2155
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Cu.svg": {
+      "sha256": "c298784d2492bcd73cf2bd3191676887e89f8b89cc87c44306db09546c65dbf4",
+      "bytes": 2157
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Mask.svg": {
+      "sha256": "f31c2f2eb5e01fc45a159fd0d6165dbf111e167162d69700763557ace0fcf8e2",
+      "bytes": 2159
+    },
+    "recovery/logic-footprint-review/nexperia-archival/evidence/native-overrides-F.Paste.svg": {
+      "sha256": "98bc87a147b77a3f66890b927be9c9eba9b2b8e8b464efbeedfedb28b333057b",
+      "bytes": 2160
+    },
+    "recovery/logic-footprint-review/nexperia-archival/footprint-spec.json": {
+      "sha256": "98271b56877ee3dbbabd2c0d5c9a56805a5db3956d653d833ea301ddf88791d8",
+      "bytes": 4506
+    },
+    "recovery/logic-footprint-review/nexperia-archival/integration-contract.json": {
+      "sha256": "2af71cfe05685d287ca53ad5ba3f1750750ba3a1b08273c8555f2f49b022b4b0",
+      "bytes": 1525
+    },
+    "recovery/logic-footprint-review/nexperia-archival/native-drc-runs.json": {
+      "sha256": "f5ee0eea40b840488262681a6c8a9c3383f7740b389c8a01fa4e72390946d1f4",
+      "bytes": 3378
+    },
+    "recovery/logic-footprint-review/nexperia-archival/native-export-runs.json": {
+      "sha256": "f848893d7dce4904564ba8defc40bfcbfb53ca74c02cc87000718d73ca96f561",
+      "bytes": 7628
+    },
+    "recovery/logic-footprint-review/nexperia-archival/pad-map.csv": {
+      "sha256": "16d633f8b6aecae557b6ae4d174a68c825f2dfffdfc9a4649e0f0faf78b12d13",
+      "bytes": 722
+    },
+    "recovery/logic-footprint-review/nexperia-archival/render_review.py": {
+      "sha256": "0ba89507ee6653dfeff352253a80d73b4986c6145b5ef1ea7380b472a77ed3f0",
+      "bytes": 5212
+    },
+    "recovery/logic-footprint-review/nexperia-archival/source-acceptance.json": {
+      "sha256": "f117171ffc0e65051845d43b249bfd992cb138b818d481aaa85117780713f620",
+      "bytes": 2948
+    },
+    "recovery/logic-footprint-review/nexperia-archival/validation.json": {
+      "sha256": "c6bc6d278350822d81c0ffee9016d3308b407f2a355ec59838e6b9d8391aa6d6",
+      "bytes": 5576
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/CMK230_NXP_Archival_Candidates.pretty/NXP_SOT1160-1_74AUP2G97_1.4x1.8_P0.4_ArchivalCrosschecked_CANDIDATE.kicad_mod": {
+      "sha256": "b09cde8069458969de60dd1d9d311603daefbae0a68ac6ebeaf11a1b73726b6b",
+      "bytes": 6421
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Aperture_Override_Control.kicad_pcb": {
+      "sha256": "147103744e38d949906c9b0dcf44af2fb4c96454b0e56c08e224af32b23f8280",
+      "bytes": 13384
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Aperture_Override_Control.kicad_pro": {
+      "sha256": "45d9121e43f8d2e8e1153e67e2fc4156ee45e1dd452a207926cd7e1a27dfee8d",
+      "bytes": 769
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Geometry_QA_ONLY.kicad_pcb": {
+      "sha256": "826ec1f86d0d973ef23e763a2b60485c16147ac554ff96403b6f297dde7b63cf",
+      "bytes": 13217
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Geometry_QA_ONLY.kicad_prl": {
+      "sha256": "5168010ea2cac1fa55d5f62f5ec6fd0a48c996847e20b67017d2c123c388bd8a",
+      "bytes": 2071
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Geometry_QA_ONLY.kicad_pro": {
+      "sha256": "65fcd218356e33e1cb9f24c727cc9e6be29f1187453c73b0ae74116ad3ce7638",
+      "bytes": 760
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Negative_Clearance_0181.kicad_pcb": {
+      "sha256": "826ec1f86d0d973ef23e763a2b60485c16147ac554ff96403b6f297dde7b63cf",
+      "bytes": 13217
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Negative_Clearance_0181.kicad_pro": {
+      "sha256": "0049e599ca664e29716c98a8ce74ec03082d60a2e67a4c9b486d416db3f6359a",
+      "bytes": 769
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Negative_Mask_0056.kicad_pcb": {
+      "sha256": "5d879add04d9fb685e20c8c5376da96eac960c92455380224d4c3ffcd2d17db6",
+      "bytes": 13218
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Negative_Mask_0056.kicad_pro": {
+      "sha256": "9797ca5e5263a40f048cf852a3dfe48e03856951330b0dd64f379621d9922cbe",
+      "bytes": 762
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Process_020_0075.kicad_pcb": {
+      "sha256": "0db233cb324649fd87c5e34ab33bbaed623a29348c576e7d39511e5dce517105",
+      "bytes": 13218
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_Process_020_0075.kicad_pro": {
+      "sha256": "9879230f3c35274a97eca6a7e1f43cb49e2940056ce8fcc29feefe03248c7484",
+      "bytes": 758
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_U92_Actual_Nets_ONLY.kicad_pcb": {
+      "sha256": "eecaaaf8b499ee272d25ef2820eea5647444761ed9ee06bfdf59eaa8b59cf566",
+      "bytes": 13169
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_U92_Actual_Nets_ONLY.kicad_prl": {
+      "sha256": "0e06adfaa75ca228ba57f994560609c5df1d023d62f5d66c4ce6bfe9a6638f4a",
+      "bytes": 2075
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/NXP_U92_Actual_Nets_ONLY.kicad_pro": {
+      "sha256": "a38034d11e4a15dfa942899af64c920fa483df9f97ba3e1b1076de85cd0ff476",
+      "bytes": 764
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/README.md": {
+      "sha256": "16e70dd9dab4fb24716873170ecc5c7a5f583077e52d69c02a4296716acad16a",
+      "bytes": 1061
+    },
+    "cad/recovery-footprint-candidates/nexperia-archival/fp-lib-table": {
+      "sha256": "c3621d19212421850f776fc49240e035fc2c1cd861f377c481df5e955a756f51",
+      "bytes": 240
+    }
+  },
+  "raw_vendor_originals_or_pages_included": false,
+  "excluded_runtime_path": "cad/recovery-footprint-candidates/nexperia-archival/runtime"
+}

@@ -1,0 +1,32 @@
+{
+  "inputs": {
+    "analysis": {
+      "path": "engineering/bga-engineering-candidates/memory-soc-functional-escape-analysis-cu030-via030-hole015.json",
+      "sha256": "560e9693d3e38b40918b494d0e3bc7b31e39402e71b4a3a49b58d2a8972eb2a7"
+    },
+    "balls": {
+      "path": "engineering/bga-engineering-candidates/memory-soc-functional-balls-cu030-via030-hole015.csv",
+      "sha256": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0"
+    },
+    "alternative_process": {
+      "path": "engineering/bga-engineering-candidates/alternate-via-process-check.json",
+      "sha256": "27746ae6ed7082e8d6ae933f61a440ce4d13165575b9d3e5b8ee4756d9c178fd"
+    },
+    "package_evidence": {
+      "path": "engineering/bga-engineering-candidates/micron-emmc-package-evidence.json",
+      "sha256": "f71c3fd958760af18d23d57d2a2227868a28473f0dc2b3a016be0a76db126ceb"
+    },
+    "pin_assignment": {
+      "path": "cad/high-temp-candidate/master-pin-assignments.csv",
+      "sha256": "43925a589d42ceccdd22a3ea83d5ca12999db1f94df2c797d25ccd7922dd53c5"
+    },
+    "netlist": {
+      "path": "cad/high-temp-candidate/master.xml",
+      "sha256": "5ecd0c50fecfa56826569ec897e47b306bce8e25fa89d5382a7b43a132359c5f"
+    }
+  },
+  "kicad_version": "9.0.2+dfsg-1",
+  "exact_part": "MTFC16GAPALBH-AAT",
+  "documentation": "https://docs.kicad.org/9.0/en/pcbnew/pcbnew.html",
+  "restricted_source": "Micron CSN-33 not accessed or retried"
+}

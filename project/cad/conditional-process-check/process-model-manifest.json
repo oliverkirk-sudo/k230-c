@@ -1,0 +1,89 @@
+{
+  "status": "SEPARATE_CONDITIONAL_PROCESS_MODEL_NOT_FACTORY_ACCEPTANCE",
+  "source_board_sha256": "e230344a52f8cd78275bbe89feb16e1a67dd5a4cbbc2ae825a69107b133d7f87",
+  "source_netlist_sha256": "5ecd0c50fecfa56826569ec897e47b306bce8e25fa89d5382a7b43a132359c5f",
+  "default_diagnostic_preserved": "cad/high-temp-candidate/partial-pcb-drc-parity.json",
+  "general_clearance_mm": 0.1016,
+  "general_track_mm": 0.1016,
+  "exact_pad_pairs_per_ref": [
+    [
+      "A1",
+      "A2"
+    ],
+    [
+      "A2",
+      "A3"
+    ],
+    [
+      "A2",
+      "B2"
+    ],
+    [
+      "A3",
+      "B3"
+    ],
+    [
+      "B1",
+      "C1"
+    ],
+    [
+      "B2",
+      "C2"
+    ],
+    [
+      "B3",
+      "C3"
+    ],
+    [
+      "C1",
+      "D1"
+    ],
+    [
+      "C2",
+      "D2"
+    ],
+    [
+      "C3",
+      "D3"
+    ],
+    [
+      "D1",
+      "E1"
+    ],
+    [
+      "D2",
+      "E2"
+    ],
+    [
+      "D3",
+      "E3"
+    ],
+    [
+      "E1",
+      "E2"
+    ],
+    [
+      "E2",
+      "E3"
+    ]
+  ],
+  "applicable_references": [
+    "U22",
+    "U23"
+  ],
+  "pair_clearance_mm": 0.0762,
+  "source_footprint": "CMK230_Verified:TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified",
+  "nominal_source_gap_mm": 0.085,
+  "nominal_margin_mm": 0.0088,
+  "sources": [
+    "https://www.pcbway.com/advanced-pcb-capabilities.html",
+    "https://www.ti.com/lit/ds/symlink/tps62864.pdf"
+  ],
+  "limitations": [
+    "Published minima are nominal capability, not tolerance guarantee.",
+    "Etch bias/variation, mask alignment, stencil and assembly acceptance remain open.",
+    "Advanced fine-line conditions cannot automatically be combined with selected 1oz stack and castellations.",
+    "Rule applies to enumerated pad-to-pad pairs only; no arbitrary pad-to-track or nearby copper relaxation.",
+    "No incomplete connectivity or missing footprint errors are suppressed."
+  ]
+}

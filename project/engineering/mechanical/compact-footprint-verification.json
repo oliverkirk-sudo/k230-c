@@ -1,0 +1,64 @@
+{
+  "scope": "Package candidates only; no integrated netlist changed",
+  "coordinate_frame": "Top/component-side, +X right,+Y down, origin body center",
+  "status": "PASS",
+  "packages": {
+    "DRL": {
+      "footprint": "TI_DRL0005A_AUP_5P_DrawingVerified_CANDIDATE",
+      "copper_count": 5,
+      "mask_count": 5,
+      "paste_count": 5,
+      "courtyard_mm": [
+        2.8,
+        2.5
+      ],
+      "courtyard_mm2": 7.0,
+      "minimum_nominal_copper_gap_mm": 0.2,
+      "minimum_nominal_mask_web_mm": 0.1,
+      "sha256": "501bcc325843ba87efc00bd53eccc1c185b74d8c430d78f756edbb4001822a58"
+    },
+    "DCK": {
+      "footprint": "TI_DCK0005A_AUP_5P_DrawingVerified_CANDIDATE",
+      "copper_count": 5,
+      "mask_count": 5,
+      "paste_count": 5,
+      "courtyard_mm": [
+        3.8,
+        3.2
+      ],
+      "courtyard_mm2": 12.16,
+      "minimum_nominal_copper_gap_mm": 0.25,
+      "minimum_nominal_mask_web_mm": 0.15,
+      "sha256": "90fe526c9c4b4d3586b1a040f5c8b3588d62ceccd42e36752974c8273e7708d3"
+    },
+    "DRV": {
+      "footprint": "TI_DRV0006A_D_TPS3808_6P_EP7_DrawingVerified_CANDIDATE",
+      "copper_count": 7,
+      "mask_count": 7,
+      "paste_count": 8,
+      "courtyard_mm": [
+        3,
+        2.6
+      ],
+      "courtyard_mm2": 7.8,
+      "minimum_nominal_copper_gap_mm": 0.25,
+      "minimum_nominal_mask_web_mm": 0.15,
+      "sha256": "320fc09af71cc061d4f0a24ff51bbbf31ee30af51f58073891dceb067d3a1e6a"
+    },
+    "DRL6": {
+      "footprint": "TI_DRL0006A_AUP1G97_DrawingVerified_CANDIDATE",
+      "copper_count": 6,
+      "mask_count": 6,
+      "paste_count": 6,
+      "courtyard_mm": [
+        2.8,
+        2.5
+      ],
+      "courtyard_mm2": 7.0,
+      "minimum_nominal_copper_gap_mm": 0.2,
+      "minimum_nominal_mask_web_mm": 0.1,
+      "sha256": "52dbc31260dd70829580c529e29396c1d02cfbf0b5769930df099654b90617f2"
+    }
+  },
+  "numeric_assertions_passed": 302
+}

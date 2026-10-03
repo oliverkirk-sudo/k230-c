@@ -1,0 +1,66 @@
+{
+  "status": "PARAMETRIC_PDN_BUDGET_ONLY_NOT_SIMULATION_OR_QUALIFICATION",
+  "source_sha256": "121551b1934a591a06d87b3526c70192b2560f231d67dd89d7296a028c8844c4",
+  "rails": [
+    {
+      "rail": "CORE",
+      "regulator_static_min_V": 0.7882991180397219,
+      "regulator_static_max_V": 0.8101957058066466,
+      "selected_device_min_V": 0.744,
+      "selected_device_max_V": 0.88,
+      "remaining_low_budget_V": 0.04429911803972186,
+      "remaining_high_budget_V": 0.06980429419335343,
+      "minimum_combined_distribution_ripple_step_budget_V": 0.04429911803972186,
+      "illustrative_full_step_A": 3,
+      "zero_reserve_target_impedance_ohm": 0.014766372679907288,
+      "limitation": "This budget must cover distribution, ripple, switching noise, load steps and all unmodeled errors together; do not spend it independently on each."
+    },
+    {
+      "rail": "DDR",
+      "regulator_static_min_V": 1.100816374163853,
+      "regulator_static_max_V": 1.138630967555891,
+      "selected_device_min_V": 1.06,
+      "selected_device_max_V": 1.17,
+      "remaining_low_budget_V": 0.040816374163852975,
+      "remaining_high_budget_V": 0.031369032444108935,
+      "minimum_combined_distribution_ripple_step_budget_V": 0.031369032444108935,
+      "illustrative_full_step_A": null,
+      "zero_reserve_target_impedance_ohm": null,
+      "limitation": "This budget must cover distribution, ripple, switching noise, load steps and all unmodeled errors together; do not spend it independently on each."
+    },
+    {
+      "rail": "1V8",
+      "regulator_static_min_V": 1.7644766146971205,
+      "regulator_static_max_V": 1.836094613293051,
+      "selected_device_min_V": 1.7,
+      "selected_device_max_V": 1.95,
+      "remaining_low_budget_V": 0.06447661469712052,
+      "remaining_high_budget_V": 0.11390538670694905,
+      "minimum_combined_distribution_ripple_step_budget_V": 0.06447661469712052,
+      "illustrative_full_step_A": null,
+      "zero_reserve_target_impedance_ohm": null,
+      "limitation": "This budget must cover distribution, ripple, switching noise, load steps and all unmodeled errors together; do not spend it independently on each."
+    },
+    {
+      "rail": "3V3",
+      "regulator_static_min_V": 3.2451295322889773,
+      "regulator_static_max_V": 3.392164299108761,
+      "selected_device_min_V": 3.07,
+      "selected_device_max_V": 3.6,
+      "remaining_low_budget_V": 0.17512953228897743,
+      "remaining_high_budget_V": 0.20783570089123904,
+      "minimum_combined_distribution_ripple_step_budget_V": 0.17512953228897743,
+      "illustrative_full_step_A": null,
+      "zero_reserve_target_impedance_ohm": null,
+      "limitation": "This budget must cover distribution, ripple, switching noise, load steps and all unmodeled errors together; do not spend it independently on each."
+    }
+  ],
+  "CORE_step_basis": "3A design-stress illustration from official recommended CORE supply capacity, not a measured load-step waveform",
+  "DDR_current_gate": "DDR PHY and selected DRAM simultaneous transient/load profile still required; no invented amperes",
+  "top_side_constraint": "No components beneath BGAs; local ball vias and continuous suitable planes are essential; outside-body distance is not electrical loop length",
+  "package_plane_model_gate": "Actual via/plane inductance, resonances, package parameters and mounted capacitor impedance unavailable; no arbitrary ESL values inserted",
+  "reference_sources": [
+    "https://github.com/kendryte/k230_docs/blob/main/en/00_hardware/K230_Hardware_Design_Guide.md",
+    "Micron exact-part LPDDR4 and eMMC supply tables referenced in thermal-candidate-sources.json"
+  ]
+}

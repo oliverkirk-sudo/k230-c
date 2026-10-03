@@ -1,0 +1,14 @@
+{
+  "parts": [
+    {
+      "mpn": "DFE201612E-R24M=P2",
+      "source_footprint_unchanged": true,
+      "sha256": "979b4131e18048ce01e1d6ff2daad4857b669ffb46e5126ebbd19e34d2e2e3c8"
+    },
+    {
+      "mpn": "DFE201610E-R47M=P2",
+      "source_footprint_unchanged": true,
+      "sha256": "cfe2b57a3dde4b85fe0bfc5236f7729e5a8bd953b39eb37605d8b12586b0d3f7"
+    }
+  ]
+}

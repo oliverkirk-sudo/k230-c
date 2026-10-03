@@ -1,0 +1,862 @@
+[
+  {
+    "name": "TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified",
+    "mpn": "TMUX1574RSVR",
+    "body_nominal_mm": [
+      1.8,
+      2.6
+    ],
+    "body_max_mm": [
+      1.85,
+      2.65
+    ],
+    "additional_mold_flash_per_side_mm": 0,
+    "courtyard_half_width_height_mm": [
+      1.4,
+      1.8
+    ],
+    "courtyard_policy": "At least 0.25 mm from maximum body/copper/mask envelope; rounded outward to 0.05 mm, orientation marker included",
+    "height_max_mm": 0.55,
+    "source_url": "https://www.ti.com/lit/ds/symlink/tmux1574.pdf",
+    "source_pages": "3,36-38",
+    "details": "NSMD example. Explicit +0.05 mm mask expansion equals TI maximum; board fabricator must control tolerance. One-to-one copper/paste with R0.05 corners, TI example 0.125 mm stencil. Pin1 is 0.7 x 0.2 at (-0.75,-0.6), its left edge aligned to the other left pads; NO exposed center pad.",
+    "electrical_pad_count": 16,
+    "paste_only_aperture_count": 0,
+    "pads": [
+      {
+        "num": "1",
+        "x": -0.75,
+        "y": -0.6,
+        "w": 0.7,
+        "h": 0.2,
+        "mask": 0.05,
+        "function": "S1B"
+      },
+      {
+        "num": "2",
+        "x": -0.8,
+        "y": -0.2,
+        "w": 0.6,
+        "h": 0.2,
+        "mask": 0.05,
+        "function": "D1"
+      },
+      {
+        "num": "3",
+        "x": -0.8,
+        "y": 0.2,
+        "w": 0.6,
+        "h": 0.2,
+        "mask": 0.05,
+        "function": "S2A"
+      },
+      {
+        "num": "4",
+        "x": -0.8,
+        "y": 0.6,
+        "w": 0.6,
+        "h": 0.2,
+        "mask": 0.05,
+        "function": "S2B"
+      },
+      {
+        "num": "5",
+        "x": -0.6,
+        "y": 1.2,
+        "w": 0.2,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "D2"
+      },
+      {
+        "num": "6",
+        "x": -0.2,
+        "y": 1.2,
+        "w": 0.2,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "GND"
+      },
+      {
+        "num": "7",
+        "x": 0.2,
+        "y": 1.2,
+        "w": 0.2,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "D3"
+      },
+      {
+        "num": "8",
+        "x": 0.6,
+        "y": 1.2,
+        "w": 0.2,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "S3B"
+      },
+      {
+        "num": "9",
+        "x": 0.8,
+        "y": 0.6,
+        "w": 0.6,
+        "h": 0.2,
+        "mask": 0.05,
+        "function": "S3A"
+      },
+      {
+        "num": "10",
+        "x": 0.8,
+        "y": 0.2,
+        "w": 0.6,
+        "h": 0.2,
+        "mask": 0.05,
+        "function": "D4"
+      },
+      {
+        "num": "11",
+        "x": 0.8,
+        "y": -0.2,
+        "w": 0.6,
+        "h": 0.2,
+        "mask": 0.05,
+        "function": "S4B"
+      },
+      {
+        "num": "12",
+        "x": 0.8,
+        "y": -0.6,
+        "w": 0.6,
+        "h": 0.2,
+        "mask": 0.05,
+        "function": "S4A"
+      },
+      {
+        "num": "13",
+        "x": 0.6,
+        "y": -1.2,
+        "w": 0.2,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "EN_N"
+      },
+      {
+        "num": "14",
+        "x": 0.2,
+        "y": -1.2,
+        "w": 0.2,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "VDD"
+      },
+      {
+        "num": "15",
+        "x": -0.2,
+        "y": -1.2,
+        "w": 0.2,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "SEL"
+      },
+      {
+        "num": "16",
+        "x": -0.6,
+        "y": -1.2,
+        "w": 0.2,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "S1A"
+      }
+    ]
+  },
+  {
+    "name": "TI_DBV0005A_SN74LVC1G32_SOT23_5_DrawingVerified",
+    "mpn": "SN74LVC1G32DBVR",
+    "body_nominal_mm": [
+      1.6,
+      2.9
+    ],
+    "body_max_mm": [
+      1.75,
+      3.05
+    ],
+    "additional_mold_flash_per_side_mm": 0.25,
+    "courtyard_half_width_height_mm": [
+      2.15,
+      2.05
+    ],
+    "courtyard_policy": "At least 0.25 mm from maximum body/copper/mask envelope; rounded outward to 0.05 mm, orientation marker included",
+    "height_max_mm": 1.45,
+    "source_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf",
+    "source_pages": "41-43",
+    "details": "NSMD example, selected mask expansion +0.05 mm within TI 0.07 mm maximum. One-to-one copper/paste, R0.05 corners, TI example 0.125 mm stencil. Courtyard additionally accounts for up to 0.25 mm mold flash per body side.",
+    "electrical_pad_count": 5,
+    "paste_only_aperture_count": 0,
+    "pads": [
+      {
+        "num": "1",
+        "x": -1.3,
+        "y": -0.95,
+        "w": 1.1,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "A"
+      },
+      {
+        "num": "2",
+        "x": -1.3,
+        "y": 0,
+        "w": 1.1,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "B"
+      },
+      {
+        "num": "3",
+        "x": -1.3,
+        "y": 0.95,
+        "w": 1.1,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "GND"
+      },
+      {
+        "num": "4",
+        "x": 1.3,
+        "y": 0.95,
+        "w": 1.1,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "Y"
+      },
+      {
+        "num": "5",
+        "x": 1.3,
+        "y": -0.95,
+        "w": 1.1,
+        "h": 0.6,
+        "mask": 0.05,
+        "function": "VCC"
+      }
+    ]
+  },
+  {
+    "name": "TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified",
+    "mpn": "TPS6282xADMQ",
+    "body_nominal_mm": [
+      1.5,
+      1.5
+    ],
+    "body_max_mm": [
+      1.55,
+      1.55
+    ],
+    "additional_mold_flash_per_side_mm": 0,
+    "courtyard_half_width_height_mm": [
+      1.25,
+      1.05
+    ],
+    "courtyard_policy": "At least 0.25 mm from maximum body/copper/mask envelope; rounded outward to 0.05 mm, orientation marker included",
+    "height_max_mm": 1.0,
+    "source_url": "https://www.ti.com/lit/ds/symlink/tps62827.pdf",
+    "source_pages": "3,32-34",
+    "details": "SMD preferred example. Selected copper overlap 0.05 mm each side equals TI minimum: left copper 0.70x0.35, right 1.10x0.30; explicit mask aperture offset -0.05 exposes 0.60x0.25 / 1.00x0.20. Independent paste-only R0.05 apertures equal exposed area. TI example 0.125 mm stencil. Body center is origin; asymmetric centers -0.65 / +0.45. NO center exposed pad.",
+    "electrical_pad_count": 6,
+    "paste_only_aperture_count": 6,
+    "pads": [
+      {
+        "num": "1",
+        "x": -0.65,
+        "y": -0.5,
+        "w": 0.7,
+        "h": 0.35,
+        "radius": 0.1,
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.05,
+        "function": "EN",
+        "exposed_w": 0.6,
+        "exposed_h": 0.25
+      },
+      {
+        "num": "",
+        "x": -0.65,
+        "y": -0.5,
+        "w": 0.6,
+        "h": 0.25,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "2",
+        "x": -0.65,
+        "y": 0,
+        "w": 0.7,
+        "h": 0.35,
+        "radius": 0.1,
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.05,
+        "function": "PG",
+        "exposed_w": 0.6,
+        "exposed_h": 0.25
+      },
+      {
+        "num": "",
+        "x": -0.65,
+        "y": 0,
+        "w": 0.6,
+        "h": 0.25,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "3",
+        "x": -0.65,
+        "y": 0.5,
+        "w": 0.7,
+        "h": 0.35,
+        "radius": 0.1,
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.05,
+        "function": "FB",
+        "exposed_w": 0.6,
+        "exposed_h": 0.25
+      },
+      {
+        "num": "",
+        "x": -0.65,
+        "y": 0.5,
+        "w": 0.6,
+        "h": 0.25,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "4",
+        "x": 0.45,
+        "y": 0.5,
+        "w": 1.1,
+        "h": 0.30000000000000004,
+        "radius": 0.1,
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.05,
+        "function": "GND",
+        "exposed_w": 1,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.45,
+        "y": 0.5,
+        "w": 1,
+        "h": 0.2,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "5",
+        "x": 0.45,
+        "y": 0,
+        "w": 1.1,
+        "h": 0.30000000000000004,
+        "radius": 0.1,
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.05,
+        "function": "SW",
+        "exposed_w": 1,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.45,
+        "y": 0,
+        "w": 1,
+        "h": 0.2,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "6",
+        "x": 0.45,
+        "y": -0.5,
+        "w": 1.1,
+        "h": 0.30000000000000004,
+        "radius": 0.1,
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.05,
+        "function": "VIN",
+        "exposed_w": 1,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.45,
+        "y": -0.5,
+        "w": 1,
+        "h": 0.2,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified",
+    "mpn": "TPS628640BYCGR",
+    "body_nominal_mm": [
+      1.05,
+      1.78
+    ],
+    "body_max_mm": [
+      1.07,
+      1.8
+    ],
+    "additional_mold_flash_per_side_mm": 0,
+    "courtyard_half_width_height_mm": [
+      0.8,
+      1.15
+    ],
+    "courtyard_policy": "At least 0.25 mm from maximum body/copper/mask envelope; rounded outward to 0.05 mm, orientation marker included",
+    "height_max_mm": 0.5,
+    "source_url": "https://www.ti.com/lit/ds/symlink/tps62864.pdf",
+    "source_pages": "4,30-32",
+    "details": "SMD preferred. Selected copper diameter 0.265, explicit -0.0325 mm mask aperture offset gives diameter 0.200 opening, exactly TI minimum overlap. The paste aperture is a 0.21 mm R0.05 rounded SQUARE, not a circle. TI example 0.075 mm stencil. Adjacent copper clearance is only 0.085 mm; needs manufacturer acceptance/HDI escape assessment. A1 upper-left.",
+    "electrical_pad_count": 15,
+    "paste_only_aperture_count": 15,
+    "pads": [
+      {
+        "num": "A1",
+        "x": -0.35,
+        "y": -0.7,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "AGND",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": -0.35,
+        "y": -0.7,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "A2",
+        "x": 0.0,
+        "y": -0.7,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "VSET_PG",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.0,
+        "y": -0.7,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "A3",
+        "x": 0.35,
+        "y": -0.7,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "VOS",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.35,
+        "y": -0.7,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "B1",
+        "x": -0.35,
+        "y": -0.35,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "PGND",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": -0.35,
+        "y": -0.35,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "B2",
+        "x": 0.0,
+        "y": -0.35,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "PGND",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.0,
+        "y": -0.35,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "B3",
+        "x": 0.35,
+        "y": -0.35,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "PGND",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.35,
+        "y": -0.35,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "C1",
+        "x": -0.35,
+        "y": 0.0,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "SW",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": -0.35,
+        "y": 0.0,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "C2",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "SW",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "C3",
+        "x": 0.35,
+        "y": 0.0,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "SW",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.35,
+        "y": 0.0,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "D1",
+        "x": -0.35,
+        "y": 0.35,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "VIN",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": -0.35,
+        "y": 0.35,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "D2",
+        "x": 0.0,
+        "y": 0.35,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "VIN",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.0,
+        "y": 0.35,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "D3",
+        "x": 0.35,
+        "y": 0.35,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "VIN",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.35,
+        "y": 0.35,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "E1",
+        "x": -0.35,
+        "y": 0.7,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "EN",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": -0.35,
+        "y": 0.7,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "E2",
+        "x": 0.0,
+        "y": 0.7,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "SDA",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.0,
+        "y": 0.7,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      },
+      {
+        "num": "E3",
+        "x": 0.35,
+        "y": 0.7,
+        "w": 0.265,
+        "h": 0.265,
+        "shape": "circle",
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask": -0.0325,
+        "function": "SCL",
+        "exposed_w": 0.2,
+        "exposed_h": 0.2
+      },
+      {
+        "num": "",
+        "x": 0.35,
+        "y": 0.7,
+        "w": 0.21,
+        "h": 0.21,
+        "radius": 0.05,
+        "layers": [
+          "F.Paste"
+        ]
+      }
+    ]
+  }
+]

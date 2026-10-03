@@ -1,0 +1,414 @@
+{
+  "review_date_utc": "2026-09-30",
+  "source_files_not_redistributed": true,
+  "source_manifest": {
+    "K230_PINOUT": {
+      "url": "https://kendryte-download.canaan-creative.com/developer/k230/HDK/K230%E7%A1%AC%E4%BB%B6%E6%96%87%E6%A1%A3/K230_PINOUT_V1.2_20240822.xlsx",
+      "filename": "K230_PINOUT_V1.2_20240822.xlsx",
+      "sha256": "a10e2ac57e3a37659395f844388c94a44ec1218496f04d72de29716197d4ffa7",
+      "main_sheet": "1.K230&K230D管脚信息表",
+      "default_sheet": "2.GPIO管脚默认状态"
+    },
+    "K230_GUIDE": {
+      "url": "https://www.kendryte.com/k230/en/main/00_hardware/K230_Hardware_Design_Guide.html",
+      "local_md_sha256": "19e7243c50197a4835b9f85ca51c3fc9abd52ca9d353c6a92ddc8eaf9a3384f4",
+      "figure3_12_url": "https://www.kendryte.com/k230/en/main/_images/image023.png",
+      "figure3_12_sha256": "ca24ac8dddf9c3b59123557fc3773f18155401d2e607eb2f43e95639251e2df1"
+    },
+    "K230_TRM": {
+      "url": "https://kendryte-download.canaan-creative.com/developer/k230/HDK/K230%E7%A1%AC%E4%BB%B6%E6%96%87%E6%A1%A3/K230_Technical_Reference_Manual_V0.3.1_20241118.pdf",
+      "sha256": "4a18fdbd1cd25c5a33ca4d54b78c95e0e338305bceb17397133370fa10c1e5f0",
+      "strobe_pdf_page": 963
+    },
+    "SAMSUNG_EMMC": {
+      "url": "https://datasheet.lcsc.com/lcsc/2007011825_Samsung-KLMAG1JETD-B041_C499919.pdf",
+      "sha256": "015be236158087add125892756a7ef7d63eaa7c0c55969c241597755eb784bd0",
+      "author": "Samsung",
+      "hosting": "third-party public mirror",
+      "pages": [
+        4,
+        5,
+        23
+      ]
+    },
+    "SAMSUNG_LP4": {
+      "url": "https://www.szyuda88.com/home/8/a/2lhtb2/resource/2021/05/26/60ade38424a32.pdf",
+      "sha256": "feaa1ab8464bd3350b304acfe162be912655305cc1d32d84422653660378f461",
+      "author": "Samsung",
+      "hosting": "third-party public mirror",
+      "pages": [
+        10,
+        11
+      ]
+    },
+    "CANMV_UBOOT": {
+      "url": "https://github.com/canmv-k230/u-boot/blob/87041d630cdcd545dacfec19f1e90a093689dada/drivers/mmc/snps_sdhci.c",
+      "sha256": "62ee6af7d6c7bcef536d9533626d0426d2d78b12dd1e0351fb7fe3dc4a66f112",
+      "lines": "96-108,144-150"
+    },
+    "CANAAN_REFERENCE": {
+      "url": "https://github.com/kendryte/k230_docs/blob/main/zh/00_hardware/CanMV_K230/CanMV-K230-V1.0_2023-09-15.pdf",
+      "sha256": "fba13dac1faefe818d2d6a91670192aad5dd0baa62d63203a7ff34381b8cbcbb",
+      "pages": [
+        1
+      ]
+    }
+  },
+  "snapshot_date": "2026-09-30T03:51:17-0700",
+  "snapshot_hashes": {
+    "build_review.py": "4c4810ea4ac58035bac72c8bdc2d2f91613e463a3a53db052860322b1a4452e0",
+    "open-pin-review.csv": "506f5f5e3ad9bdc641fb7476f2eb055d8d44f0563152a58bc396d4fd6f801b46",
+    "master-pin-assignments.csv": "2d86d789d0b26d9e9a779ee7c474f10b498eef613ca425dfbc21e1b8de2a3508",
+    "master.xml": "e64cf95a6809c521e7f59032c080213eb6f6a784172e44096a77d82b2e4c109a",
+    "erc.json": "4addb3718373637725c10eb0fd72e294c00dec7a0efbcbd5ab6a4f730f480f8c"
+  },
+  "summary_class_counts": {
+    "POWER": 19,
+    "SPEC": 11,
+    "UNUSED": 20,
+    "REAL": 1
+  },
+  "checked_pin_facts": [
+    {
+      "reference": "U1",
+      "pin": "C20",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 70,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "NC",
+      "annotation_scope": "both documented DDR modes"
+    },
+    {
+      "reference": "U1",
+      "pin": "D19",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 89,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "NC",
+      "annotation_scope": "both documented DDR modes"
+    },
+    {
+      "reference": "U1",
+      "pin": "D20",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 90,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "NC",
+      "annotation_scope": "both documented DDR modes"
+    },
+    {
+      "reference": "U1",
+      "pin": "F18",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 128,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "NC",
+      "annotation_scope": "both documented DDR modes"
+    },
+    {
+      "reference": "U1",
+      "pin": "G17",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 155,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "NC",
+      "annotation_scope": "both documented DDR modes"
+    },
+    {
+      "reference": "U1",
+      "pin": "H18",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 196,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "NC",
+      "annotation_scope": "both documented DDR modes"
+    },
+    {
+      "reference": "U1",
+      "pin": "H19",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 197,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "NC",
+      "annotation_scope": "both documented DDR modes"
+    },
+    {
+      "reference": "U1",
+      "pin": "K20",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 284,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "functional CA/ODT",
+      "annotation_scope": "fixed LPDDR4 mode"
+    },
+    {
+      "reference": "U1",
+      "pin": "L17",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 325,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "functional CA/ODT",
+      "annotation_scope": "fixed LPDDR4 mode"
+    },
+    {
+      "reference": "U1",
+      "pin": "L18",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 326,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "functional CA/ODT",
+      "annotation_scope": "fixed LPDDR4 mode"
+    },
+    {
+      "reference": "U1",
+      "pin": "L20",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 328,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "functional CA/ODT",
+      "annotation_scope": "fixed LPDDR4 mode"
+    },
+    {
+      "reference": "U1",
+      "pin": "M17",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 365,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "NC",
+      "annotation_scope": "both documented DDR modes"
+    },
+    {
+      "reference": "U1",
+      "pin": "M20",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 368,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "functional CA/ODT",
+      "annotation_scope": "fixed LPDDR4 mode"
+    },
+    {
+      "reference": "U1",
+      "pin": "N18",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 398,
+      "LPDDR4_use": "NC",
+      "LPDDR3_use": "NC",
+      "annotation_scope": "both documented DDR modes"
+    },
+    {
+      "reference": "U1",
+      "pin": "J17",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 239,
+      "function": "DDR_CKEB1",
+      "LPDDR4_use": "functional rank1; intentionally unused with selected single-rank device",
+      "additional_evidence": [
+        "K230_GUIDE Figure3-12",
+        "SAMSUNG_LP4 pp10-11"
+      ]
+    },
+    {
+      "reference": "U1",
+      "pin": "J19",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 241,
+      "function": "DDR_CSB1",
+      "LPDDR4_use": "functional rank1; intentionally unused with selected single-rank device",
+      "additional_evidence": [
+        "K230_GUIDE Figure3-12",
+        "SAMSUNG_LP4 pp10-11"
+      ]
+    },
+    {
+      "reference": "U1",
+      "pin": "P18",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 438,
+      "function": "DDR_CKEA1",
+      "LPDDR4_use": "functional rank1; intentionally unused with selected single-rank device",
+      "additional_evidence": [
+        "K230_GUIDE Figure3-12",
+        "SAMSUNG_LP4 pp10-11"
+      ]
+    },
+    {
+      "reference": "U1",
+      "pin": "T19",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 499,
+      "function": "DDR_CSA1",
+      "LPDDR4_use": "functional rank1; intentionally unused with selected single-rank device",
+      "additional_evidence": [
+        "K230_GUIDE Figure3-12",
+        "SAMSUNG_LP4 pp10-11"
+      ]
+    },
+    {
+      "reference": "U1",
+      "pin": "B11",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 33,
+      "default_sheet_row": 72,
+      "function": "OUT0",
+      "direction": "output",
+      "default_bias": "pull-down",
+      "unused_status": "unresolved specification dependency: PMU cold-start trigger and isolation access must be proved"
+    },
+    {
+      "reference": "U1",
+      "pin": "C10",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 60,
+      "default_sheet_row": 66,
+      "function": "INT0",
+      "direction": "input",
+      "default_bias": "pull-down",
+      "unused_status": "unresolved specification dependency: PMU cold-start trigger and isolation access must be proved"
+    },
+    {
+      "reference": "U1",
+      "pin": "C11",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 61,
+      "default_sheet_row": 73,
+      "function": "OUT1",
+      "direction": "output",
+      "default_bias": "pull-down",
+      "unused_status": "unresolved specification dependency: PMU cold-start trigger and isolation access must be proved"
+    },
+    {
+      "reference": "U1",
+      "pin": "C12",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 62,
+      "default_sheet_row": 70,
+      "function": "INT4",
+      "direction": "input",
+      "default_bias": "pull-down",
+      "unused_status": "unresolved specification dependency: PMU cold-start trigger and isolation access must be proved"
+    },
+    {
+      "reference": "U1",
+      "pin": "D8",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 78,
+      "function": "ANA_TS_VTEST",
+      "direction": "output",
+      "unused_status": "reference schematic leaves open; reviewer acceptance pending"
+    },
+    {
+      "reference": "U1",
+      "pin": "U6",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 506,
+      "function": "MIPI_ATB",
+      "unused_status": "explicitly permitted to float when unused; already annotated before this ERC baseline"
+    },
+    {
+      "reference": "U1",
+      "pin": "B6",
+      "source": "K230_PINOUT",
+      "main_sheet_row": 28,
+      "function": "MMC0_STROBE",
+      "direction": "input",
+      "TRM_pdf_page": 963,
+      "pad_register": "STBPAD_CNFG / PHY + 0xA",
+      "reset_value": "0x0440",
+      "weakpull_reset": 0,
+      "weakpull_reset_meaning": "pull-up and pull-down disabled",
+      "runtime_weakpull": 2,
+      "runtime_weakpull_meaning": "pull-down; not BootROM proof"
+    },
+    {
+      "reference": "U3",
+      "pin": "H5",
+      "source": "SAMSUNG_EMMC",
+      "page": 5,
+      "function": "Data Strobe",
+      "direction": "output",
+      "unused_status": "HS400 timing output; unused for fixed HS200-only design"
+    }
+  ],
+  "emmc_supply_correction": {
+    "found_in_original_v4": true,
+    "corrected_by_parent_before_snapshot": true,
+    "VDD_VCCQ_balls": [
+      "C6",
+      "M4",
+      "N4",
+      "P3",
+      "P5"
+    ],
+    "VDD_VCCQ_current_net": "VEMMC_IO",
+    "VDDF_VCC_balls": [
+      "E6",
+      "F5",
+      "J10",
+      "K9"
+    ],
+    "VDDF_VCC_current_net": "VDD_3V3",
+    "source_pages": [
+      4,
+      5
+    ],
+    "remaining_problem": "VEMMC_IO has no supply source"
+  },
+  "pmu_startup_addendum": {
+    "source": "K230_TRM",
+    "section": "14.3, 14.5, 14.6.1",
+    "startup_pdf_page": 1169,
+    "cold_reset_figure_pdf_page": 1183,
+    "pad68_ball": "C12",
+    "pad68_supply_domain": "AVDD1P8_LDO; shared AVDD1P8_PMU in this design",
+    "registers": [
+      {
+        "name": "PMU_INT_DETECT_EN",
+        "offset": "0x004C",
+        "reset": "0x810",
+        "INT4_detection_bit4": 1
+      },
+      {
+        "name": "PMU_INT_DETECT_TYP",
+        "offset": "0x0050",
+        "reset": "0x0",
+        "INT4_effective_level_bit5": 0,
+        "INT4_trigger_type_bit3": 0,
+        "interpretation": "active-high level detection"
+      },
+      {
+        "name": "PMU_IO_CFG_4",
+        "offset": "0x0090",
+        "reset": "0x1124",
+        "interpretation": "PMU function; input enabled; output disabled; pull-down enabled"
+      },
+      {
+        "name": "PMU_INT0_TO_CTL_REGISTER",
+        "offset": "0x0040",
+        "reset": "0xFFF",
+        "INT4_route_bit4": 1
+      },
+      {
+        "name": "PMU_INT1_TO_CTL_REGISTER",
+        "offset": "0x0044",
+        "reset": "0xFFF",
+        "INT4_route_bit4": 1
+      },
+      {
+        "name": "PMU_OUT_DELAY_SET",
+        "offset": "0x007C",
+        "reset": "0x01100640",
+        "interpretation": "PAD70 event delay disabled; PAD71 logic delay enabled; 0x640 clock ticks"
+      },
+      {
+        "name": "PMU_NORMAL_TIMER_VAL",
+        "offset": "0x00A0",
+        "reset": "0x780",
+        "interpretation": "nominal 60ms core-ready/isolation timer"
+      }
+    ],
+    "flow_figure_initial_oscillator_stabilization_approx_ms": 1000,
+    "timing_caution": "50ms reset and 60ms isolation narrative share PAD70 enable origin; not evidence for additive fixed110ms. Figure timings are not guaranteed min/max limits.",
+    "reference_schematics_visual_check": "Both Canaan p1 and 01studio p1 leave C10/C12/B11/C11 open; neither proves new regulator-control GPIO buses operate without PMU startup.",
+    "candidate_only": "Same-domain PAD68 pull-up could request automatic PMU start; value, VIH, pull-down tolerance, rise timing, ownership, poweroff behavior and isolation must be verified. No CAD change authorized by this review."
+  }
+}

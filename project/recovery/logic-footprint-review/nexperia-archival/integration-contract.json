@@ -1,0 +1,40 @@
+{
+  "status": "STANDALONE_CANDIDATE_NO_ACTIVE_ASSIGNMENT",
+  "U92": {
+    "mpn": "74AUP2G97GUX",
+    "physical_VCC_pin": "9",
+    "physical_GND_pin": "4",
+    "grounded_configuration_inputs": [
+      "1",
+      "6"
+    ],
+    "bypass_rule": "Affinity must follow physical VCC9 and GND4, not nearest same-net configuration pad.",
+    "body_max_including_protrusions_mm": [
+      1.65,
+      2.05
+    ]
+  },
+  "U14": {
+    "mpn": "SN74LVC1G97DSFR",
+    "physical_VCC_pin": "5",
+    "physical_GND_pin": "2",
+    "tied_high_configuration_input": "3",
+    "bypass_rule": "Affinity must follow physical VCC5 and GND2, not tied-high In0 pin3."
+  },
+  "mask_CAM": {
+    "source_expansion_per_side_mm": 0.0625,
+    "nominal_minimum_web_mm": 0.055,
+    "source_exact_export_native_minimum_setting_mm": 0.05,
+    "rejected_merged_export_native_minimum_setting_mm": 0.075,
+    "individual_aperture_export_verification_required": true,
+    "factory_registration_or_gang_mask_approval": false
+  },
+  "source_scope": "Archival NXP manufacturer drawings visually inspected; current Nexperia primary text matches identifiers and annotated dimensions. Current PDF pixels/byte/revision identity not claimed.",
+  "gates": [
+    "Intended orderable/package revision acceptance",
+    "Actual factory copper, mask-web, registration, stencil and assembly qualification",
+    "Physical bypass and final placement/routing review",
+    "Existing electrical, startup, thermal and bench signoff"
+  ],
+  "raw_vendor_originals_in_deliverable_set": false
+}

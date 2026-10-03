@@ -1,0 +1,218 @@
+{
+  "status": "PASS_ARCHIVAL_PIXELS_CURRENT_PRIMARY_TEXT_CROSSCHECK_PROCESS_UNQUALIFIED",
+  "kicad": "9.0.2+dfsg-1",
+  "electrical_copper_pads": 10,
+  "explicit_mask_only_apertures": 10,
+  "explicit_paste_only_apertures": 10,
+  "no_extra_exposed_pad": true,
+  "negative_controls": [
+    {
+      "control": "wrong_terminal_view_mirror",
+      "caught": true
+    },
+    {
+      "control": "lose_long_pin1_asymmetry",
+      "caught": true
+    },
+    {
+      "control": "swap_pin1_pin2",
+      "caught": true
+    },
+    {
+      "control": "missing_mask",
+      "caught": true
+    },
+    {
+      "control": "one_to_one_paste",
+      "caught": true
+    },
+    {
+      "control": "invented_EP11",
+      "caught": true
+    }
+  ],
+  "minimum_copper_gap_mm": 0.18,
+  "minimum_mask_gap_mm": 0.055,
+  "minimum_paste_gap_mm": 0.22,
+  "mask_web_controls": [
+    {
+      "minimum_required_mm": 0.05,
+      "actual_mm": 0.055,
+      "passes_geometry": true,
+      "factory_accepted": false
+    },
+    {
+      "minimum_required_mm": 0.055,
+      "actual_mm": 0.055,
+      "passes_geometry": true,
+      "factory_accepted": false
+    },
+    {
+      "minimum_required_mm": 0.056,
+      "actual_mm": 0.055,
+      "passes_geometry": false,
+      "factory_accepted": false
+    },
+    {
+      "minimum_required_mm": 0.075,
+      "actual_mm": 0.055,
+      "passes_geometry": false,
+      "factory_accepted": false
+    }
+  ],
+  "stencil_geometry": [
+    {
+      "copper_size_mm": [
+        0.65,
+        0.22
+      ],
+      "paste_size_mm": [
+        0.61,
+        0.18
+      ],
+      "stencil_mm": 0.1,
+      "area_ratio": 0.6949367088607593,
+      "coverage_ratio": 0.7678321678321677,
+      "process_acceptance": false
+    },
+    {
+      "copper_size_mm": [
+        0.55,
+        0.22
+      ],
+      "paste_size_mm": [
+        0.51,
+        0.18
+      ],
+      "stencil_mm": 0.1,
+      "area_ratio": 0.6652173913043479,
+      "coverage_ratio": 0.7586776859504131,
+      "process_acceptance": false
+    },
+    {
+      "copper_size_mm": [
+        0.22,
+        0.55
+      ],
+      "paste_size_mm": [
+        0.18,
+        0.51
+      ],
+      "stencil_mm": 0.1,
+      "area_ratio": 0.6652173913043479,
+      "coverage_ratio": 0.7586776859504131,
+      "process_acceptance": false
+    }
+  ],
+  "pin_net_parity": {
+    "frozen_U92_export_matches": true,
+    "nets": {
+      "1": "GND",
+      "2": "BOOT_VOLTAGE_QUALIFIED_1V8",
+      "3": "RESET_RELEASE_REQUEST_1V8",
+      "4": "GND",
+      "5": "FIXED_RAILS_PGOOD_3V3",
+      "6": "GND",
+      "7": "RSTN",
+      "8": "STORAGE_ENABLE_1V8",
+      "9": "VDD1P8",
+      "10": "FIXED_RAILS_PGOOD_3V3"
+    },
+    "actual_power_pins": {
+      "VCC": "9",
+      "GND": "4"
+    },
+    "grounded_logic_inputs": [
+      "1",
+      "6"
+    ],
+    "bypass_affinity": "Use physical VCC9/GND4, not grounded logic inputs1/6. TI U14 is VCC5/GND2; pin3 is a tied-high logic input."
+  },
+  "export_parity": {
+    "F.Cu": {
+      "native_svg_geometry_equal": true,
+      "geometry_elements": 10
+    },
+    "F.Mask": {
+      "native_svg_geometry_equal": true,
+      "geometry_elements": 10
+    },
+    "F.Paste": {
+      "native_svg_geometry_equal": true,
+      "geometry_elements": 10
+    }
+  },
+  "gerber_geometry": {
+    "F_Cu": [
+      {
+        "mode": "base",
+        "exact_rectangular_apertures": 10,
+        "centers_and_dimensions_match": true
+      },
+      {
+        "mode": "overrides",
+        "exact_rectangular_apertures": 10,
+        "centers_and_dimensions_match": true
+      }
+    ],
+    "F_Mask": [
+      {
+        "mode": "base",
+        "exact_rectangular_apertures": 10,
+        "centers_and_dimensions_match": true
+      },
+      {
+        "mode": "overrides",
+        "exact_rectangular_apertures": 10,
+        "centers_and_dimensions_match": true
+      }
+    ],
+    "F_Paste": [
+      {
+        "mode": "base",
+        "exact_rectangular_apertures": 10,
+        "centers_and_dimensions_match": true
+      },
+      {
+        "mode": "overrides",
+        "exact_rectangular_apertures": 10,
+        "centers_and_dimensions_match": true
+      }
+    ]
+  },
+  "mask_export_process_control": {
+    "source_mask_expansion_per_side_mm": 0.0625,
+    "nominal_web_mm": 0.055,
+    "base_native_mask_web_setting_mm": 0.05,
+    "base_individual_regions": 10,
+    "strict_native_mask_web_setting_mm": 0.075,
+    "strict_complex_merged_regions": 1,
+    "strict_rejected_by_source_exact_aperture_check": true,
+    "meaning": "Explicit mask-only pads do not prevent native global minimum-width merging. 0.075-mm output is a diagnostic merged-mask control, not the source-exact candidate release. No gang-mask or reduced-expansion manufacturing approval."
+  },
+  "intrinsic_drc": {
+    "violations": 0,
+    "unconnected": 0,
+    "provisional_clearance_mm": 0.15,
+    "provisional_mask_web_mm": 0.05
+  },
+  "drc_sensitivity": {
+    "NXP_Negative_Clearance_0181": {
+      "clearance": 6
+    },
+    "NXP_Negative_Mask_0056": {},
+    "NXP_Process_020_0075": {
+      "clearance": 10
+    }
+  },
+  "mask_native_drc_limit": "0.056-mm native minimum saved and round-trip verified, but native DRC misses 0.055-mm web in explicit mask-only apertures. Independent geometry rejects it; factory/CAM review remains mandatory.",
+  "actual_net_fixture": {
+    "geometry_violations": 0,
+    "unconnected_items": 3,
+    "expected": "Two GND ties and one FIXED_RAILS_PGOOD_3V3 tie intentionally unrouted in local fixture",
+    "system_schematic_DRC_parity_claimed": false
+  },
+  "frozen_TI_files_unchanged": 61,
+  "frozen_electrical_files_unchanged": 31,
+  "numeric_assertions": 1577
+}

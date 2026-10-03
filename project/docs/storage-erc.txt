@@ -1,0 +1,95 @@
+ERC report (2026-09-30T03:17:44-0700, Encoding UTF8)
+
+***** Sheet /
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 52.07 mm): Label 'TFCARD_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 54.61 mm): Label 'MMC0_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 57.15 mm): Label 'EMMC_CMD'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 59.69 mm): Label 'TFCARD_CMD'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 62.23 mm): Label 'MMC0_CMD'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 67.31 mm): Label 'MMC0_D0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 69.85 mm): Label 'TFCARD_D0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 72.39 mm): Label 'EMMC_DAT0'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(73.66 mm, 64.77 mm): Symbol U11 Pin 6 [GND, Power input, Line]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 74.93 mm): Label 'MMC0_D1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 77.47 mm): Label 'TFCARD_D1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 80.01 mm): Label 'EMMC_DAT1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(66.04 mm, 90.17 mm): Label 'EMMC_CLK'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(73.66 mm, 85.09 mm): Symbol U11 Pin 14 [VDD, Power input, Line]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(83.82 mm, 185.42 mm): Label 'VEMMC_IO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(203.20 mm, 52.07 mm): Label 'TFCARD_D2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(203.20 mm, 54.61 mm): Label 'MMC0_D2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(203.20 mm, 57.15 mm): Label 'EMMC_DAT3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(203.20 mm, 59.69 mm): Label 'TFCARD_D3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(203.20 mm, 62.23 mm): Label 'MMC0_D3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(203.20 mm, 72.39 mm): Label 'MMC0_RST_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(203.20 mm, 90.17 mm): Label 'EMMC_DAT2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(340.36 mm, 54.61 mm): Label 'MMC0_D4'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(340.36 mm, 57.15 mm): Label 'EMMC_DAT5'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(340.36 mm, 62.23 mm): Label 'MMC0_D5'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(340.36 mm, 67.31 mm): Label 'MMC0_D6'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(340.36 mm, 72.39 mm): Label 'EMMC_DAT6'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(340.36 mm, 74.93 mm): Label 'MMC0_D7'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(340.36 mm, 80.01 mm): Label 'EMMC_DAT7'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(340.36 mm, 90.17 mm): Label 'EMMC_DAT4'
+
+ ** ERC messages: 30  Errors 30  Warnings 0

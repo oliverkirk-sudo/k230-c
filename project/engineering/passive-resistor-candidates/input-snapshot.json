@@ -1,0 +1,1041 @@
+{
+  "source": "cad/high-temp-candidate/master.xml",
+  "sha256": "11d048c076fb54df9ea63b926a1f7db53ffe712d9e26984d0a4df62109876263",
+  "snapshot_utc": "2026-09-30T17:41:30Z",
+  "resistors": [
+    {
+      "reference": "R41",
+      "current_value": "1M REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "RTC_XIN"
+        },
+        {
+          "pin": "1",
+          "net": "RTC_XOUT"
+        }
+      ]
+    },
+    {
+      "reference": "R42",
+      "current_value": "1M REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "CLK24_XIN"
+        },
+        {
+          "pin": "1",
+          "net": "CLK24_XOUT"
+        }
+      ]
+    },
+    {
+      "reference": "R43",
+      "current_value": "100k REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "RSTN"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "R44",
+      "current_value": "10k BOOT0 LOW",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "BOOT0"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R45",
+      "current_value": "10k BOOT0 HIGH / DNP",
+      "current_footprint": "",
+      "dnp": true,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "BOOT0"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "R46",
+      "current_value": "10k BOOT1 HIGH",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "BOOT1"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "R47",
+      "current_value": "10k BOOT1 LOW / DNP",
+      "current_footprint": "",
+      "dnp": true,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "BOOT1"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R31",
+      "current_value": "10k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "MODE_TF"
+        }
+      ]
+    },
+    {
+      "reference": "R32",
+      "current_value": "10k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "GLOBAL_DISABLE"
+        },
+        {
+          "pin": "2",
+          "net": "VDD_3V3"
+        }
+      ]
+    },
+    {
+      "reference": "R33",
+      "current_value": "10k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "DISABLE_OR_TF"
+        },
+        {
+          "pin": "2",
+          "net": "VDD_3V3"
+        }
+      ]
+    },
+    {
+      "reference": "R34",
+      "current_value": "10k RESET BIAS",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_RSTN"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R201",
+      "current_value": "3.32k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "FB_CORE"
+        },
+        {
+          "pin": "1",
+          "net": "VDD0P8_CORE"
+        }
+      ]
+    },
+    {
+      "reference": "R202",
+      "current_value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "FB_CORE"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R203",
+      "current_value": "100k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "CORE_PGOOD_5V"
+        },
+        {
+          "pin": "2",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "R204",
+      "current_value": "10k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "CORE_ENABLE"
+        },
+        {
+          "pin": "2",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "R205",
+      "current_value": "56.2k 1% / 0.8V / addr0x49",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VSET_CPU"
+        }
+      ]
+    },
+    {
+      "reference": "R206",
+      "current_value": "56.2k 1% / 0.8V / addr0x49",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VSET_KPU"
+        }
+      ]
+    },
+    {
+      "reference": "R207",
+      "current_value": "8.66k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "FB_DDR"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R208",
+      "current_value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "FB_DDR"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R210",
+      "current_value": "20k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "FB_1V8"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "R211",
+      "current_value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "FB_1V8"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R213",
+      "current_value": "45.3k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "FB_3V3"
+        },
+        {
+          "pin": "1",
+          "net": "VDD_3V3"
+        }
+      ]
+    },
+    {
+      "reference": "R214",
+      "current_value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "FB_3V3"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R216",
+      "current_value": "4.7k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "PWR_CPU_SCL"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "R217",
+      "current_value": "4.7k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "PWR_CPU_SDA"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "R218",
+      "current_value": "4.7k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "PWR_KPU_SCL"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "R219",
+      "current_value": "4.7k",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "PWR_KPU_SDA"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "R220",
+      "current_value": "0R WSL060300000ZEA9 Rmax=0.25mOhm",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "VDD0P8_CORE"
+        },
+        {
+          "pin": "2",
+          "net": "VDD0P8_DDR_CORE"
+        }
+      ]
+    },
+    {
+      "reference": "R221",
+      "current_value": "0R Rmax<=50mOhm",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "VDD3P3_SD"
+        },
+        {
+          "pin": "1",
+          "net": "VDD_3V3"
+        }
+      ]
+    },
+    {
+      "reference": "R61",
+      "current_value": "10k REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "LPDDR4_ODT_A"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R62",
+      "current_value": "10k REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "LPDDR4_ODT_B"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R63",
+      "current_value": "240R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "LPDDR4_ZQ"
+        },
+        {
+          "pin": "2",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R64",
+      "current_value": "240R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "DDR_ZN"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R65",
+      "current_value": "240R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "DDR_VREF"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R66",
+      "current_value": "240R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "DDR_VREF"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R67",
+      "current_value": "30k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "USB0_VBUS"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "R68",
+      "current_value": "30k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "USB1_VBUS"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        }
+      ]
+    },
+    {
+      "reference": "R69",
+      "current_value": "200R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "USB0_TXRTUNE"
+        }
+      ]
+    },
+    {
+      "reference": "R70",
+      "current_value": "200R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "USB1_TXRTUNE"
+        }
+      ]
+    },
+    {
+      "reference": "R71",
+      "current_value": "200R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "MIPI_REXT"
+        }
+      ]
+    },
+    {
+      "reference": "R573",
+      "current_value": "47k Micron DS BIAS REF",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DS_UNUSED"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R401",
+      "current_value": "0R PMU AUTO-START STRAP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "AVDD1P8_PMU"
+        },
+        {
+          "pin": "2",
+          "net": "PMU_INT4_AUTO_START"
+        }
+      ]
+    },
+    {
+      "reference": "R402",
+      "current_value": "10k INT0 INACTIVE",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "PMU_INT0"
+        }
+      ]
+    },
+    {
+      "reference": "R561",
+      "current_value": "0R WFZ040200000ZE66 3mOhm CANDIDATE",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R562",
+      "current_value": "22k CMD PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_CMD"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R563",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT0"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R564",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT1"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R565",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT2"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R566",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT3"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R567",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT4"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R568",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT5"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R569",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT6"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R570",
+      "current_value": "47k DATA PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_DAT7"
+        },
+        {
+          "pin": "2",
+          "net": "VEMMC_IO"
+        }
+      ]
+    },
+    {
+      "reference": "R571",
+      "current_value": "100k CLK IDLE LOW CANDIDATE",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "EMMC_CLK"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R572",
+      "current_value": "100k HOST STROBE BIAS CANDIDATE",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "MMC0_STROBE"
+        }
+      ]
+    },
+    {
+      "reference": "R525",
+      "current_value": "88.7k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "VIN_5V"
+        },
+        {
+          "pin": "2",
+          "net": "VIN_GUARD_SENSE"
+        }
+      ]
+    },
+    {
+      "reference": "R526",
+      "current_value": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "1",
+          "net": "VIN_GUARD_SENSE"
+        }
+      ]
+    },
+    {
+      "reference": "R527",
+      "current_value": "10k RAW PG PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "FIXED_RAILS_PGOOD_3V3"
+        },
+        {
+          "pin": "1",
+          "net": "VDD_3V3"
+        }
+      ]
+    },
+    {
+      "reference": "R528",
+      "current_value": "0R QUALIFICATION STRAP DNP",
+      "current_footprint": "",
+      "dnp": true,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "BOOT_VOLTAGE_QUALIFIED_1V8"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ]
+    },
+    {
+      "reference": "R529",
+      "current_value": "100k DEFAULT INHIBIT",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "1",
+          "net": "BOOT_VOLTAGE_QUALIFIED_1V8"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R530",
+      "current_value": "100k 1% DELAY NODE PULLUP",
+      "current_footprint": "",
+      "dnp": false,
+      "connections": [
+        {
+          "pin": "2",
+          "net": "RESET_DELAYED_1V8"
+        },
+        {
+          "pin": "1",
+          "net": "VDD1P8"
+        }
+      ]
+    }
+  ],
+  "static_rail_source": {
+    "path": "engineering/routing/pdn-budget-screen.json",
+    "sha256": "c67c5077776f835d9a15a89bee19ce600c35ece65ce7b60455de2ad0b5107f80",
+    "rails": [
+      {
+        "rail": "CORE",
+        "regulator_static_min_V": 0.7882991180397219,
+        "regulator_static_max_V": 0.8101957058066466,
+        "selected_device_min_V": 0.744,
+        "selected_device_max_V": 0.88,
+        "remaining_low_budget_V": 0.04429911803972186,
+        "remaining_high_budget_V": 0.06980429419335343,
+        "minimum_combined_distribution_ripple_step_budget_V": 0.04429911803972186,
+        "illustrative_full_step_A": 3,
+        "zero_reserve_target_impedance_ohm": 0.014766372679907288,
+        "limitation": "This budget must cover distribution, ripple, switching noise, load steps and all unmodeled errors together; do not spend it independently on each."
+      },
+      {
+        "rail": "DDR",
+        "regulator_static_min_V": 1.100816374163853,
+        "regulator_static_max_V": 1.138630967555891,
+        "selected_device_min_V": 1.06,
+        "selected_device_max_V": 1.17,
+        "remaining_low_budget_V": 0.040816374163852975,
+        "remaining_high_budget_V": 0.031369032444108935,
+        "minimum_combined_distribution_ripple_step_budget_V": 0.031369032444108935,
+        "illustrative_full_step_A": null,
+        "zero_reserve_target_impedance_ohm": null,
+        "limitation": "This budget must cover distribution, ripple, switching noise, load steps and all unmodeled errors together; do not spend it independently on each."
+      },
+      {
+        "rail": "1V8",
+        "regulator_static_min_V": 1.7644766146971205,
+        "regulator_static_max_V": 1.836094613293051,
+        "selected_device_min_V": 1.7,
+        "selected_device_max_V": 1.95,
+        "remaining_low_budget_V": 0.06447661469712052,
+        "remaining_high_budget_V": 0.11390538670694905,
+        "minimum_combined_distribution_ripple_step_budget_V": 0.06447661469712052,
+        "illustrative_full_step_A": null,
+        "zero_reserve_target_impedance_ohm": null,
+        "limitation": "This budget must cover distribution, ripple, switching noise, load steps and all unmodeled errors together; do not spend it independently on each."
+      },
+      {
+        "rail": "3V3",
+        "regulator_static_min_V": 3.2451295322889773,
+        "regulator_static_max_V": 3.392164299108761,
+        "selected_device_min_V": 3.07,
+        "selected_device_max_V": 3.6,
+        "remaining_low_budget_V": 0.17512953228897743,
+        "remaining_high_budget_V": 0.20783570089123904,
+        "minimum_combined_distribution_ripple_step_budget_V": 0.17512953228897743,
+        "illustrative_full_step_A": null,
+        "zero_reserve_target_impedance_ohm": null,
+        "limitation": "This budget must cover distribution, ripple, switching noise, load steps and all unmodeled errors together; do not spend it independently on each."
+      }
+    ]
+  }
+}

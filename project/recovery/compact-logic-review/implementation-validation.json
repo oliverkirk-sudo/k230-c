@@ -1,0 +1,172 @@
+{
+  "status": "COMPACT_ELECTRICAL_CANDIDATE_NETLIST_VERIFIED",
+  "components": 254,
+  "pin_bindings": 1509,
+  "unchanged_nonlogic_bindings": 1493,
+  "all_passives_preserved": true,
+  "R528_default_DNP": true,
+  "R33_unchanged": true,
+  "integrated_cases": [
+    {
+      "PG": false,
+      "qualified": false,
+      "external_RSTN": false,
+      "TF": false,
+      "storage_enable": false,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": false,
+      "qualified": false,
+      "external_RSTN": false,
+      "TF": true,
+      "storage_enable": false,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": false,
+      "qualified": false,
+      "external_RSTN": true,
+      "TF": false,
+      "storage_enable": false,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": false,
+      "qualified": false,
+      "external_RSTN": true,
+      "TF": true,
+      "storage_enable": false,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": false,
+      "qualified": true,
+      "external_RSTN": false,
+      "TF": false,
+      "storage_enable": false,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": false,
+      "qualified": true,
+      "external_RSTN": false,
+      "TF": true,
+      "storage_enable": false,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": false,
+      "qualified": true,
+      "external_RSTN": true,
+      "TF": false,
+      "storage_enable": false,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": false,
+      "qualified": true,
+      "external_RSTN": true,
+      "TF": true,
+      "storage_enable": false,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": true,
+      "qualified": false,
+      "external_RSTN": false,
+      "TF": false,
+      "storage_enable": false,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": true,
+      "qualified": false,
+      "external_RSTN": false,
+      "TF": true,
+      "storage_enable": false,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": true,
+      "qualified": false,
+      "external_RSTN": true,
+      "TF": false,
+      "storage_enable": false,
+      "reset_release": true,
+      "emmc_disabled": true
+    },
+    {
+      "PG": true,
+      "qualified": false,
+      "external_RSTN": true,
+      "TF": true,
+      "storage_enable": false,
+      "reset_release": true,
+      "emmc_disabled": true
+    },
+    {
+      "PG": true,
+      "qualified": true,
+      "external_RSTN": false,
+      "TF": false,
+      "storage_enable": true,
+      "reset_release": false,
+      "emmc_disabled": false
+    },
+    {
+      "PG": true,
+      "qualified": true,
+      "external_RSTN": false,
+      "TF": true,
+      "storage_enable": true,
+      "reset_release": false,
+      "emmc_disabled": true
+    },
+    {
+      "PG": true,
+      "qualified": true,
+      "external_RSTN": true,
+      "TF": false,
+      "storage_enable": true,
+      "reset_release": true,
+      "emmc_disabled": false
+    },
+    {
+      "PG": true,
+      "qualified": true,
+      "external_RSTN": true,
+      "TF": true,
+      "storage_enable": true,
+      "reset_release": true,
+      "emmc_disabled": true
+    }
+  ],
+  "negative_controls_rejected": [
+    "wrong_GU_pinmap",
+    "wrong_U14_high_tie",
+    "lost_C810",
+    "default_strap_populated"
+  ],
+  "unassigned_compact_footprints": [
+    "U14",
+    "U92"
+  ],
+  "source_hashes": {
+    "cad/recovery-tf-candidate/master.xml": "3c7feec5cffad9baaf01ec164458c2e949200bd4755b0f5b13225f27a83c4930",
+    "cad/recovery-compact-candidate/master.xml": "87e61363803398574579a628d9ed9235d0bc0903a1457c88b4b9b6054369bdbd"
+  },
+  "full_rail_threshold_and_partial_power_qualified": false,
+  "PCB_reconstructed": false,
+  "historical_HT18_recovery_claimed": false
+}

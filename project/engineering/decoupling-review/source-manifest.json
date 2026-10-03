@@ -1,0 +1,62 @@
+{
+  "review_utc": "2026-09-30T17:55:21.042247+00:00",
+  "source_files": [
+    {
+      "path": "/workspace/shared/cm-k230-redesign/engineering/decoupling-allocation.csv",
+      "sha256": "1c6299b30b5f14faddf167e5c29fa6bc6426d559c3094ca23ad0980565249292",
+      "size_bytes": 9391
+    },
+    {
+      "path": "/workspace/shared/cm-k230-redesign/cad/high-temp-candidate/master.xml",
+      "sha256": "11d048c076fb54df9ea63b926a1f7db53ffe712d9e26984d0a4df62109876263",
+      "size_bytes": 392634
+    },
+    {
+      "path": "/workspace/shared/cm-k230-redesign/tools/generate_decoupling.py",
+      "sha256": "7be504a1b7269bc4088728564c8836343c18a3355ef5adf716f121e04d2ce16b",
+      "size_bytes": 6482
+    },
+    {
+      "path": "/workspace/shared/k230-reference/01studio-CanMV-K230.pdf",
+      "sha256": "a2bd796cac37b876409462094f64f336ccea5eb63c8aaf61e663d7864f300f6b",
+      "size_bytes": 155118
+    },
+    {
+      "path": "/workspace/shared/k230-reference/CanMV-K230-V1.0_2023-09-15.pdf",
+      "sha256": "fba13dac1faefe818d2d6a91670192aad5dd0baa62d63203a7ff34381b8cbcbb",
+      "size_bytes": 3100623
+    },
+    {
+      "path": "/workspace/shared/k230-reference/K230_Hardware_Design_Guide.md",
+      "sha256": "19e7243c50197a4835b9f85ca51c3fc9abd52ca9d353c6a92ddc8eaf9a3384f4",
+      "size_bytes": 49061
+    },
+    {
+      "path": "/workspace/shared/k230-reference/tps62827.pdf",
+      "sha256": "8a309f2a40486a380242d3f178eb4bda3ef4dca3deca647fa82f763d14866f63",
+      "size_bytes": 2138207
+    },
+    {
+      "path": "/workspace/shared/k230-reference/tps62864.pdf",
+      "sha256": "f49cda50b21c8a84ea153120043efd31a5c4a58d2c0465909ea7f804806b8919",
+      "size_bytes": 2193210
+    },
+    {
+      "path": "/workspace/shared/k230-memory-review/thermal-candidates/micron-lp4.pdf",
+      "sha256": "b29c808baa7e42fca9b7ccc54b673142d26b49a1fee6b3053cc8691c21832552",
+      "size_bytes": 9538851
+    }
+  ],
+  "guide_figures": [
+    {
+      "url": "https://raw.githubusercontent.com/kendryte/k230_docs/main/zh/00_hardware/images/HDG/image024.png",
+      "local_path": "evidence/guide-image024.png",
+      "sha256": "036b3c097d32246657d03521c548549a4453e5f22db3ec74b38476f5bbc21425"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kendryte/k230_docs/main/zh/00_hardware/images/HDG/image027.png",
+      "local_path": "evidence/guide-image027.png",
+      "sha256": "de68d64ddbdeac6fe2d44e1a0bd9409a0ff56f551936f398a77a5869438fc5c2"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+parameter,min,typ,max,unit,condition,datasheet_section
+VDD,1.5,,5.5,V,Operating,6.3
+signal_voltage_powered,0,,min(2*VDD;5.5),V,VDD>=1.5V,6.3
+signal_voltage_unpowered,0,,3.6,V,VDD<1.5V,6.3
+control_voltage,0,,5.5,V,EN and SEL,6.3
+VIH,1.2,,5.5,V,Control high,6.5
+VIL,0,,0.45,V,Control low,6.5
+RON,,2,4.5,ohm,See datasheet test conditions,6.5
+CON,,7.5,12,pF,VS=2.5V f=1MHz,6.6
+COFF,,3.5,6,pF,VS=2.5V f=1MHz,6.6
+BW,,2,,GHz,50ohm measurement not HS200 certification,6.6
+IPOFF,-2,0.01,2,uA,VDD=0 VS=0..3.6V VD=0,6.5
+IPOFF_25C_3V,-10,0.01,10,nA,VDD=0 VS=0..3V VD=0 TA=25C,6.5
+BBM,0.5,,,ns,Minimum under specified measurement conditions,6.7
+tON_EN,,12,35,us,RL=200ohm CL=15pF,6.7
+tOFF_EN,,50,95,ns,RL=200ohm CL=15pF,6.7
+tON_VDD,,20,60,us,VDD rise=1us VS=3.6V,6.7
+tOFF_VDD,,1.2,2.7,us,VDD fall=1us VS=3.6V,6.7
+logic_pulldown,,6,,Mohm,EN and SEL,6.5
+I_signal_continuous,-25,,25,mA,Absolute maximum not intended power-switch use,6.1

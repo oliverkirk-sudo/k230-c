@@ -1,0 +1,49 @@
+{
+  "pin_net_assignments_verified": 214,
+  "SW_parallel_same_internal_node_verified": true,
+  "fixed_rails_DC_divider_bounds": [
+    {
+      "rail": "CORE",
+      "nominal_V": 0.7992,
+      "DC_min_V": 0.790814,
+      "DC_max_V": 0.807595,
+      "window_min_V": 0.72,
+      "window_max_V": 0.88,
+      "DC_inside_window": true,
+      "ripple_and_distribution_INCLUDED": false
+    },
+    {
+      "rail": "DDR",
+      "nominal_V": 1.107,
+      "DC_min_V": 1.094927,
+      "DC_max_V": 1.119095,
+      "window_min_V": 1.06,
+      "window_max_V": 1.17,
+      "DC_inside_window": true,
+      "ripple_and_distribution_INCLUDED": false
+    },
+    {
+      "rail": "1V8",
+      "nominal_V": 1.7999999999999998,
+      "DC_min_V": 1.779626,
+      "DC_max_V": 1.820426,
+      "window_min_V": 1.62,
+      "window_max_V": 1.98,
+      "DC_inside_window": true,
+      "ripple_and_distribution_INCLUDED": false
+    },
+    {
+      "rail": "3V3",
+      "nominal_V": 3.318,
+      "DC_min_V": 3.279444,
+      "DC_max_V": 3.356676,
+      "window_min_V": 3.07,
+      "window_max_V": 3.63,
+      "DC_inside_window": true,
+      "ripple_and_distribution_INCLUDED": false
+    }
+  ],
+  "CPU_KPU_startup_both_V": 0.8,
+  "CPU_KPU_addresses": "0x49 each on physically separate buses",
+  "limits": "No SI/thermal/transient/MLCC-bias/loop/all-rail sequencing qualification"
+}

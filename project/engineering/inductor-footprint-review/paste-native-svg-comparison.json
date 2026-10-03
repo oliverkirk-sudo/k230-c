@@ -1,0 +1,8 @@
+{
+  "equal_native_geometry": true,
+  "geometry_elements": 8,
+  "zero_board_margin_mm": 0,
+  "override_board_margin_mm": -0.02,
+  "override_ratio": -0.1,
+  "result": "Explicit non-copper paste apertures remain 0.8x1.8mm under nonzero board paste settings"
+}

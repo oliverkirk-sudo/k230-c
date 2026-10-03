@@ -1,0 +1,149 @@
+{
+  "scope": "NATIVE_FOOTPRINT_GEOMETRY_ONLY_NOT_CAPACITANCE_PDN_ASSEMBLY_OR_MODULE_FIT_QUALIFICATION",
+  "kicad_version": "9.0.2",
+  "units": "mm",
+  "parts": [
+    {
+      "mpn": "CL03B104KP3NNWC",
+      "ref": "C1",
+      "pdf": "samsung-CL03B104KP3NNW-specsheet.pdf",
+      "case_metric": "0603",
+      "tolerance": 0.03,
+      "body_max": [
+        0.63,
+        0.33
+      ],
+      "gap": 0.25,
+      "length": 0.34,
+      "width": 0.33,
+      "center": 0.295,
+      "courtyard": [
+        1.23,
+        0.63
+      ],
+      "source_ranges": [
+        [
+          0.22,
+          0.28
+        ],
+        [
+          0.31,
+          0.37
+        ],
+        [
+          0.3,
+          0.36
+        ]
+      ],
+      "xy": [
+        3,
+        3
+      ],
+      "footprint_file": "/workspace/shared/cm-k230-redesign/cad/verified-footprints/bypass-candidates/CMK230_Bypass_Candidates.pretty/Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE.kicad_mod",
+      "sha256": "e2e0ab433ac92493e44b56ca4b8eb8c09719c5feef1d446e6da7252f528121e6",
+      "pad_centers_x_mm": [
+        -0.295,
+        0.295
+      ],
+      "copper_span_mm": 0.93,
+      "mask_aperture_mm": [
+        0.44000000000000006,
+        0.43000000000000005
+      ],
+      "mask_web_mm": 0.15,
+      "courtyard_margin_from_mask_to_centerline_mm": 0.1,
+      "courtyard_margin_from_mask_to_inner_stroke_edge_mm": 0.075,
+      "paste_area_ratio_at_100um": 0.8373134328358209,
+      "source_pdf_sha256": "5d081557bf851057e666fb0b4e4f243c8cdb259e75679b776c4892eca91fae90"
+    },
+    {
+      "mpn": "CL10B475KQ8NFQC",
+      "ref": "C2",
+      "pdf": "samsung-CL10B475KQ8NFQ-specsheet.pdf",
+      "case_metric": "1608",
+      "tolerance": 0.15,
+      "body_max": [
+        1.75,
+        0.95
+      ],
+      "gap": 0.7,
+      "length": 0.78,
+      "width": 0.95,
+      "center": 0.74,
+      "courtyard": [
+        2.56,
+        1.25
+      ],
+      "source_ranges": [
+        [
+          0.65,
+          0.75
+        ],
+        [
+          0.73,
+          0.83
+        ],
+        [
+          0.9,
+          1.0
+        ]
+      ],
+      "xy": [
+        7,
+        3
+      ],
+      "footprint_file": "/workspace/shared/cm-k230-redesign/cad/verified-footprints/bypass-candidates/CMK230_Bypass_Candidates.pretty/Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE.kicad_mod",
+      "sha256": "59decef44ea75e5c28e3f50992a7ab65a4e1b16060076b76efa08aa4efb56499",
+      "pad_centers_x_mm": [
+        -0.74,
+        0.74
+      ],
+      "copper_span_mm": 2.26,
+      "mask_aperture_mm": [
+        0.88,
+        1.05
+      ],
+      "mask_web_mm": 0.6,
+      "courtyard_margin_from_mask_to_centerline_mm": 0.1,
+      "courtyard_margin_from_mask_to_inner_stroke_edge_mm": 0.075,
+      "paste_area_ratio_at_100um": 2.1416184971098264,
+      "source_pdf_sha256": "89755befb9e3eec48c7962dd0b6ed5450c6a03d87ff0a78648e7b4d722907768"
+    }
+  ],
+  "paste_inheritance_check": [
+    {
+      "reference": "C2",
+      "pad": "1",
+      "effective_margin_xy_mm": [
+        -0.02,
+        -0.02
+      ]
+    },
+    {
+      "reference": "C2",
+      "pad": "2",
+      "effective_margin_xy_mm": [
+        -0.02,
+        -0.02
+      ]
+    },
+    {
+      "reference": "C1",
+      "pad": "1",
+      "effective_margin_xy_mm": [
+        -0.02,
+        -0.02
+      ]
+    },
+    {
+      "reference": "C1",
+      "pad": "2",
+      "effective_margin_xy_mm": [
+        -0.02,
+        -0.02
+      ]
+    }
+  ],
+  "numeric_assertions_passed": 84,
+  "paste_note": "No explicit standalone paste aperture or nonzero per-pad override is present. 1:1 paste is verified only with zero board/footprint paste margins and ratio."
+}

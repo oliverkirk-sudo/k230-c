@@ -1,0 +1,282 @@
+{
+  "reviewed_utc": "2026-09-30T13:52:00Z",
+  "scope": "Standard leaded GW alternatives to the high-temperature GX logic candidates; source and numbered-pin review only.",
+  "status": "Three exact orderable GW variants verified. No package-specific DC, timing, or Schmitt-threshold downgrade found in the inspected shared family tables. This is not circuit/controller or temperature qualification.",
+  "inputs": {
+    "candidate_xml": "cad/high-temp-candidate/master.xml",
+    "candidate_xml_sha256": "3b6dc5b68587551c6cf74acfbca09df2ddcacfed6aa31784891e3b47f6e051c1",
+    "candidate_manifest": "/workspace/shared/k230-memory-review/thermal-candidates/candidate-manifest.json",
+    "candidate_manifest_sha256": "89d225c760723c6dd6499de260941f252d3b87947616d221aa675a995990047a"
+  },
+  "source_method": "Official Nexperia product pages and manufacturer PDF text read through public web. No direct assets.nexperia download retried, no full PDFs or renders added to the distributable tree.",
+  "parts": [
+    {
+      "orderable_mpn": "74AUP1G17GW,125",
+      "ordering_code_12NC": "935279024125",
+      "catalog_status": "Active",
+      "replaces_candidate": "74AUP1G17GX,125",
+      "candidate_refs": [
+        "U91"
+      ],
+      "package": {
+        "name": "TSSOP5",
+        "code": "SOT353-1",
+        "lead_count": 5,
+        "marking": "pJ"
+      },
+      "ambient_C": {
+        "min": -40,
+        "max": 125,
+        "source": "Datasheet Table 6, p4; package-specific Table 1, p2"
+      },
+      "supply_V": [
+        0.8,
+        3.6
+      ],
+      "numbered_pins": {
+        "1": "NC",
+        "2": "A input",
+        "3": "GND",
+        "4": "Y push-pull output",
+        "5": "VCC"
+      },
+      "function": "Noninverting buffer; A is a Schmitt input.",
+      "pin_remap_from_GX": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "comparison": {
+        "source_scope": "Shared Tables 7, 8 and 11 cover GW/GX without package-specific electrical exceptions.",
+        "Schmitt_at_VCC_1p65V_Tamb_minus40_to125C": {
+          "VTplus_V": [
+            0.91,
+            1.31
+          ],
+          "VTminus_V": [
+            0.47,
+            0.84
+          ],
+          "VH_V": [
+            0.27,
+            0.66
+          ]
+        },
+        "tpd_ns_at_VCC_1p65_to1p95V_CL5pF_Tamb_minus40_to125C": [
+          1.9,
+          6.3
+        ],
+        "absolute_max_Ptot_mW": {
+          "base": 250,
+          "GW_derating_mW_per_K": 3.3,
+          "GW_derating_above_C": 74,
+          "GX_derating_mW_per_K": 3,
+          "GX_derating_above_C": 67,
+          "GW_calculated_at125C": 81.7,
+          "GX_calculated_at125C": 76
+        },
+        "conclusion": "No published GW electrical downgrade identified; derated absolute power limit differs. Calculated stress ceilings are not operating-power budgets."
+      },
+      "sources": {
+        "product": "https://www.nexperia.com/products/analog-logic-ics/logic/buffers-inverters-transceivers/buffers/series/74AUP1G17.html",
+        "datasheet": "https://assets.nexperia.com/documents/data-sheet/74AUP1G17.pdf",
+        "revision": "14, 2023-07-18",
+        "sections": "Table 1 p2; Tables 3/4 p3; Tables 5/6 p4; Tables 7/8 pp5-8; Table 11 pp10-11",
+        "package_outline_page": 14
+      }
+    },
+    {
+      "orderable_mpn": "74AUP1G06GW,125",
+      "ordering_code_12NC": "935279004125",
+      "catalog_status": "Active",
+      "replaces_candidate": "74AUP1G06GX,125",
+      "candidate_refs": [
+        "U93"
+      ],
+      "package": {
+        "name": "TSSOP5",
+        "code": "SOT353-1",
+        "lead_count": 5,
+        "marking": "pR"
+      },
+      "ambient_C": {
+        "min": -40,
+        "max": 125,
+        "source": "Datasheet Table 6, p4; package-specific Table 1, p2"
+      },
+      "supply_V": [
+        0.8,
+        3.6
+      ],
+      "numbered_pins": {
+        "1": "NC",
+        "2": "A input",
+        "3": "GND",
+        "4": "Y open-drain output",
+        "5": "VCC"
+      },
+      "function": "Inverting open drain: A low releases Y; A high pulls Y low.",
+      "pin_remap_from_GX": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "comparison": {
+        "source_scope": "Shared Tables 6-8 cover GW/GX without package-specific electrical exceptions.",
+        "input_semantics": "Section 1 describes Schmitt action, but Table 6 still limits input transition time per volt and no separate VT+/VT-/VH table is supplied.",
+        "input_transition_max_ns_per_V": 200,
+        "VIH_min_at_VCC_0p9_to1p95V_Tamb_minus40_to125C": "0.70 * VCC",
+        "VIL_max_at_VCC_0p9_to1p95V_Tamb_minus40_to125C": "0.30 * VCC",
+        "tpd_ns_at_VCC_1p65_to1p95V_CL5pF_Tamb_minus40_to125C": [
+          1.2,
+          6.3
+        ],
+        "absolute_max_Ptot_mW": {
+          "base": 250,
+          "GW_derating_mW_per_K": 3.3,
+          "GW_derating_above_C": 74,
+          "GX_derating_mW_per_K": 3,
+          "GX_derating_above_C": 67,
+          "GW_calculated_at125C": 81.7,
+          "GX_calculated_at125C": 76
+        },
+        "conclusion": "No published GW electrical downgrade identified. Open-drain pull-up and actual load still require circuit checks; calculated stress ceilings are not operating-power budgets."
+      },
+      "sources": {
+        "product": "https://www.nexperia.com/products/analog-logic-ics/logic/buffers-inverters-transceivers/inverters/serie/74aup1g06",
+        "datasheet": "https://assets.nexperia.com/documents/data-sheet/74AUP1G06.pdf",
+        "revision": "12, 2024-11-13",
+        "sections": "Section 1 p1; Table 1 p2; Table 3 p3; Tables 4-6 p4; Tables 7/8 pp5-8",
+        "package_outline_page": 10
+      }
+    },
+    {
+      "orderable_mpn": "74AUP1G97GW,125",
+      "ordering_code_12NC": "935279962125",
+      "catalog_status": "Active",
+      "replaces_candidate": "74AUP1G97GXZ",
+      "candidate_refs": [
+        "U92",
+        "U94"
+      ],
+      "package": {
+        "name": "TSSOP6",
+        "code": "SOT363-2",
+        "lead_count": 6,
+        "marking": "aV"
+      },
+      "ambient_C": {
+        "min": -40,
+        "max": 125,
+        "source": "Datasheet Table 7, p5; package-specific Table 1, p2"
+      },
+      "supply_V": [
+        0.8,
+        3.6
+      ],
+      "numbered_pins": {
+        "1": "B input",
+        "2": "GND",
+        "3": "A input",
+        "4": "Y push-pull output",
+        "5": "VCC",
+        "6": "C input"
+      },
+      "function": "Schmitt inputs A/B/C. Truth table: Y = C ? A : B. Grounding B gives Y = A AND C.",
+      "pin_remap_from_GX": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6"
+      },
+      "comparison": {
+        "source_scope": "Shared Tables 8, 9 and 12 cover GW/GX without package-specific electrical exceptions.",
+        "Schmitt_at_VCC_1p65V_Tamb_minus40_to125C": {
+          "VTplus_V": [
+            0.91,
+            1.31
+          ],
+          "VTminus_V": [
+            0.47,
+            0.84
+          ],
+          "VH_V": [
+            0.27,
+            0.66
+          ]
+        },
+        "tpd_ns_at_VCC_1p65_to1p95V_CL5pF_Tamb_minus40_to125C": [
+          2,
+          7.2
+        ],
+        "absolute_max_Ptot_mW": {
+          "base": 250,
+          "GW_derating_mW_per_K": 3.7,
+          "GW_derating_above_C": 83,
+          "GX_derating_mW_per_K": 3.3,
+          "GX_derating_above_C": 75,
+          "GW_calculated_at125C": 94.6,
+          "GX_calculated_at125C": 85
+        },
+        "conclusion": "No published GW electrical downgrade identified; calculated stress ceilings are not operating-power budgets.",
+        "revision_caution": "Rev11 changed SOT363/SC-88 to SOT363-2/TSSOP6; use current exact outline."
+      },
+      "sources": {
+        "product": "https://www.nexperia.com/products/analog-logic-ics/logic/gates/configurable-gates/serie/74aup1g97",
+        "datasheet": "https://assets.nexperia.com/documents/data-sheet/74AUP1G97.pdf",
+        "revision": "14, 2023-07-24",
+        "sections": "Section 1 p1; Table 1 p2; Table 3 p3; Tables 4/5 p4; Tables 6/7 p5; Tables 8/9 pp6-9; Table 12 p11; revision history p18",
+        "package_outline_page": 13
+      }
+    }
+  ],
+  "candidate_netlist_check": {
+    "result": "PASS: XML numbered-pin functions match each proposed GW variant, normalizing NC, Y_OD and B_TIE_LOW. B is grounded in U92/U94.",
+    "nets": {
+      "U91": {
+        "1": "unconnected-(U91-NC-Pad1)",
+        "2": "RESET_DELAYED_1V8",
+        "3": "GND",
+        "4": "SOC_RSTN",
+        "5": "VDD1P8"
+      },
+      "U92": {
+        "1": "GND",
+        "2": "GND",
+        "3": "FIXED_RAILS_PGOOD_3V3",
+        "4": "STORAGE_ENABLE_1V8",
+        "5": "VDD1P8",
+        "6": "BOOT_VOLTAGE_QUALIFIED_1V8"
+      },
+      "U93": {
+        "1": "unconnected-(U93-NC-Pad1)",
+        "2": "STORAGE_ENABLE_1V8",
+        "3": "GND",
+        "4": "GLOBAL_DISABLE",
+        "5": "VDD1P8"
+      },
+      "U94": {
+        "1": "GND",
+        "2": "GND",
+        "3": "FIXED_RAILS_PGOOD_3V3",
+        "4": "RESET_RELEASE_REQUEST_1V8",
+        "5": "VDD1P8",
+        "6": "RSTN"
+      }
+    }
+  },
+  "release_limits": [
+    "GW options are logical replacements requiring new physical footprints and placement review; they are not footprint drop-ins.",
+    "No full-temperature controller qualification, complete circuit margin/leakage/power-up analysis, loaded timing validation, thermal validation, assembly approval or manufacturing release is established.",
+    "The -40..125 C values are ambient operating ratings of these components. They do not establish the operating range of the K230, memory, power stages or module.",
+    "Package orientation and solder-land geometry must be independently verified from current drawings.",
+    "Catalog Active status is not distributor stock or procurement approval; these exact codes are not Q100-suffixed automotive variants.",
+    "No CAD files changed."
+  ]
+}

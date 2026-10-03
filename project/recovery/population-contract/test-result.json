@@ -1,0 +1,16 @@
+{
+  "status": "POPULATION_IMPORTER_CONTRACT_TESTED_NOT_A_NEW_PCB",
+  "checks": [
+    "J1_flags_and_existing_copper_preserved",
+    "U14_flags_and_existing_copper_preserved",
+    "R528_default_DNP_and_no_default_pick_place",
+    "lost_DNP_detected",
+    "lost_default_PnP_exclusion_detected",
+    "lost_edge_net_binding_detected"
+  ],
+  "R528_native_footprint_still_missing_in_v12": true,
+  "source_PCB_unchanged": true,
+  "no_assembly_exports_generated": true,
+  "source_PCB_sha256": "a370b94b55cd7d74f3be4b48d08c6de0c920be886001f43e6908609761eb4daf",
+  "synthetic_fixture_saved_or_used_as_land": false
+}

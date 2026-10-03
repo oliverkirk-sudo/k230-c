@@ -1,0 +1,627 @@
+{
+  "status": "GEOMETRIC_REACH_SCREEN_ONLY_NOT_DECOUPLING_OR_ROUTING_PROOF",
+  "source_files_sha256": {
+    "engineering/mechanical/bga-K230-physical-centers.csv": "0c9d8fc2a2b1e21dab63619da982fff17881238f2dd89abc5a81ed27068cc1dd",
+    "engineering/decoupling-allocation.csv": "1c6299b30b5f14faddf167e5c29fa6bc6426d559c3094ca23ad0980565249292",
+    "cad/high-temp-candidate/master.xml": "5ecd0c50fecfa56826569ec897e47b306bce8e25fa89d5382a7b43a132359c5f"
+  },
+  "allocation_count": 77,
+  "allocation_scope": "All77 grouped bypass parts from the source allocation. Some rails also decouple external memory; the rail totals are not asserted to be77 capacitors assigned to K230 alone.",
+  "geometry": {
+    "K230_max_body_mm": [
+      13.1,
+      13.1
+    ],
+    "body_source": "engineering/mechanical/bga-mechanical-audit.md; Canaan HDG package drawing D/E max13.100mm",
+    "body_source_url": "https://raw.githubusercontent.com/kendryte/k230_docs/main/zh/00_hardware/images/HDG/image007.png",
+    "component_clearance_assumption_mm": 0.25,
+    "distance_definition": "Planar minimum from ball center to any component/land extent outside a body-aligned13.1mm square plus0.25mm separation: 6.55-max(abs(x),abs(y))+.25. Component center distance is greater.",
+    "not_a_route_length_or_loop_inductance_estimate": true
+  },
+  "groups": [
+    {
+      "net": "BANK0_VDDIO",
+      "allocated_references": [
+        "C570"
+      ],
+      "allocation_values": {
+        "100nF": 1
+      },
+      "K230_ball_count": 1,
+      "K230_balls": [
+        {
+          "ball": "R13",
+          "source_function": "VDDIO_BANK0",
+          "x_mm": 1.625,
+          "y_mm": 2.925,
+          "minimum_lateral_distance_to_max_body_edge_mm": 3.625,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 3.875
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        3.875,
+        3.875
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "BANK1_VDDIO",
+      "allocated_references": [
+        "C571"
+      ],
+      "allocation_values": {
+        "100nF": 1
+      },
+      "K230_ball_count": 1,
+      "K230_balls": [
+        {
+          "ball": "K7",
+          "source_function": "VDDIO_BANK1",
+          "x_mm": -2.275,
+          "y_mm": -0.325,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        4.525,
+        4.525
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "BANK2_VDDIO",
+      "allocated_references": [
+        "C572"
+      ],
+      "allocation_values": {
+        "100nF": 1
+      },
+      "K230_ball_count": 1,
+      "K230_balls": [
+        {
+          "ball": "R11",
+          "source_function": "VDDIO_BANK2",
+          "x_mm": 0.325,
+          "y_mm": 2.925,
+          "minimum_lateral_distance_to_max_body_edge_mm": 3.625,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 3.875
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        3.875,
+        3.875
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "BANK3_VDDIO",
+      "allocated_references": [
+        "C573"
+      ],
+      "allocation_values": {
+        "100nF": 1
+      },
+      "K230_ball_count": 1,
+      "K230_balls": [
+        {
+          "ball": "H6",
+          "source_function": "VDDIO_BANK3",
+          "x_mm": -2.925,
+          "y_mm": -1.625,
+          "minimum_lateral_distance_to_max_body_edge_mm": 3.625,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 3.875
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        3.875,
+        3.875
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "BANK4_VDDIO",
+      "allocated_references": [
+        "C574"
+      ],
+      "allocation_values": {
+        "100nF": 1
+      },
+      "K230_ball_count": 1,
+      "K230_balls": [
+        {
+          "ball": "M7",
+          "source_function": "VDDIO_BANK4",
+          "x_mm": -2.275,
+          "y_mm": 0.975,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        4.525,
+        4.525
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "BANK5_VDDIO",
+      "allocated_references": [
+        "C575"
+      ],
+      "allocation_values": {
+        "100nF": 1
+      },
+      "K230_ball_count": 1,
+      "K230_balls": [
+        {
+          "ball": "R15",
+          "source_function": "VDDIO_BANK5",
+          "x_mm": 2.925,
+          "y_mm": 2.925,
+          "minimum_lateral_distance_to_max_body_edge_mm": 3.625,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 3.875
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        3.875,
+        3.875
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "VDD0P8_CORE",
+      "allocated_references": [
+        "C501",
+        "C502",
+        "C503",
+        "C504",
+        "C505",
+        "C506",
+        "C507",
+        "C508",
+        "C509",
+        "C510",
+        "C511",
+        "C512",
+        "C513",
+        "C514",
+        "C515",
+        "C516"
+      ],
+      "allocation_values": {
+        "4.7uF": 2,
+        "100nF": 14
+      },
+      "K230_ball_count": 14,
+      "K230_balls": [
+        {
+          "ball": "F12",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": 0.975,
+          "y_mm": -2.925,
+          "minimum_lateral_distance_to_max_body_edge_mm": 3.625,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 3.875
+        },
+        {
+          "ball": "G10",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": -0.325,
+          "y_mm": -2.275,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        },
+        {
+          "ball": "G9",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": -0.975,
+          "y_mm": -2.275,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        },
+        {
+          "ball": "K11",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": 0.325,
+          "y_mm": -0.325,
+          "minimum_lateral_distance_to_max_body_edge_mm": 6.225,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 6.475
+        },
+        {
+          "ball": "K9",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": -0.975,
+          "y_mm": -0.325,
+          "minimum_lateral_distance_to_max_body_edge_mm": 5.575,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.825
+        },
+        {
+          "ball": "L11",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": 0.325,
+          "y_mm": 0.325,
+          "minimum_lateral_distance_to_max_body_edge_mm": 6.225,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 6.475
+        },
+        {
+          "ball": "L9",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": -0.975,
+          "y_mm": 0.325,
+          "minimum_lateral_distance_to_max_body_edge_mm": 5.575,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.825
+        },
+        {
+          "ball": "M11",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": 0.325,
+          "y_mm": 0.975,
+          "minimum_lateral_distance_to_max_body_edge_mm": 5.575,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.825
+        },
+        {
+          "ball": "M9",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": -0.975,
+          "y_mm": 0.975,
+          "minimum_lateral_distance_to_max_body_edge_mm": 5.575,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.825
+        },
+        {
+          "ball": "N11",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": 0.325,
+          "y_mm": 1.625,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        },
+        {
+          "ball": "N9",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": -0.975,
+          "y_mm": 1.625,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        },
+        {
+          "ball": "P11",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": 0.325,
+          "y_mm": 2.275,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        },
+        {
+          "ball": "P13",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": 1.625,
+          "y_mm": 2.275,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        },
+        {
+          "ball": "P9",
+          "source_function": "VDD0P8_CORE",
+          "x_mm": -0.975,
+          "y_mm": 2.275,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        3.875,
+        6.475
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "VDD0P8_CPU",
+      "allocated_references": [
+        "C517",
+        "C518",
+        "C519",
+        "C520"
+      ],
+      "allocation_values": {
+        "4.7uF": 1,
+        "100nF": 3
+      },
+      "K230_ball_count": 3,
+      "K230_balls": [
+        {
+          "ball": "G12",
+          "source_function": "VDD0P8_CPU",
+          "x_mm": 0.975,
+          "y_mm": -2.275,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        },
+        {
+          "ball": "H12",
+          "source_function": "VDD0P8_CPU",
+          "x_mm": 0.975,
+          "y_mm": -1.625,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        },
+        {
+          "ball": "J12",
+          "source_function": "VDD0P8_CPU",
+          "x_mm": 0.975,
+          "y_mm": -0.975,
+          "minimum_lateral_distance_to_max_body_edge_mm": 5.575,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.825
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        4.525,
+        5.825
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "VDD0P8_DDR_CORE",
+      "allocated_references": [
+        "C529",
+        "C530",
+        "C531",
+        "C532",
+        "C533"
+      ],
+      "allocation_values": {
+        "4.7uF": 1,
+        "100nF": 4
+      },
+      "K230_ball_count": 4,
+      "K230_balls": [
+        {
+          "ball": "K13",
+          "source_function": "VDD0P8_DDR_CORE",
+          "x_mm": 1.625,
+          "y_mm": -0.325,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        },
+        {
+          "ball": "L13",
+          "source_function": "VDD0P8_DDR_CORE",
+          "x_mm": 1.625,
+          "y_mm": 0.325,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        },
+        {
+          "ball": "M13",
+          "source_function": "VDD0P8_DDR_CORE",
+          "x_mm": 1.625,
+          "y_mm": 0.975,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        },
+        {
+          "ball": "N13",
+          "source_function": "VDD0P8_DDR_CORE",
+          "x_mm": 1.625,
+          "y_mm": 1.625,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        5.175,
+        5.175
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "VDD0P8_KPU",
+      "allocated_references": [
+        "C521",
+        "C522",
+        "C523",
+        "C524",
+        "C525",
+        "C526",
+        "C527",
+        "C528"
+      ],
+      "allocation_values": {
+        "4.7uF": 2,
+        "100nF": 6
+      },
+      "K230_ball_count": 6,
+      "K230_balls": [
+        {
+          "ball": "H10",
+          "source_function": "VDD0P8_KPU",
+          "x_mm": -0.325,
+          "y_mm": -1.625,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        },
+        {
+          "ball": "H8",
+          "source_function": "VDD0P8_KPU",
+          "x_mm": -1.625,
+          "y_mm": -1.625,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        },
+        {
+          "ball": "H9",
+          "source_function": "VDD0P8_KPU",
+          "x_mm": -0.975,
+          "y_mm": -1.625,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        },
+        {
+          "ball": "J10",
+          "source_function": "VDD0P8_KPU",
+          "x_mm": -0.325,
+          "y_mm": -0.975,
+          "minimum_lateral_distance_to_max_body_edge_mm": 5.575,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.825
+        },
+        {
+          "ball": "J8",
+          "source_function": "VDD0P8_KPU",
+          "x_mm": -1.625,
+          "y_mm": -0.975,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.925,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.175
+        },
+        {
+          "ball": "J9",
+          "source_function": "VDD0P8_KPU",
+          "x_mm": -0.975,
+          "y_mm": -0.975,
+          "minimum_lateral_distance_to_max_body_edge_mm": 5.575,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 5.825
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        5.175,
+        5.825
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "VDD1P1_DDR_IO",
+      "allocated_references": [
+        "C534",
+        "C535",
+        "C536",
+        "C537",
+        "C538",
+        "C539",
+        "C540",
+        "C541",
+        "C542",
+        "C543",
+        "C544",
+        "C545",
+        "C546",
+        "C547",
+        "C548",
+        "C549",
+        "C550",
+        "C551",
+        "C552",
+        "C553",
+        "C554",
+        "C555",
+        "C556",
+        "C557",
+        "C558",
+        "C559",
+        "C560",
+        "C561"
+      ],
+      "allocation_values": {
+        "4.7uF": 3,
+        "100nF": 23,
+        "22uF": 2
+      },
+      "K230_ball_count": 5,
+      "K230_balls": [
+        {
+          "ball": "H14",
+          "source_function": "VDD1P1_DDR_IO",
+          "x_mm": 2.275,
+          "y_mm": -1.625,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        },
+        {
+          "ball": "J14",
+          "source_function": "VDD1P1_DDR_IO",
+          "x_mm": 2.275,
+          "y_mm": -0.975,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        },
+        {
+          "ball": "L14",
+          "source_function": "VDD1P1_DDR_IO",
+          "x_mm": 2.275,
+          "y_mm": 0.325,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        },
+        {
+          "ball": "M14",
+          "source_function": "VDD1P1_DDR_IO",
+          "x_mm": 2.275,
+          "y_mm": 0.975,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        },
+        {
+          "ball": "N14",
+          "source_function": "VDD1P1_DDR_IO",
+          "x_mm": 2.275,
+          "y_mm": 1.625,
+          "minimum_lateral_distance_to_max_body_edge_mm": 4.275,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 4.525
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        4.525,
+        4.525
+      ],
+      "placement_still_required": true
+    },
+    {
+      "net": "VDD1P8",
+      "allocated_references": [
+        "C562",
+        "C563",
+        "C564",
+        "C565",
+        "C566",
+        "C567",
+        "C568",
+        "C569",
+        "C576",
+        "C577"
+      ],
+      "allocation_values": {
+        "22uF": 1,
+        "4.7uF": 1,
+        "100nF": 8
+      },
+      "K230_ball_count": 2,
+      "K230_balls": [
+        {
+          "ball": "E11",
+          "source_function": "VDD1P8",
+          "x_mm": 0.325,
+          "y_mm": -3.575,
+          "minimum_lateral_distance_to_max_body_edge_mm": 2.975,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 3.225
+        },
+        {
+          "ball": "F13",
+          "source_function": "VDD1P8",
+          "x_mm": 1.625,
+          "y_mm": -2.925,
+          "minimum_lateral_distance_to_max_body_edge_mm": 3.625,
+          "minimum_lateral_distance_to_external_component_extent_with_0p25_clearance_mm": 3.875
+        }
+      ],
+      "minimum_lateral_bounds_range_mm": [
+        3.225,
+        3.875
+      ],
+      "placement_still_required": true
+    }
+  ],
+  "findings": [
+    "The top-only requirement prevents placing bypass components directly below central power balls.",
+    "CORE balls K11/L11 have a6.475mm minimum lateral separation from external component extents under the stated clearance assumption.",
+    "Bypass allocation counts and summed footprint area do not verify local power/ground loop impedance.",
+    "Local power/ground vias, uninterrupted reference planes and actual decoupling placement require a combined escape/PDN design; HDI alone does not move top-side components beneath the package.",
+    "No maximum acceptable electrical distance is inferred from these geometric values. Required impedance, transient current, package parasitics, capacitor effective impedance and rail-plane structure remain necessary inputs."
+  ]
+}

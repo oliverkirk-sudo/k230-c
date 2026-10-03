@@ -1,0 +1,34 @@
+{
+  "status": "SOURCE_JOINED_ROUTING_REQUIREMENTS_NOT_BOARD_TIMING_VALIDATION",
+  "net_count": 65,
+  "package_length_available": 64,
+  "group_package_length_spreads_um": {
+    "A_BYTE0": 3334.6000000000004,
+    "A_BYTE1": 4968.19,
+    "A_ADDRESS_COMMAND": 4080.8399999999997,
+    "B_BYTE1": 3215.6800000000003,
+    "B_BYTE0": 2900.4900000000002,
+    "B_ADDRESS_COMMAND": 2868.82
+  },
+  "sources": [
+    "https://github.com/kendryte/k230_docs/blob/main/en/00_hardware/K230_Hardware_Design_Guide.md",
+    "https://raw.githubusercontent.com/kendryte/k230_docs/main/zh/00_hardware/images/HDG/image056.png"
+  ],
+  "recommendations": {
+    "single_ended_ohm": 50,
+    "differential_ohm": 100,
+    "crosstalk_rule": "3W",
+    "same_signal_type_via_counts": "equal",
+    "maximum_layer_changes": 2,
+    "DQ_to_DQ_within_byte_or_nibble_ps": "<20",
+    "DQ_relative_DQS_ps": "+/-10",
+    "CA_CS_CKE_relative_CK_ps": "+/-10",
+    "DQS_relative_CK_without_write_leveling_ps": "+/-60"
+  },
+  "not_used_as_routing_budget": "Training deskew range is not the recommended routed skew allowance",
+  "package_trace_join_key": "physical SoC ball only; guide aliases never override actual audited net mapping",
+  "hashes": {
+    "cad/high-temp-candidate/master.xml": "5ecd0c50fecfa56826569ec897e47b306bce8e25fa89d5382a7b43a132359c5f",
+    "engineering/ddr-package-length-reference.csv": "066f7e0ade1c9024adfcca4d1361342bfd2f221c2fecf302ab67f32cedaefbf5"
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "source_xml_sha256": "0684832d84aeae6c64c08c232762de18e44921e7ce9f7905a7df4763a3d4800d",
+  "source_paths": [
+    {
+      "net": "VDD0P8_CORE",
+      "source_component": "U21",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_CORE",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L21",
+          "pin_from": "1",
+          "net_from": "SW_CORE",
+          "pin_to": "2",
+          "net_to": "VDD0P8_CORE"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "VDD0P8_CPU",
+      "source_component": "U22",
+      "source_sw_pins": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "source_sw_net": "SW_CPU",
+      "source_power_out_pin": "C1",
+      "passive_edges": [
+        {
+          "component": "L22",
+          "pin_from": "1",
+          "net_from": "SW_CPU",
+          "pin_to": "2",
+          "net_to": "VDD0P8_CPU"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "VDD0P8_KPU",
+      "source_component": "U23",
+      "source_sw_pins": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "source_sw_net": "SW_KPU",
+      "source_power_out_pin": "C1",
+      "passive_edges": [
+        {
+          "component": "L23",
+          "pin_from": "1",
+          "net_from": "SW_KPU",
+          "pin_to": "2",
+          "net_to": "VDD0P8_KPU"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "VDD1P1_DDR_IO",
+      "source_component": "U24",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_DDR",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L24",
+          "pin_from": "1",
+          "net_from": "SW_DDR",
+          "pin_to": "2",
+          "net_to": "VDD1P1_DDR_IO"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "VDD1P8",
+      "source_component": "U25",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_1V8",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L25",
+          "pin_from": "1",
+          "net_from": "SW_1V8",
+          "pin_to": "2",
+          "net_to": "VDD1P8"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "VDD_3V3",
+      "source_component": "U26",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_3V3",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L26",
+          "pin_from": "1",
+          "net_from": "SW_3V3",
+          "pin_to": "2",
+          "net_to": "VDD_3V3"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "AVDD3P3_USB",
+      "source_component": "U26",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_3V3",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L26",
+          "pin_from": "1",
+          "net_from": "SW_3V3",
+          "pin_to": "2",
+          "net_to": "VDD_3V3"
+        },
+        {
+          "component": "FB210",
+          "pin_from": "1",
+          "net_from": "VDD_3V3",
+          "pin_to": "2",
+          "net_to": "AVDD3P3_USB"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "VDD3P3_SD",
+      "source_component": "U26",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_3V3",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L26",
+          "pin_from": "1",
+          "net_from": "SW_3V3",
+          "pin_to": "2",
+          "net_to": "VDD_3V3"
+        },
+        {
+          "component": "R221",
+          "pin_from": "1",
+          "net_from": "VDD_3V3",
+          "pin_to": "2",
+          "net_to": "VDD3P3_SD"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "AVDD1P8_USB",
+      "source_component": "U25",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_1V8",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L25",
+          "pin_from": "1",
+          "net_from": "SW_1V8",
+          "pin_to": "2",
+          "net_to": "VDD1P8"
+        },
+        {
+          "component": "FB205",
+          "pin_from": "1",
+          "net_from": "VDD1P8",
+          "pin_to": "2",
+          "net_to": "AVDD1P8_USB"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "AVDD1P8_PMU",
+      "source_component": "U25",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_1V8",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L25",
+          "pin_from": "1",
+          "net_from": "SW_1V8",
+          "pin_to": "2",
+          "net_to": "VDD1P8"
+        },
+        {
+          "component": "FB206",
+          "pin_from": "1",
+          "net_from": "VDD1P8",
+          "pin_to": "2",
+          "net_to": "AVDD1P8_PMU"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "AVDD0P8_PLL",
+      "source_component": "U21",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_CORE",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L21",
+          "pin_from": "1",
+          "net_from": "SW_CORE",
+          "pin_to": "2",
+          "net_to": "VDD0P8_CORE"
+        },
+        {
+          "component": "FB202",
+          "pin_from": "1",
+          "net_from": "VDD0P8_CORE",
+          "pin_to": "2",
+          "net_to": "AVDD0P8_PLL"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "VDD0P8_DDR_CORE",
+      "source_component": "U21",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_CORE",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L21",
+          "pin_from": "1",
+          "net_from": "SW_CORE",
+          "pin_to": "2",
+          "net_to": "VDD0P8_CORE"
+        },
+        {
+          "component": "R220",
+          "pin_from": "1",
+          "net_from": "VDD0P8_CORE",
+          "pin_to": "2",
+          "net_to": "VDD0P8_DDR_CORE"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "VAA_DDR",
+      "source_component": "U25",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_1V8",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L25",
+          "pin_from": "1",
+          "net_from": "SW_1V8",
+          "pin_to": "2",
+          "net_to": "VDD1P8"
+        },
+        {
+          "component": "FB204",
+          "pin_from": "1",
+          "net_from": "VDD1P8",
+          "pin_to": "2",
+          "net_to": "VAA_DDR"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "AVDD0P8_MIPI",
+      "source_component": "U21",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_CORE",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L21",
+          "pin_from": "1",
+          "net_from": "SW_CORE",
+          "pin_to": "2",
+          "net_to": "VDD0P8_CORE"
+        },
+        {
+          "component": "FB203",
+          "pin_from": "1",
+          "net_from": "VDD0P8_CORE",
+          "pin_to": "2",
+          "net_to": "AVDD0P8_MIPI"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "AVDD1P8_MIPI",
+      "source_component": "U25",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_1V8",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L25",
+          "pin_from": "1",
+          "net_from": "SW_1V8",
+          "pin_to": "2",
+          "net_to": "VDD1P8"
+        },
+        {
+          "component": "FB207",
+          "pin_from": "1",
+          "net_from": "VDD1P8",
+          "pin_to": "2",
+          "net_to": "AVDD1P8_MIPI"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "AVDD1P8_CODEC",
+      "source_component": "U25",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_1V8",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L25",
+          "pin_from": "1",
+          "net_from": "SW_1V8",
+          "pin_to": "2",
+          "net_to": "VDD1P8"
+        },
+        {
+          "component": "FB209",
+          "pin_from": "1",
+          "net_from": "VDD1P8",
+          "pin_to": "2",
+          "net_to": "AVDD1P8_CODEC"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    },
+    {
+      "net": "AVDD1P8_ADC",
+      "source_component": "U25",
+      "source_sw_pins": [
+        "5"
+      ],
+      "source_sw_net": "SW_1V8",
+      "source_power_out_pin": "5",
+      "passive_edges": [
+        {
+          "component": "L25",
+          "pin_from": "1",
+          "net_from": "SW_1V8",
+          "pin_to": "2",
+          "net_to": "VDD1P8"
+        },
+        {
+          "component": "FB208",
+          "pin_from": "1",
+          "net_from": "VDD1P8",
+          "pin_to": "2",
+          "net_to": "AVDD1P8_ADC"
+        }
+      ],
+      "xml_path_verified": true,
+      "scope": "connectivity/source semantics only; qualification unchanged"
+    }
+  ],
+  "external_contracts": [
+    {
+      "net": "VIN_5V",
+      "ref": "J1",
+      "pins": [
+        "4",
+        "5",
+        "6"
+      ],
+      "role": "external input"
+    },
+    {
+      "net": "GND",
+      "ref": "J1",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "36",
+        "49",
+        "57",
+        "64",
+        "71",
+        "78",
+        "89",
+        "106"
+      ],
+      "role": "external return"
+    }
+  ],
+  "forbidden_source_declarations": [
+    "VEMMC_IO",
+    "BANK0_VDDIO",
+    "BANK1_VDDIO",
+    "BANK2_VDDIO",
+    "BANK3_VDDIO",
+    "BANK4_VDDIO",
+    "BANK5_VDDIO"
+  ],
+  "notes": [
+    "Do not retype real passive inductor/filter pins as physical regulators. If a separate source-model declaration is used, bind it to this verified upstream path and identify it as ERC model metadata, excluded from fabrication/BOM.",
+    "These modeled supply origins do not validate voltage/current/sequence/thermal behavior."
+  ]
+}

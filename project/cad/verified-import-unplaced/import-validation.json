@@ -1,0 +1,1168 @@
+{
+  "status": "NETLIST_BOUND_PARTIAL_IMPORT_ALL_INTERNAL_PARTS_UNPLACED",
+  "source_netlist_sha256": "96108059ca509bbde234565dcda46a2a0273dd2cb296a5d3a95aac812d08976b",
+  "board_sha256": "a370b94b55cd7d74f3be4b48d08c6de0c920be886001f43e6908609761eb4daf",
+  "imported_footprints": [
+    {
+      "reference": "J1",
+      "footprint": "CMK230_Castellation_Proposal:CMK230_38x38_140P1_D0.50_Oval0.80x1.80_PROCESS_UNQUALIFIED",
+      "pad_count": 140,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/b9acc6aa-8d56-4fe0-a194-1fc133a4444a/e2043ed4-0d27-412e-bdb0-cb023353e317",
+      "placement": "edge fixed"
+    },
+    {
+      "reference": "C45",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/9230923f-9e90-4751-9947-10c3df130059/13a95f82-dac2-429e-ad65-44ec045b969d",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "Y2",
+      "footprint": "CMK230_Crystals:YXC_X322524MOB4SI_3225_4P_DrawingCandidate",
+      "pad_count": 4,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/9230923f-9e90-4751-9947-10c3df130059/a1124b4c-87d5-41e3-b7b5-6d5244af2311",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C31",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/09aced3d-757d-4c36-870b-9e1c84e3d67a/cbf0dfd9-8451-4772-a949-f96723f90d3a",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C32",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/09aced3d-757d-4c36-870b-9e1c84e3d67a/6a684019-be71-4baa-816f-0a6bba84f356",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C33",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/09aced3d-757d-4c36-870b-9e1c84e3d67a/3cf8a81f-895a-4bd0-a345-37fed2642534",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C34",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/09aced3d-757d-4c36-870b-9e1c84e3d67a/28e9d990-c428-4c62-a7aa-89571ae848a2",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U11",
+      "footprint": "CMK230_Verified:TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified",
+      "pad_count": 32,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/09aced3d-757d-4c36-870b-9e1c84e3d67a/a2ecfa28-2101-4dc4-ba91-b8136b179a61",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U12",
+      "footprint": "CMK230_Verified:TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified",
+      "pad_count": 32,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/09aced3d-757d-4c36-870b-9e1c84e3d67a/03542a4c-1bee-4171-a868-4b0effbc5450",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U13",
+      "footprint": "CMK230_Verified:TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified",
+      "pad_count": 32,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/09aced3d-757d-4c36-870b-9e1c84e3d67a/1b3c1e99-f611-4f16-aea8-70efc49aa9c0",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U14",
+      "footprint": "CMK230_Nexperia_Standard_Candidates:Nexperia_SOT363-2_AUP1G97_DrawingVerified_CANDIDATE",
+      "pad_count": 18,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/09aced3d-757d-4c36-870b-9e1c84e3d67a/4dbe0418-fb4d-4e71-9131-0abb086c71a1",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C205",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/4111d933-47ed-4aed-9568-9f730b7b2ca7",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C209",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/9f953a4e-e63b-493f-b9a3-0faca63fc2c4",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C215",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/2d7bfee3-9ccd-4427-8dc6-c35b254b7fd1",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C222",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/bbded6de-c400-46ae-b9a2-f03e891507bc",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C227",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/bf851ed2-883c-4783-96d9-f03dd4a5887e",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C232",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/c7d1072a-86db-44ad-ae6b-75b2aa2fadcd",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C233",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/d51a3ea2-90a6-47a0-910d-b4858f63023f",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C234",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/c3d9890d-f217-4803-9d14-955828f87482",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C235",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/9623a1e5-f0f7-4f6d-bd7f-b283730176bf",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C236",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/447d4293-5bef-4618-9a21-795113492e08",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C237",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/f3842e4b-b14a-4715-be51-2620acc6f056",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C238",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/b5c3244f-9b69-4bdd-ab18-528765590638",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C239",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/79c1daa2-39ed-4140-a6a0-285d5fbed623",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C240",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/9724e846-0631-4120-ad3b-9a3472b3e9fd",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C241",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/a0f7578a-bfe9-4f42-9db0-cf64180c03d7",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C242",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/3c024356-e529-4548-a179-84281cb5846e",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C243",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/f3d24394-4f56-4080-8863-caafe13358dd",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C244",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/01ce93e5-62dd-4679-b59d-f1fb388b872e",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C245",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/ed364196-9c77-4027-bb7b-546b11c20be9",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C246",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/60f364d9-5951-46f0-89e5-2e76d9f55300",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R201",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/c738b2db-d0c3-4cc1-a39d-a2f45e2bf648",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R202",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/ca338853-e5cb-4730-a259-ccd5375e9390",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R207",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/5a178300-cecc-4fdd-840e-dd8ad989ac11",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R208",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/2b13060f-ae9c-4511-9dd6-f9ba7951c213",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R210",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/66dfe489-7684-48ed-ad21-aa0a9b415a91",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R211",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/d4db40c6-5156-49eb-a3f9-671fa846d79f",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R213",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/5bf6473b-79dc-4028-b440-bde4a4858b70",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R214",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/3b3cd37f-187c-49f9-baa8-1deb2072a57a",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U21",
+      "footprint": "CMK230_Verified:TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified",
+      "pad_count": 18,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/d87b8660-e4bd-4102-87a7-a9caf4867b09",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U22",
+      "footprint": "CMK230_Verified:TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified",
+      "pad_count": 45,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/5c7cca17-c3cb-40d7-8acc-93a100a52159",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U23",
+      "footprint": "CMK230_Verified:TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified",
+      "pad_count": 45,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/5217dab3-33d0-4c93-a098-892f324bd62f",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U24",
+      "footprint": "CMK230_Verified:TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified",
+      "pad_count": 18,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/40eb13b5-8ad5-491c-af63-7cb32f91c5c1",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U25",
+      "footprint": "CMK230_Verified:TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified",
+      "pad_count": 18,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/de4583ca-901c-4bd4-8a87-c2c716953cf1",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U26",
+      "footprint": "CMK230_Verified:TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified",
+      "pad_count": 18,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/60f2ccfe-004b-4112-aad7-14963a560a23/c1cc738c-7e14-4397-ba1c-e684d69d0daf",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C61",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/3fe9a3b2-ce6d-43ea-be3f-75d0a401dd03",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C62",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/5725a516-ea00-4fef-aed7-2400ef7e4015",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C63",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/1693d8ca-c4c5-48d3-b6f1-2f2bc5d273f5",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C66",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/1c6346f9-58cc-4517-96e5-dcac15838db4",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C67",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/d8695070-2e94-4e40-ab4e-ad0fe793e55d",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C68",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/9515ed26-c3e6-43da-90f2-180dfeb17bce",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R63",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/4b6fbf3b-1caa-4b3a-ae4d-a7cf646a60f9",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R64",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/1efa785f-f402-4771-a0b3-c07e949e15e0",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R65",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/b2f7c222-ec54-463a-ac8d-ce3e310fa279",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R66",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/c0529612-6a44-44f3-9583-69cdc4f20618",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R67",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/4f96dd5c-e3f6-4ba5-8f65-ea7712501ec2",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R68",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/2ad36cc7-edd8-4623-a78e-55e55abc40cc",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R69",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/88f28a1e-e994-4913-9c2b-7bbecf9c2598",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R70",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/44c01382-333f-41dc-9c13-e10054c169ed",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R71",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/16ce3a47-1302-4c28-8dc0-7c6ac1c0f569/8e35c12c-7c03-4aba-a998-0c096261b619",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C501",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/ae0ccf45-ef34-42d7-b1a0-82c9cf58dc2d",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C502",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/366810e2-3a65-49e7-ac9b-bdabdd1b1586",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C503",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/910f596e-902d-4ad3-aaad-84d0c3665fbc",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C504",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/29716fc5-0d22-4373-9f3a-0f2fe6521df2",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C505",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/d66a7c2f-5a49-4445-b952-2ece4b99b4d1",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C506",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/a9da61ff-4191-4005-bbe5-c5be57593641",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C507",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/0b16cb81-af9c-4e34-880c-12b8addcaa55",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C508",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/38bfbbb1-bc7f-4794-8ac7-349c5c5f7228",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C509",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/093f5466-4cae-4146-a5ab-038931cd60a2",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C510",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/b3b7a820-c370-4759-b1aa-ea968fa5e108",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C511",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/b996c2d9-22bd-4257-91f1-71c27acf675f",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C512",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/705f01ef-343e-48f9-bd92-592a0191a4b1",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C513",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/129adaaf-d567-43d4-989c-d00fafc203f8",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C514",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/2586d619-8ba4-484e-8381-26250a8e12eb",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C515",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/177e2fdd-0592-41e2-bd6c-a44e4fd0964d",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C516",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/e096a374-4ec9-4807-8bbf-b11ae52a3ce5",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C517",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/fc266523-36ab-4ab9-847f-216d2a35fcc4",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C518",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/f647f71c-93c9-4fcb-b6f9-ef19cec2c572",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C519",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/8d96a221-06b6-42f5-9bb0-5c4b14cc15f4",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C520",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/060b61ed-90a1-466e-ba2a-78cd955b54a3",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C521",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/69634287-88dd-4240-9385-906adb34ef37",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C522",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/be29aecc-185a-4103-9223-6514350298b8",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C523",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/3fcc7b07-0449-4553-b0c9-493ea2695e0f",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C524",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/34366a25-f948-4c64-8996-ede4bae85e3b",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C525",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/0bd09a7b-6257-4ccb-be98-f81dee827512",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C526",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/357f04e4-3051-4116-8b29-262631f3702f",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C527",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/8462b9f7-dd5d-4dce-9a15-b2d2ab02d07e",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C528",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/ee752816-a044-43cc-b05a-e3f9fc6baaf3",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C529",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/6cb4016c-3772-40ba-8d1a-160427ae504d",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C530",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/0f91c67e-5785-4500-98b9-20f97c3779a2",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C531",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/47ca4968-8ba0-4ced-a781-3664af71c54f",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C532",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/56c4770e-c88c-4d0a-9037-ba11b1370efc",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C533",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/bf66f549-9abc-4a5b-9c32-f467f7a619d9",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C534",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/c9c12912-f2c6-411e-b931-3628eb472905",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C535",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/fa51c930-d015-4958-8020-e882e811e6d0",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C536",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/1533006b-e7cf-4553-a1b9-1f3be1377ca8",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C537",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/9d6a8497-3ddb-4a3e-9e51-551b68d7b12c",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C538",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/503d6394-38e7-48a6-b050-06df6629fb42",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C539",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/7a53c9e7-f182-439e-8027-3cda138b6ad0",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C541",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/03346e60-020d-4a9e-aee5-ea739742015a",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C542",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/07454cee-c2d3-421f-a4df-30719c9832fa",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C543",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/ce8c4ff3-dad0-47d0-9cb1-34ce4b53567b",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C544",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/1112a298-8ffb-4808-94e7-97cc552a82fe",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C545",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/e08a119f-22c3-4d07-82fb-455df48ab82d",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C546",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/5606e42e-2908-45a3-8fe5-ef963260bb5b",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C547",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/48c953f1-038c-4ee8-ab3d-335cd3a89dd8",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C548",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/c8d4c942-d62c-47a0-ad00-23df48a7e0e2",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C549",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/d5f99dca-fb96-471e-b48b-923adc84f259",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C550",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/5e9a6e1e-e2f7-4b55-a523-cd677fb1fcee",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C551",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/3939e3de-37c8-46ac-9c3c-face6ad8c62d",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C553",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/a2ccddf9-c569-45fe-87bf-7cfa09ec6849",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C554",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/fb348ccf-1a4a-4951-b44a-b47b6888982d",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C555",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/eba1c00a-6aa6-4176-892a-dc4e8c8c5c07",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C556",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/9f81949d-d937-4071-aca6-6da4bc7d0a96",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C557",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/f5073957-2259-4384-8ff4-63f49595ef4a",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C558",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/44f6279b-22d7-4e0b-a65b-1b648e938f39",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C559",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/1cb88058-8294-4937-b46c-91b7da0c374d",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C560",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/211546f6-3a36-43d9-9144-ba68ad818170",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C561",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/20cd203b-3e3e-4cd2-8566-cceffe6f4128",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C563",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/bb714233-d793-40d0-a3e2-d6966fed9a69",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C564",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/8fef6e6a-3f55-4ec7-b8d4-9d712282d8f1",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C565",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/5df271fb-d324-4e4a-8b7f-d8791fbca5ff",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C566",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/1bf5c053-73d7-40b0-a170-253cb3607c57",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C567",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/35754067-b13d-40e7-aba7-07cba0a147cf",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C568",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/0247760f-e4c2-48c8-855a-d562b19cfd57",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C569",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/1729599b-443f-4395-bac0-7561b8c2e9fa",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C570",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/3b9352a5-cf7e-4d19-99f9-2d0f8a5eb05e",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C571",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/ed07110a-501e-4fb1-8d04-6f90f9cb0ac8",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C572",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/4a73264e-d574-44fa-bc0d-592261aa5437",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C573",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/4010ebce-59aa-4123-a3ae-94cb990460e4",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C574",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/0c8a0576-b7e8-4c24-91af-ebdfd2ef7f90",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C575",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/55dfb3c8-5f56-4446-baa9-7ce24183cf70",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C576",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/50f94472-38a8-4156-96fc-a0b743354000",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C577",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/6bcab9bc-6b76-44af-b7f9-dfc891284956/66dd15d8-d2c2-459e-b6ab-7a6fc7bb9500",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C809",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/262a2f44-5934-4598-b2e7-a21e36f2e080",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C810",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/f478b234-54f2-488d-aac1-80a15e8cb45e",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C811",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/acd8cecc-4995-4af4-9a84-6d181b238eb3",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C812",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/16ca526e-2e61-4710-89e0-0614aa02ab5f",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C813",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/c3fff781-0304-4e9e-bb93-082f2209155b",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C814",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/d81bef03-2322-4181-bd98-209aba7b5a05",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R525",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/f273a4bd-4fd0-455f-8fa3-fdd9e2aa1b16",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "R526",
+      "footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/a7ab30a2-d9b2-48ed-9899-4c8ef7016727",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U89",
+      "footprint": "CMK230_Compact_Candidates:TI_DRV0006A_D_TPS3808_6P_EP7_DrawingVerified_CANDIDATE",
+      "pad_count": 16,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/08e8cc45-70f9-45d3-8ffa-258c52676225",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U90",
+      "footprint": "CMK230_Compact_Candidates:TI_DRV0006A_D_TPS3808_6P_EP7_DrawingVerified_CANDIDATE",
+      "pad_count": 16,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/0da8b753-715a-46d2-993d-667b78651d1c",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U91",
+      "footprint": "CMK230_Nexperia_Standard_Candidates:Nexperia_SOT353-1_AUP1G17_06_DrawingVerified_CANDIDATE",
+      "pad_count": 15,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/95e709a9-e336-4f52-a4d1-888e0d46566d",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U92",
+      "footprint": "CMK230_Nexperia_Standard_Candidates:Nexperia_SOT363-2_AUP1G97_DrawingVerified_CANDIDATE",
+      "pad_count": 18,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/92ad4bea-2af0-458b-b4e6-ab88678ed823",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U93",
+      "footprint": "CMK230_Nexperia_Standard_Candidates:Nexperia_SOT353-1_AUP1G17_06_DrawingVerified_CANDIDATE",
+      "pad_count": 15,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/b0a5917a-7ca4-4508-bd3c-940fb0b0bac0",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U94",
+      "footprint": "CMK230_Nexperia_Standard_Candidates:Nexperia_SOT363-2_AUP1G97_DrawingVerified_CANDIDATE",
+      "pad_count": 18,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/cde22312-65de-4a73-a114-8d1af293ad5d/5d8ff4ec-f813-49ee-8ef0-625e87113fcc",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "C816",
+      "footprint": "CMK230_Bypass_Candidates:Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE",
+      "pad_count": 2,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/f8ee8740-d4cd-454f-9f7d-3b5cbb6a5622/eaff856e-8866-46ec-9b00-1808f31c7109",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    },
+    {
+      "reference": "U95",
+      "footprint": "CMK230_Translator_Candidate:NXP_SOT1161-2_NVT4858HK_1.8x2.6_P0.4_DrawingVerified_CANDIDATE",
+      "pad_count": 48,
+      "schematic_path": "/4e6c6aa2-4c53-4c32-8d4b-e9a77ccf2401/f8ee8740-d4cd-454f-9f7d-3b5cbb6a5622/1438a6f5-8e3d-44b5-88d0-bbcf025f67ef",
+      "placement": "PARKED OUTSIDE OUTLINE; UNPLACED"
+    }
+  ],
+  "imported_count": 150,
+  "checked_pad_net_bindings": 566,
+  "still_missing_footprints": [
+    "U1",
+    "U2",
+    "U3",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "Y1",
+    "JP1",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "C201",
+    "C202",
+    "C203",
+    "C204",
+    "C206",
+    "C207",
+    "C208",
+    "C210",
+    "C211",
+    "C212",
+    "C213",
+    "C214",
+    "C216",
+    "C217",
+    "C218",
+    "C219",
+    "C220",
+    "C221",
+    "C223",
+    "C224",
+    "C225",
+    "C226",
+    "C228",
+    "C229",
+    "C230",
+    "C231",
+    "FB202",
+    "FB203",
+    "FB204",
+    "FB205",
+    "FB206",
+    "FB207",
+    "FB208",
+    "FB209",
+    "FB210",
+    "L21",
+    "L22",
+    "L23",
+    "L24",
+    "L25",
+    "L26",
+    "R203",
+    "R204",
+    "R205",
+    "R206",
+    "R216",
+    "R217",
+    "R218",
+    "R219",
+    "R220",
+    "R221",
+    "C64",
+    "C65",
+    "C69",
+    "C70",
+    "C71",
+    "C72",
+    "R61",
+    "R62",
+    "R573",
+    "C540",
+    "C552",
+    "C562",
+    "R401",
+    "R402",
+    "TP81",
+    "TP82",
+    "R561",
+    "R562",
+    "R563",
+    "R564",
+    "R565",
+    "R566",
+    "R567",
+    "R568",
+    "R569",
+    "R570",
+    "R571",
+    "R572",
+    "R527",
+    "R528",
+    "R529",
+    "R530",
+    "C815"
+  ],
+  "missing_count": 104,
+  "tracks": 0,
+  "full_parity_claimed": false
+}

@@ -1,0 +1,4194 @@
+{
+  "source_archive": "CM-K230_1GB16GB_D0_Review.zip",
+  "source_archive_sha256": "3c0e8355627611d7b59e0d91669d74b64bb2c95d299ed61f6b76b666c18594b4",
+  "source_library_version": 12,
+  "preserved_files": [
+    {
+      "path": "LICENSE-01studio.txt",
+      "sha256": "c6f1fb7c84a1468d03fe8505d03532dc984a28bd8a6a5c820d39f2d8fb673c9f"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9c2cd14ac0f2497a6a1d5e6e40064e69ece4ca722eb1aed5c49e39ae93171128"
+    },
+    {
+      "path": "V10_CORE_REVIEW.md",
+      "sha256": "478bdac7fcc2faf95e7bd60f23774b8dcf1e79e6441edbe6e5c68cd510f87ed7"
+    },
+    {
+      "path": "V11_CORE_REVIEW.md",
+      "sha256": "1adbc71e282c0a4d64fb7d8e1415d7787e64c18866220f29b84fe901dd8c2f7a"
+    },
+    {
+      "path": "V12_CORE_REVIEW.md",
+      "sha256": "c6e2f9fe438371b281ecbdbda05c7676995a11fa593fecde76f928dc434e4bdd"
+    },
+    {
+      "path": "V5_CORRECTION_READ_FIRST.md",
+      "sha256": "351a1be7f7d6857f025964c95e223ed2bf7b492e1a54d250e24695d06a6c303a"
+    },
+    {
+      "path": "V6_CHANGES_READ_FIRST.md",
+      "sha256": "51ee176433a637442f0110b2b2cbcc1e7dc5c4f8b78c68e4fae3550f074e8fe7"
+    },
+    {
+      "path": "V7_COMPACT_REVIEW.md",
+      "sha256": "121a9c544aab3c797b2e4846f542161a0aa8f69f88f66c7fed50e4097af6f9aa"
+    },
+    {
+      "path": "V8_REVIEW.md",
+      "sha256": "9bc76787a401029e3ee8940a2317c2134bf3786a0ff0ef288317a4c004fa693d"
+    },
+    {
+      "path": "V9_CORE_REVIEW.md",
+      "sha256": "eda8aad1e08cbd2c17593747fb195940ed1d74cc44fdd5ef605bf4d0a3a9176b"
+    },
+    {
+      "path": "cad/CMK230.kicad_sym",
+      "sha256": "86e8b2c0bca3bba2d92754b76ff7e4c5db70cb8e363b3b6559e4dba28102e147"
+    },
+    {
+      "path": "cad/CMK230.pretty/CMK230_Carrier_Mating_ONLY.kicad_mod",
+      "sha256": "4fcfaf56d54d20161bed00568c61657c48e143d964af848d7b44a9133fcd10ad"
+    },
+    {
+      "path": "cad/CMK230_Interface_ONLY.kicad_pro",
+      "sha256": "24f97c6616956877861016e65b946c317086c239e67dc1316c39ce1e3904568b"
+    },
+    {
+      "path": "cad/CMK230_Interface_ONLY.kicad_sch",
+      "sha256": "b24d8087a58acb0bd6025d07e0eb2daca58dd73a49a56b14872433c6ec761bc7"
+    },
+    {
+      "path": "cad/CMK230_Module_Outline_ONLY.kicad_pcb",
+      "sha256": "44b2273de7f8547f44266c402912d0a02699b7b732409abc5591f7eadd08722c"
+    },
+    {
+      "path": "cad/CMK230_Module_Outline_ONLY.kicad_pro",
+      "sha256": "a72b5ed45d37eea4c24e8763f3b6885a3b1ed11c8c5056b8c5298fdf0c19aeda"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_Engineering.pretty/MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY.kicad_mod",
+      "sha256": "2d80cba28c836720179e842b70d5b71bf92c8c4fc0759a16b8862244411507cf"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_SPARSE_LOCAL_TRIAL.kicad_dru",
+      "sha256": "0c181309dacfbee84a8fdddfe4849262705e4653ffbb0f2e9f4d450818332a32"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_SPARSE_LOCAL_TRIAL.kicad_pcb",
+      "sha256": "249c4b4cdce3db5db4c7092605d266da878519568d416896176d386688f98ffa"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_SPARSE_LOCAL_TRIAL.kicad_pro",
+      "sha256": "b0e15ce28afa246b065fb960b1d85078a0d7da6c6a55a128cb3429b5be1abe5a"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/README.md",
+      "sha256": "e72b7adc81eb1fc58a4eabff7679c442e202c6ecf83e9792b67a15721c5eec9e"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/fp-lib-table",
+      "sha256": "c0b5cae9b94dd761460de1e41043be3587333e9219abf796f94c56750f992b79"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/k230-ddr-constrained/K230_DDR_CONSTRAINED_LOCAL_TRIAL.kicad_dru",
+      "sha256": "19b9809f7ea9b7bca372f73bdc56bd5324033a2cb51b27eacc7cd2b23c8cc016"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/k230-ddr-constrained/K230_DDR_CONSTRAINED_LOCAL_TRIAL.kicad_pcb",
+      "sha256": "a761a7efc93f25b70a67e00b1970bb861f40b2276c500325d1d38c26e1899b6a"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/k230-ddr-constrained/K230_DDR_CONSTRAINED_LOCAL_TRIAL.kicad_pro",
+      "sha256": "6e542d5574e4560dd352ee992ca07dbff37c844b035fe7acb561c0a34da50810"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/k230-ddr-constrained/K230_Engineering.pretty/K230_390_NSMD027_ENGINEERING_ONLY.kicad_mod",
+      "sha256": "e966f4f52f50f9939f1d93ae072eac6c764d35586e854e20e5297eed4404c2cb"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/k230-ddr-constrained/fp-lib-table",
+      "sha256": "175dce6ce4fca52010895355ce3bb861b00aac0294568c38a3459b82f0b59e20"
+    },
+    {
+      "path": "cad/bias/Bias.kicad_sym",
+      "sha256": "63618729a952af27ccf1a0ed01d4a16c4d87e9ba86e48c017d9339ee5bb5e202"
+    },
+    {
+      "path": "cad/bias/CMK230_Bias_REFERENCE.kicad_pro",
+      "sha256": "a4f40aa8c4e7b8159435de4e5ed8e5a5730f03172ce1e67ae51dae2bc48bbab4"
+    },
+    {
+      "path": "cad/bias/CMK230_Bias_REFERENCE.kicad_sch",
+      "sha256": "be266405dd638fb7884d5dfdde3767b30d0a725a4f2251946e830f41c1266c0f"
+    },
+    {
+      "path": "cad/bias/sym-lib-table",
+      "sha256": "b2a3accf4d8e1d9cc0635168e4cc09767ddab252d2ca6a4d2f631267336d5c60"
+    },
+    {
+      "path": "cad/bypass-footprint-review/Bypass_Geometry_QA_ONLY.kicad_pcb",
+      "sha256": "15e2f8036ba0e3a3d8ac242217e53487359b02fb3fbd19bd87a5a1b11cee524f"
+    },
+    {
+      "path": "cad/bypass-footprint-review/Bypass_Geometry_QA_ONLY.kicad_pro",
+      "sha256": "5befbea2bf6b680866d0e4d1a9e66a5daaaac7db942e3d2be633510838e56461"
+    },
+    {
+      "path": "cad/bypass-footprint-review/Bypass_Negative_Clearance_026.kicad_pcb",
+      "sha256": "15e2f8036ba0e3a3d8ac242217e53487359b02fb3fbd19bd87a5a1b11cee524f"
+    },
+    {
+      "path": "cad/bypass-footprint-review/Bypass_Negative_Clearance_026.kicad_pro",
+      "sha256": "6de42458d9da4db535840bc9b43bc83b4053a69cd5b906fc275d90f97c93c751"
+    },
+    {
+      "path": "cad/bypass-footprint-review/Bypass_Negative_Clearance_071.kicad_pcb",
+      "sha256": "15e2f8036ba0e3a3d8ac242217e53487359b02fb3fbd19bd87a5a1b11cee524f"
+    },
+    {
+      "path": "cad/bypass-footprint-review/Bypass_Negative_Clearance_071.kicad_pro",
+      "sha256": "9e957864b28145e04dc477fa317299604123169365438a9d5a3134ab2364d4b9"
+    },
+    {
+      "path": "cad/bypass-footprint-review/fp-lib-table",
+      "sha256": "5257665b29bb28641875f548f45f2ee5f9420ab9a388fb63d4ee9c897ece7e1e"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-9",
+      "sha256": "22cf8557bd7161d7b31feef2d9a6c102d69eb898f3d01003b745dc02db46b426"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/12c5eb5b0d6d6fd1848053bcdafabe09-le64.cache-9",
+      "sha256": "215485f046ceee2ca92324c64f187e73b25bcc81a1f2f509a6f2975d488dfd15"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/170595ebad5a88d432d6c891a4cd5d0d-le64.cache-9",
+      "sha256": "50a783b8fd43b793f8787001d583dc5b87c205960d01b30cb5e31965663a2071"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/188ac73a183f12857f63bb60a4a6d603-le64.cache-9",
+      "sha256": "f4ac62dc24f94f82cb45794b7312e01ace5487bd61866c1d9c1488df6cd157c9"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-9",
+      "sha256": "d779aefa9470c8de65c7568eec476db751477855ebf5ea4c265f9aa1e707d230"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/32b6488e5b8292a2e95c79d947e009e8-le64.cache-9",
+      "sha256": "9ad78276cfd0a8bba8c121c3f23ac9d81c2b52285227ab2fe8648d8a6adcb2e5"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-9",
+      "sha256": "8edf034070bdca172437281a96c45b007e44f537cf0aab857d1213fad4fb7239"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/467c019e582ee353435ea5c21d137ef6-le64.cache-9",
+      "sha256": "4518c49d4e45412cde163e8d2d0bbd3c705be998d142a29b142e5042e2977554"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le64.cache-9",
+      "sha256": "8808a26b94e498b87f86d9ac49bf7f56e2a3fca270aecb12d8a169cb67204ba2"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/573ec803664ed168555e0e8b6d0f0c7f-le64.cache-9",
+      "sha256": "d6748d6373373f13c3c42df21443e089b12ebbb52383158ff97c6b3af03832ab"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/57e423e26b20ab21d0f2f29c145174c3-le64.cache-9",
+      "sha256": "2c98dbafab1a5f9d4976b766f62d90c86d5871f16ad3031e624ecd586151f786"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/5d4427f94dd6de4274e26256ab6bdd24-le64.cache-9",
+      "sha256": "3baa2eb40250cbab1bc0e3a7f4738cb1efd05f1b47d5dc325df8d1ee1056567e"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-9",
+      "sha256": "4012983b432e64238353dec81e0d5ecef7e3af889a6194f8e27eaffdab3ccd75"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/6aa41aa22e18b8fa06a12da28ea9c28b-le64.cache-9",
+      "sha256": "184d95b9263f193780d3d4e646b804f237b3bead5b8fad8f9feb5041b32b333c"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-9",
+      "sha256": "40736c1e7ffe88e3b6b21d36bfbfdfcb61e7be7f328832f5a38bc3b6b65df269"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/707971e003b4ae6c8121c3a920e507f5-le64.cache-9",
+      "sha256": "9a36604184f6b0cab61b60dc50e1b804faf913a30b83e8d0bc1bcf94c3ab6051"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-9",
+      "sha256": "066fbcf834c6ce0edbf184642a3ed34f453abf6c659486d43ead5eef84d216e4"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/95530828ff6c81d309f8258d8d02a23e-le64.cache-9",
+      "sha256": "d2b272f7d2b57a57eafbe65873e5b1953ca1eacebe25f8f89fa45670dfaeac4d"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-9",
+      "sha256": "372a6ad5ee10f14f491085c00939bb95f2c027ccf07f5032aa4bf99d5368dd08"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/CACHEDIR.TAG",
+      "sha256": "05e7633fb31bf1f6f8d89020c16b9f24587fdf7638e951c9745b192f5fc3b682"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-9",
+      "sha256": "6fe46c047562ad071b311d23a29dc616ea745a220a1e7c2f9d4a096a36225cc9"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/bbd3eebb6912613e2596f2fd46535a95-le64.cache-9",
+      "sha256": "528cd7866d3c6c47baeff4b45dcfb8bf949627bec88db2ccb8a052d609b0ce7b"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/c57959a16110560c8d0fcea73374aeeb-le64.cache-9",
+      "sha256": "e2e79901c5c91674b1ba6802ac8f7552755ae43572decdd7ba7830b77219afc8"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/c855463f699352c367813e37f3f70ea7-le64.cache-9",
+      "sha256": "8c3acd323df2836b79c4537d0a5c78a10b5a881483566fb663766031f2116d3a"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le64.cache-9",
+      "sha256": "a510e35177a057abb8ffbcbffb40bb632d243c6f0c4207488edae42eed3e480b"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-9",
+      "sha256": "7024af01a5c9ea9d8efa528bf9650387d89006851bd5f5dc166e0be1dba22b5f"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/d82eb4fd963d448e2fcb7d7b793b5df3-le64.cache-9",
+      "sha256": "ea4f5b933ea7c32aff9bcdf8f8359377892ef0d013f1e5ca1a3befb6d90202cc"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/e0aa53bcfa504e64f87823c16bc01eb6-le64.cache-9",
+      "sha256": "a507bf0c346a055bc9538dc59ebe5ab6ebbf7c6e6a89ce5ffad53a4cc85b7262"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-9",
+      "sha256": "535f4365daa624e8cdc693e861fae02f4c1d12ffb37e00df31287613f7882c4f"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le64.cache-9",
+      "sha256": "44909c05e9f1eb5ef8834739f8bf5265c5f955261f2e61d7a2da22b47df115a2"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/f1f2465696798768e9653f19e17ccdc8-le64.cache-9",
+      "sha256": "6045e4b3d372069f830033db87504ac6fbf78f606d6d566da866f687358da03f"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/cache/fontconfig/fe547fea3a41b43a38975d292a2b19c7-le64.cache-9",
+      "sha256": "d271880ec892b41730317fb3f79d9d9949a66c820a65474e277b134a16706a0c"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/inkscape/extension-errors.log",
+      "sha256": "0322488444b6e2564bab16d6e4262d2958f77d499173045c03b5d9248e819876"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/inkscape/preferences.xml",
+      "sha256": "a81b1a466fc0148f757738c187229475856075c5348158ec46e317dc2796b891"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/3d_viewer.json",
+      "sha256": "9d710183e893f38bcb2f3309cdf13dff6ce11f2c3b810895d5d8f2c1ad54aa88"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/cvpcb.json",
+      "sha256": "1896f66ed9b8270327cabdab7e52b9d3ca021bca79a667ca0b361e23355f0648"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/fpedit.json",
+      "sha256": "6e8068218cc90910200a9d7e8513d8c2efa066a473a6860aeb360b80b2a42719"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/kicad.json",
+      "sha256": "f56d4602c5e4ba636d91cf097a792bb2005116d440b0736067c67ab6145fb5fe"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/kicad_common.json",
+      "sha256": "e252d9d61aa557ab7ecada697e0a81a90e70f80233071d8b7319f8b3105609a3"
+    },
+    {
+      "path": "cad/bypass-footprint-review/runtime/config/kicad/9.0/pcbnew.json",
+      "sha256": "e3f7735f5792536a9444cdbfab852b770f9f246ccddce1700b9412b3792c97e6"
+    },
+    {
+      "path": "cad/castellation-proposal/CMK230_Castellation_NOMINAL_PROPOSAL.kicad_pcb",
+      "sha256": "ccbbaf9708887d32c90a928e7b70a8d58ce8c428ab4c22f8c2a127fb24be134b"
+    },
+    {
+      "path": "cad/castellation-proposal/CMK230_Castellation_NOMINAL_PROPOSAL.kicad_pro",
+      "sha256": "ea9765a7a8dbe207abd0b3dd56ad2fdc61cc802b5024aee5fa5fe6577befe16e"
+    },
+    {
+      "path": "cad/castellation-proposal/CMK230_Castellation_Proposal.pretty/CMK230_38x38_140P1_D0.50_Oval0.80x1.80_PROCESS_UNQUALIFIED.kicad_mod",
+      "sha256": "9f10eef6cff4a1460bab0f020f69590137923c330a82bbd2a48280fd84ef0cf8"
+    },
+    {
+      "path": "cad/castellation-proposal/README.md",
+      "sha256": "c4414e0c4584cc13bf16db5603df27f8b7ce4e780c4d68d7f5d80d17fcda79fb"
+    },
+    {
+      "path": "cad/castellation-proposal/fp-lib-table",
+      "sha256": "0d4b609322cd594773990f0ce83a04d318d2048a4c3722210fb885c0d17262fa"
+    },
+    {
+      "path": "cad/conditional-process-check/01_SoC_1.kicad_sch",
+      "sha256": "7deb2eac6f72e4f3eea3afb018671b515fe1edd5c2b1f3dac9132808b474b091"
+    },
+    {
+      "path": "cad/conditional-process-check/02_SoC_2.kicad_sch",
+      "sha256": "f7685d3729034b21e7761e7157bcfbf40d28abf4cc41854438dafb43bb892820"
+    },
+    {
+      "path": "cad/conditional-process-check/03_SoC_3.kicad_sch",
+      "sha256": "18addb52b7bf797f913f912e106aa275141877967c35cad3260782ffdfa5c134"
+    },
+    {
+      "path": "cad/conditional-process-check/04_LPDDR4_1.kicad_sch",
+      "sha256": "ad29135189ad88f039888df6cb2bcbba93a8aabff9141c72824029b1907e8de6"
+    },
+    {
+      "path": "cad/conditional-process-check/05_LPDDR4_2.kicad_sch",
+      "sha256": "9b03284d5c29d1272dbd1e8d064b21a0f3b56cdecf9f39f6010933766d517a8f"
+    },
+    {
+      "path": "cad/conditional-process-check/06_eMMC_1.kicad_sch",
+      "sha256": "99ea70a60689636d59db7da85ab5faf937bc9f29f4e165adeb7e3cc4e9329794"
+    },
+    {
+      "path": "cad/conditional-process-check/07_Edge_Contract_1.kicad_sch",
+      "sha256": "155190077c40a86f2cf2fc095dabd9c65b6c51106c35f3cc7b6118c1b7de8031"
+    },
+    {
+      "path": "cad/conditional-process-check/08_Clock_Reset_Boot.kicad_sch",
+      "sha256": "cdb282156a1e6f2f198650c708314e76ac46d2a61dad97c3af077460f48511e0"
+    },
+    {
+      "path": "cad/conditional-process-check/09_Cold_Storage_Selector.kicad_sch",
+      "sha256": "dea905a44a684c4d732f017f07f458f9f51cb58fd7c60c3c755ad9916ba73996"
+    },
+    {
+      "path": "cad/conditional-process-check/10_Six_Rail_Power.kicad_sch",
+      "sha256": "4cf855081c331b0b10c09e4763cef9cd1427ea1e136a173d9de0d14851da0e23"
+    },
+    {
+      "path": "cad/conditional-process-check/11_DDR_USB_MIPI_Bias.kicad_sch",
+      "sha256": "4c108e1c309a0c6ca8b9edaa539ec004c257bf4903a38794054a4adf4933a35f"
+    },
+    {
+      "path": "cad/conditional-process-check/12_Local_Decoupling.kicad_sch",
+      "sha256": "4c36cc3780d06565084874855fe304c86f2f17634f3322f99645e1ba352a71be"
+    },
+    {
+      "path": "cad/conditional-process-check/13_PMU_Automatic_Startup.kicad_sch",
+      "sha256": "039cbc4f7a9db51e22941d1563d608499b34ef55aec175a48a46edefea6d9349"
+    },
+    {
+      "path": "cad/conditional-process-check/14_EMMC_Local_Bias.kicad_sch",
+      "sha256": "fc73d77d1ea0f18731e5fd2471498a6adc6759b90fac70e7f7b442415a113891"
+    },
+    {
+      "path": "cad/conditional-process-check/15_Hardware_Reset_Interlock.kicad_sch",
+      "sha256": "1ab4a336fabc84b519a09bf82dd04fc45ae51dd23ddd3f1daa68abc54a5c23f3"
+    },
+    {
+      "path": "cad/conditional-process-check/16_TF_Voltage_Translation.kicad_sch",
+      "sha256": "46537dd8849e3980ab5b6f492d97bb492a222e274a8d41fed0cd6ab0846d208d"
+    },
+    {
+      "path": "cad/conditional-process-check/17_Audited_Source_Declarations.kicad_sch",
+      "sha256": "f55b932f44a9d0ddfeebe43ec59ec8d1c1d26620a99a1ec3f758bae74257bad0"
+    },
+    {
+      "path": "cad/conditional-process-check/CMK230_Core_REVIEW.kicad_dru",
+      "sha256": "e737861da48fe1471d2e848edc145cf71c33b8a00a973d7c601732c1df1000c1"
+    },
+    {
+      "path": "cad/conditional-process-check/CMK230_Core_REVIEW.kicad_pcb",
+      "sha256": "e230344a52f8cd78275bbe89feb16e1a67dd5a4cbbc2ae825a69107b133d7f87"
+    },
+    {
+      "path": "cad/conditional-process-check/CMK230_Core_REVIEW.kicad_pro",
+      "sha256": "0602ca786fb4635f0df8b22d673b422f2c541040b54b229c906f383db71a74da"
+    },
+    {
+      "path": "cad/conditional-process-check/CMK230_Core_REVIEW.kicad_sch",
+      "sha256": "8598dc85078054d50689d575994d6e80d9c5b62241c6af18475f54cf60829d6f"
+    },
+    {
+      "path": "cad/conditional-process-check/Integrated.kicad_sym",
+      "sha256": "7ea928a3159b6b188252b03a3702afb68a486dd160dcb5ad6cf12b659ee6546f"
+    },
+    {
+      "path": "cad/conditional-process-check/README.md",
+      "sha256": "b36c4652449991eee951b0a475821d33e08c1aa591092a1f3572b92461158aad"
+    },
+    {
+      "path": "cad/conditional-process-check/conditional-drc-parity.json",
+      "sha256": "37a83a59893d4e5a075768e5d286de1fa7a1aac748f2562eae6eec8e15fd7326"
+    },
+    {
+      "path": "cad/conditional-process-check/fp-lib-table",
+      "sha256": "561acdc55f8ecc6f34e4fbcbf6b49f1a779ac1d31494fa11435c09f6afc22c0f"
+    },
+    {
+      "path": "cad/conditional-process-check/process-model-manifest.json",
+      "sha256": "8d0f4ea6b928184cbe56d88eafe6f65ae451ebbc0e18dac38aa25872c75a9111"
+    },
+    {
+      "path": "cad/conditional-process-check/sym-lib-table",
+      "sha256": "fe8577018d1343220a17259ab4eb0569e6399660b9481fb29872407be2d897b1"
+    },
+    {
+      "path": "cad/core-aux/CMK230_Clock_Reset_REFERENCE.kicad_pro",
+      "sha256": "a3e3a6ad193cf7d6471066b24892fb12f55239c3eaa97d8f31dbcf23bd1b52d7"
+    },
+    {
+      "path": "cad/core-aux/CMK230_Clock_Reset_REFERENCE.kicad_sch",
+      "sha256": "a463970e93a2586d5db6c7737239d2b73eeffe807719d4cc8d0c1d152a419041"
+    },
+    {
+      "path": "cad/core-aux/CoreAux.kicad_sym",
+      "sha256": "3d4dabc41c6132d0e43f6908881629e9b87106e94808987a9749866bc079518c"
+    },
+    {
+      "path": "cad/core-aux/sym-lib-table",
+      "sha256": "5fa4c5a65f17ca9382384d8fc3e6c7fa72afea3481cdc3020250977179b5da9f"
+    },
+    {
+      "path": "cad/decoupling/CMK230_Decoupling_CANDIDATE.kicad_pro",
+      "sha256": "a7fa032dd36a9d169a0965ff360495735a6957e15b5dfb7893247d303c749298"
+    },
+    {
+      "path": "cad/decoupling/CMK230_Decoupling_CANDIDATE.kicad_sch",
+      "sha256": "e17f2eb3196336483085932b8ed95e3aa881a668434958115083c9bf77d05748"
+    },
+    {
+      "path": "cad/decoupling/Decoupling.kicad_sym",
+      "sha256": "19daf4b2876448fba57459a0e432b61fec0e354c344843dc93c452cdb37de444"
+    },
+    {
+      "path": "cad/decoupling/sym-lib-table",
+      "sha256": "0b0ec3807a7b4190f6f73d413ee525a7fc774fed06a4424bed5db1c96ccd99ce"
+    },
+    {
+      "path": "cad/edge-bound-seed/CMK230_Core_EDGE_BOUND_INCOMPLETE.kicad_pcb",
+      "sha256": "4e7edc36b52793dc72370998863b27fcf3fe82f1613fb0abbade2e4c623ce9f9"
+    },
+    {
+      "path": "cad/edge-bound-seed/CMK230_Core_EDGE_BOUND_INCOMPLETE.kicad_pro",
+      "sha256": "ea9765a7a8dbe207abd0b3dd56ad2fdc61cc802b5024aee5fa5fe6577befe16e"
+    },
+    {
+      "path": "cad/edge-bound-seed/README.md",
+      "sha256": "c51f1311f6f7779be64788fc0cf695f8d85dd9309bcbd445a7aaa4046325a8ba"
+    },
+    {
+      "path": "cad/edge-bound-seed/drc.json",
+      "sha256": "98251298eeeabdec12e8d4223d3ec3ec5f36e4c695968e0b31d051ee8b7ce35b"
+    },
+    {
+      "path": "cad/edge-bound-seed/edge-net-binding-validation.json",
+      "sha256": "a86d891f58da03ea1c32d7c5bf1a9a177016383c60b4cf0af74050a88b78d8b4"
+    },
+    {
+      "path": "cad/fp-lib-table",
+      "sha256": "aadc3e5ea9cdb7e7b35dcf7615ae837aaa612ed7fad7aea37a3db77ab5da6f9b"
+    },
+    {
+      "path": "cad/high-temp-candidate/01_SoC_1.kicad_sch",
+      "sha256": "54764e4be11170cba9412f32167ad4340ac03a1b354478af3429a06dac4e7186"
+    },
+    {
+      "path": "cad/high-temp-candidate/02_SoC_2.kicad_sch",
+      "sha256": "68e0ab8822608818771b2017ea20c06050058e3bcbcf16ec45216d4fdb63bb2b"
+    },
+    {
+      "path": "cad/high-temp-candidate/03_SoC_3.kicad_sch",
+      "sha256": "1272a67997c7d610cc273a64dcb7a30cdfb9a2291c6e97aa9d38ecc549f31a83"
+    },
+    {
+      "path": "cad/high-temp-candidate/04_LPDDR4_1.kicad_sch",
+      "sha256": "d5b113cf48fb5f7ea7ed7cb41a0bd389ef946f159e5e87121b49689331604baa"
+    },
+    {
+      "path": "cad/high-temp-candidate/05_LPDDR4_2.kicad_sch",
+      "sha256": "9bead9b958822ae6d266c8973f8d40636b6deab36777551a65188593a498eb72"
+    },
+    {
+      "path": "cad/high-temp-candidate/06_eMMC_1.kicad_sch",
+      "sha256": "aee0861b03d04aa837017bdb06a68231edb55ee253c562bd64bc9bb9569825de"
+    },
+    {
+      "path": "cad/high-temp-candidate/07_Edge_Contract_1.kicad_sch",
+      "sha256": "da3132faa7814d8c6d5e3c2a29c4b0985df6e44605c04eec92f4087aecdd6358"
+    },
+    {
+      "path": "cad/high-temp-candidate/08_Clock_Reset_Boot.kicad_sch",
+      "sha256": "3a25f1cb463132164d4a770e21ed0cb8dd120bf8f3b32eb17461ff2930b09ffe"
+    },
+    {
+      "path": "cad/high-temp-candidate/09_Cold_Storage_Selector.kicad_sch",
+      "sha256": "9ed420139a0dfec1d34c27dd2915bf4b356ff55397b6e47d39683176d5a1344a"
+    },
+    {
+      "path": "cad/high-temp-candidate/10_Six_Rail_Power.kicad_sch",
+      "sha256": "065f9f95ae8a5eec5987ae342075e2d029269a9aef479b861166739f20fc12d9"
+    },
+    {
+      "path": "cad/high-temp-candidate/11_DDR_USB_MIPI_Bias.kicad_sch",
+      "sha256": "f901e0cba81cf6477d2e3cfaa07baf8a9c65db5050f70c7341f117cb83595ecd"
+    },
+    {
+      "path": "cad/high-temp-candidate/12_Local_Decoupling.kicad_sch",
+      "sha256": "00ea54170415d9d6eb31c53c28018f5466fb5b72f59b1c390be8d752757f3947"
+    },
+    {
+      "path": "cad/high-temp-candidate/13_PMU_Automatic_Startup.kicad_sch",
+      "sha256": "3f4ad03b26773422c56b4e37ae00d9d512f40d7c68e1ddcf1aa020a0c9c243b0"
+    },
+    {
+      "path": "cad/high-temp-candidate/14_EMMC_Local_Bias.kicad_sch",
+      "sha256": "58f4c4ac77e5d9e4a7e36d8b7f654c849826f22bfc2318aec650da8ba82f2f6c"
+    },
+    {
+      "path": "cad/high-temp-candidate/15_Hardware_Reset_Interlock.kicad_sch",
+      "sha256": "2fa2b93d7a5f81498152c7e417821531650a9a1e2000b337d71ef3c6342d2da6"
+    },
+    {
+      "path": "cad/high-temp-candidate/16_TF_Voltage_Translation.kicad_sch",
+      "sha256": "bb4c425f7cc579e1f46e89ecae030900f62973bde4f24f472f6d8ff10bbe0189"
+    },
+    {
+      "path": "cad/high-temp-candidate/17_Audited_Source_Declarations.kicad_sch",
+      "sha256": "d0e89b300b69d0a9f5a8f155c6af087cd99faff7b3ad10238fab378b2dff13d2"
+    },
+    {
+      "path": "cad/high-temp-candidate/CMK230_Core_REVIEW.kicad_pcb",
+      "sha256": "a370b94b55cd7d74f3be4b48d08c6de0c920be886001f43e6908609761eb4daf"
+    },
+    {
+      "path": "cad/high-temp-candidate/CMK230_Core_REVIEW.kicad_pro",
+      "sha256": "0602ca786fb4635f0df8b22d673b422f2c541040b54b229c906f383db71a74da"
+    },
+    {
+      "path": "cad/high-temp-candidate/CMK230_Core_REVIEW.kicad_sch",
+      "sha256": "88344cea4c99cb117fbfe50278d4606c37214f611ee3d1254ac10cf0ffb77ba2"
+    },
+    {
+      "path": "cad/high-temp-candidate/Integrated.kicad_sym",
+      "sha256": "aa6c4585a48d670392f4df4711ca44f30c5d47041effb7431e0754ce515739b8"
+    },
+    {
+      "path": "cad/high-temp-candidate/README.md",
+      "sha256": "a787e61ef85f14748a34b59400a014d1f518d8b9b464b4dd6bf80a4adcb4a2f0"
+    },
+    {
+      "path": "cad/high-temp-candidate/buffered-reset-static-screen.json",
+      "sha256": "8b1d914f005cb15ada91a8f979eb214dbc20de0919c3efbe7b6847953808ca4e"
+    },
+    {
+      "path": "cad/high-temp-candidate/build_review.py",
+      "sha256": "30d3e747b8896934547b361a83af9d67226a7347285b9d235013d05c0160486f"
+    },
+    {
+      "path": "cad/high-temp-candidate/bypass-candidate-assignments.json",
+      "sha256": "9ab85473b20c8ca44f461271aa42eb618ac41de1ddcdab693e751568b36bf701"
+    },
+    {
+      "path": "cad/high-temp-candidate/bypass-candidate-validation.json",
+      "sha256": "4d11db2a24d4c7c1edc67e0e77d11d483ace2512768fdb8343c5113f09bf5558"
+    },
+    {
+      "path": "cad/high-temp-candidate/checklist/OFFICIAL_CHECKLIST_AUDIT.md",
+      "sha256": "3c50f2974d6b513d23a5f47a4d32980847d511f415b76cf0e317309de226351b"
+    },
+    {
+      "path": "cad/high-temp-candidate/checklist/official-checklist-ledger.json",
+      "sha256": "c0fcfa8e999349e88e5af1c1c77913dc7e31fe6769573da3e9ad609f74b3ff4b"
+    },
+    {
+      "path": "cad/high-temp-candidate/erc.json",
+      "sha256": "93376d33ee7be218a251ee6ccea7def637907eeb4f8ecca8a5f79845f472c939"
+    },
+    {
+      "path": "cad/high-temp-candidate/final-artifact-sha256.json",
+      "sha256": "bc2f19712f47a400c27b169c5e03a562b2b6a581913c51a3b32265667c5b60c2"
+    },
+    {
+      "path": "cad/high-temp-candidate/fp-lib-table",
+      "sha256": "53c62d8e83fde34eae7b4c4a735d29c6f49479ee6cac714ee478e6f36c2a5387"
+    },
+    {
+      "path": "cad/high-temp-candidate/full-bom-area-screen.json",
+      "sha256": "e73744e65203da9f4f6400d6f2815e9e08e1ed4c7175440fa94d412144276a08"
+    },
+    {
+      "path": "cad/high-temp-candidate/interlock-validation.json",
+      "sha256": "4b25dd9ac9d638a15840d004749084759b3c9a239ab30d4740ed059d9710f4db"
+    },
+    {
+      "path": "cad/high-temp-candidate/master-pin-assignments.csv",
+      "sha256": "28c39b93b1e15292fbca52b8feadf791fe75eb2dd2fed4f19dedc93f886cb4fb"
+    },
+    {
+      "path": "cad/high-temp-candidate/master.xml",
+      "sha256": "96108059ca509bbde234565dcda46a2a0273dd2cb296a5d3a95aac812d08976b"
+    },
+    {
+      "path": "cad/high-temp-candidate/memory-supply-audit.json",
+      "sha256": "71fd7565a2d3a7b6fc1465810939b0668366f73c6ceebb92fa2fccc1777ae042"
+    },
+    {
+      "path": "cad/high-temp-candidate/memory-types.json",
+      "sha256": "a1c6bd14f2b5e9494c4e1c09d58f19088ea649693284705d370e8de1a39309b1"
+    },
+    {
+      "path": "cad/high-temp-candidate/netlist-validation.json",
+      "sha256": "e4f87ceb5b9a5bf91c8c3f4a149113a1893432ee7eb0592e59417102bb083586"
+    },
+    {
+      "path": "cad/high-temp-candidate/open-pin-review.csv",
+      "sha256": "aca69f24a4c03951606957e60c1bce44f4166bb7d855d0e06b0a89df84638c2f"
+    },
+    {
+      "path": "cad/high-temp-candidate/partial-pcb-drc-parity.json",
+      "sha256": "1c8a76d38ef0b2424284b0e4a71062c6ab563f80a888aa2ce88720eb940ead3d"
+    },
+    {
+      "path": "cad/high-temp-candidate/power-source-paths.json",
+      "sha256": "f7ca9d5bece2a314cac9ffadd19dd60de416e3f87d02a5f7b291b8a68ee4d9be"
+    },
+    {
+      "path": "cad/high-temp-candidate/precision-resistor-validation.json",
+      "sha256": "534016b4f2802c372ebf9d745d031e8c577cd86132a6c63caef0952728c70533"
+    },
+    {
+      "path": "cad/high-temp-candidate/review.pdf",
+      "sha256": "1665eb46dfee968fd080996ff31932bbd69a0228cf4ecd88bc610971a979fa40"
+    },
+    {
+      "path": "cad/high-temp-candidate/scaled-feedback-validation.json",
+      "sha256": "121551b1934a591a06d87b3526c70192b2560f231d67dd89d7296a028c8844c4"
+    },
+    {
+      "path": "cad/high-temp-candidate/source-build.log",
+      "sha256": "dc6a0442a3e93654b7fac0d90e6bd52162b442afedcc8cbe5135fdeb7d46b951"
+    },
+    {
+      "path": "cad/high-temp-candidate/source-validation.json",
+      "sha256": "172201091874c322d775f46407ed619347e7a3a7216838aa38d067a3c9225ad7"
+    },
+    {
+      "path": "cad/high-temp-candidate/sym-lib-table",
+      "sha256": "fe8577018d1343220a17259ab4eb0569e6399660b9481fb29872407be2d897b1"
+    },
+    {
+      "path": "cad/high-temp-candidate/u14-implementation-validation.json",
+      "sha256": "7ecfaad2c98ade72724ece8243a6fb589adf9791da0408af089a5cfed7f89b2c"
+    },
+    {
+      "path": "cad/high-temp-candidate/u14-or-validation.json",
+      "sha256": "8e086d9169f8d0a44568c8a1294c00ca65dce5b7100468ee4e5b5cdf6a9a9003"
+    },
+    {
+      "path": "cad/high-temp-candidate/validate_review.py",
+      "sha256": "bc6dbb3be0b96db6319ff4ad7b0aff6187c562f7c9cd694db207a7bf442095ae"
+    },
+    {
+      "path": "cad/inductor-footprint-review/Murata_Geometry_QA_ONLY.kicad_pcb",
+      "sha256": "c1fae4d898834de546b37dd41f5b628c4154bb75af93611d6de596e01221d2d1"
+    },
+    {
+      "path": "cad/inductor-footprint-review/Murata_Geometry_QA_ONLY.kicad_pro",
+      "sha256": "93970026b09d040c01344475a4a5e460eb79b1cf6970534c16a2bfe1ba679cfd"
+    },
+    {
+      "path": "cad/inductor-footprint-review/Murata_Negative_Clearance_081.kicad_pcb",
+      "sha256": "c1fae4d898834de546b37dd41f5b628c4154bb75af93611d6de596e01221d2d1"
+    },
+    {
+      "path": "cad/inductor-footprint-review/Murata_Negative_Clearance_081.kicad_pro",
+      "sha256": "9cf8d4331e3f9600b967b32e2c099dc483be2a988586aaa596bb77aea0b36e53"
+    },
+    {
+      "path": "cad/inductor-footprint-review/Murata_Paste_Override_Control.kicad_pcb",
+      "sha256": "539f00b64785e8d8281ebea3620d53612d0109e30491cfbe6445d04a87e617a8"
+    },
+    {
+      "path": "cad/inductor-footprint-review/Murata_Paste_Override_Control.kicad_pro",
+      "sha256": "956951667db73bebf991fc00a08cf105b4cc633ba980f51bc2d126ff98196727"
+    },
+    {
+      "path": "cad/inductor-footprint-review/Murata_Undercoil_Unenforced_Control.kicad_pcb",
+      "sha256": "620df33cb1479784e0ad943938b78ea687ca5857037f7648abc0930a5b87b184"
+    },
+    {
+      "path": "cad/inductor-footprint-review/Murata_Undercoil_Unenforced_Control.kicad_pro",
+      "sha256": "bf20bc14d222d386c9f0c88a99cb886efd881d17669760e46a41d1fa090c7108"
+    },
+    {
+      "path": "cad/inductor-footprint-review/fp-lib-table",
+      "sha256": "9ef4e58a67b2a2c7a14ef5cfc6f53091f459b49ea8b1ab28895fab5542554aec"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-9",
+      "sha256": "22cf8557bd7161d7b31feef2d9a6c102d69eb898f3d01003b745dc02db46b426"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/12c5eb5b0d6d6fd1848053bcdafabe09-le64.cache-9",
+      "sha256": "215485f046ceee2ca92324c64f187e73b25bcc81a1f2f509a6f2975d488dfd15"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/17202890763074282aa7d5f94a30fc6e-le64.cache-9",
+      "sha256": "c8699fa8e572548d76afff0e8c976f410b4524c76e6625fa14ca5038f6afadaf"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/188ac73a183f12857f63bb60a4a6d603-le64.cache-9",
+      "sha256": "f4ac62dc24f94f82cb45794b7312e01ace5487bd61866c1d9c1488df6cd157c9"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-9",
+      "sha256": "d779aefa9470c8de65c7568eec476db751477855ebf5ea4c265f9aa1e707d230"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/32b6488e5b8292a2e95c79d947e009e8-le64.cache-9",
+      "sha256": "9ad78276cfd0a8bba8c121c3f23ac9d81c2b52285227ab2fe8648d8a6adcb2e5"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-9",
+      "sha256": "8edf034070bdca172437281a96c45b007e44f537cf0aab857d1213fad4fb7239"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/467c019e582ee353435ea5c21d137ef6-le64.cache-9",
+      "sha256": "4518c49d4e45412cde163e8d2d0bbd3c705be998d142a29b142e5042e2977554"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le64.cache-9",
+      "sha256": "8808a26b94e498b87f86d9ac49bf7f56e2a3fca270aecb12d8a169cb67204ba2"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/573ec803664ed168555e0e8b6d0f0c7f-le64.cache-9",
+      "sha256": "d6748d6373373f13c3c42df21443e089b12ebbb52383158ff97c6b3af03832ab"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/57e423e26b20ab21d0f2f29c145174c3-le64.cache-9",
+      "sha256": "2c98dbafab1a5f9d4976b766f62d90c86d5871f16ad3031e624ecd586151f786"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/5d4427f94dd6de4274e26256ab6bdd24-le64.cache-9",
+      "sha256": "3baa2eb40250cbab1bc0e3a7f4738cb1efd05f1b47d5dc325df8d1ee1056567e"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-9",
+      "sha256": "4012983b432e64238353dec81e0d5ecef7e3af889a6194f8e27eaffdab3ccd75"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/6aa41aa22e18b8fa06a12da28ea9c28b-le64.cache-9",
+      "sha256": "184d95b9263f193780d3d4e646b804f237b3bead5b8fad8f9feb5041b32b333c"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-9",
+      "sha256": "40736c1e7ffe88e3b6b21d36bfbfdfcb61e7be7f328832f5a38bc3b6b65df269"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/707971e003b4ae6c8121c3a920e507f5-le64.cache-9",
+      "sha256": "9a36604184f6b0cab61b60dc50e1b804faf913a30b83e8d0bc1bcf94c3ab6051"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-9",
+      "sha256": "066fbcf834c6ce0edbf184642a3ed34f453abf6c659486d43ead5eef84d216e4"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/95530828ff6c81d309f8258d8d02a23e-le64.cache-9",
+      "sha256": "d2b272f7d2b57a57eafbe65873e5b1953ca1eacebe25f8f89fa45670dfaeac4d"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-9",
+      "sha256": "372a6ad5ee10f14f491085c00939bb95f2c027ccf07f5032aa4bf99d5368dd08"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/CACHEDIR.TAG",
+      "sha256": "05e7633fb31bf1f6f8d89020c16b9f24587fdf7638e951c9745b192f5fc3b682"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-9",
+      "sha256": "6fe46c047562ad071b311d23a29dc616ea745a220a1e7c2f9d4a096a36225cc9"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/bbd3eebb6912613e2596f2fd46535a95-le64.cache-9",
+      "sha256": "528cd7866d3c6c47baeff4b45dcfb8bf949627bec88db2ccb8a052d609b0ce7b"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/c57959a16110560c8d0fcea73374aeeb-le64.cache-9",
+      "sha256": "e2e79901c5c91674b1ba6802ac8f7552755ae43572decdd7ba7830b77219afc8"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/c855463f699352c367813e37f3f70ea7-le64.cache-9",
+      "sha256": "8c3acd323df2836b79c4537d0a5c78a10b5a881483566fb663766031f2116d3a"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le64.cache-9",
+      "sha256": "a510e35177a057abb8ffbcbffb40bb632d243c6f0c4207488edae42eed3e480b"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-9",
+      "sha256": "7024af01a5c9ea9d8efa528bf9650387d89006851bd5f5dc166e0be1dba22b5f"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/d82eb4fd963d448e2fcb7d7b793b5df3-le64.cache-9",
+      "sha256": "ea4f5b933ea7c32aff9bcdf8f8359377892ef0d013f1e5ca1a3befb6d90202cc"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/e0aa53bcfa504e64f87823c16bc01eb6-le64.cache-9",
+      "sha256": "a507bf0c346a055bc9538dc59ebe5ab6ebbf7c6e6a89ce5ffad53a4cc85b7262"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-9",
+      "sha256": "535f4365daa624e8cdc693e861fae02f4c1d12ffb37e00df31287613f7882c4f"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le64.cache-9",
+      "sha256": "44909c05e9f1eb5ef8834739f8bf5265c5f955261f2e61d7a2da22b47df115a2"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/f1f2465696798768e9653f19e17ccdc8-le64.cache-9",
+      "sha256": "6045e4b3d372069f830033db87504ac6fbf78f606d6d566da866f687358da03f"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/cache/fontconfig/fe547fea3a41b43a38975d292a2b19c7-le64.cache-9",
+      "sha256": "d271880ec892b41730317fb3f79d9d9949a66c820a65474e277b134a16706a0c"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/inkscape/extension-errors.log",
+      "sha256": "0322488444b6e2564bab16d6e4262d2958f77d499173045c03b5d9248e819876"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/inkscape/preferences.xml",
+      "sha256": "a81b1a466fc0148f757738c187229475856075c5348158ec46e317dc2796b891"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/3d_viewer.json",
+      "sha256": "9d710183e893f38bcb2f3309cdf13dff6ce11f2c3b810895d5d8f2c1ad54aa88"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/cvpcb.json",
+      "sha256": "1896f66ed9b8270327cabdab7e52b9d3ca021bca79a667ca0b361e23355f0648"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/fpedit.json",
+      "sha256": "6e8068218cc90910200a9d7e8513d8c2efa066a473a6860aeb360b80b2a42719"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/kicad.json",
+      "sha256": "f56d4602c5e4ba636d91cf097a792bb2005116d440b0736067c67ab6145fb5fe"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/kicad_common.json",
+      "sha256": "e252d9d61aa557ab7ecada697e0a81a90e70f80233071d8b7319f8b3105609a3"
+    },
+    {
+      "path": "cad/inductor-footprint-review/runtime/config/kicad/9.0/pcbnew.json",
+      "sha256": "e3f7735f5792536a9444cdbfab852b770f9f246ccddce1700b9412b3792c97e6"
+    },
+    {
+      "path": "cad/instrumented-reference/01_SoC_1.kicad_sch",
+      "sha256": "31c631a6cb2ab170bc68f61c3905e2684317c62c05fb5290df2336d274d3e693"
+    },
+    {
+      "path": "cad/instrumented-reference/02_SoC_2.kicad_sch",
+      "sha256": "3a8b88328ecbe9df13c3eb4aa666855b484d7115cdeda7b8df1345ce7f7370c0"
+    },
+    {
+      "path": "cad/instrumented-reference/03_SoC_3.kicad_sch",
+      "sha256": "d17d45b348082ab73c8f8bc06beca04fcd9b0926ed29b42fc95020faa1280f09"
+    },
+    {
+      "path": "cad/instrumented-reference/04_LPDDR4_1.kicad_sch",
+      "sha256": "fa1de9c8d8fe7cb6243afe792571cfa9804e430eb7f71b441c19e8261d45d2c6"
+    },
+    {
+      "path": "cad/instrumented-reference/05_LPDDR4_2.kicad_sch",
+      "sha256": "f62a4efb0d09517d28ba4b5b6e2f9bc8e14b65fdb00c197f75e9a7427bb6cab5"
+    },
+    {
+      "path": "cad/instrumented-reference/06_eMMC_1.kicad_sch",
+      "sha256": "55f494ac18dabdaf6566ca195877d027a3d99107fede4f98eafb2c8f8eb6bd2d"
+    },
+    {
+      "path": "cad/instrumented-reference/07_Edge_Contract_1.kicad_sch",
+      "sha256": "36aebee502e284886799aba239a9db17a4093e8a24ab55066e16d031d7540cce"
+    },
+    {
+      "path": "cad/instrumented-reference/08_Clock_Reset_Boot.kicad_sch",
+      "sha256": "28ea94072988d73021c0db1f295ec7cb2b72cb1347f3870ceeda6d0b671dfe48"
+    },
+    {
+      "path": "cad/instrumented-reference/09_Cold_Storage_Selector.kicad_sch",
+      "sha256": "16eba5e68f0bfad8deea864ed67330ba5442b3361653c3f4a9eb1ed856387155"
+    },
+    {
+      "path": "cad/instrumented-reference/10_Six_Rail_Power.kicad_sch",
+      "sha256": "539e643abe3ca0fcca940ec41007f325bac0f9ab85dc7b36622fc7d002164347"
+    },
+    {
+      "path": "cad/instrumented-reference/11_DDR_USB_MIPI_Bias.kicad_sch",
+      "sha256": "0d51be3ae4232e15bb6d49f2702576d1bdcebda25cb33820483a48e95d15bc10"
+    },
+    {
+      "path": "cad/instrumented-reference/12_Local_Decoupling.kicad_sch",
+      "sha256": "10bcc636a8ef9283f41554bf1ae3892edd96ac1397fe0d53e736afeecaaa1a4d"
+    },
+    {
+      "path": "cad/instrumented-reference/13_PMU_Automatic_Startup.kicad_sch",
+      "sha256": "8e40d2eac79fbfa2643aadd50cc6af77c7863dd5be7b503add5033e0f97783a3"
+    },
+    {
+      "path": "cad/instrumented-reference/14_EMMC_Local_Bias.kicad_sch",
+      "sha256": "5be17368b63a8759824061c1c9a551e37da160dbdd1af220a0daa08901f72372"
+    },
+    {
+      "path": "cad/instrumented-reference/15_Hardware_Reset_Interlock.kicad_sch",
+      "sha256": "aa4c304d150eec8e4c686fbe01316c2d78ffd892ca6467deca7286b8f98bf2e7"
+    },
+    {
+      "path": "cad/instrumented-reference/16_TF_Voltage_Translation.kicad_sch",
+      "sha256": "e8b1133bb94ec1d778b40d1a9241044519edfd935a902f2e91f1a2e759760f18"
+    },
+    {
+      "path": "cad/instrumented-reference/17_Audited_Source_Declarations.kicad_sch",
+      "sha256": "41d6966ec95443c5b4491fe796d96509db994803b29767cff8cfe606023bd86c"
+    },
+    {
+      "path": "cad/instrumented-reference/CMK230_Core_REVIEW.kicad_pro",
+      "sha256": "0602ca786fb4635f0df8b22d673b422f2c541040b54b229c906f383db71a74da"
+    },
+    {
+      "path": "cad/instrumented-reference/CMK230_Core_REVIEW.kicad_sch",
+      "sha256": "5af7c70e6af6754037d31b974691da043168ab32f3507e5c239a2e695be8d8c0"
+    },
+    {
+      "path": "cad/instrumented-reference/Integrated.kicad_sym",
+      "sha256": "508e8b5d13f8ff2f27763f87520f35ac8afc911201f4ca5638175b3893a519bc"
+    },
+    {
+      "path": "cad/instrumented-reference/README.md",
+      "sha256": "e9790cea6ac1fc882871a20d4105e693539f9ae41303420e3c1daa0916d693e0"
+    },
+    {
+      "path": "cad/instrumented-reference/build_review.py",
+      "sha256": "e39c69822227ecdfc80cdc1ba09e4c1c411432f3ab33b031b0251c7e384fccb8"
+    },
+    {
+      "path": "cad/instrumented-reference/erc.json",
+      "sha256": "2f2303a58e27011e67e7263898786ef5f7a364e5e1826eac87cc32fa6aefc512"
+    },
+    {
+      "path": "cad/instrumented-reference/final-artifact-sha256.json",
+      "sha256": "3ca803cdf084d16b72a3711afb39f9f0790544f31c26d295efd9044d1731a72a"
+    },
+    {
+      "path": "cad/instrumented-reference/fp-lib-table",
+      "sha256": "4d58fa5148a35a829e2c9732f26f6261201ae835f1685c21d84627fe54dcb275"
+    },
+    {
+      "path": "cad/instrumented-reference/frozen-generators/generate_bias.py",
+      "sha256": "23249a90a20a375094ee7c084abfb0cdbecdcc333f1ef4e292d3a124b8e09c56"
+    },
+    {
+      "path": "cad/instrumented-reference/frozen-generators/generate_core_aux.py",
+      "sha256": "84a048f7be18d8001b6319e9380a0ce935b799b10a8bade6c03240d7f3875a6c"
+    },
+    {
+      "path": "cad/instrumented-reference/frozen-generators/generate_decoupling.py",
+      "sha256": "7be504a1b7269bc4088728564c8836343c18a3355ef5adf716f121e04d2ce16b"
+    },
+    {
+      "path": "cad/instrumented-reference/frozen-generators/generate_emmc_support.py",
+      "sha256": "c490bd3446e1fe2a38cf261b2f91a5d27d1dfb5fdc8ff6b91e37ea30bb7f38db"
+    },
+    {
+      "path": "cad/instrumented-reference/frozen-generators/generate_pmu_startup.py",
+      "sha256": "ed5557fe1aae0384b3e7fb5d3d004ff138f87891d5a0fa2986a1dcce34203794"
+    },
+    {
+      "path": "cad/instrumented-reference/frozen-generators/generate_power.py",
+      "sha256": "c220edb218b43433a959f3fc937925ffdf441d549981610b8a86e1766fd420b4"
+    },
+    {
+      "path": "cad/instrumented-reference/frozen-generators/generate_starter.py",
+      "sha256": "4a22921d1d3e20093d93ebbae8af2527a3fbff09a54701e145dc25e5a512a264"
+    },
+    {
+      "path": "cad/instrumented-reference/frozen-generators/generate_storage_switch.py",
+      "sha256": "6876bab43cc9dd9d13527f0807cd8300d9ea1b66214717db0e5afed585dc611a"
+    },
+    {
+      "path": "cad/instrumented-reference/frozen-generators/generate_supervisor.py",
+      "sha256": "39cb17c5c33043f51c335ac2938bc8563f1f446bc4cf38e8f52b45fadaef0700"
+    },
+    {
+      "path": "cad/instrumented-reference/frozen-generators/generate_tf_translator.py",
+      "sha256": "93838ea5e95efd39dbe80a1c13084df3fce447e65f5f983150ec8ac5a8fde35d"
+    },
+    {
+      "path": "cad/instrumented-reference/full-bom-area-screen.json",
+      "sha256": "db89a92b5347689319a0f72bc0351deaea15d80f74cf58a9ec03a46eb736e82c"
+    },
+    {
+      "path": "cad/instrumented-reference/interlock-validation.json",
+      "sha256": "d7a803b647ff922cb081d8417810f81f7f52a1f06a8e3ca1b81460d3064a70a1"
+    },
+    {
+      "path": "cad/instrumented-reference/master-pin-assignments.csv",
+      "sha256": "078fd52a21527facb3637f49a216a9ac168519227597cadb1236c5dac794d4c5"
+    },
+    {
+      "path": "cad/instrumented-reference/master.xml",
+      "sha256": "9010a13c6acc1d63512410ffae1bd9ddb4998767a5f59c9a6cb0dc05b22d5b78"
+    },
+    {
+      "path": "cad/instrumented-reference/memory-supply-audit.json",
+      "sha256": "ce89767e3c45e84ebb98a754980bb84de1213732364f6c8f8f36c4a41cf15262"
+    },
+    {
+      "path": "cad/instrumented-reference/netlist-validation.json",
+      "sha256": "ee16ff0c1defaaebf5430d2531ee7a7c5e4e0ceed9f8f22a4a017f3fbc7d7c9d"
+    },
+    {
+      "path": "cad/instrumented-reference/open-pin-review.csv",
+      "sha256": "00032e9ad16828c064879081e18811bb72b1dc77fa447922de268b27699f1d52"
+    },
+    {
+      "path": "cad/instrumented-reference/power-source-paths.json",
+      "sha256": "f7ca9d5bece2a314cac9ffadd19dd60de416e3f87d02a5f7b291b8a68ee4d9be"
+    },
+    {
+      "path": "cad/instrumented-reference/source-build.log",
+      "sha256": "790f7dd1318fd4f374c25eed6d4ad778c9aa88c83068a8b07e6d09b93092cade"
+    },
+    {
+      "path": "cad/instrumented-reference/source-validation.json",
+      "sha256": "14060ef70bc0c5ea46d5942bb4511ed8b06eeafa095c0f2aa8dd920f25f4530d"
+    },
+    {
+      "path": "cad/instrumented-reference/supervisor-pin-net-matrix.csv",
+      "sha256": "8ea54419872c5e73f1b1687688753534dd0d2354275c45e97bbac1763b74aa6d"
+    },
+    {
+      "path": "cad/instrumented-reference/sym-lib-table",
+      "sha256": "fe8577018d1343220a17259ab4eb0569e6399660b9481fb29872407be2d897b1"
+    },
+    {
+      "path": "cad/instrumented-reference/tps3850-candidate-corners.json",
+      "sha256": "1f5a66b7683920cfec29929bc92208833bb759490cee2fb68f87997a80a2e11e"
+    },
+    {
+      "path": "cad/instrumented-reference/validate_review.py",
+      "sha256": "54e970d49e3a82df1f62b3604c8d7e0cc8d2172fe08c37daedca252dce52ce81"
+    },
+    {
+      "path": "cad/integrated/01_SoC_1.kicad_sch",
+      "sha256": "52907766cf6c4c58b7086e9d6d9fd10540ab97810037756932e2287d1d2a119c"
+    },
+    {
+      "path": "cad/integrated/02_SoC_2.kicad_sch",
+      "sha256": "0daba7850e2d0dc7fadb6b790591a7582796ed221e1cfa334307245a2628ba47"
+    },
+    {
+      "path": "cad/integrated/03_SoC_3.kicad_sch",
+      "sha256": "01a8c96dda03cc518f6af7e981d987b85c740092a7d10b279464d2f48a4a09c5"
+    },
+    {
+      "path": "cad/integrated/04_LPDDR4_1.kicad_sch",
+      "sha256": "c919711dcdd2bc04357426b8dfa9c41ce164ba2bcfaca858cc40ee96d90ccfdc"
+    },
+    {
+      "path": "cad/integrated/05_LPDDR4_2.kicad_sch",
+      "sha256": "095bf67a480606f9399df28871a0e74990e67d0a0a1b5257b75894e1389ee000"
+    },
+    {
+      "path": "cad/integrated/06_eMMC_1.kicad_sch",
+      "sha256": "368d0b1265ba289b26e59f348fbb37686ee003418c71e4e5be9708abc862ec1b"
+    },
+    {
+      "path": "cad/integrated/07_Edge_Contract_1.kicad_sch",
+      "sha256": "7e3a1cb7acc387c417a3645b2f36e0d2513d11a2e444b4421749a457dfb61cfd"
+    },
+    {
+      "path": "cad/integrated/08_Clock_Reset_Boot.kicad_sch",
+      "sha256": "ab449b9dba40cf392515b9356dd6d6fbf7cb38910a40d538b2012d0c8a9aa04d"
+    },
+    {
+      "path": "cad/integrated/09_Cold_Storage_Selector.kicad_sch",
+      "sha256": "5be5dd9e37dc48092410f158979af74f7c3a7dfa26be5b80b1fb091e785dec4e"
+    },
+    {
+      "path": "cad/integrated/10_Six_Rail_Power.kicad_sch",
+      "sha256": "52c7831e099ab20596b41cf7d26987065651215c515a704f01e746eaeaf30cce"
+    },
+    {
+      "path": "cad/integrated/11_DDR_USB_MIPI_Bias.kicad_sch",
+      "sha256": "77d166a3dde225061bc62353aabb6ccf0502abd1042bd6d8638c3045e1eb74e5"
+    },
+    {
+      "path": "cad/integrated/12_Local_Decoupling.kicad_sch",
+      "sha256": "1357253c21390240d89c1b843b7c167f4edaba0b3492341c7a1e0a59275158d0"
+    },
+    {
+      "path": "cad/integrated/13_PMU_Automatic_Startup.kicad_sch",
+      "sha256": "e117703b1bfa0055332d26c0ba5147910efa5d1bd86fdba270a4b09011749b1c"
+    },
+    {
+      "path": "cad/integrated/14_EMMC_Local_Bias.kicad_sch",
+      "sha256": "0e4b1ee6421ef62a3badf0d4e92b0d141848b4b700c9b8f8c26eacd32aa93db4"
+    },
+    {
+      "path": "cad/integrated/15_Hardware_Reset_Interlock.kicad_sch",
+      "sha256": "8e5ea897e1a504ec3d040bb470bea41b58ff61be98bc34b861f44f7efdf4c66d"
+    },
+    {
+      "path": "cad/integrated/16_TF_Voltage_Translation.kicad_sch",
+      "sha256": "ed585e3cb218441795672dc061a5aa017ac8b479adc88e12f1baa1900bdab682"
+    },
+    {
+      "path": "cad/integrated/17_Audited_Source_Declarations.kicad_sch",
+      "sha256": "8d40a0d41aa61e1c29e7ca109bfb5437f024db6601e051b72ead44938bac8a74"
+    },
+    {
+      "path": "cad/integrated/CMK230_Core_REVIEW-backups/CMK230_Core_REVIEW-2026-09-30_064256.zip",
+      "sha256": "a058ef49309db70a85526088c64ab815713df46e7a0f5802ba4b47fdda886b6c"
+    },
+    {
+      "path": "cad/integrated/CMK230_Core_REVIEW.kicad_pro",
+      "sha256": "0602ca786fb4635f0df8b22d673b422f2c541040b54b229c906f383db71a74da"
+    },
+    {
+      "path": "cad/integrated/CMK230_Core_REVIEW.kicad_sch",
+      "sha256": "53494208d49537295e00d52514a40ca6825f46f683d01856b48d22cf0d7e616a"
+    },
+    {
+      "path": "cad/integrated/Integrated.kicad_sym",
+      "sha256": "4c3b57527d8f6479730e2063ca69007b4da83b17c25d9d2c2e68f83823f6493d"
+    },
+    {
+      "path": "cad/integrated/README.md",
+      "sha256": "d1b50c300188440393261f242dae72056e042ed00130462e39b83dcd0c073bed"
+    },
+    {
+      "path": "cad/integrated/build_review.py",
+      "sha256": "9bcd4827fb4ce51c9d70254cf23bfd0ce4a1fc29d89e7d36baf8197a7f848799"
+    },
+    {
+      "path": "cad/integrated/erc.json",
+      "sha256": "64a6af5554d7628695f9ef5aaad4bf9b2341244b6208adcb44e5d8c0da80b4d3"
+    },
+    {
+      "path": "cad/integrated/final-artifact-sha256.json",
+      "sha256": "3c0e2cd1d545b2f2b68dcc3471bff89c942b7867e7ae1edc678c96cfa9b86530"
+    },
+    {
+      "path": "cad/integrated/fp-lib-table",
+      "sha256": "78bc196ec1fbcce0db35e3dba5b53fc96ae791a3a06ca5b120e674db9f68ee9a"
+    },
+    {
+      "path": "cad/integrated/master-pin-assignments.csv",
+      "sha256": "613859e614e5cd950529eb03c9855bfe4765eb2094d26583fe42f5096a3e9de3"
+    },
+    {
+      "path": "cad/integrated/master.xml",
+      "sha256": "1486e49b8d7dc3df2ad730d644cd9a3e199087206cf396e5d9544efa958f8b02"
+    },
+    {
+      "path": "cad/integrated/memory-supply-audit.json",
+      "sha256": "ce89767e3c45e84ebb98a754980bb84de1213732364f6c8f8f36c4a41cf15262"
+    },
+    {
+      "path": "cad/integrated/netlist-validation.json",
+      "sha256": "f59dac93e60d537d3f2510a7232c99c96c4a5cfc75bd9508b37acc1ae5a971a5"
+    },
+    {
+      "path": "cad/integrated/open-pin-review.csv",
+      "sha256": "a33fb892255dc790e2616ed6fe1406ddeca761afb42677e46fe5fadaa0363079"
+    },
+    {
+      "path": "cad/integrated/power-source-paths.json",
+      "sha256": "f7ca9d5bece2a314cac9ffadd19dd60de416e3f87d02a5f7b291b8a68ee4d9be"
+    },
+    {
+      "path": "cad/integrated/source-build.log",
+      "sha256": "1ec3e7b6f427ade112502472b9f1d096919286e38ee6f273b4e8a40f9b300fd6"
+    },
+    {
+      "path": "cad/integrated/source-validation.json",
+      "sha256": "0042c9533a41f202582001a49da5485ec140cfe675dfb665fb1c59fe3e4992ed"
+    },
+    {
+      "path": "cad/integrated/sym-lib-table",
+      "sha256": "fe8577018d1343220a17259ab4eb0569e6399660b9481fb29872407be2d897b1"
+    },
+    {
+      "path": "cad/integrated/validate_review.py",
+      "sha256": "d11ebcc66d9f653661c3bd023e1220d964b6d3a98c68c6a2febfa8d41e50db75"
+    },
+    {
+      "path": "cad/power/CMK230_Power_CANDIDATE.kicad_pro",
+      "sha256": "1fed8b57cdd0b3d6191c6925cb3dd0bef4764be5eafccceb14cf3eb17c855735"
+    },
+    {
+      "path": "cad/power/CMK230_Power_CANDIDATE.kicad_sch",
+      "sha256": "d45f5d81e70bdce85ca3ae9ba8652a21223b389d1e5f84f7d74be2310c7e90e1"
+    },
+    {
+      "path": "cad/power/Power.kicad_sym",
+      "sha256": "adea81cebef872d87230c8c416958ff0953d5e8f2a26fe431b17a73d9697a7c5"
+    },
+    {
+      "path": "cad/power/sym-lib-table",
+      "sha256": "f8e8a1975df05c79110334a4d78feffee8022d13751ab582b7c6a9cfd8e1fd23"
+    },
+    {
+      "path": "cad/storage/CMK230_Storage_Selector_CANDIDATE.kicad_pro",
+      "sha256": "eac88f557e0fea70c79000a442f002b306bdeef2e4aab567f10246477784ed75"
+    },
+    {
+      "path": "cad/storage/CMK230_Storage_Selector_CANDIDATE.kicad_sch",
+      "sha256": "70c496efa11fa8c29e7ed28e8281109a82378d7e8832887ad39c37a2857c0da1"
+    },
+    {
+      "path": "cad/storage/Storage.kicad_sym",
+      "sha256": "085a2058f5aec82659c0da466b59d4ab233286d963dbc70bfb01e79c8c59b57e"
+    },
+    {
+      "path": "cad/storage/sym-lib-table",
+      "sha256": "10630e9373dba20b7a71d369bb2ebffdf23a1ad5f685cb07967387087783fa18"
+    },
+    {
+      "path": "cad/sym-lib-table",
+      "sha256": "eb66570c6b44a74d4b2a484812f5e620affd624edb554a1505b819c8501aed6e"
+    },
+    {
+      "path": "cad/verified-footprints/CMK230_Verified.pretty/TI_DBV0005A_SN74LVC1G32_SOT23_5_DrawingVerified.kicad_mod",
+      "sha256": "747733ca44819d006b4b790e691a398bd7474cead43c705e02345dccabc06bd6"
+    },
+    {
+      "path": "cad/verified-footprints/CMK230_Verified.pretty/TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified.kicad_mod",
+      "sha256": "ed4fe1de5279cb43653a73df85d7d9d6bad8bc4f43b171bd808e744982da027a"
+    },
+    {
+      "path": "cad/verified-footprints/CMK230_Verified.pretty/TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified.kicad_mod",
+      "sha256": "b2348872ac5828727b3154d2f79a2c8508ed8e9408343aa1c6f653c2714d3d69"
+    },
+    {
+      "path": "cad/verified-footprints/CMK230_Verified.pretty/TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified.kicad_mod",
+      "sha256": "1d730832473307aa1c8a048a17d344f71d982a29c77fce9c5cc41a1ce6ca0d09"
+    },
+    {
+      "path": "cad/verified-footprints/Footprint_Geometry_QA_ONLY.kicad_pcb",
+      "sha256": "d599f91f81df7788c2fd68cb61e405cadd4f6899b798b4924e806c08a165215f"
+    },
+    {
+      "path": "cad/verified-footprints/Footprint_Geometry_QA_ONLY.kicad_pro",
+      "sha256": "1a762b82061ff65637ad897b3fba4af70db8aa7730c3c7e4de411a01785862be"
+    },
+    {
+      "path": "cad/verified-footprints/README.md",
+      "sha256": "abe65e18d27b3fd24f535462d29e9e9345f4e81125e45cd009fef3517611416d"
+    },
+    {
+      "path": "cad/verified-footprints/bypass-candidates/CMK230_Bypass_Candidates.pretty/Samsung_CL03B104KP3NNWC_MIDPOINT_LAND_DENSE_CANDIDATE.kicad_mod",
+      "sha256": "e2e0ab433ac92493e44b56ca4b8eb8c09719c5feef1d446e6da7252f528121e6"
+    },
+    {
+      "path": "cad/verified-footprints/bypass-candidates/CMK230_Bypass_Candidates.pretty/Samsung_CL10B475KQ8NFQC_MIDPOINT_LAND_DENSE_CANDIDATE.kicad_mod",
+      "sha256": "59decef44ea75e5c28e3f50992a7ab65a4e1b16060076b76efa08aa4efb56499"
+    },
+    {
+      "path": "cad/verified-footprints/bypass-candidates/source-land-validation.json",
+      "sha256": "576b5efa5ae1b41433b42c67106acfc05139ed6c92aa092ceca75e95da5d9b00"
+    },
+    {
+      "path": "cad/verified-footprints/compact-options/CMK230_Compact_Candidates.pretty/TI_DCK0005A_AUP_5P_DrawingVerified_CANDIDATE.kicad_mod",
+      "sha256": "90fe526c9c4b4d3586b1a040f5c8b3588d62ceccd42e36752974c8273e7708d3"
+    },
+    {
+      "path": "cad/verified-footprints/compact-options/CMK230_Compact_Candidates.pretty/TI_DRL0005A_AUP_5P_DrawingVerified_CANDIDATE.kicad_mod",
+      "sha256": "501bcc325843ba87efc00bd53eccc1c185b74d8c430d78f756edbb4001822a58"
+    },
+    {
+      "path": "cad/verified-footprints/compact-options/CMK230_Compact_Candidates.pretty/TI_DRL0006A_AUP1G97_DrawingVerified_CANDIDATE.kicad_mod",
+      "sha256": "52dbc31260dd70829580c529e29396c1d02cfbf0b5769930df099654b90617f2"
+    },
+    {
+      "path": "cad/verified-footprints/compact-options/CMK230_Compact_Candidates.pretty/TI_DRV0006A_D_TPS3808_6P_EP7_DrawingVerified_CANDIDATE.kicad_mod",
+      "sha256": "320fc09af71cc061d4f0a24ff51bbbf31ee30af51f58073891dceb067d3a1e6a"
+    },
+    {
+      "path": "cad/verified-footprints/compact-options/Compact_Package_Geometry_QA_ONLY.kicad_pcb",
+      "sha256": "4fd7adf61cfe520dd9fd61146154933e84c77a09bb1e246705e1735b96c61ec3"
+    },
+    {
+      "path": "cad/verified-footprints/compact-options/Compact_Package_Geometry_QA_ONLY.kicad_pro",
+      "sha256": "174a28179a45713d405715e83d19b34dc3c58f627219a809cc29d80e0eb4bbb7"
+    },
+    {
+      "path": "cad/verified-footprints/compact-options/README.md",
+      "sha256": "9a4b2f27cf2c69c9c8498d16fc22002151a30d4ef1e1c87d0210f2c29bbd75c9"
+    },
+    {
+      "path": "cad/verified-footprints/compact-options/fp-lib-table",
+      "sha256": "bdea83a1e911519a58707d9021615ee64d73611bf241d09a09eb15c4ca572f22"
+    },
+    {
+      "path": "cad/verified-footprints/crystals/CMK230_Crystals.pretty/YXC_X322524MOB4SI_3225_4P_DrawingCandidate.kicad_mod",
+      "sha256": "989031d32407d94c6e8172751aefbf65e5374382a62452a870a0a878424999cd"
+    },
+    {
+      "path": "cad/verified-footprints/crystals/Crystal_QA_ONLY.kicad_pcb",
+      "sha256": "df62839a3be4f5ecd068b8a9e314fbfec3d97775494e74885c8b9f1d5cf4daa0"
+    },
+    {
+      "path": "cad/verified-footprints/crystals/Crystal_QA_ONLY.kicad_pro",
+      "sha256": "3378cf5acebe77daa288981a440c9a2195194aa5e02105d7868b70c24d9320d7"
+    },
+    {
+      "path": "cad/verified-footprints/crystals/README.md",
+      "sha256": "9a61435dee334df6aa5916049ca7ef15c61b3a238ec089593178b2211aaa17bd"
+    },
+    {
+      "path": "cad/verified-footprints/crystals/drc.json",
+      "sha256": "baa017ccebc85df2bffc0677dea76f951c7cc3f0248bd2094031525998d806ec"
+    },
+    {
+      "path": "cad/verified-footprints/crystals/geometry-source.json",
+      "sha256": "cef850c3fa123ed0e422b69aafd5caa21593b22dae4dd9a19b311ed0b47d31de"
+    },
+    {
+      "path": "cad/verified-footprints/fp-lib-table",
+      "sha256": "0069bfa8c0aa5fbaa42635f3e2cf18c6092232ebb1d71e40ad1505d8cad8efa9"
+    },
+    {
+      "path": "cad/verified-footprints/inductor-candidates/CMK230_Inductor_Candidates.pretty/Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "cfe2b57a3dde4b85fe0bfc5236f7729e5a8bd953b39eb37605d8b12586b0d3f7"
+    },
+    {
+      "path": "cad/verified-footprints/inductor-candidates/CMK230_Inductor_Candidates.pretty/Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "979b4131e18048ce01e1d6ff2daad4857b669ffb46e5126ebbd19e34d2e2e3c8"
+    },
+    {
+      "path": "cad/verified-footprints/inductor-candidates/Murata_Inductor_Geometry_QA_ONLY.kicad_pcb",
+      "sha256": "f39bc45aa258976c96ec6ec4847b5a1bdc64528ee208996d9939bda5c617d28d"
+    },
+    {
+      "path": "cad/verified-footprints/inductor-candidates/Murata_Inductor_Geometry_QA_ONLY.kicad_pro",
+      "sha256": "4a8686c368ea4fec85b39f43bde3f3e0764c0967d6c1150cb905f2026ef4badc"
+    },
+    {
+      "path": "cad/verified-footprints/inductor-candidates/native-drc.json",
+      "sha256": "b6eb46d26cddfa63ee380d6afa985dc17cd6c0664100f725e7a9a3307fef2ff1"
+    },
+    {
+      "path": "cad/verified-footprints/inductor-candidates/source-land-validation.json",
+      "sha256": "bef64069e82bffcdf9405a1a7e3cf2bced51089513b1dc7a6136eff4a10db219"
+    },
+    {
+      "path": "cad/verified-footprints/nexperia-standard-candidate/CMK230_Nexperia_Standard_Candidates.pretty/Nexperia_SOT353-1_AUP1G17_06_DrawingVerified_CANDIDATE.kicad_mod",
+      "sha256": "733e091a27085be5f1282b589d1f9a755473291126ad774d9f0ee1edcde9f703"
+    },
+    {
+      "path": "cad/verified-footprints/nexperia-standard-candidate/CMK230_Nexperia_Standard_Candidates.pretty/Nexperia_SOT363-2_AUP1G97_DrawingVerified_CANDIDATE.kicad_mod",
+      "sha256": "59425c9740e0a6ae12ce5284edacc0d442ed39b0c98e657842bbe2bf586013d1"
+    },
+    {
+      "path": "cad/verified-footprints/nexperia-standard-candidate/Nexperia_Standard_Geometry_QA_ONLY.kicad_pcb",
+      "sha256": "33461fb516b63964162b59aed13fc8583ad87e6d761b50a1080b45b91ac43762"
+    },
+    {
+      "path": "cad/verified-footprints/nexperia-standard-candidate/Nexperia_Standard_Geometry_QA_ONLY.kicad_pro",
+      "sha256": "589029ff057a6ec98c367060c3f3c62c27397057e5b0a72cff7713a5b378f393"
+    },
+    {
+      "path": "cad/verified-footprints/nexperia-standard-candidate/README.md",
+      "sha256": "e5cd7783b945a1a773e7129c705d6997cbc7ac053d606003cde3c1a180bdb8ba"
+    },
+    {
+      "path": "cad/verified-footprints/nexperia-standard-candidate/fp-lib-table",
+      "sha256": "1397357dc434f753e727f7087aa653cb47a244da10c6cfd2633ab0dab32aa162"
+    },
+    {
+      "path": "cad/verified-footprints/passive-candidates/CMK230_Passive_Candidates.pretty/Vishay_TNPW0402_IEC61188_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "341b095a9ec34d7c3c16c8db2f2b94c423d9390700061f26ec8bc938576b43bc"
+    },
+    {
+      "path": "cad/verified-footprints/passive-candidates/CMK230_Passive_Candidates.pretty/Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "662f9d711a726134cb242cabdaeb77dd1f8c223c213ed4e90eaa17c0d82cf032"
+    },
+    {
+      "path": "cad/verified-footprints/passive-candidates/README.md",
+      "sha256": "d4c7b6d3fe231057096bb7ebe02910499af14cff66cf85e0a6d7512f4cadc034"
+    },
+    {
+      "path": "cad/verified-footprints/passive-candidates/TNPW_geometry_test.kicad_pcb",
+      "sha256": "3fd1fd5848dc0e13830dbf71b9f855e130e19622759dc085cd9b34119187e907"
+    },
+    {
+      "path": "cad/verified-footprints/passive-candidates/TNPW_geometry_test.kicad_pro",
+      "sha256": "aa00d56c8648bb877ada128a49ac8a15001a84564d4b182238721e484e986f2d"
+    },
+    {
+      "path": "cad/verified-footprints/passive-candidates/isolated-drc.json",
+      "sha256": "fb346a9ab2db057de54b437c73f0fe2a18a461b2263873f6f0e1874c5ffc6b05"
+    },
+    {
+      "path": "cad/verified-footprints/passive-candidates/source-land-validation.json",
+      "sha256": "e645cc2a75cf18017dbf32db7be54494bbe6160c4daf1e9216a47734ca6c333f"
+    },
+    {
+      "path": "cad/verified-footprints/placement-only/CMK230_Placement_ONLY_NOT_FOR_FAB.kicad_pcb",
+      "sha256": "987b8d83a59107a0f371d11802ace6e5e59a8271028ddf3e4583727b072f1648"
+    },
+    {
+      "path": "cad/verified-footprints/placement-only/CMK230_Placement_ONLY_NOT_FOR_FAB.kicad_pro",
+      "sha256": "2017142ba0f42807449202b66a386b4aef447d550f605240023aa61fb2ffa09e"
+    },
+    {
+      "path": "cad/verified-footprints/placement-only/Mechanical_Placeholders.pretty/K230_MECHANICAL_ONLY_NO_PADS.kicad_mod",
+      "sha256": "254ddf319922bbe094ac58b73e00cf9b77da7ff2b12c3468ad51ff97bf8249c7"
+    },
+    {
+      "path": "cad/verified-footprints/placement-only/Mechanical_Placeholders.pretty/K4F8E304HB_MECHANICAL_ONLY_NO_PADS.kicad_mod",
+      "sha256": "845decfdae036e10d4e330ab0f6867e556d21d27357a48690272e9080f003f7c"
+    },
+    {
+      "path": "cad/verified-footprints/placement-only/Mechanical_Placeholders.pretty/KLMAG1JETD_MECHANICAL_ONLY_NO_PADS.kicad_mod",
+      "sha256": "775d030e6df661455936c3c248ca039d9d555f49bbda2e4346486246565a039a"
+    },
+    {
+      "path": "cad/verified-footprints/placement-only/README.md",
+      "sha256": "cee72015a13bb5b4810b736950a667fdafa47565b1cee7a2ba708ef3048d358f"
+    },
+    {
+      "path": "cad/verified-footprints/placement-only/fp-lib-table",
+      "sha256": "5a356fd3898f9d740fbb0bbbf0b50f0c0a0aff36fa8716287d94a20b1acbebca"
+    },
+    {
+      "path": "cad/verified-footprints/translator-candidate/CMK230_Translator_Candidate.pretty/NXP_SOT1161-2_NVT4858HK_1.8x2.6_P0.4_DrawingVerified_CANDIDATE.kicad_mod",
+      "sha256": "afcbf8da2ffd6c19acfe00f450df0cfcf704d3af432f268401c0211fd8449168"
+    },
+    {
+      "path": "cad/verified-footprints/translator-candidate/NVT4858_Geometry_QA_ONLY.kicad_pcb",
+      "sha256": "872736d74fa086db0e195d1c15ff909cff2fd5c03e4963668bbdaa7cb0ca3f1e"
+    },
+    {
+      "path": "cad/verified-footprints/translator-candidate/NVT4858_Geometry_QA_ONLY.kicad_pro",
+      "sha256": "6e98f6918f0984b87881f7826823020e4e2e615978097a3492884e1335b1dc96"
+    },
+    {
+      "path": "cad/verified-footprints/translator-candidate/README.md",
+      "sha256": "5de66c627d656460ec2b9f16f2e0a53dbeb46c0b6bc136b2dfb231dd64d602ae"
+    },
+    {
+      "path": "cad/verified-footprints/translator-candidate/fp-lib-table",
+      "sha256": "199572708eded322a833a209477889134eb81ff0fab56aa51bfe263aaab7ddec"
+    },
+    {
+      "path": "cad/verified-import-unplaced/CMK230_Verified_Import_UNPLACED.kicad_pcb",
+      "sha256": "a370b94b55cd7d74f3be4b48d08c6de0c920be886001f43e6908609761eb4daf"
+    },
+    {
+      "path": "cad/verified-import-unplaced/CMK230_Verified_Import_UNPLACED.kicad_pro",
+      "sha256": "ea9765a7a8dbe207abd0b3dd56ad2fdc61cc802b5024aee5fa5fe6577befe16e"
+    },
+    {
+      "path": "cad/verified-import-unplaced/README.md",
+      "sha256": "cf10ef28dd0720aa6382fbc4d734d5e24833affe35e22071368b778dd3d3d8f0"
+    },
+    {
+      "path": "cad/verified-import-unplaced/import-validation.json",
+      "sha256": "cdbf2c9f27206f456fb7ef71a7226b37f42cb7dcb75b897db3a2dd8cc3e59c56"
+    },
+    {
+      "path": "data/candidate-bom.csv",
+      "sha256": "a772d30ed00ec2f1dfa34334c73ad8e5592924484da736ae44719eccc3037065"
+    },
+    {
+      "path": "data/cm-k230-pinmap.csv",
+      "sha256": "30cfdf491aa191b045f6c2a25d0b67777fb44d84609d1d7b1c550222b9037863"
+    },
+    {
+      "path": "data/cm-k230-pinmap.json",
+      "sha256": "b6d53610a05ab6a5024a64853fc052a0638bcb5cfa47277d9d201977cd5f0074"
+    },
+    {
+      "path": "data/k230-source-extraction/01studio-ddr-auxiliary-evidence.json",
+      "sha256": "a03e43341949dd24e4b02c7a1ca78788583f78bd0b707cf191e3116121d799a5"
+    },
+    {
+      "path": "data/k230-source-extraction/01studio-soc-to-lpddr4-65nets.csv",
+      "sha256": "abd7bab8df80346881713d4acdaac17d0b0f86deed84fe8e635b757e6f4611d3"
+    },
+    {
+      "path": "data/k230-source-extraction/k230-390-ball-evidence.json",
+      "sha256": "5c843ea7854c5b842d9bb32affe310bb9fb3689f4cd816ec156270c59f6ad52d"
+    },
+    {
+      "path": "data/k230-source-extraction/k230-390-balls.csv",
+      "sha256": "8ee9d82b21fe0f446473d8dc42e3dacd5094fd0a905f6c2e9f728e9cc4fb8548"
+    },
+    {
+      "path": "data/mating_land_coordinates.csv",
+      "sha256": "6ba4a464d69e948c8e6e868fa63db8b18a2e1b9c72d6a2cbf1767d73314fc6e0"
+    },
+    {
+      "path": "data/research-source-hashes.json",
+      "sha256": "32a3e55f4c8ecaa4bf65e65d31c42b2626e82911c2850f2231dc1c7373a0ec36"
+    },
+    {
+      "path": "docs/ERC-interface-only.txt",
+      "sha256": "46fb1b3f9c125e3b0048c4573754baec0d61b28f82edb3f023781f13b5931d47"
+    },
+    {
+      "path": "docs/KICAD_TEST_REPORT.md",
+      "sha256": "a5f5157e8e80a355d1c0beeb6d60ec448fe18fe84bb8061fec6f3168803a79d5"
+    },
+    {
+      "path": "docs/README_through_v10_history.md",
+      "sha256": "8ecf577245615abe62afc662bf3ec2e1f568f800b970654748292dff035b4ef9"
+    },
+    {
+      "path": "docs/README_through_v6_history.md",
+      "sha256": "4fa6fcc466874b4887d6cece9912c3a8e83c08ce87a0a6087764f3a6e69305cb"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "f84bf3240232b6ecc3d43e4e2411dac72faea31c44b88747d7f643b2106459c2"
+    },
+    {
+      "path": "docs/core-aux-erc.txt",
+      "sha256": "c98184387852929a72ac3233c7834e90916c15a5abf345871ecef54ae72c1484"
+    },
+    {
+      "path": "docs/courtyard-check-drc.txt",
+      "sha256": "e111d84f925302ce9772e2705151f78abea4fd54445df4b14c1ee1c7a8327f4d"
+    },
+    {
+      "path": "docs/courtyard-validation.json",
+      "sha256": "0f910cd4085936b5ddade11ac7325ef90845cb74aa7be6fb1d2357d97d9e2a91"
+    },
+    {
+      "path": "docs/kicad-gui-test/README.txt",
+      "sha256": "b62b1a05aa79c18abb4a064f9a08a4952a621caa542075c49a32f1379469c6b8"
+    },
+    {
+      "path": "docs/kicad-gui-test/V11_EMMC_LOCAL_GUI.md",
+      "sha256": "066af279489cbc09ce859871578627e180e5a5b22c797005ca72ac39dac14609"
+    },
+    {
+      "path": "docs/kicad-gui-test/high-temp-emmc.png",
+      "sha256": "a3b669f7bb75d1811e6419dd2175229c26f4406048f14dd9fee06cc209b93b88"
+    },
+    {
+      "path": "docs/kicad-gui-test/high-temp-erc.png",
+      "sha256": "f8ab1736862f25e243385b9492eaf6faa3b7c5238bd74f95824dd63ecf879167"
+    },
+    {
+      "path": "docs/kicad-gui-test/high-temp-root.png",
+      "sha256": "e1ccf97043c0696428aac9ca3e05f5b7806ae2f8b513ca4cdda4b3cc37973626"
+    },
+    {
+      "path": "docs/kicad-gui-test/v11-emmc-local-drc.png",
+      "sha256": "cbac41e001509c698d9d46c9617d7e4159e2ca3a72b110a30a33e5b1f294c4da"
+    },
+    {
+      "path": "docs/kicad-gui-test/v11-emmc-local-open.png",
+      "sha256": "12c931d252d3ca2d86d3f858e1f8e1aeb8c6743a0acf4c2f9b27677f0b0c230e"
+    },
+    {
+      "path": "docs/power-erc.txt",
+      "sha256": "5966de864ad15a316cb7515ec9fe9e4e9284983f0505feaeea6671c5fa44f9de"
+    },
+    {
+      "path": "docs/release-gates.md",
+      "sha256": "a9a37cb7c5d77d14538bbc792dd32aa9491038ef866f47c04d5dcef2518e0397"
+    },
+    {
+      "path": "docs/sources.md",
+      "sha256": "4722d580020c6b52a5630d4b4c222058e9fc9e3a32b389ba640930ff88b5a08a"
+    },
+    {
+      "path": "docs/storage-erc.txt",
+      "sha256": "c9ede3ee0d070085627b09ebdccad681624cc198c4a51828bb49d2286e098126"
+    },
+    {
+      "path": "engineering/CORE_AUX_CN.md",
+      "sha256": "952a6a043a676e338e856e8d5a6e28fa1694e5fb3db134f203f62908be5dc000"
+    },
+    {
+      "path": "engineering/RELEASE_QUESTIONS_CN.md",
+      "sha256": "62788bf718779c89c31ec1f3c4e33cd1bdb8602c0bb18bc3c0e1ec14e00f8b1f"
+    },
+    {
+      "path": "engineering/VENDOR_QUESTIONS_CN.md",
+      "sha256": "ebf137f0c445d07d2d87f49fd26fcae20a0ee7f0d053c594caa25df1c5f10587"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/MEMORY_SOC_ESCAPE_REVIEW.md",
+      "sha256": "af1fcf31329fb08e40d3010e6ec5fc60877a4eb0bceea8bc9e5bb24d7146d6eb"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/README.md",
+      "sha256": "7cdea57addc048b6cda26a9e51c293fdf85e73df67edd7ec004e101cad2f20e6"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/alternate-via-process-check.json",
+      "sha256": "27746ae6ed7082e8d6ae933f61a440ce4d13165575b9d3e5b8ee4756d9c178fd"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/analyze_topside_bypass_reach.py",
+      "sha256": "e1c4f88198bb04955edea0b9b68d1073385bafd5d32b76d8bc71da75687f9ecb"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/assembly-guidance-evidence.json",
+      "sha256": "46b21b7d17d228f748b72f9b52d4c8887e2567866ad843f8e79d3ea2fde181c6"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/assembly-guidance-review.md",
+      "sha256": "48da37f4fa54abba27ca40f1920b3d14dbabf7f97923293eaf9f18e8dd7ff596"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/bga-analysis-artifact-sha256.json",
+      "sha256": "ed838d45b8500d1ec0b7934f97b63055a2025d113c76494d098e4ad009423c70"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/candidate-independent-review.json",
+      "sha256": "559b2c15481112d7b83d7ca1bdab284e742f3a10b72cbf787cd5b8457177c8b4"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/check_alternate_via_process.py",
+      "sha256": "5947a72d6d10abe6bc5f156d2f79fd60d951206e96f615b537d6bcaebf920aa1"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/evaluate_memory_escape.py",
+      "sha256": "7d8a7b27f025ff282e604f0eb16eb709890b4a9c3649f42ffd6d817ec2022a68"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/memory-escape-artifact-sha256.json",
+      "sha256": "c0d92ea255262efa3352f5e57079f977fa3cb880432b9200088bb10a2dbd5165"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/memory-soc-functional-balls-cu030-via030-hole0125.csv",
+      "sha256": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/memory-soc-functional-balls-cu030-via030-hole015.csv",
+      "sha256": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/memory-soc-functional-balls-smd-cu040-100um.csv",
+      "sha256": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/memory-soc-functional-balls.csv",
+      "sha256": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/memory-soc-functional-escape-analysis-cu030-via030-hole0125.json",
+      "sha256": "ee952371399010e8b20d080072083c8d5fefbb09932698a5ae1187bbc75fe5a8"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/memory-soc-functional-escape-analysis-cu030-via030-hole015.json",
+      "sha256": "560e9693d3e38b40918b494d0e3bc7b31e39402e71b4a3a49b58d2a8972eb2a7"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/memory-soc-functional-escape-analysis-smd-cu040-100um.json",
+      "sha256": "28444c5622ca74ff14ffb74afe48189e321cfc38eb8057b71c902ec37d5643df"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/memory-soc-functional-escape-analysis.json",
+      "sha256": "d5fa5e174e98c7b2caa3eaf91de624d2751bfb7fbfd46b078b7e27a1b74e0fab"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/micron-emmc-package-evidence.json",
+      "sha256": "f71c3fd958760af18d23d57d2a2227868a28473f0dc2b3a016be0a76db126ceb"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/topside-bypass-reach.json",
+      "sha256": "2011f2317cbe464e6620ede433b04b4f3b543c375ee1cda7a05d250d588b2777"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/verify_exact_package_evidence.py",
+      "sha256": "c583b01b9366ef3a2b893941f0956dada506f964ce4ac1073bcae156d6cc2356"
+    },
+    {
+      "path": "engineering/bga-native-trial/NATIVE_DRC_DISCREPANCY_REPORT.md",
+      "sha256": "f429e5475390250672de3947c9f35cf54be365a04d83893db96e53c6c6827817"
+    },
+    {
+      "path": "engineering/bga-native-trial/check_native_rule_controls.py",
+      "sha256": "046eed96891c9729ff9fe9b8597621450098d320f412968f5e9e03b31b0286a6"
+    },
+    {
+      "path": "engineering/bga-native-trial/declared-rules.json",
+      "sha256": "f097b9048cbc057babf39b84e631192ce224a79425542c297ccf23d1d022da64"
+    },
+    {
+      "path": "engineering/bga-native-trial/generate_bh153_native_trial.py",
+      "sha256": "3034605a5a60e4b48b7f217b2e89a9986989c6d4c21cd0e9e33cbf56913791ca"
+    },
+    {
+      "path": "engineering/bga-native-trial/native-artifact-sha256.json",
+      "sha256": "d1ad6f54838695bed32a37ef9ae1ad83c0574ad1b4dc3fec7eb0787d0df6638c"
+    },
+    {
+      "path": "engineering/bga-native-trial/native-drc-command.json",
+      "sha256": "9696e5cd523c7d2bd28a08a7fd02e26be3e551a85dd903bc52bff4fe00fc9945"
+    },
+    {
+      "path": "engineering/bga-native-trial/native-drc.json",
+      "sha256": "7b9e7abc4d448b14a46818c902f64c792789c38aee6c9808379c12ece0ed4b00"
+    },
+    {
+      "path": "engineering/bga-native-trial/native-drc.log",
+      "sha256": "1eb5f0f02c9d103e56df9396498ed488cb8aa69fa588d1ca1052e63d7e3efc44"
+    },
+    {
+      "path": "engineering/bga-native-trial/native-independent-review.json",
+      "sha256": "9bbf7bfaa638ce3149c5ce03dd42daedc932486c9f90497058af51dcd10f6905"
+    },
+    {
+      "path": "engineering/bga-native-trial/native-net-mapping.csv",
+      "sha256": "d3ff6b0b96ebe41766fb0820a2ffbf19dc6aace030fb31bec4d19d4b670262fa"
+    },
+    {
+      "path": "engineering/bga-native-trial/native-net-mapping.json",
+      "sha256": "e9b630fd742bc20befd4dd72170e742287e632e9ba24ad9294210c1ea6d297d6"
+    },
+    {
+      "path": "engineering/bga-native-trial/native-validation.json",
+      "sha256": "4aea8470c2b9604ce533a180bc721d47ef23b21529c1a772b0a4a014b17b0707"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-control-results.json",
+      "sha256": "a8266f8a9cbd9e38b75f0cc5e9d0680479fd3f3f0a6772742b7ff0a06c1d500f"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/annulus/BH153_SPARSE_LOCAL_TRIAL.kicad_dru",
+      "sha256": "a3f818ed4e214b5077d20502e3b7f73d1a55c74e3a4ba3cd4ff24f0b191af7c1"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/annulus/BH153_SPARSE_LOCAL_TRIAL.kicad_pcb",
+      "sha256": "249c4b4cdce3db5db4c7092605d266da878519568d416896176d386688f98ffa"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/annulus/BH153_SPARSE_LOCAL_TRIAL.kicad_pro",
+      "sha256": "b0e15ce28afa246b065fb960b1d85078a0d7da6c6a55a128cb3429b5be1abe5a"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/annulus/drc.json",
+      "sha256": "390335939e5a1e84954f25c27077038bc632d832d64f97c95f6b216b6699178c"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/annulus/drc.log",
+      "sha256": "88109cc3a41c5f8f47208098faae98460d879bb01c9357957a092c9a5c7dca70"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/annulus/fp-lib-table",
+      "sha256": "e750384c1dd0ae812d0491ddf890f09ec202ae9f1a55c057c98874c5e447b3d2"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_copper/BH153_SPARSE_LOCAL_TRIAL.kicad_dru",
+      "sha256": "806f579ce12b532b946a7dc5435bbb422ec873bb02634bbaa55b2c6d37bd2371"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_copper/BH153_SPARSE_LOCAL_TRIAL.kicad_pcb",
+      "sha256": "249c4b4cdce3db5db4c7092605d266da878519568d416896176d386688f98ffa"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_copper/BH153_SPARSE_LOCAL_TRIAL.kicad_pro",
+      "sha256": "b0e15ce28afa246b065fb960b1d85078a0d7da6c6a55a128cb3429b5be1abe5a"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_copper/drc.json",
+      "sha256": "b367f7910826b8f01c735ac5d6a3a09d957bcc12b0298a1ffb25128752d924ed"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_copper/drc.log",
+      "sha256": "5bc6e1b0fa6f3195e9e89f6dd3c97382f13812cddefbb070ef3c45a11fefc4ce"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_copper/fp-lib-table",
+      "sha256": "e750384c1dd0ae812d0491ddf890f09ec202ae9f1a55c057c98874c5e447b3d2"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_hole/BH153_SPARSE_LOCAL_TRIAL.kicad_dru",
+      "sha256": "dc046eb60f040693847a183ac4c7ea41e0cfb4c054b02e1000c7b57f5d291d71"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_hole/BH153_SPARSE_LOCAL_TRIAL.kicad_pcb",
+      "sha256": "249c4b4cdce3db5db4c7092605d266da878519568d416896176d386688f98ffa"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_hole/BH153_SPARSE_LOCAL_TRIAL.kicad_pro",
+      "sha256": "b0e15ce28afa246b065fb960b1d85078a0d7da6c6a55a128cb3429b5be1abe5a"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_hole/drc.json",
+      "sha256": "766fd963399d3d75e4a8efa07b74e47bc936b47b4f04c2b96fe4d73a304032d8"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_hole/drc.log",
+      "sha256": "b657deec6166cef56c5bf20898154382596363ff2d7358107ef36a995e4366e2"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/hole_to_hole/fp-lib-table",
+      "sha256": "e750384c1dd0ae812d0491ddf890f09ec202ae9f1a55c057c98874c5e447b3d2"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/mask_web/BH153_SPARSE_LOCAL_TRIAL.kicad_dru",
+      "sha256": "0c181309dacfbee84a8fdddfe4849262705e4653ffbb0f2e9f4d450818332a32"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/mask_web/BH153_SPARSE_LOCAL_TRIAL.kicad_pcb",
+      "sha256": "1b55bba832f0d403a4aca4d1854c5af12520b58a49a7a0346b7feecd88fea62a"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/mask_web/BH153_SPARSE_LOCAL_TRIAL.kicad_pro",
+      "sha256": "b0e15ce28afa246b065fb960b1d85078a0d7da6c6a55a128cb3429b5be1abe5a"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/mask_web/drc.json",
+      "sha256": "22549017face0f7ef3689698769ccb74c2cd94a302e06a74cb5f90b3efbaf2c0"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/mask_web/drc.log",
+      "sha256": "018b369a69fd5c60e9e4389b46df993b0a3418855b62f9b793470eb4da5ed415"
+    },
+    {
+      "path": "engineering/bga-native-trial/rule-controls/mask_web/fp-lib-table",
+      "sha256": "e750384c1dd0ae812d0491ddf890f09ec202ae9f1a55c057c98874c5e447b3d2"
+    },
+    {
+      "path": "engineering/bga-native-trial/source-manifest.json",
+      "sha256": "be4f4cd229cf095b0588827c2bf44f223aa62396e6a661d529c33a810cedbe27"
+    },
+    {
+      "path": "engineering/bga-native-trial/verify_native_emmc_independent.py",
+      "sha256": "775c1b2b63966cde3730c2e7ca278e858fd7d8cd33d5bbdef43e3d217f8cb8fb"
+    },
+    {
+      "path": "engineering/bga-native-trial/verify_native_trial.py",
+      "sha256": "911f4e7a965044ff7905a093766795490e1af4a2d9a0f7584814716271100aa4"
+    },
+    {
+      "path": "engineering/bias-pin-net-matrix.csv",
+      "sha256": "c4a62ded188b02a32e5a456937896346ff544ecbb52a196a4353fcb508c6ce0f"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/BYPASS_FOOTPRINT_REVIEW.md",
+      "sha256": "e394af1b34a836ad6aeb0c228e1aced4cb33bc9811e2f2f98548fb6accc720bb"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/Bypass_Geometry_QA_ONLY-drc.json",
+      "sha256": "a0c5bcec6343a8c3a5bfc99494ef7db2f221d38dd1fe9f0e3b6e4f83a1c140a7"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/Bypass_Negative_Clearance_026-drc.json",
+      "sha256": "bcc8a0016663bb77ecb5a1848257594f71b2fac68917d5aa26c3d86e241badcd"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/Bypass_Negative_Clearance_071-drc.json",
+      "sha256": "7ce240dca5d9cca01780daea55455d16b9ff0706a8071fb4de253cf99729fa44"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/audit_bypass_footprints.py",
+      "sha256": "24a3571b0f346a0324d1de0b1838e2946a4f3c0697a63150c216edfb757b1cc1"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/geometry-audit.json",
+      "sha256": "b6015b6404bbde49fe1c1c90d5a5a1566112310269f9af288a0acb04fd067cea"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/native-drc-runs.json",
+      "sha256": "aa06421d60a9d7c7b670cb6b76dcffb4713dffa7e4bc722982718cedbd68e099"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/native-svg-runs.json",
+      "sha256": "3615d82196a7ad5dc7af36390c985cb5a8d7cb6847a5f90db597092312fc0489"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/source-immutability-check.json",
+      "sha256": "425e5069da2a56baac7f3b705806b6a1683b4e7c35d93d2f99dc4aac8b41e8bc"
+    },
+    {
+      "path": "engineering/carrier-power-evidence.csv",
+      "sha256": "5a7dbb7d0ccabf9c1637b29d2907aab72d43108e9d4d0d87603961cc25c8fd86"
+    },
+    {
+      "path": "engineering/carrier-power-evidence.json",
+      "sha256": "dc3100199a11d503245c92675142cbb49c444c22fb4f6e2b4b45ee349d530240"
+    },
+    {
+      "path": "engineering/checklist/OFFICIAL_CHECKLIST_AUDIT.md",
+      "sha256": "3c50f2974d6b513d23a5f47a4d32980847d511f415b76cf0e317309de226351b"
+    },
+    {
+      "path": "engineering/checklist/official-checklist-ledger.json",
+      "sha256": "9b2f57e84c956202b3e0f67d4e839d59083a326f90e3599ca0b2aed784e00c95"
+    },
+    {
+      "path": "engineering/component-register.csv",
+      "sha256": "a51e8322f9c5085f8bbb1255481fd805dce4539f7dd92aee301fd4038825de54"
+    },
+    {
+      "path": "engineering/core-aux-netlist.xml",
+      "sha256": "b441b10e8ad56ebcff3282119e4f952c74aa621f1bbb398158886f40bdb210c8"
+    },
+    {
+      "path": "engineering/core-aux-pin-net-matrix.csv",
+      "sha256": "c4ca1e5b9ee92ecf925792b7e4f526ada8459cf8f357abba4796cf5dee215058"
+    },
+    {
+      "path": "engineering/core-aux-validation.json",
+      "sha256": "cedb128a9f67627a78afaab368c1ac01d82ebb6e2f9358a0b5bfa3930ce35381"
+    },
+    {
+      "path": "engineering/core-floorplan-study/net-aware-bga-anchors.json",
+      "sha256": "da90ebc8c54835b5933a09da6658cef59c8d42cda79654d392a96037e8a0b491"
+    },
+    {
+      "path": "engineering/ddr-package-length-reference.csv",
+      "sha256": "066f7e0ade1c9024adfcca4d1361342bfd2f221c2fecf302ab67f32cedaefbf5"
+    },
+    {
+      "path": "engineering/decoupling-allocation.csv",
+      "sha256": "1c6299b30b5f14faddf167e5c29fa6bc6426d559c3094ca23ad0980565249292"
+    },
+    {
+      "path": "engineering/decoupling-pin-net-matrix.csv",
+      "sha256": "42eec483786b0df18255fd1f0aea08e0f08f158084682a0a1c082c96aad86556"
+    },
+    {
+      "path": "engineering/decoupling-reference-followup.json",
+      "sha256": "ac88fecebef8bf5ec2ac50852418e4334fe81ad5e38e0cc917038a67d3e65c1f"
+    },
+    {
+      "path": "engineering/decoupling-review/DECOUPLING_BASIS_REVIEW.md",
+      "sha256": "ad84a21face8e9f1dcc45bd18863831101b8d8a73e6ac647c4855ef1c613a6b2"
+    },
+    {
+      "path": "engineering/decoupling-review/current-allocation-audit.csv",
+      "sha256": "42c760b325ee0eb53e24e3479fa7e762380bd6cad475fe3c97dc39e3e08fcb25"
+    },
+    {
+      "path": "engineering/decoupling-review/current-net-evidence.json",
+      "sha256": "9c8413c978f329f77bd66612dd34e4c58c462806377fa1c849d48d00e40f3a76"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/01studio-layout-page2.txt",
+      "sha256": "62ac15bbbf82108ae99b98c3b4c14fc5c1de4067471be6177982dfff70f35b82"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/01studio-layout-page3.txt",
+      "sha256": "aee9c669b4399be280638798ef5ec8d8f8523226630a8e190954ef1acc29d049"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/01studio-layout.txt",
+      "sha256": "c5a41b200eac92fd2ef42f46340d1ee6bace49981f5189b0b3320408a9935962"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/canaan-layout-page2.txt",
+      "sha256": "a1449c0a93fa1e24e4615d64fe8762a636ce57a0d99be6ac08e7d79dd6aa47e0"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/canaan-layout-page3.txt",
+      "sha256": "a0a9ec4c01cdb3f10f39b3a16b274359260afbe9f8c7e69ed553f3faebec3e72"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/canaan-layout.txt",
+      "sha256": "bd5bcc2f239c21f35fb8a14d6f03dac7609ba695488c37faea98bca60ed87b28"
+    },
+    {
+      "path": "engineering/decoupling-review/reference-capacitor-inventory.csv",
+      "sha256": "cd67b3ce6d78b7e61014b4cb9089b7dc612ad58cadebec166b7ced36a80c6a88"
+    },
+    {
+      "path": "engineering/decoupling-review/source-manifest.json",
+      "sha256": "d29b349d85a88b036883da3c64999fd0e5fcf98b04052c9316c3201b8105f82c"
+    },
+    {
+      "path": "engineering/erc-driven-power-paths-v5.json",
+      "sha256": "f175d2659da7bfa42901eb7f1cc8cb404d1eba9f66ba3d6b6f0f565913f5affb"
+    },
+    {
+      "path": "engineering/erc-triage-v5-source-evidence.json",
+      "sha256": "369f83f9da84b0a76d91027d1630cbba074750bf4bea7e8fd5b39dcd0aa97375"
+    },
+    {
+      "path": "engineering/erc-triage-v5.csv",
+      "sha256": "8dfd2c0417937b80769f7d6602327eae2ea770a0f101a935dd414e5efea36fe8"
+    },
+    {
+      "path": "engineering/erc-triage-v5.md",
+      "sha256": "ba79923a1f4dd2b25df009e6ba3f99c39c0fce62b081844930263bf7c6f7c5aa"
+    },
+    {
+      "path": "engineering/erc-triage-v6-current-summary.json",
+      "sha256": "e414032ef3dd63a6d9efdebf6ff539b2c382f18521676f7bc8b51f10d2f59989"
+    },
+    {
+      "path": "engineering/erc-triage-v6-current.csv",
+      "sha256": "f18183ca66f0b93a7b399cf3c6ac192bf81eaf82a49f87e7837d0fb08fef6732"
+    },
+    {
+      "path": "engineering/evidence-conflicts.md",
+      "sha256": "450aa2ab6e975e6feea0ad1562726b6bcebc5e2a64fe8a6389d0d0d28791dffe"
+    },
+    {
+      "path": "engineering/firmware/STORAGE_INTEGRATION_CONTRACT.md",
+      "sha256": "a087901967c3bc5154b92b4e070979d26616c830882c036ed7ce53dec11dcec7"
+    },
+    {
+      "path": "engineering/firmware/storage-policy-test.json",
+      "sha256": "3572dfe2201d1528f7d6505aa04a0f4bce02bfda3d96cb9d34f973121704e82d"
+    },
+    {
+      "path": "engineering/firmware/storage_policy_model.py",
+      "sha256": "fab041c73b71bab44dfcb5f5340dc689038fa2335b99c06c2ec23fff1c74292b"
+    },
+    {
+      "path": "engineering/high-temp-candidates/MEMORY_ADAPTATION_GATES.md",
+      "sha256": "05668c0ff780b1b485c63cac96c69ce83111f7b770722699cf2ed55cee230d9f"
+    },
+    {
+      "path": "engineering/high-temp-candidates/NEXPERIA_125C_CONTRACT.md",
+      "sha256": "d846eda8891379a1fb110f3acb54045869bde8f497e8bcd1aa633c84732aa5c4"
+    },
+    {
+      "path": "engineering/high-temp-candidates/micron-emmc-ball-comparison.json",
+      "sha256": "5a7bcd70f1fa75ff84a657e5ad98c206eb732eaa78c8b98c274069b8c4692a55"
+    },
+    {
+      "path": "engineering/high-temp-candidates/micron-lp4-ball-comparison.json",
+      "sha256": "a2a6683cbb09b5a622f9241dd008844ca95765855e716ed042b69f30b0deb914"
+    },
+    {
+      "path": "engineering/high-temp-candidates/thermal-candidate-sources.json",
+      "sha256": "2279def4f1f67d69730782d3ea263e2f5bfdedaeec701692f444ba2efa871fe1"
+    },
+    {
+      "path": "engineering/impedance-screen/COPYING-GPL-2.0.txt",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "path": "engineering/impedance-screen/IMPEDANCE_SCREEN.md",
+      "sha256": "033752fe7aa8a8ea807100ed801e645dd048b1cc70858900410596aa9856b1d8"
+    },
+    {
+      "path": "engineering/impedance-screen/NOTICE.md",
+      "sha256": "0c5088dac118f0f66bedf9253ce4b72b19c01b2fc76b25177a5e40e9ef9e5d71"
+    },
+    {
+      "path": "engineering/impedance-screen/assumptions.json",
+      "sha256": "b555c9c2bbe96a722b1162374e35e65a9b8aa85501f0110823e173dcfa6836b3"
+    },
+    {
+      "path": "engineering/impedance-screen/calculate_screen.py",
+      "sha256": "20f4947b13f8b247bfc92bf054b34c5d4f8740ae1162bf10a540c06f2939c67b"
+    },
+    {
+      "path": "engineering/impedance-screen/calculations.json",
+      "sha256": "3705bf20a5c6a2e15510008974bf26fd952b8ffca949356db408b027bd3b2a2c"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/INDUCTOR_FOOTPRINT_REVIEW.md",
+      "sha256": "48d6d47670a1cbec982c7486ce5a64000ddde26c7d851c27ee34d743bd0e7970"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/Murata_Geometry_QA_ONLY-drc.json",
+      "sha256": "1e7a8f75c711d83e2842fea2d58548e520af589aadea17461424647b4d4c131c"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/Murata_Negative_Clearance_081-drc.json",
+      "sha256": "5594f519e799c34cf930596aa4ab876e1d33ee0dcd896d07b258926684797964"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/Murata_Paste_Override_Control-drc.json",
+      "sha256": "a4f9e0b24a8da46e23c221f62940a8d037c7f4bc9e79cb41676825546948f1ed"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/Murata_Undercoil_Unenforced_Control-drc.json",
+      "sha256": "1fb29b5da9d8006510ddfea2c9547cf381dbdde81b99f1a6f1b6fd4cf4dcb64b"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/audit_inductor_footprints.py",
+      "sha256": "3d4ed2f5acdbaac3e743b9422c28ccc2d0e582868ae567deace6b54519bb4939"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201610E-p1.txt",
+      "sha256": "f47d75177eca2be5c1ae298eed70a935452e33e7ac953f078e401e05df23375c"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201610E-p5.txt",
+      "sha256": "6ab2861adcb1bda4c4e98737fbe0d0816b85490386e41ff450998aa09351f511"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201610E-p7.txt",
+      "sha256": "08df7fc3e91e3a0c28b799d219db1aa8a629705308790967f04f8e5648ddab0c"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201612E-p1.txt",
+      "sha256": "c2a3aeab25caf1551ee70ba02383d11883b3793e868866d72865714d33df06b6"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201612E-p5.txt",
+      "sha256": "73f41de34977d8307fc886f4781f13ac1eff2e9f2b4250da33e1695b3ee20067"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201612E-p7.txt",
+      "sha256": "674caff5daddc59beed06d4bcea8be0cb9539ed2df415554597d7426df3ec3e0"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/geometry-audit.json",
+      "sha256": "73c75c42231f5f14cdb9a357db483d059bb9b47b59c004a86ebf28a5d6f80e92"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/native-drc-runs.json",
+      "sha256": "82a45ddda31d764142ceca3afd3f6a6ac96c7d5edfedb06a6d6a35468a63e10a"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/native-svg-runs.json",
+      "sha256": "5aed656b350b992ca44ac3721fae42b80192088037ca9ce4190e78a814e78c99"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/paste-native-svg-comparison.json",
+      "sha256": "e876edae122a4cf0ce4abd54a22131f4cb83a996b9f4c3ff8d312552b663d14c"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/source-immutability-check.json",
+      "sha256": "41aa52cd15609b57c981f2715fe93eeede613a3d24b5dd4021e8325eaaf72280"
+    },
+    {
+      "path": "engineering/k230-authoritative-ball-evidence.json",
+      "sha256": "deccfaf5b598497e28fa588083bad5a799dd8037592b4f363157cce79304617e"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/README.md",
+      "sha256": "578388a8aaff4f6733a38beef141d16c05aa4a484b35c196adb5a96cd339cf7f"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/ROUTING_ITERATION_STATUS.md",
+      "sha256": "bbf55f8d82dd9a0bdaaab31dbc149c02849c3d4ab4c9c8d579ccf54c528430d5"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/all-route-segments.csv",
+      "sha256": "eed9d9c0ff1f9e21d0cead1574956cb85b3165e4100f1421f3e3649cbce69841"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/all327-vias.csv",
+      "sha256": "e9447b2db43069d91677f79c06e39bc4544be0bae026bba206d98930d868695f"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/all390-ball-via-route-inventory.csv",
+      "sha256": "3196f463377b1375a150799bb4867de0a1fc08ed358110e7bafdb4854da35a08"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/audit_geometry.py",
+      "sha256": "63e8bed98f84419baff612c2a295aef8857fb0ff229d775844bccce067df2977"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/ddr-audit.log",
+      "sha256": "877e4d080d3b6a2c2de0b8882f1a3f05d7f14edcf47d00d83cf65c13b2755971"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/ddr-spacing-screen-violations.csv",
+      "sha256": "b6cda7236f2ef0c4e25a448e3100c6f58963950f2aca47c8af5dad2715a02299"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/ddr-spacing-screen.json",
+      "sha256": "7835241b40bddd61aac4936939be56ac883ee214822ff49ba804028f3248c46c"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/ddr65-local-layer-via-inventory.csv",
+      "sha256": "24a6ef6de8263ae76d22a5e1c301976f6ab5b653d9372b3e1ca5e604fc09a975"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/export_native_trial.py",
+      "sha256": "a6bc254e98087e5d171454a622ece7cd61f05061e66c17dbddd3e3203d8ebe24"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/geometry-audit.log",
+      "sha256": "8cbd07c89c118b56c3cb7630002d31f3a63730336ef4d41d10fdcc863d0c9bff"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/geometry_core.py",
+      "sha256": "1a7b6ff169fa0609177c5e47c556a713cd64a7d55224f850d2cb77151af7ec30"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/independent-constrained-review.json",
+      "sha256": "7cb08093d00ef083cd12a33d543e8c54a6676ef9af718213b77fbf9b9a46f164"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/independent_verify_constrained.py",
+      "sha256": "0a668730fc985fa2d4288a5c613924dee1a12718846eb2dc9bec95ccb1c83b02"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/README.md",
+      "sha256": "8bc9e9e9c66c0dc21885837a21b5c5be446a4a5d23c8d5f06afbd8858bec79d3"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/audit-run.log",
+      "sha256": "522240164b1f731186ea949dba4c956d118a6c60f9e94845d2ccc9eb55ff8c7b"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/audit_joint_links.py",
+      "sha256": "48440ece6d1676ea2ec349c245c61f6d45f61b17717513ac68dfdcdec8f4da84"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/frozen-reference/master-pin-assignments.csv",
+      "sha256": "43925a589d42ceccdd22a3ea83d5ca12999db1f94df2c797d25ccd7922dd53c5"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/frozen-reference/provenance.json",
+      "sha256": "c13f3f9f80b83e2905f434669238748d476e894e4457401f56770624dac40992"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/results/link-pair-preserved-flex/connectivity-pernet.csv",
+      "sha256": "c9a6aff1adc0ff5d4e30f4a0a34d347d3a621ce13ae6c4dc5bf9f531f8aa83d4"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/results/link-pair-preserved-flex/geometry-failures.csv",
+      "sha256": "f5d406f52064f907fe3fb62e69a9fed62c5aad137d4ba56fc7d46f8e3c6cf0fc"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/results/link-pair-preserved-flex/joint-link-audit.json",
+      "sha256": "d709a0336c80e29ce05ab96752fde5d73377a9975b998afce1d5cbbfb3962d6d"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/results/link-pair-preserved-flex/pair-audit.csv",
+      "sha256": "37cceac0caaf29066bff3b88b370b278ca292f34e894c8cb1ab2293c73dadccf"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/results/link-pair-preserved-flex/spacing.csv",
+      "sha256": "722882b7c552c9b4c2ddb7403a751aa565e5b32bc266445b6833549202cb5559"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/results/link-pair-preserved-flex/structure-checks.csv",
+      "sha256": "9c8868b37c05d354683d5b47365f910e33d68ac1dcaa4786e799054e879b97f9"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/test-run.log",
+      "sha256": "1a61fae9c409c2ebec64bb67049e8d0bd9c927a34f30f7f71221a0f43d8a4921"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/joint-link-audit/test_audit_joint_links.py",
+      "sha256": "b6f9687be16bcccd03df8c3d4d0da3f017f3a74e0d5a9ed2defe88060b177dc3"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-flex-resume/best-search-candidate.json",
+      "sha256": "0221850729ac3dac606c220e0fb6f8115ac8f261fa6009575e6ecd9e5b46d596"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-flex-resume/route_negotiated.py",
+      "sha256": "2e641fecacb6b5a21587958e5d224785ed6a0a54482624b487e5cb196b310bf0"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-flex-resume/search-progress.json",
+      "sha256": "8f2aa5a27be9879973a9883d914961b499458a7a696d93a66faf600d68f3884e"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-flex-resume/search.log",
+      "sha256": "358b03aabf9433b1864b17c86538a368d0db3bbc0f34aa8ba926eee29bd214fb"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-lex/best-search-candidate.json",
+      "sha256": "dae3bcb078116ec8d3f5036eee991aec2692f960cf4f2d06a33a656254139a41"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-lex/route_negotiated.py",
+      "sha256": "de4725f7f66070035794337c464296304269b8a692512dfcce7c4c4779749bff"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-lex/search-progress.json",
+      "sha256": "8ffa03928241030351fc36ad8338c0ecf6e6913b92a46caef1093b0daf1467b9"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-lex/search.log",
+      "sha256": "2997f5dc6fb7fad0c45fa7e646edc383611e4a37a4e9d9634164b57e632b699e"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-reroute/best-search-candidate.json",
+      "sha256": "4a5173c72de9f2ff35ece2833f6f1d2fc8d9596b2f108869406a8c8347adf255"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-reroute/route_negotiated.py",
+      "sha256": "2f791a6ea67400b1d9ff718517b8cbb9dcecdfa96c0101e60069308c36d56f34"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-reroute/search-progress.json",
+      "sha256": "d07238f469dd35b28c46858acc328c4297637944603d5d4722ced6b2d825069f"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-reroute/search.log",
+      "sha256": "bf294382d2ca06068800f43e505d738b023c75134c4db2941cc2596ed27e59fa"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-strong/best-search-candidate.json",
+      "sha256": "dd5c6d5c350ecace5e8d5ae2bbac21829d5851b064bbca7bcb1880bbff3a8854"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-strong/route_negotiated.py",
+      "sha256": "5f097da793f3f11e2d970d05d774f1d814b1a91bcf0523377026acc86efbf664"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-strong/search-progress.json",
+      "sha256": "c1e99d9c2270ee8091bb26224bdc5a680b0ff043953726bf3287c2c6fef8bfaf"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-joint-strong/search.log",
+      "sha256": "490e0a1776b7a77a0d0b51a63cbaa03e276d9f890c5e11046849ff1ed4f5777a"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-pair-preserved-flex/best-search-candidate.json",
+      "sha256": "dcdb188e3fba44f172c7e4f9a2e05a020fbab7d809e3e56e974615a7d47fdf5f"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-pair-preserved-flex/route_negotiated.py",
+      "sha256": "33ee3eeaeff03fe45696d412b1fa379613f1f71209b36bd08b0eb21bbc0692e4"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-pair-preserved-flex/search-progress.json",
+      "sha256": "856dd28b99de3c48a0f67316c855c46dfb1c77ee4e7e9c1d7593a64941314b13"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-pair-preserved-flex/search.log",
+      "sha256": "9294a5b7d146cb4108b516060fd7b94ea69f8e126e25dfdc26bdab0b3ffdbfb7"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-reroute/best-search-candidate.json",
+      "sha256": "8766e0c0eee316f67d3c55436f76cb2483d0391a6a89a5d72bc2a1bdcbc9c4e3"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-reroute/route_negotiated.py",
+      "sha256": "cbc8decebc7ee6c2fe8a699aa37ca41c4ef6235a327f30c50a6092c289a725e2"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-reroute/search-progress.json",
+      "sha256": "de4d6d3ba1f917686b9f2aa92e7385fb75d449fce82e525cf1dc64fc73c39024"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-reroute/search.log",
+      "sha256": "9ad8e1aad4abeb69a99745a023dd8bfac68c6fda2626eb5834c9bdd01b9b2477"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-three-layer-lex/best-search-candidate.json",
+      "sha256": "40de070f8fd827b4cb667b3cce5ccb53e4f9901a86d023cbb134fc85054e51c2"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-three-layer-lex/route_negotiated.py",
+      "sha256": "4a44bfd9c2b9b7dfa37cbc04d97a5b1cccbc745be05310a8badc43456edf1e04"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-three-layer-lex/search-progress.json",
+      "sha256": "c78dabba1ddadff4faef3068863686db06ac370a144ecd4d37fc29d0f75b3aff"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-three-layer-lex/search.log",
+      "sha256": "674d9c73b42ce6ca328eb3d27ab931836cdb01c241821456bec41cc206ad8c20"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/actual-links-audit.json",
+      "sha256": "e8827163ff7a5e2139a4e1ba7a1365e2b5a3a45851dc2ae9c49ec8efb65febf3"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/actual-links.json",
+      "sha256": "444fc18e171a16d8f186217479b9b5a5f3f424b0072a542cc24d6dc40b54daf0"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/audit.log",
+      "sha256": "cb104a31a6a8ebb6f7079fa4b3d215af2f8e7d080b17f3c890ad68d8a9d4736f"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/audit_links.py",
+      "sha256": "3af2324a88c93a7daaf8a7ae00900b42ea2d2738c6fbe8c5f6ddd7e4dd76ee51"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/connectivity-perball.csv",
+      "sha256": "c42b89e49743ec082a53cc47dc8c413372c29e3e7ce3178fe6b77b4c666b315b"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/connectivity-pernet.csv",
+      "sha256": "7773418f52e14cff2e64e03121bf268ba54ded0f5a6395e57e9f36c600499172"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/pair-audit.csv",
+      "sha256": "d4e3e2bd5c527dd963b58b90e66a756d5b40ad7bc68868c05e3fd81eb5d51393"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/perball.csv",
+      "sha256": "044e4ac25b88ced5d438b587d0aeceff40baff0a064ad1c2617825b5e5b61413"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/pernet.csv",
+      "sha256": "6141879d54d4550f358878e011cbd75705c485a8f29623358d6466cf8aa50312"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/route.log",
+      "sha256": "d491ae4727625a6ba2b58f1447bb90eff09511575880a71584ffd027e0f2bff6"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/route_links.py",
+      "sha256": "acd1653737a9ebeadc7994370209640d27007eb16b272c0e832b60eab45ddcd4"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/spacing.csv",
+      "sha256": "a1dacf6eea196bb5c8f67b3986dee3016355112ffb17c5af36496dd15d20d078"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/unsolved.csv",
+      "sha256": "f4f6bd43dd288f2e02c7830de76a18a041238054c66a24c336c5ad36b2316f53"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/vias.csv",
+      "sha256": "7f4bd204d2298bee7f2b22b83c599553cd3b415957bd6acdb431666735d0e248"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/local-envelope-ddr-pdn-audit.json",
+      "sha256": "56054132c171b7d92a21bfedc66b7c6132e22f4550833cf31ee1496a99e55afa"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/native-drc-command.json",
+      "sha256": "8b661226c38fabf762651f2dcb777db54b1f53aaf8363da3861d2a23f8a155e6"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/native-drc.json",
+      "sha256": "280165a4297cbdff6af8672bffff991c6d95d3e0a86e3f3b6b68e9970f9287b4"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/native-drc.log",
+      "sha256": "1045f6cdc950294b8119b2668043d6aed5035f3833cf9bda435da5d89be385dd"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/native-export.log",
+      "sha256": "8dc9913e3108a025315470a9232418a89bbe7c45bdae1ae2dfb82a8caccebd75"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/native-validation.json",
+      "sha256": "c430e332a38942e078f39b871a90cee8d7174022475154166e3892b8f8b189b0"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/native-verify.log",
+      "sha256": "c430e332a38942e078f39b871a90cee8d7174022475154166e3892b8f8b189b0"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/report_constrained.py",
+      "sha256": "095d64bbacdd2268d3eb6a8afc532612300d8b17f1659984dcf8a26774d529de"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/route_constrained.py",
+      "sha256": "f78b644dd2e15ea0910c168abcac35bf73e980a614d0274233dc640d1e63c8a0"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/source-semantic-parity.json",
+      "sha256": "9a15a261fbaa1217689baa125f937f3dea619d147cbb4ee70cafe51afe7db424"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/trial-groups-outer-21-audit.json",
+      "sha256": "08f1df229e182ef98387637b012abd92746d432f622f94381992080fe744eddd"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/trial-groups-outer-21.json",
+      "sha256": "6bb20e72fd4a1c985f0bb2eb54e97ff870f2dbb40a7a36b72db05ef83cae6153"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/trial-groups-outer-21.log",
+      "sha256": "3b0691335f89feb64055e912821551536b151c241fed00ac379adddfaeef212c"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/unsolved-nets.csv",
+      "sha256": "5a4c8722718fc25f3db14f8658083cdfd9cee80414b0a195fb1eeb32d10c2841"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/verify_native_trial.py",
+      "sha256": "1e22fbe398b87aa1c618c717647faf1464ebb85fc09390a20575d942d661e6ce"
+    },
+    {
+      "path": "engineering/k230-reference-balls.csv",
+      "sha256": "20449a79be2b030858420008326313e7a19caf166f0b4588f185eba3bcc28468"
+    },
+    {
+      "path": "engineering/mechanical/README.md",
+      "sha256": "b09e1643cab1d8a94395dab77289aa9990a25e30ba78ecc25975960e0c493d10"
+    },
+    {
+      "path": "engineering/mechanical/TOPSIDE_LOCALITY_SCREEN.md",
+      "sha256": "f505ec889d4d8aa8ead85b899ee1c470f4c9ae1a7619c916771844a3160fe781"
+    },
+    {
+      "path": "engineering/mechanical/bga-K230-physical-centers.csv",
+      "sha256": "0c9d8fc2a2b1e21dab63619da982fff17881238f2dd89abc5a81ed27068cc1dd"
+    },
+    {
+      "path": "engineering/mechanical/bga-K4F8E304HB-physical-centers.csv",
+      "sha256": "314ba4141f213bd0c312e4bff5f16715e4b2ede0b9aeeebcacfa2344b332448b"
+    },
+    {
+      "path": "engineering/mechanical/bga-KLMAG1JETD-physical-centers.csv",
+      "sha256": "e26777182a5dab040f69219c3d12cf67596d9ef7c40e86fed5852db6c529277c"
+    },
+    {
+      "path": "engineering/mechanical/bga-coordinate-verification.json",
+      "sha256": "8f39ad5ba65698e85b282bd51b11acbae1b5707762cc3edc31f8eecff70fd645"
+    },
+    {
+      "path": "engineering/mechanical/bga-mechanical-audit.md",
+      "sha256": "1edbb15d869eba664b93c7204c63b47764fb945f94cc272859c4c575a8bd801b"
+    },
+    {
+      "path": "engineering/mechanical/bga-verify-coordinates.py",
+      "sha256": "e3078f93a38a45039c11459b8886f01f0b7722ed3cec9373a9a3fdaca4402983"
+    },
+    {
+      "path": "engineering/mechanical/build_castellation_proposal.py",
+      "sha256": "37cffef39dad9d0df22fcc48957a491e87d6521a521518c9415f980e260c8703"
+    },
+    {
+      "path": "engineering/mechanical/build_compact_candidates.py",
+      "sha256": "ed77e09ee4937de8e8173d4c014401a392299fb9d376773daf40beb126bf9e85"
+    },
+    {
+      "path": "engineering/mechanical/build_nexperia_standard_candidates.py",
+      "sha256": "cc620319631c229f1a664825a1e621db4a3ebdc9ff683ca3d46edaecfa871aee"
+    },
+    {
+      "path": "engineering/mechanical/build_nvt4858_candidate.py",
+      "sha256": "8528f8ba7bd9ee87680045aeae28dc33cad33896d1f67e2527a9b7655409e0f5"
+    },
+    {
+      "path": "engineering/mechanical/build_passive_candidate_area_scenarios.py",
+      "sha256": "06a2f9be6afdba1e33e9bd74fc55e5c53e12d026464be3d69c4e03eba780ed46"
+    },
+    {
+      "path": "engineering/mechanical/build_placement_only_canvas.py",
+      "sha256": "3daaca4b787bdd3e9fccc53307f5f23b421af5ab7967bf8bb57686bc8586bbf5"
+    },
+    {
+      "path": "engineering/mechanical/build_verified_footprints.py",
+      "sha256": "e9b52b321cf09a168b40219fc282570368bf7be1a9e51347cc8bba06b815549f"
+    },
+    {
+      "path": "engineering/mechanical/castellation-fab-source-review.json",
+      "sha256": "1f3e77bad815faf44ddd8104d38d85e65199ac3b7dafa13e0a1650f866500884"
+    },
+    {
+      "path": "engineering/mechanical/castellation-proposal-artifact-sha256.json",
+      "sha256": "1f8bf8aa0a5dc1cc07e538d69cbe4ef8b461a0dcfa8f8eaf7fbab4100262bb91"
+    },
+    {
+      "path": "engineering/mechanical/castellation-proposal-contacts.csv",
+      "sha256": "5e45439d857f5c78264b2bc1b06559ca5d120401ae5616bc9d61b099c19c5c23"
+    },
+    {
+      "path": "engineering/mechanical/castellation-proposal-dimensional-proof.json",
+      "sha256": "e78bae43a6580537e60617f2aecd85675b660ab5fc890646cb4861c5db187a44"
+    },
+    {
+      "path": "engineering/mechanical/castellation-proposal-independent-review.json",
+      "sha256": "ef14b4fa4ee19fedb5c05f249f6bc69f90f30e2a1a8f45527f4348d70ef946b7"
+    },
+    {
+      "path": "engineering/mechanical/castellation-stackup-proposal-review.md",
+      "sha256": "68373a61c9e27ea411c0aa7799e6364f18f398abf7b0e9c40699dbf09ea8e5d7"
+    },
+    {
+      "path": "engineering/mechanical/check_compact_gerbers.py",
+      "sha256": "3ffb2b951821c6fa54754a49d68fabbb7c69c68bbf7f0860e12324fa066a0404"
+    },
+    {
+      "path": "engineering/mechanical/check_native_gerbers.py",
+      "sha256": "a299b4bc180042cc066138fbe828a5fc289cdf2806402e761564290726a1dea4"
+    },
+    {
+      "path": "engineering/mechanical/check_nexperia_standard_gerbers.py",
+      "sha256": "e96eecaf64e32c7c733a9d5d38cbcc7e04d60f437f8120d954b8a7cc5883ca1b"
+    },
+    {
+      "path": "engineering/mechanical/check_nvt4858_gerbers.py",
+      "sha256": "0c40736e07e8f67c38e4b0456b27bf92b892d6f06e96c7e38c9d131886a0c689"
+    },
+    {
+      "path": "engineering/mechanical/compact-AUP1G97-function-pin-audit.csv",
+      "sha256": "d5066eb2a2124f5092a25b1397a6bffd18870813ce91d7ea253437a57e302a5e"
+    },
+    {
+      "path": "engineering/mechanical/compact-AUP1G97-status.json",
+      "sha256": "5e8e3254c813dcd1cdf88841b34981c328f9d7147768e3b391eed06ccc1dd942"
+    },
+    {
+      "path": "engineering/mechanical/compact-AUP1G97-truth-table.csv",
+      "sha256": "f8d90cc54875cca446699a550bbbf8701c24e606dd27fe6840764a50cd4fbc38"
+    },
+    {
+      "path": "engineering/mechanical/compact-TI-source-manifest.json",
+      "sha256": "fd01508fe9521c9a3687d2aad302ff28a092fcb9f2e617cd6ead5bcd73ab4ddc"
+    },
+    {
+      "path": "engineering/mechanical/compact-TPS3808-proposed-net-remap.csv",
+      "sha256": "403cc0f7d0708029675b3a0f18a376773a70c4f44071cc65889e0e85714a0695"
+    },
+    {
+      "path": "engineering/mechanical/compact-area-scenarios.json",
+      "sha256": "389a59c18274e3ec6042a0acb095198e26e9dde4bc0ee066ebac97dbb72fc8fb"
+    },
+    {
+      "path": "engineering/mechanical/compact-artifact-sha256.json",
+      "sha256": "d24b14bc6750903923d297f65d8391f6ffeb4e167822543c3b42f376ef82134f"
+    },
+    {
+      "path": "engineering/mechanical/compact-footprint-spec.json",
+      "sha256": "0a30fa9548a02b16192f61cb89cc46d712733f996f98e34dba0106bdc52c505c"
+    },
+    {
+      "path": "engineering/mechanical/compact-footprint-verification.json",
+      "sha256": "e87e58bf5a3274fb96009aa6157e2b0541242c423e6eca804397c0202a2a6878"
+    },
+    {
+      "path": "engineering/mechanical/compact-geometry-drc.json",
+      "sha256": "fb3cf4d810406d5deb2b89cca7809d5a38fd7ddd01cbfe797566a9809aac8984"
+    },
+    {
+      "path": "engineering/mechanical/compact-gerber-verification.json",
+      "sha256": "94ff97f217d9579a58f65a780b6f33fc8260a05bb36d9244c259bf121bb91376"
+    },
+    {
+      "path": "engineering/mechanical/compact-inductor-mechanical-review.json",
+      "sha256": "05694f135704a8c9c85b73959226d72607559995edc101d8624d4da33e67b53e"
+    },
+    {
+      "path": "engineering/mechanical/compact-inductor-mechanical-review.md",
+      "sha256": "fd7f50a69d192391e848ce945c9bf0d6507986bbd88e91ef051b3fb12ce07dfc"
+    },
+    {
+      "path": "engineering/mechanical/compact-installed-library-comparison.json",
+      "sha256": "26ad52e0c4764f455d2962ca7c6446621ca66f08ba551968ffb3e0e683120ad4"
+    },
+    {
+      "path": "engineering/mechanical/compact-package-audit.md",
+      "sha256": "b9ce19962f6fbf03a69c9424d81c1f8846425e03459f8224f9743383b5aaf243"
+    },
+    {
+      "path": "engineering/mechanical/compact-package-pin-remap.csv",
+      "sha256": "d76a06feed61602a990b33a1122e6669f1aa5b4b6185e969f84352c6f89723f6"
+    },
+    {
+      "path": "engineering/mechanical/compact-pad-coordinate-audit.csv",
+      "sha256": "53ac8f49bf7e68c6f6c74539bfa1a533fc24343971c313a722fc0f28ab32ef40"
+    },
+    {
+      "path": "engineering/mechanical/compact-qa-gerbers/Compact_Package_Geometry_QA_ONLY-F_Cu.gtl",
+      "sha256": "b23b33fb8c483adacdb9efc7d74a7bfecb6549956ab8cd5c4f67e573673a76d7"
+    },
+    {
+      "path": "engineering/mechanical/compact-qa-gerbers/Compact_Package_Geometry_QA_ONLY-F_Mask.gts",
+      "sha256": "f65397ec3d92a150381da4ac90218a9194abb56021b7a2523705c91b665a5caa"
+    },
+    {
+      "path": "engineering/mechanical/compact-qa-gerbers/Compact_Package_Geometry_QA_ONLY-F_Paste.gtp",
+      "sha256": "471cdf350a59c557dc7abdb93ff5b506729a3c002792628e308de0b34c2427b4"
+    },
+    {
+      "path": "engineering/mechanical/compact-qa-gerbers/Compact_Package_Geometry_QA_ONLY-job.gbrjob",
+      "sha256": "92dcff58fcf31fb79af9c93582dbf90e208a88705250f27aab4b07ad54a1c887"
+    },
+    {
+      "path": "engineering/mechanical/core-stackup-process-proposal.json",
+      "sha256": "54c0d8362029b1aab3370c88b05b10580add0d1659c5402fe8db59d25d1d58d1"
+    },
+    {
+      "path": "engineering/mechanical/footprint-geometry-qa-drc.json",
+      "sha256": "5ca5a1308fce178413e9682e340db2ebff27e1a303f1363ccffc52d67c6f2903"
+    },
+    {
+      "path": "engineering/mechanical/full-bom-area-screen.json",
+      "sha256": "940c4bb5fc41dbd80e5ecba52e30a432a7c710ec390e1c69b29e14b46fd79539"
+    },
+    {
+      "path": "engineering/mechanical/full-envelope-packing-study.json",
+      "sha256": "ad1ec6de662c9c7d3bd1b749380be6e5d952a39b05ca1a0489164f0bf3bbf8da"
+    },
+    {
+      "path": "engineering/mechanical/installed-kicad-library-comparison.json",
+      "sha256": "feaae7500075612873b79efe6202907c1af603fcb7415648934c8baf522620f4"
+    },
+    {
+      "path": "engineering/mechanical/mechanical-artifact-sha256.json",
+      "sha256": "d4f4b68134565453f693966f73e9b52602a42ccabc762f12a350d99d3f7cd11c"
+    },
+    {
+      "path": "engineering/mechanical/micron-fw-independent-mechanics.json",
+      "sha256": "8de1e4fd683cbc2cb9c1ea52b73532cb303509b01e5fdef4d6893a9999347033"
+    },
+    {
+      "path": "engineering/mechanical/micron-lp4-audit-artifact-sha256.json",
+      "sha256": "86de2d683d969aaff403840cdc9dc7c6b3ca4304dce660ce07c4ae2296cfdf9b"
+    },
+    {
+      "path": "engineering/mechanical/micron-lp4-independent-grid-verification.json",
+      "sha256": "81b40d40c5b2e7664a3a5e870f7725e4413c472dcb3828802d45cc973e7c6570"
+    },
+    {
+      "path": "engineering/mechanical/murata-0805-output-candidate-review.md",
+      "sha256": "070f410e692e41152584e1a74a13e3c0a7e7cc200608ebb3e45d24ccb8d81ba3"
+    },
+    {
+      "path": "engineering/mechanical/murata-0805-output-candidate-screen.json",
+      "sha256": "06ed681ad4447f47588d630a5731948921f5462bf30ab99f8fcb1e82ef35037f"
+    },
+    {
+      "path": "engineering/mechanical/native-gerber-verification.json",
+      "sha256": "207a42e5b94d8b2aea2c12c5bc49c0f15daf31d1e9280c532c8b22001098b4c9"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-aup97-slow-input-review-sha256.json",
+      "sha256": "5eb713a97aa66e520399e87ea99bfbeb8dc49e02d8c3a4aa7d7994671ee0e9c8"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-aup97-slow-input-review.json",
+      "sha256": "014da4ddeb75498c21fa163133e0ccbef56bffcceb6dd2b7c38e5b4512b8c80e"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-high-temp-footprint-source-status.json",
+      "sha256": "2718cf99310fa03f5d5a2a112f22fd1181b22526b0dc41cefe7f300fbfdaf8a3"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-high-temp-pin-review.json",
+      "sha256": "423954cc08634e97a60f0354db479b0dda227eb6aca5639d57d4f9560c473a53"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-high-temp-source-review-sha256.json",
+      "sha256": "a5b366c01d6b9253bf21c982c827c61d9c6bbe2929e5e6214b88694f5c793448"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-artifact-sha256.json",
+      "sha256": "9b7a5c23e87ad9bd32bcb7b3a2d428c7559c2e4e9935a85c83c784fea6a95c2f"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-footprint-independent-review.json",
+      "sha256": "d96cccb5615adbdcb01fafd834dde484076f3bb66613d6d1747a194d634945af"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-footprint-spec.json",
+      "sha256": "78c50ecee2d70d8e3459513f174e319ffc5bee9c65a678f4135a20abcfe51ca9"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-footprint-verification.json",
+      "sha256": "02017141e0b233e06706cbda957f61cdc6a41af26dda5b510946ac53b28f54aa"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-geometry-drc.json",
+      "sha256": "3cbc4fe4864609de1c5a212f68d4099f29b525b1fa90eceb5c0f1d7066fa6d71"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-gerber-verification.json",
+      "sha256": "40a5dbd907e316c0a9a35a5fba60613d109a9c484cd2ca7407a204f7639b3596"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-logic-variant-review.json",
+      "sha256": "682d4a4774a97116a464ecfeff5bed5827b6263c8d1432fbfe8da49160759003"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-qa-gerbers/Nexperia_Standard_Geometry_QA_ONLY-F_Cu.gtl",
+      "sha256": "b0b4998cd60256071d332e35de610d6c90d42d858ebcee85792a8e21e649de8c"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-qa-gerbers/Nexperia_Standard_Geometry_QA_ONLY-F_Mask.gts",
+      "sha256": "f346f664964a4e813fee3bcf121588c5ab1bdfcfb9243c01768fd815b7780c41"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-qa-gerbers/Nexperia_Standard_Geometry_QA_ONLY-F_Paste.gtp",
+      "sha256": "704a7422e4c7aabe69b4d9e65c31afe67d88f251676e958f38fe91569f19f36e"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-qa-gerbers/Nexperia_Standard_Geometry_QA_ONLY-job.gbrjob",
+      "sha256": "2e6199c5fc6cd368ee242bd71d098adef77ad5e6953f492fa1a8d449a5d1fc3e"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-artifact-sha256.json",
+      "sha256": "556d2154445753e63f8bbffa1d2bc7e17d4c9647c03b9e813b8cedb56e4d81d2"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-footprint-spec.json",
+      "sha256": "3271f605903d1fd8ed8731ee206e4e3c27b571576f0ab64bd07cb5217b3a478e"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-footprint-verification.json",
+      "sha256": "669b5f6a68703bfaa9c28b03ce7528d226ab496aa13edcc714dc88b7cde49ab5"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-geometry-drc.json",
+      "sha256": "51815bf2da617e023d1bfa083254b8e4747bb4d1bcedceb92265a897d27cc309"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-gerber-verification.json",
+      "sha256": "824fcbbfc0b29466556fd7958f506916641eee042c22944f8b17263d5da809cd"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-independent-review.json",
+      "sha256": "d91c0a8ef0fee8a3df16a1f8543afa3e82e0d17f16af53000238176c4c62525f"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-pad-coordinate-audit.csv",
+      "sha256": "03cdd02c7c2150b27cff5cc8ff91bd19f5c693bc5a520f332de2dd5cd8d560eb"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-qa-gerbers/NVT4858_Geometry_QA_ONLY-F_Cu.gtl",
+      "sha256": "0a21ebaa075b2f36670e24f55f00ea3616123c4dae29de6e9a2f07a639cbf909"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-qa-gerbers/NVT4858_Geometry_QA_ONLY-F_Mask.gts",
+      "sha256": "19c1748e6b3fbb98e8a53a37c1392a585479665112a7d74fbae3cad450384e46"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-qa-gerbers/NVT4858_Geometry_QA_ONLY-F_Paste.gtp",
+      "sha256": "8b51527970bc5f50ffeb33ed26ffb9edcb80026fbf9b6e5e3c83fb2fbafef501"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-qa-gerbers/NVT4858_Geometry_QA_ONLY-job.gbrjob",
+      "sha256": "ca828481f8c94f9b94e624797655002cc81763a62b29eaa02b0276d1248af8d2"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-source-manifest.json",
+      "sha256": "cd12037074b10e3a14c9398bf5347cd6de1d0263f1d28e633787593b80c35ac6"
+    },
+    {
+      "path": "engineering/mechanical/original-step-edge-evidence.json",
+      "sha256": "c02317669a09b5703040d271bdfc6b35f0fc68bb18f18e47ab768258b2094238"
+    },
+    {
+      "path": "engineering/mechanical/passive-candidate-area-packing-scenarios.json",
+      "sha256": "c63a2286d84da14b8d23e29e6729857e8841f560020066a2c9509f9801f9740a"
+    },
+    {
+      "path": "engineering/mechanical/passive-candidate-rectangle-input-snapshot.json",
+      "sha256": "1a6335b51e1be3bd075541353b7addb7cf9b0e311d19bcbe408b6a476840e5e0"
+    },
+    {
+      "path": "engineering/mechanical/passive-capacitor-X5R-conditional-review.json",
+      "sha256": "662bf761d4d20d13d4c6f01f59c07ae0c0bd18ddfb764073bf1dd3bd80cd3bfc"
+    },
+    {
+      "path": "engineering/mechanical/passive-capacitor-X5R-conditional-review.md",
+      "sha256": "962d9740d79fefaea9f8b88802d32a801b13d38ba284dcc5322e437acd203acc"
+    },
+    {
+      "path": "engineering/mechanical/passive-capacitor-X7R-regulator-sensitivity.json",
+      "sha256": "47037ef1c3c8818f15f648936f8e04cbcf49917611365776d84d6e7000088a19"
+    },
+    {
+      "path": "engineering/mechanical/passive-capacitor-X7R-regulator-sensitivity.md",
+      "sha256": "8856d6ded0056ec375c20eec8100e41a6ecdf53a001a308b320434cd8f316327"
+    },
+    {
+      "path": "engineering/mechanical/passive-capacitor-candidate-review.json",
+      "sha256": "ac9e5489aa6e9b92e648701642fa689a0963f3dc15d6e7a60aaaa9e6010ec4a7"
+    },
+    {
+      "path": "engineering/mechanical/passive-capacitor-candidate-review.md",
+      "sha256": "0c253eb4734e33f3f3494eca049cddb6cfba35f8f00b550cb6b191958b2ad211"
+    },
+    {
+      "path": "engineering/mechanical/passive-envelope-correction-verification.json",
+      "sha256": "fe29369a900d90bfac47ed5f2c99feb5bbf048bbfb2d7cf324bcd039c272d9e9"
+    },
+    {
+      "path": "engineering/mechanical/passive-feasibility-input-snapshot.json",
+      "sha256": "aa2dc3a50f1142b3eccde4ca698e804c073f366e2da049c4501b9eaa5951bbc1"
+    },
+    {
+      "path": "engineering/mechanical/passive-hot-enclosure-review.md",
+      "sha256": "4fee587e3a8e1bf291feef51bf3e8e31670c7cda0d0f548c7950601d32972f1e"
+    },
+    {
+      "path": "engineering/mechanical/passive-inductor-candidate-review.md",
+      "sha256": "41041afb326328c03959b7db07de8b1d8d51905c7f1919d3e0a62c97c7f8b8bb"
+    },
+    {
+      "path": "engineering/mechanical/passive-inductor-ferrite-resistor-scenarios.json",
+      "sha256": "a3e50519db34353bb58d6c96e293cf9852fecaeebff670b2f6e542307c10fdfb"
+    },
+    {
+      "path": "engineering/mechanical/passive-physical-feasibility-review.md",
+      "sha256": "6488815ac42c8b41549ed9b382ab81f7dba5986342af197edbb28917f7ee13c7"
+    },
+    {
+      "path": "engineering/mechanical/passive-physical-feasibility-status.json",
+      "sha256": "7b577d8b97d1a54d9f01dbb2904a528da452b3e3b8cd97aa0e069d6d474856e5"
+    },
+    {
+      "path": "engineering/mechanical/passive-review-artifact-sha256.json",
+      "sha256": "dc2be844d6f28fdd08224a29c526b2fecda27ab8009757256c7d6b5bc50a172e"
+    },
+    {
+      "path": "engineering/mechanical/passive-small-parts-review.md",
+      "sha256": "905ade6abba74e7b7a494c43a107d4c8f3a61294060d7eacad6dea0ac8318717"
+    },
+    {
+      "path": "engineering/mechanical/placement-only-drc.json",
+      "sha256": "0bdf3b18a4257af3e48f2a512171888b3cfc43148fe2e8267d1ff05f4f6e6d52"
+    },
+    {
+      "path": "engineering/mechanical/placement-only-positions.csv",
+      "sha256": "229d582566b74ea7e11452841f803c945bb5cfd7c46636c2c740eef42dd4a93e"
+    },
+    {
+      "path": "engineering/mechanical/placement-only-verification.json",
+      "sha256": "e1d0eff83e8c7675d08dcf582727420ee01c6598c19aeedbdf3ef77322e84c8b"
+    },
+    {
+      "path": "engineering/mechanical/placement-validation-console.log",
+      "sha256": "e1d0eff83e8c7675d08dcf582727420ee01c6598c19aeedbdf3ef77322e84c8b"
+    },
+    {
+      "path": "engineering/mechanical/qa-gerbers/Footprint_Geometry_QA_ONLY-F_Cu.gtl",
+      "sha256": "196d02104a07c4aff154e53972bf916cc066cb0e112d713c006fc4a6e502e09b"
+    },
+    {
+      "path": "engineering/mechanical/qa-gerbers/Footprint_Geometry_QA_ONLY-F_Mask.gts",
+      "sha256": "23657bd3a5d9d8f57012c1f524c89b776edefbb029e4be77b6ab0155a9e72c04"
+    },
+    {
+      "path": "engineering/mechanical/qa-gerbers/Footprint_Geometry_QA_ONLY-F_Paste.gtp",
+      "sha256": "b9f5d717043318884ac615aa73dd6e24cdf31fa2a6180c8d406aaf5bb652f5e4"
+    },
+    {
+      "path": "engineering/mechanical/qa-gerbers/Footprint_Geometry_QA_ONLY-job.gbrjob",
+      "sha256": "ac3eb3929a289ba468c055b652c22bdb23a3c3eb8b25a3896540f22080802dd1"
+    },
+    {
+      "path": "engineering/mechanical/render_compact_gallery.py",
+      "sha256": "056c5d20a66274fcc710e769a548110211bfe2626400f199ba4599c79460b260"
+    },
+    {
+      "path": "engineering/mechanical/render_footprint_gallery.py",
+      "sha256": "390b2a73d5e2870c5661041aa5092fa6168a5b6d7910c17f66eddde786930c73"
+    },
+    {
+      "path": "engineering/mechanical/render_nexperia_standard_gallery.py",
+      "sha256": "a6f6905e7412228568d5b1deca55d3c17118b5b907cc5c343921afb6eea5dc56"
+    },
+    {
+      "path": "engineering/mechanical/render_nvt4858_gallery.py",
+      "sha256": "cedb8377500fa49d30dff42abd950b319392fb473a8741714941ff10e27c92d1"
+    },
+    {
+      "path": "engineering/mechanical/render_placement_only.py",
+      "sha256": "b07ae4ffee647bd76c492337f0fa668b7564c398e8f7d1abd9d12852a4ebc0b0"
+    },
+    {
+      "path": "engineering/mechanical/small-parts-footprint-spec.json",
+      "sha256": "f8bc329a0ace2065ab503037770e8aeee9dda642b39b5e5c64173329110125d1"
+    },
+    {
+      "path": "engineering/mechanical/small-parts-pad-coordinate-audit.csv",
+      "sha256": "e52b892384824b6ed8a7f448ef7b56eb4bcff64b272f4e3ed74621df5a367562"
+    },
+    {
+      "path": "engineering/mechanical/small-parts-verification.json",
+      "sha256": "f3197953ac89877e028e7ad5dd26229a3bd862c417f83f0b6a546a4feb84c3f7"
+    },
+    {
+      "path": "engineering/mechanical/ti-source-manifest.json",
+      "sha256": "34fc884cdab007e76b52aa4f1bbd5ad84168ab354fd7c35b132e14fa4ec83336"
+    },
+    {
+      "path": "engineering/mechanical/topside-locality-screen.json",
+      "sha256": "7f7e5a68e598a97e167d72b95edf1c33100cf9979824a6ef10cd49f3f7899ded"
+    },
+    {
+      "path": "engineering/mechanical/tps628681-qfn-process-comparison.md",
+      "sha256": "0083d6709d31eae2ed4eae81c6427ca7212b584ffa7045717592afb53eefe1ce"
+    },
+    {
+      "path": "engineering/mechanical/v12-physical-gaps.json",
+      "sha256": "98914f6f1b150bd83b2fda70d5df31288ea81239e40a87d1b5476b48c5a1cf23"
+    },
+    {
+      "path": "engineering/mechanical/validate_compact_candidates.py",
+      "sha256": "59032387570c893414d2787e327d1496ca6c20057ed2f15b3f76d2f92025857a"
+    },
+    {
+      "path": "engineering/mechanical/validate_nexperia_standard_candidates.py",
+      "sha256": "5a454ac0d6847331c38ed3df0f8dcecb13a5da64bf5eee19b3234c63b8efcf85"
+    },
+    {
+      "path": "engineering/mechanical/validate_nvt4858_candidate.py",
+      "sha256": "9dcb7764aac8ec339dfee3caaa40b0f670d56bcf738364850de00d6aa001948a"
+    },
+    {
+      "path": "engineering/mechanical/validate_verified_footprints.py",
+      "sha256": "86a34981e69cffc3305eb922154bb823adccc7f6804bbb5cd566c23ede31723b"
+    },
+    {
+      "path": "engineering/mechanical/validation-console.log",
+      "sha256": "f3197953ac89877e028e7ad5dd26229a3bd862c417f83f0b6a546a4feb84c3f7"
+    },
+    {
+      "path": "engineering/mechanical/verify_micron_lp4_candidate.py",
+      "sha256": "79088291993f5005f4ce3994d12235343f7d8c834f03cc0d6ca287c338f68591"
+    },
+    {
+      "path": "engineering/memory/K4F8E304HB_grid264_physical200.csv",
+      "sha256": "f632af408dcebc5a3b2e6e867fce417ec7f1e604bba24b617dd3daa8d20a1332"
+    },
+    {
+      "path": "engineering/memory/KLMAG1JETD_explicit_function_balls.csv",
+      "sha256": "d30e498518781eefc7fa97b3274e23883faf0b684f102475ca6ee726ef67a6b6"
+    },
+    {
+      "path": "engineering/memory/KLMAG1JETD_grid196_physical153.csv",
+      "sha256": "282bccdfa93fba5cfaa1e5260afc78a9b661facba659f6df4a6b9d97854d9eac"
+    },
+    {
+      "path": "engineering/memory/README.md",
+      "sha256": "5244ec71e81675dfbddcd311b7b89078e18b2a5f9338155f71e908e1d5259dc2"
+    },
+    {
+      "path": "engineering/memory/ddr-reference-adaptation-candidates.csv",
+      "sha256": "dc1954ce2b5bf6877261c6bc3cd14b95ca3cccab98072aab2855fc7ffe2e23d7"
+    },
+    {
+      "path": "engineering/memory/emmc-function-endpoint-candidates.csv",
+      "sha256": "f64325088ad696a9ad409eb12d53695f31942b1cbc19bfbd190ceeff62cb188d"
+    },
+    {
+      "path": "engineering/memory/emmc-grid-verification.json",
+      "sha256": "1999cd957f345e9d4cd9660287983d1e3937ad704d6c0e4d2f796f3844365361"
+    },
+    {
+      "path": "engineering/module-to-soc-candidates.csv",
+      "sha256": "eae4505feffaf9bc6265fa10a59930dc245eaa2cedd50125a4366a70c5fbdbd2"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/README.md",
+      "sha256": "5eb0943310b73b60b4f0187d8f2701b0c19c6b418e29190b036568293a6c2f6f"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/U14_SLEW_ADDENDUM.md",
+      "sha256": "35fbbea0a1e92d0a50879d2d450ef2c307f697ffc9c3f00a6ce06d606220323c"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/artifact-sha256.json",
+      "sha256": "ac8304da075194dfd57c3d07da75ef65bf323346dd797587056b5d139cfdd035"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/calculate_screen.py",
+      "sha256": "3b03d6409eb745be5631c1b378b58c690acb709150729393fa0ace29a6b002e2"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/calculate_slew_addendum.py",
+      "sha256": "3f65071e99e1b5172afb42826a3dd14f8bcc728ca66df43a0bf7b4e7d14587fe"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/input-snapshot.json",
+      "sha256": "7da137a44e7bb987e9d028ef87681f4c8d94d98e94f340b530788a098d10f3f3"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/per-reference-classification.json",
+      "sha256": "f44cf06af5e5a55a753e3497a90649cdfed690a2b855ea0313d6530917dff3a1"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/static-screen.json",
+      "sha256": "e410d6875a3106c0c601babce6e998c24dcdb7c16c95abb0de8299ce57ed9f3e"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/u14-implementation-before.json",
+      "sha256": "03f9f00ed1031433ac6a41d8e6d8ccd36905f9e608b634bc8cae14aae4ad9535"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/u14-native-drc-before.json",
+      "sha256": "d10629928efa1613d98afd39eb59d25d087037f6faa6462698dbb87ab2845910"
+    },
+    {
+      "path": "engineering/passive-resistor-candidates/u14-slew-addendum.json",
+      "sha256": "67020f1cab18b5d9eec31c69252b6e36550ccb06e3efd24dbd3e7b9fa922525a"
+    },
+    {
+      "path": "engineering/pin-types/README.md",
+      "sha256": "cbe9d3b958f259a01ff99da25d32f0f0a7ed3378740a252ebd0518bb933da7f2"
+    },
+    {
+      "path": "engineering/pin-types/emmc-all153-type-audit.csv",
+      "sha256": "f698ef467813d7b733aab5e711c0109c51fcdeb57108a7d5a48929c5d42c1d71"
+    },
+    {
+      "path": "engineering/pin-types/emmc-proposed-type-corrections.csv",
+      "sha256": "8bebbf72f58557b04935c1d9c2d458a31af705b9c4a5ebd9368fc672dd0e0fe1"
+    },
+    {
+      "path": "engineering/pin-types/k230-all390-type-audit.csv",
+      "sha256": "2bffea5b356a21ac97134c369cfe31c8af2ba9ea836f6c5712a1d2e61bb37747"
+    },
+    {
+      "path": "engineering/pin-types/k230-proposed-type-corrections.csv",
+      "sha256": "b2b444bf863b35e9d6e4b7059b49c22ccb72816ca1837932033884787d521fcc"
+    },
+    {
+      "path": "engineering/pin-types/k230-type-audit-manifest.json",
+      "sha256": "6cd01ab8e334cfbc348b868c1f78133fc837125024555f47f0ded90e988a0dfb"
+    },
+    {
+      "path": "engineering/pin-types/lpddr4-all200-type-audit.csv",
+      "sha256": "2d45ad6296f2fa2772b3a08f2496b9281e8dd1da1c68bbcec2928c131ffe7bf2"
+    },
+    {
+      "path": "engineering/pin-types/lpddr4-proposed-type-corrections.csv",
+      "sha256": "a0e5179ef4ae461d1867f463507aad5dacb3b0c79d7bab84ffd5ef5c0378f67e"
+    },
+    {
+      "path": "engineering/pin-types/memory-audit.md",
+      "sha256": "718f435d225ddba4eca2770145c70955cceda9e17a03c43742ed34058cfdd468"
+    },
+    {
+      "path": "engineering/pin-types/memory-type-audit-manifest.json",
+      "sha256": "b939b4c45a1ac914044f453600ac69cdf5bed154aecd78035183f82cbfa446dd"
+    },
+    {
+      "path": "engineering/pin-types/type-application-evidence.json",
+      "sha256": "4c58c353be678dce2a6ed3b2f9e6589f677d4fb9630c0758d0f79e2974d1413e"
+    },
+    {
+      "path": "engineering/pmu/STARTUP_CONTRACT.md",
+      "sha256": "233e2b6894952d157ddc76afebaa3eddd7bcacf268c27d433bf0d65514c6c0d5"
+    },
+    {
+      "path": "engineering/pmu/startup-pin-net-matrix.csv",
+      "sha256": "fed6fca0d0a50cba40a858016f46c965fb0dd2835eb6aed8dd947735e21251c0"
+    },
+    {
+      "path": "engineering/power/POWER_DESIGN_CN.md",
+      "sha256": "669146454286f755912bd2f57b65a67efa3bb53cd65c7b6dd0083457fa8f2d98"
+    },
+    {
+      "path": "engineering/power/internal-pmu-i2c-review.md",
+      "sha256": "ce4e473516829ad99cecee6f4d858623000306ece5fadca18977515b4493642d"
+    },
+    {
+      "path": "engineering/power/power-netlist.xml",
+      "sha256": "03f1ee35bef8e743f42f856579583658174d0cd3fc27a74f139e5a192dbbaf3c"
+    },
+    {
+      "path": "engineering/power/power-pin-net-matrix.csv",
+      "sha256": "1556ae5f44750c366a7820019c117aef8579f1676c859fba98993c93585133d0"
+    },
+    {
+      "path": "engineering/power/power-validation.json",
+      "sha256": "16a5ac46a2bb70f4f844fcd6652e561979cd78d2406b6ee9ceb7075a042913e8"
+    },
+    {
+      "path": "engineering/power/rail-components.csv",
+      "sha256": "d62ed5f4f1a3c4c192690640fdd95d162338a6a8546eac993c2b6b7e7641f65a"
+    },
+    {
+      "path": "engineering/power-design-decisions.md",
+      "sha256": "6f43ed81c1344d0e4b7fc1a52926525052b0617c8731dcdd7b42078343ec53d3"
+    },
+    {
+      "path": "engineering/process-rule-controls/default-v11-diagnostic.json",
+      "sha256": "cb9015415e209847ad3fec10791dffb863390ede6ced2a6d91000c614aa0351e"
+    },
+    {
+      "path": "engineering/process-rule-controls/foreign_track.json",
+      "sha256": "0a8baf0e1b89d4eeef76bcdaaf09ccb43748fa1f901888539bc7a4ab92c8f2c0"
+    },
+    {
+      "path": "engineering/process-rule-controls/foreign_track.kicad_dru",
+      "sha256": "e737861da48fe1471d2e848edc145cf71c33b8a00a973d7c601732c1df1000c1"
+    },
+    {
+      "path": "engineering/process-rule-controls/foreign_track.kicad_pcb",
+      "sha256": "96db0c11229da9dbaa65269d795f3171b6940345371abba7864bd7bda77d5d7a"
+    },
+    {
+      "path": "engineering/process-rule-controls/foreign_track.kicad_pro",
+      "sha256": "0602ca786fb4635f0df8b22d673b422f2c541040b54b229c906f383db71a74da"
+    },
+    {
+      "path": "engineering/process-rule-controls/listed_pair_intrusion.json",
+      "sha256": "f18ac9a7ed9cf6623e02482fcb122708b9ea2646757e7f9ecadfd7fba03be99d"
+    },
+    {
+      "path": "engineering/process-rule-controls/listed_pair_intrusion.kicad_dru",
+      "sha256": "e737861da48fe1471d2e848edc145cf71c33b8a00a973d7c601732c1df1000c1"
+    },
+    {
+      "path": "engineering/process-rule-controls/listed_pair_intrusion.kicad_pcb",
+      "sha256": "4b382c7225d894ee1d67105dc6835b1ef704c2100916f420bdad7aa6b5f441db"
+    },
+    {
+      "path": "engineering/process-rule-controls/listed_pair_intrusion.kicad_pro",
+      "sha256": "0602ca786fb4635f0df8b22d673b422f2c541040b54b229c906f383db71a74da"
+    },
+    {
+      "path": "engineering/process-rule-controls/scope-control-validation.json",
+      "sha256": "89b50270a2aac854c55bcb5c10eb2596521fdf523b3939de1bc5b95e12086a98"
+    },
+    {
+      "path": "engineering/rail-budget.csv",
+      "sha256": "7fe5434d28edfebf3f250fa47e129f859e9da8b97a1a6bfc78926636e08153a5"
+    },
+    {
+      "path": "engineering/reset/BUFFERED_RESET_REVIEW.md",
+      "sha256": "fdd23078f1a2329e830f2cd3fd12d45e5b4e23aa5e1304e1df0eb6def19b8cb6"
+    },
+    {
+      "path": "engineering/reset/COMPACT_INTERLOCK_CONTRACT.md",
+      "sha256": "973e57313b8767ad28542e10df94df63d3ca041749aece7de1119c842ec9da53"
+    },
+    {
+      "path": "engineering/reset/SUPERVISOR_CANDIDATE_REVIEW.md",
+      "sha256": "5f3bf96c55427b520cea5d5b77f04d16e281ed047cf78aeb13c04e2252ac628d"
+    },
+    {
+      "path": "engineering/reset/buffered-reset-static-screen.json",
+      "sha256": "46a21aedcbcb6234389359f0ee0b72169da68eae0191362b07f60e802563b471"
+    },
+    {
+      "path": "engineering/reset/interlock-validation.json",
+      "sha256": "4b25dd9ac9d638a15840d004749084759b3c9a239ab30d4740ed059d9710f4db"
+    },
+    {
+      "path": "engineering/reset/supervisor-pin-net-matrix.csv",
+      "sha256": "ee1688e09821ff9cbc01631c7490e9b5694919f82a7b7c89671be9165913b634"
+    },
+    {
+      "path": "engineering/reset/tps3850-candidate-corners.csv",
+      "sha256": "8e9a997af73d64984dcfd5970e788d7d28b5643a65f4643e3f07ce9c5081f631"
+    },
+    {
+      "path": "engineering/reset/tps3850-candidate-corners.json",
+      "sha256": "1f5a66b7683920cfec29929bc92208833bb759490cee2fb68f87997a80a2e11e"
+    },
+    {
+      "path": "engineering/reset/vin-guard-070pct-screen.json",
+      "sha256": "bc8be707a78729e57f2eb216c0455fdc27b535eb78bee7869255722ffd51cdf4"
+    },
+    {
+      "path": "engineering/reset/vin-guard-070pct-screen.md",
+      "sha256": "2fd9dcd62aeb6730b913cadf8d56f23b513586864337852c6bb5c27354172e73"
+    },
+    {
+      "path": "engineering/routing/DDR_ROUTE_CONTRACT.md",
+      "sha256": "75f57a68cb9d1e31d5d2cd943684c3edfc1ec5d89598c79682db8ff1f681bc03"
+    },
+    {
+      "path": "engineering/routing/PDN_BUDGET_SCREEN.md",
+      "sha256": "7c36c848a7c4c71cbce937e95498137f5ffc5af8d5b7cf9ee71e8151c3ca280f"
+    },
+    {
+      "path": "engineering/routing/high-temp-ddr-route-contract-validation.json",
+      "sha256": "fd4e185f158ed22302203f7bbcbca5d7c7ed08b3f9d999c63ef4efb42aa24556"
+    },
+    {
+      "path": "engineering/routing/high-temp-ddr-route-contract.csv",
+      "sha256": "3ce34ee4fd1f1f72cc833b49415ea8eae62887d0ba0a30fc86febdcef86a106f"
+    },
+    {
+      "path": "engineering/routing/pdn-budget-screen.json",
+      "sha256": "c67c5077776f835d9a15a89bee19ce600c35ece65ce7b60455de2ad0b5107f80"
+    },
+    {
+      "path": "engineering/si/IBIS_LICENSE_STATUS.md",
+      "sha256": "b447ab23a25d551b787851f9a8f27396b4ef7ce07ca723a8e324636bd63b9a46"
+    },
+    {
+      "path": "engineering/storage/CREG_REFERENCE_DECISION.md",
+      "sha256": "ea7e697fd8071ea4cd89eb52e5b28052721869e52014fc7ff46d70f710e3603e"
+    },
+    {
+      "path": "engineering/storage/OTP_TOOL_READONLY_FINDINGS.md",
+      "sha256": "0fe3ca2589cbd59db55c36a3446bee5c046fe74b24e9d88fcea5060e5ceee365"
+    },
+    {
+      "path": "engineering/storage/README.md",
+      "sha256": "084066d4209861d72cc3b60f6093b62834f5de31a1d18e095163a98d5f48591a"
+    },
+    {
+      "path": "engineering/storage/SELECTOR_DESIGN_CN.md",
+      "sha256": "238e2a395be5dbb1f1c98f469c6bc7a0f797da3bdd94e3def54b042789f80a27"
+    },
+    {
+      "path": "engineering/storage/TF_TRANSLATION_CANDIDATE.md",
+      "sha256": "894e7d9112c469234f0e451355728acc8b92887a32992a7e1b4085716d0231fe"
+    },
+    {
+      "path": "engineering/storage/boot-voltage-creg-review.md",
+      "sha256": "9cd0decf742e585cdd276b8d1157c822108f4fdb11b5a6c817accb475f1048cd"
+    },
+    {
+      "path": "engineering/storage/cold-storage-voltage-review.md",
+      "sha256": "62e0d7459af0c1d4c0e2555efd9f2223aab86241e26f3bcff365f773a69a2c7a"
+    },
+    {
+      "path": "engineering/storage/creg-reference-evidence.json",
+      "sha256": "69d231c1707746ca14b0ea794ae8d094985e9c42109a0646585a6aca41d18f80"
+    },
+    {
+      "path": "engineering/storage/emmc-support-pin-net-matrix.csv",
+      "sha256": "12b3b352ab53e634a42779b4ad83aaa85626493719e8c0954d45f6c613862ef1"
+    },
+    {
+      "path": "engineering/storage/sources.json",
+      "sha256": "2574340797f1367c15c674dcb2b64ad3949577a40f6f091a6d6849031d8d57b9"
+    },
+    {
+      "path": "engineering/storage/switch-connectivity-test.json",
+      "sha256": "2fbe7f90a1fa69e003436e5da3f13295d0c722da46ae94e8d6b62b50e8fa608b"
+    },
+    {
+      "path": "engineering/storage/switch-erc.json",
+      "sha256": "2db729c7f7873a39235e2e2bc9ba4afb9871e6c75a28c07c70931613280fac86"
+    },
+    {
+      "path": "engineering/storage/switch-netlist.xml",
+      "sha256": "662a8bba478b089dd05ebe29afdea6e1c05b50f2cd0fdfa8fa15b8009d07d5fd"
+    },
+    {
+      "path": "engineering/storage/switch-pin-net-matrix.csv",
+      "sha256": "8e0272ca1d174738d6af7a5741a570a6b78eac7f2942727976e15c25c4cdcccd"
+    },
+    {
+      "path": "engineering/storage/tf-mapping-and-test-pairs.csv",
+      "sha256": "38833342bc517bdc6965c2169606b403983e08841021c1dfbc8228e7a8b7f1f1"
+    },
+    {
+      "path": "engineering/storage/tf-translator-pin-net-matrix.csv",
+      "sha256": "cd9715bea447933b7d96be9e9b66674b590974aa6416ca4d6beec78311604991"
+    },
+    {
+      "path": "engineering/storage/tmux1574_limits.csv",
+      "sha256": "3f86f1e67a6ecc2eb830af6b197fa85a00d91bc69ac845fc10cc67a0679d2fec"
+    },
+    {
+      "path": "engineering/storage/tmux1574_pinout.csv",
+      "sha256": "bf6220c8b04e61756d9531fcbf39028845900223cf3cac765380c04fce68b542"
+    },
+    {
+      "path": "engineering/storage/tmux1574_truth_table.csv",
+      "sha256": "23a08ac16e86d9cc5a64c597395b63b61a157882b30137fc55eb71b231b2daa6"
+    },
+    {
+      "path": "engineering/thermal/HIGH_TEMPERATURE_GATE.md",
+      "sha256": "99109c5e35ea9dcec13624c9f880d5320d54003553e04791087b190d9837a5be"
+    },
+    {
+      "path": "source-interface/CM-K230.pcbdoc",
+      "sha256": "21d9fa018d7e234c43160a8c85ffa99993ba5045702dc57394114dc15e410dcf"
+    },
+    {
+      "path": "source-interface/CM-K230.schdoc",
+      "sha256": "b81a35adc8bd6b72608139f274f3dddd91c1b4a9e4297dab25c3c9ebb77d2e63"
+    },
+    {
+      "path": "tools/audit_official_checklist.py",
+      "sha256": "91f8976786bf7d71c0497ab76ee1715ab530df7ec98be7455bc0158a2f2ad977"
+    },
+    {
+      "path": "tools/bind_edge_pcb_seed.py",
+      "sha256": "317bacebe9543ef22256e420dee9c35fd71cb14fae0e46025d08832cd99a8490"
+    },
+    {
+      "path": "tools/build_conditional_process_check.py",
+      "sha256": "2d56d7e92372c8c120ab07ec26d28d653fd0320a0e6f0a74511315c6596b665b"
+    },
+    {
+      "path": "tools/build_ddr_candidates.py",
+      "sha256": "1e93e21fe27011a34175b41e3970a0643020befa2f44183d9fa240d27e5e13c8"
+    },
+    {
+      "path": "tools/build_ddr_route_contract.py",
+      "sha256": "eb09607ba5c68143511479afa01d6a6a53a2e5377dc3b2b29dff62c463ec4277"
+    },
+    {
+      "path": "tools/build_murata_inductor_land_candidates.py",
+      "sha256": "c2683e1c4f362d6c0eb8ab6728a9cd187008a8e37fa139e793f5a3769a7c008d"
+    },
+    {
+      "path": "tools/build_pdn_budget_screen.py",
+      "sha256": "2102bfb5b6d35f0eaa1ba3f12cadc7066ace6d973ec46f3de1eeeee55250ace2"
+    },
+    {
+      "path": "tools/build_samsung_bypass_land_candidates.py",
+      "sha256": "8fef10e0589550d7e22df8d7c67d3355b49b60b33a538d48f933aeadaad1c1d1"
+    },
+    {
+      "path": "tools/build_tnpw_land_candidates.py",
+      "sha256": "6277968469a35349c1d559230269eeff59d9911d453d4bd6d3bf486292913143"
+    },
+    {
+      "path": "tools/check_buffered_reset.py",
+      "sha256": "32676113d80d459164bc44d0d5d81c8882cb7b362a3a7e407e487b7d85183881"
+    },
+    {
+      "path": "tools/check_supervisor_corners.py",
+      "sha256": "481886a17c743d920093bfc6c0051416e523d997a792a5583c551050a3c2332a"
+    },
+    {
+      "path": "tools/estimate_high_temp_area.py",
+      "sha256": "a2531172acf1dcfb11d2d53fbb4c82ac2d2e762e6b43535fe8c06000cc1e2aad"
+    },
+    {
+      "path": "tools/estimate_topside_area.py",
+      "sha256": "d6e4bbedebf9411d2db74e90baa37a6927b3b769516e5ec4c89721b64c7db1e2"
+    },
+    {
+      "path": "tools/extract_micron_emmc_candidate.py",
+      "sha256": "4f8cac9facec4e08e394dc6594e6377787b48fd88da078257615943ea61057e6"
+    },
+    {
+      "path": "tools/extract_micron_lp4_candidate.py",
+      "sha256": "24a6ad1154f426fc5c9f582d39e284b1189b06e9ded9784f15e07753db2f4479"
+    },
+    {
+      "path": "tools/generate_bias.py",
+      "sha256": "3db6bb991c2d9e1cf68e1829e5dd21ac5feb8ef8acfa4759726f2ad7a24ef535"
+    },
+    {
+      "path": "tools/generate_core_aux.py",
+      "sha256": "5cc4897ba029a0458b2dd237900b1e0a3f26a36c17800dfdf525fce17ebe4423"
+    },
+    {
+      "path": "tools/generate_crystal_footprint.py",
+      "sha256": "1f9158d0a349b3f521b1d9516891fae7f5016315a109da94c404490ece964b85"
+    },
+    {
+      "path": "tools/generate_decoupling.py",
+      "sha256": "7be504a1b7269bc4088728564c8836343c18a3355ef5adf716f121e04d2ce16b"
+    },
+    {
+      "path": "tools/generate_emmc_support.py",
+      "sha256": "ee11d2d510a0f6681cf563823e3b7ef0d26ebb0f9f8ed0744a0aab144e5376ba"
+    },
+    {
+      "path": "tools/generate_pmu_startup.py",
+      "sha256": "ed5557fe1aae0384b3e7fb5d3d004ff138f87891d5a0fa2986a1dcce34203794"
+    },
+    {
+      "path": "tools/generate_power.py",
+      "sha256": "413a73d3222bed16397236920800c43813bf12ddf4a8b48f052944ecb87c2e49"
+    },
+    {
+      "path": "tools/generate_starter.py",
+      "sha256": "4a22921d1d3e20093d93ebbae8af2527a3fbff09a54701e145dc25e5a512a264"
+    },
+    {
+      "path": "tools/generate_storage_switch.py",
+      "sha256": "6876bab43cc9dd9d13527f0807cd8300d9ea1b66214717db0e5afed585dc611a"
+    },
+    {
+      "path": "tools/generate_supervisor.py",
+      "sha256": "f970330d85823635ea27407ef6087cafb37222db9cdb3a54b2878ad8f96567c7"
+    },
+    {
+      "path": "tools/generate_tf_translator.py",
+      "sha256": "93838ea5e95efd39dbe80a1c13084df3fce447e65f5f983150ec8ac5a8fde35d"
+    },
+    {
+      "path": "tools/import_verified_core_parts.py",
+      "sha256": "54744a81f7ea05b73c04df1ca0441f8d6943abe34daa329ad8e208fabdcc8323"
+    },
+    {
+      "path": "tools/pack_component_envelopes.py",
+      "sha256": "c9aee6921505425f67a1ca9112b2c431efa9057c464fbed863f76c1cfbe50dca"
+    },
+    {
+      "path": "tools/screen_net_aware_bga_anchors.py",
+      "sha256": "495259a4fcfa8045b6162c8069f66ca9b30d4ea260c0e320ef57d3d827be6923"
+    },
+    {
+      "path": "tools/screen_topside_locality.py",
+      "sha256": "d2b0998657f3543d4eeeca43a4cfa21c6be2f385b9994113f2bd78f3f8be8d84"
+    },
+    {
+      "path": "tools/test_conditional_rule_scope.py",
+      "sha256": "70a6938da025b90e45ffc9435a22d46e99e27280d6ac252ad50d85899e5cab21"
+    },
+    {
+      "path": "tools/test_integrated_interlock.py",
+      "sha256": "7076feae0bb13addd9797de972e43eb4c25ad0c2307d7cde3e447abf32a6f683"
+    },
+    {
+      "path": "tools/test_storage_switch.py",
+      "sha256": "4d32aab425431c1f274a0793bbfefca36318f353a80ae6c2d7e87bf28f8238d0"
+    },
+    {
+      "path": "tools/trace_power_sources.py",
+      "sha256": "9ec2623f80ca5129fb8db7fb1025ceedaf265a7ef6a8ace61dcf66bd40defe86"
+    },
+    {
+      "path": "tools/validate_bypass_candidates.py",
+      "sha256": "bb9b04ea9ca53557be512fcfe41a9034cbf2741ce5e35ec762d548ff36b161ad"
+    },
+    {
+      "path": "tools/validate_high_temp_power.py",
+      "sha256": "71e7cb3ae95234ecd8f4e2b352c8cb89c41608e420e2a5e9a7b908b642e97dc1"
+    },
+    {
+      "path": "tools/validate_high_temp_u14_or.py",
+      "sha256": "93d0c88656f41ea349cc3c8ca312eb3a06608d603aa6a4c1a4575e36eb30c2b5"
+    },
+    {
+      "path": "tools/validate_precision_candidates.py",
+      "sha256": "1e19717e76fa1248cea7da4a16673f8711a366fdcc491538a2a1a890a97c90f5"
+    },
+    {
+      "path": "tools/verify_emmc_grid.py",
+      "sha256": "6d04105b1a4a26062b5d546338533c9d0b3beeab6424c5a57c361d3891a8a86e"
+    }
+  ],
+  "omitted_redundant_visuals": [
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/preview/native-L1.png",
+      "bytes": 233794,
+      "sha256": "19fd8c3ce0b7039e3567f877f70c4e12ae6bf5dded0a674e61c7da6be204b2db"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/preview/native-L1.svg",
+      "bytes": 92818,
+      "sha256": "5347e1583377cdac3798586e10303082e9b81ac4c669602a0c30ebe7dcfe2708"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/preview/native-L3.png",
+      "bytes": 173059,
+      "sha256": "c2de39afcbd9a7236dab14f81e7d4a4828a4cf640801a5d919f5aad1ab36d96b"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/preview/native-L3.svg",
+      "bytes": 75620,
+      "sha256": "43c14eda11e3553727fbec7cb314ab73350db3476ebf4f8eb0c91a1536c95221"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/preview/native-copper-overview.png",
+      "bytes": 236782,
+      "sha256": "e5e69dd1fac24721d21a10e71e6ea7ed4f1ca99acce5d0c643efb618d4fac910"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/preview/native-copper-overview.svg",
+      "bytes": 99902,
+      "sha256": "3504987d3a7bb1a3a29711c95a4b5191bbcf22fedd35bbf8235558c022f4cea7"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/preview/native-top-mask.png",
+      "bytes": 248221,
+      "sha256": "93f516023469e19c7d41c9c1cd749293193b006a2584ff1bebef9449e1119f59"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/bh153-sparse-trial/preview/native-top-mask.svg",
+      "bytes": 394615,
+      "sha256": "91624b5b4436ae72c1c4051857793f7919142535f95264aeaeaae67511ffd867"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/k230-ddr-constrained/preview/native-L1.svg",
+      "bytes": 187359,
+      "sha256": "c11a2dc0f7e32553fee0f580643ddd7e235827fc9589d5a75179d9b46461adca"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/k230-ddr-constrained/preview/native-L3.svg",
+      "bytes": 137460,
+      "sha256": "fe79db5ad0262ee59fe01bb4e58e99c36ea37d55a0580e651ce133bfed4a2f5b"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/k230-ddr-constrained/preview/native-L6.svg",
+      "bytes": 132738,
+      "sha256": "907b272d298b70d61165c418287324848e0c50aeb9adfabe48996b09b823c5fa"
+    },
+    {
+      "path": "cad/bga-engineering-candidates/k230-ddr-constrained/preview/native-L8.svg",
+      "bytes": 138085,
+      "sha256": "959d006e43e3f4b9fc439786062945891184bc8000d93b6a9fa011c01e2fb1c3"
+    },
+    {
+      "path": "cad/instrumented-reference/review.pdf",
+      "bytes": 3461206,
+      "sha256": "9ec33cf34acd6a2aaec4f33854825ab4493498e4cae4f61a41319dc4bfb8435a"
+    },
+    {
+      "path": "cad/integrated/review.pdf",
+      "bytes": 3278624,
+      "sha256": "5cd57c5011d6c47627766c6b4122afd5af47b4bd2b459163a1d58ac563d19e6d"
+    },
+    {
+      "path": "cad/verified-footprints/crystals/render.png",
+      "bytes": 27560,
+      "sha256": "6f1cfcc7129ccaa411a266ba0b12d0001a2707d282861b868b7f182dfe8dd39b"
+    },
+    {
+      "path": "cad/verified-footprints/crystals/render.svg",
+      "bytes": 55719,
+      "sha256": "a811973a62c1e23c65c9f454daec097ea6f65698d7eb8c2017067fe43d9eb92a"
+    },
+    {
+      "path": "docs/bias-preview/CMK230_Bias_REFERENCE.svg",
+      "bytes": 493012,
+      "sha256": "168db02787314cb3e490b6708b446577ff58e982437a81e731cfe14f22ac5b97"
+    },
+    {
+      "path": "docs/core-aux-preview/CMK230_Clock_Reset_REFERENCE.svg",
+      "bytes": 544846,
+      "sha256": "9835385527d79ab0a5447c1ae196d87bce85a4b0e443410157dce097e658f983"
+    },
+    {
+      "path": "docs/decoupling-preview/CMK230_Decoupling_CANDIDATE.svg",
+      "bytes": 1435891,
+      "sha256": "1588683ab6002fc585752051337e6103d00082a731562e7866b34e309ce0f0d4"
+    },
+    {
+      "path": "docs/interface-preview/CMK230_Interface_ONLY.svg",
+      "bytes": 1033310,
+      "sha256": "267eec1bb41bc8706ee969c9b49d2dfa348dee502e84f08f32e8837f17c4c824"
+    },
+    {
+      "path": "docs/kicad-gui-test/drc-result.png",
+      "bytes": 32884,
+      "sha256": "85747debfea51b113d7a4302301e7d633a4353e3ad6008670b0532e8dbb5025e"
+    },
+    {
+      "path": "docs/kicad-gui-test/erc-ignored.png",
+      "bytes": 35779,
+      "sha256": "b86e06e709961c0f9ab157ea255adc60eda3ca2b3c4ec0fbe27257a7bda91c3a"
+    },
+    {
+      "path": "docs/kicad-gui-test/erc-result.png",
+      "bytes": 43236,
+      "sha256": "457178aee9acfc946b09ea700dff53e78e6a7b3721363a449be200f8d295ba2f"
+    },
+    {
+      "path": "docs/kicad-gui-test/final13-erc.png",
+      "bytes": 56140,
+      "sha256": "d6f5b9ccae4f371428fd9371fbedc706d9559e640f39c1040a358a403ef7ccfc"
+    },
+    {
+      "path": "docs/kicad-gui-test/final13-power.png",
+      "bytes": 134567,
+      "sha256": "c63588be7fbaf348ddc901862374b90dc991c20e779f8f460e4ff6c754ed4454"
+    },
+    {
+      "path": "docs/kicad-gui-test/final13-root.png",
+      "bytes": 155158,
+      "sha256": "5a1d720bb961293d2b3151df3eed896ca19412fd52076abc2b53ae22d1d18c2d"
+    },
+    {
+      "path": "docs/kicad-gui-test/footprint-after.png",
+      "bytes": 169263,
+      "sha256": "6ccb9fe53f91c955fcbeb7d2b4192a87e7aa081be6be51c4da96348bd989ff16"
+    },
+    {
+      "path": "docs/kicad-gui-test/footprint-check-after.png",
+      "bytes": 16469,
+      "sha256": "d401b3bb468759de02c81c6392ed059c6189c9064dc28cf37ec3a108f9e94ddf"
+    },
+    {
+      "path": "docs/kicad-gui-test/footprint-check-before.png",
+      "bytes": 19970,
+      "sha256": "dbb7845e77083c68ef8106170d0b98e1082ee909737524fe290c0b06fc67b9d0"
+    },
+    {
+      "path": "docs/kicad-gui-test/footprint.png",
+      "bytes": 167451,
+      "sha256": "a0530f2197567c9cc0ebcc6ba0da7a4dc43fcfb055f573146f71a9e5ea5a08e9"
+    },
+    {
+      "path": "docs/kicad-gui-test/integrated-erc.png",
+      "bytes": 55391,
+      "sha256": "0ddb874ef8e0af3cae6fd523ecc7341f7fa64bb6047da29d26e72320c936d839"
+    },
+    {
+      "path": "docs/kicad-gui-test/integrated-lpddr4.png",
+      "bytes": 163206,
+      "sha256": "57fabeaeb3ac8a61dd9ac043cde1db937e3e96f3dae13dc736481af810bf02f0"
+    },
+    {
+      "path": "docs/kicad-gui-test/integrated-root.png",
+      "bytes": 148867,
+      "sha256": "aacbe4120efdac7d1d51416f0ddb2b857334447ab765bc08be42f3d0ae53303e"
+    },
+    {
+      "path": "docs/kicad-gui-test/integrated-storage.png",
+      "bytes": 158076,
+      "sha256": "379dfed8fe87444a3f77b0499b27d015cc8a8f428df361aa1c1a2fa3abcf975a"
+    },
+    {
+      "path": "docs/kicad-gui-test/pcb-outline.png",
+      "bytes": 117302,
+      "sha256": "79e009a0f5554773a75e7deaf484d8bd5f4980f18470e9e0e3ef9158fc450886"
+    },
+    {
+      "path": "docs/kicad-gui-test/placement-only.png",
+      "bytes": 164887,
+      "sha256": "f5a38636d6131d17052a610a2c3637871ca9ea3ade7e884b9f237c2ffd7a447f"
+    },
+    {
+      "path": "docs/kicad-gui-test/schematic.png",
+      "bytes": 141315,
+      "sha256": "9b2e99b400fe1967732035947853f56818e96758a53cba403b19c2c753d18380"
+    },
+    {
+      "path": "docs/kicad-gui-test/v6-erc.png",
+      "bytes": 49505,
+      "sha256": "88514dd3e1e31a386a6674dab2197880a8639d07f5b6e7b28271206530d4a1cd"
+    },
+    {
+      "path": "docs/kicad-gui-test/v6-root.png",
+      "bytes": 157166,
+      "sha256": "39cc83167752192ea14039ec4efe7c64f5adec4a5117967d2fef924efc20d3a0"
+    },
+    {
+      "path": "docs/kicad-gui-test/v7-erc-ignored.png",
+      "bytes": 35228,
+      "sha256": "c68154e839d6beffcca9ed8f953fe4d1fb7648bb550bb8c66a6fa1034520d5f5"
+    },
+    {
+      "path": "docs/kicad-gui-test/v7-erc.png",
+      "bytes": 24837,
+      "sha256": "f8ab1736862f25e243385b9492eaf6faa3b7c5238bd74f95824dd63ecf879167"
+    },
+    {
+      "path": "docs/kicad-gui-test/v7-root.png",
+      "bytes": 166593,
+      "sha256": "c6a0f9a19d4331fff13370b4b35333cb499314ade127ed9b6fb9a28088d481d2"
+    },
+    {
+      "path": "docs/power-preview/CMK230_Power_CANDIDATE.svg",
+      "bytes": 2242154,
+      "sha256": "9a9883ad5c917c7e0426374a8ff07eac48878691e0377fa6c376ae79bcb92195"
+    },
+    {
+      "path": "docs/storage-preview/CMK230_Storage_Selector_CANDIDATE.svg",
+      "bytes": 787210,
+      "sha256": "dc3b286ce0b26da305405f55198e166c751068a097d2dd3fe62d91af158b39aa"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/emmc-sparse-through-via-conditional-witness-cu030-via030-hole0125.png",
+      "bytes": 99748,
+      "sha256": "b2e52c956b21aa3b486635629cc352feae776b5ddca99180d5e75e0dc6e8c6c3"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/emmc-sparse-through-via-conditional-witness-cu030-via030-hole0125.svg",
+      "bytes": 25797,
+      "sha256": "7cd15f10735ba3744cf45f5a660caf1a905441155a868e4d45f2a99be8c8dd3f"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/emmc-sparse-through-via-conditional-witness-cu030-via030-hole015.png",
+      "bytes": 100391,
+      "sha256": "ffcf151c78600a26dadce634f2e2d6d7ee95ee01b1302b4d3ecf049d4d06ab49"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/emmc-sparse-through-via-conditional-witness-cu030-via030-hole015.svg",
+      "bytes": 25738,
+      "sha256": "b2bdf12d0ab945bc647c6e549ba846a6d6b434e06d9c435c8524f0aa77b1f70b"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/emmc-sparse-through-via-conditional-witness-smd-cu040-100um.png",
+      "bytes": 110493,
+      "sha256": "d0b4a150f37db50af3097599f2a8b2b8d25360ee23ef4f9579c3585f6ad6d6ba"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/emmc-sparse-through-via-conditional-witness-smd-cu040-100um.svg",
+      "bytes": 29077,
+      "sha256": "cffadec21f1b8977f5574cedab7384e2ce40f8bdc82e389ea11b4412f505f59e"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/emmc-sparse-through-via-conditional-witness.png",
+      "bytes": 106545,
+      "sha256": "f6eeafe608e3193f35670b455d3a2c61c0b06f9bf76be0862b97538a36ca21c5"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/emmc-sparse-through-via-conditional-witness.svg",
+      "bytes": 28904,
+      "sha256": "f8e87aa0361da41af7abda909d4e78c4dfde6176cdefce5f57c91e9d0129a42f"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/topside-bypass-reach.png",
+      "bytes": 240653,
+      "sha256": "beb554c623909ea84c1642f289b1427303e930389e0537c60ed35dab8ac7e773"
+    },
+    {
+      "path": "engineering/bga-engineering-candidates/topside-bypass-reach.svg",
+      "bytes": 196357,
+      "sha256": "a9134cf7a6c102297588fde44a3330689c377d9cb14e838652353d1ad88e5af0"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-F.CrtYd.png",
+      "bytes": 5936,
+      "sha256": "b87377bec31cff412b1ff688a4febf9331e558cd8514b6a390c8b90afc99bb79"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-F.CrtYd.svg",
+      "bytes": 1460,
+      "sha256": "2c45fc2208f219dfeb93528569b75e215231006f54dd773790c3c88e4f80e420"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-F.Cu.png",
+      "bytes": 5613,
+      "sha256": "4db77e90f55b987f58bd1b50202f5d2d0d40f63abeff5987d2360e98bef8d7e3"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-F.Cu.svg",
+      "bytes": 1567,
+      "sha256": "7eb238ee6562855610f0a2b0ac7dc5c99bbd09202ec84f1abd26d72bafd0de65"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-F.Fab.png",
+      "bytes": 15380,
+      "sha256": "6db6cb0a7092ff372a3cc446ffc0b6b338badd7118dc35c4a5f0197c12f7fd8a"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-F.Fab.svg",
+      "bytes": 3978,
+      "sha256": "3ccebe0d4337ebf863855402baf6631854a7e9a8fb7bc24d3148bf63f4b40418"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-F.Mask.png",
+      "bytes": 6344,
+      "sha256": "59a55fb74bfb6348cdce22431ac0ff3c4f30ea1a8cbf0e2d3c9270fee7430dde"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-F.Mask.svg",
+      "bytes": 2465,
+      "sha256": "0c52006968dd84c492c0d022de9dd15d39031ac9b0b35d19d0e37d104a8a051f"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-F.Paste.png",
+      "bytes": 5595,
+      "sha256": "2909cd66b9284b3abdeb72949b7923d982f8d44630d0f681eb35932cd5e1ae90"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-F.Paste.svg",
+      "bytes": 1570,
+      "sha256": "1e04e7369e95f04030b1a604c2b4fae30d3e244395646b750a92cad63869e322"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/native-layer-gallery.png",
+      "bytes": 63838,
+      "sha256": "ef9102c2ab1cd50f65831fca72623318cb0845b9cff26969114d05ecdf1fadb7"
+    },
+    {
+      "path": "engineering/bypass-footprint-review/evidence/samsung-land-page33.png",
+      "bytes": 214204,
+      "sha256": "1126cfbe467856afc8fd34724d3bca1b406f3c1daee1546c6048f68dfac952db"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/01studio-page1.png",
+      "bytes": 667295,
+      "sha256": "71617986cfe91af2c684246e914baf631ce425f54ccca4f7bca56a551ac248c5"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/01studio-page2.png",
+      "bytes": 493601,
+      "sha256": "cc536d95ada7f853dd35d7651aa813e24d2ef3bb3752b2fcb71c5f357e4dcbbc"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/01studio-page3.png",
+      "bytes": 352130,
+      "sha256": "4a622a6675011215c528e905337ab19e8405f5e2a61c3cc35e72840f85be7cbc"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/canaan-page1.png",
+      "bytes": 607641,
+      "sha256": "31fdf5768ebe1afcf0b9f304c18548c7f5778c8d2c7b95c8436ee8db8a432b25"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/canaan-page3.png",
+      "bytes": 346763,
+      "sha256": "3716a5121d2843d71a63a0ad2e183049fdef4064e8b111ece5a6de5d2a1ab93f"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/canaan-page5.png",
+      "bytes": 423777,
+      "sha256": "eb23af5392761842459dc859cd05af8308834befe11ea90e5db739596d59435d"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/guide-image024.png",
+      "bytes": 14714,
+      "sha256": "036b3c097d32246657d03521c548549a4453e5f22db3ec74b38476f5bbc21425"
+    },
+    {
+      "path": "engineering/decoupling-review/evidence/guide-image027.png",
+      "bytes": 128960,
+      "sha256": "de68d64ddbdeac6fe2d44e1a0bd9409a0ff56f551936f398a77a5869438fc5c2"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201610E-p1.png",
+      "bytes": 63702,
+      "sha256": "01f44780367f8ee63e9137d9429005f8470844395179cbe1aad2006880aae7ab"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201610E-p5.png",
+      "bytes": 132561,
+      "sha256": "c6d83d1e0fe4435c6c74c6791682fa5910092c6e20eb50411d8cdb30b3ca95d2"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201610E-p7.png",
+      "bytes": 245892,
+      "sha256": "7dc457533fed2ea98c525975fe46f4c63ab5ac709e5b781135fc3488e08f1dde"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201612E-p1.png",
+      "bytes": 66452,
+      "sha256": "da09b3c1f9242a5f1667efadab7efe13f4ce481981fe9a3764045c7bcf1a3004"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201612E-p5.png",
+      "bytes": 137102,
+      "sha256": "8c2a2151269eb1257e594a65f2bb135a5068b60ddd5754494c79ffd424b1169c"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/DFE201612E-p7.png",
+      "bytes": 252196,
+      "sha256": "4f3e69b0de4d62054de4ff40758b8263b96401445c5f3df0c22bbc1c5f0d0ca3"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-copper.png",
+      "bytes": 6722,
+      "sha256": "c40788fd823c77fb298f7ea1a7c309f6db592615d1ff5e5d0fd9229e143bad7b"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-copper.svg",
+      "bytes": 1573,
+      "sha256": "7a5579aab2c82e7dd7fee5fe2888df7c3975febc81cb4e088a4437f4dc7bebcb"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-layer-gallery.png",
+      "bytes": 57462,
+      "sha256": "e6029a08ef5530d9e4e9c1883893e7233f872323ec40d0320f6e49923ac32120"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-mask.png",
+      "bytes": 7265,
+      "sha256": "eba2d5bfaa6e858c520d2e1065605d6443afa96474ac19a08fa20d0279d8e987"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-mask.svg",
+      "bytes": 2483,
+      "sha256": "40c0790dec11016f4c04e5993b6b59c88713c1051a852f413cce4e44ac4a641e"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-outlines.png",
+      "bytes": 11821,
+      "sha256": "7c038128ed4e8c191eaca0945e1e4fafa341298c4c502969035c1b62acfffeaa"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-outlines.svg",
+      "bytes": 3834,
+      "sha256": "56486863df3ee8421ffbdfe86b678a1c3a281db75c3c6026d4ddc87f5e3b1400"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-paste-override.png",
+      "bytes": 6704,
+      "sha256": "dbb36ad2732f57f29ee6fd7d722dadcd3718dabb55e01b9eb8c9f6fb077ed3f1"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-paste-override.svg",
+      "bytes": 1581,
+      "sha256": "7fa3c182c48efbea167c3b316277f4219b5683f004f62c81ab071ffc511e644a"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-paste-zero.png",
+      "bytes": 6704,
+      "sha256": "dbb36ad2732f57f29ee6fd7d722dadcd3718dabb55e01b9eb8c9f6fb077ed3f1"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-paste-zero.svg",
+      "bytes": 1577,
+      "sha256": "2f6d54b997e5e4ee554da0fbdfe5d0a8182d24ed4623f122e4c5e20411997378"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-undercoil-control.png",
+      "bytes": 7684,
+      "sha256": "ae9a24df550e9d53c771a1589c543884605df1c7f28a081ec65a2dd7890db81e"
+    },
+    {
+      "path": "engineering/inductor-footprint-review/evidence/native-undercoil-control.svg",
+      "bytes": 1780,
+      "sha256": "766eea2fb5e2970f50114f2f30391f10c302587cbe3e8f4657588e86210890f9"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/link-trial/actual-links.svg",
+      "bytes": 362073,
+      "sha256": "405c9f48fe186746eb76dd6412ea06ddfedcf63dd9bc9b7339e68a3679d20f42"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/trial-groups-outer-21.png",
+      "bytes": 968192,
+      "sha256": "38021608c753d9f3016896ee3777f6c5f566a27cf06898e100df620c01fea11b"
+    },
+    {
+      "path": "engineering/k230-ddr-constrained/trial-groups-outer-21.svg",
+      "bytes": 510190,
+      "sha256": "d129aff4016bac51a2a867faba1c1326c7526a98723cc88a3d13a9364ac451de"
+    },
+    {
+      "path": "engineering/mechanical/TI-footprint-layer-gallery.png",
+      "bytes": 338860,
+      "sha256": "9533081715e2110c67e9121bc0166f280504c8fc4edffce4e7b7347929fb348c"
+    },
+    {
+      "path": "engineering/mechanical/castellation-proposal-profile.png",
+      "bytes": 214853,
+      "sha256": "6908c08df73bb9918157f80d46e6ddbe41cba52ec6170bf2564bd5df36189665"
+    },
+    {
+      "path": "engineering/mechanical/castellation-proposal-profile.svg",
+      "bytes": 203909,
+      "sha256": "3337f5b280391f9a969a30d1dea2837c459d3c675f46fbb1517860b827be45aa"
+    },
+    {
+      "path": "engineering/mechanical/compact-footprint-layer-gallery.png",
+      "bytes": 259961,
+      "sha256": "248ac8a55764306c31db79179c2a2d40d2e2111f0ad5220fc0a200a339f9bb72"
+    },
+    {
+      "path": "engineering/mechanical/compact-native-render/TI_DCK0005A_AUP_5P_DrawingVerified_CANDIDATE.png",
+      "bytes": 39399,
+      "sha256": "95f063df4ca95b2394c11375241a8ce109ee7e9ff491075ca49d8517eef467de"
+    },
+    {
+      "path": "engineering/mechanical/compact-native-render/TI_DRL0005A_AUP_5P_DrawingVerified_CANDIDATE.png",
+      "bytes": 39045,
+      "sha256": "0f95ff2ec446774d8bf9a0180a7eb4fce6608e725e11a8acb605cbd77026fe6b"
+    },
+    {
+      "path": "engineering/mechanical/compact-native-render/TI_DRL0006A_AUP1G97_DrawingVerified_CANDIDATE.png",
+      "bytes": 39765,
+      "sha256": "18c6e68c0d016cf901562a276ba2e0505768e1bfe274f8277662ab0d3709961b"
+    },
+    {
+      "path": "engineering/mechanical/compact-native-render/TI_DRV0006A_D_TPS3808_6P_EP7_DrawingVerified_CANDIDATE.png",
+      "bytes": 41487,
+      "sha256": "860e66236a33ad0ea7712e5be7ce607069fc171996e5b3c27b0c104ebbfcfdf9"
+    },
+    {
+      "path": "engineering/mechanical/compact-native-svg/TI_DCK0005A_AUP_5P_DrawingVerified_CANDIDATE.svg",
+      "bytes": 14858,
+      "sha256": "68bbca33448e5ac418bec2669ecd02b84c533d04c66f5ec56710e85f3f2881f1"
+    },
+    {
+      "path": "engineering/mechanical/compact-native-svg/TI_DRL0005A_AUP_5P_DrawingVerified_CANDIDATE.svg",
+      "bytes": 14638,
+      "sha256": "04b55a1f91537f43740dcc310ced394376c55eb45f76db86ec0df7b03853776e"
+    },
+    {
+      "path": "engineering/mechanical/compact-native-svg/TI_DRL0006A_AUP1G97_DrawingVerified_CANDIDATE.svg",
+      "bytes": 17622,
+      "sha256": "efb761d9d2134d5f69907070b6103782c59516357809d78898876489bf887eda"
+    },
+    {
+      "path": "engineering/mechanical/compact-native-svg/TI_DRV0006A_D_TPS3808_6P_EP7_DrawingVerified_CANDIDATE.svg",
+      "bytes": 17980,
+      "sha256": "d0b867161c125c4ff45e71f476dd6f08f5dd544287d19d1df2a9819bf4fc9595"
+    },
+    {
+      "path": "engineering/mechanical/full-envelope-packing-study.png",
+      "bytes": 254659,
+      "sha256": "84d39e74671c040bc8bfac9c70c44de54a96fe394712902ede4ace91292e945e"
+    },
+    {
+      "path": "engineering/mechanical/full-envelope-packing-study.svg",
+      "bytes": 65466,
+      "sha256": "abcad66b53cea6dee645c2459a86b21996b53d772adf0750f0248807ca3b8d42"
+    },
+    {
+      "path": "engineering/mechanical/native-render/TI_DBV0005A_SN74LVC1G32_SOT23_5_DrawingVerified.png",
+      "bytes": 49221,
+      "sha256": "15dcc09174d7b423ac7e6f42a5bc36f381f7f5039ac882c5cfcdd4712bd32f39"
+    },
+    {
+      "path": "engineering/mechanical/native-render/TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified.png",
+      "bytes": 62194,
+      "sha256": "d4a1ad2c0471a1cdf57935b8ce3f5cec0c8364e1d675d2b369740c51efce592c"
+    },
+    {
+      "path": "engineering/mechanical/native-render/TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified.png",
+      "bytes": 68889,
+      "sha256": "ec246ef0a40579541fa33498b664595c3be84a9cd56908be70f09b18c57a50a0"
+    },
+    {
+      "path": "engineering/mechanical/native-render/TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified.png",
+      "bytes": 76632,
+      "sha256": "889ab8a4d7d92384306577396936d71decc21049a7bf5cc4c7d991d43f3c55c1"
+    },
+    {
+      "path": "engineering/mechanical/native-svg/TI_DBV0005A_SN74LVC1G32_SOT23_5_DrawingVerified.svg",
+      "bytes": 16905,
+      "sha256": "5d296f05b18967d5b73a0c211596cac225fc88a7beeede0a0c72f7ba3a365e99"
+    },
+    {
+      "path": "engineering/mechanical/native-svg/TI_DMQ0006A_TPS6282xA_1.5x1.5_SMD_DrawingVerified.svg",
+      "bytes": 19486,
+      "sha256": "21a901ca77c99159725ec09b75ce96e470e9623dd79deb05450ac0c3b094f12e"
+    },
+    {
+      "path": "engineering/mechanical/native-svg/TI_RSV0016A_TMUX1574_1.8x2.6_P0.4_DrawingVerified.svg",
+      "bytes": 36366,
+      "sha256": "92c7dc7638b10553ed54b75b646d78943ded9eac9faccad44dc6ecc0e0468d11"
+    },
+    {
+      "path": "engineering/mechanical/native-svg/TI_YCG0015_TPS628640_1.05x1.78_P0.35_SMD_DrawingVerified.svg",
+      "bytes": 34555,
+      "sha256": "432274baed6033528c9eefc971091e6a2b313193c0624ce1ac4a0e2a4ec817f8"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-footprint-layer-gallery.png",
+      "bytes": 156833,
+      "sha256": "a264f4c4b44b425e2dacefa19368f41781690f8c628cbc4d5b78032f967760dc"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-native-render.png",
+      "bytes": 51962,
+      "sha256": "a3a1bcd72fe6c10f98d60c220bb7a116d64fc4a5c34052fa4dae55777b9b8757"
+    },
+    {
+      "path": "engineering/mechanical/nexperia-standard-native-render.svg",
+      "bytes": 24190,
+      "sha256": "afa12e500b7917223541c2893684bd55936aa851cee3f39e75a4db8960f36942"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-footprint-layer-gallery.png",
+      "bytes": 126184,
+      "sha256": "4d3ac620654d63f26074395ccfa0b85e83655dbb781b2e53da3b9aa5979ad30f"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-native-render.png",
+      "bytes": 67427,
+      "sha256": "d0207885b39957b290cce1e5df4a4888d8124da79bda2340404adc8a5d1db342"
+    },
+    {
+      "path": "engineering/mechanical/nvt4858-native-svg/NXP_SOT1161-2_NVT4858HK_1.8x2.6_P0.4_DrawingVerified_CANDIDATE.svg",
+      "bytes": 36816,
+      "sha256": "133b6ef625305c916b3a5fa2bc963c28bab2f332be15b15872031a39f309f7da"
+    },
+    {
+      "path": "engineering/mechanical/placement-only-canvas.png",
+      "bytes": 401772,
+      "sha256": "65721bdf874124568dda0c7a5db95637375e62e466e329f2af7d1544f00cc1d4"
+    },
+    {
+      "path": "engineering/mechanical/placement-only-native.png",
+      "bytes": 257195,
+      "sha256": "ab440d0f89373d05f8dd589ff61350d86174ccb081a86689ab1865b113310656"
+    },
+    {
+      "path": "engineering/mechanical/placement-only-native.svg",
+      "bytes": 278175,
+      "sha256": "64a9de8ca4ac2ec2e2c5a29083adaf73d273fd01ba5dba26389ca06814f736d2"
+    },
+    {
+      "path": "engineering/memory/v6-emmc-render.png",
+      "bytes": 96011,
+      "sha256": "7e8c1b818b04a5e1117aa187b83ecad671ddfe9d570633b90e3cdde81326f173"
+    }
+  ],
+  "unchanged_engineering_bytes": true
+}

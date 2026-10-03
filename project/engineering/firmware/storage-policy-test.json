@@ -1,0 +1,13 @@
+{
+  "scope": "standalone requirements model; no device/register access",
+  "policy_assertions": 12,
+  "prerequisite_combinations": 64,
+  "default_permitted": false,
+  "not_tested": [
+    "BSP integration",
+    "BootROM/OTP",
+    "real card initialization",
+    "timing",
+    "hardware"
+  ]
+}

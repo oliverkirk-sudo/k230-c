@@ -1,0 +1,21 @@
+{
+  "scope": "Native Gerber QA only; not production module output",
+  "layers": {
+    "F_Cu": {
+      "flash_count": 42,
+      "unique_positions": 42,
+      "shape_dimension_corner_radius_checks": "PASS"
+    },
+    "F_Mask": {
+      "flash_count": 42,
+      "unique_positions": 42,
+      "shape_dimension_corner_radius_checks": "PASS"
+    },
+    "F_Paste": {
+      "flash_count": 42,
+      "unique_positions": 42,
+      "shape_dimension_corner_radius_checks": "PASS"
+    }
+  },
+  "status": "PASS"
+}

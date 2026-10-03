@@ -1,0 +1,34 @@
+ball,function,source_page,orientation,status
+A3,DAT0,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+A4,DAT1,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+A5,DAT2,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+B2,DAT3,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+B3,DAT4,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+B4,DAT5,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+B5,DAT6,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+B6,DAT7,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+K5,RSTN,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+C6,VDD,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+M4,VDD,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+N4,VDD,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+P3,VDD,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+P5,VDD,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+E6,VDDF,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+F5,VDDF,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+J10,VDDF,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+K9,VDDF,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+C2,VDDI,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+M5,CMD,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+H5,Data Strobe,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+M6,CLK,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+J5,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+A6,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+C4,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+E7,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+G5,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+H10,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+K8,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+N2,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+N5,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+P4,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY
+P6,VSS,5,Ball-side down view (manufacturer wording),EXPLICIT_BALL_INFORMATION_TABLE_ONLY

@@ -1,0 +1,59 @@
+{
+  "source": "01Studio CanMV-K230 V1.0 reference schematic",
+  "source_file_sha256": "a2bd796cac37b876409462094f64f336ccea5eb63c8aaf61e663d7864f300f6b",
+  "evidence": [
+    {
+      "pdf_page": 4,
+      "net": "AVDD1P8_MIPI",
+      "source_components": [
+        "C120",
+        "C121"
+      ],
+      "values": [
+        "100nF",
+        "100nF"
+      ],
+      "action": "add second local100nF to candidate"
+    },
+    {
+      "pdf_page": 4,
+      "net": "AVDD0P8_MIPI",
+      "source_components": [
+        "C122",
+        "C123"
+      ],
+      "values": [
+        "100nF",
+        "100nF"
+      ],
+      "action": "add second local100nF to candidate"
+    },
+    {
+      "pdf_page": 3,
+      "net": "AVDD0P8_PLL",
+      "source_components": [
+        "C109"
+      ],
+      "values": [
+        "100nF"
+      ],
+      "action": "existing100nF matches reference; extra bulk not established by source"
+    },
+    {
+      "pdf_page": 3,
+      "net": "VAA_DDR",
+      "source_components": [
+        "C111"
+      ],
+      "values": [
+        "100nF"
+      ],
+      "action": "existing100nF matches reference; extra bulk not established by source"
+    }
+  ],
+  "limits": [
+    "Reference capacitance count is not PI/layout qualification.",
+    "New filter topologies on other analog branches require impedance/settling review.",
+    "No bulk capacitor requirements have been silently deleted; unspecified future PI modifications may add parts."
+  ]
+}

@@ -1,0 +1,1961 @@
+{
+  "scope": "Geometry-only reconstruction of the243-envelope scenario baseline; excludes later C245/C246; dimensions unchanged for remaining parts",
+  "summary": {
+    "dense_0201_small_passives_reservation_mm2": 1028.21
+  },
+  "components": [
+    {
+      "reference": "U1",
+      "dense_reservation_xy_mm": [
+        13.5,
+        13.5
+      ],
+      "reservation_dense_mm2": 182.25
+    },
+    {
+      "reference": "U2",
+      "dense_reservation_xy_mm": [
+        10.5,
+        15.5
+      ],
+      "reservation_dense_mm2": 162.75
+    },
+    {
+      "reference": "U3",
+      "dense_reservation_xy_mm": [
+        12,
+        13.5
+      ],
+      "reservation_dense_mm2": 162.0
+    },
+    {
+      "reference": "J1",
+      "dense_reservation_xy_mm": [
+        0,
+        0
+      ],
+      "reservation_dense_mm2": 0
+    },
+    {
+      "reference": "C41",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C42",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C43",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C44",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C45",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R41",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R42",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R43",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R44",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R45",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R46",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R47",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "Y1",
+      "dense_reservation_xy_mm": [
+        3.8,
+        2.1
+      ],
+      "reservation_dense_mm2": 7.9799999999999995
+    },
+    {
+      "reference": "Y2",
+      "dense_reservation_xy_mm": [
+        4.2,
+        3.5
+      ],
+      "reservation_dense_mm2": 14.700000000000001
+    },
+    {
+      "reference": "C31",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C32",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C33",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C34",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "JP1",
+      "dense_reservation_xy_mm": [
+        3,
+        2
+      ],
+      "reservation_dense_mm2": 6
+    },
+    {
+      "reference": "R31",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R32",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R33",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R34",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "U11",
+      "dense_reservation_xy_mm": [
+        2.8,
+        3.6
+      ],
+      "reservation_dense_mm2": 10.08
+    },
+    {
+      "reference": "U12",
+      "dense_reservation_xy_mm": [
+        2.8,
+        3.6
+      ],
+      "reservation_dense_mm2": 10.08
+    },
+    {
+      "reference": "U13",
+      "dense_reservation_xy_mm": [
+        2.8,
+        3.6
+      ],
+      "reservation_dense_mm2": 10.08
+    },
+    {
+      "reference": "U14",
+      "dense_reservation_xy_mm": [
+        4.3,
+        4.1
+      ],
+      "reservation_dense_mm2": 17.63
+    },
+    {
+      "reference": "C201",
+      "dense_reservation_xy_mm": [
+        2.8,
+        1.8
+      ],
+      "reservation_dense_mm2": 5.04
+    },
+    {
+      "reference": "C202",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C203",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C204",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C205",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C206",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C207",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C208",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C209",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C210",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C211",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C212",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C213",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C214",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C215",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C216",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C217",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C218",
+      "dense_reservation_xy_mm": [
+        2.8,
+        1.8
+      ],
+      "reservation_dense_mm2": 5.04
+    },
+    {
+      "reference": "C219",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C220",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C221",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C222",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C223",
+      "dense_reservation_xy_mm": [
+        2.8,
+        1.8
+      ],
+      "reservation_dense_mm2": 5.04
+    },
+    {
+      "reference": "C224",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C225",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C226",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C227",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C228",
+      "dense_reservation_xy_mm": [
+        2.8,
+        1.8
+      ],
+      "reservation_dense_mm2": 5.04
+    },
+    {
+      "reference": "C229",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C230",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C231",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C232",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C233",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C234",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C235",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C236",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C237",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C238",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C239",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C240",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C241",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C242",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C243",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C244",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "FB202",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "FB203",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "FB204",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "FB205",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "FB206",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "FB207",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "FB208",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "FB209",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "FB210",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "L21",
+      "dense_reservation_xy_mm": [
+        4.6,
+        4.6
+      ],
+      "reservation_dense_mm2": 21.159999999999997
+    },
+    {
+      "reference": "L22",
+      "dense_reservation_xy_mm": [
+        3.0,
+        2.4
+      ],
+      "reservation_dense_mm2": 7.199999999999999
+    },
+    {
+      "reference": "L23",
+      "dense_reservation_xy_mm": [
+        3.0,
+        2.4
+      ],
+      "reservation_dense_mm2": 7.199999999999999
+    },
+    {
+      "reference": "L24",
+      "dense_reservation_xy_mm": [
+        3.0,
+        2.4
+      ],
+      "reservation_dense_mm2": 7.199999999999999
+    },
+    {
+      "reference": "L25",
+      "dense_reservation_xy_mm": [
+        3.0,
+        2.4
+      ],
+      "reservation_dense_mm2": 7.199999999999999
+    },
+    {
+      "reference": "L26",
+      "dense_reservation_xy_mm": [
+        3.0,
+        2.4
+      ],
+      "reservation_dense_mm2": 7.199999999999999
+    },
+    {
+      "reference": "R201",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "R202",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "R203",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R204",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R205",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R206",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R207",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "R208",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "R210",
+      "dense_reservation_xy_mm": [
+        2.8,
+        1.8
+      ],
+      "reservation_dense_mm2": 5.04
+    },
+    {
+      "reference": "R211",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "R213",
+      "dense_reservation_xy_mm": [
+        3.8,
+        2
+      ],
+      "reservation_dense_mm2": 7.6
+    },
+    {
+      "reference": "R214",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "R216",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R217",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R218",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R219",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R220",
+      "dense_reservation_xy_mm": [
+        3.2,
+        1.7
+      ],
+      "reservation_dense_mm2": 5.44
+    },
+    {
+      "reference": "R221",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "U21",
+      "dense_reservation_xy_mm": [
+        2.5,
+        2.1
+      ],
+      "reservation_dense_mm2": 5.25
+    },
+    {
+      "reference": "U22",
+      "dense_reservation_xy_mm": [
+        1.6,
+        2.3
+      ],
+      "reservation_dense_mm2": 3.6799999999999997
+    },
+    {
+      "reference": "U23",
+      "dense_reservation_xy_mm": [
+        1.6,
+        2.3
+      ],
+      "reservation_dense_mm2": 3.6799999999999997
+    },
+    {
+      "reference": "U24",
+      "dense_reservation_xy_mm": [
+        2.5,
+        2.1
+      ],
+      "reservation_dense_mm2": 5.25
+    },
+    {
+      "reference": "U25",
+      "dense_reservation_xy_mm": [
+        2.5,
+        2.1
+      ],
+      "reservation_dense_mm2": 5.25
+    },
+    {
+      "reference": "U26",
+      "dense_reservation_xy_mm": [
+        2.5,
+        2.1
+      ],
+      "reservation_dense_mm2": 5.25
+    },
+    {
+      "reference": "C61",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C62",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C63",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C64",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C65",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R61",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R62",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R63",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R64",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R65",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R66",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R67",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R68",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R69",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R70",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R71",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C501",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C502",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C503",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C504",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C505",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C506",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C507",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C508",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C509",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C510",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C511",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C512",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C513",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C514",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C515",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C516",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C517",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C518",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C519",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C520",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C521",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C522",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C523",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C524",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C525",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C526",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C527",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C528",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C529",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C530",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C531",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C532",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C533",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C534",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C535",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C536",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C537",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C538",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C539",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C540",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C541",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C542",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C543",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C544",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C545",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C546",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C547",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C548",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C549",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C550",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C551",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C552",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C553",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C554",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C555",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C556",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C557",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C558",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C559",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C560",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C561",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C562",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C563",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "C564",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C565",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C566",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C567",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C568",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C569",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C570",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C571",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C572",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C573",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C574",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C575",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C576",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C577",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R401",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R402",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "TP81",
+      "dense_reservation_xy_mm": [
+        1.5,
+        1.5
+      ],
+      "reservation_dense_mm2": 2.25
+    },
+    {
+      "reference": "TP82",
+      "dense_reservation_xy_mm": [
+        1.5,
+        1.5
+      ],
+      "reservation_dense_mm2": 2.25
+    },
+    {
+      "reference": "R561",
+      "dense_reservation_xy_mm": [
+        2.0,
+        1.2
+      ],
+      "reservation_dense_mm2": 2.4
+    },
+    {
+      "reference": "R562",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R563",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R564",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R565",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R566",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R567",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R568",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R569",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R570",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R571",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R572",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C809",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C810",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C811",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C812",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C813",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "C814",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R525",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "R526",
+      "dense_reservation_xy_mm": [
+        2.2,
+        1.3
+      ],
+      "reservation_dense_mm2": 2.8600000000000003
+    },
+    {
+      "reference": "R527",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R528",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R529",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "R530",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "U89",
+      "dense_reservation_xy_mm": [
+        3.0,
+        2.6
+      ],
+      "reservation_dense_mm2": 7.800000000000001
+    },
+    {
+      "reference": "U90",
+      "dense_reservation_xy_mm": [
+        3.0,
+        2.6
+      ],
+      "reservation_dense_mm2": 7.800000000000001
+    },
+    {
+      "reference": "U91",
+      "dense_reservation_xy_mm": [
+        2.8,
+        2.5
+      ],
+      "reservation_dense_mm2": 7.0
+    },
+    {
+      "reference": "U92",
+      "dense_reservation_xy_mm": [
+        2.8,
+        2.5
+      ],
+      "reservation_dense_mm2": 7.0
+    },
+    {
+      "reference": "U93",
+      "dense_reservation_xy_mm": [
+        2.8,
+        2.5
+      ],
+      "reservation_dense_mm2": 7.0
+    },
+    {
+      "reference": "U94",
+      "dense_reservation_xy_mm": [
+        2.8,
+        2.5
+      ],
+      "reservation_dense_mm2": 7.0
+    },
+    {
+      "reference": "C815",
+      "dense_reservation_xy_mm": [
+        1.6,
+        1
+      ],
+      "reservation_dense_mm2": 1.6
+    },
+    {
+      "reference": "C816",
+      "dense_reservation_xy_mm": [
+        1.1,
+        0.7
+      ],
+      "reservation_dense_mm2": 0.77
+    },
+    {
+      "reference": "U95",
+      "dense_reservation_xy_mm": [
+        2.8,
+        3.6
+      ],
+      "reservation_dense_mm2": 10.08
+    }
+  ],
+  "reconstructed_from_current_area_sha256": "18fcd594ff057bd5574cabde64b851afeb05d27d9784ae30bab311ce15e1488b"
+}

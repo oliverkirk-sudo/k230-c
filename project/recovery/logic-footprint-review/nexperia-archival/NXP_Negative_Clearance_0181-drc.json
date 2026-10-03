@@ -1,0 +1,149 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T10:40:55-0700",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "NXP_Negative_Clearance_0181.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1810 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [UNIQUE_PIN_1] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 4.475,
+                        "y": 4.8
+                    },
+                    "uuid": "c0ddb1ef-a294-4fd4-a95c-d165a5e62380"
+                },
+                {
+                    "description": "Pad 2 [UNIQUE_PIN_2] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 4.425,
+                        "y": 5.2
+                    },
+                    "uuid": "bc74a551-db8f-4539-9442-c40cf719827a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1810 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [UNIQUE_PIN_3] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 4.6,
+                        "y": 5.775
+                    },
+                    "uuid": "d27d7be7-93fb-4a4f-96aa-b3c05e65126f"
+                },
+                {
+                    "description": "Pad 4 [UNIQUE_PIN_4] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 5.0,
+                        "y": 5.775
+                    },
+                    "uuid": "c75f9479-5d88-4f2d-b950-e0f0b24e592a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1810 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [UNIQUE_PIN_4] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 5.0,
+                        "y": 5.775
+                    },
+                    "uuid": "c75f9479-5d88-4f2d-b950-e0f0b24e592a"
+                },
+                {
+                    "description": "Pad 5 [UNIQUE_PIN_5] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 5.775
+                    },
+                    "uuid": "7daa3ba1-079a-4768-84a2-b8fbe100d261"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1810 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [UNIQUE_PIN_6] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 5.575,
+                        "y": 5.2
+                    },
+                    "uuid": "d8587353-5d99-454c-941f-ae96b07f3ca8"
+                },
+                {
+                    "description": "Pad 7 [UNIQUE_PIN_7] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 5.575,
+                        "y": 4.8
+                    },
+                    "uuid": "dd01c187-a7be-4914-83e8-92da7da59af7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1810 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 8 [UNIQUE_PIN_8] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 4.225
+                    },
+                    "uuid": "415bae81-1adb-403c-b972-a03b309c04bf"
+                },
+                {
+                    "description": "Pad 9 [UNIQUE_PIN_9] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 5.0,
+                        "y": 4.225
+                    },
+                    "uuid": "4e4e75ca-ada8-414d-aa7c-fc9fe0aaafb8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1810 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 9 [UNIQUE_PIN_9] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 5.0,
+                        "y": 4.225
+                    },
+                    "uuid": "4e4e75ca-ada8-414d-aa7c-fc9fe0aaafb8"
+                },
+                {
+                    "description": "Pad 10 [UNIQUE_PIN_10] of UQA2 on F.Cu",
+                    "pos": {
+                        "x": 4.6,
+                        "y": 4.225
+                    },
+                    "uuid": "4bb61c54-89b8-40b3-af66-247d9c9caf5a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

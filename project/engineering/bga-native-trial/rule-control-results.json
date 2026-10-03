@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "candidate_files_unchanged": true,
+  "candidate_sha256": {
+    "BH153_SPARSE_LOCAL_TRIAL.kicad_prl": "059d84395748d075ef017b1d50ec7a28d4b5fd1b7ea3a9f95daa7f410a5ec12b",
+    "BH153_SPARSE_LOCAL_TRIAL.kicad_pcb": "249c4b4cdce3db5db4c7092605d266da878519568d416896176d386688f98ffa",
+    "BH153_SPARSE_LOCAL_TRIAL.kicad_pro": "b0e15ce28afa246b065fb960b1d85078a0d7da6c6a55a128cb3429b5be1abe5a",
+    "BH153_SPARSE_LOCAL_TRIAL.kicad_dru": "0c181309dacfbee84a8fdddfe4849262705e4653ffbb0f2e9f4d450818332a32"
+  },
+  "controls": [
+    {
+      "control": "annulus",
+      "candidate_limit_mm": 0.075,
+      "control_limit_mm": 0.08,
+      "expected_violation": "annular_width",
+      "detected": true,
+      "violation_counts": {
+        "annular_width": 29,
+        "track_dangling": 12,
+        "via_dangling": 20,
+        "unconnected_items": 17
+      },
+      "exit_code": 5,
+      "report": "engineering/bga-native-trial/rule-controls/annulus/drc.json"
+    },
+    {
+      "control": "hole_to_copper",
+      "candidate_limit_mm": 0.2,
+      "control_limit_mm": 0.28,
+      "expected_violation": "hole_clearance",
+      "detected": true,
+      "violation_counts": {
+        "track_dangling": 12,
+        "via_dangling": 20,
+        "hole_clearance": 199,
+        "unconnected_items": 17
+      },
+      "exit_code": 5,
+      "report": "engineering/bga-native-trial/rule-controls/hole_to_copper/drc.json"
+    },
+    {
+      "control": "hole_to_hole",
+      "candidate_limit_mm": 0.2,
+      "control_limit_mm": 0.36,
+      "expected_violation": "hole_to_hole",
+      "detected": true,
+      "violation_counts": {
+        "track_dangling": 12,
+        "via_dangling": 20,
+        "hole_to_hole": 21,
+        "unconnected_items": 17
+      },
+      "exit_code": 5,
+      "report": "engineering/bga-native-trial/rule-controls/hole_to_hole/drc.json"
+    },
+    {
+      "control": "mask_web",
+      "candidate_limit_mm": 0.1,
+      "control_limit_mm": 0.11,
+      "expected_violation": "solder_mask_bridge",
+      "detected": true,
+      "violation_counts": {
+        "track_dangling": 12,
+        "via_dangling": 20,
+        "solder_mask_bridge": 200,
+        "unconnected_items": 17
+      },
+      "exit_code": 5,
+      "report": "engineering/bga-native-trial/rule-controls/mask_web/drc.json"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+C,B,A,Y,matches_C_select_A_else_B,B_zero_matches_A_AND_C
+0,0,0,0,True,True
+0,0,1,0,True,True
+0,1,0,1,True,not_applicable
+0,1,1,1,True,not_applicable
+1,0,0,0,True,True
+1,0,1,1,True,True
+1,1,0,0,True,not_applicable
+1,1,1,1,True,not_applicable

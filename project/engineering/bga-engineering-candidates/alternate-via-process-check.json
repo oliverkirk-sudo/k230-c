@@ -1,0 +1,98 @@
+{
+  "status": "ALTERNATIVE_FACTORY_NOMINAL_RULE_SCREEN_ONLY_NOT_COMBINED_PROCESS_ACCEPTANCE",
+  "source": {
+    "author": "JLCPCB",
+    "url": "https://jlcpcb.com/capabilities/pcb-capabilities/",
+    "access": "Public primary capability table read 2026-09-30 via web; no vendor contact or upload",
+    "section": "Drilling: Min. Via hole size/diameter; Traces: Inner layer via hole to copper clearance; Via hole to Track; Via-in-Pad Process",
+    "multilayer_minimum_nominal_via_hole_pad_mm": [
+      0.15,
+      0.25
+    ],
+    "preferred_pad_diameter_increase_over_hole_mm": 0.15,
+    "inner_via_hole_to_copper_mm": 0.2,
+    "via_hole_to_track_mm": 0.2,
+    "via_in_pad": "Filled and plated-over option described; default on 6+ layers",
+    "scope_caveat": "Via-specific rules are distinct from component PTH annular-ring rules. This is not permission to change the frozen PCBWay stack or to apply via rules to castellations."
+  },
+  "input_sha256": {
+    "memory-soc-functional-escape-analysis-cu030-via030-hole015.json": "560e9693d3e38b40918b494d0e3bc7b31e39402e71b4a3a49b58d2a8972eb2a7",
+    "memory-soc-functional-balls-cu030-via030-hole015.csv": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0"
+  },
+  "geometry": {
+    "BGA_copper_mm": 0.3,
+    "via_copper_mm": 0.3,
+    "nominal_via_hole_request_mm": 0.15,
+    "nominal_annulus_mm": 0.075,
+    "selected_trace_width_clearance_mm": [
+      0.1016,
+      0.1016
+    ],
+    "physical_lands": 153,
+    "modeled_vias": 29
+  },
+  "checks": {
+    "additional_drill_to_copper_checks": 5474,
+    "failures": [],
+    "minimum_margin_mm": 0.07500000000000001,
+    "tightest": [
+      {
+        "kind": "via_hole_to_top_land",
+        "via": "C2",
+        "other": "B2",
+        "margin_mm": 0.07500000000000001
+      },
+      {
+        "kind": "via_hole_to_top_land",
+        "via": "C2",
+        "other": "C1",
+        "margin_mm": 0.07500000000000001
+      },
+      {
+        "kind": "via_hole_to_top_land",
+        "via": "C2",
+        "other": "C3",
+        "margin_mm": 0.07500000000000001
+      },
+      {
+        "kind": "via_hole_to_top_land",
+        "via": "C2",
+        "other": "D2",
+        "margin_mm": 0.07500000000000001
+      },
+      {
+        "kind": "via_hole_to_other_via_copper",
+        "via": "C2",
+        "other": "B2",
+        "margin_mm": 0.07500000000000001
+      },
+      {
+        "kind": "via_hole_to_top_land",
+        "via": "C4",
+        "other": "B4",
+        "margin_mm": 0.07500000000000001
+      },
+      {
+        "kind": "via_hole_to_top_land",
+        "via": "C4",
+        "other": "C3",
+        "margin_mm": 0.07500000000000001
+      },
+      {
+        "kind": "via_hole_to_top_land",
+        "via": "C4",
+        "other": "C5",
+        "margin_mm": 0.07500000000000001
+      }
+    ],
+    "original_copper_checks": "Unchanged geometry inherits the separately reviewed 22031 copper/route checks; this script independently checks the stricter 0.20 mm hole-to-copper rules only."
+  },
+  "conclusion": "The 0.075 mm annulus fails the chosen PCBWay 3 mil criterion but is not a universal topology rejection: nominal 0.30/0.15 mm matches JLCPCB preferred diameter-increase guidance and this sparse witness passes its 0.20 mm hole-clearance screen.",
+  "open_gates": [
+    "JLCPCB castellation capability/help/article contradictions and four-edge panel support",
+    "A complete JLCPCB eight-layer stack with this via process, instead of silently borrowing the PCBWay dielectric schedule",
+    "Finished bore versus actual tool and registration/etch/breakout acceptance",
+    "Exact Micron NSMD land/mask/stencil/reliability qualification",
+    "Soldermask tolerances, copper thickness, reference-plane continuity, PDN and complete routing"
+  ]
+}

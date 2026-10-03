@@ -1,0 +1,14 @@
+{
+  "parts": [
+    {
+      "mpn": "CL03B104KP3NNWC",
+      "source_footprint_unchanged": true,
+      "sha256": "e2e0ab433ac92493e44b56ca4b8eb8c09719c5feef1d446e6da7252f528121e6"
+    },
+    {
+      "mpn": "CL10B475KQ8NFQC",
+      "source_footprint_unchanged": true,
+      "sha256": "59decef44ea75e5c28e3f50992a7ab65a4e1b16060076b76efa08aa4efb56499"
+    }
+  ]
+}

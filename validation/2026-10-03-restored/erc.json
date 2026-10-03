@@ -1,0 +1,99 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-02T19:01:41-0700",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/SoC_1/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/bd9bb2f4-9b59-441f-a215-8c4f637c6c79",
+            "violations": []
+        },
+        {
+            "path": "/SoC_2/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/1936531a-05d3-45d5-a36d-7be2694e3fd5",
+            "violations": []
+        },
+        {
+            "path": "/SoC_3/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/7726186d-da96-432c-bf3d-413a3a9fb8d1",
+            "violations": []
+        },
+        {
+            "path": "/LPDDR4_1/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/3aa3259f-ef6f-4ff9-a159-49a0dc5b1af5",
+            "violations": []
+        },
+        {
+            "path": "/LPDDR4_2/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/ee429f3b-6b92-4e24-9d71-ef08def30cbe",
+            "violations": []
+        },
+        {
+            "path": "/eMMC_1/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/77c45855-75c2-4fe9-b0e7-cba4f776852c",
+            "violations": []
+        },
+        {
+            "path": "/Edge_Contract_1/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/362c022b-c5fc-4b18-8902-e49bd987ee9c",
+            "violations": []
+        },
+        {
+            "path": "/Clock_Reset_Boot/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/bcf72c1d-e270-498a-98c7-d2737ee8963a",
+            "violations": []
+        },
+        {
+            "path": "/Cold_Storage_Selector/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/71c2f749-4cd9-4a3e-a7e8-3f32afd2d9ca",
+            "violations": []
+        },
+        {
+            "path": "/Six_Rail_Power/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/edc970bf-0be9-4a0c-863f-3442b244685b",
+            "violations": []
+        },
+        {
+            "path": "/DDR_USB_MIPI_Bias/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/6fe5f828-9e6d-4bd3-ab28-5e0fedab4283",
+            "violations": []
+        },
+        {
+            "path": "/Local_Decoupling/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/8fa667d9-56de-471d-a01d-38888fecc0be",
+            "violations": []
+        },
+        {
+            "path": "/PMU_Automatic_Startup/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/a60d655e-65c6-443d-ab6f-50c5ebaa1bfc",
+            "violations": []
+        },
+        {
+            "path": "/EMMC_Local_Bias/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/5e4bd597-cb0a-4bea-bdcc-6c8abb76dc3f",
+            "violations": []
+        },
+        {
+            "path": "/Hardware_Reset_Interlock/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/a46ac47a-252d-4e62-adc0-1c07e20c9ca7",
+            "violations": []
+        },
+        {
+            "path": "/TF_Voltage_Translation/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/b00c0f21-4444-4365-9438-e56bb6ec9d35",
+            "violations": []
+        },
+        {
+            "path": "/Audited_Source_Declarations/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e/45e9698c-ada5-4d06-b87f-fb75402ba6bb",
+            "violations": []
+        },
+        {
+            "path": "/",
+            "uuid_path": "/3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e",
+            "violations": []
+        }
+    ],
+    "source": "CMK230_Core_REVIEW.kicad_sch"
+}

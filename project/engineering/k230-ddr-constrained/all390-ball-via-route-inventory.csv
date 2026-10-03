@@ -1,0 +1,391 @@
+ball,function,net,xml_net,category,disposition,x_mm,y_mm,ring,top_land_mm,emitted_via_count,physically_routed_signal_transition_count,via_x_mm,via_y_mm,escape_layer,exit_x_mm,exit_y_mm,local_copper_length_mm,ddr65,solved
+A2,USB0_DP,USB0_P,USB0_P,signal,module-name correspondence CANDIDATE,-5.525,-6.175,0,0.27,0,0,,,L1,-5.525,-7.15,0.975,False,True
+A3,USB1_VBUS,USB1_VBUS,USB1_VBUS,signal,parent verified 01studio bias source,-4.875,-6.175,0,0.27,0,0,,,L1,-4.875,-7.15,0.975,False,True
+A4,USB1_DN,USB1_N,USB1_N,signal,module-name correspondence CANDIDATE,-4.225,-6.175,0,0.27,0,0,,,L1,-4.225,-7.15,0.975,False,True
+A5,MMC0_CLK,MMC0_CLK,MMC0_CLK,signal,dedicated storage path; strobe unresolved,-3.575,-6.175,0,0.27,0,0,,,L1,-3.575,-7.15,0.975,False,True
+A6,MMC0_RST_N,MMC0_RST_N,MMC0_RST_N,signal,dedicated storage path; strobe unresolved,-2.925,-6.175,0,0.27,0,0,,,L1,-2.925,-7.15,0.975,False,True
+A7,MMC0_D5,MMC0_D5,MMC0_D5,signal,dedicated storage path; strobe unresolved,-2.275,-6.175,0,0.27,0,0,,,L1,-2.275,-7.15,0.975,False,True
+A8,CLK24M_XOUT,CLK24_XOUT,CLK24_XOUT,signal,existing aux,-1.625,-6.175,0,0.27,0,0,,,L1,-1.625,-7.15,0.975,False,True
+A9,TEST_EN,GND,GND,ground,parent verified private GPIO assignment / TEST_EN ground,-0.975,-6.175,0,0.27,1,0,-0.65,-6.5,,,,0.459619408,False,
+A10,GPIO66/INT2,PWR_CPU_SDA,PWR_CPU_SDA,signal,parent verified private GPIO assignment / TEST_EN ground,-0.325,-6.175,0,0.27,0,0,,,L1,-0.325,-7.15,0.975,False,True
+A11,GPIO67/INT3,PWR_KPU_SCL,PWR_KPU_SCL,signal,parent verified private GPIO assignment / TEST_EN ground,0.325,-6.175,0,0.27,0,0,,,L1,0.325,-7.15,0.975,False,True
+A12,CLK32K768_XOUT,RTC_XOUT,RTC_XOUT,signal,existing aux,0.975,-6.175,0,0.27,0,0,,,L1,0.975,-7.15,0.975,False,True
+A13,VSS,GND,GND,ground,named ground ball,1.625,-6.175,0,0.27,1,0,1.95,-6.5,,,,0.459619408,False,
+A14,DDR_DQB3,DDR_DQB0,DDR_DQB0,signal,01studio exact DDR join,2.275,-6.175,0,0.27,1,1,2.6,-6.5,L8,2.6,-7.15,1.109619408,True,True
+A15,DDR_DQSB0N,DDR_DQSB0_N,DDR_DQSB0_N,signal,01studio exact DDR join,2.925,-6.175,0,0.27,1,1,3.25,-6.5,L8,3.25,-7.15,1.109619408,True,True
+A16,VSS,GND,GND,ground,named ground ball,3.575,-6.175,0,0.27,1,0,3.9,-6.5,,,,0.459619408,False,
+A17,DDR_DQB4,DDR_DQB1,DDR_DQB1,signal,01studio exact DDR join,4.225,-6.175,0,0.27,1,1,4.55,-6.5,L8,4.55,-7.15,1.109619408,True,True
+A18,DDR_DQSB1N,DDR_DQSB1_N,DDR_DQSB1_N,signal,01studio exact DDR join,4.875,-6.175,0,0.27,1,1,5.2,-6.5,L3,5.2,-7.15,1.109619408,True,True
+A19,VSS,GND,GND,ground,named ground ball,5.525,-6.175,0,0.27,1,0,5.85,-6.5,,,,0.459619408,False,
+A20,NC,,unconnected-(U1I-NC-PadA20),unused,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,6.175,-6.175,0,0.27,0,0,,,,,,0,False,
+B1,ADC_2,ADC2,ADC2,signal,module-name correspondence CANDIDATE,-6.175,-5.525,0,0.27,0,0,,,L1,-7.15,-5.525,0.975,False,True
+B2,USB0_DN,USB0_N,USB0_N,signal,module-name correspondence CANDIDATE,-5.525,-5.525,1,0.27,1,1,-5.2,-5.85,L6,-5.2,-7.15,1.759619408,False,True
+B3,USB1_ID,USB1_ID,USB1_ID,signal,module-name correspondence CANDIDATE,-4.875,-5.525,1,0.27,1,1,-4.55,-5.85,L6,-4.55,-7.15,1.759619408,False,True
+B4,USB1_DP,USB1_P,USB1_P,signal,module-name correspondence CANDIDATE,-4.225,-5.525,1,0.27,1,1,-3.9,-5.85,L6,-3.9,-7.15,1.759619408,False,True
+B5,MMC0_D2,MMC0_D2,MMC0_D2,signal,dedicated storage path; strobe unresolved,-3.575,-5.525,1,0.27,1,1,-3.25,-5.85,L6,-3.25,-7.15,1.759619408,False,True
+B6,MMC0_STROBE,MMC0_STROBE,MMC0_STROBE,signal,dedicated storage path; strobe unresolved,-2.925,-5.525,1,0.27,1,1,-2.6,-5.85,L6,-2.6,-7.15,1.759619408,False,True
+B7,MMC0_D6,MMC0_D6,MMC0_D6,signal,dedicated storage path; strobe unresolved,-2.275,-5.525,1,0.27,1,1,-1.95,-5.85,L6,-1.95,-7.15,1.759619408,False,True
+B8,CLK24M_XIN,CLK24_XIN,CLK24_XIN,signal,existing aux,-1.625,-5.525,1,0.27,1,1,-1.3,-5.85,L6,-1.3,-7.15,1.759619408,False,True
+B9,RSTN,SOC_RSTN,SOC_RSTN,signal,existing aux,-0.975,-5.525,1,0.27,1,1,-0.65,-5.85,L6,-0.975,-7.15,2.084619408,False,True
+B10,GPIO65/INT1,PWR_CPU_SCL,PWR_CPU_SCL,signal,parent verified private GPIO assignment / TEST_EN ground,-0.325,-5.525,1,0.27,1,1,0.0,-5.85,L6,0.0,-7.15,1.759619408,False,True
+B11,GPIO70/OUT0,PMU_OUT0_STATUS,PMU_OUT0_STATUS,signal,parent verified private GPIO assignment / TEST_EN ground,0.325,-5.525,1,0.27,1,1,0.65,-5.85,L6,0.65,-7.15,1.759619408,False,True
+B12,CLK32K768_XIN,RTC_XIN,RTC_XIN,signal,existing aux,0.975,-5.525,1,0.27,1,1,1.3,-5.85,L6,1.3,-7.15,1.759619408,False,True
+B13,VSS,GND,GND,ground,named ground ball,1.625,-5.525,1,0.27,1,0,1.95,-5.85,,,,0.459619408,False,
+B14,DDR_DQB2,DDR_DQB3,DDR_DQB3,signal,01studio exact DDR join,2.275,-5.525,1,0.27,1,1,2.6,-5.85,L8,2.275,-7.15,2.084619408,True,True
+B15,DDR_DQSB0P,DDR_DQSB0_P,DDR_DQSB0_P,signal,01studio exact DDR join,2.925,-5.525,1,0.27,1,1,3.25,-5.85,L8,2.925,-7.15,2.084619408,True,True
+B16,DDR_DQB5,DDR_DQB5,DDR_DQB5,signal,01studio exact DDR join,3.575,-5.525,1,0.27,1,1,3.9,-5.85,L8,3.575,-7.15,2.084619408,True,True
+B17,DDR_DQB7,DDR_DQB7,DDR_DQB7,signal,01studio exact DDR join,4.225,-5.525,1,0.27,1,1,4.55,-5.85,L8,4.225,-7.15,2.084619408,True,True
+B18,DDR_DQSB1P,DDR_DQSB1_P,DDR_DQSB1_P,signal,01studio exact DDR join,4.875,-5.525,1,0.27,1,1,5.2,-5.85,L3,4.875,-7.15,2.084619408,True,True
+B19,DDR_DQB9,DDR_DQB15,DDR_DQB15,signal,01studio exact DDR join,5.525,-5.525,1,0.27,1,1,5.85,-5.85,L3,5.525,-7.15,2.084619408,True,True
+B20,VSS,GND,GND,ground,named ground ball,6.175,-5.525,0,0.27,1,0,6.5,-5.85,,,,0.459619408,False,
+C1,ADC_4,ADC4,ADC4,signal,module-name correspondence CANDIDATE,-6.175,-4.875,0,0.27,0,0,,,L1,-7.15,-4.875,0.975,False,True
+C2,ADC_0,ADC0,ADC0,signal,module-name correspondence CANDIDATE,-5.525,-4.875,1,0.27,1,1,-5.2,-5.2,L6,-7.15,-5.2,2.409619408,False,True
+C3,USB0_VBUS,USB0_VBUS,USB0_VBUS,signal,parent verified 01studio bias source,-4.875,-4.875,2,0.27,1,1,-4.55,-5.2,L8,-4.875,-7.15,2.734619408,False,True
+C4,USB1_TXRTUNE,USB1_TXRTUNE,USB1_TXRTUNE,signal,parent verified 01studio bias source,-4.225,-4.875,2,0.27,1,1,-3.9,-5.2,L3,-4.225,-7.15,2.734619408,False,True
+C5,MMC0_D1,MMC0_D1,MMC0_D1,signal,dedicated storage path; strobe unresolved,-3.575,-4.875,2,0.27,1,1,-3.25,-5.2,L6,-3.575,-7.15,2.734619408,False,True
+C6,MMC0_D3,MMC0_D3,MMC0_D3,signal,dedicated storage path; strobe unresolved,-2.925,-4.875,2,0.27,1,1,-2.6,-5.2,L8,-2.925,-7.15,2.734619408,False,True
+C7,MMC0_D7,MMC0_D7,MMC0_D7,signal,dedicated storage path; strobe unresolved,-2.275,-4.875,2,0.27,1,1,-1.95,-5.2,L3,-2.275,-7.15,2.734619408,False,True
+C8,GPIO0/BOOT0,BOOT0,BOOT0,signal,existing aux,-1.625,-4.875,2,0.27,1,1,-1.3,-5.2,L6,-1.625,-7.15,2.734619408,False,True
+C9,GPIO1/BOOT1,BOOT1,BOOT1,signal,existing aux,-0.975,-4.875,2,0.27,1,1,-0.65,-5.2,L8,-0.975,-7.15,2.734619408,False,True
+C10,GPIO64/INT0,PMU_INT0,PMU_INT0,signal,parent verified private GPIO assignment / TEST_EN ground,-0.325,-4.875,2,0.27,1,1,0.0,-5.2,L8,-0.325,-7.15,2.734619408,False,True
+C11,GPIO71/OUT1,PMU_OUT1_STATUS,PMU_OUT1_STATUS,signal,parent verified private GPIO assignment / TEST_EN ground,0.325,-4.875,2,0.27,1,1,0.65,-5.2,L3,0.325,-7.15,2.734619408,False,True
+C12,GPIO68/INT4,PMU_INT4_AUTO_START,PMU_INT4_AUTO_START,signal,parent verified private GPIO assignment / TEST_EN ground,0.975,-4.875,2,0.27,1,1,1.3,-5.2,L6,0.975,-7.15,2.734619408,False,True
+C13,VSS,GND,GND,ground,named ground ball,1.625,-4.875,2,0.27,1,0,1.95,-5.2,,,,0.459619408,False,
+C14,DDR_DQB0,DDR_DQB2,DDR_DQB2,signal,01studio exact DDR join,2.275,-4.875,2,0.27,1,1,2.6,-5.2,L8,1.625,-7.15,3.384619408,True,True
+C15,DDR_DMIB0,DDR_DMIB0,DDR_DMIB0,signal,01studio exact DDR join,2.925,-4.875,2,0.27,1,1,3.25,-5.2,L8,4.875,-7.15,4.034619408,True,True
+C16,DDR_DQB6,DDR_DQB6,DDR_DQB6,signal,01studio exact DDR join,3.575,-4.875,2,0.27,1,1,3.9,-5.2,L8,7.15,-4.875,4.034619408,True,True
+C17,DDR_DQB15,DDR_DQB9,DDR_DQB9,signal,01studio exact DDR join,4.225,-4.875,2,0.27,1,1,4.55,-5.2,L3,4.225,-7.15,2.734619408,True,True
+C18,DDR_DQB12,DDR_DQB8,DDR_DQB8,signal,01studio exact DDR join,4.875,-4.875,2,0.27,1,1,5.2,-5.2,L3,7.15,-5.525,2.734619408,True,True
+C19,DDR_DQB8,DDR_DQB14,DDR_DQB14,signal,01studio exact DDR join,5.525,-4.875,1,0.27,1,1,5.85,-5.2,L3,7.15,-5.2,1.759619408,True,True
+C20,DDR_NC,,unconnected-(U1E-DDR_NC-PadC20),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,6.175,-4.875,0,0.27,0,0,,,,,,0,False,
+D1,ADC_5,ADC5,ADC5,signal,module-name correspondence CANDIDATE,-6.175,-4.225,0,0.27,0,0,,,L1,-7.15,-4.225,0.975,False,True
+D2,ADC_1,ADC1,ADC1,signal,module-name correspondence CANDIDATE,-5.525,-4.225,1,0.27,1,1,-5.2,-4.55,L6,-7.15,-4.55,2.409619408,False,True
+D3,USB0_ID,USB0_ID,USB0_ID,signal,module-name correspondence CANDIDATE,-4.875,-4.225,2,0.27,1,1,-4.55,-4.55,L3,-7.15,-4.875,3.384619408,False,True
+D4,USB0_TXRTUNE,USB0_TXRTUNE,USB0_TXRTUNE,signal,parent verified 01studio bias source,-4.225,-4.225,3,0.27,1,1,-3.9,-4.55,L8,-4.225,-7.15,3.384619408,False,True
+D5,MMC0_D0,MMC0_D0,MMC0_D0,signal,dedicated storage path; strobe unresolved,-3.575,-4.225,3,0.27,1,1,-3.25,-4.55,L3,-3.575,-7.15,3.384619408,False,True
+D6,MMC0_CMD,MMC0_CMD,MMC0_CMD,signal,dedicated storage path; strobe unresolved,-2.925,-4.225,3,0.27,1,1,-2.6,-4.55,L6,-2.925,-7.15,3.384619408,False,True
+D7,MMC0_D4,MMC0_D4,MMC0_D4,signal,dedicated storage path; strobe unresolved,-2.275,-4.225,3,0.27,1,1,-1.95,-4.55,L8,-2.275,-7.15,3.384619408,False,True
+D8,ANA_TS_VTEST,,unconnected-(U1J-ANA_TS_VTEST-PadD8),unused,REFERENCE_UNUSED_ANALOG_TEST_OUTPUT,-1.625,-4.225,3,0.27,0,0,,,,,,0,False,
+D9,VSS,GND,GND,ground,named ground ball,-0.975,-4.225,3,0.27,1,0,-0.65,-4.55,,,,0.459619408,False,
+D10,VSS,GND,GND,ground,named ground ball,-0.325,-4.225,3,0.27,1,0,0.0,-4.55,,,,0.459619408,False,
+D11,VSS,GND,GND,ground,named ground ball,0.325,-4.225,3,0.27,1,0,0.65,-4.55,,,,0.459619408,False,
+D12,GPIO69/INT5,PWR_KPU_SDA,PWR_KPU_SDA,signal,parent verified private GPIO assignment / TEST_EN ground,0.975,-4.225,3,0.27,1,1,1.3,-4.55,L6,1.625,-7.15,3.384619408,False,True
+D13,VSS,GND,GND,ground,named ground ball,1.625,-4.225,3,0.27,1,0,1.95,-4.55,,,,0.459619408,False,
+D14,DDR_DQB1,DDR_DQB4,DDR_DQB4,signal,01studio exact DDR join,2.275,-4.225,3,0.27,1,1,2.6,-4.55,L8,0.975,-7.15,4.684619408,True,True
+D15,VSS,GND,GND,ground,named ground ball,2.925,-4.225,3,0.27,1,0,3.25,-4.55,,,,0.459619408,False,
+D16,DDR_DQB14,DDR_DQB13,DDR_DQB13,signal,01studio exact DDR join,3.575,-4.225,3,0.27,1,1,3.9,-4.55,L3,3.575,-7.15,3.384619408,True,True
+D17,DDR_DQB13,DDR_DQB10,DDR_DQB10,signal,01studio exact DDR join,4.225,-4.225,3,0.27,1,1,4.55,-4.55,L3,7.15,-4.875,3.384619408,True,True
+D18,DDR_DMIB1,DDR_DMIB1,DDR_DMIB1,signal,01studio exact DDR join,4.875,-4.225,2,0.27,1,1,5.2,-4.55,L3,7.15,-4.55,2.409619408,True,True
+D19,DDR_NC,,unconnected-(U1E-DDR_NC-PadD19),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,5.525,-4.225,1,0.27,0,0,,,,,,0,False,
+D20,DDR_NC,,unconnected-(U1E-DDR_NC-PadD20),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,6.175,-4.225,0,0.27,0,0,,,,,,0,False,
+E1,MIC_PL,MIC_PL,MIC_PL,signal,module-name correspondence CANDIDATE,-6.175,-3.575,0,0.27,0,0,,,L1,-7.15,-3.575,0.975,False,True
+E2,MIC_NL,MIC_NL,MIC_NL,signal,module-name correspondence CANDIDATE,-5.525,-3.575,1,0.27,1,1,-5.2,-3.9,L6,-7.15,-3.9,2.409619408,False,True
+E3,MIC_BIAS,MIC_BIAS,MIC_BIAS,signal,module-name correspondence CANDIDATE,-4.875,-3.575,2,0.27,1,1,-4.55,-3.9,L6,-7.15,-4.225,3.384619408,False,True
+E4,VSS,GND,GND,ground,named ground ball,-4.225,-3.575,3,0.27,1,0,-3.9,-3.9,,,,0.459619408,False,
+E6,VSS,GND,GND,ground,named ground ball,-2.925,-3.575,4,0.27,1,0,-2.6,-3.9,,,,0.459619408,False,
+E7,VSS,GND,GND,ground,named ground ball,-2.275,-3.575,4,0.27,1,0,-1.95,-3.9,,,,0.459619408,False,
+E8,VSS,GND,GND,ground,named ground ball,-1.625,-3.575,4,0.27,1,0,-1.3,-3.9,,,,0.459619408,False,
+E9,AVDD3P3_USB,AVDD3P3_USB,AVDD3P3_USB,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,-3.575,4,0.27,1,0,-0.65,-3.9,,,,0.459619408,False,
+E10,VDD3P3_SD,VDD3P3_SD,VDD3P3_SD,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.325,-3.575,4,0.27,1,0,0.0,-3.9,,,,0.459619408,False,
+E11,VDD1P8,VDD1P8,VDD1P8,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.325,-3.575,4,0.27,1,0,0.65,-3.9,,,,0.459619408,False,
+E12,VSS,GND,GND,ground,named ground ball,0.975,-3.575,4,0.27,1,0,1.3,-3.9,,,,0.459619408,False,
+E13,VSS,GND,GND,ground,named ground ball,1.625,-3.575,4,0.27,1,0,1.95,-3.9,,,,0.459619408,False,
+E14,VSS,GND,GND,ground,named ground ball,2.275,-3.575,4,0.27,1,0,2.6,-3.9,,,,0.459619408,False,
+E15,VSS,GND,GND,ground,named ground ball,2.925,-3.575,4,0.27,1,0,3.25,-3.9,,,,0.459619408,False,
+E16,VSS,GND,GND,ground,named ground ball,3.575,-3.575,4,0.27,1,0,3.9,-3.9,,,,0.459619408,False,
+E17,DDR_DQB10,DDR_DQB11,DDR_DQB11,signal,01studio exact DDR join,4.225,-3.575,3,0.27,1,1,4.55,-3.9,L3,7.15,-3.575,3.384619408,True,True
+E18,DDR_DQB11,DDR_DQB12,DDR_DQB12,signal,01studio exact DDR join,4.875,-3.575,2,0.27,1,1,5.2,-3.9,L3,7.15,-4.225,2.734619408,True,True
+E19,VSS,GND,GND,ground,named ground ball,5.525,-3.575,1,0.27,1,0,5.85,-3.9,,,,0.459619408,False,
+E20,DDR_CAB0,DDR_CAB0,DDR_CAB0,signal,01studio exact DDR join,6.175,-3.575,0,0.27,1,1,6.5,-3.9,L8,7.15,-3.9,1.109619408,True,True
+F1,MIC_PR,MIC_PR,MIC_PR,signal,module-name correspondence CANDIDATE,-6.175,-2.925,0,0.27,0,0,,,L1,-7.15,-2.925,0.975,False,True
+F2,MIC_NR,MIC_NR,MIC_NR,signal,module-name correspondence CANDIDATE,-5.525,-2.925,1,0.27,1,1,-5.2,-3.25,L6,-7.15,-3.25,2.409619408,False,True
+F3,CODEC_VCM,CODEC_VCM,CODEC_VCM,signal,parent verified 01studio bias source,-4.875,-2.925,2,0.27,1,1,-4.55,-3.25,L8,-7.15,-3.575,3.384619408,False,True
+F4,VSS,GND,GND,ground,named ground ball,-4.225,-2.925,3,0.27,1,0,-3.9,-3.25,,,,0.459619408,False,
+F6,VSS,GND,GND,ground,named ground ball,-2.925,-2.925,5,0.27,1,0,-2.6,-3.25,,,,0.459619408,False,
+F7,AVDD1P8_CODEC,AVDD1P8_CODEC,AVDD1P8_CODEC,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-2.275,-2.925,5,0.27,1,0,-1.95,-3.25,,,,0.459619408,False,
+F8,AVDD1P8_ADC,AVDD1P8_ADC,AVDD1P8_ADC,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-1.625,-2.925,5,0.27,1,0,-1.3,-3.25,,,,0.459619408,False,
+F9,AVDD1P8_USB,AVDD1P8_USB,AVDD1P8_USB,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,-2.925,5,0.27,1,0,-0.65,-3.25,,,,0.459619408,False,
+F10,VSS,GND,GND,ground,named ground ball,-0.325,-2.925,5,0.27,1,0,0.0,-3.25,,,,0.459619408,False,
+F11,AVSS,GND,GND,ground,named ground ball,0.325,-2.925,5,0.27,1,0,0.65,-3.25,,,,0.459619408,False,
+F12,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.975,-2.925,5,0.27,1,0,1.3,-3.25,,,,0.459619408,False,
+F13,VDD1P8,VDD1P8,VDD1P8,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,1.625,-2.925,5,0.27,1,0,1.95,-3.25,,,,0.459619408,False,
+F14,AVDD1P8_LDO,AVDD1P8_PMU,AVDD1P8_PMU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,2.275,-2.925,5,0.27,1,0,2.6,-3.25,,,,0.459619408,False,
+F15,AVDD1P8_RTC,AVDD1P8_PMU,AVDD1P8_PMU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,2.925,-2.925,5,0.27,1,0,3.25,-3.25,,,,0.459619408,False,
+F16,VSS,GND,GND,ground,named ground ball,3.575,-2.925,4,0.27,1,0,3.9,-3.25,,,,0.459619408,False,
+F17,DDR_CAB4,DDR_CAB4,DDR_CAB4,signal,01studio exact DDR join,4.225,-2.925,3,0.27,1,1,4.55,-3.25,L8,7.15,-4.225,4.034619408,True,True
+F18,DDR_NC,,unconnected-(U1E-DDR_NC-PadF18),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,4.875,-2.925,2,0.27,0,0,,,,,,0,False,
+F19,DDR_CAB5,DDR_CAB5,DDR_CAB5,signal,01studio exact DDR join,5.525,-2.925,1,0.27,1,1,5.85,-3.25,L8,7.15,-3.575,2.084619408,True,True
+F20,DDR_CLKBN,DDR_CLKB_N,DDR_CLKB_N,signal,01studio exact DDR join,6.175,-2.925,0,0.27,1,1,6.5,-3.25,L8,7.15,-3.25,1.109619408,True,True
+G1,HP_OUTL,HP_OUTL,HP_OUTL,signal,module-name correspondence CANDIDATE,-6.175,-2.275,0,0.27,0,0,,,L1,-7.15,-2.275,0.975,False,True
+G2,HP_OUTR,HP_OUTR,HP_OUTR,signal,module-name correspondence CANDIDATE,-5.525,-2.275,1,0.27,1,1,-5.2,-2.6,L6,-7.15,-2.6,2.409619408,False,True
+G3,ADC_3,ADC3,ADC3,signal,module-name correspondence CANDIDATE,-4.875,-2.275,2,0.27,1,1,-4.55,-2.6,L3,-7.15,-2.925,3.384619408,False,True
+G4,GPIO48/UART4_TXD/IIC0_SCL/SPI2AXI_DIN,BANK3_GPIO48,BANK3_GPIO48,signal,module-name correspondence CANDIDATE,-4.225,-2.275,3,0.27,1,1,-3.9,-2.6,L3,-7.15,-2.275,4.034619408,False,True
+G5,GPIO49/UART4_RXD/IIC0_SDA/SPI2AXI_DOUT,BANK3_GPIO49,BANK3_GPIO49,signal,module-name correspondence CANDIDATE,-3.575,-2.275,4,0.27,1,1,-3.25,-2.6,L8,-7.15,-2.925,4.684619408,False,True
+G6,VSS,GND,GND,ground,named ground ball,-2.925,-2.275,5,0.27,1,0,-2.6,-2.6,,,,0.459619408,False,
+G7,AVSS,GND,GND,ground,named ground ball,-2.275,-2.275,6,0.27,1,0,-1.95,-2.6,,,,0.459619408,False,
+G8,AVSS,GND,GND,ground,named ground ball,-1.625,-2.275,6,0.27,1,0,-1.3,-2.6,,,,0.459619408,False,
+G9,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,-2.275,6,0.27,1,0,-0.65,-2.6,,,,0.459619408,False,
+G10,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.325,-2.275,6,0.27,1,0,0.0,-2.6,,,,0.459619408,False,
+G11,AVDD0P8_PLL,AVDD0P8_PLL,AVDD0P8_PLL,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.325,-2.275,6,0.27,1,0,0.65,-2.6,,,,0.459619408,False,
+G12,VDD0P8_CPU,VDD0P8_CPU,VDD0P8_CPU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.975,-2.275,6,0.27,1,0,1.3,-2.6,,,,0.459619408,False,
+G13,VSS,GND,GND,ground,named ground ball,1.625,-2.275,6,0.27,1,0,1.95,-2.6,,,,0.459619408,False,
+G14,VSS,GND,GND,ground,named ground ball,2.275,-2.275,6,0.27,1,0,2.6,-2.6,,,,0.459619408,False,
+G15,VSS,GND,GND,ground,named ground ball,2.925,-2.275,5,0.27,1,0,3.25,-2.6,,,,0.459619408,False,
+G16,VSS,GND,GND,ground,named ground ball,3.575,-2.275,4,0.27,1,0,3.9,-2.6,,,,0.459619408,False,
+G17,DDR_NC,,unconnected-(U1E-DDR_NC-PadG17),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,4.225,-2.275,3,0.27,0,0,,,,,,0,False,
+G18,DDR_CAB2,DDR_CAB2,DDR_CAB2,signal,01studio exact DDR join,4.875,-2.275,2,0.27,1,1,5.2,-2.6,L8,7.15,-2.275,2.734619408,True,True
+G19,DDR_CAB1,DDR_CAB1,DDR_CAB1,signal,01studio exact DDR join,5.525,-2.275,1,0.27,1,1,5.85,-2.6,L8,7.15,-2.925,2.084619408,True,True
+G20,DDR_CLKBP,DDR_CLKB_P,DDR_CLKB_P,signal,01studio exact DDR join,6.175,-2.275,0,0.27,1,1,6.5,-2.6,L8,7.15,-2.6,1.109619408,True,True
+H1,GPIO42/UART1_RTS/PWM0/QSPI1_D2,BANK3_GPIO42,BANK3_GPIO42,signal,module-name correspondence CANDIDATE,-6.175,-1.625,0,0.27,0,0,,,L1,-7.15,-1.625,0.975,False,True
+H2,GPIO44/UART2_TXD/IIC3_SCL/SPI2AXI_CLK,BANK3_GPIO44,BANK3_GPIO44,signal,module-name correspondence CANDIDATE,-5.525,-1.625,1,0.27,1,1,-5.2,-1.95,L6,-7.15,-1.95,2.409619408,False,True
+H3,GPIO45/UART2_RXD/IIC3_SDA/SPI2AXI_CS,BANK3_GPIO45,BANK3_GPIO45,signal,module-name correspondence CANDIDATE,-4.875,-1.625,2,0.27,1,1,-4.55,-1.95,L6,-7.15,-2.275,3.384619408,False,True
+H4,GPIO46/UART2_RTS/PWM2/IIC4_SCL,BANK3_GPIO46,BANK3_GPIO46,signal,module-name correspondence CANDIDATE,-4.225,-1.625,3,0.27,1,1,-3.9,-1.95,L6,-7.15,-1.625,4.034619408,False,True
+H5,GPIO47/UART2_CTS/PWM3/IIC4_SDA,BANK3_GPIO47,BANK3_GPIO47,signal,module-name correspondence CANDIDATE,-3.575,-1.625,4,0.27,1,1,-3.25,-1.95,L3,-7.15,-1.625,4.684619408,False,True
+H6,VDDIO_BANK3,BANK3_VDDIO,BANK3_VDDIO,power,module-name correspondence CANDIDATE,-2.925,-1.625,5,0.27,1,0,-2.6,-1.95,,,,0.459619408,False,
+H7,VSS,GND,GND,ground,named ground ball,-2.275,-1.625,6,0.27,1,0,-1.95,-1.95,,,,0.459619408,False,
+H8,VDD0P8_KPU,VDD0P8_KPU,VDD0P8_KPU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-1.625,-1.625,7,0.27,1,0,-1.3,-1.95,,,,0.459619408,False,
+H9,VDD0P8_KPU,VDD0P8_KPU,VDD0P8_KPU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,-1.625,7,0.27,1,0,-0.65,-1.95,,,,0.459619408,False,
+H10,VDD0P8_KPU,VDD0P8_KPU,VDD0P8_KPU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.325,-1.625,7,0.27,1,0,0.0,-1.95,,,,0.459619408,False,
+H11,VSS,GND,GND,ground,named ground ball,0.325,-1.625,7,0.27,1,0,0.65,-1.95,,,,0.459619408,False,
+H12,VDD0P8_CPU,VDD0P8_CPU,VDD0P8_CPU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.975,-1.625,7,0.27,1,0,1.3,-1.95,,,,0.459619408,False,
+H13,VSS,GND,GND,ground,named ground ball,1.625,-1.625,7,0.27,1,0,1.95,-1.95,,,,0.459619408,False,
+H14,VDD1P1_DDR_IO,VDD1P1_DDR_IO,VDD1P1_DDR_IO,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,2.275,-1.625,6,0.27,1,0,2.6,-1.95,,,,0.459619408,False,
+H15,VSS,GND,GND,ground,named ground ball,2.925,-1.625,5,0.27,1,0,3.25,-1.95,,,,0.459619408,False,
+H16,VSS,GND,GND,ground,named ground ball,3.575,-1.625,4,0.27,1,0,3.9,-1.95,,,,0.459619408,False,
+H17,DDR_CAB3,DDR_CAB3,DDR_CAB3,signal,01studio exact DDR join,4.225,-1.625,3,0.27,1,1,4.55,-1.95,L8,7.15,-0.975,4.034619408,True,True
+H18,DDR_NC,,unconnected-(U1E-DDR_NC-PadH18),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,4.875,-1.625,2,0.27,0,0,,,,,,0,False,
+H19,DDR_NC,,unconnected-(U1E-DDR_NC-PadH19),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,5.525,-1.625,1,0.27,0,0,,,,,,0,False,
+H20,VSS,GND,GND,ground,named ground ball,6.175,-1.625,0,0.27,1,0,6.5,-1.95,,,,0.459619408,False,
+J1,GPIO41/UART1_RXD/IIC1_SDA/QSPI1_D1,BANK3_GPIO41,BANK3_GPIO41,signal,module-name correspondence CANDIDATE,-6.175,-0.975,0,0.27,0,0,,,L1,-7.15,-0.975,0.975,False,True
+J2,GPIO40/UART1_TXD/IIC1_SCL/QSPI1_D0,BANK3_GPIO40,BANK3_GPIO40,signal,module-name correspondence CANDIDATE,-5.525,-0.975,1,0.27,1,1,-5.2,-1.3,L6,-7.15,-1.3,2.409619408,False,True
+J3,GPIO39/UART0_RXD/QSPI1_CLK/VSYNC0,BANK3_GPIO39,BANK3_GPIO39,signal,module-name correspondence CANDIDATE,-4.875,-0.975,2,0.27,1,1,-4.55,-1.3,L8,-7.15,-1.625,3.384619408,False,True
+J4,GPIO38/UART0_TXD/QSPI1_CS0/HSYNC0,BANK3_GPIO38,BANK3_GPIO38,signal,module-name correspondence CANDIDATE,-4.225,-0.975,3,0.27,1,1,-3.9,-1.3,L8,-7.15,-0.975,4.034619408,False,True
+J5,GPIO14/OSPI_CS/QSPI0_CS0,BANK1_GPIO14,BANK1_GPIO14,signal,module-name correspondence CANDIDATE,-3.575,-0.975,4,0.27,1,1,-3.25,-1.3,L6,-7.15,-0.975,4.684619408,False,True
+J6,GPIO43/UART1_CTS/PWM1/QSPI1_D3,BANK3_GPIO43,BANK3_GPIO43,signal,module-name correspondence CANDIDATE,-2.925,-0.975,5,0.27,1,1,-2.6,-1.3,L8,-7.15,-2.275,5.984619408,False,True
+J7,VSS,GND,GND,ground,named ground ball,-2.275,-0.975,6,0.27,1,0,-1.95,-1.3,,,,0.459619408,False,
+J8,VDD0P8_KPU,VDD0P8_KPU,VDD0P8_KPU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-1.625,-0.975,7,0.27,1,0,-1.3,-1.3,,,,0.459619408,False,
+J9,VDD0P8_KPU,VDD0P8_KPU,VDD0P8_KPU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,-0.975,8,0.27,1,0,-0.65,-1.3,,,,0.459619408,False,
+J10,VDD0P8_KPU,VDD0P8_KPU,VDD0P8_KPU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.325,-0.975,8,0.27,1,0,0.0,-1.3,,,,0.459619408,False,
+J11,VSS,GND,GND,ground,named ground ball,0.325,-0.975,8,0.27,1,0,0.65,-1.3,,,,0.459619408,False,
+J12,VDD0P8_CPU,VDD0P8_CPU,VDD0P8_CPU,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.975,-0.975,8,0.27,1,0,1.3,-1.3,,,,0.459619408,False,
+J13,VSS,GND,GND,ground,named ground ball,1.625,-0.975,7,0.27,1,0,1.95,-1.3,,,,0.459619408,False,
+J14,VDD1P1_DDR_IO,VDD1P1_DDR_IO,VDD1P1_DDR_IO,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,2.275,-0.975,6,0.27,1,0,2.6,-1.3,,,,0.459619408,False,
+J15,VSS,GND,GND,ground,named ground ball,2.925,-0.975,5,0.27,1,0,3.25,-1.3,,,,0.459619408,False,
+J16,DDR_RESET,DDR_RESET,DDR_RESET,signal,01studio exact DDR join,3.575,-0.975,4,0.27,1,1,3.9,-1.3,L3,7.15,-1.625,4.034619408,True,True
+J17,DDR_CKEB1,,unconnected-(U1E-DDR_CKEB1-PadJ17),unused,REFERENCE_SINGLE_RANK_UNUSED_OUTPUT,4.225,-0.975,3,0.27,0,0,,,,,,0,False,
+J18,DDR_CKEB0,DDR_CKEB0,DDR_CKEB0,signal,01studio exact DDR join,4.875,-0.975,2,0.27,1,1,5.2,-1.3,L8,7.15,-1.625,2.734619408,True,True
+J19,DDR_CSB1,,unconnected-(U1F-DDR_CSB1-PadJ19),unused,REFERENCE_SINGLE_RANK_UNUSED_OUTPUT,5.525,-0.975,1,0.27,0,0,,,,,,0,False,
+J20,DDR_CSB0,DDR_CSB0,DDR_CSB0,signal,01studio exact DDR join,6.175,-0.975,0,0.27,1,1,6.5,-1.3,L8,7.15,-1.3,1.109619408,True,True
+K1,GPIO15/OSPI_CLK/QSPI0_CLK,BANK1_GPIO15,BANK1_GPIO15,signal,module-name correspondence CANDIDATE,-6.175,-0.325,0,0.27,0,0,,,L1,-7.15,-0.325,0.975,False,True
+K2,GPIO16/OSPI_D0/QSPI1_CS4/QSPI0_D0,BANK1_GPIO16,BANK1_GPIO16,signal,module-name correspondence CANDIDATE,-5.525,-0.325,1,0.27,1,1,-5.2,-0.65,L6,-7.15,-0.65,2.409619408,False,True
+K3,VSS,GND,GND,ground,named ground ball,-4.875,-0.325,2,0.27,1,0,-4.55,-0.65,,,,0.459619408,False,
+K4,GPIO17/OSPI_D1/QSPI1_CS3/QSPI0_D1,BANK1_GPIO17,BANK1_GPIO17,signal,module-name correspondence CANDIDATE,-4.225,-0.325,3,0.27,1,1,-3.9,-0.65,L3,-7.15,-0.975,4.034619408,False,True
+K5,GPIO18/OSPI_D2/QSPI1_CS2/QSPI0_D2,BANK1_GPIO18,BANK1_GPIO18,signal,module-name correspondence CANDIDATE,-3.575,-0.325,4,0.27,1,1,-3.25,-0.65,L6,-7.15,-0.325,4.684619408,False,True
+K6,VSS,GND,GND,ground,named ground ball,-2.925,-0.325,5,0.27,1,0,-2.6,-0.65,,,,0.459619408,False,
+K7,VDDIO_BANK1,BANK1_VDDIO,BANK1_VDDIO,power,module-name correspondence CANDIDATE,-2.275,-0.325,6,0.27,1,0,-1.95,-0.65,,,,0.459619408,False,
+K8,VSS,GND,GND,ground,named ground ball,-1.625,-0.325,7,0.27,1,0,-1.3,-0.65,,,,0.459619408,False,
+K9,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,-0.325,8,0.27,1,0,-0.65,-0.65,,,,0.459619408,False,
+K10,VSS,GND,GND,ground,named ground ball,-0.325,-0.325,9,0.27,1,0,0.0,-0.65,,,,0.459619408,False,
+K11,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.325,-0.325,9,0.27,1,0,0.65,-0.65,,,,0.459619408,False,
+K12,VSS,GND,GND,ground,named ground ball,0.975,-0.325,8,0.27,1,0,1.3,-0.65,,,,0.459619408,False,
+K13,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,1.625,-0.325,7,0.27,1,0,1.95,-0.65,,,,0.459619408,False,
+K14,VSS,GND,GND,ground,named ground ball,2.275,-0.325,6,0.27,1,0,2.6,-0.65,,,,0.459619408,False,
+K15,VAA_DDR,VAA_DDR,VAA_DDR,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,2.925,-0.325,5,0.27,1,0,3.25,-0.65,,,,0.459619408,False,
+K16,VSS,GND,GND,ground,named ground ball,3.575,-0.325,4,0.27,1,0,3.9,-0.65,,,,0.459619408,False,
+K17,DDR_VREF,DDR_VREF,DDR_VREF,signal,parent verified 01studio bias source,4.225,-0.325,3,0.27,1,1,4.55,-0.65,L6,7.15,-0.975,3.384619408,False,True
+K18,VSS,GND,GND,ground,named ground ball,4.875,-0.325,2,0.27,1,0,5.2,-0.65,,,,0.459619408,False,
+K19,DDR_ZN,DDR_ZN,DDR_ZN,signal,parent verified 01studio bias source,5.525,-0.325,1,0.27,1,1,5.85,-0.65,L6,7.15,-0.65,1.759619408,False,True
+K20,DDR_NC,,unconnected-(U1F-DDR_NC-PadK20),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,6.175,-0.325,0,0.27,0,0,,,,,,0,False,
+L1,GPIO19/OSPI_D3/QSPI1_CS1/QSPI0_D3,BANK1_GPIO19,BANK1_GPIO19,signal,module-name correspondence CANDIDATE,-6.175,0.325,0,0.27,0,0,,,L1,-7.15,0.325,0.975,False,True
+L2,GPIO20/OSPI_D4/QSPI1_CS0/PULSE_CNTR0,BANK1_GPIO20,BANK1_GPIO20,signal,module-name correspondence CANDIDATE,-5.525,0.325,1,0.27,1,1,-5.2,0.0,L6,-7.15,0.0,2.409619408,False,True
+L3,GPIO21/OSPI_D5/QSPI1_CLK/PULSE_CNTR1,BANK1_GPIO21,BANK1_GPIO21,signal,module-name correspondence CANDIDATE,-4.875,0.325,2,0.27,1,1,-4.55,0.0,L3,-7.15,-0.325,3.384619408,False,True
+L4,GPIO22/OSPI_D6/QSPI1_D0/PULSE_CNTR2,BANK1_GPIO22,BANK1_GPIO22,signal,module-name correspondence CANDIDATE,-4.225,0.325,3,0.27,1,1,-3.9,0.0,L8,-7.15,-0.325,4.034619408,False,True
+L5,GPIO23/OSPI_D7/QSPI1_D1/PULSE_CNTR3,BANK1_GPIO23,BANK1_GPIO23,signal,module-name correspondence CANDIDATE,-3.575,0.325,4,0.27,1,1,-3.25,0.0,L8,-7.15,0.325,4.684619408,False,True
+L6,GPIO24/OSPI_DQS/QSPI1_D2/PULSE_CNTR4,BANK1_GPIO24,BANK1_GPIO24,signal,module-name correspondence CANDIDATE,-2.925,0.325,5,0.27,1,1,-2.6,0.0,L8,-7.15,0.975,5.984619408,False,True
+L7,VSS,GND,GND,ground,named ground ball,-2.275,0.325,6,0.27,1,0,-1.95,0.0,,,,0.459619408,False,
+L8,VSS,GND,GND,ground,named ground ball,-1.625,0.325,7,0.27,1,0,-1.3,0.0,,,,0.459619408,False,
+L9,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,0.325,8,0.27,1,0,-0.65,0.0,,,,0.459619408,False,
+L10,VSS,GND,GND,ground,named ground ball,-0.325,0.325,9,0.27,1,0,0.0,0.0,,,,0.459619408,False,
+L11,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.325,0.325,9,0.27,1,0,0.65,0.0,,,,0.459619408,False,
+L12,VSS,GND,GND,ground,named ground ball,0.975,0.325,8,0.27,1,0,1.3,0.0,,,,0.459619408,False,
+L13,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,1.625,0.325,7,0.27,1,0,1.95,0.0,,,,0.459619408,False,
+L14,VDD1P1_DDR_IO,VDD1P1_DDR_IO,VDD1P1_DDR_IO,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,2.275,0.325,6,0.27,1,0,2.6,0.0,,,,0.459619408,False,
+L15,VSS,GND,GND,ground,named ground ball,2.925,0.325,5,0.27,1,0,3.25,0.0,,,,0.459619408,False,
+L16,DDR_CAA1,DDR_CAA1,DDR_CAA1,signal,01studio exact DDR join,3.575,0.325,4,0.27,1,1,3.9,0.0,L3,7.15,-0.975,4.684619408,True,True
+L17,DDR_NC,,unconnected-(U1F-DDR_NC-PadL17),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,4.225,0.325,3,0.27,0,0,,,,,,0,False,
+L18,DDR_NC,,unconnected-(U1F-DDR_NC-PadL18),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,4.875,0.325,2,0.27,0,0,,,,,,0,False,
+L19,VSS,GND,GND,ground,named ground ball,5.525,0.325,1,0.27,1,0,5.85,0.0,,,,0.459619408,False,
+L20,DDR_NC,,unconnected-(U1F-DDR_NC-PadL20),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,6.175,0.325,0,0.27,0,0,,,,,,0,False,
+M1,GPIO25/PWM5/QSPI1_D3/PULSE_CNTR5,BANK1_GPIO25,BANK1_GPIO25,signal,module-name correspondence CANDIDATE,-6.175,0.975,0,0.27,0,0,,,L1,-7.15,0.975,0.975,False,True
+M2,GPIO54/QSPI0_CS0/MMC1_CMD/PWM0,BANK4_GPIO54,BANK4_GPIO54,signal,module-name correspondence CANDIDATE,-5.525,0.975,1,0.27,1,1,-5.2,0.65,L6,-7.15,0.65,2.409619408,False,True
+M3,GPIO52/UART3_RTS/PWM4/IIC3_SCL,BANK4_GPIO52,BANK4_GPIO52,signal,module-name correspondence CANDIDATE,-4.875,0.975,2,0.27,1,1,-4.55,0.65,L6,-7.15,0.325,3.384619408,False,True
+M4,GPIO51/UART3_RXD/IIC2_SDA/QSPI0_CS3,BANK4_GPIO51,BANK4_GPIO51,signal,module-name correspondence CANDIDATE,-4.225,0.975,3,0.27,1,1,-3.9,0.65,L3,-7.15,0.325,4.034619408,False,True
+M5,GPIO50/UART3_TXD/IIC2_SCL/QSPI0_CS4,BANK4_GPIO50,BANK4_GPIO50,signal,module-name correspondence CANDIDATE,-3.575,0.975,4,0.27,1,1,-3.25,0.65,L3,-7.15,0.975,4.684619408,False,True
+M6,VSS,GND,GND,ground,named ground ball,-2.925,0.975,5,0.27,1,0,-2.6,0.65,,,,0.459619408,False,
+M7,VDDIO_BANK4,BANK4_VDDIO,BANK4_VDDIO,power,module-name correspondence CANDIDATE,-2.275,0.975,6,0.27,1,0,-1.95,0.65,,,,0.459619408,False,
+M8,VSS,GND,GND,ground,named ground ball,-1.625,0.975,7,0.27,1,0,-1.3,0.65,,,,0.459619408,False,
+M9,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,0.975,8,0.27,1,0,-0.65,0.65,,,,0.459619408,False,
+M10,VSS,GND,GND,ground,named ground ball,-0.325,0.975,8,0.27,1,0,0.0,0.65,,,,0.459619408,False,
+M11,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.325,0.975,8,0.27,1,0,0.65,0.65,,,,0.459619408,False,
+M12,VSS,GND,GND,ground,named ground ball,0.975,0.975,8,0.27,1,0,1.3,0.65,,,,0.459619408,False,
+M13,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,1.625,0.975,7,0.27,1,0,1.95,0.65,,,,0.459619408,False,
+M14,VDD1P1_DDR_IO,VDD1P1_DDR_IO,VDD1P1_DDR_IO,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,2.275,0.975,6,0.27,1,0,2.6,0.65,,,,0.459619408,False,
+M15,VSS,GND,GND,ground,named ground ball,2.925,0.975,5,0.27,1,0,3.25,0.65,,,,0.459619408,False,
+M16,VSS,GND,GND,ground,named ground ball,3.575,0.975,4,0.27,1,0,3.9,0.65,,,,0.459619408,False,
+M17,DDR_NC,,unconnected-(U1F-DDR_NC-PadM17),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,4.225,0.975,3,0.27,0,0,,,,,,0,False,
+M18,DDR_CAA4,DDR_CAA4,DDR_CAA4,signal,01studio exact DDR join,4.875,0.975,2,0.27,1,1,5.2,0.65,L3,7.15,0.325,2.734619408,True,True
+M19,DDR_CAA0,DDR_CAA0,DDR_CAA0,signal,01studio exact DDR join,5.525,0.975,1,0.27,1,1,5.85,0.65,L3,7.15,0.65,1.759619408,True,True
+M20,DDR_NA,,unconnected-(U1F-DDR_NA-PadM20),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,6.175,0.975,0,0.27,0,0,,,,,,0,False,
+N1,GPIO57/QSPI0_D1/MMC1_D1/PWM3,BANK4_GPIO57,BANK4_GPIO57,signal,module-name correspondence CANDIDATE,-6.175,1.625,0,0.27,0,0,,,L1,-7.15,1.625,0.975,False,True
+N2,GPIO55/QSPI0_CLK/MMC1_CLK/PWM1,BANK4_GPIO55,BANK4_GPIO55,signal,module-name correspondence CANDIDATE,-5.525,1.625,1,0.27,1,1,-5.2,1.3,L6,-7.15,1.3,2.409619408,False,True
+N3,VSS,GND,GND,ground,named ground ball,-4.875,1.625,2,0.27,1,0,-4.55,1.3,,,,0.459619408,False,
+N4,GPIO53/UART3_CTS/PWM5/IIC3_SDA,BANK4_GPIO53,BANK4_GPIO53,signal,module-name correspondence CANDIDATE,-4.225,1.625,3,0.27,1,1,-3.9,1.3,L6,-7.15,0.975,4.034619408,False,True
+N5,VSS,GND,GND,ground,named ground ball,-3.575,1.625,4,0.27,1,0,-3.25,1.3,,,,0.459619408,False,
+N6,AVDD0P8_MIPI,AVDD0P8_MIPI,AVDD0P8_MIPI,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-2.925,1.625,5,0.27,1,0,-2.6,1.3,,,,0.459619408,False,
+N7,AVDD1P8_MIPI,AVDD1P8_MIPI,AVDD1P8_MIPI,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-2.275,1.625,6,0.27,1,0,-1.95,1.3,,,,0.459619408,False,
+N8,VSS,GND,GND,ground,named ground ball,-1.625,1.625,7,0.27,1,0,-1.3,1.3,,,,0.459619408,False,
+N9,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,1.625,7,0.27,1,0,-0.65,1.3,,,,0.459619408,False,
+N10,VSS,GND,GND,ground,named ground ball,-0.325,1.625,7,0.27,1,0,0.0,1.3,,,,0.459619408,False,
+N11,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.325,1.625,7,0.27,1,0,0.65,1.3,,,,0.459619408,False,
+N12,VSS,GND,GND,ground,named ground ball,0.975,1.625,7,0.27,1,0,1.3,1.3,,,,0.459619408,False,
+N13,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,VDD0P8_DDR_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,1.625,1.625,7,0.27,1,0,1.95,1.3,,,,0.459619408,False,
+N14,VDD1P1_DDR_IO,VDD1P1_DDR_IO,VDD1P1_DDR_IO,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,2.275,1.625,6,0.27,1,0,2.6,1.3,,,,0.459619408,False,
+N15,VSS,GND,GND,ground,named ground ball,2.925,1.625,5,0.27,1,0,3.25,1.3,,,,0.459619408,False,
+N16,VSS,GND,GND,ground,named ground ball,3.575,1.625,4,0.27,1,0,3.9,1.3,,,,0.459619408,False,
+N17,DDR_CKEA0,DDR_CKEA0,DDR_CKEA0,signal,01studio exact DDR join,4.225,1.625,3,0.27,1,1,4.55,1.3,L3,7.15,-0.325,4.684619408,True,True
+N18,DDR_NC,,unconnected-(U1F-DDR_NC-PadN18),unused,OFFICIAL_PINOUT_LP4_MODE_UNUSED,4.875,1.625,2,0.27,0,0,,,,,,0,False,
+N19,DDR_CAA2,DDR_CAA2,DDR_CAA2,signal,01studio exact DDR join,5.525,1.625,1,0.27,1,1,5.85,1.3,L3,7.15,0.975,2.084619408,True,True
+N20,DDR_CAA3,DDR_CAA3,DDR_CAA3,signal,01studio exact DDR join,6.175,1.625,0,0.27,1,1,6.5,1.3,L3,7.15,1.3,1.109619408,True,True
+P1,GPIO58/QSPI0_D2/MMC1_D2/PWM4,BANK4_GPIO58,BANK4_GPIO58,signal,module-name correspondence CANDIDATE,-6.175,2.275,0,0.27,0,0,,,L1,-7.15,2.275,0.975,False,True
+P2,GPIO59/QSPI0_D3/MMC1_D3/PWM5,BANK4_GPIO59,BANK4_GPIO59,signal,module-name correspondence CANDIDATE,-5.525,2.275,1,0.27,1,1,-5.2,1.95,L6,-7.15,1.95,2.409619408,False,True
+P3,GPIO56/QSPI0_D0/MMC1_D0/PWM2,BANK4_GPIO56,BANK4_GPIO56,signal,module-name correspondence CANDIDATE,-4.875,2.275,2,0.27,1,1,-4.55,1.95,L8,-7.15,1.625,3.384619408,False,True
+P4,GPIO61/PWM1/IIC0_SDA/QSPI0_CS1/VSYNC1,BANK4_GPIO61,BANK4_GPIO61,signal,module-name correspondence CANDIDATE,-4.225,2.275,3,0.27,1,1,-3.9,1.95,L8,-7.15,2.275,4.034619408,False,True
+P5,GPIO60/PWM0/IIC0_SCL/QSPI0_CS2/HSYNC1,BANK4_GPIO60,BANK4_GPIO60,signal,module-name correspondence CANDIDATE,-3.575,2.275,4,0.27,1,1,-3.25,1.95,L3,-7.15,1.625,4.684619408,False,True
+P6,VSS,GND,GND,ground,named ground ball,-2.925,2.275,5,0.27,1,0,-2.6,1.95,,,,0.459619408,False,
+P7,VSS,GND,GND,ground,named ground ball,-2.275,2.275,6,0.27,1,0,-1.95,1.95,,,,0.459619408,False,
+P8,VSS,GND,GND,ground,named ground ball,-1.625,2.275,6,0.27,1,0,-1.3,1.95,,,,0.459619408,False,
+P9,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,2.275,6,0.27,1,0,-0.65,1.95,,,,0.459619408,False,
+P10,VSS,GND,GND,ground,named ground ball,-0.325,2.275,6,0.27,1,0,0.0,1.95,,,,0.459619408,False,
+P11,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,0.325,2.275,6,0.27,1,0,0.65,1.95,,,,0.459619408,False,
+P12,VSS,GND,GND,ground,named ground ball,0.975,2.275,6,0.27,1,0,1.3,1.95,,,,0.459619408,False,
+P13,VDD0P8_CORE,VDD0P8_CORE,VDD0P8_CORE,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,1.625,2.275,6,0.27,1,0,1.95,1.95,,,,0.459619408,False,
+P14,VSS,GND,GND,ground,named ground ball,2.275,2.275,6,0.27,1,0,2.6,1.95,,,,0.459619408,False,
+P15,VSS,GND,GND,ground,named ground ball,2.925,2.275,5,0.27,1,0,3.25,1.95,,,,0.459619408,False,
+P16,DDR_DQA14,DDR_DQA10,DDR_DQA10,signal,01studio exact DDR join,3.575,2.275,4,0.27,1,1,3.9,1.95,L8,7.15,0.975,4.684619408,True,True
+P17,DDR_DMIA1,DDR_DMIA1,DDR_DMIA1,signal,01studio exact DDR join,4.225,2.275,3,0.27,1,1,4.55,1.95,L8,7.15,1.625,3.384619408,True,True
+P18,DDR_CKEA1,,unconnected-(U1F-DDR_CKEA1-PadP18),unused,REFERENCE_SINGLE_RANK_UNUSED_OUTPUT,4.875,2.275,2,0.27,0,0,,,,,,0,False,
+P19,DDR_CAA5,DDR_CAA5,DDR_CAA5,signal,01studio exact DDR join,5.525,2.275,1,0.27,1,1,5.85,1.95,L3,7.15,1.625,2.084619408,True,True
+P20,VSS,GND,GND,ground,named ground ball,6.175,2.275,0,0.27,1,0,6.5,1.95,,,,0.459619408,False,
+R1,MIPI_RX2_CLK_P,CSI2_CLK_P,CSI2_CLK_P,signal,module-name correspondence CANDIDATE,-6.175,2.925,0,0.27,0,0,,,L1,-7.15,2.925,0.975,False,True
+R2,MIPI_RX2_CLK_N,CSI2_CLK_N,CSI2_CLK_N,signal,module-name correspondence CANDIDATE,-5.525,2.925,1,0.27,1,1,-5.2,2.6,L6,-7.15,2.6,2.409619408,False,True
+R3,VSS,GND,GND,ground,named ground ball,-4.875,2.925,2,0.27,1,0,-4.55,2.6,,,,0.459619408,False,
+R6,VSS,GND,GND,ground,named ground ball,-2.925,2.925,5,0.27,1,0,-2.6,2.6,,,,0.459619408,False,
+R7,VSS,GND,GND,ground,named ground ball,-2.275,2.925,5,0.27,1,0,-1.95,2.6,,,,0.459619408,False,
+R8,AVDD0P8_MIPI,AVDD0P8_MIPI,AVDD0P8_MIPI,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-1.625,2.925,5,0.27,1,0,-1.3,2.6,,,,0.459619408,False,
+R9,AVDD1P8_MIPI,AVDD1P8_MIPI,AVDD1P8_MIPI,power,canonical rail endpoint; PMU shared RTC/LDO filtered domain,-0.975,2.925,5,0.27,1,0,-0.65,2.6,,,,0.459619408,False,
+R10,VSS,GND,GND,ground,named ground ball,-0.325,2.925,5,0.27,1,0,0.0,2.6,,,,0.459619408,False,
+R11,VDDIO_BANK2,BANK2_VDDIO,BANK2_VDDIO,power,module-name correspondence CANDIDATE,0.325,2.925,5,0.27,1,0,0.65,2.6,,,,0.459619408,False,
+R12,VSS,GND,GND,ground,named ground ball,0.975,2.925,5,0.27,1,0,1.3,2.6,,,,0.459619408,False,
+R13,VDDIO_BANK0,BANK0_VDDIO,BANK0_VDDIO,power,module-name correspondence CANDIDATE,1.625,2.925,5,0.27,1,0,1.95,2.6,,,,0.459619408,False,
+R14,VSS,GND,GND,ground,named ground ball,2.275,2.925,5,0.27,1,0,2.6,2.6,,,,0.459619408,False,
+R15,VDDIO_BANK5,BANK5_VDDIO,BANK5_VDDIO,power,module-name correspondence CANDIDATE,2.925,2.925,5,0.27,1,0,3.25,2.6,,,,0.459619408,False,
+R16,VSS,GND,GND,ground,named ground ball,3.575,2.925,4,0.27,1,0,3.9,2.6,,,,0.459619408,False,
+R17,DDR_DQA8,DDR_DQA11,DDR_DQA11,signal,01studio exact DDR join,4.225,2.925,3,0.27,1,1,4.55,2.6,L8,4.225,7.15,5.334619408,True,True
+R18,DDR_DQA10,DDR_DQA12,DDR_DQA12,signal,01studio exact DDR join,4.875,2.925,2,0.27,1,1,5.2,2.6,L8,7.15,2.275,2.734619408,True,True
+R19,DDR_CLKAP,DDR_CLKA_P,DDR_CLKA_P,signal,01studio exact DDR join,5.525,2.925,1,0.27,1,1,5.85,2.6,L3,7.15,2.275,2.084619408,True,True
+R20,DDR_CLKAN,DDR_CLKA_N,DDR_CLKA_N,signal,01studio exact DDR join,6.175,2.925,0,0.27,1,1,6.5,2.6,L3,7.15,2.6,1.109619408,True,True
+T1,MIPI_RX2_D4_N,CSI2_D4_N,CSI2_D4_N,signal,module-name correspondence CANDIDATE,-6.175,3.575,0,0.27,0,0,,,L1,-7.15,3.575,0.975,False,True
+T2,MIPI_RX2_D4_P,CSI2_D4_P,CSI2_D4_P,signal,module-name correspondence CANDIDATE,-5.525,3.575,1,0.27,1,1,-5.2,3.25,L6,-7.15,3.25,2.409619408,False,True
+T3,VSS,GND,GND,ground,named ground ball,-4.875,3.575,2,0.27,1,0,-4.55,3.25,,,,0.459619408,False,
+T7,VSS,GND,GND,ground,named ground ball,-2.275,3.575,4,0.27,1,0,-1.95,3.25,,,,0.459619408,False,
+T8,VSS,GND,GND,ground,named ground ball,-1.625,3.575,4,0.27,1,0,-1.3,3.25,,,,0.459619408,False,
+T9,VSS,GND,GND,ground,named ground ball,-0.975,3.575,4,0.27,1,0,-0.65,3.25,,,,0.459619408,False,
+T10,GPIO36/IIC3_SCL/IIS_D_IN1/PDM_IN2/UART4_TXD,BANK2_GPIO36,BANK2_GPIO36,signal,module-name correspondence CANDIDATE,-0.325,3.575,4,0.27,1,1,0.0,3.25,L8,-0.325,7.15,4.684619408,False,True
+T11,GPIO33/IIC0_SDA/IIS_WS/UART3_RXD,BANK2_GPIO33,BANK2_GPIO33,signal,module-name correspondence CANDIDATE,0.325,3.575,4,0.27,1,1,0.65,3.25,L8,0.325,7.15,4.684619408,False,True
+T12,GPIO13/M_CLK1,BANK0_GPIO13,BANK0_GPIO13,signal,module-name correspondence CANDIDATE,0.975,3.575,4,0.27,1,1,1.3,3.25,L3,0.975,7.15,4.684619408,False,True
+T13,GPIO9/PWM4/UART1_TXD/IIC1_SCL,BANK0_GPIO9,BANK0_GPIO9,signal,module-name correspondence CANDIDATE,1.625,3.575,4,0.27,1,1,1.95,3.25,L8,2.275,7.15,4.684619408,False,True
+T14,GPIO62/M_CLK2/UART3_DE,BANK5_IO62,BANK5_IO62,signal,module-name correspondence CANDIDATE,2.275,3.575,4,0.27,1,1,2.6,3.25,L6,3.575,7.15,5.334619408,False,True
+T15,VSS,GND,GND,ground,named ground ball,2.925,3.575,4,0.27,1,0,3.25,3.25,,,,0.459619408,False,
+T16,DDR_DQA1,DDR_DQA3,DDR_DQA3,signal,01studio exact DDR join,3.575,3.575,4,0.27,1,1,3.9,3.25,L3,7.15,2.925,4.034619408,True,True
+T17,DDR_DQA15,DDR_DQA9,DDR_DQA9,signal,01studio exact DDR join,4.225,3.575,3,0.27,1,1,4.55,3.25,L8,4.875,7.15,4.684619408,True,True
+T18,DDR_DQA9,DDR_DQA13,DDR_DQA13,signal,01studio exact DDR join,4.875,3.575,2,0.27,1,1,5.2,3.25,L8,7.15,2.925,2.734619408,True,True
+T19,DDR_CSA1,,unconnected-(U1F-DDR_CSA1-PadT19),unused,REFERENCE_SINGLE_RANK_UNUSED_OUTPUT,5.525,3.575,1,0.27,0,0,,,,,,0,False,
+T20,DDR_CSA0,DDR_CSA0,DDR_CSA0,signal,01studio exact DDR join,6.175,3.575,0,0.27,1,1,6.5,3.25,L3,7.15,3.25,1.109619408,True,True
+U1,MIPI_RX2_D5_P,CSI2_D5_P,CSI2_D5_P,signal,module-name correspondence CANDIDATE,-6.175,4.225,0,0.27,0,0,,,L1,-7.15,4.225,0.975,False,True
+U2,MIPI_RX2_D5_N,CSI2_D5_N,CSI2_D5_N,signal,module-name correspondence CANDIDATE,-5.525,4.225,1,0.27,1,1,-5.2,3.9,L6,-7.15,3.9,2.409619408,False,True
+U3,VSS,GND,GND,ground,named ground ball,-4.875,4.225,2,0.27,1,0,-4.55,3.9,,,,0.459619408,False,
+U6,MIPI_ATB,,unconnected-(U1H-MIPI_ATB-PadU6),unused,GUIDE_EXPLICIT_MIPI_ATB_FLOAT,-2.925,4.225,3,0.27,0,0,,,,,,0,False,
+U7,MIPI_REXT,MIPI_REXT,MIPI_REXT,signal,parent verified 01studio bias source,-2.275,4.225,3,0.27,1,1,-1.95,3.9,L3,-2.275,7.15,4.034619408,False,True
+U8,VSS,GND,GND,ground,named ground ball,-1.625,4.225,3,0.27,1,0,-1.3,3.9,,,,0.459619408,False,
+U9,GPIO34/IIC1_SCL/IIS_D_IN0/PDM_IN3/UART3_RTS,BANK2_GPIO34,BANK2_GPIO34,signal,module-name correspondence CANDIDATE,-0.975,4.225,3,0.27,1,1,-0.65,3.9,L6,-0.975,7.15,4.034619408,False,True
+U10,GPIO32/IIC0_SCL/IIS_CLK/UART3_TXD,BANK2_GPIO32,BANK2_GPIO32,signal,module-name correspondence CANDIDATE,-0.325,4.225,3,0.27,1,1,0.0,3.9,L3,0.325,7.15,4.034619408,False,True
+U11,GPIO26/MMC1_CLK/PDM_CLK,BANK2_GPIO26,BANK2_GPIO26,signal,module-name correspondence CANDIDATE,0.325,4.225,3,0.27,1,1,0.65,3.9,L6,0.975,7.15,4.034619408,False,True
+U12,GPIO8/PWM3/IIC4_SDA,BANK0_GPIO8,BANK0_GPIO8,signal,module-name correspondence CANDIDATE,0.975,4.225,3,0.27,1,1,1.3,3.9,L8,1.625,7.15,4.034619408,False,True
+U13,GPIO10/3D_CTRL_IN/UART1_RXD/IIC1_SDA,BANK0_GPIO10,BANK0_GPIO10,signal,module-name correspondence CANDIDATE,1.625,4.225,3,0.27,1,1,1.95,3.9,L3,2.275,7.15,4.034619408,False,True
+U14,GPIO5/JTAG_TMS/PULSE_CNTR3/UART2_TXD,BANK0_GPIO5,BANK0_GPIO5,signal,module-name correspondence CANDIDATE,2.275,4.225,3,0.27,1,1,2.6,3.9,L6,2.925,7.15,4.034619408,False,True
+U15,GPIO63/M_CLK3/UART3_RE,BANK5_IO63,BANK5_IO63,signal,module-name correspondence CANDIDATE,2.925,4.225,3,0.27,1,1,3.25,3.9,L8,3.575,7.15,4.034619408,False,True
+U16,DDR_DQA0,DDR_DQA4,DDR_DQA4,signal,01studio exact DDR join,3.575,4.225,3,0.27,1,1,3.9,3.9,L3,7.15,3.575,4.034619408,True,True
+U17,DDR_DQA7,DDR_DQA2,DDR_DQA2,signal,01studio exact DDR join,4.225,4.225,3,0.27,1,1,4.55,3.9,L3,2.925,7.15,5.334619408,True,True
+U18,DDR_DQA13,DDR_DQA14,DDR_DQA14,signal,01studio exact DDR join,4.875,4.225,2,0.27,1,1,5.2,3.9,L8,7.15,3.575,2.734619408,True,True
+U19,VSS,GND,GND,ground,named ground ball,5.525,4.225,1,0.27,1,0,5.85,3.9,,,,0.459619408,False,
+U20,DDR_DQA11,DDR_DQA15,DDR_DQA15,signal,01studio exact DDR join,6.175,4.225,0,0.27,1,1,6.5,3.9,L8,7.15,3.9,1.109619408,True,True
+V1,MIPI_RX0_D1_N,CSI0_D1_N,CSI0_D1_N,signal,module-name correspondence CANDIDATE,-6.175,4.875,0,0.27,0,0,,,L1,-7.15,4.875,0.975,False,True
+V2,MIPI_RX0_D1_P,CSI0_D1_P,CSI0_D1_P,signal,module-name correspondence CANDIDATE,-5.525,4.875,1,0.27,1,1,-5.2,4.55,L6,-7.15,4.55,2.409619408,False,True
+V3,VSS,GND,GND,ground,named ground ball,-4.875,4.875,2,0.27,1,0,-4.55,4.55,,,,0.459619408,False,
+V4,VSS,GND,GND,ground,named ground ball,-4.225,4.875,2,0.27,1,0,-3.9,4.55,,,,0.459619408,False,
+V5,VSS,GND,GND,ground,named ground ball,-3.575,4.875,2,0.27,1,0,-3.25,4.55,,,,0.459619408,False,
+V6,VSS,GND,GND,ground,named ground ball,-2.925,4.875,2,0.27,1,0,-2.6,4.55,,,,0.459619408,False,
+V7,VSS,GND,GND,ground,named ground ball,-2.275,4.875,2,0.27,1,0,-1.95,4.55,,,,0.459619408,False,
+V8,VSS,GND,GND,ground,named ground ball,-1.625,4.875,2,0.27,1,0,-1.3,4.55,,,,0.459619408,False,
+V9,GPIO31/MMC1_D3/UART3_CTS/3D_CTRL_OUT2,BANK2_GPIO31,BANK2_GPIO31,signal,module-name correspondence CANDIDATE,-0.975,4.875,2,0.27,1,1,-0.65,4.55,L3,-0.975,7.15,3.384619408,False,True
+V10,GPIO30/MMC1_D2/UART3_RTS/3D_CTRL_OUT1,BANK2_GPIO30,BANK2_GPIO30,signal,module-name correspondence CANDIDATE,-0.325,4.875,2,0.27,1,1,0.0,4.55,L3,-0.325,7.15,3.384619408,False,True
+V11,GPIO29/MMC1_D1/UART3_RXD/3D_CTRL_IN,BANK2_GPIO29,BANK2_GPIO29,signal,module-name correspondence CANDIDATE,0.325,4.875,2,0.27,1,1,0.65,4.55,L6,0.325,7.15,3.384619408,False,True
+V12,GPIO28/MMC1_D0/UART3_TXD/PDM_IN1,BANK2_GPIO28,BANK2_GPIO28,signal,module-name correspondence CANDIDATE,0.975,4.875,2,0.27,1,1,1.3,4.55,L8,0.975,7.15,3.384619408,False,True
+V13,GPIO12/3D_CTRL_OUT2/UART2_RXD/IIC2_SDA,BANK0_GPIO12,BANK0_GPIO12,signal,module-name correspondence CANDIDATE,1.625,4.875,2,0.27,1,1,1.95,4.55,L3,1.625,7.15,3.384619408,False,True
+V14,GPIO6/JTAG_RST/PULSE_CNTR4/UART2_RXD,BANK0_GPIO6,BANK0_GPIO6,signal,module-name correspondence CANDIDATE,2.275,4.875,2,0.27,1,1,2.6,4.55,L6,2.275,7.15,3.384619408,False,True
+V15,GPIO3/JTAG_TDI/PULSE_CNTR1/UART1_TXD,BANK0_GPIO3,BANK0_GPIO3,signal,module-name correspondence CANDIDATE,2.925,4.875,2,0.27,1,1,3.25,4.55,L8,2.925,7.15,3.384619408,False,True
+V16,DDR_DQA2,DDR_DQA1,DDR_DQA1,signal,01studio exact DDR join,3.575,4.875,2,0.27,1,1,3.9,4.55,L3,3.575,7.15,3.384619408,True,True
+V17,DDR_DMIA0,DDR_DMIA0,DDR_DMIA0,signal,01studio exact DDR join,4.225,4.875,2,0.27,1,1,4.55,4.55,L3,7.15,4.225,3.384619408,True,True
+V18,DDR_DQA5,DDR_DQA5,DDR_DQA5,signal,01studio exact DDR join,4.875,4.875,2,0.27,1,1,5.2,4.55,L3,7.15,4.875,2.734619408,True,True
+V19,DDR_DQSA1N,DDR_DQSA1_N,DDR_DQSA1_N,signal,01studio exact DDR join,5.525,4.875,1,0.27,1,1,5.85,4.55,L8,7.15,4.225,2.084619408,True,True
+V20,DDR_DQSA1P,DDR_DQSA1_P,DDR_DQSA1_P,signal,01studio exact DDR join,6.175,4.875,0,0.27,1,1,6.5,4.55,L8,7.15,4.55,1.109619408,True,True
+W1,VSS,GND,GND,ground,named ground ball,-6.175,5.525,0,0.27,1,0,-5.85,5.2,,,,0.459619408,False,
+W2,MIPI_RX0_CLK_P,CSI0_CLK_P,CSI0_CLK_P,signal,module-name correspondence CANDIDATE,-5.525,5.525,1,0.27,1,1,-5.2,5.2,L3,-5.2,7.15,2.409619408,False,True
+W3,MIPI_RX0_D0_N,CSI0_D0_N,CSI0_D0_N,signal,module-name correspondence CANDIDATE,-4.875,5.525,1,0.27,1,1,-4.55,5.2,L6,-4.55,7.15,2.409619408,False,True
+W4,MIPI_RX1_D2_P,CSI1_D2_P,CSI1_D2_P,signal,module-name correspondence CANDIDATE,-4.225,5.525,1,0.27,1,1,-3.9,5.2,L8,-3.9,7.15,2.409619408,False,True
+W5,MIPI_RX1_CLK_N,CSI1_CLK_N,CSI1_CLK_N,signal,module-name correspondence CANDIDATE,-3.575,5.525,1,0.27,1,1,-3.25,5.2,L3,-3.25,7.15,2.409619408,False,True
+W6,MIPI_RX1_D3_N,CSI1_D3_N,CSI1_D3_N,signal,module-name correspondence CANDIDATE,-2.925,5.525,1,0.27,1,1,-2.6,5.2,L6,-2.6,7.15,2.409619408,False,True
+W7,MIPI_TX1_D3_N,DSI_D3_N,DSI_D3_N,signal,module-name correspondence CANDIDATE,-2.275,5.525,1,0.27,1,1,-1.95,5.2,L8,-1.95,7.15,2.409619408,False,True
+W8,MIPI_TX1_D2_P,DSI_D2_P,DSI_D2_P,signal,module-name correspondence CANDIDATE,-1.625,5.525,1,0.27,1,1,-1.3,5.2,L3,-1.3,7.15,2.409619408,False,True
+W9,MIPI_TX0_CLK_N,DSI_CLK_N,DSI_CLK_N,signal,module-name correspondence CANDIDATE,-0.975,5.525,1,0.27,1,1,-0.65,5.2,L6,-0.65,7.15,2.409619408,False,True
+W10,MIPI_TX0_D0_P,DSI_D0_P,DSI_D0_P,signal,module-name correspondence CANDIDATE,-0.325,5.525,1,0.27,1,1,0.0,5.2,L6,0.0,7.15,2.409619408,False,True
+W11,MIPI_TX0_D1_N,DSI_D1_N,DSI_D1_N,signal,module-name correspondence CANDIDATE,0.325,5.525,1,0.27,1,1,0.65,5.2,L6,0.65,7.15,2.409619408,False,True
+W12,GPIO35/IIC1_SDA/IIS_D_OUT0/PDM_IN1/UART3_CTS,BANK2_GPIO35,BANK2_GPIO35,signal,module-name correspondence CANDIDATE,0.975,5.525,1,0.27,1,1,1.3,5.2,L6,1.3,7.15,2.409619408,False,True
+W13,GPIO27/MMC1_CMD/PULSE_CNTR5/PDM_IN0,BANK2_GPIO27,BANK2_GPIO27,signal,module-name correspondence CANDIDATE,1.625,5.525,1,0.27,1,1,1.95,5.2,L6,1.625,7.15,2.734619408,False,True
+W14,GPIO7/PWM2/IIC4_SCL,BANK0_GPIO7,BANK0_GPIO7,signal,module-name correspondence CANDIDATE,2.275,5.525,1,0.27,1,1,2.6,5.2,L6,2.6,7.15,2.409619408,False,True
+W15,GPIO2/JTAG_TCK/PULSE_CNTR0,BANK0_GPIO2,BANK0_GPIO2,signal,module-name correspondence CANDIDATE,2.925,5.525,1,0.27,1,1,3.25,5.2,L8,3.25,7.15,2.409619408,False,True
+W16,VSS,GND,GND,ground,named ground ball,3.575,5.525,1,0.27,1,0,3.9,5.2,,,,0.459619408,False,
+W17,DDR_DQSA0P,DDR_DQSA0_P,DDR_DQSA0_P,signal,01studio exact DDR join,4.225,5.525,1,0.27,1,1,4.55,5.2,L3,4.225,7.15,2.734619408,True,True
+W18,DDR_DQA4,DDR_DQA6,DDR_DQA6,signal,01studio exact DDR join,4.875,5.525,1,0.27,1,1,5.2,5.2,L3,4.875,7.15,2.734619408,True,True
+W19,DDR_DQA12,DDR_DQA8,DDR_DQA8,signal,01studio exact DDR join,5.525,5.525,1,0.27,1,1,5.85,5.2,L8,7.15,4.875,2.084619408,True,True
+W20,VSS,GND,GND,ground,named ground ball,6.175,5.525,0,0.27,1,0,6.5,5.2,,,,0.459619408,False,
+Y1,NC,,unconnected-(U1J-NC-PadY1),unused,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,-6.175,6.175,0,0.27,0,0,,,,,,0,False,
+Y2,MIPI_RX0_CLK_N,CSI0_CLK_N,CSI0_CLK_N,signal,module-name correspondence CANDIDATE,-5.525,6.175,0,0.27,0,0,,,L1,-5.525,7.15,0.975,False,True
+Y3,MIPI_RX0_D0_P,CSI0_D0_P,CSI0_D0_P,signal,module-name correspondence CANDIDATE,-4.875,6.175,0,0.27,0,0,,,L1,-4.875,7.15,0.975,False,True
+Y4,MIPI_RX1_D2_N,CSI1_D2_N,CSI1_D2_N,signal,module-name correspondence CANDIDATE,-4.225,6.175,0,0.27,0,0,,,L1,-4.225,7.15,0.975,False,True
+Y5,MIPI_RX1_CLK_P,CSI1_CLK_P,CSI1_CLK_P,signal,module-name correspondence CANDIDATE,-3.575,6.175,0,0.27,0,0,,,L1,-3.575,7.15,0.975,False,True
+Y6,MIPI_RX1_D3_P,CSI1_D3_P,CSI1_D3_P,signal,module-name correspondence CANDIDATE,-2.925,6.175,0,0.27,0,0,,,L1,-2.925,7.15,0.975,False,True
+Y7,MIPI_TX1_D3_P,DSI_D3_P,DSI_D3_P,signal,module-name correspondence CANDIDATE,-2.275,6.175,0,0.27,0,0,,,L1,-2.275,7.15,0.975,False,True
+Y8,MIPI_TX1_D2_N,DSI_D2_N,DSI_D2_N,signal,module-name correspondence CANDIDATE,-1.625,6.175,0,0.27,0,0,,,L1,-1.625,7.15,0.975,False,True
+Y9,MIPI_TX0_CLK_P,DSI_CLK_P,DSI_CLK_P,signal,module-name correspondence CANDIDATE,-0.975,6.175,0,0.27,0,0,,,L1,-0.975,7.15,0.975,False,True
+Y10,MIPI_TX0_D0_N,DSI_D0_N,DSI_D0_N,signal,module-name correspondence CANDIDATE,-0.325,6.175,0,0.27,0,0,,,L1,-0.325,7.15,0.975,False,True
+Y11,MIPI_TX0_D1_P,DSI_D1_P,DSI_D1_P,signal,module-name correspondence CANDIDATE,0.325,6.175,0,0.27,0,0,,,L1,0.325,7.15,0.975,False,True
+Y12,GPIO37/IIC3_SDA/IIS_D_OUT1/PDM_IN0/UART4_RXD,BANK2_GPIO37,BANK2_GPIO37,signal,module-name correspondence CANDIDATE,0.975,6.175,0,0.27,0,0,,,L1,0.975,7.15,0.975,False,True
+Y13,VSS,GND,GND,ground,named ground ball,1.625,6.175,0,0.27,1,0,1.95,5.85,,,,0.459619408,False,
+Y14,GPIO11/3D_CTRL_OUT1/UART2_TXD/IIC2_SCL,BANK0_GPIO11,BANK0_GPIO11,signal,module-name correspondence CANDIDATE,2.275,6.175,0,0.27,0,0,,,L1,2.275,7.15,0.975,False,True
+Y15,GPIO4/JTAG_TDO/PULSE_CNTR2/UART1_RXD,BANK0_GPIO4,BANK0_GPIO4,signal,module-name correspondence CANDIDATE,2.925,6.175,0,0.27,0,0,,,L1,2.925,7.15,0.975,False,True
+Y16,DDR_DQA3,DDR_DQA0,DDR_DQA0,signal,01studio exact DDR join,3.575,6.175,0,0.27,1,1,3.9,5.85,L3,3.9,7.15,1.759619408,True,True
+Y17,DDR_DQSA0N,DDR_DQSA0_N,DDR_DQSA0_N,signal,01studio exact DDR join,4.225,6.175,0,0.27,1,1,4.55,5.85,L3,4.55,7.15,1.759619408,True,True
+Y18,DDR_DQA6,DDR_DQA7,DDR_DQA7,signal,01studio exact DDR join,4.875,6.175,0,0.27,1,1,5.2,5.85,L3,5.2,7.15,1.759619408,True,True
+Y19,VSS,GND,GND,ground,named ground ball,5.525,6.175,0,0.27,1,0,5.85,5.85,,,,0.459619408,False,
+Y20,NC,,unconnected-(U1J-NC-PadY20),unused,MANUFACTURER_NC_DNU_MUST_REMAIN_OPEN,6.175,6.175,0,0.27,0,0,,,,,,0,False,

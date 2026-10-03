@@ -1,0 +1,351 @@
+{
+  "status": "ANALYTICAL_SCREEN_ONLY_NOT_MANUFACTURING_OR_SI_APPROVAL",
+  "units": {
+    "length": "mm",
+    "impedance": "ohm"
+  },
+  "baseline": {
+    "L3": {
+      "width": 0.1016,
+      "pair_gap": 0.1016,
+      "single_KiCad_offset_homogeneous_surrogate": 42.54661415,
+      "single_NI_offset_homogeneous_surrogate": 42.19230895,
+      "diff_NI_factor_KiCad_Z0": 75.01891957,
+      "diff_NI_offset": 74.39420257,
+      "isolated_twice_Z0": 85.09322829
+    },
+    "L8_uncoated": {
+      "width": 0.1016,
+      "pair_gap": 0.1016,
+      "single_Hammerstad_Jensen": 68.39749505,
+      "single_NI": 65.25640073,
+      "diff_NI_factor_HJ_Z0": 107.7654664,
+      "diff_NI": 102.81643291
+    }
+  },
+  "single_50ohm_widths": {
+    "L3_KiCad_offset": 0.06579489,
+    "L3_NI_offset": 0.06802399,
+    "L8_uncoated_HJ": 0.20034938,
+    "L8_uncoated_NI": 0.17846569
+  },
+  "L3_catalog_bracket": {
+    "single_4mil_ohm": [
+      40.31177016,
+      45.01010591
+    ],
+    "single_50ohm_width_mm": [
+      0.05694231,
+      0.07635048
+    ],
+    "method": "Moved-plane homogeneous catalog extrema; excludes formula error and fabrication variation",
+    "actual_geometry_Dk_only_4mil_ohm": [
+      42.19834132,
+      42.90365493
+    ],
+    "actual_geometry_Dk_only_50ohm_width_mm": [
+      0.06426576,
+      0.06736213
+    ]
+  },
+  "differential_100ohm_width_by_gap": [
+    {
+      "gap_mm": 0.1016,
+      "L3_width_KiCad_NI_factor": 0.04377221,
+      "L3_width_NI_offset": 0.04542402,
+      "L8_uncoated_width_HJ_NI_factor": 0.12180423,
+      "L8_uncoated_width_NI": 0.10901225
+    },
+    {
+      "gap_mm": 0.15,
+      "L3_width_KiCad_NI_factor": 0.0525585,
+      "L3_width_NI_offset": 0.05455289,
+      "L8_uncoated_width_HJ_NI_factor": 0.14666991,
+      "L8_uncoated_width_NI": 0.13214651
+    },
+    {
+      "gap_mm": 0.2,
+      "L3_width_KiCad_NI_factor": 0.05799052,
+      "L3_width_NI_offset": 0.0601187,
+      "L8_uncoated_width_HJ_NI_factor": 0.16425076,
+      "L8_uncoated_width_NI": 0.14785921
+    },
+    {
+      "gap_mm": 0.25,
+      "L3_width_KiCad_NI_factor": 0.0611966,
+      "L3_width_NI_offset": 0.06337859,
+      "L8_uncoated_width_HJ_NI_factor": 0.17612002,
+      "L8_uncoated_width_NI": 0.15816663
+    },
+    {
+      "gap_mm": 0.3,
+      "L3_width_KiCad_NI_factor": 0.06308613,
+      "L3_width_NI_offset": 0.06529163,
+      "L8_uncoated_width_HJ_NI_factor": 0.18410456,
+      "L8_uncoated_width_NI": 0.1649653
+    },
+    {
+      "gap_mm": 0.4,
+      "L3_width_KiCad_NI_factor": 0.06485498,
+      "L3_width_NI_offset": 0.06707721,
+      "L8_uncoated_width_HJ_NI_factor": 0.19305991,
+      "L8_uncoated_width_NI": 0.17246237
+    }
+  ],
+  "four_mil_width_gap_to_100ohm": {
+    "L3": null,
+    "L3_reason": "Both nominal formulas have 2*isolated_Z0 below 100 ohm",
+    "L8_uncoated_HJ_NI_factor": 0.07209242,
+    "L8_uncoated_NI": 0.08954481
+  },
+  "illustrative_sensitivity": [
+    {
+      "parameter": "uniform_Dk",
+      "value": 4.0,
+      "L3_Z0_4mil": 45.25267961,
+      "L8_uncoated_Z0_4mil": 71.45664796,
+      "L3_width_for_50": 0.07827983,
+      "L8_uncoated_width_for_50": 0.2181799
+    },
+    {
+      "parameter": "uniform_Dk",
+      "value": 4.45,
+      "L3_Z0_4mil": 42.90365493,
+      "L8_uncoated_Z0_4mil": 68.39749505,
+      "L3_width_for_50": 0.06736213,
+      "L8_uncoated_width_for_50": 0.20034938
+    },
+    {
+      "parameter": "uniform_Dk",
+      "value": 4.525,
+      "L3_Z0_4mil": 42.54661415,
+      "L8_uncoated_Z0_4mil": 67.92530292,
+      "L3_width_for_50": 0.06579489,
+      "L8_uncoated_width_for_50": 0.19763434
+    },
+    {
+      "parameter": "uniform_Dk",
+      "value": 4.6,
+      "L3_Z0_4mil": 42.19834132,
+      "L8_uncoated_Z0_4mil": 67.46286137,
+      "L3_width_for_50": 0.06426576,
+      "L8_uncoated_width_for_50": 0.19498487
+    },
+    {
+      "parameter": "uniform_Dk",
+      "value": 4.8,
+      "L3_Z0_4mil": 41.30985569,
+      "L8_uncoated_Z0_4mil": 66.27484136,
+      "L3_width_for_50": 0.06036474,
+      "L8_uncoated_width_for_50": 0.18822111
+    },
+    {
+      "parameter": "copper_thickness_mm",
+      "value": 0.025,
+      "L3_Z0_4mil": 44.15445091,
+      "L8_uncoated_Z0_4mil": 69.9670652
+    },
+    {
+      "parameter": "copper_thickness_mm",
+      "value": 0.035,
+      "L3_Z0_4mil": 42.54661415,
+      "L8_uncoated_Z0_4mil": 68.39749505
+    },
+    {
+      "parameter": "copper_thickness_mm",
+      "value": 0.045,
+      "L3_Z0_4mil": 41.19014481,
+      "L8_uncoated_Z0_4mil": 67.05021923
+    },
+    {
+      "parameter": "dielectric_gap_multiplier",
+      "value": 0.9,
+      "L3_Z0_4mil": 40.17972955,
+      "L8_uncoated_Z0_4mil": 65.04208292
+    },
+    {
+      "parameter": "dielectric_gap_multiplier",
+      "value": 1.0,
+      "L3_Z0_4mil": 42.54661415,
+      "L8_uncoated_Z0_4mil": 68.39749505
+    },
+    {
+      "parameter": "dielectric_gap_multiplier",
+      "value": 1.1,
+      "L3_Z0_4mil": 44.71910304,
+      "L8_uncoated_Z0_4mil": 71.47586431
+    },
+    {
+      "parameter": "finished_width_mm",
+      "value": 0.0916,
+      "L3_Z0": 44.34341919,
+      "L8_uncoated_Z0": 71.18617442
+    },
+    {
+      "parameter": "finished_width_mm",
+      "value": 0.1016,
+      "L3_Z0": 42.54661415,
+      "L8_uncoated_Z0": 68.39749505
+    },
+    {
+      "parameter": "finished_width_mm",
+      "value": 0.1116,
+      "L3_Z0": 40.88975244,
+      "L8_uncoated_Z0": 65.85187885
+    }
+  ],
+  "spacing": [
+    {
+      "case": "L3_4mil",
+      "width_mm": 0.1016,
+      "chosen_reference_surface_gap_mm": 0.13,
+      "two_H_mm": 0.26,
+      "three_H_mm": 0.39,
+      "three_W_mm": 0.3048,
+      "provisional_within_byte_edge_gap_mm": 0.3048,
+      "provisional_other_group_strobe_clock_supply_vref_edge_gap_mm": 0.39,
+      "if_3W_is_center_to_center_then_edge_gap_mm": 0.2032
+    },
+    {
+      "case": "L8_4mil",
+      "width_mm": 0.1016,
+      "chosen_reference_surface_gap_mm": 0.1195,
+      "two_H_mm": 0.239,
+      "three_H_mm": 0.3585,
+      "three_W_mm": 0.3048,
+      "provisional_within_byte_edge_gap_mm": 0.3048,
+      "provisional_other_group_strobe_clock_supply_vref_edge_gap_mm": 0.3585,
+      "if_3W_is_center_to_center_then_edge_gap_mm": 0.2032
+    },
+    {
+      "case": "L3_nominal_50ohm",
+      "width_mm": 0.06579489,
+      "chosen_reference_surface_gap_mm": 0.13,
+      "two_H_mm": 0.26,
+      "three_H_mm": 0.39,
+      "three_W_mm": 0.19738467,
+      "provisional_within_byte_edge_gap_mm": 0.26,
+      "provisional_other_group_strobe_clock_supply_vref_edge_gap_mm": 0.39,
+      "if_3W_is_center_to_center_then_edge_gap_mm": 0.13158978
+    },
+    {
+      "case": "L8_uncoated_HJ_50ohm",
+      "width_mm": 0.20034938,
+      "chosen_reference_surface_gap_mm": 0.1195,
+      "two_H_mm": 0.239,
+      "three_H_mm": 0.3585,
+      "three_W_mm": 0.60104813,
+      "provisional_within_byte_edge_gap_mm": 0.60104813,
+      "provisional_other_group_strobe_clock_supply_vref_edge_gap_mm": 0.60104813,
+      "if_3W_is_center_to_center_then_edge_gap_mm": 0.40069875
+    },
+    {
+      "case": "L3_L6_1p6mm_conditional_50ohm",
+      "width_mm": 0.12592814,
+      "chosen_reference_surface_gap_mm": 0.23,
+      "two_H_mm": 0.46,
+      "three_H_mm": 0.69,
+      "three_W_mm": 0.37778443,
+      "provisional_within_byte_edge_gap_mm": 0.46,
+      "provisional_other_group_strobe_clock_supply_vref_edge_gap_mm": 0.69,
+      "if_3W_is_center_to_center_then_edge_gap_mm": 0.25185628
+    }
+  ],
+  "PW_8L_1P6_70_ALTERNATIVE": {
+    "planes_L3": [
+      "L2_GND",
+      "L4_GND"
+    ],
+    "planes_L6_conditionally": [
+      "L5_GND_REPLACES_POWER",
+      "L7_GND"
+    ],
+    "L3_and_L6_same_mirrored_geometry": true,
+    "parameters": {
+      "near": 0.175,
+      "far": 0.23,
+      "t": 0.035,
+      "er": 4.67
+    },
+    "catalog_Dk_values": [
+      4.6,
+      4.74
+    ],
+    "single_4mil_KiCad": 54.09433793,
+    "single_4mil_NI": 55.13772665,
+    "single_50ohm_width_KiCad": 0.12592814,
+    "single_50ohm_width_NI": 0.12877272,
+    "actual_geometry_Dk_only_width50_range": [
+      0.12350131,
+      0.12841076
+    ],
+    "moved_planes_catalog_bracket_4mil_Z0": [
+      50.45495909,
+      58.24269089
+    ],
+    "moved_planes_catalog_bracket_width50": [
+      0.10401513,
+      0.15188966
+    ],
+    "four_mil_pair_gap_to_100_KiCad_NI_factor": 0.23102943,
+    "four_mil_pair_gap_to_100_NI": 0.19948583,
+    "pair_widths_for_100": [
+      {
+        "gap_mm": 0.1016,
+        "width_KiCad_NI_factor": 0.07093133,
+        "width_NI": 0.07658418
+      },
+      {
+        "gap_mm": 0.15,
+        "width_KiCad_NI_factor": 0.08541294,
+        "width_NI": 0.0909776
+      },
+      {
+        "gap_mm": 0.2,
+        "width_KiCad_NI_factor": 0.09637821,
+        "width_NI": 0.10169293
+      },
+      {
+        "gap_mm": 0.25,
+        "width_KiCad_NI_factor": 0.10430874,
+        "width_NI": 0.1093592
+      },
+      {
+        "gap_mm": 0.3,
+        "width_KiCad_NI_factor": 0.11002456,
+        "width_NI": 0.11484565
+      },
+      {
+        "gap_mm": 0.4,
+        "width_KiCad_NI_factor": 0.11709679,
+        "width_NI": 0.1215928
+      }
+    ],
+    "L8_outer_stack_unchanged": true,
+    "allocation_status": "CONDITIONAL_SCREEN_ONLY; converting L5 power into continuous ground and moving power chiefly to L8 requires a new PDN/current/return-path review",
+    "does_not_solve": [
+      "full routing",
+      "BGA escape and lands",
+      "through-via stubs and antipads",
+      "top-only assembly",
+      "mechanical height",
+      "thermal and PDN closure"
+    ]
+  },
+  "L8_conditional_mask_extremes": {
+    "condition": "If overcoat Dk is between 1 and 4.45, no adjacent conductor, rectangular geometry",
+    "bare_4mil_ohm": 68.39749505,
+    "all_space_filled_4mil_ohm": 55.37994836,
+    "bare_width_for_50_mm": 0.20034938,
+    "all_space_filled_width_for_50_mm": 0.13404276,
+    "not_a_tolerance": "Extremely loose conditional limiting-media screen; real mask Dk and thickness unknown"
+  },
+  "verification": {
+    "assertions_passed": 12,
+    "scope": "symmetry, centered limit, monotonicity, weak-coupling limits and inverse solutions; no external field-solver validation"
+  },
+  "input_sha256": {
+    "engineering/mechanical/core-stackup-process-proposal.json": "54c0d8362029b1aab3370c88b05b10580add0d1659c5402fe8db59d25d1d58d1",
+    "engineering/routing/DDR_ROUTE_CONTRACT.md": "75f57a68cb9d1e31d5d2cd943684c3edfc1ec5d89598c79682db8ff1f681bc03"
+  }
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Cu,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-copper.svg",
+      "/workspace/shared/cm-k230-redesign/cad/inductor-footprint-review/Murata_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-copper.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Mask,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-mask.svg",
+      "/workspace/shared/cm-k230-redesign/cad/inductor-footprint-review/Murata_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-mask.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Paste,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-paste-zero.svg",
+      "/workspace/shared/cm-k230-redesign/cad/inductor-footprint-review/Murata_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-paste-zero.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Paste,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-paste-override.svg",
+      "/workspace/shared/cm-k230-redesign/cad/inductor-footprint-review/Murata_Paste_Override_Control.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-paste-override.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.CrtYd,F.Fab,Dwgs.User,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-outlines.svg",
+      "/workspace/shared/cm-k230-redesign/cad/inductor-footprint-review/Murata_Geometry_QA_ONLY.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-outlines.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "B.Cu,Dwgs.User,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-undercoil-control.svg",
+      "/workspace/shared/cm-k230-redesign/cad/inductor-footprint-review/Murata_Undercoil_Unenforced_Control.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/cm-k230-redesign/engineering/inductor-footprint-review/evidence/native-undercoil-control.svg'.\nDone.\n",
+    "stderr": ""
+  }
+]

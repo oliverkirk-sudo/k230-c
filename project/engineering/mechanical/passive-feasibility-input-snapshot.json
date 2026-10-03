@@ -1,0 +1,38 @@
+{
+  "engineering/mechanical/full-bom-area-screen.json": {
+    "sha256": "f6c9d9af91b4f5ec71ccae22ef58487c34ca931ee7dbdfb70afd17099769dfb9"
+  },
+  "engineering/mechanical/full-envelope-packing-study.json": {
+    "sha256": "b08ef57c74791adadee2501e48fe5b2d6a9f6b36e155f29b36011dd5d3372906"
+  },
+  "cad/integrated/master.xml": {
+    "sha256": "a12ca499b629565ff17fa50ce880a295f00863b2e61fe1e126069aa1ea035394"
+  },
+  "summary_before_L22_L23_correction": {
+    "physical_component_count_excluding_DNP_logical_edge_and_testpoints": 237,
+    "all_xml_reference_count": 244,
+    "DNP_references": [
+      "R45",
+      "R47",
+      "JP1",
+      "R528"
+    ],
+    "type_counts": {
+      "U": 20,
+      "J": 1,
+      "C": 143,
+      "R": 60,
+      "Y": 2,
+      "JP": 1,
+      "FB": 9,
+      "L": 6,
+      "TP": 2
+    },
+    "board_area_mm2": 1444,
+    "assumed_edge_reserve_each_side_mm": 2,
+    "available_after_assumed_perimeter_band_mm2": 1156,
+    "dense_0201_small_passives_reservation_mm2": 1027.6200000000001,
+    "0402_small_passives_reservation_mm2": 1156.27,
+    "interpretation": "Area sum is only an optimistic lower-bound screen; does NOT prove packing, escape, routing, local decoupling, thermal feasibility or assembly compatibility. DNP/test point land reservations still consume area. Unknown component choices can grow. Edge band is an explicit provisional assumption, not recovered original geometry."
+  }
+}

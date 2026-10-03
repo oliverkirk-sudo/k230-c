@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "Storage") (type "KiCad") (uri "${KIPRJMOD}/Storage.kicad_sym") (options "") (descr "Candidate storage switching only")))

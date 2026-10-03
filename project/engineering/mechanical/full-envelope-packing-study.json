@@ -1,0 +1,2044 @@
+{
+  "scope": "2D_ENVELOPE_PACKING_ONLY_NOT_PCB_PLACEMENT_OR_ROUTING",
+  "algorithm": "bounded20-seed MaxRects-style rectangle screen;3 BGA envelopes fixed",
+  "seed": 0,
+  "placed_count": 252,
+  "requested_count": 252,
+  "unplaced": [],
+  "pairwise_overlap_count": 0,
+  "interior_mm": [
+    34,
+    34
+  ],
+  "provisional_edge_band_mm": 2,
+  "rotation_allowed": true,
+  "not_checked": [
+    "selected passive MPNs and land patterns",
+    "local decoupling affinity",
+    "switching loop geometry",
+    "BGA escape and vias",
+    "routing corridors",
+    "return paths",
+    "thermal coupling",
+    "edge castellation fabrication geometry",
+    "manufacturing process"
+  ],
+  "placements": [
+    {
+      "reference": "U1",
+      "x_mm": 2,
+      "y_mm": 2,
+      "w_mm": 13.5,
+      "h_mm": 13.5,
+      "dnp": false
+    },
+    {
+      "reference": "U2",
+      "x_mm": 15.75,
+      "y_mm": 2,
+      "w_mm": 10.5,
+      "h_mm": 15.5,
+      "dnp": false
+    },
+    {
+      "reference": "U3",
+      "x_mm": 2,
+      "y_mm": 15.75,
+      "w_mm": 12,
+      "h_mm": 13.5,
+      "dnp": false
+    },
+    {
+      "reference": "L21",
+      "x_mm": 2,
+      "y_mm": 29.25,
+      "w_mm": 4.6,
+      "h_mm": 4.6,
+      "dnp": false
+    },
+    {
+      "reference": "U14",
+      "x_mm": 6.6,
+      "y_mm": 29.25,
+      "w_mm": 4.1,
+      "h_mm": 4.3,
+      "dnp": false
+    },
+    {
+      "reference": "Y2",
+      "x_mm": 10.7,
+      "y_mm": 29.25,
+      "w_mm": 3.5,
+      "h_mm": 4.2,
+      "dnp": false
+    },
+    {
+      "reference": "U11",
+      "x_mm": 26.25,
+      "y_mm": 2,
+      "w_mm": 3.6,
+      "h_mm": 2.8,
+      "dnp": false
+    },
+    {
+      "reference": "U12",
+      "x_mm": 29.85,
+      "y_mm": 2,
+      "w_mm": 3.6,
+      "h_mm": 2.8,
+      "dnp": false
+    },
+    {
+      "reference": "U13",
+      "x_mm": 26.25,
+      "y_mm": 4.8,
+      "w_mm": 3.6,
+      "h_mm": 2.8,
+      "dnp": false
+    },
+    {
+      "reference": "U95",
+      "x_mm": 29.85,
+      "y_mm": 4.8,
+      "w_mm": 3.6,
+      "h_mm": 2.8,
+      "dnp": false
+    },
+    {
+      "reference": "U90",
+      "x_mm": 26.25,
+      "y_mm": 7.6,
+      "w_mm": 3.0,
+      "h_mm": 2.6,
+      "dnp": false
+    },
+    {
+      "reference": "U89",
+      "x_mm": 29.25,
+      "y_mm": 7.6,
+      "w_mm": 3.0,
+      "h_mm": 2.6,
+      "dnp": false
+    },
+    {
+      "reference": "R213",
+      "x_mm": 2,
+      "y_mm": 33.85,
+      "w_mm": 3.8,
+      "h_mm": 2,
+      "dnp": false
+    },
+    {
+      "reference": "L26",
+      "x_mm": 6.6,
+      "y_mm": 33.55,
+      "w_mm": 3.0,
+      "h_mm": 2.4,
+      "dnp": false
+    },
+    {
+      "reference": "L25",
+      "x_mm": 9.6,
+      "y_mm": 33.55,
+      "w_mm": 3.0,
+      "h_mm": 2.4,
+      "dnp": false
+    },
+    {
+      "reference": "Y1",
+      "x_mm": 33.45,
+      "y_mm": 2,
+      "w_mm": 2.1,
+      "h_mm": 3.8,
+      "dnp": false
+    },
+    {
+      "reference": "L23",
+      "x_mm": 33.45,
+      "y_mm": 5.8,
+      "w_mm": 2.4,
+      "h_mm": 3.0,
+      "dnp": false
+    },
+    {
+      "reference": "U93",
+      "x_mm": 12.6,
+      "y_mm": 33.45,
+      "w_mm": 2.8,
+      "h_mm": 2.5,
+      "dnp": false
+    },
+    {
+      "reference": "U92",
+      "x_mm": 32.25,
+      "y_mm": 8.8,
+      "w_mm": 2.8,
+      "h_mm": 2.5,
+      "dnp": false
+    },
+    {
+      "reference": "L22",
+      "x_mm": 26.25,
+      "y_mm": 10.2,
+      "w_mm": 3.0,
+      "h_mm": 2.4,
+      "dnp": false
+    },
+    {
+      "reference": "L24",
+      "x_mm": 29.25,
+      "y_mm": 10.2,
+      "w_mm": 3.0,
+      "h_mm": 2.4,
+      "dnp": false
+    },
+    {
+      "reference": "U94",
+      "x_mm": 32.25,
+      "y_mm": 11.3,
+      "w_mm": 2.8,
+      "h_mm": 2.5,
+      "dnp": false
+    },
+    {
+      "reference": "U91",
+      "x_mm": 26.25,
+      "y_mm": 12.6,
+      "w_mm": 2.8,
+      "h_mm": 2.5,
+      "dnp": false
+    },
+    {
+      "reference": "JP1",
+      "x_mm": 29.05,
+      "y_mm": 12.6,
+      "w_mm": 3,
+      "h_mm": 2,
+      "dnp": true
+    },
+    {
+      "reference": "U21",
+      "x_mm": 32.05,
+      "y_mm": 13.8,
+      "w_mm": 2.5,
+      "h_mm": 2.1,
+      "dnp": false
+    },
+    {
+      "reference": "C223",
+      "x_mm": 29.05,
+      "y_mm": 14.6,
+      "w_mm": 2.8,
+      "h_mm": 1.8,
+      "dnp": false
+    },
+    {
+      "reference": "U26",
+      "x_mm": 26.25,
+      "y_mm": 15.1,
+      "w_mm": 2.5,
+      "h_mm": 2.1,
+      "dnp": false
+    },
+    {
+      "reference": "R210",
+      "x_mm": 31.85,
+      "y_mm": 15.9,
+      "w_mm": 2.8,
+      "h_mm": 1.8,
+      "dnp": false
+    },
+    {
+      "reference": "C201",
+      "x_mm": 28.75,
+      "y_mm": 16.4,
+      "w_mm": 2.8,
+      "h_mm": 1.8,
+      "dnp": false
+    },
+    {
+      "reference": "C228",
+      "x_mm": 26.25,
+      "y_mm": 17.2,
+      "w_mm": 1.8,
+      "h_mm": 2.8,
+      "dnp": false
+    },
+    {
+      "reference": "R220",
+      "x_mm": 14,
+      "y_mm": 15.5,
+      "w_mm": 1.7,
+      "h_mm": 3.2,
+      "dnp": false
+    },
+    {
+      "reference": "C218",
+      "x_mm": 31.55,
+      "y_mm": 17.700000000000003,
+      "w_mm": 2.8,
+      "h_mm": 1.8,
+      "dnp": false
+    },
+    {
+      "reference": "U25",
+      "x_mm": 28.05,
+      "y_mm": 18.2,
+      "w_mm": 2.5,
+      "h_mm": 2.1,
+      "dnp": false
+    },
+    {
+      "reference": "U24",
+      "x_mm": 30.55,
+      "y_mm": 19.5,
+      "w_mm": 2.5,
+      "h_mm": 2.1,
+      "dnp": false
+    },
+    {
+      "reference": "U23",
+      "x_mm": 34.35,
+      "y_mm": 17.700000000000003,
+      "w_mm": 1.6,
+      "h_mm": 2.3,
+      "dnp": false
+    },
+    {
+      "reference": "U22",
+      "x_mm": 33.05,
+      "y_mm": 20.0,
+      "w_mm": 2.3,
+      "h_mm": 1.6,
+      "dnp": false
+    },
+    {
+      "reference": "R207",
+      "x_mm": 34.65,
+      "y_mm": 13.8,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C203",
+      "x_mm": 14,
+      "y_mm": 21.6,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C517",
+      "x_mm": 14,
+      "y_mm": 20.3,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C541",
+      "x_mm": 14,
+      "y_mm": 18.7,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "FB207",
+      "x_mm": 14,
+      "y_mm": 23.8,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "FB210",
+      "x_mm": 14,
+      "y_mm": 26.0,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "R208",
+      "x_mm": 14.2,
+      "y_mm": 28.2,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "FB209",
+      "x_mm": 14.2,
+      "y_mm": 30.4,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "R201",
+      "x_mm": 15.399999999999999,
+      "y_mm": 32.599999999999994,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "FB206",
+      "x_mm": 15.3,
+      "y_mm": 21.6,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C216",
+      "x_mm": 16.2,
+      "y_mm": 20.3,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "R526",
+      "x_mm": 16.2,
+      "y_mm": 17.5,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "FB208",
+      "x_mm": 17.5,
+      "y_mm": 17.5,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C212",
+      "x_mm": 15.3,
+      "y_mm": 23.8,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C207",
+      "x_mm": 15.3,
+      "y_mm": 26.0,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "FB205",
+      "x_mm": 15.5,
+      "y_mm": 28.2,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C210",
+      "x_mm": 15.5,
+      "y_mm": 30.4,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C562",
+      "x_mm": 16.7,
+      "y_mm": 32.599999999999994,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C213",
+      "x_mm": 16.6,
+      "y_mm": 21.6,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "FB202",
+      "x_mm": 16.6,
+      "y_mm": 23.8,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C67",
+      "x_mm": 16.6,
+      "y_mm": 26.0,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "R202",
+      "x_mm": 16.8,
+      "y_mm": 28.2,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C69",
+      "x_mm": 16.8,
+      "y_mm": 30.4,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C221",
+      "x_mm": 18.0,
+      "y_mm": 32.599999999999994,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C534",
+      "x_mm": 17.900000000000002,
+      "y_mm": 21.6,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C231",
+      "x_mm": 18.4,
+      "y_mm": 20.3,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C208",
+      "x_mm": 18.8,
+      "y_mm": 17.5,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C64",
+      "x_mm": 20.1,
+      "y_mm": 17.5,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C529",
+      "x_mm": 17.900000000000002,
+      "y_mm": 23.8,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "R214",
+      "x_mm": 17.900000000000002,
+      "y_mm": 26.0,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C204",
+      "x_mm": 18.1,
+      "y_mm": 28.2,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "FB203",
+      "x_mm": 18.1,
+      "y_mm": 30.4,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C225",
+      "x_mm": 19.3,
+      "y_mm": 32.599999999999994,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C563",
+      "x_mm": 21.400000000000002,
+      "y_mm": 17.5,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C211",
+      "x_mm": 23.6,
+      "y_mm": 17.5,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C71",
+      "x_mm": 21.400000000000002,
+      "y_mm": 18.8,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C521",
+      "x_mm": 23.6,
+      "y_mm": 18.8,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C206",
+      "x_mm": 25.8,
+      "y_mm": 20.0,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C501",
+      "x_mm": 28.0,
+      "y_mm": 20.3,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C522",
+      "x_mm": 20.599999999999998,
+      "y_mm": 20.1,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C217",
+      "x_mm": 22.799999999999997,
+      "y_mm": 20.1,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C540",
+      "x_mm": 24.999999999999996,
+      "y_mm": 21.3,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C502",
+      "x_mm": 20.599999999999998,
+      "y_mm": 21.400000000000002,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C553",
+      "x_mm": 22.799999999999997,
+      "y_mm": 21.400000000000002,
+      "w_mm": 2.2,
+      "h_mm": 1.3,
+      "dnp": false
+    },
+    {
+      "reference": "C220",
+      "x_mm": 19.200000000000003,
+      "y_mm": 21.6,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C230",
+      "x_mm": 19.200000000000003,
+      "y_mm": 23.8,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "R525",
+      "x_mm": 19.200000000000003,
+      "y_mm": 26.0,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "FB204",
+      "x_mm": 19.400000000000002,
+      "y_mm": 28.2,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "R211",
+      "x_mm": 19.400000000000002,
+      "y_mm": 30.4,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C226",
+      "x_mm": 20.6,
+      "y_mm": 32.599999999999994,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C66",
+      "x_mm": 20.500000000000004,
+      "y_mm": 22.700000000000003,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C552",
+      "x_mm": 20.500000000000004,
+      "y_mm": 24.900000000000002,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "C214",
+      "x_mm": 20.700000000000003,
+      "y_mm": 27.1,
+      "w_mm": 1.3,
+      "h_mm": 2.2,
+      "dnp": false
+    },
+    {
+      "reference": "TP82",
+      "x_mm": 20.700000000000003,
+      "y_mm": 29.3,
+      "w_mm": 1.5,
+      "h_mm": 1.5,
+      "dnp": false
+    },
+    {
+      "reference": "R561",
+      "x_mm": 15.399999999999999,
+      "y_mm": 34.8,
+      "w_mm": 2.0,
+      "h_mm": 1.2,
+      "dnp": false
+    },
+    {
+      "reference": "TP81",
+      "x_mm": 20.700000000000003,
+      "y_mm": 30.8,
+      "w_mm": 1.5,
+      "h_mm": 1.5,
+      "dnp": false
+    },
+    {
+      "reference": "C815",
+      "x_mm": 34.65,
+      "y_mm": 16.0,
+      "w_mm": 1,
+      "h_mm": 1.6,
+      "dnp": false
+    },
+    {
+      "reference": "C509",
+      "x_mm": 24.999999999999996,
+      "y_mm": 20.1,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R564",
+      "x_mm": 14.2,
+      "y_mm": 32.599999999999994,
+      "w_mm": 1.1,
+      "h_mm": 0.7,
+      "dnp": false
+    },
+    {
+      "reference": "C34",
+      "x_mm": 5.8,
+      "y_mm": 33.85,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C72",
+      "x_mm": 32.25,
+      "y_mm": 7.6,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C814",
+      "x_mm": 17.4,
+      "y_mm": 34.8,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C236",
+      "x_mm": 18.099999999999998,
+      "y_mm": 34.8,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R63",
+      "x_mm": 18.799999999999997,
+      "y_mm": 34.8,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R203",
+      "x_mm": 19.499999999999996,
+      "y_mm": 34.8,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C545",
+      "x_mm": 20.199999999999996,
+      "y_mm": 34.8,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R68",
+      "x_mm": 20.899999999999995,
+      "y_mm": 34.8,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C229",
+      "x_mm": 21.599999999999994,
+      "y_mm": 34.8,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C514",
+      "x_mm": 27.199999999999996,
+      "y_mm": 21.3,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C202",
+      "x_mm": 30.55,
+      "y_mm": 18.2,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C63",
+      "x_mm": 35.05,
+      "y_mm": 8.8,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C33",
+      "x_mm": 35.05,
+      "y_mm": 9.9,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R46",
+      "x_mm": 35.05,
+      "y_mm": 11.0,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R31",
+      "x_mm": 35.05,
+      "y_mm": 12.1,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R34",
+      "x_mm": 21.900000000000002,
+      "y_mm": 32.3,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C573",
+      "x_mm": 21.900000000000002,
+      "y_mm": 33.400000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C558",
+      "x_mm": 22.299999999999994,
+      "y_mm": 34.5,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R401",
+      "x_mm": 21.800000000000004,
+      "y_mm": 22.700000000000003,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C812",
+      "x_mm": 21.800000000000004,
+      "y_mm": 23.800000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C219",
+      "x_mm": 21.800000000000004,
+      "y_mm": 24.900000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C205",
+      "x_mm": 21.800000000000004,
+      "y_mm": 26.000000000000007,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C520",
+      "x_mm": 22.000000000000004,
+      "y_mm": 27.10000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R217",
+      "x_mm": 22.000000000000004,
+      "y_mm": 28.20000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C41",
+      "x_mm": 22.200000000000003,
+      "y_mm": 29.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C513",
+      "x_mm": 22.200000000000003,
+      "y_mm": 30.400000000000013,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C532",
+      "x_mm": 22.200000000000003,
+      "y_mm": 31.500000000000014,
+      "w_mm": 1.1,
+      "h_mm": 0.7,
+      "dnp": false
+    },
+    {
+      "reference": "R571",
+      "x_mm": 22.6,
+      "y_mm": 32.20000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C234",
+      "x_mm": 22.6,
+      "y_mm": 33.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R402",
+      "x_mm": 22.999999999999993,
+      "y_mm": 34.40000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C577",
+      "x_mm": 22.500000000000004,
+      "y_mm": 22.700000000000003,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C224",
+      "x_mm": 22.500000000000004,
+      "y_mm": 23.800000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R67",
+      "x_mm": 22.500000000000004,
+      "y_mm": 24.900000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R42",
+      "x_mm": 22.500000000000004,
+      "y_mm": 26.000000000000007,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C42",
+      "x_mm": 22.700000000000003,
+      "y_mm": 27.10000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C572",
+      "x_mm": 22.700000000000003,
+      "y_mm": 28.20000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C536",
+      "x_mm": 22.900000000000002,
+      "y_mm": 29.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C512",
+      "x_mm": 22.900000000000002,
+      "y_mm": 30.400000000000013,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R219",
+      "x_mm": 23.300000000000004,
+      "y_mm": 31.500000000000014,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R33",
+      "x_mm": 23.300000000000004,
+      "y_mm": 32.600000000000016,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R563",
+      "x_mm": 23.300000000000004,
+      "y_mm": 33.70000000000002,
+      "w_mm": 1.1,
+      "h_mm": 0.7,
+      "dnp": false
+    },
+    {
+      "reference": "R569",
+      "x_mm": 23.699999999999992,
+      "y_mm": 34.40000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C548",
+      "x_mm": 23.200000000000003,
+      "y_mm": 22.700000000000003,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C232",
+      "x_mm": 23.200000000000003,
+      "y_mm": 23.800000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C65",
+      "x_mm": 23.200000000000003,
+      "y_mm": 24.900000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R566",
+      "x_mm": 23.200000000000003,
+      "y_mm": 26.000000000000007,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C519",
+      "x_mm": 23.400000000000002,
+      "y_mm": 27.10000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C516",
+      "x_mm": 23.400000000000002,
+      "y_mm": 28.20000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C564",
+      "x_mm": 23.6,
+      "y_mm": 29.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R206",
+      "x_mm": 23.6,
+      "y_mm": 30.400000000000013,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C551",
+      "x_mm": 24.000000000000004,
+      "y_mm": 31.500000000000014,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C811",
+      "x_mm": 24.000000000000004,
+      "y_mm": 32.600000000000016,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C503",
+      "x_mm": 24.400000000000006,
+      "y_mm": 33.70000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C556",
+      "x_mm": 24.400000000000006,
+      "y_mm": 34.80000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C546",
+      "x_mm": 23.900000000000002,
+      "y_mm": 22.700000000000003,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R216",
+      "x_mm": 23.900000000000002,
+      "y_mm": 23.800000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C547",
+      "x_mm": 23.900000000000002,
+      "y_mm": 24.900000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C31",
+      "x_mm": 23.900000000000002,
+      "y_mm": 26.000000000000007,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C246",
+      "x_mm": 24.1,
+      "y_mm": 27.10000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C68",
+      "x_mm": 24.1,
+      "y_mm": 28.20000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C237",
+      "x_mm": 24.3,
+      "y_mm": 29.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C523",
+      "x_mm": 24.3,
+      "y_mm": 30.400000000000013,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C240",
+      "x_mm": 24.700000000000003,
+      "y_mm": 31.500000000000014,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C238",
+      "x_mm": 24.700000000000003,
+      "y_mm": 32.600000000000016,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R45",
+      "x_mm": 25.100000000000005,
+      "y_mm": 33.70000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": true
+    },
+    {
+      "reference": "R204",
+      "x_mm": 25.100000000000005,
+      "y_mm": 34.80000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C242",
+      "x_mm": 24.6,
+      "y_mm": 22.700000000000003,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C62",
+      "x_mm": 24.6,
+      "y_mm": 23.800000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C528",
+      "x_mm": 24.6,
+      "y_mm": 24.900000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C559",
+      "x_mm": 24.6,
+      "y_mm": 26.000000000000007,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C571",
+      "x_mm": 24.8,
+      "y_mm": 27.10000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C233",
+      "x_mm": 24.8,
+      "y_mm": 28.20000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C235",
+      "x_mm": 24.999999999999996,
+      "y_mm": 29.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R572",
+      "x_mm": 24.999999999999996,
+      "y_mm": 30.400000000000013,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C569",
+      "x_mm": 25.400000000000002,
+      "y_mm": 31.500000000000014,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C45",
+      "x_mm": 25.400000000000002,
+      "y_mm": 32.600000000000016,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R47",
+      "x_mm": 25.800000000000004,
+      "y_mm": 33.70000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": true
+    },
+    {
+      "reference": "C506",
+      "x_mm": 25.800000000000004,
+      "y_mm": 34.80000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C574",
+      "x_mm": 25.3,
+      "y_mm": 22.6,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C215",
+      "x_mm": 25.3,
+      "y_mm": 23.700000000000003,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C570",
+      "x_mm": 25.3,
+      "y_mm": 24.800000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R44",
+      "x_mm": 25.3,
+      "y_mm": 25.900000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C526",
+      "x_mm": 25.5,
+      "y_mm": 27.000000000000007,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C576",
+      "x_mm": 25.5,
+      "y_mm": 28.10000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R530",
+      "x_mm": 25.699999999999996,
+      "y_mm": 29.20000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R205",
+      "x_mm": 25.699999999999996,
+      "y_mm": 30.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C566",
+      "x_mm": 26.1,
+      "y_mm": 31.400000000000013,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C239",
+      "x_mm": 26.1,
+      "y_mm": 32.500000000000014,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C524",
+      "x_mm": 26.500000000000004,
+      "y_mm": 33.600000000000016,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R70",
+      "x_mm": 26.500000000000004,
+      "y_mm": 34.70000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C43",
+      "x_mm": 26.0,
+      "y_mm": 22.6,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C550",
+      "x_mm": 26.0,
+      "y_mm": 23.700000000000003,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C560",
+      "x_mm": 26.0,
+      "y_mm": 24.800000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C527",
+      "x_mm": 26.0,
+      "y_mm": 25.900000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R41",
+      "x_mm": 26.2,
+      "y_mm": 27.000000000000007,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C561",
+      "x_mm": 26.2,
+      "y_mm": 28.10000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R565",
+      "x_mm": 26.399999999999995,
+      "y_mm": 29.20000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R527",
+      "x_mm": 26.399999999999995,
+      "y_mm": 30.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C70",
+      "x_mm": 26.8,
+      "y_mm": 31.400000000000013,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C549",
+      "x_mm": 26.8,
+      "y_mm": 32.500000000000014,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C241",
+      "x_mm": 27.199999999999996,
+      "y_mm": 33.600000000000016,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C557",
+      "x_mm": 27.199999999999996,
+      "y_mm": 34.70000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C544",
+      "x_mm": 26.7,
+      "y_mm": 22.6,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C511",
+      "x_mm": 26.7,
+      "y_mm": 23.700000000000003,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C531",
+      "x_mm": 26.7,
+      "y_mm": 24.800000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C542",
+      "x_mm": 26.7,
+      "y_mm": 25.900000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C504",
+      "x_mm": 26.9,
+      "y_mm": 27.000000000000007,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C537",
+      "x_mm": 26.9,
+      "y_mm": 28.10000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C554",
+      "x_mm": 27.099999999999994,
+      "y_mm": 29.20000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C227",
+      "x_mm": 27.099999999999994,
+      "y_mm": 30.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R567",
+      "x_mm": 27.5,
+      "y_mm": 31.400000000000013,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C575",
+      "x_mm": 27.5,
+      "y_mm": 32.500000000000014,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C530",
+      "x_mm": 27.899999999999995,
+      "y_mm": 33.600000000000016,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R32",
+      "x_mm": 27.899999999999995,
+      "y_mm": 34.70000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R43",
+      "x_mm": 27.4,
+      "y_mm": 22.400000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C243",
+      "x_mm": 27.899999999999995,
+      "y_mm": 21.6,
+      "w_mm": 1.1,
+      "h_mm": 0.7,
+      "dnp": false
+    },
+    {
+      "reference": "C543",
+      "x_mm": 27.4,
+      "y_mm": 23.500000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C539",
+      "x_mm": 27.4,
+      "y_mm": 24.600000000000005,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C813",
+      "x_mm": 27.4,
+      "y_mm": 25.700000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C816",
+      "x_mm": 27.599999999999998,
+      "y_mm": 26.800000000000008,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R529",
+      "x_mm": 27.599999999999998,
+      "y_mm": 27.90000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C567",
+      "x_mm": 27.799999999999994,
+      "y_mm": 29.00000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C44",
+      "x_mm": 27.799999999999994,
+      "y_mm": 30.100000000000012,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C533",
+      "x_mm": 28.2,
+      "y_mm": 31.200000000000014,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C32",
+      "x_mm": 28.2,
+      "y_mm": 32.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R218",
+      "x_mm": 28.599999999999994,
+      "y_mm": 33.40000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C555",
+      "x_mm": 28.599999999999994,
+      "y_mm": 34.500000000000014,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C222",
+      "x_mm": 28.099999999999998,
+      "y_mm": 22.3,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R221",
+      "x_mm": 28.099999999999998,
+      "y_mm": 23.400000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R568",
+      "x_mm": 28.099999999999998,
+      "y_mm": 24.500000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R66",
+      "x_mm": 28.099999999999998,
+      "y_mm": 25.600000000000005,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C510",
+      "x_mm": 28.299999999999997,
+      "y_mm": 26.700000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C244",
+      "x_mm": 28.299999999999997,
+      "y_mm": 27.800000000000008,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C245",
+      "x_mm": 28.499999999999993,
+      "y_mm": 28.90000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R64",
+      "x_mm": 28.499999999999993,
+      "y_mm": 30.00000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C505",
+      "x_mm": 28.9,
+      "y_mm": 31.100000000000012,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C525",
+      "x_mm": 28.9,
+      "y_mm": 32.20000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C515",
+      "x_mm": 29.299999999999994,
+      "y_mm": 33.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C568",
+      "x_mm": 29.299999999999994,
+      "y_mm": 34.40000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R65",
+      "x_mm": 28.799999999999997,
+      "y_mm": 22.3,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C810",
+      "x_mm": 28.999999999999996,
+      "y_mm": 21.6,
+      "w_mm": 1.1,
+      "h_mm": 0.7,
+      "dnp": false
+    },
+    {
+      "reference": "R71",
+      "x_mm": 28.799999999999997,
+      "y_mm": 23.400000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C508",
+      "x_mm": 28.799999999999997,
+      "y_mm": 24.500000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C809",
+      "x_mm": 28.799999999999997,
+      "y_mm": 25.600000000000005,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R562",
+      "x_mm": 28.999999999999996,
+      "y_mm": 26.700000000000006,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R528",
+      "x_mm": 28.999999999999996,
+      "y_mm": 27.800000000000008,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": true
+    },
+    {
+      "reference": "C518",
+      "x_mm": 29.199999999999992,
+      "y_mm": 28.90000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C565",
+      "x_mm": 29.199999999999992,
+      "y_mm": 30.00000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C538",
+      "x_mm": 29.599999999999998,
+      "y_mm": 31.100000000000012,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C61",
+      "x_mm": 29.599999999999998,
+      "y_mm": 32.20000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C507",
+      "x_mm": 29.999999999999993,
+      "y_mm": 33.30000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R61",
+      "x_mm": 29.999999999999993,
+      "y_mm": 34.40000000000001,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R69",
+      "x_mm": 29.499999999999996,
+      "y_mm": 22.3,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R62",
+      "x_mm": 30.099999999999998,
+      "y_mm": 21.6,
+      "w_mm": 1.1,
+      "h_mm": 0.7,
+      "dnp": false
+    },
+    {
+      "reference": "C209",
+      "x_mm": 29.499999999999996,
+      "y_mm": 23.400000000000002,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "C535",
+      "x_mm": 29.499999999999996,
+      "y_mm": 24.500000000000004,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    },
+    {
+      "reference": "R570",
+      "x_mm": 29.499999999999996,
+      "y_mm": 25.600000000000005,
+      "w_mm": 0.7,
+      "h_mm": 1.1,
+      "dnp": false
+    }
+  ]
+}

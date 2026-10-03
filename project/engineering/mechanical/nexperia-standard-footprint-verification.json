@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope": "Isolated drawing geometry only; no assembly qualification",
+  "footprints": [
+    {
+      "name": "Nexperia_SOT353-1_AUP1G17_06_DrawingVerified_CANDIDATE",
+      "layers": {
+        "copper": {
+          "count": 5,
+          "minimum_gap_mm": 0.25
+        },
+        "mask": {
+          "count": 5,
+          "minimum_gap_mm": 0.15
+        },
+        "paste": {
+          "count": 5,
+          "minimum_gap_mm": 0.35
+        }
+      },
+      "sha256": "733e091a27085be5f1282b589d1f9a755473291126ad774d9f0ee1edcde9f703",
+      "courtyard_mm": [
+        3.4,
+        3.1
+      ]
+    },
+    {
+      "name": "Nexperia_SOT363-2_AUP1G97_DrawingVerified_CANDIDATE",
+      "layers": {
+        "copper": {
+          "count": 6,
+          "minimum_gap_mm": 0.25
+        },
+        "mask": {
+          "count": 6,
+          "minimum_gap_mm": 0.15
+        },
+        "paste": {
+          "count": 6,
+          "minimum_gap_mm": 0.35
+        }
+      },
+      "sha256": "59425c9740e0a6ae12ce5284edacc0d442ed39b0c98e657842bbe2bf586013d1",
+      "courtyard_mm": [
+        3.4,
+        3.1
+      ]
+    }
+  ],
+  "assertions_passed": 327
+}

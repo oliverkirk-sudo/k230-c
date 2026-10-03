@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "review_type": "Independent visual manufacturer-source review, separately derived geometry, and native KiCad module comparison",
+  "reviewed_at_utc": "2026-09-30T14:02:02.116044+00:00",
+  "scope": "Isolated Nexperia standard leaded logic SOT353-1 and SOT363-2 footprint candidates. No master-design edits, controller qualification, placement integration or manufacturing release.",
+  "sources": [
+    {
+      "package": "SOT353-1",
+      "url": "https://assets.nexperia.com/documents/package-information/SOT353-1.pdf",
+      "local_pdf": "/workspace/shared/k230-reference/mechanical/nexperia-high-temp/SOT353-1.pdf",
+      "sha256": "9117da6e27ee855feb6f46e91cdce5788d9805b86e8325c9011db3c81a5558b9",
+      "document_date": "2022-11-15",
+      "outline_page": 2,
+      "outline_issue_date": "2021-12-16",
+      "reflow_page": 3,
+      "reflow_issue_date": "2022-11-03"
+    },
+    {
+      "package": "SOT363-2",
+      "url": "https://assets.nexperia.com/documents/package-information/SOT363-2.pdf",
+      "local_pdf": "/workspace/shared/k230-reference/mechanical/nexperia-high-temp/SOT363-2.pdf",
+      "sha256": "42039a4f3d08415883afc978dbd1309b126fce0b8ef1503a7d0454af2f86c6fc",
+      "document_date": "2022-11-21",
+      "outline_page": 2,
+      "outline_issue_date": "2021-12-16",
+      "reflow_page": 3,
+      "reflow_issue_date": "2022-11-07"
+    }
+  ],
+  "visual_review": {
+    "manufacturer_images_inspected": [
+      "/workspace/shared/k230-reference/mechanical/nexperia-high-temp/SOT353-1-p2.png",
+      "/workspace/shared/k230-reference/mechanical/nexperia-high-temp/SOT353-1-p3.png",
+      "/workspace/shared/k230-reference/mechanical/nexperia-high-temp/SOT363-2-p2.png",
+      "/workspace/shared/k230-reference/mechanical/nexperia-high-temp/SOT363-2-p3.png"
+    ],
+    "native_KiCad_SVG_exports_inspected": true,
+    "native_plot_dir": "/tmp/nexperia-independent-review/svg",
+    "observations": "Page-2 pin index and numbered top-view package drawing agree with pin 1 upper-left, left row 1/2/3 top-to-bottom. SOT353-1 right row is 5/4 top-to-bottom; SOT363-2 right row is 6/5/4. KiCad plots show correct five- and six-land layouts and pin-1 marker. Numerical checks apply to final exact module hashes."
+  },
+  "independent_derivation": {
+    "coordinates": "Component top view; x rightward, y downward, pin 1 upper-left",
+    "row_spacing_mm": 1.95,
+    "row_center_abs_x_mm": 0.975,
+    "pitch_mm": 0.65,
+    "land_size_x_y_mm": [
+      0.75,
+      0.4
+    ],
+    "solder_mask_opening_x_y_mm": [
+      0.85,
+      0.5
+    ],
+    "solder_paste_opening_x_y_mm": [
+      0.65,
+      0.3
+    ],
+    "mask_expansion_per_edge_mm": 0.05,
+    "paste_contraction_per_edge_mm": 0.05,
+    "paste_to_copper_area_ratio": 0.65,
+    "recommended_stencil_thickness_mm": 0.125,
+    "nominal_body_x_y_mm": [
+      1.25,
+      2.0
+    ],
+    "maximum_body_x_y_mm": [
+      1.35,
+      2.2
+    ],
+    "maximum_overall_lead_span_x_mm": 2.4,
+    "maximum_package_height_mm": 1.1,
+    "excluded_protrusion_mm_per_side": 0.2,
+    "body_with_maximum_protrusions_x_y_mm": [
+      1.75,
+      2.6
+    ],
+    "vendor_occupied_area_outer_x_y_mm": [
+      2.9,
+      2.35
+    ],
+    "vendor_occupied_central_width_x_mm": 1.55,
+    "vendor_occupied_side_height_y_mm": 2.0,
+    "project_courtyard_x_y_mm": [
+      3.4,
+      3.1
+    ],
+    "courtyard_basis": "X: vendor occupied \u00b11.45 plus 0.25 per side. Y: maximum protruded body \u00b11.30 plus 0.25 per side. Vendor occupied Y=2.35 by itself is smaller than 2.60 protruded body envelope."
+  },
+  "footprints": [
+    {
+      "package": "SOT353-1",
+      "file": "cad/verified-footprints/nexperia-standard-candidate/CMK230_Nexperia_Standard_Candidates.pretty/Nexperia_SOT353-1_AUP1G17_06_DrawingVerified_CANDIDATE.kicad_mod",
+      "sha256": "733e091a27085be5f1282b589d1f9a755473291126ad774d9f0ee1edcde9f703",
+      "numbered_copper_centers_mm": {
+        "1": [
+          -0.975,
+          -0.65
+        ],
+        "2": [
+          -0.975,
+          0
+        ],
+        "3": [
+          -0.975,
+          0.65
+        ],
+        "4": [
+          0.975,
+          0.65
+        ],
+        "5": [
+          0.975,
+          -0.65
+        ]
+      },
+      "layers": {
+        "F.Cu": {
+          "count": 5,
+          "aperture_size_mm": [
+            0.75,
+            0.4
+          ],
+          "minimum_intra_row_gap_mm": 0.25
+        },
+        "F.Mask": {
+          "count": 5,
+          "aperture_size_mm": [
+            0.85,
+            0.5
+          ],
+          "minimum_intra_row_gap_mm": 0.15
+        },
+        "F.Paste": {
+          "count": 5,
+          "aperture_size_mm": [
+            0.65,
+            0.3
+          ],
+          "minimum_intra_row_gap_mm": 0.35
+        }
+      },
+      "native_load": "PASS",
+      "geometry_result": "PASS"
+    },
+    {
+      "package": "SOT363-2",
+      "file": "cad/verified-footprints/nexperia-standard-candidate/CMK230_Nexperia_Standard_Candidates.pretty/Nexperia_SOT363-2_AUP1G97_DrawingVerified_CANDIDATE.kicad_mod",
+      "sha256": "59425c9740e0a6ae12ce5284edacc0d442ed39b0c98e657842bbe2bf586013d1",
+      "numbered_copper_centers_mm": {
+        "1": [
+          -0.975,
+          -0.65
+        ],
+        "2": [
+          -0.975,
+          0
+        ],
+        "3": [
+          -0.975,
+          0.65
+        ],
+        "4": [
+          0.975,
+          0.65
+        ],
+        "5": [
+          0.975,
+          0
+        ],
+        "6": [
+          0.975,
+          -0.65
+        ]
+      },
+      "layers": {
+        "F.Cu": {
+          "count": 6,
+          "aperture_size_mm": [
+            0.75,
+            0.4
+          ],
+          "minimum_intra_row_gap_mm": 0.25
+        },
+        "F.Mask": {
+          "count": 6,
+          "aperture_size_mm": [
+            0.85,
+            0.5
+          ],
+          "minimum_intra_row_gap_mm": 0.15
+        },
+        "F.Paste": {
+          "count": 6,
+          "aperture_size_mm": [
+            0.65,
+            0.3
+          ],
+          "minimum_intra_row_gap_mm": 0.35
+        }
+      },
+      "native_load": "PASS",
+      "geometry_result": "PASS"
+    }
+  ],
+  "check_count": 264,
+  "checks_passed": 264,
+  "errors": [],
+  "limitations": [
+    "This review confirms the inspected manufacturer geometry against the listed candidate files only.",
+    "Mask/paste/stencil capability, soldering process, physical placement, electrical integration, and board-level DRC remain separate approval gates.",
+    "Manufacturer PDFs and page renders are kept outside the distributable design tree.",
+    "Master design and candidate modules were not modified by this review."
+  ]
+}
