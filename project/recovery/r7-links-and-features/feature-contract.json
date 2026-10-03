@@ -1,0 +1,33 @@
+{
+  "features": {
+    "JP1": {
+      "pins": {
+        "1": "MODE_TF",
+        "2": "VDD_3V3"
+      },
+      "DNP": true,
+      "default": "OPEN; eMMC mode; no copper short or paste",
+      "service": "power off and discharge before manual solder bridge change; boot/OTP compatibility remains unqualified"
+    },
+    "TP81": {
+      "pins": {
+        "1": "PMU_OUT0_STATUS"
+      },
+      "DNP": false,
+      "use": "observation only"
+    },
+    "TP82": {
+      "pins": {
+        "1": "PMU_OUT1_STATUS"
+      },
+      "DNP": false,
+      "use": "observation only"
+    }
+  },
+  "on_board_required": true,
+  "board_only_flag_required": false,
+  "exclude_from_bom": true,
+  "exclude_from_position": true,
+  "copper_retained_even_when_DNP": true,
+  "geometry_status": "engineering proposal; no manufacturer/factory approval"
+}

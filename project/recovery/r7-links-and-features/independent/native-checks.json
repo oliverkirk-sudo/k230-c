@@ -1,0 +1,65 @@
+{
+  "r6_netlist": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "r7_netlist": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "gerbers": {
+    "returncode": 0,
+    "stdout": "Plotted to 'recovery/r7-links-and-features/independent/cam/INDEPENDENT_R7_FEATURES_REVIEW_ONLY-F_Cu.gtl'.\nPlotted to 'recovery/r7-links-and-features/independent/cam/INDEPENDENT_R7_FEATURES_REVIEW_ONLY-F_Paste.gtp'.\nPlotted to 'recovery/r7-links-and-features/independent/cam/INDEPENDENT_R7_FEATURES_REVIEW_ONLY-F_Mask.gts'.\n",
+    "stderr": ""
+  },
+  "copper": {
+    "flash_count": 18,
+    "line_draw_count": 0
+  },
+  "mask": {
+    "flash_count": 18,
+    "line_draw_count": 0
+  },
+  "paste": {
+    "flash_count": 14,
+    "line_draw_count": 0
+  },
+  "positions_default": {
+    "returncode": 0,
+    "stdout": "Wrote position data to 'recovery/r7-links-and-features/independent/positions_default.csv'.\n",
+    "stderr": "",
+    "references": [
+      "R205",
+      "R206",
+      "R220",
+      "R221",
+      "R401",
+      "R561"
+    ]
+  },
+  "positions_exclude_dnp": {
+    "returncode": 0,
+    "stdout": "Wrote position data to 'recovery/r7-links-and-features/independent/positions_exclude_dnp.csv'.\n",
+    "stderr": "",
+    "references": [
+      "R205",
+      "R206",
+      "R220",
+      "R221",
+      "R401",
+      "R561"
+    ]
+  },
+  "fixture_drc": {
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 3 unconnected items\nSaved DRC Report to recovery/r7-links-and-features/independent/fixture-drc.json\n",
+    "stderr": ""
+  },
+  "fresh_erc": {
+    "returncode": 0,
+    "stdout": "Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking for off grid pins and wires...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to recovery/r7-links-and-features/independent/erc.json\n",
+    "stderr": ""
+  }
+}

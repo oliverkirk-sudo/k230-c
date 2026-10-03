@@ -1,0 +1,180 @@
+[
+  {
+    "reference": "R205",
+    "current_value": "56.2k 1% / 0.8V / addr0x49",
+    "current_footprint": "",
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "net": "VSET_CPU"
+      },
+      {
+        "pin": "2",
+        "net": "GND"
+      }
+    ],
+    "role": "TPS628640B CPU VSET/PG to GND; 0.8 V startup/address 0x49",
+    "candidate_mpn": "TNPW040256K2BYED",
+    "geometry_key": "TNPW0402_IPC",
+    "nominal_value_change": false,
+    "disposition": "GEOMETRY_AND_IDENTITY_CANDIDATE_ONLY",
+    "electrical_and_process_gates": [
+      "Total resistance over assembly/environment/mission remains within TI 1% selection requirement",
+      "Self-heating and startup qualification; exact ordering code schema supported, stock/lifecycle not verified"
+    ]
+  },
+  {
+    "reference": "R206",
+    "current_value": "56.2k 1% / 0.8V / addr0x49",
+    "current_footprint": "",
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "net": "VSET_KPU"
+      },
+      {
+        "pin": "2",
+        "net": "GND"
+      }
+    ],
+    "role": "TPS628640B KPU VSET/PG to GND; 0.8 V startup/address 0x49",
+    "candidate_mpn": "TNPW040256K2BYED",
+    "geometry_key": "TNPW0402_IPC",
+    "nominal_value_change": false,
+    "disposition": "GEOMETRY_AND_IDENTITY_CANDIDATE_ONLY",
+    "electrical_and_process_gates": [
+      "Total resistance over assembly/environment/mission remains within TI 1% selection requirement",
+      "Self-heating and startup qualification; exact ordering code schema supported, stock/lifecycle not verified"
+    ]
+  },
+  {
+    "reference": "R220",
+    "current_value": "0R WSL060300000ZEA9 Rmax=0.25mOhm",
+    "current_footprint": "",
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "net": "VDD0P8_CORE"
+      },
+      {
+        "pin": "2",
+        "net": "VDD0P8_DDR_CORE"
+      }
+    ],
+    "role": "VDD0P8_CORE to SoC VDD0P8_DDR_CORE power branch",
+    "candidate_mpn": "WSL060300000ZEA9",
+    "geometry_key": "WSL0603_9",
+    "nominal_value_change": false,
+    "disposition": "GEOMETRY_AND_IDENTITY_CANDIDATE_ONLY",
+    "electrical_and_process_gates": [
+      "0.25 mOhm is size-specific datasheet table maximum, not established full-hot maximum",
+      "Verify actual branch peak/inrush, PCB/solder heating, hot resistance/drop; manufacturer current curve alone does not qualify board"
+    ]
+  },
+  {
+    "reference": "R221",
+    "current_value": "0R Rmax<=50mOhm",
+    "current_footprint": "",
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "net": "VDD_3V3"
+      },
+      {
+        "pin": "2",
+        "net": "VDD3P3_SD"
+      }
+    ],
+    "role": "VDD_3V3 to SoC VDD3P3_SD branch; not external TF main supply",
+    "candidate_mpn": "CRCW02010000Z0ED",
+    "geometry_key": "CRCW0201_ZERO",
+    "nominal_value_change": false,
+    "disposition": "GEOMETRY_AND_IDENTITY_CANDIDATE_ONLY",
+    "electrical_and_process_gates": [
+      "50 mA guide entry is not peak/inrush maximum",
+      "Jumper 1 A rating is explicitly at 70 C; hot R/current characterization missing",
+      "Confirm total branch voltage drop"
+    ]
+  },
+  {
+    "reference": "R401",
+    "current_value": "0R PMU AUTO-START STRAP",
+    "current_footprint": "",
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "net": "AVDD1P8_PMU"
+      },
+      {
+        "pin": "2",
+        "net": "PMU_INT4_AUTO_START"
+      }
+    ],
+    "role": "AVDD1P8_PMU to K230 GPIO68/INT4 automatic-start input",
+    "candidate_mpn": "CRCW02010000Z0ED",
+    "geometry_key": "CRCW0201_ZERO",
+    "nominal_value_change": false,
+    "disposition": "GEOMETRY_AND_IDENTITY_CANDIDATE_ONLY",
+    "electrical_and_process_gates": [
+      "Verify GPIO68/INT4 input/internal-pull current and firmware ownership",
+      "Do not configure strapped input as output low; candidate geometry does not prove automatic startup"
+    ]
+  },
+  {
+    "reference": "R528",
+    "current_value": "0R QUALIFICATION STRAP DNP",
+    "current_footprint": "",
+    "dnp": true,
+    "pins": [
+      {
+        "pin": "1",
+        "net": "VDD1P8"
+      },
+      {
+        "pin": "2",
+        "net": "BOOT_VOLTAGE_QUALIFIED_1V8"
+      }
+    ],
+    "role": "DNP qualification link VDD1P8 to BOOT_VOLTAGE_QUALIFIED_1V8",
+    "candidate_mpn": "CRCW02010000Z0ED",
+    "geometry_key": "CRCW0201_ZERO",
+    "nominal_value_change": false,
+    "disposition": "GEOMETRY_AND_IDENTITY_CANDIDATE_ONLY",
+    "electrical_and_process_gates": [
+      "Preserve DNP and default inhibit",
+      "Never treat fitted jumper as automatic OTP/boot-voltage verification",
+      "If later fitted, reassess R529 and U92 input loading and boot-voltage evidence"
+    ]
+  },
+  {
+    "reference": "R561",
+    "current_value": "0R WFZ040200000ZE66 3mOhm CANDIDATE",
+    "current_footprint": "",
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "net": "VDD1P8"
+      },
+      {
+        "pin": "2",
+        "net": "VEMMC_IO"
+      }
+    ],
+    "role": "VDD1P8 to Micron eMMC VCCQ rail and local pull-ups",
+    "candidate_mpn": "WFZ040200000ZE66",
+    "geometry_key": "WFZ0402",
+    "nominal_value_change": false,
+    "disposition": "GEOMETRY_AND_IDENTITY_CANDIDATE_ONLY",
+    "electrical_and_process_gates": [
+      "3 mOhm and 6.5 A are not proven simultaneous hot-condition guarantees",
+      "Power-ratio graph; missing characterized R(T)/hot I curve; actual Micron VCCQ peak/inrush and board drop remain open",
+      "Family AEC-Q200 statement and exact order-row Non-Automotive disagree on qualification label; make no automotive-grade claim"
+    ]
+  }
+]

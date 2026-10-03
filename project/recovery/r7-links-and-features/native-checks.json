@@ -1,0 +1,22 @@
+{
+  "netlist": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "fixture_drc": {
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to recovery/r7-links-and-features/fixture-drc.json\n",
+    "stderr": ""
+  },
+  "gerbers": {
+    "returncode": 0,
+    "stdout": "Plotted to 'recovery/r7-links-and-features/native-cam/LINKS_FEATURES_GEOMETRY_ONLY-F_Cu.gtl'.\nPlotted to 'recovery/r7-links-and-features/native-cam/LINKS_FEATURES_GEOMETRY_ONLY-F_Paste.gtp'.\nPlotted to 'recovery/r7-links-and-features/native-cam/LINKS_FEATURES_GEOMETRY_ONLY-F_Mask.gts'.\n",
+    "stderr": ""
+  },
+  "erc": {
+    "returncode": 0,
+    "stdout": "Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking for off grid pins and wires...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to cad/recovery-physical-candidate/erc.json\n",
+    "stderr": ""
+  }
+}

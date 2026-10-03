@@ -1,39 +1,43 @@
 # k230-c
 
-## 当前检查点：R6 被动器件条件封装覆盖
+## 当前检查点：R7 连接器件与板上铜特征
 
-本版仅为 25 个普通偏置电阻和 L21 增加 26 个候选封装绑定。**所有元件值、网络和装配属性保持 R5 状态；仍无完整六层核心板，也不是制造发布。**
+本版增加十个候选封装绑定，并将 JP1、TP81、TP82 三个板上铜特征排除出 BOM。覆盖为 **202 个已分配、52 个未分配**。全部 254 个元件值、457 个网络、1,509 个引脚/功能/类型/网络绑定、on-board 和 DNP 状态保持 R6 状态。仍无完整六层核心板，诊断 CAM 不是制造发布。
 
 当前入口：`project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_pro`（原理图同名 `.kicad_sch`）。保持 `project/` 内相对目录；根说明文件为 `哦READ.MD`。
 
 ## 本版范围与验证
 
-- 全部 254 个元件值、457 个网络、1,509 个引脚/功能/类型/网络绑定和装配属性不变；恰好 26 个 Footprint 字段改变
-- 覆盖为 192 个已分配、62 个未分配。R45/R47/R528 保持 DNP；八个 DAT 上拉保持 R5 的条件 43 kΩ 值，R33 保持 270 kΩ，存储默认禁止
-- 25 个普通偏置位置采用既有 CRCW0201 候选；未批量纳入精密 VSET、零欧/高电流或晶振反馈器件
-- L21 保持 XFL4015-471MEB。推荐铜为两块 0.98 × 3.40 mm 矩形，中心距 2.37 mm、内间隙 1.39 mm；顶视图右侧 +X 的 pad 1 接 SW_CORE，左侧 pad 2 接 VDD0P8_CORE
-- L21 最大本体 4.30 × 4.30 mm；工程 courtyard 为 4.80 × 4.80 mm。阻焊扩张 50 µm、独立 1:1 锡膏孔和 courtyard 均为待工厂验证的工程假设
-- 新 KiCad 9.0.2 ERC 为 0；L21 独立六层几何夹具 DRC 为 0。抬高间距要求的负控按预期拒绝；镜像起始端、错接 SW/输出、改动 PG 电阻值和装上 DNP 的负控被检出
-- 独立全图/几何复核及实际原生锡膏导出对比通过；全局锡膏覆盖参数的两种设置均保留实际 0.98 × 3.40 mm 独立开口
+- 恰好十个 Footprint 字段改变：R205/R206、R220/R221/R401/R528/R561、JP1、TP81/TP82；仅 JP1/TP81/TP82 的 BOM 标志由包含变为排除，根原理图版本标签变为 RCV-R7
+- R205/R206 使用既有 TNPW 候选；R221/R401/R528 使用既有 CRCW 候选；新增 WSL/WFZ 条件铜焊盘，同时明确本体、courtyard、阻焊和锡膏的工程假设
+- JP1 保持默认开路与 DNP，两块铜焊盘保留 MODE_TF/VDD_3V3 网络；只允许断电并放电后改变人工焊桥，启动/OTP 和存储电压资格仍未建立
+- TP81/TP82 为顶面 0.8 mm 无钻孔、无锡膏观察焊盘，保持原 PMU 状态网络。三个铜特征均保留电路/板上身份，并从 BOM/PnP 排除
+- JP1、R45、R47、R528 保持 DNP；R5 的八个条件 43 kΩ DAT 上拉、R33 的 270 kΩ 以及默认存储禁止状态保持不变
+- 新 KiCad 9.0.2 ERC 为 0；五参考几何夹具 DRC 为 0。独立十参考夹具为零规则违规，保留共享网络导致三个预期未布线连接
+- 独立原生导出与完整原理图结构复核通过；铜/阻焊/锡膏为 18/18/14 个闪孔，位置文件仅含六个应装电阻。失去 DNP、BoardOnly 误设、位置/BOM 误纳入等负控按预期拒绝
 
-详细清单、来源哈希、原生结果和独立审查见 `project/recovery/r6-passive-coverage/`。56 个工程变更文件的源清单 SHA-256：`41e156fc71d4b10e1309578cfc231c354b290f847fc957d7bd48313e88f86145`。
+详细清单、来源 URL/哈希、原生结果与独立审查见 `project/recovery/r7-links-and-features/`。源清单哈希及原始增量 ZIP 哈希记录在 `PUBLICATION_PROVENANCE.json`。
+
+## 装配与钢网的明确门槛
+
+**KiCad 默认 F.Paste 导出仍包含 R528 的两个锡膏开口，即使 R528 为 DNP 且不在贴装位置文件中。** DNP 或 BOM/PnP 排除不等于钢网排除。制造前必须明确装配/钢网版本，并检查实际生成的锡膏输出；其他 DNP 元件也必须纳入相同策略。JP1/TP81/TP82 本身无锡膏开口。此处 Gerber 仅用于诊断。
 
 ## 保留的工程限制
 
-L21 的数字引脚约定和装配方向提示不等于厂商标记尺寸。未将 Murata 特有的体下限制自动套用到 L21，但这也不批准任意体下走线；开关回路、回流、耦合和 EMI 仍需检查。L22–L26 的原有 Murata 限制持续有效。
+52 个封装缺口为 40 个电容、9 个磁珠、2 个晶振反馈电阻和 RTC 晶体。电容热/偏压/老化后的有效值、时钟、复位/PG 裕量、存储启动策略、元件采购和热限制仍须关闭。
 
-偏置电阻的电气/热屏估不证明实际膜温、瞬态、CORE PG→EN 噪声/斜率、I²C 漏电/RC、复位/PMU/启动时序或存储空闲电平。订货代码不代表现货、生命周期或任务寿命资格。
+前版精度/寿命、热电阻/电流、R401 输入/固件、R221 支路电流和 R528 启动电压门槛持续有效。L21 与 Murata 电感各自的源几何和布线限制不能互相替代；开关回路、回流、耦合、EMI 和热仍待验证。
 
-独立 10 × 10 mm 夹具无完整路线或平面；其通过不等于整板、电源回路或制造通过。仍须完成 62 个封装缺口、38 × 38 mm/140 触点/1 mm 间距/恰好六铜层/仅顶面贴装的完整布局布线，以及 DDR/PDN、工艺、热/上电、贴装和 DFM 验证。
+两套夹具均无完整电路路线或平面，通过不等于整板、电源回路或制造通过。仍须完成 38 × 38 mm/140 触点/1 mm 间距/恰好六铜层/仅顶面贴装的完整布局布线，以及 DDR/PDN、工艺、热/上电、贴装和 DFM 验证。
 
 ## 历史与完整性
 
-本版继承 R5 提交 `a9618b50c6e97cfe833c88841b2a73f225e403a9`。R3–R5 的限定结论和未关闭条件仍有效。R6 内的历史偏置审查通过明确的不变图桥接使用，旧的假设覆盖数或 47 kΩ DAT 提示不能当作当前 R6 状态。
+本版继承 R6 提交 `321c03b45dece0b89f52a8f3d1d4b70550651624`。历史报告仅按其范围解读；旧覆盖数、旧电阻值或旧缺口不代表当前状态。
 
-56 个工程变更文件及清单保持原始字节。三个新 SVG 已检查，分别为自制解释图和原生 CAM 对照图，不是厂商页面；原始厂商 PDF/图片和运行时文件不上传。必要的上游 MIT 版权许可声明保留。
+65 个工程变更文件及清单保持源字节。新 SVG 为原生 CAD 铜图，诊断 Gerber 为本项目导出；原始厂商 PDF/图片和运行时文件不上传。必要的上游 MIT 版权许可声明保留。
 
-当前文件完整性以 `SHA256SUMS` 为准；逐版来源、排除项和检查点记录见 `PUBLICATION_PROVENANCE.json`。旧报告仅按其原有范围解读。
+当前文件完整性以 `SHA256SUMS` 为准；逐版来源、排除项和检查点记录见 `PUBLICATION_PROVENANCE.json`。
 
 ## English summary
 
-R6 adds 26 conditional footprint assignments without changing values, nets or population attributes. Coverage reaches 192 assigned / 62 unassigned references. Fresh ERC and isolated L21 geometry DRC pass; independent graph, geometry and actual paste-export controls pass. L21's marked right-hand start terminal remains on SW_CORE. Full-board fit/routing, switching-loop behavior, thermal and manufacturing qualification remain open.
+R7 adds ten conditional footprint assignments and excludes JP1/TP81/TP82 fabricated features from BOM, preserving all values, electrical bindings, on-board and DNP states. Coverage reaches 202 assigned / 52 unassigned. Fresh ERC and scoped geometry/population controls pass; the independent fixture retains three expected unrouted shared-net connections with no rule violations. Default paste export still includes two R528 apertures despite DNP. An explicit assembly/stencil variant remains mandatory before manufacturing. Full-board fit, routing and qualification remain open.

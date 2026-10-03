@@ -1,0 +1,7 @@
+{
+  "original_audit_readme_sha256": "10fcd0e4897ce0ed237b351d69c959fa7dfd47791d0362dd46f4763bf9404835",
+  "change": "Preview relative link changed from omitted PNG to included original SVG. CAD and test evidence unchanged. Source/report path normalization separately recorded.",
+  "omitted_from_public_subset": {
+    "copper-review.png": "3c87636703d2c72bc9683fefd15afcb3cd665072c65e5086e1fcf81a39acda0e"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "status": "PASS_WITH_EXPLICIT_QUALIFICATION_LIMITS",
+  "kicad": "9.0.2+dfsg-1",
+  "components": 254,
+  "bindings": 1509,
+  "nets": 457,
+  "changed_footprint_references": [
+    "JP1",
+    "R205",
+    "R206",
+    "R220",
+    "R221",
+    "R401",
+    "R528",
+    "R561",
+    "TP81",
+    "TP82"
+  ],
+  "changed_BOM_flag_references": [
+    "JP1",
+    "TP81",
+    "TP82"
+  ],
+  "metadata_changes": [
+    {
+      "file": "CMK230_Core_REVIEW.kicad_sch",
+      "before": "RCV-R6",
+      "after": "RCV-R7"
+    }
+  ],
+  "values_preserved": true,
+  "pin_net_function_type_bindings_preserved": true,
+  "on_board_and_DNP_preserved": true,
+  "DNP_references": [
+    "JP1",
+    "R45",
+    "R47",
+    "R528"
+  ],
+  "assigned_before": 192,
+  "assigned_after": 202,
+  "source_copper_geometry_matches": true,
+  "WSL_body_xy_mm": [
+    1.8,
+    1.02
+  ],
+  "WSL_courtyard_xy_mm": [
+    3.12,
+    1.62
+  ],
+  "WFZ_body_xy_mm": [
+    1.1,
+    0.6
+  ],
+  "WFZ_courtyard_xy_mm": [
+    2,
+    1.2
+  ],
+  "new_features_no_paste_or_copper_short": true,
+  "native_fixture_numbered_pads": 18,
+  "native_CAM": {
+    "copper": {
+      "flash_count": 18,
+      "line_draw_count": 0
+    },
+    "mask": {
+      "flash_count": 18,
+      "line_draw_count": 0
+    },
+    "paste": {
+      "flash_count": 14,
+      "line_draw_count": 0
+    }
+  },
+  "paste_apertures_by_reference": {
+    "R220": 2,
+    "R221": 2,
+    "R206": 2,
+    "R528": 2,
+    "R401": 2,
+    "R561": 2,
+    "R205": 2
+  },
+  "R528_DNP_paste_retained": true,
+  "assembly_stencil_variant_gate_open": true,
+  "placement_refs": [
+    "R205",
+    "R206",
+    "R220",
+    "R221",
+    "R401",
+    "R561"
+  ],
+  "negative_controls_rejected": [
+    "BoardOnly on resistor",
+    "BoardOnly on schematic bridge",
+    "DNP resistor added to positions",
+    "test pad added to positions",
+    "bridge populated by default",
+    "test pad added to BOM"
+  ],
+  "erc_violations": 0,
+  "fixture_drc_violations": 0,
+  "fixture_unconnected_items": 3,
+  "main_CAD_hashes_unchanged": true,
+  "no_full_board_fit_or_routing_qualification": true,
+  "no_hardware_thermal_or_factory_qualification": true,
+  "visual_review": {
+    "file": "copper-review.png",
+    "JP1_open": true,
+    "R528_copper_present": true,
+    "TP81_TP82_present": true,
+    "view": "native F.Cu/F.SilkS/Edge.Cuts SVG rendered with Inkscape"
+  }
+}

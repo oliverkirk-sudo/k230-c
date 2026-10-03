@@ -1,0 +1,194 @@
+{
+  "TNPW0402_IPC": {
+    "source": "TNPW_LANDS p1, IPC-7351 reflow row",
+    "body_nominal_mm": [
+      1,
+      0.5,
+      0.35
+    ],
+    "body_tolerance_mm": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "body_source": "TNPW p15",
+    "pad_size_xy_mm": [
+      0.55,
+      0.6
+    ],
+    "inner_gap_mm": 0.4,
+    "centers_xy_mm": [
+      [
+        -0.475,
+        0
+      ],
+      [
+        0.475,
+        0
+      ]
+    ],
+    "copper_span_xy_mm": [
+      1.5,
+      0.6
+    ],
+    "existing_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+    "existing_process_assumptions": {
+      "mask_margin_mm": 0.05,
+      "paste": "1:1 pad",
+      "courtyard_size_xy_mm": [
+        2.1,
+        1.2
+      ]
+    }
+  },
+  "TNPW0402_IEC_ALTERNATE": {
+    "source": "TNPW_LANDS p1, IEC61188-6-2 reflow row",
+    "pad_size_xy_mm": [
+      0.35,
+      0.55
+    ],
+    "inner_gap_mm": 0.55,
+    "centers_xy_mm": [
+      [
+        -0.45,
+        0
+      ],
+      [
+        0.45,
+        0
+      ]
+    ],
+    "copper_span_xy_mm": [
+      1.25,
+      0.55
+    ],
+    "disposition": "Source alternative; do not silently substitute for existing IPC pattern"
+  },
+  "WSL0603_9": {
+    "source": "WSL p2",
+    "body_nominal_mm": [
+      1.52,
+      0.76,
+      0.33
+    ],
+    "body_tolerance_mm": [
+      0.254,
+      0.254,
+      0.127
+    ],
+    "terminal_length_mm": 0.381,
+    "terminal_length_tolerance_mm": 0.254,
+    "pad_size_xy_mm": [
+      1.01,
+      1.01
+    ],
+    "inner_gap_mm": 0.5,
+    "centers_xy_mm": [
+      [
+        -0.755,
+        0
+      ],
+      [
+        0.755,
+        0
+      ]
+    ],
+    "copper_span_xy_mm": [
+      2.52,
+      1.01
+    ],
+    "units_note": "Uses the manufacturer printed millimeter values; these are rounded relative to inch values",
+    "existing_footprint": null,
+    "candidate_name": "Vishay_WSL0603_9_SourceLand_PROCESS_CANDIDATE",
+    "existing_planning_reservation_xy_mm": [
+      3.2,
+      1.7
+    ]
+  },
+  "WFZ0402": {
+    "source": "WFZ p2",
+    "body_nominal_mm": [
+      1,
+      0.5,
+      0.4
+    ],
+    "body_tolerance_mm": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "terminal_length_mm": 0.3,
+    "terminal_length_tolerance_mm": 0.1,
+    "pad_size_xy_mm": [
+      0.5,
+      0.6
+    ],
+    "inner_gap_mm": 0.4,
+    "centers_xy_mm": [
+      [
+        -0.45,
+        0
+      ],
+      [
+        0.45,
+        0
+      ]
+    ],
+    "copper_span_xy_mm": [
+      1.4,
+      0.6
+    ],
+    "drawing_symbols": {
+      "a": "inner gap",
+      "b": "each pad length along x",
+      "c": "pad width along y"
+    },
+    "existing_footprint": null,
+    "candidate_name": "Vishay_WFZ0402_SourceLand_PROCESS_CANDIDATE",
+    "existing_planning_reservation_xy_mm": [
+      2,
+      1.2
+    ]
+  },
+  "CRCW0201_ZERO": {
+    "source": "CRCW p2",
+    "body_nominal_mm": [
+      0.6,
+      0.3,
+      0.23
+    ],
+    "body_tolerance_mm": [
+      0.03,
+      0.03,
+      0.03
+    ],
+    "pad_size_xy_mm": [
+      0.28,
+      0.43
+    ],
+    "inner_gap_mm": 0.23,
+    "centers_xy_mm": [
+      [
+        -0.255,
+        0
+      ],
+      [
+        0.255,
+        0
+      ]
+    ],
+    "copper_span_xy_mm": [
+      0.79,
+      0.43
+    ],
+    "existing_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+    "existing_process_assumptions": {
+      "mask_margin_mm": 0.025,
+      "paste": "1:1 pad, separate unnumbered apertures",
+      "courtyard_size_xy_mm": [
+        1.39,
+        1.03
+      ]
+    }
+  }
+}

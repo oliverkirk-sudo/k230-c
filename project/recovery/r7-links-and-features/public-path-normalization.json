@@ -1,0 +1,35 @@
+{
+  "changes": [
+    {
+      "path": "cad/recovery-physical-candidate/master.xml",
+      "original_sha256": "52d19f33846e11cf913c81c4bfa343cc31442da9849f9071b3dea5777260a9b1",
+      "public_sha256": "da6a33fa5ccc36897785d1b443d49979f0a37690e5fd8da6ff8ad566f3e59ec9",
+      "change": "Only source/library/report paths normalized; component and net semantics unchanged."
+    },
+    {
+      "path": "recovery/r7-links-and-features/independent/r6-fresh.xml",
+      "original_sha256": "951fac27a8844685653a2d70442e7108479209c9d4949ab1cd68a2e97f7e3e28",
+      "public_sha256": "fe7dd66f9078f8a508ea49e93b910fd1d487e7a40330e7cadcf11b04b69caa27",
+      "change": "Only source/library/report paths normalized; component and net semantics unchanged."
+    },
+    {
+      "path": "recovery/r7-links-and-features/independent/r7-fresh.xml",
+      "original_sha256": "424ac825ecb3ab6068a320de77d9febd144c0fa577d6b1f02071a91e9eefeb17",
+      "public_sha256": "a8d9762d2b9c850c4ef54f3ff1af07e66dfb22f6f84fba2c3c4270b67abf1b08",
+      "change": "Only source/library/report paths normalized; component and net semantics unchanged."
+    },
+    {
+      "path": "recovery/r7-links-and-features/native-checks.json",
+      "original_sha256": "c0c811f43933b73a8a7e12e4ddfbf5da501f65b5fbd6104db106007afc850742",
+      "public_sha256": "acfe462e0eef94cded988108b095fe0da06389533ca065170ee35ddc8d02ca4e",
+      "change": "Only source/library/report paths normalized; component and net semantics unchanged."
+    },
+    {
+      "path": "recovery/r7-links-and-features/independent/native-checks.json",
+      "original_sha256": "635f424df9ae3fbdab5f05ad38fce8064dcf529867fee386c18dbe899e4d55e3",
+      "public_sha256": "b7e0883ee7c4972af7ebe76b200b3b133f10df679fe7b5c1a9e334110b09c3d0",
+      "change": "Only source/library/report paths normalized; component and net semantics unchanged."
+    }
+  ],
+  "original_audit_hashes": "Retained as execution provenance in input reports; published-file manifest records normalized bytes."
+}

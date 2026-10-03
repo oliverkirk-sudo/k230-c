@@ -1,0 +1,7 @@
+(footprint "Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE" (version 20241229) (generator "cmk230_candidate") (layer "F.Cu") (descr "Bare top copper observation pad; no drive injection, no paste, no hole, no purchased part. Probe access and process unqualified.")
+(attr smd exclude_from_pos_files exclude_from_bom)
+(fp_text reference "REF**" (at 0 -1.5) (layer "F.SilkS") (effects (font (size 1 1) (thickness .15))))
+(fp_text value "Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE" (at 0 1.5) (layer "F.Fab") (effects (font (size .8 .8) (thickness .12))))
+(fp_rect (start -0.7 -0.7) (end 0.7 0.7) (stroke (width .05) (type default)) (fill none) (layer "F.CrtYd"))
+(pad "1" smd circle (at 0 0) (size .8 .8) (layers "F.Cu" "F.Mask") (solder_mask_margin .05))
+)

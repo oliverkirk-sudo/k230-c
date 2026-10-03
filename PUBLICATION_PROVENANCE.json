@@ -1,5 +1,5 @@
 {
-  "stage": "R6_CONDITIONAL_PASSIVE_FOOTPRINT_COVERAGE",
+  "stage": "R7_CONDITIONAL_LINK_AND_FABRICATED_FEATURE_COVERAGE",
   "date_utc": "2026-10-03",
   "source_archive_sha256": {
     "v12": "63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58",
@@ -1432,7 +1432,7 @@
       "reason": "Editorial attribution text updated; technical content unchanged"
     }
   ],
-  "previous_stage": "R5_CONDITIONAL_EMMC_DAT43",
+  "previous_stage": "R6_CONDITIONAL_PASSIVE_FOOTPRINT_COVERAGE",
   "checkpoints": [
     {
       "revision": "R3",
@@ -1555,6 +1555,47 @@
       "delta_zip_bytes": 212218,
       "source_manifest_sha256": "41e156fc71d4b10e1309578cfc231c354b290f847fc957d7bd48313e88f86145",
       "changed_source_files": 56,
+      "manifest_included_separately": true,
+      "publication_source_files_byte_identical": true,
+      "production_ready": false,
+      "active_full_six_layer_board": false
+    },
+    {
+      "components": 254,
+      "pin_bindings": 1509,
+      "distinct_nets": 457,
+      "footprints_assigned": 202,
+      "footprints_unassigned": 52,
+      "changed_footprint_refs": [
+        "JP1",
+        "R205",
+        "R206",
+        "R220",
+        "R221",
+        "R401",
+        "R528",
+        "R561",
+        "TP81",
+        "TP82"
+      ],
+      "new_BOM_exclusion_refs": [
+        "JP1",
+        "TP81",
+        "TP82"
+      ],
+      "values_nets_onboard_DNP_unchanged": true,
+      "root_schematic_revision": "RCV-R7",
+      "own_native_svgs_reviewed": 1,
+      "independent_fixture_rule_violations": 0,
+      "independent_fixture_expected_unrouted_connections": 3,
+      "R528_DNP_default_paste_apertures": 2,
+      "assembly_stencil_variant_gate_open": true,
+      "revision": "R7",
+      "base_commit": "321c03b45dece0b89f52a8f3d1d4b70550651624",
+      "delta_zip_sha256": "3dfadf28c33240d59e85ee2e4374008a39fd3f1e564a0044020792ffa0f05c6e",
+      "delta_zip_bytes": 230613,
+      "source_manifest_sha256": "0fe14d3bf459b0f8046275165c57a58a2ab81769786d3e2496db5d605bf713fb",
+      "changed_source_files": 65,
       "manifest_included_separately": true,
       "publication_source_files_byte_identical": true,
       "production_ready": false,

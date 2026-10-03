@@ -1,0 +1,105 @@
+[
+  {
+    "id": "TNPW",
+    "url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "document": "28758",
+    "revision": "2026-04-10",
+    "pages": [
+      2,
+      3,
+      4,
+      12,
+      15
+    ],
+    "sha256": "6f0508c568cb355aaf2accdd33fe3a780d3ea5ef207c4c9a71839a8acadc33a5",
+    "retrieved_utc_date": "2026-10-03"
+  },
+  {
+    "id": "TNPW_LANDS",
+    "url": "https://www.vishay.com/doc?28950",
+    "document": "28950",
+    "revision": "2022-07-12",
+    "pages": [
+      1
+    ],
+    "sha256": "9e2b145c937da3be1e926b8afc2856959754eeb4d1103241d838038f7308144e",
+    "retrieved_utc_date": "2026-10-03"
+  },
+  {
+    "id": "WSL",
+    "url": "https://www.vishay.com/docs/30192/wsl-9.pdf",
+    "document": "30192",
+    "revision": "2026-08-24",
+    "pages": [
+      1,
+      2
+    ],
+    "sha256": "2fc0c47e576ccf0794256e18c130495a74e8c792606c9c0422bf5b7592261b81",
+    "retrieved_utc_date": "2026-10-03"
+  },
+  {
+    "id": "WFZ",
+    "url": "https://www.vishay.com/docs/30432/wfz-jumper.pdf",
+    "document": "30432",
+    "revision": "2025-06-12",
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "sha256": "e848e86d529942d7992878b21873481261d0f01f8511f236cb1ed8ad4b178352",
+    "retrieved_utc_date": "2026-10-03"
+  },
+  {
+    "id": "CRCW",
+    "url": "https://www.vishay.com/docs/20052/crcw0201e3.pdf",
+    "document": "20052",
+    "revision": "2022-09-21",
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "sha256": "390a5effad7c3b526afb7faba340e29176261bfa4c041a128effc87b941a61ea",
+    "retrieved_utc_date": "2026-10-03"
+  },
+  {
+    "id": "VSET",
+    "url": "https://www.ti.com/lit/ds/symlink/tps62864.pdf",
+    "document": "SLVSEI1C",
+    "revision": "2020-10",
+    "pages": [
+      3,
+      5,
+      6,
+      12,
+      13
+    ],
+    "sha256": "f49cda50b21c8a84ea153120043efd31a5c4a58d2c0465909ea7f804806b8919",
+    "retrieved_utc_date": "2026-10-03"
+  },
+  {
+    "id": "WSL_ORDER",
+    "url": "https://www.vishay.com/en/product/30192/tab/quality/",
+    "evidence": "Exact WSL060300000ZEA9 row; Sn termination; Non-Automotive",
+    "retrieved_utc_date": "2026-10-03"
+  },
+  {
+    "id": "WFZ_ORDER",
+    "url": "https://www.vishay.com/en/product/30432/tab/quality/",
+    "evidence": "Exact WFZ040200000ZE66 row; Sn termination; Non-Automotive",
+    "retrieved_utc_date": "2026-10-03"
+  },
+  {
+    "id": "CRCW_ORDER",
+    "url": "https://www.vishay.com/en/product/20052/tab/quality/",
+    "evidence": "Exact CRCW02010000Z0ED row; Sn termination; Non-Automotive",
+    "retrieved_utc_date": "2026-10-03"
+  },
+  {
+    "id": "K230_GUIDE",
+    "url": "https://github.com/kendryte/k230_docs/blob/main/en/00_hardware/K230_Hardware_Design_Guide.md",
+    "evidence": "Power: Others table VDD3P3_SD 2.7/3.3/3.63 V and 50 mA; supply description identifies MMC output/pre-buffer IO",
+    "retrieved_utc_date": "2026-10-03"
+  }
+]

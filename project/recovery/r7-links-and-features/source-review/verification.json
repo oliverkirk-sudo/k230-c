@@ -1,0 +1,59 @@
+{
+  "status": "READ_ONLY_SOURCE_REVIEW_COMPLETE_NO_CAD_EDITS",
+  "snapshot_relative": "cad/recovery-physical-candidate/master.xml",
+  "snapshot_sha256": "de60f9b0edf9c393f8213a8a6a6ca7a96dec97fc4003dedf07ce5684b21dfdcf",
+  "source_pages_visually_reviewed": [
+    "WSL p2",
+    "WFZ p2",
+    "TNPW p3,p4,p15",
+    "TNPW_LANDS p1",
+    "CRCW p2",
+    "VSET p12"
+  ],
+  "geometry_arithmetic": {
+    "TNPW0402_IPC": true,
+    "TNPW0402_IEC_ALTERNATE": true,
+    "WSL0603_9": true,
+    "WFZ0402": true,
+    "CRCW0201_ZERO": true
+  },
+  "reference_count": 7,
+  "dnp_references": [
+    "R528"
+  ],
+  "all_reviewed_footprints_initially_empty": true,
+  "cad_files_written": false,
+  "manufacturing_approval": false,
+  "hot_operation_approval": false,
+  "board_fit_proven": false,
+  "constraints_preserved": [
+    "38 x 38 mm",
+    "140 contacts",
+    "six layers",
+    "top-only components",
+    "high-temperature target",
+    "R528 DNP/storage inhibited"
+  ],
+  "calculations": {
+    "TI_VSET_1pct_ohm": [
+      55638.0,
+      56762.0
+    ],
+    "existing_conditional_0p7pct_ohm": [
+      55806.6,
+      56593.399999999994
+    ],
+    "initial_plus_TCR_at125C_from20C_pct": 0.20510499999999432,
+    "remaining_to_0p7pct_pct": 0.49489500000000564,
+    "VSET_loss_at5p5V_and_TI_Rmin_W": 0.0005436931593515224,
+    "R221_50mA_50mOhm_drop_V": 0.0025000000000000005,
+    "R221_50mA_50mOhm_loss_W": 0.00012500000000000003
+  },
+  "input_files_sha256": {
+    "cad/recovery-physical-candidate/master.xml": "de60f9b0edf9c393f8213a8a6a6ca7a96dec97fc4003dedf07ce5684b21dfdcf",
+    "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch": "c041b454725f15cc8bd98d1a9797b42bf18c98cf5138541fd07764f3598cb1d8",
+    "cad/recovery-physical-candidate/13_PMU_Automatic_Startup.kicad_sch": "d734f904edfe1c18b11aa565703201ca236f0c58fa8719d6dee472f70e36c9a5",
+    "cad/recovery-physical-candidate/14_EMMC_Local_Bias.kicad_sch": "818d2f79b9bcbe2fd7b3bd782645f34327f08d8e32f75c188137bab022ee1696",
+    "cad/recovery-physical-candidate/15_Hardware_Reset_Interlock.kicad_sch": "a355a47505af232a6ca2966f0647f581a043e173fa9a0ed2ea6c5318da5da2bd"
+  }
+}

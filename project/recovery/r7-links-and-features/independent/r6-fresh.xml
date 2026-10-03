@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch</source>
-    <date>2026-10-02T22:35:00-0700</date>
+    <source>baseline-project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch</source>
+    <date>2026-10-02T22:39:04-0700</date>
     <tool>Eeschema 9.0.2+dfsg-1</tool>
     <sheet number="1" name="/SoC_1/" tstamps="/bd9bb2f4-9b59-441f-a215-8c4f637c6c79/">
       <title_block>
@@ -314,7 +314,7 @@
       <title_block>
         <title>CM-K230 high-temp core</title>
         <company/>
-        <rev>RCV-R7</rev>
+        <rev>RCV-R6</rev>
         <date/>
         <source>CMK230_Core_REVIEW.kicad_sch</source>
         <comment number="1" value=""/>
@@ -636,16 +636,14 @@
     </comp>
     <comp ref="JP1">
       <value>OPEN=EMMC / CLOSED=TF; COLD ONLY</value>
-      <footprint>CMK230_Recovery_Link_Candidates:Core_Cold_Selector_Open_SolderBridge_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint">CMK230_Recovery_Link_Candidates:Core_Cold_Selector_Open_SolderBridge_CANDIDATE</field>
+        <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Integrated" part="Cold_Storage_Selector_SJ2" description=""/>
       <property name="Sheetname" value="Cold_Storage_Selector"/>
       <property name="Sheetfile" value="09_Cold_Storage_Selector.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="dnp"/>
       <sheetpath names="/Cold_Storage_Selector/" tstamps="/71c2f749-4cd9-4a3e-a7e8-3f32afd2d9ca/"/>
       <tstamps>d012f926-c269-416c-bad7-020e5c169861</tstamps>
@@ -1639,9 +1637,8 @@
     </comp>
     <comp ref="R205">
       <value>56.2k 1% / 0.8V / addr0x49</value>
-      <footprint>CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint">CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE</field>
+        <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1653,9 +1650,8 @@
     </comp>
     <comp ref="R206">
       <value>56.2k 1% / 0.8V / addr0x49</value>
-      <footprint>CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint">CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE</field>
+        <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1807,9 +1803,8 @@
     </comp>
     <comp ref="R220">
       <value>0R WSL060300000ZEA9 Rmax=0.25mOhm</value>
-      <footprint>CMK230_Recovery_Link_Candidates:Vishay_WSL0603_9_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint">CMK230_Recovery_Link_Candidates:Vishay_WSL0603_9_SourceLand_PROCESS_CANDIDATE</field>
+        <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1821,9 +1816,8 @@
     </comp>
     <comp ref="R221">
       <value>0R Rmax&lt;=50mOhm</value>
-      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
+        <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3324,9 +3318,8 @@
     </comp>
     <comp ref="R401">
       <value>0R PMU AUTO-START STRAP</value>
-      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
+        <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3352,39 +3345,34 @@
     </comp>
     <comp ref="TP81">
       <value>PMU OUT0 OBSERVE ONLY</value>
-      <footprint>CMK230_Recovery_Link_Candidates:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint">CMK230_Recovery_Link_Candidates:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE</field>
+        <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Integrated" part="PMU_Automatic_Startup_TP" description=""/>
       <property name="Sheetname" value="PMU_Automatic_Startup"/>
       <property name="Sheetfile" value="13_PMU_Automatic_Startup.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <sheetpath names="/PMU_Automatic_Startup/" tstamps="/a60d655e-65c6-443d-ab6f-50c5ebaa1bfc/"/>
       <tstamps>68cfb489-8daa-423d-9eef-21e74442bf49</tstamps>
     </comp>
     <comp ref="TP82">
       <value>PMU OUT1 OBSERVE ONLY</value>
-      <footprint>CMK230_Recovery_Link_Candidates:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint">CMK230_Recovery_Link_Candidates:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE</field>
+        <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Integrated" part="PMU_Automatic_Startup_TP" description=""/>
       <property name="Sheetname" value="PMU_Automatic_Startup"/>
       <property name="Sheetfile" value="13_PMU_Automatic_Startup.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <sheetpath names="/PMU_Automatic_Startup/" tstamps="/a60d655e-65c6-443d-ab6f-50c5ebaa1bfc/"/>
       <tstamps>e4835c21-1f56-42e2-96c8-2ffe47d4d074</tstamps>
     </comp>
     <comp ref="R561">
       <value>0R WFZ040200000ZE66 3mOhm CANDIDATE</value>
-      <footprint>CMK230_Recovery_Link_Candidates:Vishay_WFZ0402_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint">CMK230_Recovery_Link_Candidates:Vishay_WFZ0402_SourceLand_PROCESS_CANDIDATE</field>
+        <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3676,9 +3664,8 @@
     </comp>
     <comp ref="R528">
       <value>0R QUALIFICATION STRAP DNP</value>
-      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
+        <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5233,7 +5220,7 @@
   </libparts>
   <libraries>
     <library logical="Integrated">
-      <uri>cad/recovery-physical-candidate/Integrated.kicad_sym</uri>
+      <uri>baseline-project/cad/recovery-physical-candidate/Integrated.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

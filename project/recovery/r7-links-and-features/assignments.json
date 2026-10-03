@@ -1,0 +1,12 @@
+{
+  "R205": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+  "R206": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+  "R221": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+  "R401": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+  "R528": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+  "R220": "CMK230_Recovery_Link_Candidates:Vishay_WSL0603_9_SourceLand_PROCESS_CANDIDATE",
+  "R561": "CMK230_Recovery_Link_Candidates:Vishay_WFZ0402_SourceLand_PROCESS_CANDIDATE",
+  "JP1": "CMK230_Recovery_Link_Candidates:Core_Cold_Selector_Open_SolderBridge_CANDIDATE",
+  "TP81": "CMK230_Recovery_Link_Candidates:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE",
+  "TP82": "CMK230_Recovery_Link_Candidates:Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE"
+}

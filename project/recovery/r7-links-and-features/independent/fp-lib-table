@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "Audit_Footprints") (type "KiCad") (uri "${KIPRJMOD}/Audit_Footprints.pretty") (options "") (descr "Read-only source copies for independent review fixture")))

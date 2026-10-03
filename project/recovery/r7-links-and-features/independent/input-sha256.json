@@ -1,0 +1,85 @@
+{
+  "r6_schematics": {
+    "04_LPDDR4_1.kicad_sch": "e149af7df81d9d106dd95a6faad69b93be062eb82528d17ba92b4976991ffbb7",
+    "06_eMMC_1.kicad_sch": "0a30b642909a903d2f7a79317b9fbee851910f7420dc9b670481b8dfdedb9526",
+    "12_Local_Decoupling.kicad_sch": "b29395b98d342fdb81bb46c384fd1c167f07189ec3df7feb95f5b17366c6252e",
+    "09_Cold_Storage_Selector.kicad_sch": "909c9418cf7dca773f2f850b4413a5f137ccd28c5642444a20491cc13ca5a58e",
+    "14_EMMC_Local_Bias.kicad_sch": "ec362a5eb6fea7bb8452fbfa2c0298a4e574b2ac918cf1c3d14a531753a294f1",
+    "11_DDR_USB_MIPI_Bias.kicad_sch": "96d57afdef0c658d262a73da853bc29cb0b60df2bc5d33677efe174928500c3c",
+    "02_SoC_2.kicad_sch": "c3ab1a72e6961358dfc7b57245870907f6c2744276b3e3a12932cde1276e017e",
+    "07_Edge_Contract_1.kicad_sch": "b229d6c7f9cafec50d891b723466b5dcc49d69a991701963debb9ad147a3da2f",
+    "13_PMU_Automatic_Startup.kicad_sch": "24bdbbbc7199b6b5b825b5559f95b4229a7ae7042d5ab53e1fc954707d88f862",
+    "CMK230_Core_REVIEW.kicad_sch": "a0a849ff3fd90175fab5c29c52554b17cfbdbe257edd3237aa79a8e714ac91a1",
+    "15_Hardware_Reset_Interlock.kicad_sch": "d878ebcc7dbd0b3df53f9666afd9232eb189b482247ab8e320105d32d5509f9f",
+    "03_SoC_3.kicad_sch": "06a39a5bdf59cdd840555609a63533240f868a4ad34e15abba14e11f71f0eb61",
+    "05_LPDDR4_2.kicad_sch": "46d076e1d9a60308cd7130fc9f58107b9f25aa7876075b2d21047a399668aad5",
+    "16_TF_Voltage_Translation.kicad_sch": "96b5150ffd64da54e0ab065f15ea2fdc4db9e37c1a8e927dba286d96bf85000a",
+    "17_Audited_Source_Declarations.kicad_sch": "e2763b459a4d3eba156da17addb02fee281e92ad7f951af12eb9962a257eea8e",
+    "08_Clock_Reset_Boot.kicad_sch": "3802df96d5c42bc2aa2cd979a304edef9808fbfdb7b98a4813d1ed7350c55c2b",
+    "10_Six_Rail_Power.kicad_sch": "9791a30addf645fed92139c4f183cdb81a38a0212b7ff3023a5045482bd98efb",
+    "01_SoC_1.kicad_sch": "8f6957a06c85c6d53f487f73a07fa38cdd383ccf1dc0701c10664740737fd378"
+  },
+  "r7_schematics": {
+    "04_LPDDR4_1.kicad_sch": "e149af7df81d9d106dd95a6faad69b93be062eb82528d17ba92b4976991ffbb7",
+    "06_eMMC_1.kicad_sch": "0a30b642909a903d2f7a79317b9fbee851910f7420dc9b670481b8dfdedb9526",
+    "12_Local_Decoupling.kicad_sch": "b29395b98d342fdb81bb46c384fd1c167f07189ec3df7feb95f5b17366c6252e",
+    "09_Cold_Storage_Selector.kicad_sch": "51d69086dbbd4fdcefccc5085c92db5aa79d302d30fba7c179f54d782905c300",
+    "14_EMMC_Local_Bias.kicad_sch": "4d454c44e6589b21c92d5f4a531c5e581f57eb406a59c363e091834028ace8af",
+    "11_DDR_USB_MIPI_Bias.kicad_sch": "96d57afdef0c658d262a73da853bc29cb0b60df2bc5d33677efe174928500c3c",
+    "02_SoC_2.kicad_sch": "c3ab1a72e6961358dfc7b57245870907f6c2744276b3e3a12932cde1276e017e",
+    "07_Edge_Contract_1.kicad_sch": "b229d6c7f9cafec50d891b723466b5dcc49d69a991701963debb9ad147a3da2f",
+    "13_PMU_Automatic_Startup.kicad_sch": "46ee53a0c397bb4f4aefa79b1fbd94bd6d4d1484b9e6e9cb1a9e56f82e62abc1",
+    "CMK230_Core_REVIEW.kicad_sch": "054c99c4abbd3e2e08d0451ce97a5a95127cc0e4cf3c8d982828b7be71ea8abf",
+    "15_Hardware_Reset_Interlock.kicad_sch": "807ddf3b1ecaa8dd316de708d2cc6c85bbb80f6734d7d56a9030e46de6fee2f4",
+    "03_SoC_3.kicad_sch": "06a39a5bdf59cdd840555609a63533240f868a4ad34e15abba14e11f71f0eb61",
+    "05_LPDDR4_2.kicad_sch": "46d076e1d9a60308cd7130fc9f58107b9f25aa7876075b2d21047a399668aad5",
+    "16_TF_Voltage_Translation.kicad_sch": "96b5150ffd64da54e0ab065f15ea2fdc4db9e37c1a8e927dba286d96bf85000a",
+    "17_Audited_Source_Declarations.kicad_sch": "e2763b459a4d3eba156da17addb02fee281e92ad7f951af12eb9962a257eea8e",
+    "08_Clock_Reset_Boot.kicad_sch": "3802df96d5c42bc2aa2cd979a304edef9808fbfdb7b98a4813d1ed7350c55c2b",
+    "10_Six_Rail_Power.kicad_sch": "5b41d535dbbd223ebb21b3e18d0a6a9a353763d0cb1061e84deb1ddc53d3c4ec",
+    "01_SoC_1.kicad_sch": "8f6957a06c85c6d53f487f73a07fa38cdd383ccf1dc0701c10664740737fd378"
+  },
+  "footprint_sources": {
+    "R205": {
+      "relative_path": "cad/verified-footprints/passive-candidates/CMK230_Passive_Candidates.pretty/Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "662f9d711a726134cb242cabdaeb77dd1f8c223c213ed4e90eaa17c0d82cf032"
+    },
+    "R220": {
+      "relative_path": "cad/recovery-link-candidates/CMK230_Recovery_Link_Candidates.pretty/Vishay_WSL0603_9_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "c5d2f880af8cc2f7b64ea90d7b835e0055f2a0d3278dace63ae1ff8559119037"
+    },
+    "TP81": {
+      "relative_path": "cad/recovery-link-candidates/CMK230_Recovery_Link_Candidates.pretty/Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE.kicad_mod",
+      "sha256": "df4c18547964c1c96345a5f676cbafb6dce795827e200e1d6172770a24e7d34f"
+    },
+    "R561": {
+      "relative_path": "cad/recovery-link-candidates/CMK230_Recovery_Link_Candidates.pretty/Vishay_WFZ0402_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "78d9022d866847eee5cdace3090e9fd4f7eb6001a10c77dcb6a4240a66cb2fc7"
+    },
+    "JP1": {
+      "relative_path": "cad/recovery-link-candidates/CMK230_Recovery_Link_Candidates.pretty/Core_Cold_Selector_Open_SolderBridge_CANDIDATE.kicad_mod",
+      "sha256": "b653dcf5de9088c41e71a9978bd8b39647485efee5b191dde66bfe2daf69ef4f"
+    },
+    "R528": {
+      "relative_path": "cad/recovery-passive-candidates/CMK230_Recovery_Passive_Candidates.pretty/Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+    },
+    "R401": {
+      "relative_path": "cad/recovery-passive-candidates/CMK230_Recovery_Passive_Candidates.pretty/Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+    },
+    "TP82": {
+      "relative_path": "cad/recovery-link-candidates/CMK230_Recovery_Link_Candidates.pretty/Core_PMUSTATUS_Top_TestPad_0p8_CANDIDATE.kicad_mod",
+      "sha256": "df4c18547964c1c96345a5f676cbafb6dce795827e200e1d6172770a24e7d34f"
+    },
+    "R221": {
+      "relative_path": "cad/recovery-passive-candidates/CMK230_Recovery_Passive_Candidates.pretty/Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b"
+    },
+    "R206": {
+      "relative_path": "cad/verified-footprints/passive-candidates/CMK230_Passive_Candidates.pretty/Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "662f9d711a726134cb242cabdaeb77dd1f8c223c213ed4e90eaa17c0d82cf032"
+    }
+  },
+  "population_contract_sha256": "d706ade5afdbcea0b84b0a52e2891df38471001576529ce79606666fbce0f30b"
+}

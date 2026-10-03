@@ -1,0 +1,80 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-02T22:39:06-0700",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "INDEPENDENT_R7_FEATURES_REVIEW_ONLY.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [VDD_3V3] of JP1 on F.Cu",
+                    "pos": {
+                        "x": 5.5,
+                        "y": 5.0
+                    },
+                    "uuid": "aa2d4ac2-0843-47af-bf9a-7276df1a84e8"
+                },
+                {
+                    "description": "Pad 1 [VDD_3V3] of R221 on F.Cu",
+                    "pos": {
+                        "x": 32.745,
+                        "y": 5.0
+                    },
+                    "uuid": "23a2015e-896a-4aa2-ad35-71c399d2b9c0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of R205 on F.Cu",
+                    "pos": {
+                        "x": 12.475,
+                        "y": 5.0
+                    },
+                    "uuid": "04802a00-207b-43ac-91c7-0cf97796ec0b"
+                },
+                {
+                    "description": "Pad 2 [GND] of R206 on F.Cu",
+                    "pos": {
+                        "x": 19.475,
+                        "y": 5.0
+                    },
+                    "uuid": "afe76696-c648-4388-aecb-527a46932124"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [VDD1P8] of R528 on F.Cu",
+                    "pos": {
+                        "x": 11.745,
+                        "y": 12.0
+                    },
+                    "uuid": "d6091caa-ecaa-484c-aed4-df96e8c9fe1a"
+                },
+                {
+                    "description": "Pad 1 [VDD1P8] of R561 on F.Cu",
+                    "pos": {
+                        "x": 18.55,
+                        "y": 12.0
+                    },
+                    "uuid": "86f246c5-34d9-4a89-afe8-c8f709b01364"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

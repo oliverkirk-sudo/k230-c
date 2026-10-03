@@ -1,0 +1,47 @@
+{
+  "revision": "R7 links and fabricated features",
+  "components": 254,
+  "bindings": 1509,
+  "distinct_nets": 457,
+  "changed_footprint_refs": [
+    "JP1",
+    "R205",
+    "R206",
+    "R220",
+    "R221",
+    "R401",
+    "R528",
+    "R561",
+    "TP81",
+    "TP82"
+  ],
+  "new_BOM_exclusion_refs": [
+    "JP1",
+    "TP81",
+    "TP82"
+  ],
+  "value_changes": 0,
+  "pin_net_function_type_changes": 0,
+  "population_changes": 0,
+  "JP1_R45_R47_R528_DNP_preserved": true,
+  "all_three_features_retain_copper_and_onboard_net_identity": true,
+  "assigned": 202,
+  "unassigned": 52,
+  "erc_violations": 0,
+  "fixture_drc_categories": [],
+  "native_CAM_flash_counts": {
+    "LINKS_FEATURES_GEOMETRY_ONLY-F_Cu.gtl": 8,
+    "LINKS_FEATURES_GEOMETRY_ONLY-F_Mask.gts": 8,
+    "LINKS_FEATURES_GEOMETRY_ONLY-F_Paste.gtp": 4
+  },
+  "negative_controls_rejected": [
+    "default_bridge_population_changed",
+    "storage_qualification_populated",
+    "observation_pad_wrong_net",
+    "logical_copper_feature_marked_board_only",
+    "bare_testpad_added_to_placement",
+    "DNP_copper_omitted_from_board"
+  ],
+  "full_board_exists": false,
+  "production_ready": false
+}

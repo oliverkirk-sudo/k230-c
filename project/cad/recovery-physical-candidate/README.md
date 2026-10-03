@@ -11,3 +11,5 @@ R4 adds all three BGA engineering footprint identities:158 assigned,96 unassigne
 R5 conditionally changes only eight DAT pullups to43k and assigns their source-land candidates:166 assigned/88unassigned. See ../../recovery/r5-dat43/README.md. Resistance-budget compliance is distinct from lifetime, signaling, boot and production qualification.
 
 R6 assigns25 conditional bias-resistor footprints and the exact L21 source-land candidate, preserving all values and nets:192 assigned/62 gaps. See ../../recovery/r6-passive-coverage/README.md. Its correct winding-start orientation and larger maximum-body reservation do not establish a power-loop or board-fit pass.
+
+R7 assigns ten further link/feature footprints and excludes three fabricated copper features from the BOM:202 assigned/52 gaps. All values, bindings and DNP states are preserved. See ../../recovery/r7-links-and-features/README.md. Default DNP does not remove R528 paste apertures; production stencil selection remains unresolved.

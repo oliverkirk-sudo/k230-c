@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "CMK230_Recovery_Link_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../../cad/recovery-link-candidates/CMK230_Recovery_Link_Candidates.pretty") (options "") (descr "Conditional source links and bare copper features")))
