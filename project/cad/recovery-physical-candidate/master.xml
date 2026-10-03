@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/workspace/shared/cm-k230-redesign/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch</source>
-    <date>2026-10-01T10:52:10-0700</date>
+    <source>/workspace/shared/k230-recovery-oct3/reconstruction-r3/project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch</source>
+    <date>2026-10-02T20:26:28-0700</date>
     <tool>Eeschema 9.0.2+dfsg-1</tool>
     <sheet number="1" name="/SoC_1/" tstamps="/bd9bb2f4-9b59-441f-a215-8c4f637c6c79/">
       <title_block>
@@ -1498,8 +1498,9 @@
     </comp>
     <comp ref="L22">
       <value>0.24uH DFE201612E-R24M REF</value>
+      <footprint>CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1511,8 +1512,9 @@
     </comp>
     <comp ref="L23">
       <value>0.24uH DFE201612E-R24M REF</value>
+      <footprint>CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1524,8 +1526,9 @@
     </comp>
     <comp ref="L24">
       <value>0.47uH DFE201610E-R47M=P2 CANDIDATE</value>
+      <footprint>CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1537,8 +1540,9 @@
     </comp>
     <comp ref="L25">
       <value>0.47uH DFE201610E-R47M=P2 CANDIDATE</value>
+      <footprint>CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1550,8 +1554,9 @@
     </comp>
     <comp ref="L26">
       <value>0.47uH DFE201610E-R47M=P2 CANDIDATE</value>
+      <footprint>CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3761,8 +3766,9 @@
     </comp>
     <comp ref="R574">
       <value>10k CRCW020110K0FKED IDLE BIAS CANDIDATE</value>
+      <footprint>CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5177,7 +5183,7 @@
   </libparts>
   <libraries>
     <library logical="Integrated">
-      <uri>/workspace/shared/cm-k230-redesign/cad/recovery-physical-candidate/Integrated.kicad_sym</uri>
+      <uri>/workspace/shared/k230-recovery-oct3/reconstruction-r3/project/cad/recovery-physical-candidate/Integrated.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

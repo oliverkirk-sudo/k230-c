@@ -1,5 +1,5 @@
 {
-  "stage": "RESTORED_V12_PLUS_R2_1_PUBLIC_SOURCE_CHECKPOINT",
+  "stage": "R3_CONDITIONAL_FOOTPRINT_COVERAGE",
   "date_utc": "2026-10-03",
   "source_archive_sha256": {
     "v12": "63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58",
@@ -1430,6 +1430,33 @@
       "source_sha256": "f117171ffc0e65051845d43b249bfd992cb138b818d481aaa85117780713f620",
       "published_sha256": "5039fc86879b04755a0be42b55db8813430ec422f64a779c3c13fa8ab27ee192",
       "reason": "Editorial attribution text updated; technical content unchanged"
+    }
+  ],
+  "previous_stage": "RESTORED_V12_PLUS_R2_1_PUBLIC_SOURCE_CHECKPOINT",
+  "checkpoints": [
+    {
+      "revision": "R3",
+      "base_commit": "4362d103cb08000e34799f01544baf3daca0bb2f",
+      "delta_zip_sha256": "d36811aa21ddf584d98c255819cdc970d9e53bf3a46e318d5d2ef92ffa9bfec3",
+      "delta_zip_bytes": 109306,
+      "source_manifest_sha256": "73eaddc8f8b261d1affe5c2291bbb92fcdbe4e234e270a22b1858ac4e41e9310",
+      "changed_source_files": 27,
+      "manifest_included_separately": true,
+      "publication_source_files_byte_identical": true,
+      "components": 254,
+      "pin_bindings": 1509,
+      "footprints_assigned": 155,
+      "footprints_unassigned": 99,
+      "changed_footprint_refs": [
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L26",
+        "R574"
+      ],
+      "production_ready": false,
+      "active_full_six_layer_board": false
     }
   ]
 }

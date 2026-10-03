@@ -1,0 +1,504 @@
+{
+  "audit_date_utc": "2026-10-03",
+  "status": "PASS_RESTORED_IDENTITY_AND_CONDITIONAL_GEOMETRY_ONLY",
+  "scope": "Read-only recheck of restored v12-r2_1 source evidence, active XML and native symbols, candidate footprint centers and nominal lands. No main CAD edits, no new vendor-document retrieval, no fabrication qualification.",
+  "required_board": {
+    "outline_mm": [
+      38,
+      38
+    ],
+    "contacts": 140,
+    "copper_layers": 6,
+    "assembly": "top only"
+  },
+  "coordinate_convention": "Package-centered component top view, balls down, X right and Y down; mm. A CAD bottom-placement transform must not be replaced by a second manual mirror.",
+  "parts": [
+    {
+      "reference": "U1",
+      "active_value": "K230 full 390 physical balls",
+      "symbol": "K230_390",
+      "physical_balls": 390,
+      "full_grid_sites": 400,
+      "absent_sites": [
+        "A1",
+        "E5",
+        "F5",
+        "R4",
+        "R5",
+        "T4",
+        "T5",
+        "T6",
+        "U4",
+        "U5"
+      ],
+      "pitch_x_y_mm": [
+        0.65,
+        0.65
+      ],
+      "functional_category_count": {
+        "signal": 209,
+        "ground": 105,
+        "unused": 23,
+        "power": 53
+      },
+      "active_footprint_binding": "EMPTY",
+      "identity_and_coordinates": "PASS",
+      "PCB_land_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "reference": "U2",
+      "active_value": "MT53E256M32D2FW-046 AAT:B 1GB CANDIDATE",
+      "symbol": "MT53E256M32D2FW_200",
+      "physical_balls": 200,
+      "full_grid_sites": 264,
+      "absent_sites": [
+        "A6",
+        "A7",
+        "AA6",
+        "AA7",
+        "AB6",
+        "AB7",
+        "B6",
+        "B7",
+        "C6",
+        "C7",
+        "D6",
+        "D7",
+        "E6",
+        "E7",
+        "F6",
+        "F7",
+        "G6",
+        "G7",
+        "H6",
+        "H7",
+        "J6",
+        "J7",
+        "K6",
+        "K7",
+        "L1",
+        "L10",
+        "L11",
+        "L12",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "M1",
+        "M10",
+        "M11",
+        "M12",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "N6",
+        "N7",
+        "P6",
+        "P7",
+        "R6",
+        "R7",
+        "T6",
+        "T7",
+        "U6",
+        "U7",
+        "V6",
+        "V7",
+        "W6",
+        "W7",
+        "Y6",
+        "Y7"
+      ],
+      "pitch_x_y_mm": [
+        0.8,
+        0.65
+      ],
+      "functional_category_count": {
+        "unused": 22,
+        "ground": 58,
+        "power": 52,
+        "non_supply_functional": 68
+      },
+      "active_footprint_binding": "EMPTY",
+      "identity_and_coordinates": "PASS",
+      "PCB_land_qualification": "NOT_ESTABLISHED"
+    },
+    {
+      "reference": "U3",
+      "active_value": "MTFC16GAPALBH-AAT 16GB CANDIDATE",
+      "symbol": "MTFC16GAPALBH_153",
+      "physical_balls": 153,
+      "full_grid_sites": 196,
+      "absent_sites": [
+        "D10",
+        "D11",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "E11",
+        "E4",
+        "F11",
+        "F4",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "G11",
+        "G4",
+        "G6",
+        "G7",
+        "G8",
+        "G9",
+        "H11",
+        "H4",
+        "H6",
+        "H7",
+        "H8",
+        "H9",
+        "J11",
+        "J4",
+        "J6",
+        "J7",
+        "J8",
+        "J9",
+        "K11",
+        "K4",
+        "L10",
+        "L11",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9"
+      ],
+      "pitch_x_y_mm": [
+        0.5,
+        0.5
+      ],
+      "functional_category_count": {
+        "NC": 109,
+        "signal": 12,
+        "ground": 11,
+        "RFU": 4,
+        "internal_regulator": 1,
+        "power": 9,
+        "vendor_specific": 7
+      },
+      "active_footprint_binding": "EMPTY",
+      "identity_and_coordinates": "PASS",
+      "PCB_land_qualification": "NOT_ESTABLISHED"
+    }
+  ],
+  "footprints": [
+    {
+      "reference": "U1",
+      "file": "cad/bga-engineering-candidates/k230-ddr-constrained/K230_Engineering.pretty/K230_390_NSMD027_ENGINEERING_ONLY.kicad_mod",
+      "pads": 390,
+      "copper_mask_paste_diameter_mm": [
+        0.27,
+        0.37,
+        0.27
+      ],
+      "binding_to_active_master": false,
+      "qualified": false,
+      "has_pad_function_metadata": false,
+      "has_board_nets": false,
+      "body_and_courtyard": "Engineering outlines only; not independently qualified in this recheck"
+    },
+    {
+      "reference": "U3",
+      "file": "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_Engineering.pretty/MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY.kicad_mod",
+      "pads": 153,
+      "copper_mask_paste_diameter_mm": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "binding_to_active_master": false,
+      "qualified": false,
+      "has_pad_function_metadata": false,
+      "has_board_nets": false,
+      "body_and_courtyard": "Engineering outlines only; not independently qualified in this recheck"
+    }
+  ],
+  "FW200_geometry": {
+    "standalone_footprint_present": false,
+    "independent_grid_and_mechanics_present": true,
+    "analytical_two_package_trial_lands_present": 200,
+    "analytical_trial_land_diameter_mm": 0.3,
+    "qualified": false
+  },
+  "historic_coupons": [
+    {
+      "reference": "U1",
+      "file": "cad/bga-engineering-candidates/k230-ddr-constrained/K230_DDR_CONSTRAINED_LOCAL_TRIAL.kicad_pcb",
+      "physical_pads": 390,
+      "vias": 327,
+      "segments": 997,
+      "copper_layer_count": 8,
+      "copper_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "B.Cu"
+      ],
+      "six_layer_implementation_evidence": false
+    },
+    {
+      "reference": "U3",
+      "file": "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_SPARSE_LOCAL_TRIAL.kicad_pcb",
+      "physical_pads": 153,
+      "vias": 29,
+      "segments": 16,
+      "copper_layer_count": 8,
+      "copper_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "B.Cu"
+      ],
+      "six_layer_implementation_evidence": false
+    }
+  ],
+  "historic_results": {
+    "K230_local_trial": {
+      "physical_lands": 390,
+      "signal_demand": 209,
+      "signal_escapes": 209,
+      "unsolved_signals": 0,
+      "high_speed_ddr_demand": 64,
+      "high_speed_ddr_solved": 64,
+      "DDR65_solved": 65,
+      "complete_differential_pairs": 6,
+      "power_balls": 53,
+      "ground_balls": 105,
+      "open_balls": 23,
+      "power_ground_vias": 158,
+      "direct_signal_escapes": 40,
+      "signal_vias": 169,
+      "total_vias": 327,
+      "actual_added_outer_ddr_vias": 16,
+      "escaped_by_layer": {
+        "L1": 40,
+        "L3": 56,
+        "L8": 58,
+        "L6": 55
+      }
+    },
+    "BH153_native_review": {
+      "geometry_rule_violations": 0,
+      "unconnected_errors": 17,
+      "warning_types": {
+        "track_dangling": 12,
+        "via_dangling": 20
+      },
+      "overall_DRC_clean": false,
+      "interpretation": "Power/ground plane networks and the 12 local host/VDDIM exits are deliberately unfinished. Native DRC adds these connectivity findings beyond the analytic local collision proof; none are suppressed."
+    },
+    "actual_link_trial_snapshot": {
+      "physical_lands": 590,
+      "k230_lands": 390,
+      "ram_lands": 200,
+      "ram_absent_grid_sites": 64,
+      "k230_signal_exits": 209,
+      "ram_power_vias": 52,
+      "ram_ground_vias": 58,
+      "ram_signal_dogbone_vias": 65,
+      "ram_local_bias_balls_unrouted": 3,
+      "total_vias": 502,
+      "required_DDR_links": 65,
+      "completed_DDR_links": 38,
+      "unsolved_DDR_links": 27,
+      "complete_differential_pairs": 6,
+      "all_completed_DDR_links_actual_vias": 2,
+      "all_completed_DDR_links_actual_layer_changes": 2,
+      "completed_by_layer": {
+        "L3": 21,
+        "L8": 17
+      }
+    },
+    "interpretation": "Historical local/analytical results, not rerun routing or native DRC. Other link-search variants exist and are outside this identity audit. No historical eight-layer result proves six-layer routability."
+  },
+  "documentation_cautions": [
+    "BH153 README says its reusable .pretty footprint carries pin functions. The actual standalone footprint has numbered lands but no pinfunction or net fields; the native coupon and source maps do carry the functions. Numbering/coordinates agree.",
+    "The older BGA mechanical audit covers Samsung K4F8E304HB and KLMAG1JETD. Their center grids match the selected Micron package occupancy, but Samsung body/height/ball dimensions and electrical labels are not transferable.",
+    "The early Micron LPDDR comparison lists second independent grid review as pending; the later independent-grid-verification artifact is present and agrees. This closes restored-data consistency only, not substitution/assembly approval.",
+    "engineering/k230-authoritative-ball-evidence.json and k230-reference-balls.csv contain a 163-pin reference subset; the full 390-ball source is data/k230-source-extraction/k230-390-balls.csv.",
+    "Historical artifact manifests include previews and external vendor inputs absent from the restored tree. This audit checks the restored data directly; it does not claim all original source documents are present."
+  ],
+  "release_gates": [
+    "Choose and qualify exact-part PCB copper, mask, paste/stencil, via and assembly construction; package-side ball-pad notes do not define PCB lands.",
+    "Build and verify an explicit six-copper-layer escape, reference-plane, DDR timing and PDN design under the 38 mm / 140-contact / top-only requirements.",
+    "Finish full-board placement/routing, top-side bypass loops, impedance/SI, thermal and manufacturing checks before any release."
+  ],
+  "checks": [
+    {
+      "check": "U1 source/XML/native-symbol/assignment exact ball-function parity",
+      "pass": true
+    },
+    {
+      "check": "U1 XML contains each ball once",
+      "pass": true
+    },
+    {
+      "check": "U1 functional analysis labels and coordinates",
+      "pass": true
+    },
+    {
+      "check": "U1 active footprint binding empty",
+      "pass": true
+    },
+    {
+      "check": "U2 source/XML/native-symbol/assignment exact ball-function parity",
+      "pass": true
+    },
+    {
+      "check": "U2 XML contains each ball once",
+      "pass": true
+    },
+    {
+      "check": "U2 functional analysis labels and coordinates",
+      "pass": true
+    },
+    {
+      "check": "U2 active footprint binding empty",
+      "pass": true
+    },
+    {
+      "check": "U3 source/XML/native-symbol/assignment exact ball-function parity",
+      "pass": true
+    },
+    {
+      "check": "U3 XML contains each ball once",
+      "pass": true
+    },
+    {
+      "check": "U3 functional analysis labels and coordinates",
+      "pass": true
+    },
+    {
+      "check": "U3 active footprint binding empty",
+      "pass": true
+    },
+    {
+      "check": "K230 mechanical CSV exact coordinates and labels",
+      "pass": true
+    },
+    {
+      "check": "FW200 independent grid physical labels and coordinates",
+      "pass": true
+    },
+    {
+      "check": "K230 A1 absent",
+      "pass": true
+    },
+    {
+      "check": "BH153 package test contacts excluded",
+      "pass": true
+    },
+    {
+      "check": "U1 standalone footprint unique pad occupancy",
+      "pass": true
+    },
+    {
+      "check": "U1 standalone footprint center coordinates",
+      "pass": true
+    },
+    {
+      "check": "U1 standalone footprint all front SMD circles",
+      "pass": true
+    },
+    {
+      "check": "U1 standalone footprint declared copper/mask/paste",
+      "pass": true
+    },
+    {
+      "check": "U3 standalone footprint unique pad occupancy",
+      "pass": true
+    },
+    {
+      "check": "U3 standalone footprint center coordinates",
+      "pass": true
+    },
+    {
+      "check": "U3 standalone footprint all front SMD circles",
+      "pass": true
+    },
+    {
+      "check": "U3 standalone footprint declared copper/mask/paste",
+      "pass": true
+    },
+    {
+      "check": "U1 coupon pad labels and nets match active master",
+      "pass": true
+    },
+    {
+      "check": "U1 coupon local coordinates",
+      "pass": true
+    },
+    {
+      "check": "U3 coupon pad labels and nets match active master",
+      "pass": true
+    },
+    {
+      "check": "U3 coupon local coordinates",
+      "pass": true
+    },
+    {
+      "check": "FW200 analytical two-package trial labels/local coordinates",
+      "pass": true
+    },
+    {
+      "check": "No FW200 standalone footprint in restored tree",
+      "pass": true
+    }
+  ],
+  "check_count": 30,
+  "failed_checks": [],
+  "input_sha256": {
+    "cad/recovery-physical-candidate/master.xml": "d6410392ae3f65d1b86c47aea0ec6adce01d70b7d07208b87036491a19af9a26",
+    "cad/recovery-physical-candidate/Integrated.kicad_sym": "0f1f654f9a4b7ec054835d945c7f01369e44bc8b4839636675b910a605334be7",
+    "data/k230-source-extraction/k230-390-balls.csv": "8ee9d82b21fe0f446473d8dc42e3dacd5094fd0a905f6c2e9f728e9cc4fb8548",
+    "engineering/high-temp-candidates/micron-lp4-ball-comparison.json": "a2a6683cbb09b5a622f9241dd008844ca95765855e716ed042b69f30b0deb914",
+    "engineering/high-temp-candidates/micron-emmc-ball-comparison.json": "5a7bcd70f1fa75ff84a657e5ad98c206eb732eaa78c8b98c274069b8c4692a55",
+    "engineering/mechanical/micron-lp4-independent-grid-verification.json": "81b40d40c5b2e7664a3a5e870f7725e4413c472dcb3828802d45cc973e7c6570",
+    "engineering/mechanical/bga-coordinate-verification.json": "8f39ad5ba65698e85b282bd51b11acbae1b5707762cc3edc31f8eecff70fd645",
+    "engineering/mechanical/micron-fw-independent-mechanics.json": "8de1e4fd683cbc2cb9c1ea52b73532cb303509b01e5fdef4d6893a9999347033",
+    "engineering/bga-engineering-candidates/micron-emmc-package-evidence.json": "f71c3fd958760af18d23d57d2a2227868a28473f0dc2b3a016be0a76db126ceb",
+    "engineering/mechanical/bga-K230-physical-centers.csv": "0c9d8fc2a2b1e21dab63619da982fff17881238f2dd89abc5a81ed27068cc1dd",
+    "engineering/bga-engineering-candidates/memory-soc-functional-balls.csv": "2b0b34eb6b89f0469e736692909d2dce00744eade9d84f592651ffbe0d0255b0",
+    "cad/recovery-physical-candidate/master-pin-assignments.csv": "dcdd840fcecd90e8c938c5e5412328d91e37069e2022666fb3caffa767e8dfd3",
+    "cad/bga-engineering-candidates/k230-ddr-constrained/K230_Engineering.pretty/K230_390_NSMD027_ENGINEERING_ONLY.kicad_mod": "e966f4f52f50f9939f1d93ae072eac6c764d35586e854e20e5297eed4404c2cb",
+    "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_Engineering.pretty/MTFC16GAPALBH_AAT_BH153_NSMD030_ENGINEERING_ONLY.kicad_mod": "2d80cba28c836720179e842b70d5b71bf92c8c4fc0759a16b8862244411507cf",
+    "cad/bga-engineering-candidates/k230-ddr-constrained/K230_DDR_CONSTRAINED_LOCAL_TRIAL.kicad_pcb": "a761a7efc93f25b70a67e00b1970bb861f40b2276c500325d1d38c26e1899b6a",
+    "cad/bga-engineering-candidates/bh153-sparse-trial/BH153_SPARSE_LOCAL_TRIAL.kicad_pcb": "249c4b4cdce3db5db4c7092605d266da878519568d416896176d386688f98ffa",
+    "engineering/k230-ddr-constrained/trial-groups-outer-21.json": "6bb20e72fd4a1c985f0bb2eb54e97ff870f2dbb40a7a36b72db05ef83cae6153",
+    "engineering/k230-ddr-constrained/link-trial/actual-links.json": "444fc18e171a16d8f186217479b9b5a5f3f424b0072a542cc24d6dc40b54daf0",
+    "engineering/bga-native-trial/native-independent-review.json": "9bbf7bfaa638ce3149c5ce03dd42daedc932486c9f90497058af51dcd10f6905",
+    "engineering/k230-ddr-constrained/native-validation.json": "c430e332a38942e078f39b871a90cee8d7174022475154166e3892b8f8b189b0"
+  },
+  "limits": [
+    "No independent rereading of original manufacturer PDFs or screenshots in this pass.",
+    "Package provenance is inherited from the cited recovered evidence and its recorded source hashes.",
+    "No DRC rerun, routing search, stack/process approval, current availability check, or import into active CAD."
+  ]
+}

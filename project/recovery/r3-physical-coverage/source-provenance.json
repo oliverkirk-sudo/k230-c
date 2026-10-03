@@ -1,0 +1,21 @@
+{
+  "retrieved_utc_date": "2026-10-03",
+  "sources": [
+    {
+      "url": "https://www.vishay.com/docs/20052/crcw0201e3.pdf",
+      "review": "page2 visually inspected; dimensions and land geometry transcribed",
+      "sha256": "390a5effad7c3b526afb7faba340e29176261bfa4c041a128effc87b941a61ea"
+    },
+    {
+      "url": "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0006.pdf",
+      "review": "fresh bytes match archived manufacturer drawing audit",
+      "sha256": "6fbbdccedc9f58904a3e60d7e9c0e33917a03b7dd0d96716821988e89e4fb8ad"
+    },
+    {
+      "url": "https://pim.murata.com/asset/pim4/inductor/J(E)TE243A-0001_PDF_INDUCTOR",
+      "review": "fresh bytes match archived manufacturer drawing audit",
+      "sha256": "5c02415289b2b9d2c0ceb283cfe004a986d9e729dadbfe92917a381db5eae84e"
+    }
+  ],
+  "raw_vendor_documents_not_redistributed": true
+}

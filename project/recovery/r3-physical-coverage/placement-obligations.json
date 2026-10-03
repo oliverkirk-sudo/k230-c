@@ -1,0 +1,87 @@
+{
+  "six_copper_layers_required": true,
+  "top_only": true,
+  "entries": [
+    {
+      "reference": "L22",
+      "pin1_net": "SW_CPU",
+      "pin2_net": "VDD0P8_CPU",
+      "max_body_mm": [
+        2.2,
+        1.8
+      ],
+      "max_height_mm": 1.2,
+      "electrode_net_exception": [
+        "SW_CPU",
+        "VDD0P8_CPU"
+      ],
+      "required_audit": "At actual position/rotation, compare full maximum-body footprint against all six copper-layer items, filled zones, via barrels and drilled holes. No unrelated copper or holes permitted under the source restriction. Native drawing marker is not enforcement.",
+      "status": "NO_ACTIVE_BOARD_PLACEMENT_OR_RESTRICTION_AUDIT"
+    },
+    {
+      "reference": "L23",
+      "pin1_net": "SW_KPU",
+      "pin2_net": "VDD0P8_KPU",
+      "max_body_mm": [
+        2.2,
+        1.8
+      ],
+      "max_height_mm": 1.2,
+      "electrode_net_exception": [
+        "SW_KPU",
+        "VDD0P8_KPU"
+      ],
+      "required_audit": "At actual position/rotation, compare full maximum-body footprint against all six copper-layer items, filled zones, via barrels and drilled holes. No unrelated copper or holes permitted under the source restriction. Native drawing marker is not enforcement.",
+      "status": "NO_ACTIVE_BOARD_PLACEMENT_OR_RESTRICTION_AUDIT"
+    },
+    {
+      "reference": "L24",
+      "pin1_net": "SW_DDR",
+      "pin2_net": "VDD1P1_DDR_IO",
+      "max_body_mm": [
+        2.2,
+        1.8
+      ],
+      "max_height_mm": 1.0,
+      "electrode_net_exception": [
+        "SW_DDR",
+        "VDD1P1_DDR_IO"
+      ],
+      "required_audit": "At actual position/rotation, compare full maximum-body footprint against all six copper-layer items, filled zones, via barrels and drilled holes. No unrelated copper or holes permitted under the source restriction. Native drawing marker is not enforcement.",
+      "status": "NO_ACTIVE_BOARD_PLACEMENT_OR_RESTRICTION_AUDIT"
+    },
+    {
+      "reference": "L25",
+      "pin1_net": "SW_1V8",
+      "pin2_net": "VDD1P8",
+      "max_body_mm": [
+        2.2,
+        1.8
+      ],
+      "max_height_mm": 1.0,
+      "electrode_net_exception": [
+        "SW_1V8",
+        "VDD1P8"
+      ],
+      "required_audit": "At actual position/rotation, compare full maximum-body footprint against all six copper-layer items, filled zones, via barrels and drilled holes. No unrelated copper or holes permitted under the source restriction. Native drawing marker is not enforcement.",
+      "status": "NO_ACTIVE_BOARD_PLACEMENT_OR_RESTRICTION_AUDIT"
+    },
+    {
+      "reference": "L26",
+      "pin1_net": "SW_3V3",
+      "pin2_net": "VDD_3V3",
+      "max_body_mm": [
+        2.2,
+        1.8
+      ],
+      "max_height_mm": 1.0,
+      "electrode_net_exception": [
+        "SW_3V3",
+        "VDD_3V3"
+      ],
+      "required_audit": "At actual position/rotation, compare full maximum-body footprint against all six copper-layer items, filled zones, via barrels and drilled holes. No unrelated copper or holes permitted under the source restriction. Native drawing marker is not enforcement.",
+      "status": "NO_ACTIVE_BOARD_PLACEMENT_OR_RESTRICTION_AUDIT"
+    }
+  ],
+  "R574": "Short local path to U95.5 and GND return; no placement/rise-time acceptance yet"
+}

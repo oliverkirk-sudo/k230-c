@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-02T20:26:29-0700",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "CRCW0201_NEGATIVE_CLEARANCE.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (board minimum clearance 0.2400 mm; actual 0.2300 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [TF_HOST_CLK] of R574 on F.Cu",
+                    "pos": {
+                        "x": 4.745,
+                        "y": 5.0
+                    },
+                    "uuid": "c5833743-974c-49c2-a561-26e622c83b71"
+                },
+                {
+                    "description": "Pad 2 [GND] of R574 on F.Cu",
+                    "pos": {
+                        "x": 5.255,
+                        "y": 5.0
+                    },
+                    "uuid": "ed06d196-550b-4a13-a909-b34b3a1f8161"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

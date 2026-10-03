@@ -1,0 +1,27 @@
+{
+  "revision": "R3 physical coverage candidate",
+  "components": 254,
+  "pin_bindings": 1509,
+  "changed_footprint_refs": [
+    "L22",
+    "L23",
+    "L24",
+    "L25",
+    "L26",
+    "R574"
+  ],
+  "assigned": 155,
+  "unassigned": 99,
+  "binding_differences": 0,
+  "R528_DNP_preserved": true,
+  "negative_controls_rejected": [
+    "lost-DNP",
+    "wrong-inductor",
+    "value-change",
+    "miswired-clock-bias"
+  ],
+  "erc_violations": 0,
+  "fixture_drc_categories": [],
+  "production_ready": false,
+  "full_six_layer_board_exists": false
+}

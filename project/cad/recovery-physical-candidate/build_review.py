@@ -23,6 +23,8 @@ for ref in ['U14','U92','U94']:FP.pop(ref,None)
 FP.update({'U14': 'CMK230_Recovery_Logic_Candidates:TI_DSF0006A_SN74LVC1G97_1x1_P0.35_SourceExample_CANDIDATE', 'U92': 'CMK230_NXP_Archival_Candidates:NXP_SOT1160-1_74AUP2G97_1.4x1.8_P0.4_ArchivalCrosschecked_CANDIDATE'})
 for r in ['R201','R202','R207','R208','R210','R211','R213','R214','R525','R526']+[f'R{x}' for x in range(63,72)]:FP[r]='CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE'
 
+FP.update({'R574': 'CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE', 'L22': 'CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L23': 'CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L24': 'CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L25': 'CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE', 'L26': 'CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE'})
+
 
 def text(s,x=15,y=15):return f'(text {q(s)} (at {x} {y} 0) (effects (font (size 1.15 1.15)) (justify left)) (uuid "{uid()}"))'
 def define(name,groups):
@@ -224,3 +226,7 @@ t=p.read_text();p.write_text(t[:-1]+' (lib (name "CMK230_Bypass_Candidates") (ty
 # Source-audited lands remain conditional on manufacturing acceptance.
 p=OUT/'fp-lib-table'; t=p.read_text().rstrip(); p.write_text(t[:-1]+' (lib (name "CMK230_Recovery_Logic_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../recovery-footprint-candidates/CMK230_Recovery_Logic_Candidates.pretty") (options "") (descr "Source geometry candidate; mask, assembly and process unqualified"))'+')')
 p=OUT/'fp-lib-table'; t=p.read_text().rstrip(); p.write_text(t[:-1]+' (lib (name "CMK230_NXP_Archival_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../recovery-footprint-candidates/nexperia-archival/CMK230_NXP_Archival_Candidates.pretty") (options "") (descr "Source geometry candidate; mask, assembly and process unqualified"))'+')')
+
+p=OUT/'fp-lib-table'; t=p.read_text().rstrip(); p.write_text(t[:-1]+' (lib (name "CMK230_Inductor_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../verified-footprints/inductor-candidates/CMK230_Inductor_Candidates.pretty") (options "") (descr "Conditional source geometry; process not qualified"))'+')')
+
+p=OUT/'fp-lib-table'; t=p.read_text().rstrip(); p.write_text(t[:-1]+' (lib (name "CMK230_Recovery_Passive_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../recovery-passive-candidates/CMK230_Recovery_Passive_Candidates.pretty") (options "") (descr "Conditional source geometry; process not qualified"))'+')')

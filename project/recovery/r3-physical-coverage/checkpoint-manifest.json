@@ -1,0 +1,171 @@
+{
+  "revision": "R3",
+  "base_commit": "4362d103cb08000e34799f01544baf3daca0bb2f",
+  "source_stage": "verified v12 plus R2.1",
+  "files": [
+    {
+      "path": "cad/recovery-passive-candidates/CMK230_Recovery_Passive_Candidates.pretty/Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+      "bytes": 1026,
+      "sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch",
+      "bytes": 125229,
+      "sha256": "c041b454725f15cc8bd98d1a9797b42bf18c98cf5138541fd07764f3598cb1d8",
+      "old_sha256": "3107faf29319b2820ae2078b96582df960523219c2ce09d17cfd44a79916ea95"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/16_TF_Voltage_Translation.kicad_sch",
+      "bytes": 14146,
+      "sha256": "96b5150ffd64da54e0ab065f15ea2fdc4db9e37c1a8e927dba286d96bf85000a",
+      "old_sha256": "6cb55bba41216f444e223cf26439db6f19a5c8ecf444944e297904b87bf317b1"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/README.md",
+      "bytes": 1315,
+      "sha256": "53076c69174ea6acca53fe4f0fb4af91880b40bdb315fbef09adf6d95f267bce",
+      "old_sha256": "887134733b3b425c9d8eb76c471131a1e8ceb1dca26b7fd3c176bc54477e20d2"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/build_review.py",
+      "bytes": 27111,
+      "sha256": "69f56ee07ad41fca50e8bd1158fdd31966b2e1d541bdf136f4ec44845d498424",
+      "old_sha256": "989b8fffd42574da5fab9f7d2ae056c159334cec0c1274efdafe70f9f7414b95"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/erc.json",
+      "bytes": 3656,
+      "sha256": "ffe0212cecf2e5c84e85b6a870a153d06aed34f8155ac44768a0b2a23cc13fc7",
+      "old_sha256": "51dbc417978b5451f1144a9c5b593ae3e1409f3c9e23b76f75353cb3da6e25ac"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/fp-lib-table",
+      "bytes": 2811,
+      "sha256": "8a6a0905338149aab99e4eb2b83132b0eb0d4163e5770fb775d7f1576201faa2",
+      "old_sha256": "4678a24f807bab30382b56e87ef38c73b1ee7ba025cd8558648b8ff41d328293"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/master.xml",
+      "bytes": 394545,
+      "sha256": "d4c05eaee0d3c3b2fce403764d37c42883c054b47030e41418ba377eb2d38a6e",
+      "old_sha256": "d6410392ae3f65d1b86c47aea0ec6adce01d70b7d07208b87036491a19af9a26"
+    },
+    {
+      "path": "recovery/r3-physical-coverage/CRCW0201_NEGATIVE_CLEARANCE.kicad_pcb",
+      "bytes": 4885,
+      "sha256": "f5723f4ebfac08de48cf1cb9d20acb790d376b7f9ac65cfc1e2cb20bcb66aa38",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/CRCW0201_NEGATIVE_CLEARANCE.kicad_pro",
+      "bytes": 360,
+      "sha256": "1160beaa64b72d65df97a9ea47efde324194c1b07f031708a39758bd2f98c1dc",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/CRCW0201_SIX_LAYER_GEOMETRY_ONLY.kicad_pcb",
+      "bytes": 4885,
+      "sha256": "f5723f4ebfac08de48cf1cb9d20acb790d376b7f9ac65cfc1e2cb20bcb66aa38",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/CRCW0201_SIX_LAYER_GEOMETRY_ONLY.kicad_pro",
+      "bytes": 359,
+      "sha256": "8f1125f27e4855df44e4aa7bdc81fa66ee7227dd5009a4b807a35cb2168abf76",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/README.md",
+      "bytes": 3312,
+      "sha256": "a92275a100fd2ec42cebc6b3b69fbfcd65520c959e0ddec7a0cf4803ffab8842",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/assignments.json",
+      "bytes": 571,
+      "sha256": "7189c9573684023493e6194df3c08b8244cdd110fa21c1988372eb1e381748e2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/bga-identity/README.md",
+      "bytes": 4368,
+      "sha256": "79ee1f29ec0c75789423b39f42530ba7a8420761eefd1145e52792c5ef6b0895",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/bga-identity/audit_bga_identity.py",
+      "bytes": 13887,
+      "sha256": "cfa883a5533805d0d8f2d8059dffd30b75f89a2826c7757b057a6dd2d7702875",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/bga-identity/bga-identity-recheck.json",
+      "bytes": 16141,
+      "sha256": "7e3f49acf94de29739186a9fe03d6cf633a240c8c75841d18df339013bf83048",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/fixture-drc.json",
+      "bytes": 298,
+      "sha256": "f56b55d201095a702aa24832fedf94e1094c83b0454c7c1889ef330db94864e5",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/fp-lib-table",
+      "bytes": 228,
+      "sha256": "37e72ad2702c7a005e0bc26e672246fbd349c8cb66a6b4d4b9855b34304b2135",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/inductor-review/INDUCTOR_RECHECK.md",
+      "bytes": 11399,
+      "sha256": "28d47a432964c1a5b56f4dbdea1f0f07167c68f0222d5e1c66fcae67be416e1b",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/inductor-review/recheck-evidence.json",
+      "bytes": 17040,
+      "sha256": "8a2894a0229fceb2e104da01b73162e1a129e262835e397ff1aed0bb18cb4f7f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/native-checks.json",
+      "bytes": 1704,
+      "sha256": "f2b6a2b47cff1f3bec4b5a02dd9be24418fdd3f0552d31f5978d506df89bacfc",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/negative-drc.json",
+      "bytes": 1114,
+      "sha256": "cd7735ef3e84637954e0bf7a25331e3da24e6c7c16fff8c2846216bfebcb3682",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/placement-obligations.json",
+      "bytes": 3245,
+      "sha256": "4d65df2cb9e96a9cf65a57d41d406e1e801a482eb60cf8a239c1aa5de9be07dd",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/source-provenance.json",
+      "bytes": 868,
+      "sha256": "d89f8c350a08178f29dd2ce7b6937f676618ab0c84552864e7edc51134568104",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/validate_coverage.py",
+      "bytes": 5727,
+      "sha256": "bc2d28d5833bc89518bc785f4fec10846d31ea76a7216b194aa98d7202cbec36",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r3-physical-coverage/validation.json",
+      "bytes": 541,
+      "sha256": "aba2b2b62bd737288ebbc3f34f85033d36439b7805eb32492c6ffc231740a4bd",
+      "old_sha256": null
+    }
+  ],
+  "production_ready": false,
+  "full_board_routing": false
+}

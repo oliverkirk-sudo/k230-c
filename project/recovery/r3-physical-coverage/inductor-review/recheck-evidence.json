@@ -1,0 +1,581 @@
+{
+  "audit_date_utc": "2026-10-03",
+  "scope": "Read-only recovery review; no CAD mutation or external retrieval",
+  "native_loader_version": "9.0.2",
+  "master_sha256": "d6410392ae3f65d1b86c47aea0ec6adce01d70b7d07208b87036491a19af9a26",
+  "refs": [
+    {
+      "ref": "L21",
+      "exact_value": "0.47uH XFL4015-471MEB REF",
+      "footprint": "",
+      "pins": {
+        "1": "SW_CORE",
+        "2": "VDD0P8_CORE"
+      }
+    },
+    {
+      "ref": "L22",
+      "exact_value": "0.24uH DFE201612E-R24M REF",
+      "footprint": "",
+      "pins": {
+        "1": "SW_CPU",
+        "2": "VDD0P8_CPU"
+      }
+    },
+    {
+      "ref": "L23",
+      "exact_value": "0.24uH DFE201612E-R24M REF",
+      "footprint": "",
+      "pins": {
+        "1": "SW_KPU",
+        "2": "VDD0P8_KPU"
+      }
+    },
+    {
+      "ref": "L24",
+      "exact_value": "0.47uH DFE201610E-R47M=P2 CANDIDATE",
+      "footprint": "",
+      "pins": {
+        "1": "SW_DDR",
+        "2": "VDD1P1_DDR_IO"
+      }
+    },
+    {
+      "ref": "L25",
+      "exact_value": "0.47uH DFE201610E-R47M=P2 CANDIDATE",
+      "footprint": "",
+      "pins": {
+        "1": "SW_1V8",
+        "2": "VDD1P8"
+      }
+    },
+    {
+      "ref": "L26",
+      "exact_value": "0.47uH DFE201610E-R47M=P2 CANDIDATE",
+      "footprint": "",
+      "pins": {
+        "1": "SW_3V3",
+        "2": "VDD_3V3"
+      }
+    }
+  ],
+  "footprints": [
+    {
+      "mpn": "DFE201612E-R24M=P2",
+      "refs": [
+        "L22",
+        "L23"
+      ],
+      "library_id": "CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE",
+      "file": "cad/verified-footprints/inductor-candidates/CMK230_Inductor_Candidates.pretty/Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "979b4131e18048ce01e1d6ff2daad4857b669ffb46e5126ebbd19e34d2e2e3c8",
+      "matches_historical_footprint_hash": true,
+      "pads": [
+        {
+          "number": "",
+          "xy_mm": [
+            -0.8,
+            0.0
+          ],
+          "size_mm": [
+            0.8,
+            1.8
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_expansion_mm": null
+        },
+        {
+          "number": "",
+          "xy_mm": [
+            0.8,
+            0.0
+          ],
+          "size_mm": [
+            0.8,
+            1.8
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_expansion_mm": null
+        },
+        {
+          "number": "1",
+          "xy_mm": [
+            -0.8,
+            0.0
+          ],
+          "size_mm": [
+            0.8,
+            1.8
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "mask_expansion_mm": 0.05
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            0.8,
+            0.0
+          ],
+          "size_mm": [
+            0.8,
+            1.8
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "mask_expansion_mm": 0.05
+        }
+      ],
+      "outlines": {
+        "F.Fab": {
+          "bounds_mm": [
+            -1.1,
+            -0.9,
+            1.1,
+            0.9
+          ],
+          "line_width_mm": 0.05,
+          "closed": true
+        },
+        "User.Drawings": {
+          "bounds_mm": [
+            -1.1,
+            -0.9,
+            1.1,
+            0.9
+          ],
+          "line_width_mm": 0.05,
+          "closed": true
+        },
+        "F.Courtyard": {
+          "bounds_mm": [
+            -1.5,
+            -1.2,
+            1.5,
+            1.2
+          ],
+          "line_width_mm": 0.05,
+          "closed": true
+        }
+      },
+      "embedded_rule_areas": 0,
+      "native_current_geometry_checks": "PASS"
+    },
+    {
+      "mpn": "DFE201610E-R47M=P2",
+      "refs": [
+        "L24",
+        "L25",
+        "L26"
+      ],
+      "library_id": "CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE",
+      "file": "cad/verified-footprints/inductor-candidates/CMK230_Inductor_Candidates.pretty/Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE.kicad_mod",
+      "sha256": "cfe2b57a3dde4b85fe0bfc5236f7729e5a8bd953b39eb37605d8b12586b0d3f7",
+      "matches_historical_footprint_hash": true,
+      "pads": [
+        {
+          "number": "",
+          "xy_mm": [
+            -0.8,
+            0.0
+          ],
+          "size_mm": [
+            0.8,
+            1.8
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_expansion_mm": null
+        },
+        {
+          "number": "",
+          "xy_mm": [
+            0.8,
+            0.0
+          ],
+          "size_mm": [
+            0.8,
+            1.8
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "mask_expansion_mm": null
+        },
+        {
+          "number": "1",
+          "xy_mm": [
+            -0.8,
+            0.0
+          ],
+          "size_mm": [
+            0.8,
+            1.8
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "mask_expansion_mm": 0.05
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            0.8,
+            0.0
+          ],
+          "size_mm": [
+            0.8,
+            1.8
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "mask_expansion_mm": 0.05
+        }
+      ],
+      "outlines": {
+        "F.Fab": {
+          "bounds_mm": [
+            -1.1,
+            -0.9,
+            1.1,
+            0.9
+          ],
+          "line_width_mm": 0.05,
+          "closed": true
+        },
+        "User.Drawings": {
+          "bounds_mm": [
+            -1.1,
+            -0.9,
+            1.1,
+            0.9
+          ],
+          "line_width_mm": 0.05,
+          "closed": true
+        },
+        "F.Courtyard": {
+          "bounds_mm": [
+            -1.5,
+            -1.2,
+            1.5,
+            1.2
+          ],
+          "line_width_mm": 0.05,
+          "closed": true
+        }
+      },
+      "embedded_rule_areas": 0,
+      "native_current_geometry_checks": "PASS"
+    }
+  ],
+  "project_library_registered": false,
+  "independent_native_drc_this_run": "Not run; persisted 2026-09-30 DRC results reviewed",
+  "scope_file_hashes": {
+    "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch": "3107faf29319b2820ae2078b96582df960523219c2ce09d17cfd44a79916ea95",
+    "cad/recovery-physical-candidate/fp-lib-table": "4678a24f807bab30382b56e87ef38c73b1ee7ba025cd8558648b8ff41d328293",
+    "cad/recovery-physical-candidate/master.xml": "d6410392ae3f65d1b86c47aea0ec6adce01d70b7d07208b87036491a19af9a26",
+    "cad/verified-footprints/inductor-candidates/CMK230_Inductor_Candidates.pretty/Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE.kicad_mod": "cfe2b57a3dde4b85fe0bfc5236f7729e5a8bd953b39eb37605d8b12586b0d3f7",
+    "cad/verified-footprints/inductor-candidates/CMK230_Inductor_Candidates.pretty/Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE.kicad_mod": "979b4131e18048ce01e1d6ff2daad4857b669ffb46e5126ebbd19e34d2e2e3c8",
+    "cad/verified-footprints/inductor-candidates/Murata_Inductor_Geometry_QA_ONLY.kicad_pcb": "f39bc45aa258976c96ec6ec4847b5a1bdc64528ee208996d9939bda5c617d28d",
+    "cad/verified-footprints/inductor-candidates/Murata_Inductor_Geometry_QA_ONLY.kicad_pro": "4a8686c368ea4fec85b39f43bde3f3e0764c0967d6c1150cb905f2026ef4badc",
+    "cad/verified-footprints/inductor-candidates/native-drc.json": "b6eb46d26cddfa63ee380d6afa985dc17cd6c0664100f725e7a9a3307fef2ff1",
+    "cad/verified-footprints/inductor-candidates/source-land-validation.json": "bef64069e82bffcdf9405a1a7e3cf2bced51089513b1dc7a6136eff4a10db219",
+    "engineering/inductor-footprint-review/INDUCTOR_FOOTPRINT_REVIEW.md": "48d6d47670a1cbec982c7486ce5a64000ddde26c7d851c27ee34d743bd0e7970",
+    "engineering/inductor-footprint-review/Murata_Geometry_QA_ONLY-drc.json": "1e7a8f75c711d83e2842fea2d58548e520af589aadea17461424647b4d4c131c",
+    "engineering/inductor-footprint-review/Murata_Negative_Clearance_081-drc.json": "5594f519e799c34cf930596aa4ab876e1d33ee0dcd896d07b258926684797964",
+    "engineering/inductor-footprint-review/Murata_Paste_Override_Control-drc.json": "a4f9e0b24a8da46e23c221f62940a8d037c7f4bc9e79cb41676825546948f1ed",
+    "engineering/inductor-footprint-review/Murata_Undercoil_Unenforced_Control-drc.json": "1fb29b5da9d8006510ddfea2c9547cf381dbdde81b99f1a6f1b6fd4cf4dcb64b",
+    "engineering/inductor-footprint-review/audit_inductor_footprints.py": "3d4ed2f5acdbaac3e743b9422c28ccc2d0e582868ae567deace6b54519bb4939",
+    "engineering/inductor-footprint-review/evidence/DFE201610E-p1.txt": "f47d75177eca2be5c1ae298eed70a935452e33e7ac953f078e401e05df23375c",
+    "engineering/inductor-footprint-review/evidence/DFE201610E-p5.txt": "6ab2861adcb1bda4c4e98737fbe0d0816b85490386e41ff450998aa09351f511",
+    "engineering/inductor-footprint-review/evidence/DFE201610E-p7.txt": "08df7fc3e91e3a0c28b799d219db1aa8a629705308790967f04f8e5648ddab0c",
+    "engineering/inductor-footprint-review/evidence/DFE201612E-p1.txt": "c2a3aeab25caf1551ee70ba02383d11883b3793e868866d72865714d33df06b6",
+    "engineering/inductor-footprint-review/evidence/DFE201612E-p5.txt": "73f41de34977d8307fc886f4781f13ac1eff2e9f2b4250da33e1695b3ee20067",
+    "engineering/inductor-footprint-review/evidence/DFE201612E-p7.txt": "674caff5daddc59beed06d4bcea8be0cb9539ed2df415554597d7426df3ec3e0",
+    "engineering/inductor-footprint-review/geometry-audit.json": "73c75c42231f5f14cdb9a357db483d059bb9b47b59c004a86ebf28a5d6f80e92",
+    "engineering/inductor-footprint-review/native-drc-runs.json": "82a45ddda31d764142ceca3afd3f6a6ac96c7d5edfedb06a6d6a35468a63e10a",
+    "engineering/inductor-footprint-review/native-svg-runs.json": "5aed656b350b992ca44ac3721fae42b80192088037ca9ce4190e78a814e78c99",
+    "engineering/inductor-footprint-review/paste-native-svg-comparison.json": "e876edae122a4cf0ce4abd54a22131f4cb83a996b9f4c3ff8d312552b663d14c",
+    "engineering/inductor-footprint-review/source-immutability-check.json": "41aa52cd15609b57c981f2715fe93eeede613a3d24b5dd4021e8325eaaf72280"
+  },
+  "scope_unchanged": true,
+  "sources": [
+    {
+      "mpn": "DFE201612E-R24M=P2",
+      "url": "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0006.pdf",
+      "recorded_sha256": "6fbbdccedc9f58904a3e60d7e9c0e33917a03b7dd0d96716821988e89e4fb8ad",
+      "original_pdf_available_at_recorded_path": false,
+      "pdf_bytes_rehashed_this_run": true,
+      "replacement_pdf_available": true,
+      "verified_sha256": "6fbbdccedc9f58904a3e60d7e9c0e33917a03b7dd0d96716821988e89e4fb8ad",
+      "visual_pages_reviewed_this_run": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "source_geometry_matches_current_native_footprint": true,
+      "inductance_uH": 0.24,
+      "inductance_tolerance_percent": 20,
+      "inductance_test_frequency_MHz": 1,
+      "inductance_test_level_V": 0.5,
+      "max_DCR_mOhm": 19,
+      "body_nominal_mm": [
+        2.0,
+        1.6
+      ],
+      "body_tolerance_plus_minus_mm": [
+        0.2,
+        0.2
+      ],
+      "terminal_depth_mm": 0.5,
+      "terminal_depth_tolerance_plus_minus_mm": 0.3,
+      "height_max_mm": 1.2,
+      "land_span_mm": 2.4,
+      "land_gap_mm": 0.8,
+      "land_height_mm": 1.8
+    },
+    {
+      "mpn": "DFE201610E-R47M=P2",
+      "url": "https://pim.murata.com/asset/pim4/inductor/J(E)TE243A-0001_PDF_INDUCTOR",
+      "recorded_sha256": "5c02415289b2b9d2c0ceb283cfe004a986d9e729dadbfe92917a381db5eae84e",
+      "original_pdf_available_at_recorded_path": false,
+      "pdf_bytes_rehashed_this_run": true,
+      "replacement_pdf_available": true,
+      "verified_sha256": "5c02415289b2b9d2c0ceb283cfe004a986d9e729dadbfe92917a381db5eae84e",
+      "visual_pages_reviewed_this_run": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "source_geometry_matches_current_native_footprint": true,
+      "inductance_uH": 0.47,
+      "inductance_tolerance_percent": 20,
+      "inductance_test_frequency_MHz": 1,
+      "inductance_test_level_V": 0.5,
+      "max_DCR_mOhm": 32,
+      "body_nominal_mm": [
+        2.0,
+        1.6
+      ],
+      "body_tolerance_plus_minus_mm": [
+        0.2,
+        0.2
+      ],
+      "terminal_depth_mm": 0.5,
+      "terminal_depth_tolerance_plus_minus_mm": 0.3,
+      "height_max_mm": 1.0,
+      "land_span_mm": 2.4,
+      "land_gap_mm": 0.8,
+      "land_height_mm": 1.8
+    }
+  ],
+  "r574_bounded_addendum": {
+    "ref": "R574",
+    "result": "PASS conditional source-land geometry",
+    "source_document": "Vishay 20052, revision 21-Sep-2022, page 2",
+    "source_sha256": "390a5effad7c3b526afb7faba340e29176261bfa4c041a128effc87b941a61ea",
+    "source_visual_page": 2,
+    "footprint_sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b",
+    "pads": [
+      {
+        "number": "1",
+        "xy_mm": [
+          -0.255,
+          0.0
+        ],
+        "size_mm": [
+          0.28,
+          0.43
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask_expansion_mm": 0.025
+      },
+      {
+        "number": "2",
+        "xy_mm": [
+          0.255,
+          0.0
+        ],
+        "size_mm": [
+          0.28,
+          0.43
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "mask_expansion_mm": 0.025
+      },
+      {
+        "number": "",
+        "xy_mm": [
+          -0.255,
+          0.0
+        ],
+        "size_mm": [
+          0.28,
+          0.43
+        ],
+        "layers": [
+          "F.Paste"
+        ],
+        "mask_expansion_mm": null
+      },
+      {
+        "number": "",
+        "xy_mm": [
+          0.255,
+          0.0
+        ],
+        "size_mm": [
+          0.28,
+          0.43
+        ],
+        "layers": [
+          "F.Paste"
+        ],
+        "mask_expansion_mm": null
+      }
+    ],
+    "outlines": {
+      "F.Fab": {
+        "bounds_mm": [
+          -0.315,
+          -0.165,
+          0.315,
+          0.165
+        ],
+        "line_width_mm": 0.025
+      },
+      "F.Courtyard": {
+        "bounds_mm": [
+          -0.695,
+          -0.515,
+          0.695,
+          0.515
+        ],
+        "line_width_mm": 0.05
+      }
+    },
+    "source_body_nominal_mm": [
+      0.6,
+      0.3,
+      0.23
+    ],
+    "source_body_tolerance_plus_minus_mm": [
+      0.03,
+      0.03,
+      0.03
+    ],
+    "source_terminal_T1_mm": [
+      0.15,
+      0.05
+    ],
+    "source_terminal_T2_mm": [
+      0.1,
+      0.05
+    ],
+    "schematic_rows": [
+      {
+        "baseline": "restored-v12-r2_1",
+        "value": "10k CRCW020110K0FKED IDLE BIAS CANDIDATE",
+        "footprint": "",
+        "pins": {
+          "2": "GND",
+          "1": "TF_HOST_CLK"
+        }
+      },
+      {
+        "baseline": "project",
+        "value": "10k CRCW020110K0FKED IDLE BIAS CANDIDATE",
+        "footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+        "pins": {
+          "2": "GND",
+          "1": "TF_HOST_CLK"
+        }
+      }
+    ],
+    "independent_DRC_this_run": false,
+    "footprint_unchanged": true
+  },
+  "r3_inductor_assignment_spotcheck": {
+    "result": "PASS",
+    "values_and_all_12_pin_net_pairs_preserved": true,
+    "correct_library_ids": true,
+    "inductor_library_registered": true,
+    "master_sha256": "d4c05eaee0d3c3b2fce403764d37c42883c054b47030e41418ba377eb2d38a6e",
+    "refs": [
+      {
+        "ref": "L21",
+        "exact_value": "0.47uH XFL4015-471MEB REF",
+        "footprint": "",
+        "pins": {
+          "1": "SW_CORE",
+          "2": "VDD0P8_CORE"
+        }
+      },
+      {
+        "ref": "L22",
+        "exact_value": "0.24uH DFE201612E-R24M REF",
+        "footprint": "CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE",
+        "pins": {
+          "1": "SW_CPU",
+          "2": "VDD0P8_CPU"
+        }
+      },
+      {
+        "ref": "L23",
+        "exact_value": "0.24uH DFE201612E-R24M REF",
+        "footprint": "CMK230_Inductor_Candidates:Murata_DFE201612E-R24M_P2_SOURCE_LAND_PROCESS_CANDIDATE",
+        "pins": {
+          "1": "SW_KPU",
+          "2": "VDD0P8_KPU"
+        }
+      },
+      {
+        "ref": "L24",
+        "exact_value": "0.47uH DFE201610E-R47M=P2 CANDIDATE",
+        "footprint": "CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE",
+        "pins": {
+          "1": "SW_DDR",
+          "2": "VDD1P1_DDR_IO"
+        }
+      },
+      {
+        "ref": "L25",
+        "exact_value": "0.47uH DFE201610E-R47M=P2 CANDIDATE",
+        "footprint": "CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE",
+        "pins": {
+          "1": "SW_1V8",
+          "2": "VDD1P8"
+        }
+      },
+      {
+        "ref": "L26",
+        "exact_value": "0.47uH DFE201610E-R47M=P2 CANDIDATE",
+        "footprint": "CMK230_Inductor_Candidates:Murata_DFE201610E-R47M_P2_SOURCE_LAND_PROCESS_CANDIDATE",
+        "pins": {
+          "1": "SW_3V3",
+          "2": "VDD_3V3"
+        }
+      }
+    ]
+  }
+}

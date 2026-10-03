@@ -1,0 +1,17 @@
+{
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.24,
+        "min_copper_edge_clearance": 0.25,
+        "min_courtyard_clearance": 0.05,
+        "min_silk_clearance": 0.1,
+        "min_solder_mask_width": 0.1
+      }
+    }
+  },
+  "meta": {
+    "filename": "CRCW0201_SIX_LAYER_GEOMETRY_ONLY.kicad_pro",
+    "version": 1
+  }
+}
