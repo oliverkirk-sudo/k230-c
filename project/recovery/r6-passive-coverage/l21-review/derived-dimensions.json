@@ -1,0 +1,132 @@
+{
+  "status": "SOURCE_GEOMETRY_ONLY_CONDITIONAL_NOT_RELEASED",
+  "reference": "L21",
+  "active_value": "0.47uH XFL4015-471MEB REF",
+  "active_footprint_at_review": null,
+  "family": "XFL4015",
+  "geometry_source": "coilcraft_xfl4015_datasheet",
+  "geometry_source_page": 2,
+  "drawing": "Document 769-2, Revised 03/10/26",
+  "units": "mm; values transcribed from printed metric dimensions, not converted from rounded inch values",
+  "body": {
+    "nominal_xy_mm": [
+      4.0,
+      4.0
+    ],
+    "tolerance_plus_minus_xy_mm": [
+      0.3,
+      0.3
+    ],
+    "maximum_xy_mm": [
+      4.3,
+      4.3
+    ],
+    "height_max_mm": 1.6,
+    "body_radius_mm": null,
+    "height_note": "Footnote allowing an additional 0.13 mm before mounting applies to optional tin-lead and tin-silver-copper terminations, not E tin-silver. No user maximum-height constraint is inferred."
+  },
+  "terminals_for_reference_not_copper": {
+    "width_x_mm": 0.82,
+    "width_x_tolerance_plus_minus_mm": 0.05,
+    "inner_gap_x_mm": 1.57,
+    "inner_gap_x_tolerance_plus_minus_mm": 0.25,
+    "extent_y_typ_mm": 3.25,
+    "missing_limits": "Terminal extent y is typical, and no full independent terminal-location tolerances or coplanarity limit are supplied. Do not claim a complete tolerance-stack proof."
+  },
+  "recommended_copper": {
+    "pad_count": 2,
+    "shape": "rectangle",
+    "pad_size_xy_mm": [
+      0.98,
+      3.4
+    ],
+    "center_pitch_x_mm": 2.37,
+    "center_y_mm": 0.0,
+    "centers_derived_x_mm": [
+      -1.185,
+      1.185
+    ],
+    "inner_gap_derived_mm": 1.39,
+    "outer_union_derived_xy_mm": [
+      3.35,
+      3.4
+    ],
+    "total_copper_area_derived_mm2": 6.664,
+    "pad_dimensions_tolerance": "Not specified in recommended land drawing",
+    "interpretation": "2.37 mm dimension arrowheads terminate on dashed pad centerlines, not inner pad edges."
+  },
+  "orientation": {
+    "coordinate_convention": "Component top / PCB top view, as manufacturer marking is shown; x positive right, y positive down",
+    "source_bar_side": "right, +X",
+    "pin_numbering": "Project convention; manufacturer drawing has no numeric pin labels",
+    "pad_1": {
+      "center_xy_mm": [
+        1.185,
+        0.0
+      ],
+      "net": "SW_CORE",
+      "terminal": "marked start / short lead"
+    },
+    "pad_2": {
+      "center_xy_mm": [
+        -1.185,
+        0.0
+      ],
+      "net": "VDD0P8_CORE",
+      "terminal": "opposite unmarked lead"
+    },
+    "view_handling": "Do not mirror the component-top marking view. A reflected underside view would reverse apparent left/right, but the board top pad mapping above stays unchanged. If choosing a rotated library orientation, rotate body mark and pad numbers together.",
+    "electrical_polarity": "No functional DC polarity; winding-start orientation is an EMI recommendation."
+  },
+  "manufacturer_process_dimensions": {
+    "solder_mask_opening_mm": null,
+    "paste_aperture_mm": null,
+    "stencil_thickness_mm": null,
+    "paste_reduction_percent": null,
+    "courtyard_mm": null,
+    "minimum_adjacent_part_spacing_mm": null,
+    "undercoil_layer_specific_prohibition": null
+  },
+  "process_scenario_not_manufacturer_requirement": {
+    "status": "OPTIONAL_STARTING_ASSUMPTIONS_REQUIRING_BOARD_ASSEMBLER_ACCEPTANCE",
+    "mask_expansion_each_edge_mm": 0.05,
+    "mask_opening_per_pad_xy_mm": [
+      1.08,
+      3.5
+    ],
+    "mask_inner_gap_mm": 1.29,
+    "paste": "1:1 copper aperture only as a declared provisional assumption; no vendor stencil specification",
+    "paste_aperture_per_pad_xy_mm": [
+      0.98,
+      3.4
+    ],
+    "courtyard_margin_from_union_max_body_and_mask_mm": 0.25,
+    "courtyard_xy_mm": [
+      4.8,
+      4.8
+    ],
+    "courtyard_area_mm2": 23.04,
+    "previous_reservation_xy_mm": [
+      4.6,
+      4.6
+    ],
+    "previous_reservation_area_mm2": 21.16,
+    "area_increase_vs_previous_reservation_mm2": 1.88,
+    "calculation": "The max 4.3 mm body controls both axes; 4.3 + 2*0.25 = 4.8 mm. This is a process scenario, not a manufacturer spacing rule."
+  },
+  "undercoil_and_adjacency": {
+    "explicit_xfl4015_undercoil_prohibition_found": false,
+    "explicit_layers_specified": [],
+    "claim_boundary": "No prohibition found in the reviewed source set does not qualify arbitrary under-body routing or exposed vias. No Murata restriction is inherited. Any project keepout must be explicitly identified as an engineering choice.",
+    "manufacturer_general_advice": "FAQ gives no universal inductor spacing; interactions depend on current waveform, frequency, orientation and separation. Magnetic shielding reduces field leakage; final circuit measurement is recommended.",
+    "doc362_scope": "Narrow-spacing warning is explicitly about unshielded inductors; XFL4015 is shielded. It is not a numeric XFL4015 clearance rule.",
+    "ground_plane_note": "FAQ ground-plane section is framed for RF inductors; it does not establish a specific power-inductor plane/keepout rule for XFL4015."
+  },
+  "gates_open": [
+    "Assembler/fabricator acceptance of mask, paste, stencil, fillet and courtyard assumptions",
+    "Placement and orientation inspection, start bar toward SW_CORE pad1",
+    "Board-specific under-body copper, via, EMI and neighboring-part review",
+    "Hot current, loss, thermal rise, saturation and regulator stability qualification",
+    "Final ordering code, supply and manufacturing release"
+  ]
+}

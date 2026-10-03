@@ -1,0 +1,18 @@
+{
+  "README.md": "9b88829575ef99c10a6eb34ca9f8b6c04a1efd03f9c5a389e90c3c6b3bf2d592",
+  "check_native.py": "5cb1673b11ce531658730fb8b12c44426c51a39da5d996b490f3bf7e1454b74c",
+  "check_paste_override.py": "4d2fe0320e44f1f0b6d79ee99892ba4429842e7a106ebae87cf4ab38ec842cb0",
+  "fresh-active-master.xml": "ba62a3cb9d07f9e728251d54314d1abf16d0ddff98b1980161c38e0f79ea6ed3",
+  "native-paste-override.svg": "011352214826b3159491d8ca499f902d326c875fd0e1f7f5eecf0da96784537e",
+  "native-paste-zero.svg": "d730558656aa72ba97e062f21a749e02ab8b511e8695396453acb9ba4c1c201a",
+  "native-review.json": "01d2ac3321cddcb84d424600cba57422d906f0d681451a6c93854a237d59f43d",
+  "native-runs.json": "9c6329171ba5dff2c332ba1a7719a9ce88c5ac07d1b67e488ee54447bd453dca",
+  "negative_clearance_drc.json": "c695f4480bceac3c4df53a03edddd9be26228d43296db347e3f4754ff2780cd1",
+  "normal_drc.json": "36384dc76dcd9586de8c320275fe592bde4903fad9ee7c2df8ea90de7d9874b3",
+  "paste-override-review.json": "1a3e047f8f38dd2d98369b2b4a140105f80aa9df43ccc2d52012b8e603c8d0a5",
+  "paste-override-runs.json": "d3dcf10a277ed33b0c5ef76bdb02bccc5e9cd5940c648c5573e632b25931fd13",
+  "paste-override.kicad_pcb": "bee8a187e0bf4d7742691025c3edea7ccdc219f28896d60e952a482b212f07b2",
+  "paste-override.kicad_pro": "47d43f05e4f06a9e60fdb930483a46c7a8d1a44338b96d1c973e6b870e3591d6",
+  "paste-zero.kicad_pcb": "475807fca202f70ac7b86817aaa7621e48b1d675b1e842e50d3b70cf39cb8ef6",
+  "paste-zero.kicad_pro": "47d43f05e4f06a9e60fdb930483a46c7a8d1a44338b96d1c973e6b870e3591d6"
+}

@@ -1,0 +1,344 @@
+{
+  "revision": "R6",
+  "base_commit": "a9618b50c6e97cfe833c88841b2a73f225e403a9",
+  "files": [
+    {
+      "path": "cad/recovery-inductor-candidates/CMK230_Recovery_Inductor_Candidates.pretty/Coilcraft_XFL4015_StartPin1_RIGHT_SOURCE_CANDIDATE.kicad_mod",
+      "bytes": 1211,
+      "sha256": "766d72dc3c42dcba425751c299364d9a9393ff1612af252586eb35f27d4b41ce",
+      "old_sha256": null
+    },
+    {
+      "path": "cad/recovery-physical-candidate/08_Clock_Reset_Boot.kicad_sch",
+      "bytes": 21158,
+      "sha256": "3802df96d5c42bc2aa2cd979a304edef9808fbfdb7b98a4813d1ed7350c55c2b",
+      "old_sha256": "63c4e69a49411353081b59fe83050d46ccea0b57b445349a36234f39fcbf6b57"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/09_Cold_Storage_Selector.kicad_sch",
+      "bytes": 37370,
+      "sha256": "909c9418cf7dca773f2f850b4413a5f137ccd28c5642444a20491cc13ca5a58e",
+      "old_sha256": "86620005c5bae8029d8bf8c96bf8b4b94919b705e6cde9512b4d92fe086463f1"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch",
+      "bytes": 125789,
+      "sha256": "9791a30addf645fed92139c4f183cdb81a38a0212b7ff3023a5045482bd98efb",
+      "old_sha256": "c041b454725f15cc8bd98d1a9797b42bf18c98cf5138541fd07764f3598cb1d8"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/11_DDR_USB_MIPI_Bias.kicad_sch",
+      "bytes": 32664,
+      "sha256": "96d57afdef0c658d262a73da853bc29cb0b60df2bc5d33677efe174928500c3c",
+      "old_sha256": "b45c514ac22e45cc02b26709e889e56c0a9b1452850cb1bff01b7c3e77a44b89"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/13_PMU_Automatic_Startup.kicad_sch",
+      "bytes": 5918,
+      "sha256": "24bdbbbc7199b6b5b825b5559f95b4229a7ae7042d5ab53e1fc954707d88f862",
+      "old_sha256": "d734f904edfe1c18b11aa565703201ca236f0c58fa8719d6dee472f70e36c9a5"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/14_EMMC_Local_Bias.kicad_sch",
+      "bytes": 16570,
+      "sha256": "ec362a5eb6fea7bb8452fbfa2c0298a4e574b2ac918cf1c3d14a531753a294f1",
+      "old_sha256": "818d2f79b9bcbe2fd7b3bd782645f34327f08d8e32f75c188137bab022ee1696"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/15_Hardware_Reset_Interlock.kicad_sch",
+      "bytes": 36334,
+      "sha256": "d878ebcc7dbd0b3df53f9666afd9232eb189b482247ab8e320105d32d5509f9f",
+      "old_sha256": "a355a47505af232a6ca2966f0647f581a043e173fa9a0ed2ea6c5318da5da2bd"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch",
+      "bytes": 8895,
+      "sha256": "a0a849ff3fd90175fab5c29c52554b17cfbdbe257edd3237aa79a8e714ac91a1",
+      "old_sha256": "72fd2423a6f7ca4702d9f35b283b9b7f536d7a9ea32664fa76ee2487a6dd0683"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/README.md",
+      "bytes": 2102,
+      "sha256": "3dbfa439bb631df81f8ba8621771fff67207bbb55abfcab2efa13a8e3a88b9ff",
+      "old_sha256": "b0460b53fed07545ab2638077e4ee48ec5670f2b359bdd926b42bdee5c039e7e"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/build_review.py",
+      "bytes": 31452,
+      "sha256": "93677a256c72080b732fb438ad582fdb1d933e914163d6c9c2ed6a2f839f3110",
+      "old_sha256": "7c2f0a8eba2e59e5a7149efd4d9419cb41fa76a093110fc28f861b96766ebe21"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/erc.json",
+      "bytes": 3656,
+      "sha256": "7df7d6fc3e064b149316d5b671427a74baf8f709e3cd358572635299996455e2",
+      "old_sha256": "c1c8859e49af650b56546b9a8eab4d067b53d46bd06575ee710d3322b82e6565"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/fp-lib-table",
+      "bytes": 3309,
+      "sha256": "986bad905ad4cf6ba1c3daf26bc16dc06a76b97ad04b1845b61979cc7c8b0c51",
+      "old_sha256": "845cb77461d568a6c1fa59a56bde5be6c0e0460ec8ba3259f55bc25cb8c9240e"
+    },
+    {
+      "path": "cad/recovery-physical-candidate/master.xml",
+      "bytes": 401924,
+      "sha256": "72c1efaf0e1ba66b5afbd3aa7fe1e3faef9ef316ca8f0871f756ddf2d369dd90",
+      "old_sha256": "de60f9b0edf9c393f8213a8a6a6ca7a96dec97fc4003dedf07ce5684b21dfdcf"
+    },
+    {
+      "path": "recovery/r6-passive-coverage/L21_NEGATIVE_CLEARANCE.kicad_pcb",
+      "bytes": 5176,
+      "sha256": "6699179ed0a096a58e48a5bf71fe7f4bd767738616858a907813f330c4b42246",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/L21_NEGATIVE_CLEARANCE.kicad_pro",
+      "bytes": 222,
+      "sha256": "64cc9beedca60b6ea6c36b89e6b2c80e4abdc1100d6602e2e734f9f8a02c9d72",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/L21_SIX_LAYER_GEOMETRY_ONLY.kicad_pcb",
+      "bytes": 5176,
+      "sha256": "6699179ed0a096a58e48a5bf71fe7f4bd767738616858a907813f330c4b42246",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/L21_SIX_LAYER_GEOMETRY_ONLY.kicad_pro",
+      "bytes": 222,
+      "sha256": "47d43f05e4f06a9e60fdb930483a46c7a8d1a44338b96d1c973e6b870e3591d6",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/README.md",
+      "bytes": 4245,
+      "sha256": "c9ddd9358b8ffad0c302ef6a3882fa7108eb0e1d8ae96bf4537bba0d2eb1be2f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/assignments.json",
+      "bytes": 2416,
+      "sha256": "f00e21c186a16f2888368d293c193913ba190ad8a00676c0b227e00d0d86b699",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/bias-review/README.md",
+      "bytes": 9798,
+      "sha256": "50d82056073100202c8aed322a20ff861e8de192007ce8b7431e6821f7bbf6b3",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/bias-review/artifact-sha256.json",
+      "bytes": 365,
+      "sha256": "dd0ec7b5ab60fa6ed32b65c53e79d929ef88c4a015aba71b4d1212d4aa5d60e3",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/bias-review/bias-resistor-screen.json",
+      "bytes": 148026,
+      "sha256": "b5215f055073feef33554806cf5e1aa4bb3fcb93ff88efb7de333729bb55e108",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/bias-review/build_screen.py",
+      "bytes": 17934,
+      "sha256": "15b02a171d1e4ef0f03d6b62d535201fc15cee0e414c222a62acfc5f77e0d7d7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/bias-review/r6-applicability.json",
+      "bytes": 599,
+      "sha256": "b7b22e59abbe4af8d951136cdb314d271cf06cc255023284484073a5a18814c7",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/bias-review/verification.json",
+      "bytes": 671,
+      "sha256": "53d2bcd37a471d090c9604f7282d18b2c05dfee830853e90adda4821fec71494",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/fixture-drc.json",
+      "bytes": 293,
+      "sha256": "444fc4f88afac48f0b08e1597969043216bf82ad70d91ebef24cc9a6e3df8914",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/fp-lib-table",
+      "bytes": 238,
+      "sha256": "6f210bfd70ac5ec4984e801e1e8084e2ef4812a52c4577f5e406167cdadcb789",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/README.md",
+      "bytes": 4628,
+      "sha256": "9b88829575ef99c10a6eb34ca9f8b6c04a1efd03f9c5a389e90c3c6b3bf2d592",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/artifact-sha256.json",
+      "bytes": 1517,
+      "sha256": "8bd015213ddbf30ca5e22b6172c3d9e815fa59a39abccb8af1c3d3e4fb31eefd",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/check_native.py",
+      "bytes": 10239,
+      "sha256": "5cb1673b11ce531658730fb8b12c44426c51a39da5d996b490f3bf7e1454b74c",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/check_paste_override.py",
+      "bytes": 3037,
+      "sha256": "4d2fe0320e44f1f0b6d79ee99892ba4429842e7a106ebae87cf4ab38ec842cb0",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/fp-lib-table",
+      "bytes": 234,
+      "sha256": "b04a420996081be1a2fdd81015004496073fc5025675d16626b11edd848e1ca8",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/fresh-active-master.xml",
+      "bytes": 401924,
+      "sha256": "ba62a3cb9d07f9e728251d54314d1abf16d0ddff98b1980161c38e0f79ea6ed3",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/native-paste-override.svg",
+      "bytes": 1293,
+      "sha256": "011352214826b3159491d8ca499f902d326c875fd0e1f7f5eecf0da96784537e",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/native-paste-zero.svg",
+      "bytes": 1289,
+      "sha256": "d730558656aa72ba97e062f21a749e02ab8b511e8695396453acb9ba4c1c201a",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/native-review.json",
+      "bytes": 10661,
+      "sha256": "01d2ac3321cddcb84d424600cba57422d906f0d681451a6c93854a237d59f43d",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/native-runs.json",
+      "bytes": 1624,
+      "sha256": "9c6329171ba5dff2c332ba1a7719a9ce88c5ac07d1b67e488ee54447bd453dca",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/negative_clearance_drc.json",
+      "bytes": 1111,
+      "sha256": "c695f4480bceac3c4df53a03edddd9be26228d43296db347e3f4754ff2780cd1",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/normal_drc.json",
+      "bytes": 293,
+      "sha256": "36384dc76dcd9586de8c320275fe592bde4903fad9ee7c2df8ea90de7d9874b3",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/paste-override-review.json",
+      "bytes": 3735,
+      "sha256": "1a3e047f8f38dd2d98369b2b4a140105f80aa9df43ccc2d52012b8e603c8d0a5",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/paste-override-runs.json",
+      "bytes": 1143,
+      "sha256": "d3dcf10a277ed33b0c5ef76bdb02bccc5e9cd5940c648c5573e632b25931fd13",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/paste-override.kicad_pcb",
+      "bytes": 5247,
+      "sha256": "bee8a187e0bf4d7742691025c3edea7ccdc219f28896d60e952a482b212f07b2",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/paste-override.kicad_pro",
+      "bytes": 222,
+      "sha256": "47d43f05e4f06a9e60fdb930483a46c7a8d1a44338b96d1c973e6b870e3591d6",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/paste-zero.kicad_pcb",
+      "bytes": 5176,
+      "sha256": "475807fca202f70ac7b86817aaa7621e48b1d675b1e842e50d3b70cf39cb8ef6",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/independent-review/paste-zero.kicad_pro",
+      "bytes": 222,
+      "sha256": "47d43f05e4f06a9e60fdb930483a46c7a8d1a44338b96d1c973e6b870e3591d6",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/l21-review/L21_SOURCE_REVIEW.md",
+      "bytes": 6077,
+      "sha256": "eb400218fa4252c320c130f0c9d23dfea687fb1719c58237ce22d8d6ebeb69b3",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/l21-review/derived-dimensions.json",
+      "bytes": 5405,
+      "sha256": "d67fe28d53304eae77c628f4cfaa11e8538ee3e9f26ee7593ffc8e9932fe6391",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/l21-review/derived-land-top.svg",
+      "bytes": 3076,
+      "sha256": "2afc9dc242f99830eed6564b725a658b947c8dc0e94bafd9f087f25c49d9fdfe",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/l21-review/review-validation.json",
+      "bytes": 1139,
+      "sha256": "38ea22f7a48f946d5307b455d9f97ebf92b40870363dc63221e4bf20453672fd",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/l21-review/source-manifest.json",
+      "bytes": 4477,
+      "sha256": "8f3ca3fba57608538e7cbd0cd5fd4ff19fc0c35fc5c01325edf786c9ae7ee40d",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/native-checks.json",
+      "bytes": 1299,
+      "sha256": "c4c232034099143a24166619ad58d1d4254b665d975d20ce9b091a6353c3be5f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/negative-drc.json",
+      "bytes": 1111,
+      "sha256": "431e021ec2097ea9463c63edaa020f91a499bf3f4a3fb1776bd478eb913b2a22",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/remaining-inventory.json",
+      "bytes": 5049,
+      "sha256": "f3bd40b069a91c155e24decd2cc9fbbc9f749204fb0ff7c32f2764e126f6898f",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/validate_coverage.py",
+      "bytes": 6732,
+      "sha256": "662028f2241dff9f3bb161f5551becceb707b6ba9fa29ac3dbe4c94d28cc56b9",
+      "old_sha256": null
+    },
+    {
+      "path": "recovery/r6-passive-coverage/validation.json",
+      "bytes": 992,
+      "sha256": "392267a9eff661d2c78c3528da5d675ca55b0fa528af9526a03cdfc895d921a1",
+      "old_sha256": null
+    }
+  ],
+  "production_ready": false,
+  "full_board_routing": false
+}

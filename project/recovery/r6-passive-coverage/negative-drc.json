@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-02T21:47:22-0700",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "L21_NEGATIVE_CLEARANCE.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (board minimum clearance 1.4000 mm; actual 1.3900 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [SW_CORE] of L21 on F.Cu",
+                    "pos": {
+                        "x": 6.185,
+                        "y": 5.0
+                    },
+                    "uuid": "c32f062f-6063-4894-9bc3-198a1f9d2439"
+                },
+                {
+                    "description": "Pad 2 [VDD0P8_CORE] of L21 on F.Cu",
+                    "pos": {
+                        "x": 3.815,
+                        "y": 5.0
+                    },
+                    "uuid": "95cefd56-6d4d-4cbc-ad61-4aa031789971"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

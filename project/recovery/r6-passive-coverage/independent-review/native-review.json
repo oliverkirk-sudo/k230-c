@@ -1,0 +1,396 @@
+{
+  "status": "PASS_WITH_PROCESS_LIMITATIONS",
+  "date_utc": "2026-10-03T04:48:01.178368+00:00",
+  "kicad_version": "9.0.2+dfsg-1",
+  "scope": "Independent native footprint and current active-netlist check; read-only source CAD",
+  "footprint_id": "CMK230_Recovery_Inductor_Candidates:Coilcraft_XFL4015_StartPin1_RIGHT_SOURCE_CANDIDATE",
+  "footprint_sha256": "766d72dc3c42dcba425751c299364d9a9393ff1612af252586eb35f27d4b41ce",
+  "pads_native": [
+    {
+      "number": "",
+      "position_xy_mm": [
+        -1.185,
+        0.0
+      ],
+      "size_xy_mm": [
+        0.98,
+        3.4
+      ],
+      "shape": 1,
+      "layers": [
+        "F.Paste"
+      ],
+      "local_mask_mm": null,
+      "local_paste_mm": null,
+      "local_paste_ratio": null,
+      "net": ""
+    },
+    {
+      "number": "",
+      "position_xy_mm": [
+        1.185,
+        0.0
+      ],
+      "size_xy_mm": [
+        0.98,
+        3.4
+      ],
+      "shape": 1,
+      "layers": [
+        "F.Paste"
+      ],
+      "local_mask_mm": null,
+      "local_paste_mm": null,
+      "local_paste_ratio": null,
+      "net": ""
+    },
+    {
+      "number": "1",
+      "position_xy_mm": [
+        1.185,
+        0.0
+      ],
+      "size_xy_mm": [
+        0.98,
+        3.4
+      ],
+      "shape": 1,
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "local_mask_mm": 0.05,
+      "local_paste_mm": null,
+      "local_paste_ratio": null,
+      "net": ""
+    },
+    {
+      "number": "2",
+      "position_xy_mm": [
+        -1.185,
+        0.0
+      ],
+      "size_xy_mm": [
+        0.98,
+        3.4
+      ],
+      "shape": 1,
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "local_mask_mm": 0.05,
+      "local_paste_mm": null,
+      "local_paste_ratio": null,
+      "net": ""
+    }
+  ],
+  "graphics_native": [
+    {
+      "layer": "F.Fab",
+      "shape": 1,
+      "start_mm": [
+        -2.15,
+        -2.15
+      ],
+      "end_mm": [
+        2.15,
+        2.15
+      ],
+      "stroke_mm": 0.05
+    },
+    {
+      "layer": "F.Courtyard",
+      "shape": 1,
+      "start_mm": [
+        -2.4,
+        -2.4
+      ],
+      "end_mm": [
+        2.4,
+        2.4
+      ],
+      "stroke_mm": 0.05
+    },
+    {
+      "layer": "F.Fab",
+      "shape": 0,
+      "start_mm": [
+        1.95,
+        -1.5
+      ],
+      "end_mm": [
+        1.95,
+        1.5
+      ],
+      "stroke_mm": 0.2
+    }
+  ],
+  "body_max_xy_mm": [
+    4.3,
+    4.3
+  ],
+  "courtyard_centerline_xy_mm": [
+    4.8,
+    4.8
+  ],
+  "courtyard_stroke_mm": 0.05,
+  "mask_opening_xy_mm": [
+    1.08,
+    3.5
+  ],
+  "copper_gap_mm": 1.39,
+  "paste_aperture_xy_mm_in_fixture": [
+    0.98,
+    3.4
+  ],
+  "fixture_copper_layers": 6,
+  "fixture_pads": [
+    {
+      "number": "",
+      "position_xy_mm": [
+        3.815,
+        5.0
+      ],
+      "size_xy_mm": [
+        0.98,
+        3.4
+      ],
+      "shape": 1,
+      "layers": [
+        "F.Paste"
+      ],
+      "local_mask_mm": null,
+      "local_paste_mm": null,
+      "local_paste_ratio": null,
+      "net": "",
+      "effective_mask_mm": 0.0,
+      "effective_paste_margin_xy_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "number": "",
+      "position_xy_mm": [
+        6.185,
+        5.0
+      ],
+      "size_xy_mm": [
+        0.98,
+        3.4
+      ],
+      "shape": 1,
+      "layers": [
+        "F.Paste"
+      ],
+      "local_mask_mm": null,
+      "local_paste_mm": null,
+      "local_paste_ratio": null,
+      "net": "",
+      "effective_mask_mm": 0.0,
+      "effective_paste_margin_xy_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "number": "1",
+      "position_xy_mm": [
+        6.185,
+        5.0
+      ],
+      "size_xy_mm": [
+        0.98,
+        3.4
+      ],
+      "shape": 1,
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "local_mask_mm": 0.05,
+      "local_paste_mm": null,
+      "local_paste_ratio": null,
+      "net": "SW_CORE",
+      "effective_mask_mm": 0.05,
+      "effective_paste_margin_xy_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "number": "2",
+      "position_xy_mm": [
+        3.815,
+        5.0
+      ],
+      "size_xy_mm": [
+        0.98,
+        3.4
+      ],
+      "shape": 1,
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "local_mask_mm": 0.05,
+      "local_paste_mm": null,
+      "local_paste_ratio": null,
+      "net": "VDD0P8_CORE",
+      "effective_mask_mm": 0.05,
+      "effective_paste_margin_xy_mm": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "library_registered_once": true,
+  "library_uri": "${KIPRJMOD}/../recovery-inductor-candidates/CMK230_Recovery_Inductor_Candidates.pretty",
+  "library_resolved_to_expected_directory": true,
+  "baseline_active_master_sha256": "de60f9b0edf9c393f8213a8a6a6ca7a96dec97fc4003dedf07ce5684b21dfdcf",
+  "r6_active_master_sha256": "72c1efaf0e1ba66b5afbd3aa7fe1e3faef9ef316ca8f0871f756ddf2d369dd90",
+  "fresh_active_export_sha256": "ba62a3cb9d07f9e728251d54314d1abf16d0ddff98b1980161c38e0f79ea6ed3",
+  "fresh_export_semantically_matches_r6_master": true,
+  "component_count": 254,
+  "distinct_net_count": 457,
+  "pin_net_node_count": 1509,
+  "full_net_pinfunction_pintype_parity_r5": true,
+  "component_value_changes": [],
+  "component_property_changes": [],
+  "component_libsource_changes": [],
+  "changed_footprints_r5_to_r6": [
+    "L21",
+    "R203",
+    "R204",
+    "R216",
+    "R217",
+    "R218",
+    "R219",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R402",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R527",
+    "R529",
+    "R530",
+    "R562",
+    "R571",
+    "R572",
+    "R573",
+    "R61",
+    "R62"
+  ],
+  "L21_baseline": {
+    "value": "0.47uH XFL4015-471MEB REF",
+    "footprint": null,
+    "properties": [
+      [
+        "Sheetfile",
+        "10_Six_Rail_Power.kicad_sch"
+      ],
+      [
+        "Sheetname",
+        "Six_Rail_Power"
+      ]
+    ],
+    "libsource": {
+      "lib": "Integrated",
+      "part": "Six_Rail_Power_L",
+      "description": ""
+    }
+  },
+  "L21_current": {
+    "value": "0.47uH XFL4015-471MEB REF",
+    "footprint": "CMK230_Recovery_Inductor_Candidates:Coilcraft_XFL4015_StartPin1_RIGHT_SOURCE_CANDIDATE",
+    "properties": [
+      [
+        "Sheetfile",
+        "10_Six_Rail_Power.kicad_sch"
+      ],
+      [
+        "Sheetname",
+        "Six_Rail_Power"
+      ]
+    ],
+    "libsource": {
+      "lib": "Integrated",
+      "part": "Six_Rail_Power_L",
+      "description": ""
+    }
+  },
+  "L21_nodes": [
+    [
+      "L21",
+      "1",
+      "SW_CORE",
+      null,
+      "passive"
+    ],
+    [
+      "L21",
+      "2",
+      "VDD0P8_CORE",
+      null,
+      "passive"
+    ]
+  ],
+  "negative_controls": {
+    "mirrored_numbered_lands_rejected": true,
+    "native_clearance_1p40_against_gap_1p39_rejected": true
+  },
+  "normal_drc_violations": 0,
+  "negative_drc_violations": [
+    {
+      "description": "Clearance violation (board minimum clearance 1.4000 mm; actual 1.3900 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [SW_CORE] of L21 on F.Cu",
+          "pos": {
+            "x": 6.185,
+            "y": 5.0
+          },
+          "uuid": "c32f062f-6063-4894-9bc3-198a1f9d2439"
+        },
+        {
+          "description": "Pad 2 [VDD0P8_CORE] of L21 on F.Cu",
+          "pos": {
+            "x": 3.815,
+            "y": 5.0
+          },
+          "uuid": "95cefd56-6d4d-4cbc-ad61-4aa031789971"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    }
+  ],
+  "source_inputs_unchanged": true,
+  "input_hashes": {
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/cad/recovery-physical-candidate/master.xml": "72c1efaf0e1ba66b5afbd3aa7fe1e3faef9ef316ca8f0871f756ddf2d369dd90",
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch": "a0a849ff3fd90175fab5c29c52554b17cfbdbe257edd3237aa79a8e714ac91a1",
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/cad/recovery-physical-candidate/10_Six_Rail_Power.kicad_sch": "9791a30addf645fed92139c4f183cdb81a38a0212b7ff3023a5045482bd98efb",
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/cad/recovery-physical-candidate/fp-lib-table": "986bad905ad4cf6ba1c3daf26bc16dc06a76b97ad04b1845b61979cc7c8b0c51",
+    "/workspace/shared/k230-publication/r5-repo/project/cad/recovery-physical-candidate/master.xml": "de60f9b0edf9c393f8213a8a6a6ca7a96dec97fc4003dedf07ce5684b21dfdcf",
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/cad/recovery-inductor-candidates/CMK230_Recovery_Inductor_Candidates.pretty/Coilcraft_XFL4015_StartPin1_RIGHT_SOURCE_CANDIDATE.kicad_mod": "766d72dc3c42dcba425751c299364d9a9393ff1612af252586eb35f27d4b41ce",
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/recovery/r6-passive-coverage/L21_SIX_LAYER_GEOMETRY_ONLY.kicad_pcb": "6699179ed0a096a58e48a5bf71fe7f4bd767738616858a907813f330c4b42246",
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/recovery/r6-passive-coverage/L21_SIX_LAYER_GEOMETRY_ONLY.kicad_pro": "47d43f05e4f06a9e60fdb930483a46c7a8d1a44338b96d1c973e6b870e3591d6",
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/recovery/r6-passive-coverage/L21_NEGATIVE_CLEARANCE.kicad_pcb": "6699179ed0a096a58e48a5bf71fe7f4bd767738616858a907813f330c4b42246",
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/recovery/r6-passive-coverage/L21_NEGATIVE_CLEARANCE.kicad_pro": "64cc9beedca60b6ea6c36b89e6b2c80e4abdc1100d6602e2e734f9f8a02c9d72",
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/recovery/r6-passive-coverage/fp-lib-table": "6f210bfd70ac5ec4984e801e1e8084e2ef4812a52c4577f5e406167cdadcb789",
+    "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/recovery/r6-passive-coverage/validate_coverage.py": "662028f2241dff9f3bb161f5551becceb707b6ba9fa29ac3dbe4c94d28cc56b9"
+  },
+  "limitations": [
+    "Separate paste-only rectangles preserve the declared 1:1 aperture in this native fixture; the independent check_paste_override.py also verifies unchanged SVG geometry under -0.02 mm / -10% global override. Process acceptance remains open.",
+    "4.80 mm courtyard is line-center geometry with 0.05 mm drawing stroke; it is a project process assumption, not a Coilcraft adjacency rule.",
+    "Height 1.60 mm remains source metadata, not a newly imposed constraint or independently enforced 3D model.",
+    "No explicit Coilcraft undercoil/layer prohibition is imported; no Murata restrictions inherited.",
+    "Fixture DRC is not a full-board or manufacturing clearance/EMI qualification. Hot current, saturation, thermal loss, stability and factory acceptance remain open."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "status": "READ_ONLY_SOURCE_REVIEW_FOR_CONDITIONAL_FOOTPRINT",
+  "reviewed_utc": "2026-10-03T04:28:43.971128+00:00",
+  "manufacturer_sources": [
+    {
+      "id": "coilcraft_xfl4015_datasheet",
+      "url": "https://www.coilcraft.com/getmedia/84927b8b-f089-421b-a7f4-a0fa23afe908/xfl4015.pdf",
+      "title": "Coilcraft Documents 769-1 and 769-2",
+      "revision_date": "2026-03-10",
+      "revision_note": "Date printed in document footer",
+      "sha256": "6535ab70d0ef65ba03d4b0800e206fc7867f26464e2d9dfd5dd931a2bcb0c7c1",
+      "bytes": 199218,
+      "reviewed_utc": "2026-10-03T04:28:43.971128+00:00",
+      "coverage": "p2: mechanical drawing and recommended land pattern; p1: part family and limits",
+      "original_in_public_deliverable": false
+    },
+    {
+      "id": "coilcraft_xfl4015_471_product",
+      "url": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl4015/xfl4015-471/",
+      "title": "Coilcraft exact XFL4015-471 product page",
+      "revision_date": null,
+      "revision_note": "No dated revision stated; captured HTML is identified by hash",
+      "sha256": "a158391613cc4877975d51f6a25afa0cbeaa175bb840ad5065403ff4a97591a8",
+      "bytes": 199555,
+      "reviewed_utc": "2026-10-03T04:28:43.971128+00:00",
+      "coverage": "Packaging section: MEB/MEC suffix meaning",
+      "original_in_public_deliverable": false
+    },
+    {
+      "id": "coilcraft_soldering_362",
+      "url": "https://www.coilcraft.com/getmedia/06a8e448-75f0-480e-a120-e1ea952fecf4/Doc362_SolderingSMT.pdf",
+      "title": "Coilcraft Document 362",
+      "revision_date": "2018-06-15",
+      "revision_note": "Date printed in document footer",
+      "sha256": "0e85c77e5f56f16f969dcf718cf84aad3e3b252c1fb351c1b9bbcd19e0db5373",
+      "bytes": 87357,
+      "reviewed_utc": "2026-10-03T04:28:43.971128+00:00",
+      "coverage": "p2: solder amount and positioning; p3: power inductor soldering",
+      "original_in_public_deliverable": false
+    },
+    {
+      "id": "coilcraft_faq",
+      "url": "https://www.coilcraft.com/en-us/faq/",
+      "title": "Coilcraft official FAQ",
+      "revision_date": null,
+      "revision_note": "No dated revision stated; captured HTML is identified by hash",
+      "sha256": "c584dc46d503fe59322e69708b2e1ab3e726f759de1abb533429a076ba480e7a",
+      "bytes": 1317830,
+      "reviewed_utc": "2026-10-03T04:28:43.971128+00:00",
+      "coverage": "Polarity; Shielding; Spacing / Board layout; Irms measurement",
+      "original_in_public_deliverable": false
+    }
+  ],
+  "recovered_project_sources": [
+    {
+      "path_relative_to_project": "cad/integrated/master.xml",
+      "sha256": "1486e49b8d7dc3df2ad730d644cd9a3e199087206cf396e5d9544efa958f8b02"
+    },
+    {
+      "path_relative_to_project": "engineering/power/power-pin-net-matrix.csv",
+      "sha256": "1556ae5f44750c366a7820019c117aef8579f1676c859fba98993c93585133d0"
+    },
+    {
+      "path_relative_to_project": "recovery/r3-physical-coverage/inductor-review/INDUCTOR_RECHECK.md",
+      "sha256": "28d47a432964c1a5b56f4dbdea1f0f07167c68f0222d5e1c66fcae67be416e1b"
+    },
+    {
+      "path_relative_to_project": "engineering/inductor-footprint-review/INDUCTOR_FOOTPRINT_REVIEW.md",
+      "sha256": "48d6d47670a1cbec982c7486ce5a64000ddde26c7d851c27ee34d743bd0e7970"
+    },
+    {
+      "path_relative_to_project": "tools/estimate_high_temp_area.py",
+      "sha256": "a2531172acf1dcfb11d2d53fbb4c82ac2d2e762e6b43535fe8c06000cc1e2aad"
+    },
+    {
+      "path_relative_to_project": "tools/generate_power.py",
+      "sha256": "413a73d3222bed16397236920800c43813bf12ddf4a8b48f052944ecb87c2e49"
+    }
+  ],
+  "source_inspection": {
+    "xfl4015_pdf_pages": 2,
+    "xfl4015_p2": "Rendered at 180 dpi; full page and enlarged mechanical crop visually inspected",
+    "doc362_p2": "Rendered at 200 dpi and visually inspected",
+    "pdf_text": "Local pdftotext -layout reviewed; geometry not inferred from text alone",
+    "html": "Official HTML bytes fetched and relevant sections reviewed",
+    "access_note": "Web PDF screenshot first failed content-type resolution; local official PDF fetch/render succeeded. Web FAQ fetch timed out; ordinary direct official HTML fetch succeeded. No access-denial bypass."
+  },
+  "scope": {
+    "main_cad_edited": false,
+    "vendor_contacted": false,
+    "files_uploaded": false,
+    "orders_placed": false,
+    "alternative_inductor_selected": false,
+    "raw_vendor_pdf_or_image_in_public_folder": false
+  }
+}

@@ -1,0 +1,3630 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "status": "READ_ONLY_BOUNDED_PACKAGE_AND_DC_SCREEN",
+  "scope": "Preserve every nominal value, exact selected MPN, initial tolerance/TCR requirement, connection and DNP state; no production/procurement assertion.",
+  "input_project": "CM-K230 immutable R3 project",
+  "input_sha256": {
+    "cad/recovery-physical-candidate/master.xml": "d4c05eaee0d3c3b2fce403764d37c42883c054b47030e41418ba377eb2d38a6e",
+    "cad/recovery-passive-candidates/CMK230_Recovery_Passive_Candidates.pretty/Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE.kicad_mod": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b",
+    "engineering/passive-resistor-candidates/per-reference-classification.json": "f44cf06af5e5a55a753e3497a90649cdfed690a2b855ea0313d6530917dff3a1",
+    "engineering/passive-resistor-candidates/static-screen.json": "e410d6875a3106c0c601babce6e998c24dcdb7c16c95abb0de8299ce57ed9f3e",
+    "recovery/compact-logic-review/validation.json": "8ecc20075cc23226549dc8ca23d341a423561d17188b86fb00474c27b8750a31",
+    "engineering/routing/pdn-budget-screen.json": "c67c5077776f835d9a15a89bee19ce600c35ece65ce7b60455de2ad0b5107f80"
+  },
+  "counts": {
+    "all_references": 254,
+    "distinct_nets": 457,
+    "pin_net_nodes": 1509,
+    "resistor_references": 62,
+    "already_assigned_resistors": 20,
+    "unassigned_resistors": 42,
+    "unassigned_nonzero_resistors": 37,
+    "by_disposition": {
+      "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE": 25,
+      "SEPARATE_OSCILLATOR_CANDIDATE": 2,
+      "PRESERVE_ASSIGNED_PRECISION": 19,
+      "EXCLUDE_PRECISION_VSET": 2,
+      "EXCLUDE_ZERO_LINK": 5,
+      "HOLD_DAT_TOTAL_ERROR": 8,
+      "PRESERVE_ASSIGNED_CRCW": 1
+    }
+  },
+  "conditional_bias_batch_refs": [
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R61",
+    "R62",
+    "R203",
+    "R204",
+    "R216",
+    "R217",
+    "R218",
+    "R219",
+    "R402",
+    "R527",
+    "R529",
+    "R530",
+    "R562",
+    "R571",
+    "R572",
+    "R573"
+  ],
+  "conditional_bias_batch_populated_count": 23,
+  "conditional_bias_batch_DNP_refs": [
+    "R45",
+    "R47"
+  ],
+  "hypothetical_assignment_coverage_only": {
+    "current_assigned_all_refs": 155,
+    "if_25_candidates_later_bound": 180,
+    "unassigned_after_hypothetical_binding": 74,
+    "applied": false,
+    "qualification_implied": false
+  },
+  "preserved_contract": {
+    "R33_ohm": 270000,
+    "R528": "DNP",
+    "six_layers": true,
+    "board_mm": [
+      38,
+      38
+    ],
+    "edge_contacts": 140,
+    "top_only": true,
+    "constraint_change_proposed": false,
+    "complete_PCB_exists": false
+  },
+  "family": {
+    "resistance_range_1pct_100ppm_ohm": [
+      47,
+      1000000.0
+    ],
+    "resistance_range_1pct_200ppm_ohm": [
+      10,
+      10000000.0
+    ],
+    "low_resistance_range_1pct_ohm": [
+      1,
+      9.76
+    ],
+    "low_resistance_tcr_ppm_per_K": [
+      -200,
+      400
+    ],
+    "operating_temperature_C": [
+      -55,
+      155
+    ],
+    "limiting_element_voltage_V": 30,
+    "P70_W": 0.05,
+    "maximum_film_temperature_C": 155,
+    "graph_derated_power_W": {
+      "85": 0.041176470588235294,
+      "105": 0.029411764705882353,
+      "125": 0.01764705882352941
+    },
+    "endurance_70C_1000h_delta_R": "±(2% R + 0.1 ohm)",
+    "endurance_70C_8000h_delta_R": "±(4% R + 0.1 ohm)",
+    "upper_category_155C_1000h_delta_R": "±(2% R + 0.1 ohm)",
+    "soldering_heat_delta_R": "±(1% R + 0.05 ohm)",
+    "body_nominal_mm": [
+      0.6,
+      0.3,
+      0.23
+    ],
+    "body_tolerance_mm": [
+      0.03,
+      0.03,
+      0.03
+    ],
+    "source_pad_mm": [
+      0.28,
+      0.43
+    ],
+    "source_inner_gap_mm": 0.23,
+    "pad_centers_x_mm": [
+      -0.255,
+      0.255
+    ],
+    "copper_envelope_mm": [
+      0.79,
+      0.43
+    ],
+    "mask_paste_courtyard_qualified": false
+  },
+  "source_land_candidate": {
+    "id": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+    "project_path": "cad/recovery-passive-candidates/CMK230_Recovery_Passive_Candidates.pretty/Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE.kicad_mod",
+    "sha256": "00770fdbeeff2cee7e6ed26e54558d92aff4c3f93f4190d88988a2be0bee642b",
+    "copper_pad_mm": [
+      0.28,
+      0.43
+    ],
+    "copper_gap_mm": 0.23,
+    "pad_centers_x_mm": [
+      -0.255,
+      0.255
+    ],
+    "body_max_mm": [
+      0.63,
+      0.33,
+      0.26
+    ],
+    "R3_process_assumptions": {
+      "mask_expansion_per_edge_mm": 0.025,
+      "paste": "explicit1:1",
+      "courtyard_centerline_mm": [
+        1.39,
+        1.03
+      ],
+      "nominal_inner_mask_web_mm": 0.18
+    },
+    "manufacturer_approves_R3_mask_paste_courtyard": false
+  },
+  "DC_screen_assumptions": [
+    "The +/-10% resistance interval is a conditional working band and not a datasheet lifetime guarantee. It does not relax a tighter source requirement. R563-R570 fail it and are held.",
+    "Rail bounds are upstream regulator static corners, with VIN5V screened at5.5V. Pulses, distribution, ripple, overshoot, external drive and partial supply require separate bounds.",
+    "Derating is linear from50mW at70C to0mW at155C. Graph power limits assume acceptable PCB/solder-point heat flow and film<=155C. Local ambient is not enclosure-air temperature.",
+    "Thermal, mounting and lifetime behavior depend on actual board/mission profile. Independent Vishay qualification tests must not be summed into a guaranteed lifetime.",
+    "Schmitt threshold comparisons use the documented discrete source test points. No guaranteed interpolation across actual rail is asserted."
+  ],
+  "role_checks": {
+    "R43": {
+      "R_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "known_logic_leakage_A": 7.5e-07,
+      "high_min_excluding_cap_carrier_board_leakage_V": 1.6819766146971205,
+      "discrete_high_margin_before_external_loads_V": 0.3719766146971204,
+      "additional_sink_leakage_budget_to_1p31V_A": 3.3816055881556405e-06,
+      "gate": "100nF C45 leakage, carrier loading, RC rise time and external reset sink must be included."
+    },
+    "R527": {
+      "R_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "leakage_A": 2.1e-06,
+      "high_drop_V": 0.0231,
+      "high_min_V": 3.2220295322889774,
+      "sink_upper_bound_A": 0.0003790071443454179,
+      "sink_limit_A": 0.0004,
+      "sink_margin_A": 2.0992855654582132e-05,
+      "guaranteed_low_bound_V": 0.4,
+      "discrete_VTminus_min_V": 0.47,
+      "discrete_low_margin_V": 0.07,
+      "note": "Conservatively includes the full released-node leakage even when U89 is sinking; TPS3808 has 0.3V at <1.8V/0.4mA and 0.4V at >=1.8V/1mA; use 0.4V common ceiling. Regulator PG leakage is tabulated at5V; applying its 0.1uA bound to3V3 remains a source-condition interpretation."
+    },
+    "R529": {
+      "R_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "leakage_A": 7.5e-07,
+      "low_max_V": 0.0825,
+      "discrete_VTminus_min_V": 0.47,
+      "discrete_low_margin_V": 0.38749999999999996
+    },
+    "R530": {
+      "R_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "leakage_A": 1.05e-06,
+      "high_drop_V": 0.11549999999999999,
+      "high_min_V": 1.6489766146971205,
+      "discrete_VTplus_max_V": 1.31,
+      "discrete_high_margin_V": 0.3389766146971205,
+      "sink_upper_bound_A": 2.1151051258811677e-05,
+      "sink_limit_A": 0.0004,
+      "discrete_low_margin_V": 0.06999999999999995
+    },
+    "R61_R62": {
+      "R_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "ODT_CA_leakage_A": 4e-06,
+      "max_high_drop_V": 0.044,
+      "VIH_fraction_VDD2": 0.75,
+      "same_local_rail_high_margin_V": 0.23120409354096327,
+      "gate": "Uses selected Micron Table153 ODT_CA leakage and Table170 level, with local VDD2 assumed equal at pullup/DRAM. Validate rank/ODT configuration and distribution."
+    },
+    "R203": {
+      "R_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "five_EN_plus_PG_leakage_A": 6e-07,
+      "released_high_drop_V": 0.066,
+      "example_at_2p5V_high_V": 2.434,
+      "sink_upper_bound_at_5p5V_A": 6.16111111111111e-05,
+      "PG_VOL_max_V": 0.4,
+      "EN_VIL_max_V": 0.4,
+      "guaranteed_low_noise_margin_V": 0,
+      "gate": "The published PG low ceiling equals EN low ceiling. No positive guaranteed DC noise margin or startup/ramp closure follows from this resistor."
+    },
+    "R204": {
+      "R_ohm": [
+        9000.0,
+        11000.0
+      ],
+      "EN_leakage_A": 1e-07,
+      "high_drop_V": 0.0010999999999999998,
+      "example_at_2p5V_high_V": 2.4989,
+      "EN_VIH_min_V": 1.0
+    },
+    "R572": {
+      "R_ohm": [
+        90000.0,
+        110000.00000000001
+      ],
+      "conditional_generic_K230_leakage_A": 1e-05,
+      "conditional_low_max_V": 1.1,
+      "conditional_generic_VIL_V": 0.6175668151439921,
+      "conditional_margin_V": -0.48243318485600795,
+      "gate": "Dedicated MMC0_STROBE applicability/internal pull state unknown. Generic10uA model cannot establish a low with100k. Physical candidate only; no electrical approval."
+    },
+    "private_i2c": {
+      "references": [
+        "R216",
+        "R217",
+        "R218",
+        "R219"
+      ],
+      "R_ohm": [
+        4230.0,
+        5170.0
+      ],
+      "regulator_VIH_min_V": 1.0,
+      "regulator_VIL_max_V": 0.4,
+      "regulator_SCL_max_leakage_A": 2e-07,
+      "regulator_SDA_max_leakage_A": 1e-07,
+      "SCL_high_margin_before_unknown_load_V": 0.7634426146971205,
+      "SDA_high_margin_before_unknown_load_V": 0.7639596146971204,
+      "unknown_sink_leakage_coefficient_ohm": 5170,
+      "external_pullup_current_at_0V_A": 0.00043406492040024843,
+      "external_pullup_current_at_0p4V_A": 0.0003395022726461113,
+      "regulator_SDA_SCL_absolute_max_sink_A": 0.002,
+      "absolute_max_is_output_drive_guarantee": false,
+      "generic_K230_VOL_max_V": 0.45,
+      "generic_K230_to_TI_low_margin_V": -0.05,
+      "PMU_generic_IO_applicability_verified": false,
+      "PMU_supply_identity": "AVDD1P8_LDO, established in official pinout; supplied here by filtered AVDD1P8_PMU",
+      "default_pad_state": "Input/pulldown; disable internal pulls or account for them",
+      "ideal_RC_capacitance_ceiling_F": {
+        "1000ns": 2.282823057699951e-10,
+        "300ns": 6.848469173099853e-11,
+        "120ns": 2.7393876692399413e-11
+      },
+      "gate": "No guaranteed complete bidirectional DC margin. TI SDA VOL/IOL guarantee absent in inspected electrical table; K230 PMU electrical data applicability unproven and generic0.45V VOL already exceeds TI0.4V VIL. RC values are requirements, not measured capacitance."
+    },
+    "R31_R32_R33_current_TI_LVC97": {
+      "keep_R33_ohm": 270000,
+      "R33_total_acceptance_fraction": 0.1,
+      "worst_sink_A": 1.595952386464511e-05,
+      "continuous_range_test_load_A": 0.0001,
+      "VOL_max_V": 0.1,
+      "VOH_min_V": 3.145129532288977,
+      "TMUX_low_margin_V": 0.35,
+      "TMUX_high_margin_V": 1.9451295322889772,
+      "GLOBAL_DISABLE_released_leakage_screen_A": 9.75e-06,
+      "GLOBAL_DISABLE_high_screen_V": 3.137879532288977,
+      "MODE_TF_default_leakage_screen_A": 9e-06,
+      "MODE_TF_low_screen_V": 0.099,
+      "MODE_TF_TMUX_low_margin_V": 0.351,
+      "MODE_TF_discrete_TI_3V_VTminus_margin_V": 0.741,
+      "GLOBAL_DISABLE_TMUX_high_margin_V": 1.9378795322889772,
+      "GLOBAL_DISABLE_discrete_TI_3V_VTplus_margin_V": 1.267879532288977,
+      "R31_R32_total_acceptance_ohm": [
+        9000,
+        11000
+      ],
+      "MODE_TF_leakage_contributors_A": {
+        "U14_In2": 5e-06,
+        "U11_SEL": 2e-06,
+        "U12_SEL": 2e-06
+      },
+      "GLOBAL_DISABLE_leakage_contributors_A": {
+        "U93_IOZ": 7.5e-07,
+        "U14_In1": 5e-06,
+        "U11_EN": 2e-06,
+        "U12_EN": 2e-06
+      },
+      "input_threshold_at_3V_only": {
+        "VTplus_max_V": 1.87,
+        "VTminus_min_V": 0.84,
+        "hysteresis_min_V": 0.53
+      },
+      "input_rows_guaranteed_over_actual_rail": false,
+      "leakage_source_caveat": "TI II uses VI=5.5V or GND; Ioff uses VI or VO=5.5V. Applying endpoints as conservative 3V3 allowances is a source-condition interpretation.",
+      "hypothetical_live_pullup_270k_linear_screen_V": -0.3188704677110228,
+      "common_rail_collapse_high_guaranteed": false
+    },
+    "R527_R529_current_dual_AUP97": {
+      "PG": {
+        "R_ohm": [
+          9000.0,
+          11000.0
+        ],
+        "leakage_A": 2.1e-06,
+        "high_drop_V": 0.0231,
+        "high_min_V": 3.2220295322889774,
+        "sink_upper_bound_A": 0.0003790071443454179,
+        "sink_limit_A": 0.0004,
+        "sink_margin_A": 2.0992855654582132e-05,
+        "guaranteed_low_bound_V": 0.4,
+        "discrete_VTminus_min_V": 0.47,
+        "discrete_low_margin_V": 0.07,
+        "note": "Conservatively includes the full released-node leakage even when U89 is sinking; TPS3808 has 0.3V at <1.8V/0.4mA and 0.4V at >=1.8V/1mA; use 0.4V common ceiling. Regulator PG leakage is tabulated at5V; applying its 0.1uA bound to3V3 remains a source-condition interpretation."
+      },
+      "qualifier_pulldown": {
+        "R_ohm": [
+          90000.0,
+          110000.00000000001
+        ],
+        "leakage_A": 7.5e-07,
+        "low_max_V": 0.0825,
+        "discrete_VTminus_min_V": 0.47,
+        "discrete_low_margin_V": 0.38749999999999996
+      }
+    },
+    "emmc_current_values": {
+      "R562_CMD": {
+        "nominal_ohm": 22000,
+        "screen_ohm": [
+          19800.0,
+          24200.000000000004
+        ],
+        "source_range_ohm": [
+          4700,
+          50000
+        ],
+        "range_pass": true,
+        "upper_margin_ohm": 25799.999999999996
+      },
+      "R563_R570_DAT_current": {
+        "nominal_ohm": 47000,
+        "screen_ohm": [
+          42300.0,
+          51700.00000000001
+        ],
+        "source_range_ohm": [
+          10000,
+          50000
+        ],
+        "range_pass": false,
+        "upper_margin_ohm": -1700.0000000000073
+      },
+      "R34_RST": {
+        "nominal_ohm": 10000,
+        "screen_ohm": [
+          9000.0,
+          11000.0
+        ],
+        "source_range_ohm": [
+          4700,
+          50000
+        ],
+        "range_pass": true,
+        "upper_margin_ohm": 39000.0
+      },
+      "R573_DS": {
+        "nominal_ohm": 47000,
+        "screen_ohm": [
+          42300.0,
+          51700.00000000001
+        ],
+        "source_range_ohm": [
+          10000,
+          100000
+        ],
+        "range_pass": true,
+        "upper_margin_ohm": 48299.99999999999
+      }
+    },
+    "R33_current_formula": {
+      "Rmin_ohm": 243000,
+      "sink_A": 1.595952386464511e-05,
+      "source_test_load_A": 0.0001,
+      "VOL_V": 0.1,
+      "TMUX_VIL_V": 0.45
+    },
+    "R61_R62_recomputed": {
+      "VDD2_static_min_V": 1.100816374163853,
+      "VDD2_static_max_V": 1.138630967555891,
+      "Rmax_ohm": 11000,
+      "leakage_max_A": 4e-06,
+      "drop_max_V": 0.044,
+      "same_local_rail_high_margin_V": 0.23120409354096327
+    }
+  },
+  "sources": {
+    "CRCW": {
+      "url": "https://www.vishay.com/docs/20052/crcw0201e3.pdf",
+      "locator": "20052, 21-Sep-2022, pp1-4",
+      "prior_review_pdf_sha256": "95854b1c87ad23bded6a4bc3f6c09c1d6fedb230cada90c6c80b39376ad35af1",
+      "fresh_pdf_sha256": "390a5effad7c3b526afb7faba340e29176261bfa4c041a128effc87b941a61ea",
+      "verification": "fresh supplied PDF pp1-4 text; pp2 and3 visually inspected 2026-10-03; web source also opened. Fresh bytes differ from older review hash; technical pages retain revision21-Sep-2022, appended disclaimer is2026."
+    },
+    "TPS3808": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "locator": "Rev N, Aug-2026, electrical characteristics p6",
+      "local_sha256": "74d889c0f68af88032f1633c26381817cc03e10d9fd3b4c177a044ad3ed86eed"
+    },
+    "TPS6282X": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps62827.pdf",
+      "locator": "electrical characteristics p5",
+      "local_sha256": "8a309f2a40486a380242d3f178eb4bda3ef4dca3deca647fa82f763d14866f63"
+    },
+    "TPS62864": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps62864.pdf",
+      "locator": "Rev C, pp5-8 and Table8-1 p12",
+      "local_sha256": "f49cda50b21c8a84ea153120043efd31a5c4a58d2c0465909ea7f804806b8919",
+      "verification": "Fresh TI common TPS62864/TPS62866 document text Table8-1 p12 via tps62866.pdf confirms 56.2k, 0.8V, address0x49 and +/-1% accuracy. Main alias fetch failed.",
+      "fresh_read_url": "https://www.ti.com/lit/ds/symlink/tps62866.pdf"
+    },
+    "TMUX": {
+      "url": "https://www.ti.com/lit/ds/symlink/tmux1574.pdf",
+      "locator": "Rev C, p6 and sections8.3.4/8.3.5",
+      "local_sha256": "e728f7dbb2a05665c98752fe113662b859ecf6988dc8c58e02a9b49265839867"
+    },
+    "MICRON_EMMC": {
+      "url": "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/234/EMMC_5F00_DATASHEET.pdf",
+      "locator": "Micron automotive eMMC Rev G, Table13 p27",
+      "local_sha256": "52ad8018f63554d3e34f970b1516e488543c6a25bd144bcbf33d666fa2a82d71",
+      "verification": "Fresh 2026-10-03 web text check: ordering Table1 p2 includes active MTFC16GAPALBH-AAT; Table13 p27 gives resistance windows. Screenshot fetch failed; prior review provided visual check. No raw PDF redistributed."
+    },
+    "MICRON_LP4": {
+      "url": "https://www.mouser.com/datasheet/2/671/200b_z00m_sdp_ddp_auto_lpddr4_lpddr4x-3193603.pdf",
+      "locator": "Micron automotive LPDDR4/4X Rev F, Table153 p223 and Table170 p234",
+      "local_sha256": "b29c808baa7e42fca9b7ccc54b673142d26b49a1fee6b3053cc8691c21832552",
+      "verification": "Fresh supplied local PDF text pp223/234 confirms ODT_CA +/-4uA and VIH>=0.75*VDD2; prior source identity retained."
+    },
+    "AUP17": {
+      "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G17.pdf",
+      "locator": "Rev14 pp5-7; 125C column; discrete VCC test points"
+    },
+    "AUP06": {
+      "url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G06.pdf",
+      "locator": "Rev12 pp5-7; 125C column"
+    },
+    "ACTIVE_NETLIST": {
+      "project_path": "cad/recovery-physical-candidate/master.xml",
+      "sha256": "d4c05eaee0d3c3b2fce403764d37c42883c054b47030e41418ba377eb2d38a6e"
+    },
+    "PRIOR_SCREEN": {
+      "project_path": "engineering/passive-resistor-candidates/static-screen.json",
+      "sha256": "e410d6875a3106c0c601babce6e998c24dcdb7c16c95abb0de8299ce57ed9f3e",
+      "verification": "Reused bounded calculations; not all supporting device PDFs re-fetched. Old R33 and proposed43k DAT calculations deliberately excluded."
+    },
+    "R3_LOGIC_SCREEN": {
+      "project_path": "recovery/compact-logic-review/validation.json",
+      "sha256": "8ecc20075cc23226549dc8ca23d341a423561d17188b86fb00474c27b8750a31",
+      "verification": "TI LVC97 and dual AUP97 topology checked against active netlist; prior bounded logic values retained."
+    },
+    "LVC97": {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf",
+      "verification": "Device limits inherited from current R3 logic review, not freshly audited here."
+    },
+    "AUP2G97": {
+      "url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G97.pdf",
+      "verification": "Device limits inherited from current R3 logic review, not freshly audited here."
+    }
+  },
+  "references": [
+    {
+      "reference": "R31",
+      "current_value_exact": "10k",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R31",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "MODE_TF"
+        },
+        {
+          "ref": "R31",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "MODE_TF default pulldown",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Valid-supply conditional static screen passes; JP1 remains cold-only.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "R3_LOGIC_SCREEN",
+        "LVC97",
+        "TMUX"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 3.392164299108761,
+        "I_at_Vmax_Rmin_A": 0.0003769071443454179,
+        "P_at_Vmax_Rmin_W": 0.0012785309591275592,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.07245008768389502,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R32",
+      "current_value_exact": "10k",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R32",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "GLOBAL_DISABLE"
+        },
+        {
+          "ref": "R32",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD_3V3"
+        }
+      ],
+      "role": "GLOBAL_DISABLE pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "R3 TI LVC97 input: released high >=3.137879532V under inherited 9.75uA bound. TMUX VIH=1.2V passes. TI Schmitt 1.87V threshold is a discrete 3V test point; full-rail extension, AUP06 loaded-low margin and power ramps remain open.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "R3_LOGIC_SCREEN",
+        "LVC97",
+        "TMUX",
+        "AUP06"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 3.392164299108761,
+        "I_at_Vmax_Rmin_A": 0.0003769071443454179,
+        "P_at_Vmax_Rmin_W": 0.0012785309591275592,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.07245008768389502,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R33",
+      "current_value_exact": "270k CRCW0201 1pct 100ppm TOTAL<=10pct CANDIDATE",
+      "nominal_ohm": 270000.0,
+      "proposed_nominal_ohm": 270000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R33",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "DISABLE_OR_TF"
+        },
+        {
+          "ref": "R33",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD_3V3"
+        }
+      ],
+      "role": "U14 Schmitt OR output / U13 EN pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW0201270KFKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "270k CRCW0201 1pct 100ppm TOTAL<=10pct CANDIDATE",
+      "electrical_status": "BOUNDED_VALID_SUPPLY_DC_SCREEN",
+      "electrical_gate": "Preserve 270k, 1% initial, 100ppm/K and <=10% total contract. R3 uses TI SN74LVC1G97DSFR; 15.9595uA worst sink demand fits its 100uA/0.1V light-load row. Shared-rail ramp and partial-power state remain open.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "R3_LOGIC_SCREEN",
+        "LVC97",
+        "TMUX"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 243000.0,
+        "Rmax_ohm": 297000.0,
+        "Vmax_V": 3.392164299108761,
+        "I_at_Vmax_Rmin_A": 1.3959523864645107e-05,
+        "P_at_Vmax_Rmin_W": 4.73529984862059e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.002683336580885001,
+        "working_voltage_125C_V": 30,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R34",
+      "current_value_exact": "10k RESET BIAS",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R34",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_RSTN"
+        },
+        {
+          "ref": "R34",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC reset pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k RESET BIAS",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Micron resistance range passes; source/switch waveform and reset state remain open.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        4700,
+        50000
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 0.00020401051258811678,
+        "P_at_Vmax_Rmin_W": 0.0003745826032181953,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.021226347515697734,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R41",
+      "current_value_exact": "1M REF",
+      "nominal_ohm": 1000000.0,
+      "proposed_nominal_ohm": 1000000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R41",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "RTC_XOUT"
+        },
+        {
+          "ref": "R41",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "RTC_XIN"
+        }
+      ],
+      "role": "RTC crystal feedback",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW02011M00FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "SEPARATE_OSCILLATOR_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "1M REF",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "electrical_gate": "1M is inside the CRCW F/K family range, but crystal gain/startup/drive/parasitic loading are not covered by a bias/DC resistance screen. Keep this as a separate oscillator candidate, outside the 25-ref bias batch.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 900000.0,
+        "Rmax_ohm": 1100000.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 2.0401051258811675e-06,
+        "P_at_Vmax_Rmin_W": 3.7458260321819535e-06,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.00021226347515697737,
+        "working_voltage_125C_V": 30,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R42",
+      "current_value_exact": "1M REF",
+      "nominal_ohm": 1000000.0,
+      "proposed_nominal_ohm": 1000000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R42",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "CLK24_XOUT"
+        },
+        {
+          "ref": "R42",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "CLK24_XIN"
+        }
+      ],
+      "role": "24MHz crystal feedback",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW02011M00FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "SEPARATE_OSCILLATOR_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "1M REF",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "electrical_gate": "1M is inside the CRCW F/K family range, but crystal gain/startup/drive/parasitic loading are not covered by a bias/DC resistance screen. Keep this as a separate oscillator candidate, outside the 25-ref bias batch.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 900000.0,
+        "Rmax_ohm": 1100000.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 2.0401051258811675e-06,
+        "P_at_Vmax_Rmin_W": 3.7458260321819535e-06,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.00021226347515697737,
+        "working_voltage_125C_V": 30,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R43",
+      "current_value_exact": "100k REF",
+      "nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R43",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        },
+        {
+          "ref": "R43",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "RSTN"
+        }
+      ],
+      "role": "external reset request pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "100k REF",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Known Schmitt leakage screen passes; carrier and C45 leakage/RC must be included.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "PRIOR_SCREEN",
+        "TPS3808",
+        "AUP17",
+        "AUP2G97"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 90000.0,
+        "Rmax_ohm": 110000.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 2.0401051258811675e-05,
+        "P_at_Vmax_Rmin_W": 3.7458260321819534e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0021226347515697734,
+        "working_voltage_125C_V": 30,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R44",
+      "current_value_exact": "10k BOOT0 LOW",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R44",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "BOOT0"
+        },
+        {
+          "ref": "R44",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "BOOT0 low strap",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k BOOT0 LOW",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "electrical_gate": "Boot sampling, internal pulls, exact GPIO thresholds/leakage and carrier drive remain open.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 0.00020401051258811678,
+        "P_at_Vmax_Rmin_W": 0.0003745826032181953,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.021226347515697734,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R45",
+      "current_value_exact": "10k BOOT0 HIGH / DNP",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "DNP",
+      "connections": [
+        {
+          "ref": "R45",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "BOOT0"
+        },
+        {
+          "ref": "R45",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        }
+      ],
+      "role": "BOOT0 high option DNP",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k BOOT0 HIGH / DNP",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "electrical_gate": "Preserve DNP. Do not fit simultaneously with R44 without a deliberate boot network change.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 0.00020401051258811678,
+        "P_at_Vmax_Rmin_W": 0.0003745826032181953,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.021226347515697734,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Hypothetical fitted-state stress only; current dissipation is zero because position remains DNP."
+      }
+    },
+    {
+      "reference": "R46",
+      "current_value_exact": "10k BOOT1 HIGH",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R46",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "BOOT1"
+        },
+        {
+          "ref": "R46",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        }
+      ],
+      "role": "BOOT1 high strap",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k BOOT1 HIGH",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "electrical_gate": "Boot sampling, internal pulls, exact GPIO thresholds/leakage and carrier drive remain open.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 0.00020401051258811678,
+        "P_at_Vmax_Rmin_W": 0.0003745826032181953,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.021226347515697734,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R47",
+      "current_value_exact": "10k BOOT1 LOW / DNP",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "DNP",
+      "connections": [
+        {
+          "ref": "R47",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "BOOT1"
+        },
+        {
+          "ref": "R47",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "BOOT1 low option DNP",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k BOOT1 LOW / DNP",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "electrical_gate": "Preserve DNP. Do not fit simultaneously with R46 without a deliberate boot network change.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 0.00020401051258811678,
+        "P_at_Vmax_Rmin_W": 0.0003745826032181953,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.021226347515697734,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Hypothetical fitted-state stress only; current dissipation is zero because position remains DNP."
+      }
+    },
+    {
+      "reference": "R61",
+      "current_value_exact": "10k REF",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R61",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "LPDDR4_ODT_A"
+        },
+        {
+          "ref": "R61",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ],
+      "role": "LPDDR4 ODT_CA_A pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k REF",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Selected Micron leakage/threshold screen passes, subject to local VDD2 and ODT/rank configuration. These are ODT_CA input bias pulls, not the precision ZQ termination/calibration resistors.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_LP4"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 1.138630967555891,
+        "I_at_Vmax_Rmin_A": 0.00012651455195065455,
+        "P_at_Vmax_Rmin_W": 0.00014405338669747384,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.008163025246190185,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R62",
+      "current_value_exact": "10k REF",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R62",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "LPDDR4_ODT_B"
+        },
+        {
+          "ref": "R62",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ],
+      "role": "LPDDR4 ODT_CA_B pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k REF",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Selected Micron leakage/threshold screen passes, subject to local VDD2 and ODT/rank configuration. These are ODT_CA input bias pulls, not the precision ZQ termination/calibration resistors.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_LP4"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 1.138630967555891,
+        "I_at_Vmax_Rmin_A": 0.00012651455195065455,
+        "P_at_Vmax_Rmin_W": 0.00014405338669747384,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.008163025246190185,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R63",
+      "current_value_exact": "240R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 240.0,
+      "proposed_nominal_ohm": 240.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R63",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "LPDDR4_ZQ"
+        },
+        {
+          "ref": "R63",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD1P1_DDR_IO"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R64",
+      "current_value_exact": "240R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 240.0,
+      "proposed_nominal_ohm": 240.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R64",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "DDR_ZN"
+        },
+        {
+          "ref": "R64",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R65",
+      "current_value_exact": "240R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 240.0,
+      "proposed_nominal_ohm": 240.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R65",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD1P1_DDR_IO"
+        },
+        {
+          "ref": "R65",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "DDR_VREF"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R66",
+      "current_value_exact": "240R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 240.0,
+      "proposed_nominal_ohm": 240.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R66",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "DDR_VREF"
+        },
+        {
+          "ref": "R66",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R67",
+      "current_value_exact": "30k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 30000.0,
+      "proposed_nominal_ohm": 30000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R67",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VIN_5V"
+        },
+        {
+          "ref": "R67",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "USB0_VBUS"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R68",
+      "current_value_exact": "30k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 30000.0,
+      "proposed_nominal_ohm": 30000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R68",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VIN_5V"
+        },
+        {
+          "ref": "R68",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "USB1_VBUS"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R69",
+      "current_value_exact": "200R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 200.0,
+      "proposed_nominal_ohm": 200.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R69",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "USB0_TXRTUNE"
+        },
+        {
+          "ref": "R69",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R70",
+      "current_value_exact": "200R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 200.0,
+      "proposed_nominal_ohm": 200.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R70",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "USB1_TXRTUNE"
+        },
+        {
+          "ref": "R70",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R71",
+      "current_value_exact": "200R TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 200.0,
+      "proposed_nominal_ohm": 200.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R71",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "MIPI_REXT"
+        },
+        {
+          "ref": "R71",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R201",
+      "current_value_exact": "3.32k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 3320.0,
+      "proposed_nominal_ohm": 3320.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R201",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD0P8_CORE"
+        },
+        {
+          "ref": "R201",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "FB_CORE"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R202",
+      "current_value_exact": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R202",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "FB_CORE"
+        },
+        {
+          "ref": "R202",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R203",
+      "current_value_exact": "100k",
+      "nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R203",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "CORE_PGOOD_5V"
+        },
+        {
+          "ref": "R203",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VIN_5V"
+        }
+      ],
+      "role": "core PG to downstream enable pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "100k",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "electrical_gate": "High/sink loading plausible; published PG VOL equals EN VIL so positive low noise margin is unclosed.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "PRIOR_SCREEN",
+        "TPS6282X",
+        "TPS62864"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 90000.0,
+        "Rmax_ohm": 110000.00000000001,
+        "Vmax_V": 5.5,
+        "I_at_Vmax_Rmin_A": 6.111111111111111e-05,
+        "P_at_Vmax_Rmin_W": 0.00033611111111111114,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.019046296296296297,
+        "working_voltage_125C_V": 30,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "5.5V regulator recommended-operating ceiling; carrier transient bound still open",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R204",
+      "current_value_exact": "10k",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R204",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "CORE_ENABLE"
+        },
+        {
+          "ref": "R204",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VIN_5V"
+        }
+      ],
+      "role": "core regulator enable pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Valid-supply input-leakage screen passes; startup remains a system gate.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "PRIOR_SCREEN",
+        "TPS6282X",
+        "TPS62864"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 5.5,
+        "I_at_Vmax_Rmin_A": 0.0006111111111111111,
+        "P_at_Vmax_Rmin_W": 0.003361111111111111,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.19046296296296297,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "5.5V regulator recommended-operating ceiling; carrier transient bound still open",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R205",
+      "current_value_exact": "56.2k 1% / 0.8V / addr0x49",
+      "nominal_ohm": 56200.0,
+      "proposed_nominal_ohm": 56200.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R205",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VSET_CPU"
+        },
+        {
+          "ref": "R205",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "TPS628640 startup voltage/address selection",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "EXCLUDE_PRECISION_VSET",
+      "electrical_gate": "56.2k selects 0.8V/address 0x49. TI Table 8-1 calls for +/-1% accuracy. Commodity initial 1% plus temperature/aging gives no proven total headroom. Preserve the separate precision selection path, without substituting or assigning here.",
+      "required_resistance_ohm": [
+        55638,
+        56762
+      ],
+      "existing_separate_candidate": {
+        "MPN": "TNPW040256K2BYED",
+        "nominal_ohm": 56200,
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "conditional_total_acceptance_pct": 0.7,
+        "status": "prior review candidate, not an assigned exact MPN in this master"
+      }
+    },
+    {
+      "reference": "R206",
+      "current_value_exact": "56.2k 1% / 0.8V / addr0x49",
+      "nominal_ohm": 56200.0,
+      "proposed_nominal_ohm": 56200.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R206",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VSET_KPU"
+        },
+        {
+          "ref": "R206",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "TPS628640 startup voltage/address selection",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "EXCLUDE_PRECISION_VSET",
+      "electrical_gate": "56.2k selects 0.8V/address 0x49. TI Table 8-1 calls for +/-1% accuracy. Commodity initial 1% plus temperature/aging gives no proven total headroom. Preserve the separate precision selection path, without substituting or assigning here.",
+      "required_resistance_ohm": [
+        55638,
+        56762
+      ],
+      "existing_separate_candidate": {
+        "MPN": "TNPW040256K2BYED",
+        "nominal_ohm": 56200,
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "conditional_total_acceptance_pct": 0.7,
+        "status": "prior review candidate, not an assigned exact MPN in this master"
+      }
+    },
+    {
+      "reference": "R207",
+      "current_value_exact": "8.66k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 8660.0,
+      "proposed_nominal_ohm": 8660.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R207",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD1P1_DDR_IO"
+        },
+        {
+          "ref": "R207",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "FB_DDR"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R208",
+      "current_value_exact": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R208",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "FB_DDR"
+        },
+        {
+          "ref": "R208",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R210",
+      "current_value_exact": "20k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 20000.0,
+      "proposed_nominal_ohm": 20000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R210",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        },
+        {
+          "ref": "R210",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "FB_1V8"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R211",
+      "current_value_exact": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R211",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "FB_1V8"
+        },
+        {
+          "ref": "R211",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R213",
+      "current_value_exact": "45.3k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 45300.0,
+      "proposed_nominal_ohm": 45300.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R213",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD_3V3"
+        },
+        {
+          "ref": "R213",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "FB_3V3"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R214",
+      "current_value_exact": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R214",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "FB_3V3"
+        },
+        {
+          "ref": "R214",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R216",
+      "current_value_exact": "4.7k",
+      "nominal_ohm": 4700.0,
+      "proposed_nominal_ohm": 4700.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R216",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "PWR_CPU_SCL"
+        },
+        {
+          "ref": "R216",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        }
+      ],
+      "role": "private CPU I2C SCL pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW02014K70FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "4.7k",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "electrical_gate": "Regulator-side high bound only; PMU pad electrical applicability, low drive and RC/ramp remain open.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "PRIOR_SCREEN",
+        "TPS6282X",
+        "TPS62864"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 4230.0,
+        "Rmax_ohm": 5170.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 0.00043406492040024843,
+        "P_at_Vmax_Rmin_W": 0.0007969842621663731,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.045162441522761144,
+        "working_voltage_125C_V": 8.639852939924927,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R217",
+      "current_value_exact": "4.7k",
+      "nominal_ohm": 4700.0,
+      "proposed_nominal_ohm": 4700.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R217",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "PWR_CPU_SDA"
+        },
+        {
+          "ref": "R217",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        }
+      ],
+      "role": "private CPU I2C SDA pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW02014K70FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "4.7k",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "electrical_gate": "Regulator-side high bound only; PMU pad electrical applicability, low drive and RC/ramp remain open.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "PRIOR_SCREEN",
+        "TPS6282X",
+        "TPS62864"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 4230.0,
+        "Rmax_ohm": 5170.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 0.00043406492040024843,
+        "P_at_Vmax_Rmin_W": 0.0007969842621663731,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.045162441522761144,
+        "working_voltage_125C_V": 8.639852939924927,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R218",
+      "current_value_exact": "4.7k",
+      "nominal_ohm": 4700.0,
+      "proposed_nominal_ohm": 4700.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R218",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "PWR_KPU_SCL"
+        },
+        {
+          "ref": "R218",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        }
+      ],
+      "role": "private KPU I2C SCL pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW02014K70FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "4.7k",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "electrical_gate": "Regulator-side high bound only; PMU pad electrical applicability, low drive and RC/ramp remain open.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "PRIOR_SCREEN",
+        "TPS6282X",
+        "TPS62864"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 4230.0,
+        "Rmax_ohm": 5170.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 0.00043406492040024843,
+        "P_at_Vmax_Rmin_W": 0.0007969842621663731,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.045162441522761144,
+        "working_voltage_125C_V": 8.639852939924927,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R219",
+      "current_value_exact": "4.7k",
+      "nominal_ohm": 4700.0,
+      "proposed_nominal_ohm": 4700.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R219",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "PWR_KPU_SDA"
+        },
+        {
+          "ref": "R219",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        }
+      ],
+      "role": "private KPU I2C SDA pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW02014K70FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "4.7k",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "electrical_gate": "Regulator-side high bound only; PMU pad electrical applicability, low drive and RC/ramp remain open.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "PRIOR_SCREEN",
+        "TPS6282X",
+        "TPS62864"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 4230.0,
+        "Rmax_ohm": 5170.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 0.00043406492040024843,
+        "P_at_Vmax_Rmin_W": 0.0007969842621663731,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.045162441522761144,
+        "working_voltage_125C_V": 8.639852939924927,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R220",
+      "current_value_exact": "0R WSL060300000ZEA9 Rmax=0.25mOhm",
+      "nominal_ohm": 0.0,
+      "proposed_nominal_ohm": 0.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R220",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD0P8_CORE"
+        },
+        {
+          "ref": "R220",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD0P8_DDR_CORE"
+        }
+      ],
+      "role": "DDR core supply feed",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "EXCLUDE_ZERO_LINK",
+      "electrical_gate": "Preserve WSL060300000ZEA9 high-current supply link."
+    },
+    {
+      "reference": "R221",
+      "current_value_exact": "0R Rmax<=50mOhm",
+      "nominal_ohm": 0.0,
+      "proposed_nominal_ohm": 0.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R221",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD_3V3"
+        },
+        {
+          "ref": "R221",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VDD3P3_SD"
+        }
+      ],
+      "role": "K230 VDD3P3_SD supply branch",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "EXCLUDE_ZERO_LINK",
+      "electrical_gate": "SoC VDD3P3_SD supply branch; zero-link current/voltage-drop review is separate."
+    },
+    {
+      "reference": "R401",
+      "current_value_exact": "0R PMU AUTO-START STRAP",
+      "nominal_ohm": 0.0,
+      "proposed_nominal_ohm": 0.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R401",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "AVDD1P8_PMU"
+        },
+        {
+          "ref": "R401",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "PMU_INT4_AUTO_START"
+        }
+      ],
+      "role": "same-domain PMU auto-start input strap",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "EXCLUDE_ZERO_LINK",
+      "electrical_gate": "PMU auto-start strap; input/current/firmware and population review is separate."
+    },
+    {
+      "reference": "R402",
+      "current_value_exact": "10k INT0 INACTIVE",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R402",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "PMU_INT0"
+        },
+        {
+          "ref": "R402",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "PMU INT0 inactive pulldown",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k INT0 INACTIVE",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "electrical_gate": "Exact PMU input leakage/internal pull and startup state must be checked; physical family candidate only.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 0.00020401051258811678,
+        "P_at_Vmax_Rmin_W": 0.0003745826032181953,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.021226347515697734,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R525",
+      "current_value_exact": "88.7k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 88700.0,
+      "proposed_nominal_ohm": 88700.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R525",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VIN_5V"
+        },
+        {
+          "ref": "R525",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VIN_GUARD_SENSE"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R526",
+      "current_value_exact": "10k TNPW0402 0.1pct 10ppm TOTAL<=0.70pct CANDIDATE",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Passive_Candidates:Vishay_TNPW0402_IPC7351_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R526",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VIN_GUARD_SENSE"
+        },
+        {
+          "ref": "R526",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing precision network",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_PRECISION",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "initial_tolerance_pct": 0.1,
+        "TCR_ppm_per_K": 10,
+        "total_acceptance_pct": 0.7
+      }
+    },
+    {
+      "reference": "R527",
+      "current_value_exact": "10k RAW PG PULLUP",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R527",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD_3V3"
+        },
+        {
+          "ref": "R527",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "FIXED_RAILS_PGOOD_3V3"
+        }
+      ],
+      "role": "raw fixed-rail PG pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020110K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "10k RAW PG PULLUP",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Conditional sink/current/static level screen passes; narrow sink reserve and published test-point caveats retained.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "PRIOR_SCREEN",
+        "TPS3808",
+        "AUP17",
+        "AUP2G97"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 9000.0,
+        "Rmax_ohm": 11000.0,
+        "Vmax_V": 3.392164299108761,
+        "I_at_Vmax_Rmin_A": 0.0003769071443454179,
+        "P_at_Vmax_Rmin_W": 0.0012785309591275592,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.07245008768389502,
+        "working_voltage_125C_V": 12.602520756252089,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R528",
+      "current_value_exact": "0R QUALIFICATION STRAP DNP",
+      "nominal_ohm": 0.0,
+      "proposed_nominal_ohm": 0.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "DNP",
+      "connections": [
+        {
+          "ref": "R528",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        },
+        {
+          "ref": "R528",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "BOOT_VOLTAGE_QUALIFIED_1V8"
+        }
+      ],
+      "role": "DNP boot qualification strap",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "EXCLUDE_ZERO_LINK",
+      "electrical_gate": "Preserve DNP qualification strap; no storage-enable authority follows from this review."
+    },
+    {
+      "reference": "R529",
+      "current_value_exact": "100k DEFAULT INHIBIT",
+      "nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R529",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "BOOT_VOLTAGE_QUALIFIED_1V8"
+        },
+        {
+          "ref": "R529",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "default inhibit pulldown",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "100k DEFAULT INHIBIT",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Conditional discrete1.65V low screen passes; R528 stays DNP.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "PRIOR_SCREEN",
+        "TPS3808",
+        "AUP17",
+        "AUP2G97"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 90000.0,
+        "Rmax_ohm": 110000.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 2.0401051258811675e-05,
+        "P_at_Vmax_Rmin_W": 3.7458260321819534e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0021226347515697734,
+        "working_voltage_125C_V": 30,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R530",
+      "current_value_exact": "100k 1% DELAY NODE PULLUP",
+      "nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R530",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        },
+        {
+          "ref": "R530",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "RESET_DELAYED_1V8"
+        }
+      ],
+      "role": "delayed reset pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "100k 1% DELAY NODE PULLUP",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Conditional discrete1.65V high/low screen passes. Current value says1% but the proposed total acceptance screen is10%; this is not an exact delay tolerance.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "PRIOR_SCREEN",
+        "TPS3808",
+        "AUP17",
+        "AUP2G97"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 90000.0,
+        "Rmax_ohm": 110000.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 2.0401051258811675e-05,
+        "P_at_Vmax_Rmin_W": 3.7458260321819534e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0021226347515697734,
+        "working_voltage_125C_V": 30,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R561",
+      "current_value_exact": "0R WFZ040200000ZE66 3mOhm CANDIDATE",
+      "nominal_ohm": 0.0,
+      "proposed_nominal_ohm": 0.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R561",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "VDD1P8"
+        },
+        {
+          "ref": "R561",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC VCCQ feed",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "EXCLUDE_ZERO_LINK",
+      "electrical_gate": "Preserve WFZ040200000ZE66 supply-feed candidate and its current/drop gates."
+    },
+    {
+      "reference": "R562",
+      "current_value_exact": "22k CMD PULLUP",
+      "nominal_ohm": 22000.0,
+      "proposed_nominal_ohm": 22000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R562",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_CMD"
+        },
+        {
+          "ref": "R562",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC CMD pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020122K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "22k CMD PULLUP",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Micron resistance range passes. Active-mode signal timing, switch loading and protocol setup remain open.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        4700,
+        50000
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 19800.0,
+        "Rmax_ohm": 24200.000000000004,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 9.273205117641671e-05,
+        "P_at_Vmax_Rmin_W": 0.00017026481964463425,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.009648339779862607,
+        "working_voltage_125C_V": 18.692559073221688,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R563",
+      "current_value_exact": "47k DATA PULLUP",
+      "nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 47000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R563",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_DAT0"
+        },
+        {
+          "ref": "R563",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC DAT0 pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020147K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "HOLD_DAT_TOTAL_ERROR",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "47k DATA PULLUP",
+      "electrical_status": "SOURCE_RANGE_APPLIES_BUT_TOTAL_ERROR_PROOF_OPEN",
+      "electrical_gate": "Keep 47k. Active MTFC16GAPALBH-AAT is listed by the reviewed Micron family document. Table 13 permits DAT pullup 10-50k. The prior +/-10% band reaches 51.7k and fails; hold this batch until total resistance remains inside the source range across initial error, film temperature, assembly, aging and environment. No 43k substitution.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        10000,
+        50000
+      ],
+      "maximum_positive_total_error_fraction": 0.06382978723404253,
+      "maximum_negative_total_error_fraction": 0.7872340425531915,
+      "maximum_symmetric_total_error_fraction": 0.06382978723404253,
+      "screen_10pct_range_pass": false,
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 42300.0,
+        "Rmax_ohm": 51700.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 4.3406492040024844e-05,
+        "P_at_Vmax_Rmin_W": 7.969842621663731e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0045162441522761144,
+        "working_voltage_125C_V": 27.321613939064694,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R564",
+      "current_value_exact": "47k DATA PULLUP",
+      "nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 47000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R564",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_DAT1"
+        },
+        {
+          "ref": "R564",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC DAT1 pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020147K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "HOLD_DAT_TOTAL_ERROR",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "47k DATA PULLUP",
+      "electrical_status": "SOURCE_RANGE_APPLIES_BUT_TOTAL_ERROR_PROOF_OPEN",
+      "electrical_gate": "Keep 47k. Active MTFC16GAPALBH-AAT is listed by the reviewed Micron family document. Table 13 permits DAT pullup 10-50k. The prior +/-10% band reaches 51.7k and fails; hold this batch until total resistance remains inside the source range across initial error, film temperature, assembly, aging and environment. No 43k substitution.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        10000,
+        50000
+      ],
+      "maximum_positive_total_error_fraction": 0.06382978723404253,
+      "maximum_negative_total_error_fraction": 0.7872340425531915,
+      "maximum_symmetric_total_error_fraction": 0.06382978723404253,
+      "screen_10pct_range_pass": false,
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 42300.0,
+        "Rmax_ohm": 51700.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 4.3406492040024844e-05,
+        "P_at_Vmax_Rmin_W": 7.969842621663731e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0045162441522761144,
+        "working_voltage_125C_V": 27.321613939064694,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R565",
+      "current_value_exact": "47k DATA PULLUP",
+      "nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 47000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R565",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_DAT2"
+        },
+        {
+          "ref": "R565",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC DAT2 pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020147K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "HOLD_DAT_TOTAL_ERROR",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "47k DATA PULLUP",
+      "electrical_status": "SOURCE_RANGE_APPLIES_BUT_TOTAL_ERROR_PROOF_OPEN",
+      "electrical_gate": "Keep 47k. Active MTFC16GAPALBH-AAT is listed by the reviewed Micron family document. Table 13 permits DAT pullup 10-50k. The prior +/-10% band reaches 51.7k and fails; hold this batch until total resistance remains inside the source range across initial error, film temperature, assembly, aging and environment. No 43k substitution.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        10000,
+        50000
+      ],
+      "maximum_positive_total_error_fraction": 0.06382978723404253,
+      "maximum_negative_total_error_fraction": 0.7872340425531915,
+      "maximum_symmetric_total_error_fraction": 0.06382978723404253,
+      "screen_10pct_range_pass": false,
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 42300.0,
+        "Rmax_ohm": 51700.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 4.3406492040024844e-05,
+        "P_at_Vmax_Rmin_W": 7.969842621663731e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0045162441522761144,
+        "working_voltage_125C_V": 27.321613939064694,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R566",
+      "current_value_exact": "47k DATA PULLUP",
+      "nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 47000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R566",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_DAT3"
+        },
+        {
+          "ref": "R566",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC DAT3 pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020147K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "HOLD_DAT_TOTAL_ERROR",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "47k DATA PULLUP",
+      "electrical_status": "SOURCE_RANGE_APPLIES_BUT_TOTAL_ERROR_PROOF_OPEN",
+      "electrical_gate": "Keep 47k. Active MTFC16GAPALBH-AAT is listed by the reviewed Micron family document. Table 13 permits DAT pullup 10-50k. The prior +/-10% band reaches 51.7k and fails; hold this batch until total resistance remains inside the source range across initial error, film temperature, assembly, aging and environment. No 43k substitution.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        10000,
+        50000
+      ],
+      "maximum_positive_total_error_fraction": 0.06382978723404253,
+      "maximum_negative_total_error_fraction": 0.7872340425531915,
+      "maximum_symmetric_total_error_fraction": 0.06382978723404253,
+      "screen_10pct_range_pass": false,
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 42300.0,
+        "Rmax_ohm": 51700.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 4.3406492040024844e-05,
+        "P_at_Vmax_Rmin_W": 7.969842621663731e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0045162441522761144,
+        "working_voltage_125C_V": 27.321613939064694,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R567",
+      "current_value_exact": "47k DATA PULLUP",
+      "nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 47000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R567",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_DAT4"
+        },
+        {
+          "ref": "R567",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC DAT4 pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020147K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "HOLD_DAT_TOTAL_ERROR",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "47k DATA PULLUP",
+      "electrical_status": "SOURCE_RANGE_APPLIES_BUT_TOTAL_ERROR_PROOF_OPEN",
+      "electrical_gate": "Keep 47k. Active MTFC16GAPALBH-AAT is listed by the reviewed Micron family document. Table 13 permits DAT pullup 10-50k. The prior +/-10% band reaches 51.7k and fails; hold this batch until total resistance remains inside the source range across initial error, film temperature, assembly, aging and environment. No 43k substitution.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        10000,
+        50000
+      ],
+      "maximum_positive_total_error_fraction": 0.06382978723404253,
+      "maximum_negative_total_error_fraction": 0.7872340425531915,
+      "maximum_symmetric_total_error_fraction": 0.06382978723404253,
+      "screen_10pct_range_pass": false,
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 42300.0,
+        "Rmax_ohm": 51700.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 4.3406492040024844e-05,
+        "P_at_Vmax_Rmin_W": 7.969842621663731e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0045162441522761144,
+        "working_voltage_125C_V": 27.321613939064694,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R568",
+      "current_value_exact": "47k DATA PULLUP",
+      "nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 47000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R568",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_DAT5"
+        },
+        {
+          "ref": "R568",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC DAT5 pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020147K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "HOLD_DAT_TOTAL_ERROR",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "47k DATA PULLUP",
+      "electrical_status": "SOURCE_RANGE_APPLIES_BUT_TOTAL_ERROR_PROOF_OPEN",
+      "electrical_gate": "Keep 47k. Active MTFC16GAPALBH-AAT is listed by the reviewed Micron family document. Table 13 permits DAT pullup 10-50k. The prior +/-10% band reaches 51.7k and fails; hold this batch until total resistance remains inside the source range across initial error, film temperature, assembly, aging and environment. No 43k substitution.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        10000,
+        50000
+      ],
+      "maximum_positive_total_error_fraction": 0.06382978723404253,
+      "maximum_negative_total_error_fraction": 0.7872340425531915,
+      "maximum_symmetric_total_error_fraction": 0.06382978723404253,
+      "screen_10pct_range_pass": false,
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 42300.0,
+        "Rmax_ohm": 51700.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 4.3406492040024844e-05,
+        "P_at_Vmax_Rmin_W": 7.969842621663731e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0045162441522761144,
+        "working_voltage_125C_V": 27.321613939064694,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R569",
+      "current_value_exact": "47k DATA PULLUP",
+      "nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 47000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R569",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_DAT6"
+        },
+        {
+          "ref": "R569",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC DAT6 pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020147K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "HOLD_DAT_TOTAL_ERROR",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "47k DATA PULLUP",
+      "electrical_status": "SOURCE_RANGE_APPLIES_BUT_TOTAL_ERROR_PROOF_OPEN",
+      "electrical_gate": "Keep 47k. Active MTFC16GAPALBH-AAT is listed by the reviewed Micron family document. Table 13 permits DAT pullup 10-50k. The prior +/-10% band reaches 51.7k and fails; hold this batch until total resistance remains inside the source range across initial error, film temperature, assembly, aging and environment. No 43k substitution.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        10000,
+        50000
+      ],
+      "maximum_positive_total_error_fraction": 0.06382978723404253,
+      "maximum_negative_total_error_fraction": 0.7872340425531915,
+      "maximum_symmetric_total_error_fraction": 0.06382978723404253,
+      "screen_10pct_range_pass": false,
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 42300.0,
+        "Rmax_ohm": 51700.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 4.3406492040024844e-05,
+        "P_at_Vmax_Rmin_W": 7.969842621663731e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0045162441522761144,
+        "working_voltage_125C_V": 27.321613939064694,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R570",
+      "current_value_exact": "47k DATA PULLUP",
+      "nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 47000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R570",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_DAT7"
+        },
+        {
+          "ref": "R570",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "VEMMC_IO"
+        }
+      ],
+      "role": "eMMC DAT7 pullup",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020147K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "HOLD_DAT_TOTAL_ERROR",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "47k DATA PULLUP",
+      "electrical_status": "SOURCE_RANGE_APPLIES_BUT_TOTAL_ERROR_PROOF_OPEN",
+      "electrical_gate": "Keep 47k. Active MTFC16GAPALBH-AAT is listed by the reviewed Micron family document. Table 13 permits DAT pullup 10-50k. The prior +/-10% band reaches 51.7k and fails; hold this batch until total resistance remains inside the source range across initial error, film temperature, assembly, aging and environment. No 43k substitution.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        10000,
+        50000
+      ],
+      "maximum_positive_total_error_fraction": 0.06382978723404253,
+      "maximum_negative_total_error_fraction": 0.7872340425531915,
+      "maximum_symmetric_total_error_fraction": 0.06382978723404253,
+      "screen_10pct_range_pass": false,
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 42300.0,
+        "Rmax_ohm": 51700.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 4.3406492040024844e-05,
+        "P_at_Vmax_Rmin_W": 7.969842621663731e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0045162441522761144,
+        "working_voltage_125C_V": 27.321613939064694,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R571",
+      "current_value_exact": "100k CLK IDLE LOW CANDIDATE",
+      "nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R571",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_CLK"
+        },
+        {
+          "ref": "R571",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "eMMC CLK idle pulldown",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "100k CLK IDLE LOW CANDIDATE",
+      "electrical_status": "ROLE_ELECTRICAL_ACCEPTANCE_OPEN",
+      "electrical_gate": "Exact eMMC CLK leakage/low limit and switch state are not established here; family/physical candidate only.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 90000.0,
+        "Rmax_ohm": 110000.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 2.0401051258811675e-05,
+        "P_at_Vmax_Rmin_W": 3.7458260321819534e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0021226347515697734,
+        "working_voltage_125C_V": 30,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R572",
+      "current_value_exact": "100k HOST STROBE BIAS CANDIDATE",
+      "nominal_ohm": 100000.0,
+      "proposed_nominal_ohm": 100000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R572",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "MMC0_STROBE"
+        },
+        {
+          "ref": "R572",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "unused host strobe pulldown",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW0201100KFKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "100k HOST STROBE BIAS CANDIDATE",
+      "electrical_status": "BOUNDED_CHECK_HAS_UNRESOLVED_ELECTRICAL_MARGIN",
+      "electrical_gate": "Dedicated K230 pin limits/internal pulls unresolved; generic10uA model fails low-state proof.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST"
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 90000.0,
+        "Rmax_ohm": 110000.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 2.0401051258811675e-05,
+        "P_at_Vmax_Rmin_W": 3.7458260321819534e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0021226347515697734,
+        "working_voltage_125C_V": 30,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R573",
+      "current_value_exact": "47k Micron DS BIAS REF",
+      "nominal_ohm": 47000.0,
+      "proposed_nominal_ohm": 47000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R573",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "EMMC_DS_UNUSED"
+        },
+        {
+          "ref": "R573",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "unused eMMC DS pulldown",
+      "candidate_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "candidate_mpn": "CRCW020147K0FKED",
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "CONDITIONAL_BIAS_SOURCE_LAND_CANDIDATE",
+      "order_code_status": "manufacturer coding scheme only; exact orderability, stock and lifecycle not verified",
+      "candidate_grade": {
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      },
+      "grade_preservation": "No stated tolerance/TCR is relaxed. Unspecified grades remain an engineering candidate. Screening +/-10% total does not overwrite any initial or total requirement.",
+      "existing_explicit_requirements": "47k Micron DS BIAS REF",
+      "electrical_status": "BOUNDED_STATIC_CHECK",
+      "electrical_gate": "Micron resistance range passes; keep separate from host MMC0_STROBE.",
+      "source_ids": [
+        "CRCW",
+        "ACTIVE_NETLIST",
+        "MICRON_EMMC"
+      ],
+      "required_resistance_ohm": [
+        10000,
+        100000
+      ],
+      "conditional_DC_stress_screen": {
+        "meaning": "Vmax across Rmin is a bounded steady-DC stress screen under the stated voltage and resistance assumptions, not a measured pin voltage or signal/thermal qualification.",
+        "total_resistance_screen_fraction": 0.1,
+        "total_band_is_manufacturer_lifetime_guarantee": false,
+        "Rmin_ohm": 42300.0,
+        "Rmax_ohm": 51700.00000000001,
+        "Vmax_V": 1.836094613293051,
+        "I_at_Vmax_Rmin_A": 4.3406492040024844e-05,
+        "P_at_Vmax_Rmin_W": 7.969842621663731e-05,
+        "P_allow_125C_from_graph_W": 0.01764705882352941,
+        "P_to_graph_125C_fraction": 0.0045162441522761144,
+        "working_voltage_125C_V": 27.321613939064694,
+        "DC_rating_screen_pass": true,
+        "voltage_source": "project upstream static rail bound; distribution/ripple/ramps/overshoot excluded",
+        "population_note": "Existing populated position; this report does not change its population."
+      }
+    },
+    {
+      "reference": "R574",
+      "current_value_exact": "10k CRCW020110K0FKED IDLE BIAS CANDIDATE",
+      "nominal_ohm": 10000.0,
+      "proposed_nominal_ohm": 10000.0,
+      "nominal_change_proposed": false,
+      "current_footprint": "CMK230_Recovery_Passive_Candidates:Vishay_CRCW0201_SourceLand_PROCESS_CANDIDATE",
+      "population": "POPULATED",
+      "connections": [
+        {
+          "ref": "R574",
+          "pin": "1",
+          "pintype": "passive",
+          "net": "TF_HOST_CLK"
+        },
+        {
+          "ref": "R574",
+          "pin": "2",
+          "pintype": "passive",
+          "net": "GND"
+        }
+      ],
+      "role": "existing TF clock idle bias",
+      "candidate_footprint": null,
+      "candidate_mpn": null,
+      "production_qualified": false,
+      "CAD_edit_proposed_by_this_report": false,
+      "disposition": "PRESERVE_ASSIGNED_CRCW",
+      "electrical_gate": "Keep selected family, exact value/MPN, tolerance/TCR, footprint and existing release gates. Not in this next-passive batch.",
+      "preserved_grade": {
+        "MPN": "CRCW020110K0FKED",
+        "initial_tolerance_pct": 1,
+        "TCR_ppm_per_K": 100
+      }
+    }
+  ],
+  "release_gates": [
+    "Confirm exact candidate order codes and preserve F/K grades.",
+    "Close per-reference electrical gates and any tighter total-resistance windows.",
+    "Specify mission profile and qualify total drift at actual resistor film temperature.",
+    "Accept actual-board mask, paste, placement, reflow and inspection process.",
+    "Prove assembled-board routing, thermal and signal behavior separately."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "fresh_netlist": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "/workspace/shared/k230-recovery-oct3/r6-l21-independent/fresh-active-master.xml",
+      "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch"
+    ]
+  },
+  "normal_drc": {
+    "returncode": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/k230-recovery-oct3/r6-l21-independent/normal_drc.json\n",
+    "stderr": "",
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "-o",
+      "/workspace/shared/k230-recovery-oct3/r6-l21-independent/normal_drc.json",
+      "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/recovery/r6-passive-coverage/L21_SIX_LAYER_GEOMETRY_ONLY.kicad_pcb"
+    ]
+  },
+  "negative_clearance_drc": {
+    "returncode": 0,
+    "stdout": "Found 1 violations\nFound 0 unconnected items\nSaved DRC Report to /workspace/shared/k230-recovery-oct3/r6-l21-independent/negative_clearance_drc.json\n",
+    "stderr": "",
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--severity-all",
+      "-o",
+      "/workspace/shared/k230-recovery-oct3/r6-l21-independent/negative_clearance_drc.json",
+      "/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/recovery/r6-passive-coverage/L21_NEGATIVE_CLEARANCE.kicad_pcb"
+    ]
+  }
+}

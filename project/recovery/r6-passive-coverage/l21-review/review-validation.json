@@ -1,0 +1,20 @@
+{
+  "reviewed_utc": "2026-10-03T04:31:59.395329+00:00",
+  "status": "PASS_FOR_SOURCE_REVIEW_DELIVERABLE_ONLY",
+  "checks": [
+    "Manufacturer drawing page 2 full view and detail visually inspected",
+    "Coilcraft Document 362 page 2 visually inspected",
+    "JSON parsing and SVG XML parsing passed",
+    "Decimal arithmetic checks passed for center pitch, copper gap/envelope/area, courtyard and area delta",
+    "Pin 1 on positive-x marked side and SW_CORE mapping verified",
+    "No manufacturer PDF, image or HTML in public deliverable folder",
+    "No main CAD edits performed",
+    "Original derived SVG rendered through Inkscape and visually inspected: labels readable, no clipping; top-view mapping agrees with source"
+  ],
+  "files": {
+    "L21_SOURCE_REVIEW.md": "eb400218fa4252c320c130f0c9d23dfea687fb1719c58237ce22d8d6ebeb69b3",
+    "derived-dimensions.json": "d67fe28d53304eae77c628f4cfaa11e8538ee3e9f26ee7593ffc8e9932fe6391",
+    "derived-land-top.svg": "2afc9dc242f99830eed6564b725a658b947c8dc0e94bafd9f087f25c49d9fdfe",
+    "source-manifest.json": "8f3ca3fba57608538e7cbd0cd5fd4ff19fc0c35fc5c01325edf786c9ae7ee40d"
+  }
+}

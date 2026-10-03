@@ -1,0 +1,262 @@
+{
+  "count": 62,
+  "reference_prefix_counts_for_inventory_only": {
+    "C": 40,
+    "R": 9,
+    "Y": 1,
+    "JP": 1,
+    "FB": 9,
+    "TP": 2
+  },
+  "components": [
+    {
+      "reference": "C41",
+      "value": "12pF REF / TUNE"
+    },
+    {
+      "reference": "C42",
+      "value": "12pF REF / TUNE"
+    },
+    {
+      "reference": "C43",
+      "value": "12pF REF / TUNE"
+    },
+    {
+      "reference": "C44",
+      "value": "12pF REF / TUNE"
+    },
+    {
+      "reference": "R41",
+      "value": "1M REF"
+    },
+    {
+      "reference": "R42",
+      "value": "1M REF"
+    },
+    {
+      "reference": "Y1",
+      "value": "32.768kHz / MPN TBD"
+    },
+    {
+      "reference": "JP1",
+      "value": "OPEN=EMMC / CLOSED=TF; COLD ONLY"
+    },
+    {
+      "reference": "C201",
+      "value": "47uF X7R / Ceff>=10uF"
+    },
+    {
+      "reference": "C202",
+      "value": "1.2nF C0G FEEDFORWARD"
+    },
+    {
+      "reference": "C203",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C204",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C206",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "reference": "C207",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "reference": "C208",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "reference": "C210",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C211",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C212",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "reference": "C213",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "reference": "C214",
+      "value": "22uF X7R / total Ceff>=30uF"
+    },
+    {
+      "reference": "C216",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C217",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C218",
+      "value": "47uF X7R / Ceff>=10uF"
+    },
+    {
+      "reference": "C219",
+      "value": "1.2nF C0G FEEDFORWARD"
+    },
+    {
+      "reference": "C220",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C221",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C223",
+      "value": "47uF X7R / Ceff>=10uF"
+    },
+    {
+      "reference": "C224",
+      "value": "1.2nF C0G FEEDFORWARD"
+    },
+    {
+      "reference": "C225",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C226",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C228",
+      "value": "47uF X7R / Ceff>=10uF"
+    },
+    {
+      "reference": "C229",
+      "value": "1.2nF C0G FEEDFORWARD"
+    },
+    {
+      "reference": "C230",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "C231",
+      "value": "10uF 10V X7R"
+    },
+    {
+      "reference": "FB202",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "reference": "FB203",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "reference": "FB204",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "reference": "FB205",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "reference": "FB206",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "reference": "FB207",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "reference": "FB208",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "reference": "FB209",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "reference": "FB210",
+      "value": "120Ohm@100MHz Rdc<=0.1Ohm"
+    },
+    {
+      "reference": "R205",
+      "value": "56.2k 1% / 0.8V / addr0x49"
+    },
+    {
+      "reference": "R206",
+      "value": "56.2k 1% / 0.8V / addr0x49"
+    },
+    {
+      "reference": "R220",
+      "value": "0R WSL060300000ZEA9 Rmax=0.25mOhm"
+    },
+    {
+      "reference": "R221",
+      "value": "0R Rmax<=50mOhm"
+    },
+    {
+      "reference": "C64",
+      "value": "2.2uF Micron CReg 1-4.7uF REF"
+    },
+    {
+      "reference": "C65",
+      "value": "100nF Micron CReg REF"
+    },
+    {
+      "reference": "C69",
+      "value": "2.2uF Micron VCCQ Table13 REF"
+    },
+    {
+      "reference": "C70",
+      "value": "100nF Micron VCCQ REF"
+    },
+    {
+      "reference": "C71",
+      "value": "2.2uF Micron VCC Table13 REF"
+    },
+    {
+      "reference": "C72",
+      "value": "100nF Micron VCC REF"
+    },
+    {
+      "reference": "C540",
+      "value": "22uF"
+    },
+    {
+      "reference": "C552",
+      "value": "22uF"
+    },
+    {
+      "reference": "C562",
+      "value": "22uF"
+    },
+    {
+      "reference": "R401",
+      "value": "0R PMU AUTO-START STRAP"
+    },
+    {
+      "reference": "TP81",
+      "value": "PMU OUT0 OBSERVE ONLY"
+    },
+    {
+      "reference": "TP82",
+      "value": "PMU OUT1 OBSERVE ONLY"
+    },
+    {
+      "reference": "R561",
+      "value": "0R WFZ040200000ZE66 3mOhm CANDIDATE"
+    },
+    {
+      "reference": "R528",
+      "value": "0R QUALIFICATION STRAP DNP"
+    },
+    {
+      "reference": "C815",
+      "value": "1uF X5R/X7R ESR<0.5Ohm"
+    }
+  ],
+  "this_is_not_locality_or_function_classification": true
+}

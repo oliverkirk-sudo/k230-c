@@ -1,0 +1,40 @@
+[
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Paste,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/k230-recovery-oct3/r6-l21-independent/native-paste-zero.svg",
+      "/workspace/shared/k230-recovery-oct3/r6-l21-independent/paste-zero.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/k230-recovery-oct3/r6-l21-independent/native-paste-zero.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Paste,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/shared/k230-recovery-oct3/r6-l21-independent/native-paste-override.svg",
+      "/workspace/shared/k230-recovery-oct3/r6-l21-independent/paste-override.kicad_pcb"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to '/workspace/shared/k230-recovery-oct3/r6-l21-independent/native-paste-override.svg'.\nDone.\n",
+    "stderr": ""
+  }
+]

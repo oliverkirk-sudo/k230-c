@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "CMK230_Recovery_Inductor_Candidates") (type "KiCad") (uri "${KIPRJMOD}/../../cad/recovery-inductor-candidates/CMK230_Recovery_Inductor_Candidates.pretty") (options "") (descr "Conditional manufacturer copper")))

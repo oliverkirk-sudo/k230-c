@@ -1,0 +1,20 @@
+{
+  "status": "PASS_READ_ONLY_ARTIFACT_CHECKS",
+  "checks": {
+    "254_references": true,
+    "457_distinct_nets": true,
+    "1509_pin_net_nodes": true,
+    "62_resistors_partitioned_once": true,
+    "25_bias_candidates": true,
+    "all_nominal_values_preserved": true,
+    "R33_270k_preserved": true,
+    "DNP_R45_R47_R528_preserved": true,
+    "all_input_hashes_unchanged": true,
+    "no_CAD_edit": true,
+    "all_995_project_files_unchanged": true,
+    "fresh_CRCW_PDF_hash_checked": true,
+    "DAT_47k_values_preserved_and_held": true
+  },
+  "report_sha256": "b5215f055073feef33554806cf5e1aa4bb3fcb93ff88efb7de333729bb55e108",
+  "immutable_project_file_count": 995
+}

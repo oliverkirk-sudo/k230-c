@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/workspace/shared/k230-recovery-oct3/reconstruction-r6/project/cad/recovery-physical-candidate/CMK230_Core_REVIEW.kicad_sch</source>
-    <date>2026-10-02T21:47:21-0700</date>
+    <date>2026-10-02T21:48:00-0700</date>
     <tool>Eeschema 9.0.2+dfsg-1</tool>
     <sheet number="1" name="/SoC_1/" tstamps="/bd9bb2f4-9b59-441f-a215-8c4f637c6c79/">
       <title_block>

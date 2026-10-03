@@ -9,3 +9,5 @@ R3 binds R574 to a source-derived Vishay0201 land candidate and L22–L26 to exi
 R4 adds all three BGA engineering footprint identities:158 assigned,96 unassigned. See ../../recovery/r4-bga-coverage/README.md. No full six-layer layout or factory-qualified BGA construction is implied.
 
 R5 conditionally changes only eight DAT pullups to43k and assigns their source-land candidates:166 assigned/88unassigned. See ../../recovery/r5-dat43/README.md. Resistance-budget compliance is distinct from lifetime, signaling, boot and production qualification.
+
+R6 assigns25 conditional bias-resistor footprints and the exact L21 source-land candidate, preserving all values and nets:192 assigned/62 gaps. See ../../recovery/r6-passive-coverage/README.md. Its correct winding-start orientation and larger maximum-body reservation do not establish a power-loop or board-fit pass.

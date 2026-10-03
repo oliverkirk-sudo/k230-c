@@ -1,4 +1,4 @@
-(kicad_sch (version 20250114) (generator "cmk230_review") (uuid "3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e") (paper "A3") (title_block (title "CM-K230 high-temp core") (rev "RCV-R5")) (lib_symbols)
+(kicad_sch (version 20250114) (generator "cmk230_review") (uuid "3f124b40-c9ff-4ee1-90b5-aeb0ff014f3e") (paper "A3") (title_block (title "CM-K230 high-temp core") (rev "RCV-R6")) (lib_symbols)
 (text "CONDITIONAL HIGH-TEMP CORE: Micron1GB/16GB; ambient85C not qualified. Storage default inhibited." (at 15 15 0) (effects (font (size 1.15 1.15)) (justify left)) (uuid "ea407c22-e5b3-491d-abc6-a0cfd4412bd7"))
 (text "Global nets join sheets. U1 is the only SoC. Unresolved pins remain open; documented unused pins have explicit no-use markers." (at 15 23 0) (effects (font (size 1.15 1.15)) (justify left)) (uuid "369d6760-3f43-4443-9979-388046d81f85"))
 (text "140-pad edge proposal assigned; Assigned source-land candidates include ordinary bypass parts. PCB import is partial/unplaced; factory/BGA geometry unqualified." (at 15 31 0) (effects (font (size 1.15 1.15)) (justify left)) (uuid "106cec69-3747-4888-80f3-19f004a6543b"))

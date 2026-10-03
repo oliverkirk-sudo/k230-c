@@ -1,5 +1,5 @@
 {
-  "stage": "R5_CONDITIONAL_EMMC_DAT43",
+  "stage": "R6_CONDITIONAL_PASSIVE_FOOTPRINT_COVERAGE",
   "date_utc": "2026-10-03",
   "source_archive_sha256": {
     "v12": "63dab93b8433b3a367571ec64b11568b9c81dc466e8d562ce2108b647d341e58",
@@ -1432,7 +1432,7 @@
       "reason": "Editorial attribution text updated; technical content unchanged"
     }
   ],
-  "previous_stage": "R4_CONDITIONAL_BGA_IDENTITY_COVERAGE",
+  "previous_stage": "R5_CONDITIONAL_EMMC_DAT43",
   "checkpoints": [
     {
       "revision": "R3",
@@ -1510,6 +1510,53 @@
       ],
       "budget_is_lifetime_qualification": false,
       "CORE_PG_review_only": true,
+      "production_ready": false,
+      "active_full_six_layer_board": false
+    },
+    {
+      "components": 254,
+      "pin_bindings": 1509,
+      "distinct_nets": 457,
+      "footprints_assigned": 192,
+      "footprints_unassigned": 62,
+      "changed_footprint_refs": [
+        "L21",
+        "R203",
+        "R204",
+        "R216",
+        "R217",
+        "R218",
+        "R219",
+        "R31",
+        "R32",
+        "R33",
+        "R34",
+        "R402",
+        "R43",
+        "R44",
+        "R45",
+        "R46",
+        "R47",
+        "R527",
+        "R529",
+        "R530",
+        "R562",
+        "R571",
+        "R572",
+        "R573",
+        "R61",
+        "R62"
+      ],
+      "values_nets_population_unchanged": true,
+      "own_derived_svgs_reviewed": 3,
+      "revision": "R6",
+      "base_commit": "a9618b50c6e97cfe833c88841b2a73f225e403a9",
+      "delta_zip_sha256": "991fa45e6b49d84bdb60604ca1e232ea41bbe56994e89768a0dd62f8eb94a651",
+      "delta_zip_bytes": 212218,
+      "source_manifest_sha256": "41e156fc71d4b10e1309578cfc231c354b290f847fc957d7bd48313e88f86145",
+      "changed_source_files": 56,
+      "manifest_included_separately": true,
+      "publication_source_files_byte_identical": true,
       "production_ready": false,
       "active_full_six_layer_board": false
     }

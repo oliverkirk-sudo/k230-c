@@ -1,0 +1,187 @@
+{
+  "zero": {
+    "requested_margin_mm": 0.0,
+    "requested_ratio": 0.0,
+    "reloaded_margin_mm": 0.0,
+    "reloaded_ratio": 0.0,
+    "pads": [
+      {
+        "number": "",
+        "on_paste": true,
+        "on_copper": false,
+        "size_mm": [
+          0.98,
+          3.4
+        ],
+        "effective_paste_margin_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "",
+        "on_paste": true,
+        "on_copper": false,
+        "size_mm": [
+          0.98,
+          3.4
+        ],
+        "effective_paste_margin_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "1",
+        "on_paste": false,
+        "on_copper": true,
+        "size_mm": [
+          0.98,
+          3.4
+        ],
+        "effective_paste_margin_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "on_paste": false,
+        "on_copper": true,
+        "size_mm": [
+          0.98,
+          3.4
+        ],
+        "effective_paste_margin_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "override": {
+    "requested_margin_mm": -0.02,
+    "requested_ratio": -0.1,
+    "reloaded_margin_mm": -0.02,
+    "reloaded_ratio": -0.1,
+    "pads": [
+      {
+        "number": "",
+        "on_paste": true,
+        "on_copper": false,
+        "size_mm": [
+          0.98,
+          3.4
+        ],
+        "effective_paste_margin_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "",
+        "on_paste": true,
+        "on_copper": false,
+        "size_mm": [
+          0.98,
+          3.4
+        ],
+        "effective_paste_margin_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "1",
+        "on_paste": false,
+        "on_copper": true,
+        "size_mm": [
+          0.98,
+          3.4
+        ],
+        "effective_paste_margin_mm": [
+          -0.118,
+          -0.36
+        ]
+      },
+      {
+        "number": "2",
+        "on_paste": false,
+        "on_copper": true,
+        "size_mm": [
+          0.98,
+          3.4
+        ],
+        "effective_paste_margin_mm": [
+          -0.118,
+          -0.36
+        ]
+      }
+    ]
+  },
+  "native_svg_geometry_identical": true,
+  "geometry_elements": [
+    [
+      "path",
+      {
+        "style": "fill:#B4A09A; fill-opacity:0.9000; stroke:none;fill-rule:evenodd;",
+        "d": "M 9.3548,6.7250 9.3548,3.3250 10.3348,3.3250 10.3348,6.7250 Z"
+      }
+    ],
+    [
+      "path",
+      {
+        "style": "fill:#B4A09A; fill-opacity:0.9000; stroke:none;fill-rule:evenodd;",
+        "d": "M 11.7248,6.7250 11.7248,3.3250 12.7048,3.3250 12.7048,6.7250 Z"
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M16.0298 10.0250 L6.0298 10.0250 "
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M6.0298 10.0250 L6.0298 0.0250 "
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M6.0298 0.0250 L16.0298 0.0250 "
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M16.0298 0.0250 L16.0298 10.0250 "
+      }
+    ]
+  ],
+  "result": "Separate non-copper F.Paste-only rectangles remain exactly 0.98 x 3.40 mm under tested global margin -0.02 mm and ratio -0.10 in KiCad 9.0.2. Unset local properties do not create the previously suspected shrink dependency for these apertures.",
+  "source_unchanged": true,
+  "measured_native_svg_apertures": [
+    {
+      "svg_bounding_box_mm": [
+        9.3548,
+        3.325,
+        10.3348,
+        6.725
+      ],
+      "measured_width_mm": 0.98,
+      "measured_height_mm": 3.4
+    },
+    {
+      "svg_bounding_box_mm": [
+        11.7248,
+        3.325,
+        12.7048,
+        6.725
+      ],
+      "measured_width_mm": 0.98,
+      "measured_height_mm": 3.4
+    }
+  ]
+}
